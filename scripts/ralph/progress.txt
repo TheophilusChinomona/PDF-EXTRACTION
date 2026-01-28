@@ -393,3 +393,38 @@ Branch: ralph/hybrid-extraction-pipeline
 - Model.model_dump() converts Pydantic models to dicts for JSON storage
 ---
 
+
+## 2026-01-28 16:00 - US-014
+- Implemented FastAPI application with health check and version endpoints
+- Created app/main.py with FastAPI app instance
+- Added CORS middleware with configurable origins (default: all origins)
+- Implemented GET /health endpoint that checks:
+  - OpenDataLoader availability (import test)
+  - Gemini API client initialization
+  - Supabase database connection (test query)
+- Health endpoint returns 200 if all services healthy, 503 if any fail
+- Health response includes status, timestamp, and individual service statuses
+- Implemented GET /version endpoint returning version number and commit hash
+- Used modern lifespan event handler (replaced deprecated @app.on_event)
+- Lifespan handler validates environment configuration on startup
+- Enabled Swagger documentation at /docs and ReDoc at /redoc
+- Created comprehensive test suite: tests/test_main.py with 14 tests
+- All 148 tests pass (including existing tests), mypy --strict passes
+
+**Files changed:**
+- Created: app/main.py (140 lines)
+- Created: tests/test_main.py (259 lines)
+- Updated: scripts/ralph/prd.json (marked US-014 as passes: true)
+
+**Learnings for future iterations:**
+- FastAPI doesn't support Union[Dict, Response] return types - must use response_model=None
+- Modern FastAPI uses @asynccontextmanager lifespan handlers instead of @app.on_event
+- Lifespan pattern: async with context manager that yields for startup/shutdown
+- Health checks should test actual connectivity (database query) not just imports
+- Response object requires explicit status_code parameter (can't use decorator status_code)
+- Import json module when manually creating Response with JSON content
+- TestClient automatically triggers lifespan events when used as context manager
+- FastAPI provides /openapi.json schema automatically at root
+- datetime.utcnow() is deprecated - should use datetime.now(datetime.UTC) in future
+- CORS middleware should be restrictive in production (use explicit allow_origins list)
+---
