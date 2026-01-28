@@ -54,3 +54,34 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 05:00 - US-003
+- Implemented centralized configuration with Pydantic Settings
+- Created app/config.py with Settings class extending pydantic_settings.BaseSettings
+- Added configuration fields: gemini_api_key, supabase_url, supabase_key, model_name (default: gemini-3-flash-preview), enable_hybrid_mode (default: True)
+- Implemented field validators for GEMINI_API_KEY, SUPABASE_URL, and SUPABASE_KEY with detailed error messages
+- Created get_settings() function with @lru_cache for singleton pattern
+- Fixed requirements.txt: corrected package name from supabase-py to supabase
+- Created comprehensive test suite in tests/test_config.py with 13 tests covering:
+  - Valid configuration loading
+  - Custom configuration values
+  - Missing/empty/whitespace-only API keys validation
+  - Invalid Supabase URL validation (must be HTTPS)
+  - Settings caching behavior
+- All tests pass, typecheck passes with mypy
+
+**Files changed:**
+- Created: app/config.py, tests/test_config.py
+- Updated: requirements.txt (supabase-py → supabase)
+- Updated: scripts/ralph/prd.json (marked US-003 as passes: true)
+
+**Learnings for future iterations:**
+- Use pydantic_settings.BaseSettings for environment variable loading (not pydantic.BaseSettings)
+- Field validators should use @field_validator decorator with @classmethod
+- Settings.model_config uses SettingsConfigDict (not nested Config class in Pydantic v2)
+- Always validate credentials at startup to fail fast with clear error messages
+- The Supabase Python package is named 'supabase' not 'supabase-py'
+- Use @lru_cache on settings getter to ensure singleton pattern across the app
+- Validators should strip whitespace from user inputs for better UX
+
+---
+
