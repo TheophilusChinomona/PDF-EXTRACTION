@@ -147,3 +147,26 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 08:00 - US-006
+- Implemented OpenDataLoader PDF structure extraction
+- Created app/services/opendataloader_extractor.py with extract_pdf_structure() function
+- Uses opendataloader_pdf.convert() to generate JSON and Markdown output files
+- Extracts markdown representation, tables with bounding boxes, and element bounding boxes
+- Returns DocumentStructure model with quality_score placeholder (calculated in US-007)
+- Created comprehensive test suite: tests/test_opendataloader_extractor.py with 11 tests
+- All tests pass (11/11)
+
+**Files changed:**
+- Created: app/services/opendataloader_extractor.py, tests/test_opendataloader_extractor.py
+- Updated: scripts/ralph/prd.json (marked US-006 as passes: true)
+
+**Learnings for future iterations:**
+- OpenDataLoader API uses functional `convert()` not object-oriented `DocumentLoader()` class
+- The convert() function writes JSON/Markdown files to disk - must read them to extract data
+- JSON structure has "elements" array with type, page, text, bbox, and optional table_data fields
+- Pydantic models auto-convert dict inputs to typed objects (e.g., Dict[str, BoundingBox])
+- When testing Pydantic models, access BoundingBox attributes (bbox.x1) not dict keys (bbox["x1"])
+- Use tempfile.TemporaryDirectory() context manager to clean up output files automatically
+- OpenDataLoader requires quiet=True parameter to suppress console output during conversion
+---
+
