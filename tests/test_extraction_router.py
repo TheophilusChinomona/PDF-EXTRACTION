@@ -9,11 +9,19 @@ from fastapi import status
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.middleware.rate_limit import get_limiter
 from app.models.extraction import (
     BoundingBox,
     ExtractedMetadata,
     ExtractionResult,
 )
+
+
+@pytest.fixture(autouse=True)
+def reset_rate_limiter() -> None:
+    """Reset the rate limiter before each test to avoid rate limit interference."""
+    limiter = get_limiter()
+    limiter.reset()
 
 
 @pytest.fixture

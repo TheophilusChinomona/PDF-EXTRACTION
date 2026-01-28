@@ -9,7 +9,7 @@ import tempfile
 import uuid
 from typing import Optional
 
-from fastapi import APIRouter, File, Form, HTTPException, Response, UploadFile, status
+from fastapi import APIRouter, File, Form, HTTPException, Request, Response, UploadFile, status
 from pydantic import ValidationError
 
 from app.db.extractions import (
@@ -21,16 +21,20 @@ from app.db.extractions import (
     update_extraction,
 )
 from app.db.supabase_client import get_supabase_client
+from app.middleware.rate_limit import get_limiter
 from app.models.extraction import ExtractionResult
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 
 router = APIRouter(prefix="/api", tags=["extraction"])
+limiter = get_limiter()
 
 
 @router.post("/extract", status_code=status.HTTP_201_CREATED)
+@limiter.limit("10/minute")  # type: ignore[untyped-decorator]
 async def extract_pdf(
+    request: Request,
     file: UploadFile = File(..., description="PDF file to extract"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
 ) -> Response:
@@ -210,7 +214,8 @@ async def extract_pdf(
 
 
 @router.get("/extractions/{extraction_id}", status_code=status.HTTP_200_OK)
-async def get_extraction_by_id(extraction_id: str) -> Response:
+@limiter.limit("100/minute")  # type: ignore[untyped-decorator]
+async def get_extraction_by_id(request: Request, extraction_id: str) -> Response:
     """
     Retrieve extraction result by ID.
 
@@ -266,7 +271,9 @@ async def get_extraction_by_id(extraction_id: str) -> Response:
 
 
 @router.get("/extractions", status_code=status.HTTP_200_OK)
+@limiter.limit("100/minute")  # type: ignore[untyped-decorator]
 async def list_all_extractions(
+    request: Request,
     limit: int = 50,
     offset: int = 0,
     status_filter: Optional[str] = None
@@ -345,7 +352,8 @@ async def list_all_extractions(
 
 
 @router.get("/extractions/{extraction_id}/bounding-boxes", status_code=status.HTTP_200_OK)
-async def get_bounding_boxes(extraction_id: str) -> Response:
+@limiter.limit("100/minute")  # type: ignore[untyped-decorator]
+async def get_bounding_boxes(request: Request, extraction_id: str) -> Response:
     """
     Retrieve all bounding boxes for an extraction.
 
@@ -404,7 +412,8 @@ async def get_bounding_boxes(extraction_id: str) -> Response:
 
 
 @router.get("/extractions/{extraction_id}/elements/{element_id}", status_code=status.HTTP_200_OK)
-async def get_element(extraction_id: str, element_id: str) -> Response:
+@limiter.limit("100/minute")  # type: ignore[untyped-decorator]
+async def get_element(request: Request, extraction_id: str, element_id: str) -> Response:
     """
     Retrieve a specific element with its bounding box and content.
 
@@ -518,7 +527,8 @@ async def get_element(extraction_id: str, element_id: str) -> Response:
 
 
 @router.post("/extractions/{extraction_id}/retry", status_code=status.HTTP_200_OK)
-async def retry_extraction(extraction_id: str) -> Response:
+@limiter.limit("10/minute")  # type: ignore[untyped-decorator]
+async def retry_extraction(request: Request, extraction_id: str) -> Response:
     """
     Retry a partial or failed extraction.
 

@@ -4,12 +4,19 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import Any, AsyncIterator, Dict, Union
 
-from fastapi import FastAPI, Response
+from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
+from slowapi import _rate_limit_exceeded_handler  # type: ignore[import-not-found]
+from slowapi.errors import RateLimitExceeded  # type: ignore[import-not-found]
 
 from app.config import get_settings
 from app.db.supabase_client import get_supabase_client
 from app.middleware.logging import RequestLoggingMiddleware
+from app.middleware.rate_limit import (
+    get_limiter,
+    rate_limit_exceeded_handler,
+    RateLimitMiddleware,
+)
 from app.services.gemini_client import get_gemini_client
 
 # Application metadata
@@ -50,8 +57,18 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# Add rate limiter to app state (required by slowapi)
+limiter = get_limiter()
+app.state.limiter = limiter
+
+# Register custom rate limit exceeded handler
+app.add_exception_handler(RateLimitExceeded, rate_limit_exceeded_handler)
+
 # Add logging middleware (first, so it wraps all other middleware)
 app.add_middleware(RequestLoggingMiddleware)
+
+# Add rate limit middleware for adding X-RateLimit-Remaining header
+app.add_middleware(RateLimitMiddleware)
 
 # Add CORS middleware
 app.add_middleware(
