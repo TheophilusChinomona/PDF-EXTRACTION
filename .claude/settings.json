@@ -1,20 +1,17 @@
 {
   "project_name": "PDF-Extraction",
   "description": "FastAPI microservice for extracting structured data from academic PDFs using Gemini Vision API",
-
   "model_preferences": {
-    "default": "sonnet",
+    "default": "opus",
     "planning": "opus",
     "code_review": "sonnet"
   },
-
   "python": {
     "version": "3.11+",
     "formatter": "black",
     "linter": "ruff",
     "type_checker": "mypy"
   },
-
   "file_exclusions": [
     ".env",
     ".env.local",
@@ -39,26 +36,22 @@
     ".DS_Store",
     "Thumbs.db"
   ],
-
   "watch_patterns": [
     "*.py",
     "*.md",
     "requirements.txt",
     ".env.example"
   ],
-
   "testing": {
     "framework": "pytest",
     "coverage_threshold": 80,
     "test_command": "pytest tests/ -v --cov=app"
   },
-
   "api": {
     "framework": "FastAPI",
     "default_port": 8000,
     "reload": true
   },
-
   "dependencies": {
     "core": [
       "fastapi",
@@ -82,11 +75,12 @@
       "mypy"
     ]
   },
-
   "security": {
     "require_https": true,
     "max_upload_size_mb": 10,
     "rate_limit_per_minute": 10,
-    "allowed_file_types": [".pdf"]
+    "allowed_file_types": [
+      ".pdf"
+    ]
   }
 }

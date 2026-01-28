@@ -110,10 +110,189 @@ def mock_gemini_response():
 class TestVisionFallback:
     """Tests for Vision API fallback function."""
 
-    def test_vision_fallback_not_implemented(self, mock_gemini_client):
-        """Vision fallback should raise NotImplementedError (stub for US-009)."""
-        with pytest.raises(NotImplementedError, match="Vision fallback mode will be implemented in US-009"):
+    def test_vision_fallback_successful_extraction(self, mock_gemini_client):
+        """Test successful Vision API fallback extraction."""
+        # Mock file upload
+        mock_uploaded_file = Mock()
+        mock_uploaded_file.name = "uploaded_file_123"
+        mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+        # Mock Gemini API response
+        mock_result = ExtractionResult(
+            metadata=ExtractedMetadata(
+                title="Scanned Paper Title",
+                authors=["Vision Author"],
+                year=2024
+            ),
+            abstract="Abstract from vision analysis.",
+            sections=[
+                {
+                    "heading": "Introduction",
+                    "content": "Content extracted via Vision API.",
+                    "page_number": 1
+                }
+            ],
+            tables=[
+                {
+                    "caption": "Vision-extracted table",
+                    "page_number": 2,
+                    "data": [{"col": "val"}]
+                }
+            ],
+            references=[],
+            confidence_score=0.85,
+            bounding_boxes={},
+            processing_metadata={}
+        )
+
+        mock_response = Mock()
+        mock_response.parsed = mock_result
+        mock_gemini_client.models.generate_content.return_value = mock_response
+
+        # Execute Vision fallback
+        result = extract_with_vision_fallback(
+            mock_gemini_client,
+            "scanned.pdf",
+            model="gemini-3-flash-preview"
+        )
+
+        # Verify file upload
+        mock_gemini_client.files.upload.assert_called_once_with(file="scanned.pdf")
+
+        # Verify Gemini API call with uploaded file
+        mock_gemini_client.models.generate_content.assert_called_once()
+        call_args = mock_gemini_client.models.generate_content.call_args
+        assert mock_uploaded_file in call_args[1]["contents"]
+        assert "academic research paper" in call_args[1]["contents"][1]
+
+        # Verify file cleanup
+        mock_gemini_client.files.delete.assert_called_once_with(name="uploaded_file_123")
+
+        # Verify result
+        assert result.metadata.title == "Scanned Paper Title"
+        assert result.abstract == "Abstract from vision analysis."
+        assert len(result.sections) == 1
+        assert len(result.tables) == 1
+
+        # Verify processing metadata
+        assert result.processing_metadata["method"] == "vision_fallback"
+        assert result.processing_metadata["reason"] == "Low OpenDataLoader quality score"
+        assert result.processing_metadata["cost_savings_percent"] == 0
+        assert result.processing_metadata["model"] == "gemini-3-flash-preview"
+
+    def test_vision_fallback_cleanup_on_success(self, mock_gemini_client):
+        """Test that uploaded files are cleaned up after successful extraction."""
+        mock_uploaded_file = Mock()
+        mock_uploaded_file.name = "temp_file_456"
+        mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+        mock_result = ExtractionResult(
+            metadata=ExtractedMetadata(title="Test", authors=[]),
+            sections=[],
+            tables=[],
+            references=[],
+            confidence_score=0.8,
+            bounding_boxes={},
+            processing_metadata={}
+        )
+        mock_response = Mock()
+        mock_response.parsed = mock_result
+        mock_gemini_client.models.generate_content.return_value = mock_response
+
+        # Execute
+        extract_with_vision_fallback(mock_gemini_client, "test.pdf")
+
+        # Verify cleanup
+        mock_gemini_client.files.delete.assert_called_once_with(name="temp_file_456")
+
+    def test_vision_fallback_cleanup_on_error(self, mock_gemini_client):
+        """Test that uploaded files are cleaned up even when extraction fails."""
+        mock_uploaded_file = Mock()
+        mock_uploaded_file.name = "temp_file_789"
+        mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+        # Mock API error
+        mock_gemini_client.models.generate_content.side_effect = Exception("API Error")
+
+        # Execute and expect error
+        with pytest.raises(Exception, match="API Error"):
             extract_with_vision_fallback(mock_gemini_client, "test.pdf")
+
+        # Verify cleanup still happened
+        mock_gemini_client.files.delete.assert_called_once_with(name="temp_file_789")
+
+    def test_vision_fallback_no_cleanup_if_upload_fails(self, mock_gemini_client):
+        """Test that cleanup isn't attempted if file upload fails."""
+        # Mock upload failure
+        mock_gemini_client.files.upload.side_effect = ValueError("Upload failed")
+
+        # Execute and expect error
+        with pytest.raises(ValueError, match="Upload failed"):
+            extract_with_vision_fallback(mock_gemini_client, "test.pdf")
+
+        # Verify no cleanup attempt (file was never uploaded)
+        mock_gemini_client.files.delete.assert_not_called()
+
+    def test_vision_fallback_silences_cleanup_errors(self, mock_gemini_client):
+        """Test that cleanup errors don't prevent extraction result from being returned."""
+        mock_uploaded_file = Mock()
+        mock_uploaded_file.name = "file_with_cleanup_error"
+        mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+        mock_result = ExtractionResult(
+            metadata=ExtractedMetadata(title="Test", authors=[]),
+            sections=[],
+            tables=[],
+            references=[],
+            confidence_score=0.8,
+            bounding_boxes={},
+            processing_metadata={}
+        )
+        mock_response = Mock()
+        mock_response.parsed = mock_result
+        mock_gemini_client.models.generate_content.return_value = mock_response
+
+        # Mock cleanup failure
+        mock_gemini_client.files.delete.side_effect = Exception("Delete failed")
+
+        # Execute - should succeed despite cleanup error
+        result = extract_with_vision_fallback(mock_gemini_client, "test.pdf")
+
+        # Verify result was still returned
+        assert result.metadata.title == "Test"
+        # Cleanup was attempted (even though it failed)
+        mock_gemini_client.files.delete.assert_called_once()
+
+    def test_vision_fallback_custom_model(self, mock_gemini_client):
+        """Test Vision fallback with custom model."""
+        mock_uploaded_file = Mock()
+        mock_uploaded_file.name = "file_123"
+        mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+        mock_result = ExtractionResult(
+            metadata=ExtractedMetadata(title="Test", authors=[]),
+            sections=[],
+            tables=[],
+            references=[],
+            confidence_score=0.9,
+            bounding_boxes={},
+            processing_metadata={}
+        )
+        mock_response = Mock()
+        mock_response.parsed = mock_result
+        mock_gemini_client.models.generate_content.return_value = mock_response
+
+        # Execute with custom model
+        result = extract_with_vision_fallback(
+            mock_gemini_client,
+            "test.pdf",
+            model="gemini-3-pro-vision"
+        )
+
+        # Verify custom model was used
+        call_args = mock_gemini_client.models.generate_content.call_args
+        assert call_args[1]["model"] == "gemini-3-pro-vision"
+        assert result.processing_metadata["model"] == "gemini-3-pro-vision"
 
 
 @pytest.mark.asyncio
@@ -185,15 +364,41 @@ class TestHybridExtraction:
         with patch('app.services.pdf_extractor.extract_pdf_structure') as mock_extract:
             mock_extract.return_value = mock_low_quality_structure
 
-            # Execute extraction - should raise NotImplementedError (stub)
-            with pytest.raises(NotImplementedError, match="Vision fallback mode"):
-                await extract_pdf_data_hybrid(mock_gemini_client, "test.pdf")
+            # Mock file upload for Vision fallback
+            mock_uploaded_file = Mock()
+            mock_uploaded_file.name = "fallback_file_123"
+            mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+            # Mock Vision API response
+            fallback_result = ExtractionResult(
+                metadata=ExtractedMetadata(title="Fallback Title", authors=[]),
+                sections=[],
+                tables=[],
+                references=[],
+                confidence_score=0.75,
+                bounding_boxes={},
+                processing_metadata={}
+            )
+            mock_response = Mock()
+            mock_response.parsed = fallback_result
+            mock_gemini_client.models.generate_content.return_value = mock_response
+
+            # Execute extraction - should trigger Vision fallback
+            result = await extract_pdf_data_hybrid(mock_gemini_client, "test.pdf")
 
             # Verify OpenDataLoader was called
             mock_extract.assert_called_once_with("test.pdf")
 
-            # Verify Gemini API was NOT called (fallback triggered before API call)
-            mock_gemini_client.models.generate_content.assert_not_called()
+            # Verify Vision fallback was triggered (file upload)
+            mock_gemini_client.files.upload.assert_called_once_with(file="test.pdf")
+
+            # Verify Gemini API was called via Vision mode
+            mock_gemini_client.models.generate_content.assert_called_once()
+
+            # Verify result has fallback metadata
+            assert result.processing_metadata["method"] == "vision_fallback"
+            assert result.processing_metadata["reason"] == "Low OpenDataLoader quality score"
+            assert result.processing_metadata["cost_savings_percent"] == 0
 
     async def test_hybrid_extraction_threshold_boundary(
         self,
@@ -232,8 +437,26 @@ class TestHybridExtraction:
         with patch('app.services.pdf_extractor.extract_pdf_structure') as mock_extract:
             mock_extract.return_value = below_threshold
 
-            with pytest.raises(NotImplementedError):
-                await extract_pdf_data_hybrid(mock_gemini_client, "test.pdf")
+            # Mock Vision fallback
+            mock_uploaded_file = Mock()
+            mock_uploaded_file.name = "threshold_file"
+            mock_gemini_client.files.upload.return_value = mock_uploaded_file
+
+            fallback_result = ExtractionResult(
+                metadata=ExtractedMetadata(title="Threshold Test", authors=[]),
+                sections=[],
+                tables=[],
+                references=[],
+                confidence_score=0.7,
+                bounding_boxes={},
+                processing_metadata={}
+            )
+            mock_response = Mock()
+            mock_response.parsed = fallback_result
+            mock_gemini_client.models.generate_content.return_value = mock_response
+
+            result = await extract_pdf_data_hybrid(mock_gemini_client, "test.pdf")
+            assert result.processing_metadata["method"] == "vision_fallback"
 
     async def test_hybrid_extraction_preserves_table_bboxes(
         self,

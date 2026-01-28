@@ -22,8 +22,9 @@ def extract_with_vision_fallback(
     """
     Extract PDF using Gemini Vision API fallback (for low-quality PDFs).
 
-    This function will be fully implemented in US-009. For now, it's a stub
-    that raises NotImplementedError to allow hybrid pipeline testing.
+    This function uploads the PDF to Gemini Files API and uses Vision analysis
+    when OpenDataLoader quality score is too low (<0.7). This is the fallback
+    path for scanned PDFs or documents with poor structure.
 
     Args:
         client: Gemini API client
@@ -34,12 +35,71 @@ def extract_with_vision_fallback(
         ExtractionResult with vision-based extraction
 
     Raises:
-        NotImplementedError: This function will be implemented in US-009
+        FileNotFoundError: If PDF file doesn't exist
+        ValueError: If file upload or processing fails
+        Exception: For Gemini API errors
+
+    Example:
+        >>> client = get_gemini_client()
+        >>> result = extract_with_vision_fallback(client, "scanned.pdf")
+        >>> print(result.processing_metadata["method"])  # "vision_fallback"
     """
-    raise NotImplementedError(
-        "Vision fallback mode will be implemented in US-009. "
-        "For now, only hybrid mode (quality_score >= 0.7) is supported."
-    )
+    uploaded_file = None
+
+    try:
+        # Upload PDF file to Gemini Files API
+        uploaded_file = client.files.upload(file=file_path)
+
+        # Build extraction prompt for Vision analysis
+        prompt = """You are analyzing an academic research paper from an image-based PDF.
+Extract the following information by reading the document:
+
+1. **Metadata**: Paper title, authors, journal, year, DOI
+2. **Abstract**: The paper's abstract (if present)
+3. **Sections**: All major sections with headings and content
+4. **Tables**: Extracted table data with captions
+5. **References**: Bibliographic references from the references section
+
+Please extract the information in structured JSON format. Focus on accurately reading
+and understanding the visual content. For sections, include the heading, content, and
+starting page number. For references, parse citation text to extract authors, year,
+and title where possible.
+"""
+
+        # Call Gemini API with uploaded file and structured output
+        response = client.models.generate_content(
+            model=model,
+            contents=[uploaded_file, prompt],
+            config=types.GenerateContentConfig(
+                response_mime_type='application/json',
+                response_schema=ExtractionResult
+            )
+        )
+
+        # Parse structured response
+        parsed = response.parsed
+        if not isinstance(parsed, ExtractionResult):
+            raise ValueError("Gemini API returned unexpected response type")
+        result: ExtractionResult = parsed
+
+        # Add processing metadata indicating fallback mode
+        result.processing_metadata = {
+            "method": "vision_fallback",
+            "reason": "Low OpenDataLoader quality score",
+            "cost_savings_percent": 0,  # No cost savings in fallback mode
+            "model": model
+        }
+
+        return result
+
+    finally:
+        # Always clean up uploaded file
+        if uploaded_file is not None and hasattr(uploaded_file, 'name') and uploaded_file.name:
+            try:
+                client.files.delete(name=uploaded_file.name)
+            except Exception:
+                # Log cleanup failure but don't raise (extraction already complete)
+                pass
 
 
 async def extract_pdf_data_hybrid(
