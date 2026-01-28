@@ -23,7 +23,7 @@ from app.db.extractions import (
 from app.db.review_queue import add_to_review_queue
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
-from app.models.extraction import ExtractionResult
+from app.models.extraction import FullExamPaper
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
@@ -246,11 +246,15 @@ async def extract_pdf(
                 'status': extraction_status,
             }
             if extraction_result:
-                webhook_data['metadata'] = extraction_result.metadata.model_dump()
+                # Exam paper metadata for webhook
+                webhook_data['subject'] = extraction_result.subject
+                webhook_data['language'] = extraction_result.language
+                webhook_data['year'] = extraction_result.year
+                webhook_data['session'] = extraction_result.session
+                webhook_data['grade'] = extraction_result.grade
                 processing_method = extraction_result.processing_metadata.get('method')
                 if processing_method:
                     webhook_data['processing_method'] = processing_method
-                webhook_data['confidence_score'] = extraction_result.confidence_score
 
             # Fire and forget - don't wait for webhook
             import asyncio

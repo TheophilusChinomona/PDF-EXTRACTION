@@ -8,12 +8,12 @@ from typing import Optional, List, Dict, Any
 from uuid import UUID
 from supabase import Client
 
-from app.models.extraction import ExtractionResult
+from app.models.extraction import FullExamPaper
 
 
 async def create_extraction(
     client: Client,
-    data: ExtractionResult,
+    data: FullExamPaper,
     file_info: Dict[str, Any],
     status: str = 'completed'
 ) -> str:
@@ -55,7 +55,7 @@ async def create_extraction(
     quality_score = proc_meta.get('opendataloader_quality', 0.0)
     cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
 
-    # Prepare database record
+    # Prepare database record for exam paper
     record = {
         'file_name': file_info['file_name'],
         'file_size_bytes': file_info['file_size_bytes'],
@@ -63,14 +63,18 @@ async def create_extraction(
         'status': status,
         'processing_method': processing_method,
         'quality_score': quality_score,
-        'confidence_score': data.confidence_score,
-        'metadata': data.metadata.model_dump(),
-        'sections': [s.model_dump() for s in data.sections],
-        'figures': [],  # Placeholder for future figure extraction
-        'tables': [t.model_dump() for t in data.tables],
-        'references': [r.model_dump() for r in data.references],
-        'bounding_boxes': {k: v.model_dump() for k, v in data.bounding_boxes.items()},
-        'abstract': data.abstract,
+        # Exam paper metadata
+        'subject': data.subject,
+        'syllabus': data.syllabus,
+        'year': data.year,
+        'session': data.session,
+        'grade': data.grade,
+        'language': data.language,
+        'total_marks': data.total_marks,
+        # Question data as JSON
+        'groups': [g.model_dump() for g in data.groups],
+        # Processing info
+        'processing_metadata': data.processing_metadata,
         'processing_time_seconds': file_info.get('processing_time_seconds'),
         'cost_estimate_usd': cost_estimate,
         'webhook_url': file_info.get('webhook_url'),
@@ -234,7 +238,7 @@ async def list_extractions(
 async def update_extraction(
     client: Client,
     extraction_id: str,
-    data: ExtractionResult,
+    data: FullExamPaper,
     status: str,
     error_message: Optional[str] = None,
     retry_count: int = 0
@@ -270,18 +274,23 @@ async def update_extraction(
     quality_score = proc_meta.get('opendataloader_quality', 0.0)
     cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
 
-    # Prepare update data
+    # Prepare update data for exam paper
     update_data = {
         'status': status,
         'processing_method': processing_method,
         'quality_score': quality_score,
-        'confidence_score': data.confidence_score,
-        'metadata': data.metadata.model_dump(),
-        'sections': [s.model_dump() for s in data.sections],
-        'tables': [t.model_dump() for t in data.tables],
-        'references': [r.model_dump() for r in data.references],
-        'bounding_boxes': {k: v.model_dump() for k, v in data.bounding_boxes.items()},
-        'abstract': data.abstract,
+        # Exam paper metadata
+        'subject': data.subject,
+        'syllabus': data.syllabus,
+        'year': data.year,
+        'session': data.session,
+        'grade': data.grade,
+        'language': data.language,
+        'total_marks': data.total_marks,
+        # Question data as JSON
+        'groups': [g.model_dump() for g in data.groups],
+        # Processing info
+        'processing_metadata': data.processing_metadata,
         'error_message': error_message,
         'retry_count': retry_count
     }
