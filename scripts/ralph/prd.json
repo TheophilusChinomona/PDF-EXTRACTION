@@ -23,28 +23,10 @@
     {"id": "US-018", "title": "Implement retry logic with exponential backoff", "passes": true},
     {"id": "US-019", "title": "Implement partial result storage", "passes": true},
     {"id": "US-020", "title": "Add request logging and metrics", "passes": true},
-    {"id": "US-021", "title": "Add rate limiting middleware", "passes": true}
+    {"id": "US-021", "title": "Add rate limiting middleware", "passes": true},
+    {"id": "US-022", "title": "Create manual review queue for failed extractions", "passes": true}
   ],
   "userStories": [
-    {
-      "id": "US-022",
-      "title": "Create manual review queue for failed extractions",
-      "description": "As a data quality manager, I need failed extractions queued for manual review.",
-      "acceptanceCriteria": [
-        "Create migrations/002_create_review_queue_table.sql",
-        "Create table: review_queue with UUID id, extraction_id (FK), error_type, error_message",
-        "Add: processing_method, quality_score, retry_count, queued_at, reviewed_at (nullable), reviewer_notes (nullable)",
-        "Add resolution enum: fixed, false_positive, unable_to_process",
-        "Update extraction endpoint: when retry_count > 5, add to review_queue",
-        "Add GET /review-queue endpoint (returns pending items)",
-        "Add POST /review-queue/{id}/resolve endpoint (marks as reviewed)",
-        "Typecheck passes",
-        "Tests pass"
-      ],
-      "priority": 22,
-      "passes": false,
-      "notes": ""
-    },
     {
       "id": "US-023",
       "title": "Implement batch processing endpoint",
