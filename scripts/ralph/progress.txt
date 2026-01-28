@@ -8,7 +8,11 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ## Codebase Patterns
 
-(Ralph will add discovered patterns here as work progresses)
+- **Gemini SDK:** Use `from google import genai` (modern SDK), NOT `google.generativeai`
+- **Settings Pattern:** Use `get_settings()` for configuration access (singleton via @lru_cache)
+- **Testing Settings:** Always call `get_settings.cache_clear()` before testing environment variables
+- **Pydantic v2:** Raises `ValidationError` for validation failures (not `ValueError`)
+- **Mypy Configuration:** Requires `plugins = pydantic.mypy` in mypy.ini for BaseSettings support
 
 ---
 
@@ -82,6 +86,36 @@ Branch: ralph/hybrid-extraction-pipeline
 - The Supabase Python package is named 'supabase' not 'supabase-py'
 - Use @lru_cache on settings getter to ensure singleton pattern across the app
 - Validators should strip whitespace from user inputs for better UX
+
+---
+
+## 2026-01-28 06:00 - US-004
+- Implemented Gemini API client initialization with error handling
+- Created app/services/gemini_client.py with get_gemini_client() function
+- Uses modern google-genai SDK (from google import genai)
+- Returns genai.Client initialized with API key from settings
+- Clear error messages for missing GEMINI_API_KEY
+- Created mypy.ini configuration file with Pydantic plugin support
+- Created comprehensive test suite in tests/test_gemini_client.py
+- All 5 tests pass covering:
+  - Successful client initialization with valid API key
+  - Missing API key raises ValidationError (Pydantic v2)
+  - Empty API key raises ValidationError
+  - Whitespace-only API key raises ValidationError
+  - Client instance is returned correctly
+- Typecheck passes with mypy
+
+**Files changed:**
+- Created: app/services/gemini_client.py, tests/test_gemini_client.py, mypy.ini
+- Updated: scripts/ralph/prd.json (marked US-004 as passes: true)
+
+**Learnings for future iterations:**
+- Use 'from google import genai' NOT 'google.generativeai' (modern SDK)
+- Pydantic v2 raises ValidationError (not ValueError) for missing required fields
+- MagicMock(spec=SomeClass) fails if SomeClass is already mocked - just use MagicMock() without spec
+- Need mypy.ini with 'plugins = pydantic.mypy' to handle BaseSettings() calls correctly
+- Settings validation happens automatically when get_settings() is called, before reaching get_gemini_client()
+- Tests should clear get_settings.cache_clear() to force re-validation when testing environment variables
 
 ---
 
