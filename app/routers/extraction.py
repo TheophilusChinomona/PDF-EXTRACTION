@@ -17,12 +17,14 @@ from app.db.extractions import (
     create_extraction,
     get_extraction,
     list_extractions,
+    update_extraction_status,
+    update_extraction,
 )
 from app.db.supabase_client import get_supabase_client
 from app.models.extraction import ExtractionResult
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
-from app.services.pdf_extractor import extract_pdf_data_hybrid
+from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 
 router = APIRouter(prefix="/api", tags=["extraction"])
 
@@ -74,17 +76,29 @@ async def extract_pdf(
         supabase_client = get_supabase_client()
         existing_id = await check_duplicate(supabase_client, file_hash)
 
+        is_retry = False
+        retry_count = 0
+
         if existing_id:
-            # Return existing extraction result
+            # Check if existing extraction is partial/failed - if so, retry it
             existing_result = await get_extraction(supabase_client, existing_id)
 
             if existing_result:
-                return Response(
-                    content=str(existing_result),
-                    media_type="application/json",
-                    status_code=status.HTTP_200_OK,
-                    headers={"X-Extraction-ID": existing_id}
-                )
+                existing_status = existing_result.get("status")
+
+                # If completed, return existing result
+                if existing_status == "completed":
+                    return Response(
+                        content=str(existing_result),
+                        media_type="application/json",
+                        status_code=status.HTTP_200_OK,
+                        headers={"X-Extraction-ID": existing_id}
+                    )
+
+                # If partial or failed, retry the extraction
+                if existing_status in ("partial", "failed"):
+                    is_retry = True
+                    retry_count = existing_result.get("retry_count", 0) + 1
 
         # Step 3: Save file temporarily to disk
         temp_file_path = os.path.join(
@@ -98,11 +112,20 @@ async def extract_pdf(
         # Step 4: Extract PDF data using hybrid pipeline
         gemini_client = get_gemini_client()
 
+        extraction_result = None
+        extraction_status = 'completed'
+        error_message = None
+
         try:
             extraction_result = await extract_pdf_data_hybrid(
                 client=gemini_client,
                 file_path=temp_file_path,
             )
+        except PartialExtractionError as e:
+            # Gemini failed but OpenDataLoader succeeded - save partial result
+            extraction_result = e.partial_result
+            extraction_status = 'partial'
+            error_message = str(e.original_exception)
         except ValidationError as e:
             raise HTTPException(
                 status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
@@ -114,20 +137,36 @@ async def extract_pdf(
                 detail=f"Processing error: {str(e)}"
             )
 
-        # Step 5: Store result in database
+        # Step 5: Store result in database (including partial results)
         file_info = {
             "file_name": sanitized_filename,
             "file_size_bytes": len(content),
             "file_hash": file_hash,
             "webhook_url": webhook_url,
+            "error_message": error_message,
+            "retry_count": retry_count,
         }
 
         try:
-            extraction_id = await create_extraction(
-                supabase_client,
-                extraction_result,
-                file_info
-            )
+            if is_retry and existing_id:
+                # Update existing extraction with retry results
+                await update_extraction(
+                    supabase_client,
+                    existing_id,
+                    extraction_result,
+                    status=extraction_status,
+                    error_message=error_message,
+                    retry_count=retry_count
+                )
+                extraction_id = existing_id
+            else:
+                # New extraction
+                extraction_id = await create_extraction(
+                    supabase_client,
+                    extraction_result,
+                    file_info,
+                    status=extraction_status
+                )
         except Exception as e:
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -135,10 +174,13 @@ async def extract_pdf(
             )
 
         # Step 6: Return extraction result
+        # Use 206 Partial Content for partial extractions, 201 for complete
+        response_status = status.HTTP_206_PARTIAL_CONTENT if extraction_status == 'partial' else status.HTTP_201_CREATED
+
         return Response(
             content=extraction_result.model_dump_json(),
             media_type="application/json",
-            status_code=status.HTTP_201_CREATED,
+            status_code=response_status,
             headers={"X-Extraction-ID": extraction_id}
         )
 
@@ -457,4 +499,44 @@ async def get_element(extraction_id: str, element_id: str) -> Response:
         content=json.dumps(element_data),
         media_type="application/json",
         status_code=status.HTTP_200_OK
+    )
+
+
+@router.post("/extractions/{extraction_id}/retry", status_code=status.HTTP_200_OK)
+async def retry_extraction(extraction_id: str) -> Response:
+    """
+    Retry a partial or failed extraction.
+
+    Note: This endpoint requires re-uploading the original PDF file.
+    For automatic retry, simply re-upload the same file to POST /extract.
+    The system will detect the duplicate by file hash and automatically
+    retry partial/failed extractions, incrementing the retry count.
+
+    Args:
+        extraction_id: UUID of the extraction to retry
+
+    Returns:
+        422: Instructs user to re-upload file to POST /extract
+
+    Raises:
+        HTTPException: Indicates retry requires file re-upload
+    """
+    # Validate UUID format
+    try:
+        uuid.UUID(extraction_id)
+    except ValueError:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid UUID format: {extraction_id}"
+        )
+
+    # For MVP: retry requires file re-upload
+    # The POST /extract endpoint handles retry logic automatically
+    raise HTTPException(
+        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+        detail={
+            "message": "Retry requires file re-upload",
+            "instructions": "Upload the same PDF file to POST /api/extract. The system will detect the duplicate by file hash and automatically retry the extraction, updating this record.",
+            "extraction_id": extraction_id
+        }
     )

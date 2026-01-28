@@ -1165,3 +1165,185 @@ class TestGetElementEndpoint:
         # Assertions
         assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
         assert "Database error" in response.json()["detail"]
+
+
+class TestPartialExtractionAndRetry:
+    """Tests for partial extraction and retry functionality."""
+
+    @patch("app.routers.extraction.validate_pdf")
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.check_duplicate")
+    @patch("app.routers.extraction.get_gemini_client")
+    @patch("app.routers.extraction.extract_pdf_data_hybrid")
+    @patch("app.routers.extraction.create_extraction")
+    @patch("app.routers.extraction.os.path.exists")
+    @patch("app.routers.extraction.os.remove")
+    def test_partial_extraction_on_gemini_failure(
+        self,
+        mock_remove: MagicMock,
+        mock_exists: MagicMock,
+        mock_create_extraction: AsyncMock,
+        mock_extract_hybrid: AsyncMock,
+        mock_gemini_client: MagicMock,
+        mock_check_duplicate: AsyncMock,
+        mock_supabase_client: MagicMock,
+        mock_validate: AsyncMock,
+        client: TestClient,
+        sample_pdf_content: bytes,
+    ) -> None:
+        """Test that partial results are saved when Gemini extraction fails."""
+        from app.services.pdf_extractor import PartialExtractionError
+        from app.models.extraction import ExtractedMetadata, ExtractionResult
+
+        # Setup mocks
+        mock_validate.return_value = (sample_pdf_content, "hash123", "test.pdf")
+        mock_supabase_client.return_value = MagicMock()
+        mock_check_duplicate.return_value = None
+        mock_gemini_client.return_value = MagicMock()
+        mock_exists.return_value = True
+
+        # Create partial result (OpenDataLoader succeeded, Gemini failed)
+        partial_result = ExtractionResult(
+            metadata=ExtractedMetadata(title="[Partial Extraction]"),
+            abstract=None,
+            sections=[],
+            tables=[],
+            references=[],
+            confidence_score=0.0,
+            bounding_boxes={},
+            processing_metadata={
+                "method": "partial",
+                "error": "API timeout",
+                "error_type": "TimeoutError"
+            }
+        )
+
+        # Simulate PartialExtractionError
+        mock_extract_hybrid.side_effect = PartialExtractionError(
+            message="Gemini extraction failed: API timeout",
+            partial_result=partial_result,
+            original_exception=TimeoutError("API timeout")
+        )
+
+        mock_create_extraction.return_value = "partial-uuid-123"
+
+        # Make request
+        files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
+        response = client.post("/api/extract", files=files)
+
+        # Assertions
+        assert response.status_code == status.HTTP_206_PARTIAL_CONTENT
+        assert response.headers["X-Extraction-ID"] == "partial-uuid-123"
+
+        # Verify create_extraction was called with status='partial'
+        call_args = mock_create_extraction.call_args
+        assert call_args[1]["status"] == "partial"
+        assert "error_message" in call_args[0][2]
+
+    @patch("app.routers.extraction.validate_pdf")
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.check_duplicate")
+    @patch("app.routers.extraction.get_extraction")
+    @patch("app.routers.extraction.get_gemini_client")
+    @patch("app.routers.extraction.extract_pdf_data_hybrid")
+    @patch("app.routers.extraction.update_extraction")
+    @patch("app.routers.extraction.os.path.exists")
+    @patch("app.routers.extraction.os.remove")
+    def test_retry_partial_extraction_success(
+        self,
+        mock_remove: MagicMock,
+        mock_exists: MagicMock,
+        mock_update_extraction: AsyncMock,
+        mock_extract_hybrid: AsyncMock,
+        mock_gemini_client: MagicMock,
+        mock_get_extraction: AsyncMock,
+        mock_check_duplicate: AsyncMock,
+        mock_supabase_client: MagicMock,
+        mock_validate: AsyncMock,
+        client: TestClient,
+        sample_pdf_content: bytes,
+        sample_extraction_result: ExtractionResult,
+    ) -> None:
+        """Test that re-uploading a partial extraction retries and updates the record."""
+        # Setup mocks
+        mock_validate.return_value = (sample_pdf_content, "hash123", "test.pdf")
+        mock_supabase_client.return_value = MagicMock()
+
+        # Existing partial extraction
+        existing_id = "partial-uuid-123"
+        mock_check_duplicate.return_value = existing_id
+        mock_get_extraction.return_value = {
+            "id": existing_id,
+            "status": "partial",
+            "retry_count": 0,
+        }
+
+        mock_gemini_client.return_value = MagicMock()
+        mock_extract_hybrid.return_value = sample_extraction_result
+        mock_exists.return_value = True
+
+        # Make request (retry)
+        files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
+        response = client.post("/api/extract", files=files)
+
+        # Assertions
+        assert response.status_code == status.HTTP_201_CREATED  # Now completed
+        assert response.headers["X-Extraction-ID"] == existing_id
+
+        # Verify update_extraction was called (not create_extraction)
+        assert mock_update_extraction.called
+        call_args = mock_update_extraction.call_args
+        assert call_args[0][1] == existing_id  # Same ID
+        assert call_args[1]["status"] == "completed"
+        assert call_args[1]["retry_count"] == 1
+
+    @patch("app.routers.extraction.validate_pdf")
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.check_duplicate")
+    @patch("app.routers.extraction.get_extraction")
+    def test_retry_completed_extraction_returns_existing(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_check_duplicate: AsyncMock,
+        mock_supabase_client: MagicMock,
+        mock_validate: AsyncMock,
+        client: TestClient,
+        sample_pdf_content: bytes,
+    ) -> None:
+        """Test that re-uploading a completed extraction returns the existing result."""
+        # Setup mocks
+        mock_validate.return_value = (sample_pdf_content, "hash123", "test.pdf")
+        mock_supabase_client.return_value = MagicMock()
+
+        # Existing completed extraction
+        existing_id = "completed-uuid-123"
+        mock_check_duplicate.return_value = existing_id
+        mock_get_extraction.return_value = {
+            "id": existing_id,
+            "status": "completed",
+            "metadata": {"title": "Test Paper"},
+        }
+
+        # Make request
+        files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
+        response = client.post("/api/extract", files=files)
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK  # Not 201
+        assert response.headers["X-Extraction-ID"] == existing_id
+
+    def test_retry_endpoint_returns_instructions(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test that retry endpoint returns instructions to re-upload file."""
+        # Make request
+        response = client.post("/api/extractions/12345678-1234-5678-1234-567812345678/retry")
+
+        # Assertions
+        assert response.status_code == status.HTTP_422_UNPROCESSABLE_ENTITY
+        detail = response.json()["detail"]
+        assert "message" in detail
+        assert "re-upload" in detail["message"]
+        assert "instructions" in detail
+        assert detail["extraction_id"] == "12345678-1234-5678-1234-567812345678"

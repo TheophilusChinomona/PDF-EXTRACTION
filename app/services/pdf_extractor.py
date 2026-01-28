@@ -110,7 +110,8 @@ and title where possible.
 async def extract_pdf_data_hybrid(
     client: genai.Client,
     file_path: str,
-    model: str = "gemini-3-flash-preview"
+    model: str = "gemini-3-flash-preview",
+    raise_on_partial: bool = False
 ) -> ExtractionResult:
     """
     Extract PDF data using hybrid pipeline (OpenDataLoader + Gemini).
@@ -123,18 +124,23 @@ async def extract_pdf_data_hybrid(
     5. Merge OpenDataLoader tables with Gemini semantic data
     6. Add processing metadata (method, quality scores, cost savings)
 
+    If Gemini extraction fails but raise_on_partial=False, returns partial
+    extraction with OpenDataLoader data only (tables, bounding boxes).
+
     Args:
         client: Gemini API client
         file_path: Path to PDF file to extract
         model: Gemini model name (default: gemini-3-flash-preview)
+        raise_on_partial: If True, raise exception on Gemini failure instead of returning partial result
 
     Returns:
-        ExtractionResult with complete extraction data
+        ExtractionResult with complete or partial extraction data
 
     Raises:
         FileNotFoundError: If PDF file doesn't exist
         ValueError: If PDF cannot be processed
-        Exception: For Gemini API errors
+        Exception: For Gemini API errors (only if raise_on_partial=True)
+        PartialExtractionError: If Gemini fails and raise_on_partial=False (contains partial result)
 
     Example:
         >>> client = get_gemini_client()
@@ -169,45 +175,103 @@ For sections, include the heading, content, and starting page number.
 For references, parse citation text to extract authors, year, and title where possible.
 """
 
-    # Step 4: Call Gemini API with structured output schema
-    response = client.models.generate_content(
-        model=model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type='application/json',
-            response_schema=ExtractionResult
+    # Step 4: Call Gemini API with structured output schema (wrapped in try/except for partial results)
+    try:
+        response = client.models.generate_content(
+            model=model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type='application/json',
+                response_schema=ExtractionResult
+            )
         )
-    )
 
-    # Parse structured response
-    parsed = response.parsed
-    if not isinstance(parsed, ExtractionResult):
-        raise ValueError("Gemini API returned unexpected response type")
-    result: ExtractionResult = parsed
+        # Parse structured response
+        parsed = response.parsed
+        if not isinstance(parsed, ExtractionResult):
+            raise ValueError("Gemini API returned unexpected response type")
+        result: ExtractionResult = parsed
 
-    # Step 5: Merge deterministic tables from OpenDataLoader with Gemini data
-    # OpenDataLoader's table extraction is more reliable than Gemini's
-    odl_tables = [
-        ExtractedTable(
-            caption=t.get("caption", ""),
-            page_number=t.get("page", 1),
-            data=t.get("data", []),
-            bbox=t.get("bbox")  # Pydantic will auto-convert dict to BoundingBox
+        # Step 5: Merge deterministic tables from OpenDataLoader with Gemini data
+        # OpenDataLoader's table extraction is more reliable than Gemini's
+        odl_tables = [
+            ExtractedTable(
+                caption=t.get("caption", ""),
+                page_number=t.get("page", 1),
+                data=t.get("data", []),
+                bbox=t.get("bbox")  # Pydantic will auto-convert dict to BoundingBox
+            )
+            for t in doc_structure.tables
+        ]
+        result.tables = odl_tables
+
+        # Merge bounding boxes from OpenDataLoader
+        result.bounding_boxes = doc_structure.bounding_boxes
+
+        # Step 6: Add processing metadata
+        result.processing_metadata = {
+            "method": "hybrid",
+            "opendataloader_quality": doc_structure.quality_score,
+            "cost_savings_percent": 80,  # Hybrid mode achieves ~80% cost reduction
+            "element_count": doc_structure.element_count,
+            "model": model
+        }
+
+        return result
+
+    except Exception as e:
+        # If Gemini extraction fails, create partial result from OpenDataLoader data
+        if raise_on_partial:
+            raise
+
+        # Build partial extraction result with OpenDataLoader data only
+        from app.models.extraction import ExtractedMetadata
+
+        partial_result = ExtractionResult(
+            metadata=ExtractedMetadata(title="[Partial Extraction]"),
+            abstract=None,
+            sections=[],
+            tables=[
+                ExtractedTable(
+                    caption=t.get("caption", ""),
+                    page_number=t.get("page", 1),
+                    data=t.get("data", []),
+                    bbox=t.get("bbox")
+                )
+                for t in doc_structure.tables
+            ],
+            references=[],
+            confidence_score=0.0,
+            bounding_boxes=doc_structure.bounding_boxes,
+            processing_metadata={
+                "method": "partial",
+                "opendataloader_quality": doc_structure.quality_score,
+                "cost_savings_percent": 0,
+                "element_count": doc_structure.element_count,
+                "model": model,
+                "error": str(e),
+                "error_type": type(e).__name__
+            }
         )
-        for t in doc_structure.tables
-    ]
-    result.tables = odl_tables
 
-    # Merge bounding boxes from OpenDataLoader
-    result.bounding_boxes = doc_structure.bounding_boxes
+        # Re-raise as PartialExtractionError containing the partial result
+        raise PartialExtractionError(
+            message=f"Gemini extraction failed: {str(e)}",
+            partial_result=partial_result,
+            original_exception=e
+        )
 
-    # Step 6: Add processing metadata
-    result.processing_metadata = {
-        "method": "hybrid",
-        "opendataloader_quality": doc_structure.quality_score,
-        "cost_savings_percent": 80,  # Hybrid mode achieves ~80% cost reduction
-        "element_count": doc_structure.element_count,
-        "model": model
-    }
 
-    return result
+class PartialExtractionError(Exception):
+    """Exception raised when extraction partially succeeds with OpenDataLoader but Gemini fails.
+
+    Attributes:
+        message: Error message
+        partial_result: ExtractionResult with partial data from OpenDataLoader
+        original_exception: The original exception that caused partial extraction
+    """
+
+    def __init__(self, message: str, partial_result: ExtractionResult, original_exception: Exception):
+        super().__init__(message)
+        self.partial_result = partial_result
+        self.original_exception = original_exception

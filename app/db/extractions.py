@@ -14,7 +14,8 @@ from app.models.extraction import ExtractionResult
 async def create_extraction(
     client: Client,
     data: ExtractionResult,
-    file_info: Dict[str, Any]
+    file_info: Dict[str, Any],
+    status: str = 'completed'
 ) -> str:
     """Insert a new extraction result into the database.
 
@@ -27,12 +28,14 @@ async def create_extraction(
             - file_hash (str): SHA-256 hash for deduplication
             - processing_time_seconds (float, optional): Processing duration
             - webhook_url (str, optional): Webhook notification URL
+            - error_message (str, optional): Error details for partial/failed status
+        status: Extraction status ('completed', 'partial', 'failed', 'pending')
 
     Returns:
         str: UUID of created extraction record
 
     Raises:
-        ValueError: If required file_info fields are missing
+        ValueError: If required file_info fields are missing or status is invalid
         Exception: If database insertion fails
     """
     # Validate required file_info fields
@@ -40,6 +43,11 @@ async def create_extraction(
     missing = [f for f in required_fields if f not in file_info]
     if missing:
         raise ValueError(f"Missing required file_info fields: {', '.join(missing)}")
+
+    # Validate status
+    valid_statuses = ['pending', 'completed', 'failed', 'partial']
+    if status not in valid_statuses:
+        raise ValueError(f"Invalid status '{status}'. Must be one of: {', '.join(valid_statuses)}")
 
     # Extract processing metadata
     proc_meta = data.processing_metadata
@@ -52,7 +60,7 @@ async def create_extraction(
         'file_name': file_info['file_name'],
         'file_size_bytes': file_info['file_size_bytes'],
         'file_hash': file_info['file_hash'],
-        'status': 'completed',
+        'status': status,
         'processing_method': processing_method,
         'quality_score': quality_score,
         'confidence_score': data.confidence_score,
@@ -66,8 +74,8 @@ async def create_extraction(
         'processing_time_seconds': file_info.get('processing_time_seconds'),
         'cost_estimate_usd': cost_estimate,
         'webhook_url': file_info.get('webhook_url'),
-        'retry_count': 0,
-        'error_message': None
+        'retry_count': file_info.get('retry_count', 0),
+        'error_message': file_info.get('error_message')
     }
 
     try:
@@ -221,3 +229,66 @@ async def list_extractions(
         return response.data if response.data else []
     except Exception as e:
         raise Exception(f"Failed to list extractions: {str(e)}")
+
+
+async def update_extraction(
+    client: Client,
+    extraction_id: str,
+    data: ExtractionResult,
+    status: str,
+    error_message: Optional[str] = None,
+    retry_count: int = 0
+) -> None:
+    """Update an existing extraction with new data (for retries).
+
+    Args:
+        client: Supabase client instance
+        extraction_id: UUID of the extraction to update
+        data: New extraction result data
+        status: New status ('completed', 'partial', 'failed')
+        error_message: Optional error message
+        retry_count: Current retry count
+
+    Raises:
+        ValueError: If extraction_id is not valid UUID or status is invalid
+        Exception: If database update fails
+    """
+    # Validate UUID format
+    try:
+        UUID(extraction_id)
+    except ValueError:
+        raise ValueError(f"Invalid UUID format: {extraction_id}")
+
+    # Validate status
+    valid_statuses = ['pending', 'completed', 'failed', 'partial']
+    if status not in valid_statuses:
+        raise ValueError(f"Invalid status '{status}'. Must be one of: {', '.join(valid_statuses)}")
+
+    # Extract processing metadata
+    proc_meta = data.processing_metadata
+    processing_method = proc_meta.get('method', 'hybrid')
+    quality_score = proc_meta.get('opendataloader_quality', 0.0)
+    cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
+
+    # Prepare update data
+    update_data = {
+        'status': status,
+        'processing_method': processing_method,
+        'quality_score': quality_score,
+        'confidence_score': data.confidence_score,
+        'metadata': data.metadata.model_dump(),
+        'sections': [s.model_dump() for s in data.sections],
+        'tables': [t.model_dump() for t in data.tables],
+        'references': [r.model_dump() for r in data.references],
+        'bounding_boxes': {k: v.model_dump() for k, v in data.bounding_boxes.items()},
+        'abstract': data.abstract,
+        'error_message': error_message,
+        'retry_count': retry_count
+    }
+
+    try:
+        response = client.table('extractions').update(update_data).eq('id', extraction_id).execute()
+        if not response.data or len(response.data) == 0:
+            raise Exception(f"No extraction found with id {extraction_id}")
+    except Exception as e:
+        raise Exception(f"Failed to update extraction: {str(e)}")
