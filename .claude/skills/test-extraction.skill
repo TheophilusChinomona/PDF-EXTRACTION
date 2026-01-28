@@ -1,0 +1,64 @@
+# Test Extraction Skill
+
+**Description:** Run local PDF extraction tests using Gemini Vision API
+
+**Usage:** `/test-extraction <pdf_file_path>`
+
+---
+
+## What This Skill Does
+
+1. Validates the PDF file exists
+2. Calls the Gemini extraction service
+3. Displays extracted data in structured format
+4. Reports any errors or issues
+
+---
+
+## Example Command
+
+```bash
+python -m app.services.test_extraction sample.pdf
+```
+
+---
+
+## Expected Output
+
+```json
+{
+  "title": "Sample Academic Paper",
+  "authors": ["John Doe", "Jane Smith"],
+  "abstract": "This paper discusses...",
+  "sections": [
+    {"heading": "Introduction", "content": "..."},
+    {"heading": "Methodology", "content": "..."}
+  ],
+  "confidence_score": 0.95
+}
+```
+
+---
+
+## Prerequisites
+
+- Gemini API key configured in `.env`
+- `google-generativeai` package installed
+- Valid PDF file path
+
+---
+
+## Troubleshooting
+
+**Error: "API key not found"**
+- Check `.env` file has `GEMINI_API_KEY=your_key`
+- Ensure `python-dotenv` is loading environment variables
+
+**Error: "Invalid PDF"**
+- Verify file path is correct
+- Check PDF is not corrupted
+- Ensure file is readable
+
+**Error: "Rate limit exceeded"**
+- Wait 60 seconds and retry
+- Check Gemini API quota limits

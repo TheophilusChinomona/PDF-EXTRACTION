@@ -1,0 +1,79 @@
+# Database Verification Skill
+
+**Description:** Verify Supabase connection and database operations
+
+**Usage:** `/db-verify`
+
+---
+
+## What This Skill Does
+
+1. Tests Supabase connection
+2. Verifies database schema exists
+3. Tests insert/query operations
+4. Reports connection status
+
+---
+
+## Example Commands
+
+```bash
+# Test database connection
+python -m app.db.test_connection
+
+# Verify schema
+python -m app.db.verify_schema
+
+# Test insert operation
+python -m app.db.test_insert
+```
+
+---
+
+## Expected Output
+
+```
+✓ Supabase connection successful
+✓ Database schema verified
+✓ Insert operation successful
+✓ Query operation successful
+
+Connection Details:
+- URL: https://xxxxx.supabase.co
+- Status: Connected
+- Latency: 45ms
+```
+
+---
+
+## Database Schema Check
+
+**Table: extractions**
+- `id` (uuid, primary key)
+- `title` (text)
+- `authors` (jsonb)
+- `abstract` (text)
+- `sections` (jsonb)
+- `confidence_score` (float)
+- `created_at` (timestamp)
+
+---
+
+## Troubleshooting
+
+**Error: "Invalid API credentials"**
+- Check `.env` has correct `SUPABASE_URL` and `SUPABASE_KEY`
+- Verify keys from Supabase dashboard
+
+**Error: "Table does not exist"**
+- Run database migrations
+- Create schema manually in Supabase dashboard
+
+**Error: "Connection timeout"**
+- Check internet connection
+- Verify Supabase project is active
+- Check firewall settings
+
+**Error: "Permission denied"**
+- Verify Supabase API key has correct permissions
+- Check Row Level Security (RLS) policies

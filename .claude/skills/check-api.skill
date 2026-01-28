@@ -1,0 +1,69 @@
+# Check API Skill
+
+**Description:** Health check for FastAPI service
+
+**Usage:** `/check-api`
+
+---
+
+## What This Skill Does
+
+1. Checks if FastAPI server is running
+2. Verifies health endpoint responds
+3. Tests basic API functionality
+4. Reports service status
+
+---
+
+## Example Commands
+
+```bash
+# Start the server (if not running)
+uvicorn app.main:app --reload --port 8000
+
+# Check health endpoint
+curl http://localhost:8000/health
+
+# Check API docs
+curl http://localhost:8000/docs
+```
+
+---
+
+## Expected Output
+
+```json
+{
+  "status": "healthy",
+  "service": "PDF-Extraction",
+  "version": "1.0.0",
+  "timestamp": "2026-01-27T10:30:00Z"
+}
+```
+
+---
+
+## Health Check Indicators
+
+- Status Code: `200 OK`
+- Response time: < 500ms
+- Database connection: OK
+- External API access: OK
+
+---
+
+## Troubleshooting
+
+**Error: "Connection refused"**
+- Start the FastAPI server: `uvicorn app.main:app --reload`
+- Check port 8000 is not in use
+
+**Error: "500 Internal Server Error"**
+- Check application logs
+- Verify environment variables are set
+- Check database connection
+
+**Slow response (> 1s)**
+- Check database query performance
+- Monitor external API calls
+- Review application logs

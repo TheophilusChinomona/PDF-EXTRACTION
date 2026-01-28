@@ -1,0 +1,14 @@
+# Ralph Progress Log
+
+Started: 2026-01-28
+Project: PDF-Extraction (Hybrid Architecture)
+Branch: ralph/hybrid-extraction-pipeline
+
+---
+
+## Codebase Patterns
+
+(Ralph will add discovered patterns here as work progresses)
+
+---
+
