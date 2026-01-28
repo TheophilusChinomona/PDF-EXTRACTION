@@ -428,3 +428,41 @@ Branch: ralph/hybrid-extraction-pipeline
 - datetime.utcnow() is deprecated - should use datetime.now(datetime.UTC) in future
 - CORS middleware should be restrictive in production (use explicit allow_origins list)
 ---
+
+## 2026-01-28 17:00 - US-015
+- Implemented PDF extraction API endpoint (POST /api/extract)
+- Created app/routers/extraction.py with complete extraction workflow:
+  1. File validation using validate_pdf() (size, MIME type, hash)
+  2. Duplicate detection via file_hash using check_duplicate()
+  3. Temporary file handling with automatic cleanup (finally block)
+  4. Hybrid extraction via extract_pdf_data_hybrid()
+  5. Database storage via create_extraction()
+  6. X-Extraction-ID header in response
+- Integrated router into app/main.py
+- Implemented comprehensive error handling:
+  - 400: Validation errors (invalid file)
+  - 413: File too large (>200MB)
+  - 422: Corrupted PDF or Pydantic validation failure
+  - 500: Processing or database errors
+- Returns 201 Created for new extractions, 200 OK for duplicates
+- Created comprehensive test suite with 12 tests (100% pass rate)
+- All 160 tests pass, mypy --strict passes
+
+**Files changed:**
+- Created: app/routers/extraction.py (153 lines)
+- Updated: app/main.py (registered extraction router)
+- Created: tests/test_extraction_router.py (12 tests)
+- Updated: scripts/ralph/prd.json (marked US-015 as passes: true)
+
+**Learnings for future iterations:**
+- Import functions at module level, not inside functions, to enable proper test mocking
+- FastAPI routers use APIRouter(prefix="/api") to set base path
+- Use Response object to set custom status codes and headers (X-Extraction-ID)
+- Pydantic model.model_dump_json() serializes to JSON string for Response content
+- Use finally block for file cleanup to ensure temp files removed even on errors
+- Duplicate detection returns existing result with 200 status (not 201)
+- Test pattern: Mock external dependencies at module level (validate_pdf, get_supabase_client, etc.)
+- AsyncMock for async functions, MagicMock for sync functions
+- File cleanup errors should be silently caught (extraction result more important)
+- TestClient from fastapi.testclient automatically triggers lifespan events
+---
