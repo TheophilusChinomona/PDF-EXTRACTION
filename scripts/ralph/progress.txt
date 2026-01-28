@@ -544,3 +544,38 @@ Branch: ralph/hybrid-extraction-pipeline
 - dict.get() with default {} prevents KeyError when bounding_boxes field is missing
 - Test pattern: Mock get_extraction to return full extraction data dict with nested structures
 ---
+
+## 2026-01-28 20:00 - US-018
+- Implemented retry logic with exponential backoff for Gemini API calls
+- Created app/utils/retry.py with retry_with_backoff decorator
+- Supports both sync and async functions using inspect.iscoroutinefunction()
+- Retry logic:
+  - Retries on: 429 (rate limit), 500 (server error), 503 (unavailable), network timeouts
+  - Does NOT retry on: 400 (bad request), 401 (unauthorized), 403 (forbidden), 404 (not found), 422 (unprocessable)
+  - Exponential backoff: 1s, 2s, 4s, 8s, 16s (max 5 retries = 6 total attempts)
+  - Random jitter: 0-1s added to prevent thundering herd
+- Status code extraction: supports status_code attribute, code attribute, and response.status_code patterns
+- Applied decorator to extract_pdf_data_hybrid() and extract_with_vision_fallback() in pdf_extractor.py
+- Created comprehensive test suite: tests/test_retry.py with 23 tests
+- All 208 tests pass (including 23 new retry tests), mypy --strict passes
+
+**Files changed:**
+- Created: app/utils/__init__.py (1 line)
+- Created: app/utils/retry.py (220 lines)
+- Created: tests/test_retry.py (362 lines)
+- Updated: app/services/pdf_extractor.py (added import and decorators)
+- Updated: tests/test_pdf_extractor.py (fixed test to account for retry attempts in cleanup)
+- Updated: scripts/ralph/prd.json (marked US-018 as passes: true)
+
+**Learnings for future iterations:**
+- Retry decorator must handle both sync and async functions - use inspect.iscoroutinefunction() to detect
+- Exponential backoff formula: delay = (base_delay * 2^attempt) + random.random() * max_jitter
+- Retry loop: range(max_retries + 1) gives correct attempt count (initial + retries)
+- Status code extraction uses getattr() instead of direct attribute access for mypy strict compliance
+- hasattr() + getattr() pattern is type-safe and avoids type: ignore comments
+- When retry is applied, finally blocks execute on every attempt (not just once)
+- Tests must account for retry behavior: expect multiple calls when mocking API errors
+- Logging: WARNING for retry attempts, ERROR for final failure after all retries exhausted
+- Network error detection: check exception message for keywords like "timeout", "connection", etc.
+- functools.wraps preserves original function metadata (name, docstring) after decoration
+---
