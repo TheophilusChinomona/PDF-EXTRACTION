@@ -119,3 +119,31 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 07:00 - US-005
+- Implemented Pydantic models for PDF extraction results
+- Created app/models/extraction.py with 7 model classes:
+  - BoundingBox: PDF coordinates (x1, y1, x2, y2, page) with page >= 1 validation
+  - ExtractedMetadata: Bibliographic info with year range validation (1900-2100)
+  - ExtractedSection: Document sections with heading, content, page, optional bbox
+  - ExtractedTable: Tables with caption, data (List[dict]), page, optional bbox
+  - ExtractedReference: Parsed references with citation text, authors, year, title
+  - DocumentStructure: OpenDataLoader output (markdown, tables, bboxes, quality_score 0-1, element_count)
+  - ExtractionResult: Final pipeline output with metadata, abstract, sections, tables, references, confidence_score 0-1, bounding_boxes dict, processing_metadata dict
+- Created comprehensive test suite: tests/test_extraction_models.py with 20 tests
+- All tests cover validation, defaults, field constraints, and edge cases
+- Tests pass (20/20), typecheck passes with --strict mode
+
+**Files changed:**
+- Created: app/models/extraction.py, tests/test_extraction_models.py
+- Updated: scripts/ralph/prd.json (marked US-005 as passes: true)
+
+**Learnings for future iterations:**
+- Pydantic Field() allows ge/le constraints for numeric validation (e.g., confidence_score between 0-1)
+- default_factory=list/dict prevents mutable default arguments bug
+- Optional[T] with default=None is correct pattern for nullable fields
+- BaseModel with Field(description=...) provides self-documenting schemas
+- Use Dict[str, BoundingBox] not dict[str, BoundingBox] for Python 3.8 compatibility (though typing.Dict is preferred)
+- Field validators automatically run on model instantiation - no need for custom __init__
+
+---
+
