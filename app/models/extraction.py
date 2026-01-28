@@ -5,10 +5,24 @@ from bounding boxes to complete extraction results with validation.
 """
 
 from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 
-class BoundingBox(BaseModel):
+class GeminiCompatibleModel(BaseModel):
+    """Base model with Gemini API-compatible JSON schema.
+
+    Gemini's API doesn't support additionalProperties in JSON schemas.
+    This base class configures Pydantic to generate compatible schemas.
+    """
+    model_config = ConfigDict(
+        # Remove additionalProperties from JSON schema for Gemini compatibility
+        json_schema_extra={
+            "additionalProperties": False
+        }
+    )
+
+
+class BoundingBox(GeminiCompatibleModel):
     """Bounding box coordinates for an element in the PDF.
 
     Coordinates are in PDF coordinate space (points, 72 DPI).
@@ -21,7 +35,7 @@ class BoundingBox(BaseModel):
     page: int = Field(ge=1, description="Page number (1-indexed)")
 
 
-class ExtractedMetadata(BaseModel):
+class ExtractedMetadata(GeminiCompatibleModel):
     """Metadata extracted from the academic paper.
 
     Includes bibliographic information typically found in paper headers.
@@ -33,7 +47,7 @@ class ExtractedMetadata(BaseModel):
     doi: Optional[str] = Field(default=None, description="Digital Object Identifier")
 
 
-class ExtractedSection(BaseModel):
+class ExtractedSection(GeminiCompatibleModel):
     """A section of the document with its content and location.
 
     Represents hierarchical document structure (e.g., Introduction, Methods).
@@ -44,7 +58,7 @@ class ExtractedSection(BaseModel):
     bbox: Optional[BoundingBox] = Field(default=None, description="Bounding box of section heading")
 
 
-class ExtractedTable(BaseModel):
+class ExtractedTable(GeminiCompatibleModel):
     """Table extracted from the document with structure and location.
 
     Data format preserves table structure for downstream processing.
@@ -58,7 +72,7 @@ class ExtractedTable(BaseModel):
     bbox: Optional[BoundingBox] = Field(default=None, description="Bounding box of entire table")
 
 
-class ExtractedReference(BaseModel):
+class ExtractedReference(GeminiCompatibleModel):
     """A bibliographic reference from the paper.
 
     Parsed from the references/bibliography section.
@@ -69,7 +83,7 @@ class ExtractedReference(BaseModel):
     title: Optional[str] = Field(default=None, description="Referenced work title")
 
 
-class DocumentStructure(BaseModel):
+class DocumentStructure(GeminiCompatibleModel):
     """Intermediate representation of PDF structure from OpenDataLoader.
 
     This is the output of local preprocessing before Gemini semantic analysis.
@@ -90,7 +104,7 @@ class DocumentStructure(BaseModel):
     element_count: int = Field(ge=0, description="Number of structural elements detected")
 
 
-class ExtractionResult(BaseModel):
+class ExtractionResult(GeminiCompatibleModel):
     """Complete extraction result combining structural and semantic data.
 
     This is the final output of the hybrid extraction pipeline,

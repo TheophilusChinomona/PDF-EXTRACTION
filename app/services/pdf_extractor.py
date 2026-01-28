@@ -8,13 +8,66 @@ This module implements the core extraction logic that routes between:
 Uses context caching to reduce API costs by ~90% for repeated system instructions.
 """
 
-from typing import Optional
+from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
 
 from app.models.extraction import ExtractionResult, ExtractedTable
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.utils.retry import retry_with_backoff
+
+
+def _remove_additional_properties(schema: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Recursively clean JSON schema for Gemini API compatibility.
+
+    Gemini's API doesn't support the additionalProperties field. This function:
+    1. Removes additionalProperties from all object types
+    2. For objects with only additionalProperties (like Dict[str, T]), converts
+       them to empty objects to allow free-form data
+
+    Args:
+        schema: JSON schema dictionary to clean
+
+    Returns:
+        Cleaned schema compatible with Gemini API
+    """
+    if not isinstance(schema, dict):
+        return schema
+
+    # Create a copy to avoid modifying the original
+    cleaned = {}
+    had_additional_properties = False
+
+    for key, value in schema.items():
+        # Track if we had additionalProperties
+        if key == "additionalProperties":
+            had_additional_properties = True
+            continue  # Skip it entirely
+
+        # Recursively process nested dicts and lists
+        if isinstance(value, dict):
+            cleaned[key] = _remove_additional_properties(value)
+        elif isinstance(value, list):
+            cleaned[key] = [
+                _remove_additional_properties(item) if isinstance(item, dict) else item
+                for item in value
+            ]
+        else:
+            cleaned[key] = value
+
+    # Special handling for objects that had additionalProperties but no properties
+    # (like Dict[str, T] fields) - remove type constraint to allow free-form objects
+    if (cleaned.get("type") == "object" and
+        had_additional_properties and
+        ("properties" not in cleaned or not cleaned.get("properties"))):
+        # Return empty object schema to allow any data
+        return {}
+
+    return cleaned
+
+# Minimum tokens required for Gemini context caching (API requirement)
+MIN_CACHE_TOKENS = 1024
 
 # Global cache name (reused across requests)
 _EXTRACTION_CACHE_NAME: Optional[str] = None
@@ -35,7 +88,23 @@ For references, parse citation text to extract authors, year, and title where po
 Focus on semantic understanding and structured extraction."""
 
 
-def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> str:
+def _estimate_token_count(text: str) -> int:
+    """
+    Estimate token count for text (rough approximation).
+
+    Uses 4 characters per token as rough estimate for English text.
+    This is conservative - actual tokenization may differ.
+
+    Args:
+        text: Text to estimate token count for
+
+    Returns:
+        Estimated token count
+    """
+    return len(text) // 4
+
+
+def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
     """
     Get or create a context cache for academic PDF extraction.
 
@@ -44,19 +113,30 @@ def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-previ
     The cache contains the system instruction for academic PDF analysis,
     reducing API costs by ~90% for the cached portion.
 
+    Returns None if the system instruction is too small (< 1024 tokens),
+    as Gemini's caching API requires a minimum of 1024 tokens.
+
     Args:
         client: Gemini API client
         model: Gemini model name to use
 
     Returns:
-        Cache name (resource identifier) to use in generate_content calls
+        Cache name (resource identifier) or None if content too small for caching
 
     Example:
         >>> client = get_gemini_client()
         >>> cache_name = get_or_create_cache(client)
-        >>> # Use cache_name in GenerateContentConfig
+        >>> if cache_name:
+        >>>     # Use cache_name in GenerateContentConfig
     """
     global _EXTRACTION_CACHE_NAME
+
+    # Check if system instruction meets minimum token requirement
+    estimated_tokens = _estimate_token_count(ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION)
+    if estimated_tokens < MIN_CACHE_TOKENS:
+        # System instruction too small for caching, return None
+        # Extraction will proceed without caching
+        return None
 
     # Return existing cache if available
     if _EXTRACTION_CACHE_NAME is not None:
@@ -122,7 +202,7 @@ def extract_with_vision_fallback(
         # Upload PDF file to Gemini Files API
         uploaded_file = client.files.upload(file=file_path)
 
-        # Get or create context cache for cost optimization
+        # Get or create context cache for cost optimization (may be None if content too small)
         cache_name = get_or_create_cache(client, model)
 
         # Build extraction prompt for Vision analysis
@@ -139,24 +219,33 @@ Extract the following information:
 Please extract the information in structured JSON format.
 """
 
-        # Call Gemini API with uploaded file and structured output (using cache)
+        # Call Gemini API with uploaded file and structured output
         from typing import Any
         contents_list: list[Any] = [uploaded_file, prompt]
+
+        # Generate clean schema without additionalProperties for Gemini compatibility
+        raw_schema = ExtractionResult.model_json_schema()
+        clean_schema = _remove_additional_properties(raw_schema)
+
+        # Build config - only add cached_content if cache is available
+        config_dict = {
+            'response_mime_type': 'application/json',
+            'response_schema': clean_schema,  # Use cleaned schema instead of model class
+        }
+        if cache_name is not None:
+            config_dict['cached_content'] = cache_name
+
         response = client.models.generate_content(
             model=model,
             contents=contents_list,
-            config=types.GenerateContentConfig(
-                response_mime_type='application/json',
-                response_schema=ExtractionResult,
-                cached_content=cache_name  # Use context cache for cost savings
-            )
+            config=types.GenerateContentConfig(**config_dict)
         )
 
-        # Parse structured response
-        parsed = response.parsed
-        if not isinstance(parsed, ExtractionResult):
-            raise ValueError("Gemini API returned unexpected response type")
-        result: ExtractionResult = parsed
+        # Parse structured response - manually parse JSON since we used dict schema
+        import json
+        response_text = response.text
+        response_data = json.loads(response_text)
+        result: ExtractionResult = ExtractionResult.model_validate(response_data)
 
         # Extract cache statistics from usage metadata
         cache_hit = False
@@ -177,6 +266,7 @@ Please extract the information in structured JSON format.
             "reason": "Low OpenDataLoader quality score",
             "cost_savings_percent": 0,  # No cost savings from hybrid mode
             "model": model,
+            "cache_eligible": cache_name is not None,  # Was caching available?
             "cache_hit": cache_hit,
             "cached_tokens": cached_tokens,
             "total_tokens": total_tokens,
@@ -245,7 +335,7 @@ async def extract_pdf_data_hybrid(
         # Low quality: fallback to Gemini Vision API
         return extract_with_vision_fallback(client, file_path, model)
 
-    # Step 3: Get or create context cache for cost optimization
+    # Step 3: Get or create context cache for cost optimization (may be None if content too small)
     cache_name = get_or_create_cache(client, model)
 
     # Step 4: Build prompt with markdown content for Gemini
@@ -266,23 +356,31 @@ Extract:
 Return structured JSON format.
 """
 
-    # Step 5: Call Gemini API with structured output schema and cache (wrapped in try/except for partial results)
+    # Step 5: Call Gemini API with structured output schema (wrapped in try/except for partial results)
     try:
+        # Generate clean schema without additionalProperties for Gemini compatibility
+        raw_schema = ExtractionResult.model_json_schema()
+        clean_schema = _remove_additional_properties(raw_schema)
+
+        # Build config - only add cached_content if cache is available
+        config_dict = {
+            'response_mime_type': 'application/json',
+            'response_schema': clean_schema,  # Use cleaned schema instead of model class
+        }
+        if cache_name is not None:
+            config_dict['cached_content'] = cache_name
+
         response = client.models.generate_content(
             model=model,
             contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type='application/json',
-                response_schema=ExtractionResult,
-                cached_content=cache_name  # Use context cache for cost savings
-            )
+            config=types.GenerateContentConfig(**config_dict)
         )
 
-        # Parse structured response
-        parsed = response.parsed
-        if not isinstance(parsed, ExtractionResult):
-            raise ValueError("Gemini API returned unexpected response type")
-        result: ExtractionResult = parsed
+        # Parse structured response - manually parse JSON since we used dict schema
+        import json
+        response_text = response.text
+        response_data = json.loads(response_text)
+        result: ExtractionResult = ExtractionResult.model_validate(response_data)
 
         # Step 6: Extract cache statistics from usage metadata
         cache_hit = False
@@ -320,6 +418,7 @@ Return structured JSON format.
             "cost_savings_percent": 80,  # Hybrid mode achieves ~80% cost reduction
             "element_count": doc_structure.element_count,
             "model": model,
+            "cache_eligible": cache_name is not None,  # Was caching available?
             "cache_hit": cache_hit,
             "cached_tokens": cached_tokens,
             "total_tokens": total_tokens,
