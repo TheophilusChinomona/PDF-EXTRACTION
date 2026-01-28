@@ -507,3 +507,40 @@ Branch: ralph/hybrid-extraction-pipeline
 - UUID validation pattern: try/except around uuid.UUID() constructor
 - FastAPI automatically handles query parameter type conversion (str to int)
 ---
+
+## 2026-01-28 19:00 - US-017
+- Implemented bounding box retrieval endpoints for citation features
+- Created GET /api/extractions/{id}/bounding-boxes endpoint:
+  - Returns all bounding boxes as JSON dict keyed by element_id
+  - Handles missing extractions with 404
+  - Empty bounding boxes return {}
+- Created GET /api/extractions/{id}/elements/{element_id} endpoint:
+  - Returns specific element with bbox, type, and content
+  - Matches bbox to sections/tables to find associated content
+  - Returns element_type (section, table, or element)
+  - Returns 404 if element_id not found
+- Both endpoints include:
+  - UUID validation (400 for invalid format)
+  - Database error handling (500)
+  - Content matching logic for sections and tables
+- Created comprehensive test suite with 13 new tests:
+  - Successful retrieval (sections, tables, generic elements)
+  - Empty bounding boxes
+  - Missing extractions/elements
+  - Invalid UUIDs
+  - Database errors
+- All 185 tests pass, mypy --strict passes
+
+**Files changed:**
+- Updated: app/routers/extraction.py (added 2 endpoints, 185 lines)
+- Updated: tests/test_extraction_router.py (added 13 tests, 250 lines)
+- Updated: scripts/ralph/prd.json (marked US-017 as passes: true)
+
+**Learnings for future iterations:**
+- Bounding boxes are stored as JSONB dict in database, keyed by element_id
+- Element type detection: match bbox to sections/tables using equality comparison
+- When content isn't found, return element_type="element" with empty content dict
+- FastAPI route order matters: specific routes (/bounding-boxes) must come before path parameters ({element_id})
+- dict.get() with default {} prevents KeyError when bounding_boxes field is missing
+- Test pattern: Mock get_extraction to return full extraction data dict with nested structures
+---
