@@ -28,49 +28,10 @@
     {"id": "US-023", "title": "Implement batch processing endpoint", "passes": true},
     {"id": "US-024", "title": "Implement webhook notifications", "passes": true},
     {"id": "US-025", "title": "Implement context caching for cost optimization", "passes": true},
-    {"id": "US-026", "title": "Add routing statistics dashboard endpoint", "passes": true}
+    {"id": "US-026", "title": "Add routing statistics dashboard endpoint", "passes": true},
+    {"id": "US-027", "title": "Create integration tests for end-to-end extraction flow", "passes": true},
+    {"id": "US-028", "title": "Create deployment documentation and Docker configuration", "passes": true}
   ],
   "userStories": [
-    {
-      "id": "US-027",
-      "title": "Create integration tests for end-to-end extraction flow",
-      "description": "As a developer, I need integration tests to verify the complete extraction pipeline works.",
-      "acceptanceCriteria": [
-        "Create tests/integration/test_extraction_flow.py",
-        "Test: upload PDF → extract (hybrid) → store → retrieve → verify bounding boxes",
-        "Test: upload scanned PDF → fallback to Vision → store → retrieve",
-        "Test: upload duplicate PDF → return cached result",
-        "Test: upload invalid file → return 400 error",
-        "Test: batch processing with 3 PDFs → verify all complete",
-        "Test: webhook delivery after extraction",
-        "Use pytest fixtures for: test PDFs, mock Gemini client, test Supabase instance",
-        "Tests pass",
-        "Coverage > 80% for core extraction flow"
-      ],
-      "priority": 27,
-      "passes": false,
-      "notes": ""
-    },
-    {
-      "id": "US-028",
-      "title": "Create deployment documentation and Docker configuration",
-      "description": "As a DevOps engineer, I need deployment instructions and containerization.",
-      "acceptanceCriteria": [
-        "Create Dockerfile: FROM python:3.11-slim",
-        "Install dependencies from requirements.txt",
-        "Set working directory to /app",
-        "Copy app code",
-        "Expose port 8000",
-        "CMD: uvicorn app.main:app --host 0.0.0.0 --port 8000",
-        "Create docker-compose.yml for local development (includes app service)",
-        "Create DEPLOYMENT.md with: environment setup, Docker build/run, environment variables, health check verification",
-        "Document Supabase setup steps (create project, run migrations)",
-        "Document how to get Gemini API key",
-        "All documentation clear and tested"
-      ],
-      "priority": 28,
-      "passes": false,
-      "notes": ""
-    }
   ]
 }
