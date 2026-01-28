@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import get_settings
 from app.db.supabase_client import get_supabase_client
+from app.middleware.logging import RequestLoggingMiddleware
 from app.services.gemini_client import get_gemini_client
 
 # Application metadata
@@ -48,6 +49,9 @@ app = FastAPI(
     redoc_url="/redoc",
     lifespan=lifespan,
 )
+
+# Add logging middleware (first, so it wraps all other middleware)
+app.add_middleware(RequestLoggingMiddleware)
 
 # Add CORS middleware
 app.add_middleware(

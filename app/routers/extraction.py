@@ -177,11 +177,26 @@ async def extract_pdf(
         # Use 206 Partial Content for partial extractions, 201 for complete
         response_status = status.HTTP_206_PARTIAL_CONTENT if extraction_status == 'partial' else status.HTTP_201_CREATED
 
+        # Prepare headers for response (including routing information for logging)
+        response_headers = {
+            "X-Extraction-ID": extraction_id,
+        }
+
+        # Add routing information to headers for logging middleware
+        if extraction_result and extraction_result.processing_metadata:
+            processing_method = extraction_result.processing_metadata.get("method")
+            if processing_method:
+                response_headers["X-Processing-Method"] = processing_method
+
+            opendataloader_quality = extraction_result.processing_metadata.get("opendataloader_quality")
+            if opendataloader_quality is not None:
+                response_headers["X-Quality-Score"] = str(opendataloader_quality)
+
         return Response(
             content=extraction_result.model_dump_json(),
             media_type="application/json",
             status_code=response_status,
-            headers={"X-Extraction-ID": extraction_id}
+            headers=response_headers
         )
 
     finally:
