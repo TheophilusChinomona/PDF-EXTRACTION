@@ -1,37 +1,107 @@
 {
   "project": "PDF-Extraction",
-  "branchName": "ralph/hybrid-extraction-pipeline",
-  "description": "Academic PDF Extraction Microservice with Hybrid Architecture (OpenDataLoader + Gemini) - 80% cost reduction, 95% accuracy, bounding boxes for citations",
-  "completedStories": [
-    {"id": "US-001", "title": "Create Python project structure and configuration", "passes": true},
-    {"id": "US-002", "title": "Create requirements.txt with all dependencies", "passes": true},
-    {"id": "US-003", "title": "Create Pydantic config with environment variable loading", "passes": true},
-    {"id": "US-004", "title": "Create Gemini client initialization with error handling", "passes": true},
-    {"id": "US-005", "title": "Create Pydantic models for extraction results", "passes": true},
-    {"id": "US-006", "title": "Implement OpenDataLoader PDF structure extraction", "passes": true},
-    {"id": "US-007", "title": "Implement quality scoring for routing decisions", "passes": true},
-    {"id": "US-008", "title": "Implement hybrid extraction pipeline (OpenDataLoader + Gemini)", "passes": true},
-    {"id": "US-009", "title": "Implement Vision fallback for low-quality PDFs", "passes": true},
-    {"id": "US-010", "title": "Implement file upload validation", "passes": true},
-    {"id": "US-011", "title": "Create Supabase client initialization", "passes": true},
-    {"id": "US-012", "title": "Create database schema migration for extractions table", "passes": true},
-    {"id": "US-013", "title": "Implement database storage functions for extractions", "passes": true},
-    {"id": "US-014", "title": "Create FastAPI app with health check endpoint", "passes": true},
-    {"id": "US-015", "title": "Create PDF extraction endpoint (POST /extract)", "passes": true},
-    {"id": "US-016", "title": "Create extraction retrieval endpoint (GET /extractions/{id})", "passes": true},
-    {"id": "US-017", "title": "Create bounding box retrieval endpoints", "passes": true},
-    {"id": "US-018", "title": "Implement retry logic with exponential backoff", "passes": true},
-    {"id": "US-019", "title": "Implement partial result storage", "passes": true},
-    {"id": "US-020", "title": "Add request logging and metrics", "passes": true},
-    {"id": "US-021", "title": "Add rate limiting middleware", "passes": true},
-    {"id": "US-022", "title": "Create manual review queue for failed extractions", "passes": true},
-    {"id": "US-023", "title": "Implement batch processing endpoint", "passes": true},
-    {"id": "US-024", "title": "Implement webhook notifications", "passes": true},
-    {"id": "US-025", "title": "Implement context caching for cost optimization", "passes": true},
-    {"id": "US-026", "title": "Add routing statistics dashboard endpoint", "passes": true},
-    {"id": "US-027", "title": "Create integration tests for end-to-end extraction flow", "passes": true},
-    {"id": "US-028", "title": "Create deployment documentation and Docker configuration", "passes": true}
-  ],
+  "branchName": "ralph/memo-extraction-sidecar",
+  "description": "Memo Extraction Sidecar - Add parallel marking guideline extraction module sharing hybrid pipeline infrastructure. Extracts SA matric marking guidelines into structured JSON with memo-specific prompts, schemas, and dedicated database table.",
+  "completedStories": [],
   "userStories": [
+    {
+      "id": "US-001",
+      "title": "Create Memo Pydantic Models",
+      "priority": 1,
+      "passes": false,
+      "acceptanceCriteria": [
+        "Create app/models/memo_extraction.py with models extending GeminiCompatibleModel",
+        "EssayStructure model: introduction (List[str]), body_sections (List[Dict[str, Union[List[str], Dict[str, List[str]]]]]), conclusion (List[str])",
+        "MemoQuestion model with fields: id, text, type, model_answers (Union[List[str], Dict[str, List[str]]]), answers (List[Dict[str, str]]), structured_answer (List[Dict[str, str]]), marks, max_marks, marker_instruction, notes, essay_structure",
+        "MemoSection model: section_id (str), questions (List[MemoQuestion])",
+        "MarkingGuideline model: meta (Dict[str, Union[str, int]]), sections (List[MemoSection]), processing_metadata (Dict[str, Any])",
+        "All optional fields default to None",
+        "Schema validates successfully against Sample PDFS/outputs/Sample output-marking guideline.json",
+        "Typecheck passes"
+      ],
+      "technicalNotes": "Extend GeminiCompatibleModel from app/models/extraction.py. Union types (model_answers can be list or dict) must work with _remove_additional_properties() for Gemini compatibility. Reference sample schema at Sample PDFS/outputs/memo-sample-schemas.py."
+    },
+    {
+      "id": "US-002",
+      "title": "Create Memo Extraction Service",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "Create app/services/memo_extractor.py",
+        "MEMO_EXTRACTION_SYSTEM_INSTRUCTION constant adapted from Sample PDFS/outputs/memo sample system prompt.md",
+        "Separate memo cache: _MEMO_CACHE_NAME global + get_or_create_memo_cache() function",
+        "extract_memo_with_vision_fallback() - uploads PDF to Gemini Files API, returns MarkingGuideline",
+        "extract_memo_data_hybrid() - main async hybrid pipeline (OpenDataLoader -> quality check -> Gemini with memo schema)",
+        "PartialMemoExtractionError exception class with partial_result: MarkingGuideline",
+        "Reuses _remove_additional_properties() and _estimate_token_count() from pdf_extractor.py (import, not copy)",
+        "Processing metadata includes: method, quality score, cost savings, cache stats",
+        "System prompt includes rules: extract ALL valid answers, capture marker instructions, skip preamble, handle Section A/B/C differently"
+      ],
+      "technicalNotes": "Mirror the structure of pdf_extractor.py but with memo-specific prompts and MarkingGuideline schema. Import shared helpers (_remove_additional_properties, _estimate_token_count) from pdf_extractor. Use separate _MEMO_CACHE_NAME global for memo-specific context cache. Reuse extract_pdf_structure() from opendataloader_extractor.py, get_gemini_client() from gemini_client.py, @retry_with_backoff() from app/utils/retry.py."
+    },
+    {
+      "id": "US-003",
+      "title": "Add CLI Entry Point for Memo Extraction",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "app/services/memo_extractor.py has if __name__ == '__main__' block",
+        "Accepts file path as CLI argument: python -m app.services.memo_extractor path/to/memo.pdf",
+        "Prints JSON output to stdout",
+        "Auto-saves JSON output to {input_filename}_memo_result.json alongside the input PDF",
+        "Handles missing file path argument with usage message",
+        "Handles extraction errors gracefully with error output"
+      ],
+      "technicalNotes": "Use sys.argv for CLI args. Use asyncio.run() to call the async extract_memo_data_hybrid(). Save output using os.path to construct output path next to input file."
+    },
+    {
+      "id": "US-004",
+      "title": "Create Memo Database Functions",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "Create app/db/memo_extractions.py",
+        "create_memo_extraction() - inserts MarkingGuideline into memo_extractions table",
+        "Record includes: file_name, file_size_bytes, file_hash, status, processing_method, quality_score, subject, year, session, grade, total_marks, sections (JSON), processing_metadata, processing_time_seconds, error_message, retry_count",
+        "get_memo_extraction() - retrieve by UUID",
+        "check_memo_duplicate() - check file_hash against memo_extractions table",
+        "update_memo_extraction_status() - update status + optional error",
+        "list_memo_extractions() - paginated list with status filter",
+        "update_memo_extraction() - full update for retries",
+        "Mirrors the patterns in app/db/extractions.py but targets memo_extractions table"
+      ],
+      "technicalNotes": "Follow exact same patterns as app/db/extractions.py. Table name is 'memo_extractions'. MarkingGuideline has meta dict (subject, year, session, grade, total_marks) - extract these for top-level columns. sections stored as JSONB."
+    },
+    {
+      "id": "US-005",
+      "title": "Add doc_type Routing to API",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "POST /api/extract accepts doc_type: str = Form('question_paper') parameter",
+        "Validates doc_type is 'question_paper' or 'memo' (returns 400 otherwise)",
+        "Routes to extract_memo_data_hybrid() when doc_type == 'memo'",
+        "Routes to extract_pdf_data_hybrid() when doc_type == 'question_paper' (existing behavior)",
+        "Memo extractions stored via create_memo_extraction() in memo_extractions table",
+        "Memo duplicates checked via check_memo_duplicate()",
+        "Response body matches MarkingGuideline schema for memo extractions",
+        "Default behavior (doc_type omitted) is unchanged - backward compatible",
+        "Typecheck passes"
+      ],
+      "technicalNotes": "Modify app/routers/extraction.py extract_pdf() function. Add doc_type Form parameter with default 'question_paper'. Add validation at top of function. Branch extraction logic and DB calls based on doc_type. Import memo-specific functions. Existing behavior must be completely preserved when doc_type is omitted or 'question_paper'."
+    },
+    {
+      "id": "US-006",
+      "title": "Create Supabase memo_extractions Table Schema",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "SQL migration file for memo_extractions table at migrations/004_create_memo_extractions_table.sql",
+        "Columns: id (UUID PK default gen_random_uuid()), file_name, file_size_bytes, file_hash (indexed, unique), status, processing_method, quality_score, subject, year (int), session, grade, total_marks (int), sections (JSONB), processing_metadata (JSONB), processing_time_seconds, cost_estimate_usd, webhook_url, retry_count (default 0), error_message, created_at (timestamptz default now()), updated_at (timestamptz default now())",
+        "Index on file_hash for deduplication lookups",
+        "Index on status for filtered queries"
+      ],
+      "technicalNotes": "Follow pattern of existing migrations (001, 002, 003). Table is independent from extractions - no foreign keys. Include CREATE INDEX statements for file_hash and status. Add updated_at trigger if pattern exists in previous migrations."
+    }
   ]
 }

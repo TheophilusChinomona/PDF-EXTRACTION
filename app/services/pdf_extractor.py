@@ -80,6 +80,11 @@ EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Inte
 * **Scenarios are Mandatory:** If a question says "Read the scenario below", you MUST find that text and put it in the `scenario` field.
 * **Guide Tables:** If a question provides a table to guide the answer, convert that structure into `guide_table` as `[{"1.2.1": "statement..."}, {"1.2.2": "statement..."}, ...]`.
 * **Visual Context:** If a question refers to a diagram, describe it in the `context` field.
+* **Do NOT Solve:** Never attempt to solve the question.
+* **Independence:** Treat Column A and Column B as completely SEPARATE lists.
+* **Unequal Lengths:** Column B often has MORE items (distractors) than Column A. This is expected - extract ALL of them.
+* **Schema:** Use `match_data` object with `column_a_items` and `column_b_items` as separate arrays.
+* **Labels:** Column A items have numeric labels (1.3.1, 1.3.2). Column B items have letter labels (A, B, C, D, E, F, G, H, I, J).
 
 ### 2. SPECIAL HANDLING FOR "MATCH COLUMNS" (CRITICAL)
 * **Do NOT Solve:** Never attempt to link Column A to Column B.

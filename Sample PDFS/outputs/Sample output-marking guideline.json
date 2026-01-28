@@ -1,0 +1,349 @@
+{
+  "meta": {
+    "subject": "Business Studies P1",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 150
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1.1",
+          "type": "Multiple Choice",
+          "notes": "The specific letters (A-D) were obscured in the source table layout, but marks are allocated per row.",
+          "marks": 10
+        },
+        {
+          "id": "1.2",
+          "type": "Complete the statements",
+          "marks": 10,
+          "answers": [
+            { "sub_id": "1.2.1", "value": "parental" },
+            { "sub_id": "1.2.2", "value": "backward" },
+            { "sub_id": "1.2.3", "value": "strength" },
+            { "sub_id": "1.2.4", "value": "Employment Equity" },
+            { "sub_id": "1.2.5", "value": "quality assurance" }
+          ]
+        },
+        {
+          "id": "1.3",
+          "type": "Match Columns",
+          "marks": 10,
+          "answers": [
+            { "sub_id": "1.3.1", "value": "C (protects both lenders and borrowers...)" },
+            { "sub_id": "1.3.2", "value": "G (tool used to evaluate macro environment)" },
+            { "sub_id": "1.3.3", "value": "E (linking expectations... competencies)" },
+            { "sub_id": "1.3.4", "value": "B (compulsory benefit...)" },
+            { "sub_id": "1.3.5", "value": "I (large businesses conduct market research...)" }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "Pillars of the Broad-Based Black Economic Empowerment Act (BBBEE)",
+          "marker_instruction": "Mark the first FOUR (4) only.",
+          "max_marks": 4,
+          "model_answers": [
+            "Management control",
+            "Ownership",
+            "Enterprise and supplier development/ESD",
+            "Skills development",
+            "Socio-economic development/Social responsibility"
+          ]
+        },
+        {
+          "id": "2.2",
+          "text": "Advantages of intensive strategies",
+          "max_marks": 4,
+          "model_answers": [
+            "Increase in sales/income and profitability due to a variety of advertising campaigns.",
+            "Regular sales to existing customers may increase.",
+            "Gain customer loyalty through effective promotion campaigns.",
+            "Improved service delivery may positively impact/increase sales.",
+            "Eliminate competitors and dominate market prices.",
+            "Decrease in price could influence customers to buy more products."
+          ]
+        },
+        {
+          "id": "2.3",
+          "text": "Types of diversification strategies from the scenario",
+          "marker_instruction": "Mark the first TWO (2) only. Do not award marks for motivations if strategies are incorrect.",
+          "max_marks": 6,
+          "structured_answer": [
+            {
+              "strategy": "Concentric diversification",
+              "motivation": "They added homemade cheese to their product range to increase sales to new customers."
+            },
+            {
+              "strategy": "Conglomerate diversification",
+              "motivation": "PF also opened a petrol station to attract new customers."
+            }
+          ]
+        },
+        {
+          "id": "2.4",
+          "text": "Rights of employers in terms of the Labour Relations Act (LRA)",
+          "max_marks": 6,
+          "model_answers": [
+            "Form employer organisations to represent them in labour related matters.",
+            "Form bargaining councils for collective bargaining purposes.",
+            "Lockout employees who engage in labour action/an unprotected/illegal strike.",
+            "Dismiss employees who engage in an unprotected/illegal strike/misconduct.",
+            "Not pay/remunerate employees who have participated in a protected strike for services not rendered."
+          ]
+        },
+        {
+          "id": "2.6.1",
+          "text": "Identify the Act",
+          "max_marks": 2,
+          "model_answers": [
+            "Compensation for Occupational Injuries and Diseases Amendment Act/COIDA"
+          ]
+        },
+        {
+          "id": "2.6.2",
+          "text": "Other advantages of COIDA",
+          "max_marks": 4,
+          "model_answers": [
+            "Promotes health and safety of employees which reduces accidents in the workplace.",
+            "Employees do not contribute towards this fund, which improves morale.",
+            "Claiming processes are relatively simple, resulting in timeous pay-outs.",
+            "Eliminates time and costs spent on lengthy civil court proceedings.",
+            "Employers are protected from financial burden provided they were not negligent."
+          ]
+        },
+        {
+          "id": "2.7",
+          "text": "Strategic management process",
+          "max_marks": 6,
+          "model_answers": [
+            "Have a clear vision/mission statement/measurable/realistic objective in place.",
+            "Identify opportunities/weaknesses/strengths/threats by conducting environmental scanning.",
+            "Formulate alternative strategies to respond to the challenges.",
+            "Develop action plan(s), including tasks/deadlines/resources.",
+            "Implement selected strategies by communicating to stakeholders.",
+            "Continuously evaluate/monitor strategies to take corrective action."
+          ]
+        },
+        {
+          "id": "3.1",
+          "text": "Components of job analysis",
+          "marker_instruction": "Mark the first TWO (2) only.",
+          "max_marks": 2,
+          "model_answers": [
+            "Job description",
+            "Job specification"
+          ]
+        },
+        {
+          "id": "3.2",
+          "text": "Meaning of piecemeal as a salary determination method",
+          "max_marks": 2,
+          "model_answers": [
+            "Workers are paid according to the number of items/units produced/action performed.",
+            "Workers are not remunerated for the number of hours worked.",
+            "Mostly used in factories particularly in the textile/technology industries."
+          ]
+        },
+        {
+          "id": "3.6",
+          "text": "Business functions contributing to success (Scenario)",
+          "marker_instruction": "Mark the first TWO (2) only.",
+          "max_marks": 6,
+          "structured_answer": [
+            {
+              "function": "General management function",
+              "motivation": "The Chief Executive Officer (CEO) effectively communicates the shared vision and mission."
+            },
+            {
+              "function": "Public relations function",
+              "motivation": "BE also provides regular press releases to all stakeholders."
+            }
+          ]
+        },
+        {
+          "id": "3.8",
+          "text": "Impact of adequate financing and capacity as a TQM element",
+          "max_marks": 6,
+          "model_answers": {
+            "positives": [
+              "Large businesses have sufficient financing to test everything before implementing.",
+              "Can afford systems to prevent errors/defects.",
+              "Able to afford product research/market researchers.",
+              "Can afford to purchase quality raw materials and equipment."
+            ],
+            "negatives": [
+              "If demand increases faster than expected, business may lack capital to fund production.",
+              "Rapidly growing businesses can consume large amounts of capital balancing operations and expansion."
+            ]
+          }
+        },
+        {
+          "id": "4.1",
+          "text": "Forces of Porter's Five Forces model",
+          "marker_instruction": "Mark the first FOUR (4) only.",
+          "max_marks": 4,
+          "model_answers": [
+            "Bargaining power of suppliers",
+            "Bargaining power of buyers",
+            "Threat/Barriers to new entrants",
+            "Competitive rivalry/Power of competitors",
+            "Threat of substitutes"
+          ]
+        },
+        {
+          "id": "4.2",
+          "text": "Business sectors from statements",
+          "max_marks": 4,
+          "answers": [
+            { "sub_id": "4.2.1", "value": "Secondary sector" },
+            { "sub_id": "4.2.2", "value": "Tertiary sector" }
+          ]
+        },
+        {
+          "id": "4.7.1",
+          "text": "Ways TQM reduces cost of quality (from Scenario)",
+          "max_marks": 2,
+          "model_answers": [
+            "The production manager works closely with suppliers to improve the standards of raw materials.",
+            "KM monitors their maintenance programmes on a regular basis to prevent the breakdown of equipment."
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "questions": [
+        {
+          "id": "5",
+          "topic": "Consumer Protection Act (CPA)",
+          "max_marks": 40,
+          "essay_structure": {
+            "introduction": [
+              "The Consumer Protection Act aims to protect consumers from exploitation and unfair business practices.",
+              "Businesses have a legal responsibility to protect/promote the rights of consumers.",
+              "Businesses that comply with the CPA are able to reduce heavy penalties."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Purpose of the CPA",
+                "points": [
+                  "Promotes fair/accessible and sustainable places for people to sell their products.",
+                  "Establishes national standards to protect consumers regardless of economic status.",
+                  "Provides guidelines for better consumer information.",
+                  "Establishes a National Consumer Commission (NCC)."
+                ]
+              },
+              {
+                "sub_topic": "Impact on Businesses",
+                "positives": [
+                  "Safeguarded from dishonest competitors.",
+                  "Prevents larger businesses from undermining smaller ones.",
+                  "Builds good image if they do not violate consumer rights."
+                ],
+                "negatives": [
+                  "Confidential business information may become available to competitors.",
+                  "Penalties for non-compliance may be very high.",
+                  "Staff training/legal experts increase operational costs."
+                ]
+              },
+              {
+                "sub_topic": "Consumer Rights",
+                "rights": [
+                  "Right to choose (Shop around, return unsafe goods).",
+                  "Right to privacy (Restrict unwanted direct marketing).",
+                  "Right to fair and honest dealings (No physical force, no pyramid schemes).",
+                  "Right to disclosure and information (Plain language contracts, correct labelling).",
+                  "Right to fair and responsible marketing.",
+                  "Right to equality in the consumer market."
+                ]
+              },
+              {
+                "sub_topic": "Ways to Comply",
+                "points": [
+                  "Disclose prices of all products.",
+                  "Provide adequate training to staff.",
+                  "Allow for five-day cooling-off period.",
+                  "Ensure goods are standardised.",
+                  "Display business name on all documents."
+                ]
+              }
+            ],
+            "conclusion": [
+              "The CPA requires both businesses and consumers to act responsibly.",
+              "Compliance strengthens the overall integrity of the market."
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "topic": "Human Resources Function",
+          "max_marks": 40,
+          "essay_structure": {
+            "introduction": [
+              "Recruitment procedure is a systematic process of identifying and filling vacant positions.",
+              "External recruitment enables businesses to employ qualified people from outside.",
+              "The interviewer is responsible for administration and logistical arrangements."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Recruitment Procedure",
+                "points": [
+                  "Prepare job analysis (job specification/description).",
+                  "Choose method of recruitment (internal/external).",
+                  "Prepare advertisement with relevant info.",
+                  "Place advertisement in appropriate media."
+                ]
+              },
+              {
+                "sub_topic": "Impact of External Recruitment",
+                "positives": [
+                  "New candidates bring new talents/ideas/skills.",
+                  "Larger pool of candidates to choose from.",
+                  "Helps meet affirmative action/BBBEE targets."
+                ],
+                "negatives": [
+                  "Information on CVs may not be reliable.",
+                  "Unsuitable applications slow down selection.",
+                  "External sources (agencies) can be expensive."
+                ]
+              },
+              {
+                "sub_topic": "Role of Interviewer",
+                "points": [
+                  "Allocate same amount of time to each candidate.",
+                  "Introduce panel members.",
+                  "Make interviewee feel at ease.",
+                  "Do not ask discriminatory questions."
+                ]
+              },
+              {
+                "sub_topic": "Reasons for Termination",
+                "points": [
+                  "Dismissal for valid reason (misconduct/performance).",
+                  "Retrenchment due to restructuring/insolvency.",
+                  "Resignation (Voluntary).",
+                  "Retirement.",
+                  "Incapacity (Illness/Injury).",
+                  "Expiration of contract."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Effective recruitment procedures help achieve recruitment goals.",
+              "Using external recruitment ensures a diversified workforce."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

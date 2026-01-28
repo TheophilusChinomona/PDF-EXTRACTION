@@ -50,7 +50,7 @@ Before you begin, ensure you have the following:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/pdf-extraction.git
+    git clone https://github.com/TheophilusChinomona/pdf-extraction.git
     cd pdf-extraction
     ```
 
@@ -86,11 +86,6 @@ Before you begin, ensure you have the following:
 2.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
-    ```
-
-3.  **Start the Server:**
-    ```bash
-    uvicorn app.main:app --reload
     ```
 
 ## ⚙️ Configuration
@@ -185,26 +180,4 @@ pdf-extraction/
 └── requirements.txt         # Project dependencies
 ```
 
-## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1.  Fork the repository.
-2.  Create a feature branch (`git checkout -b feature/amazing-feature`).
-3.  Commit your changes (`git commit -m 'Add amazing feature'`).
-4.  Push to the branch (`git push origin feature/amazing-feature`).
-5.  Open a Pull Request.
-
-Please ensure all tests pass and your code is typed using `mypy`.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-*   **Your Name/Org** - *Initial work*
-
-## 📞 Support
-
-If you encounter any issues, please check the [Issue Tracker](https://github.com/yourusername/pdf-extraction/issues) or contact us at support@example.com.
