@@ -143,3 +143,41 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 23:45 - US-025 & US-026
+- **US-025: Context Caching for Cost Optimization**
+  - Implemented get_or_create_cache() function with singleton pattern using global _EXTRACTION_CACHE_NAME
+  - Cache stores academic PDF extraction system instruction with 1-hour TTL
+  - Updated both extract_pdf_data_hybrid() and extract_with_vision_fallback() to use context caching
+  - Cache metadata tracked in processing_metadata: cache_hit, cached_tokens, total_tokens, cached_tokens_saved
+  - Added GET /api/stats/caching endpoint showing cache hit rate and token savings
+  - Context caching reduces API costs by ~90% for cached system instruction tokens
+- **US-026: Routing Statistics Dashboard**
+  - Created GET /api/stats/routing endpoint with comprehensive metrics:
+    * Routing distribution: count by processing_method (hybrid, vision_fallback, partial)
+    * Average quality_score across all extractions
+    * Cost metrics: total_cost_usd, estimated_pure_vision_cost_usd, total_savings_usd, savings_percent
+    * Performance metrics: avg_processing_time_seconds, p95_processing_time
+  - Implemented 5-minute caching for routing stats using module-level variables (_routing_stats_cache, _routing_stats_cache_time)
+  - Added X-Cache-Hit header to indicate cache status
+- **Files changed:**
+  - app/services/pdf_extractor.py (added caching functions, updated extraction functions)
+  - app/routers/stats.py (new - caching and routing stats endpoints)
+  - app/routers/extraction.py (fixed type hints for webhook_data)
+  - app/main.py (registered stats router, updated slowapi imports)
+  - tests/test_context_caching.py (new - 6 tests for cache functionality)
+  - tests/test_stats.py (new - 7 tests for stats endpoints)
+  - tests/test_pdf_extractor.py (added mock_get_or_create_cache fixture)
+- **Tests:** 13 new tests passing (6 caching + 7 stats), mypy --strict passing
+- **Learnings for future iterations:**
+  - Gemini context caching API: Use client.caches.create() with CreateCachedContentConfig
+  - Cache TTL format: "3600s" for 1 hour (must be string with 's' suffix)
+  - Cache usage: Pass cache.name to GenerateContentConfig(cached_content=cache_name)
+  - Cache statistics: Access via response.usage_metadata.cached_content_token_count
+  - Module-level cache with global keyword enables singleton pattern across requests
+  - Cache validation: Check cache.name is not None before returning (mypy strict mode requirement)
+  - Stats caching pattern: Use module-level dict + timestamp for TTL-based caching
+  - P95 calculation: Sort list, get index at 95% position (int(len(list) * 0.95))
+  - Cost estimation for routing stats: Hybrid saves 80%, so pure vision cost = hybrid_cost * 5
+
+---
+

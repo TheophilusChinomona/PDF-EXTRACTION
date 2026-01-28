@@ -26,47 +26,11 @@
     {"id": "US-021", "title": "Add rate limiting middleware", "passes": true},
     {"id": "US-022", "title": "Create manual review queue for failed extractions", "passes": true},
     {"id": "US-023", "title": "Implement batch processing endpoint", "passes": true},
-    {"id": "US-024", "title": "Implement webhook notifications", "passes": true}
+    {"id": "US-024", "title": "Implement webhook notifications", "passes": true},
+    {"id": "US-025", "title": "Implement context caching for cost optimization", "passes": true},
+    {"id": "US-026", "title": "Add routing statistics dashboard endpoint", "passes": true}
   ],
   "userStories": [
-    {
-      "id": "US-025",
-      "title": "Implement context caching for cost optimization",
-      "description": "As a cost-conscious operator, I need Gemini context caching to reduce API costs by 90%.",
-      "acceptanceCriteria": [
-        "Update pdf_extractor.py to use context caching",
-        "Cache system instruction prompt for academic PDF analysis",
-        "Set cache TTL to 1 hour",
-        "Track cache hits/misses in processing_metadata",
-        "Calculate cost savings: add cached_tokens_saved to metadata",
-        "Log cache statistics per request",
-        "Add GET /stats/caching endpoint showing cache hit rate and savings",
-        "Typecheck passes",
-        "Tests pass"
-      ],
-      "priority": 25,
-      "passes": false,
-      "notes": ""
-    },
-    {
-      "id": "US-026",
-      "title": "Add routing statistics dashboard endpoint",
-      "description": "As an operator, I need to see routing distribution and cost savings metrics.",
-      "acceptanceCriteria": [
-        "Add GET /stats/routing endpoint",
-        "Query extractions table: count by processing_method",
-        "Calculate average quality_score",
-        "Calculate total_cost_usd, estimated_pure_vision_cost_usd, total_savings_usd, savings_percent",
-        "Calculate performance metrics: avg_processing_time_seconds, p95_processing_time",
-        "Return JSON with all metrics",
-        "Cache results for 5 minutes to reduce database load",
-        "Typecheck passes",
-        "Tests pass"
-      ],
-      "priority": 26,
-      "passes": false,
-      "notes": ""
-    },
     {
       "id": "US-027",
       "title": "Create integration tests for end-to-end extraction flow",
