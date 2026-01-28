@@ -15,6 +15,71 @@ from opendataloader_pdf import convert
 from app.models.extraction import DocumentStructure
 
 
+def calculate_quality_score(
+    text_length: int,
+    element_count: int,
+    heading_count: int,
+    tables: List[Dict[str, Any]]
+) -> float:
+    """
+    Calculate quality score (0.0 to 1.0) for routing decisions.
+
+    This score determines whether to use hybrid mode (OpenDataLoader + Gemini)
+    or fallback to Gemini Vision API for low-quality extractions.
+
+    Scoring criteria:
+    - Text completeness (40%): >1000 chars = 0.4, >500 = 0.3, >100 = 0.2
+    - Structure detection (30%): >50 elements = 0.3, >20 = 0.2, >5 = 0.1
+    - Heading hierarchy (15%): >=5 headings = 0.15, >=3 = 0.1, >=1 = 0.05
+    - Table extraction (15%): valid tables (>3 rows) = 0.15, some tables = 0.1
+
+    Args:
+        text_length: Total character count of extracted text
+        element_count: Number of document elements extracted
+        heading_count: Number of heading elements detected
+        tables: List of extracted tables with their data
+
+    Returns:
+        Quality score between 0.0 and 1.0
+    """
+    score = 0.0
+
+    # Text completeness (40%)
+    if text_length > 1000:
+        score += 0.4
+    elif text_length > 500:
+        score += 0.3
+    elif text_length > 100:
+        score += 0.2
+
+    # Structure detection (30%)
+    if element_count > 50:
+        score += 0.3
+    elif element_count > 20:
+        score += 0.2
+    elif element_count > 5:
+        score += 0.1
+
+    # Heading hierarchy (15%)
+    if heading_count >= 5:
+        score += 0.15
+    elif heading_count >= 3:
+        score += 0.1
+    elif heading_count >= 1:
+        score += 0.05
+
+    # Table extraction (15%)
+    # Count tables with >3 rows as "valid" (likely real tables, not artifacts)
+    valid_tables = [t for t in tables if len(t.get("data", [])) > 3]
+    if len(valid_tables) > 0:
+        score += 0.15
+    elif len(tables) > 0:
+        score += 0.1
+
+    # Cap at 1.0
+    return min(score, 1.0)
+
+
 def extract_pdf_structure(file_path: str) -> DocumentStructure:
     """
     Extract PDF structure using OpenDataLoader (local, fast, deterministic).
@@ -108,9 +173,16 @@ def extract_pdf_structure(file_path: str) -> DocumentStructure:
             # Calculate element count
             element_count = len(elements)
 
-            # Note: quality_score will be calculated separately by calculate_quality_score()
-            # For now, use a placeholder that will be updated
-            quality_score = 0.0
+            # Count headings for quality scoring
+            heading_count = sum(1 for elem in elements if elem.get("type") == "heading")
+
+            # Calculate quality score for routing decisions
+            quality_score = calculate_quality_score(
+                text_length=len(markdown),
+                element_count=element_count,
+                heading_count=heading_count,
+                tables=tables
+            )
 
             return DocumentStructure(
                 markdown=markdown,
