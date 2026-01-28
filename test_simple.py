@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
 Simple test without emoji characters for Windows terminal compatibility.
+Automatically saves JSON output to Sample PDFS/outputs/ folder.
 """
 
 import asyncio
+import json
 import sys
 from pathlib import Path
 
@@ -15,6 +17,14 @@ from app.services.pdf_extractor import extract_pdf_data_hybrid
 async def test_extraction(pdf_path: str) -> None:
     """Test PDF extraction."""
     pdf_file = Path(pdf_path)
+
+    # Create output folder in Sample PDFS directory
+    output_dir = Path("Sample PDFS") / "outputs"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Generate output filename based on PDF name
+    output_filename = pdf_file.stem + "_result.json"
+    output_path = output_dir / output_filename
 
     print("=" * 80)
     print("PDF EXTRACTION TEST")
@@ -55,6 +65,13 @@ async def test_extraction(pdf_path: str) -> None:
         print(f"Tables: {len(result.tables)}")
         print(f"References: {len(result.references)}")
 
+        # Save JSON output
+        print(f"\nSaving results to: {output_path}")
+        result_dict = result.model_dump()
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(result_dict, f, indent=2, ensure_ascii=False)
+        print(f"  Saved successfully!")
+
         print("\n" + "=" * 80)
         print("TEST PASSED")
         print("=" * 80)
@@ -65,6 +82,12 @@ async def test_extraction(pdf_path: str) -> None:
         if hasattr(e, 'partial_result'):
             print("\nPartial extraction available")
             print(f"  Tables: {len(e.partial_result.tables)}")
+
+            # Save partial results
+            print(f"\nSaving partial results to: {output_path}")
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(e.partial_result.model_dump(), f, indent=2, ensure_ascii=False)
+            print("  Partial results saved")
 
         sys.exit(1)
 
