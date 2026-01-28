@@ -67,9 +67,11 @@ and title where possible.
 """
 
         # Call Gemini API with uploaded file and structured output
+        from typing import Any
+        contents_list: list[Any] = [uploaded_file, prompt]
         response = client.models.generate_content(
             model=model,
-            contents=[uploaded_file, prompt],
+            contents=contents_list,
             config=types.GenerateContentConfig(
                 response_mime_type='application/json',
                 response_schema=ExtractionResult
