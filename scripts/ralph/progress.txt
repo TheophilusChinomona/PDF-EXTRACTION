@@ -21,6 +21,7 @@ Branch: ralph/hybrid-extraction-pipeline
 - **Retry Pattern:** Decorator handles both sync and async functions via inspect.iscoroutinefunction()
 - **Partial Extraction:** Save OpenDataLoader data even when Gemini fails - provides value to users
 - **File Cleanup:** Use finally block with try/except to silence cleanup failures (extraction result more important)
+- **Rate Limiting:** Use slowapi with `get_limiter()` singleton; reset limiter in tests with `autouse=True` fixture
 
 ---
 
@@ -38,8 +39,9 @@ Branch: ralph/hybrid-extraction-pipeline
 ✅ **US-018:** Retry logic with exponential backoff decorator
 ✅ **US-019:** Partial result storage with retry via duplicate detection
 ✅ **US-020:** Request logging middleware with structured JSON output
+✅ **US-021:** Rate limiting middleware with slowapi
 
-**Status:** 20/28 stories complete | 212 tests passing | mypy --strict passing
+**Status:** 21/28 stories complete | 228 tests passing | mypy --strict passing
 
 **Architecture Working:**
 - Hybrid pipeline: OpenDataLoader → Quality Check (0.7) → Gemini/Vision
@@ -49,9 +51,9 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
-## Next Stories (US-021 to US-028)
+## Next Stories (US-022 to US-028)
 
-**Remaining:** Rate limiting, review queue, batch processing, webhooks, context caching, routing stats, integration tests, deployment docs
+**Remaining:** Review queue, batch processing, webhooks, context caching, routing stats, integration tests, deployment docs
 
 ---
 
@@ -75,6 +77,28 @@ Branch: ralph/hybrid-extraction-pipeline
   - Response headers can pass metadata to middleware for logging (X-Processing-Method, X-Quality-Score)
   - JSON logging format enables structured log analysis (parsing, filtering, metrics)
   - Request state (request.state) is useful for passing data between middleware and endpoints
+
+---
+
+## 2026-01-28 21:30 - US-021
+- Implemented rate limiting middleware using slowapi library
+- Rate limits configured per endpoint:
+  - POST /api/extract: 10 requests/minute per IP
+  - POST /api/batch: 2 requests/minute per IP (for future batch endpoint)
+  - GET /api/extractions/*: 100 requests/minute per IP
+- Returns 429 Too Many Requests with Retry-After header when limit exceeded
+- Custom error handler returns JSON response with detail, message, and retry_after
+- Uses in-memory storage for MVP (can upgrade to Redis later)
+- Added X-RateLimit-Remaining header to responses via RateLimitMiddleware
+- **Files changed:** app/middleware/rate_limit.py (new), app/main.py, app/routers/extraction.py, requirements.txt, tests/test_rate_limit.py (new), tests/test_extraction_router.py
+- **Learnings for future iterations:**
+  - slowapi library works well with FastAPI but has untyped decorators (use `# type: ignore[untyped-decorator]`)
+  - slowapi doesn't have type stubs (use `# type: ignore[import-not-found]` for imports)
+  - Rate limiter must be reset in tests to avoid rate limit interference between test cases
+  - Use `autouse=True` fixture to reset limiter before each test
+  - RateLimitExceeded takes a Limit object, not a detail string - use mock for testing
+  - Get client IP from X-Forwarded-For header for proxied requests (first IP in list)
+  - slowapi stores limiter in app.state for route decorators to access
 
 ---
 
