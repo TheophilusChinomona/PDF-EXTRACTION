@@ -12,3 +12,45 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 03:30 - US-001
+- Implemented Python project structure and configuration
+- Created directory structure: app/, app/routers/, app/services/, app/models/, app/db/, tests/
+- Created .gitignore with Python, venv, and project-specific exclusions
+- Created .env.example with API key placeholders
+- Created __init__.py files in all Python packages
+- Created comprehensive README.md with setup instructions and architecture overview
+
+**Files changed:**
+- Created: .gitignore, .env.example, README.md
+- Created: app/__init__.py, app/routers/__init__.py, app/services/__init__.py, app/models/__init__.py, app/db/__init__.py, tests/__init__.py
+
+**Learnings for future iterations:**
+- Project follows standard Python package structure with clear separation of concerns
+- All configuration should go through environment variables (.env file)
+- Empty __init__.py files are needed to make directories valid Python packages
+- .gitignore must include .env to prevent accidental secret commits
+
+---
+
+## 2026-01-28 04:00 - US-002
+- Implemented requirements.txt with all project dependencies
+- Added core dependencies: opendataloader-pdf (>=1.0.0), google-genai (>=0.3.0 - modern SDK)
+- Added FastAPI ecosystem: fastapi (>=0.100.0), uvicorn (>=0.23.0)
+- Added database client: supabase-py (>=2.0.0)
+- Added data validation: pydantic (>=2.0.0), pydantic-settings (>=2.0.0)
+- Added file handling utilities: python-multipart, python-dotenv, python-magic, httpx
+- Added testing framework: pytest, pytest-asyncio, pytest-cov
+- Installation already documented in README.md
+
+**Files changed:**
+- Created: requirements.txt
+- Updated: scripts/ralph/prd.json (marked US-002 as passes: true)
+
+**Learnings for future iterations:**
+- Use google-genai (modern SDK) NOT google-generativeai (legacy)
+- All dependencies have minimum version constraints (>=) for compatibility
+- Test dependencies are included in requirements.txt for CI/CD setup
+- README.md already contained installation instructions from US-001
+
+---
+
