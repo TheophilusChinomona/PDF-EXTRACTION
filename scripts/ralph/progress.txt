@@ -466,3 +466,44 @@ Branch: ralph/hybrid-extraction-pipeline
 - File cleanup errors should be silently caught (extraction result more important)
 - TestClient from fastapi.testclient automatically triggers lifespan events
 ---
+
+## 2026-01-28 18:00 - US-016
+- Implemented extraction retrieval endpoints for querying stored extraction results
+- Created GET /api/extractions/{extraction_id} endpoint:
+  - UUID validation with 400 error for invalid format
+  - Returns 404 when extraction not found
+  - Returns full extraction data including bounding_boxes and processing_metadata
+  - Database error handling with 500 status
+- Created GET /api/extractions list endpoint with pagination:
+  - Limit parameter: 1-100 (default 50), validated
+  - Offset parameter: non-negative (default 0), validated
+  - Optional status filter: pending/completed/failed/partial
+  - Returns data array with pagination metadata (count, has_more)
+  - has_more flag: true when count equals limit (more results likely exist)
+- Added import for list_extractions function in extraction router
+- Created comprehensive test suite with 14 tests:
+  - Test single extraction retrieval (success, not found, invalid UUID)
+  - Test list endpoint (success, pagination, status filtering, empty results)
+  - Test parameter validation (limit bounds, negative offset, invalid status)
+  - Test error handling (database errors)
+- All tests follow existing mocking patterns (AsyncMock, MagicMock)
+- Code syntax validated with py_compile
+- All 26 tests in test_extraction_router.py (12 existing + 14 new)
+
+**Files changed:**
+- Updated: app/routers/extraction.py (added 2 endpoints, 140 lines, import list_extractions)
+- Updated: tests/test_extraction_router.py (added 14 tests, 288 lines)
+- Updated: scripts/ralph/prd.json (marked US-016 as passes: true)
+
+**Learnings for future iterations:**
+- Query parameters in FastAPI use function arguments with defaults (limit: int = 50)
+- Parameter validation should happen before database calls to fail fast
+- Use json.dumps(data, default=str) to handle UUID/datetime serialization
+- Pagination metadata should include has_more flag: len(results) == limit indicates more pages
+- Response object requires import json for manual JSON serialization
+- Status filter should be validated against allowed enum values before passing to database
+- Limit upper bound (100) prevents abuse, lower bound (1) ensures valid requests
+- Test pattern: Mock database functions (get_extraction, list_extractions) at module level
+- UUID validation pattern: try/except around uuid.UUID() constructor
+- FastAPI automatically handles query parameter type conversion (str to int)
+---
