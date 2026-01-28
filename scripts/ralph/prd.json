@@ -24,53 +24,11 @@
     {"id": "US-019", "title": "Implement partial result storage", "passes": true},
     {"id": "US-020", "title": "Add request logging and metrics", "passes": true},
     {"id": "US-021", "title": "Add rate limiting middleware", "passes": true},
-    {"id": "US-022", "title": "Create manual review queue for failed extractions", "passes": true}
+    {"id": "US-022", "title": "Create manual review queue for failed extractions", "passes": true},
+    {"id": "US-023", "title": "Implement batch processing endpoint", "passes": true},
+    {"id": "US-024", "title": "Implement webhook notifications", "passes": true}
   ],
   "userStories": [
-    {
-      "id": "US-023",
-      "title": "Implement batch processing endpoint",
-      "description": "As a researcher, I need to upload multiple PDFs for batch processing.",
-      "acceptanceCriteria": [
-        "Create migrations/003_create_batch_jobs_table.sql",
-        "Create table: batch_jobs with UUID id, total_files, completed_files, failed_files, status",
-        "Add JSONB: routing_stats {hybrid, vision_fallback, pending}, extraction_ids (array)",
-        "Add: created_at, estimated_completion, cost_estimate_usd, cost_savings_usd, webhook_url",
-        "Add POST /batch endpoint accepting multiple files (max 100)",
-        "Generate batch_job_id, store in database",
-        "Process each file through hybrid pipeline (can be synchronous for MVP)",
-        "Update batch_jobs.routing_stats as files complete",
-        "Return 202 with batch_job_id and status URL",
-        "Add GET /batch/{job_id} endpoint for status checking",
-        "Typecheck passes",
-        "Tests pass (small batch of 3-5 files)"
-      ],
-      "priority": 23,
-      "passes": false,
-      "notes": ""
-    },
-    {
-      "id": "US-024",
-      "title": "Implement webhook notifications",
-      "description": "As an API consumer, I need webhook notifications when extraction completes.",
-      "acceptanceCriteria": [
-        "Create app/services/webhook_sender.py",
-        "Implement send_webhook(webhook_url, payload, signature_key) function",
-        "Validate webhook_url is HTTPS (reject HTTP)",
-        "Generate HMAC-SHA256 signature of payload",
-        "Add X-Webhook-Signature header",
-        "POST payload to webhook_url with 30s timeout",
-        "Retry on failure: 3 retries with exponential backoff",
-        "Log webhook delivery attempts and responses",
-        "Call send_webhook after successful extraction if webhook_url provided",
-        "Payload format: {event: 'extraction.completed', extraction_id, status, data, timestamp}",
-        "Typecheck passes",
-        "Tests pass (with mock webhook server)"
-      ],
-      "priority": 24,
-      "passes": false,
-      "notes": ""
-    },
     {
       "id": "US-025",
       "title": "Implement context caching for cost optimization",

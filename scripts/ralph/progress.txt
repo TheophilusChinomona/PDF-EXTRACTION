@@ -102,3 +102,44 @@ Branch: ralph/hybrid-extraction-pipeline
 
 ---
 
+## 2026-01-28 22:30 - US-023 & US-024
+- **US-023: Batch Processing Endpoint**
+  - Created migrations/003_create_batch_jobs_table.sql with batch_jobs table
+  - Table tracks: status (enum), total_files, completed_files, failed_files
+  - JSONB routing_stats: {hybrid, vision_fallback, pending} for routing distribution
+  - UUID[] extraction_ids to link to individual extractions
+  - Cost tracking: cost_estimate_usd, cost_savings_usd (80% savings for hybrid mode)
+  - Created app/models/batch.py with Pydantic models (BatchJobCreate, BatchJobStatus, RoutingStats)
+  - Created app/db/batch_jobs.py with database operations
+  - Created app/routers/batch.py with POST /api/batch and GET /api/batch/{id} endpoints
+  - Batch processing is synchronous for MVP (processes files sequentially)
+  - Returns 202 Accepted with batch_job_id and status URL
+  - Updates routing_stats as each file completes
+  - Integrated batch router into main.py
+- **US-024: Webhook Notifications**
+  - Created app/services/webhook_sender.py
+  - send_webhook function: HTTPS validation, HMAC-SHA256 signature, 3 retries with exponential backoff
+  - send_extraction_completed_webhook: wrapper for extraction events
+  - send_batch_completed_webhook: wrapper for batch completion events
+  - Integrated into extraction router: calls webhook after successful extraction if webhook_url provided
+  - Fire-and-forget pattern using asyncio.create_task (non-blocking)
+  - Webhook payload format: {event, extraction_id/batch_job_id, status, data/summary, timestamp}
+  - X-Webhook-Signature header with HMAC-SHA256 for verification
+  - 30-second timeout per request
+  - Logs all webhook delivery attempts and responses
+- **Files changed:** migrations/003_create_batch_jobs_table.sql (new), app/models/batch.py (new), app/db/batch_jobs.py (new), app/routers/batch.py (new), app/services/webhook_sender.py (new), app/main.py, app/routers/extraction.py, tests/test_batch.py (new), tests/test_webhook_sender.py (new), app/middleware/rate_limit.py
+- **Tests:** 248 tests passing (11 new batch tests, 9 new webhook tests)
+- **Quality:** mypy --strict passing, fixed datetime.utcnow() deprecation warnings, removed unnecessary slowapi type: ignore comments
+- **Learnings for future iterations:**
+  - Batch endpoint uses rate limiting decorator @limiter.limit("2/minute") to prevent abuse
+  - Webhook fire-and-forget pattern: use asyncio.create_task() to avoid blocking extraction response
+  - HMAC signature uses GEMINI_API_KEY as default secret key (can be customized per webhook)
+  - Batch job status automatically transitions: pending → processing → completed/failed/partial
+  - Routing stats are updated atomically: fetch current state, increment counters, update in single transaction
+  - Cost savings calculation: hybrid mode saves 80%, so savings = cost * 4 (since cost is 20% of pure vision)
+  - Fire-and-forget webhooks mean extraction doesn't fail if webhook fails (logged instead)
+  - datetime.now(UTC) is preferred over datetime.utcnow() (deprecated in Python 3.14)
+  - slowapi now has type stubs - no need for type: ignore[import-untyped] comments
+
+---
+
