@@ -1,0 +1,649 @@
+{
+  "subject": "ENGLISH FIRST ADDITIONAL LANGUAGE P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A: COMPREHENSION",
+      "instructions": "Marking guidelines for the comprehension section.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Storytelling has been used for centuries/is an ancient art form/started a long time ago.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "It brings people closer to each other./It strengthens relationships./Storytelling allows people to share values/beliefs/cultural traditions.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept any TWO of the above answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Stories take the listener from his/her real world/problems/challenges to an imaginary/different world.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Decision-making is an emotional rather than a logical/rational process.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.1",
+          "parent_id": "1.4",
+          "text": "Data is factual/clinical. It is not subjective/does not influence emotions.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.2",
+          "parent_id": "1.4",
+          "text": "To provide credibility to the article as her findings support the information on the impact of storytelling.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "When we put ourselves in another person's position, we are better able to understand how they feel.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.1",
+          "parent_id": "1.6",
+          "text": "A/lessen",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "lessen"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.2",
+          "parent_id": "1.6",
+          "text": "It enables progress at work. It establishes close relationships between employees. It encourages teamwork. It creates a sense of being part of a work community.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept any TWO of the above answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7.1",
+          "parent_id": "1.7",
+          "text": "The writer means that the use of technology is increasing at a rapid rate.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7.2",
+          "parent_id": "1.7",
+          "text": "These methods have been tried and tested. These methods will work successfully.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Open-ended. Accept a suitable answer, e.g. Yes. It will remain popular because it helps people to maintain bonds with each other. It adds a human touch and is an effective way of keeping emotional ties strong. OR No. The popularity of storytelling will eventually decrease as more people embrace technology. Oral tradition will thus lose its impact.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers. A candidate can score 1 mark for an answer that is not well-substantiated. Accept a combination answer.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": null,
+          "text": "Open-ended. Accept a suitable answer, e.g. Yes. It is suitable because the passage reveals how storytelling impacts different aspects of human experience. The word 'power' implies that storytelling is an effective art form. Through storytelling, cultural beliefs and values are communicated from one generation to the next. OR No. While storytelling is viewed as an effective art form, calling it powerful is an exaggeration. For some people storytelling is an outdated and ineffective practice.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers. A candidate can score 1 mark for an answer that is not well-substantiated. Accept a combination answer.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "To emphasise that the majority of the South African population lives in three provinces.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Western Cape and Eastern Cape.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "It has the smallest/lowest population (of all South African provinces).",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Open-ended. Accept a suitable answer, e.g. Yes. The key provides the names of the provinces as only abbreviations are used in the graph. Without this information, it will be difficult to determine what each of the abbreviations stands for. OR No. Everyone knows what these abbreviations stand for. The graph can be interpreted without the key.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers. A candidate can score 1 mark for an answer that is not well-substantiated. Accept a combination answer.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION B: SUMMARY",
+      "instructions": "The following points form the answer to the question:",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Be with friends and family.",
+          "marks": 1,
+          "scenario": "'Visiting friends and spending time with loved ones can be good for your mental health.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Follow a healthy diet./Eat an assortment of healthy foods.",
+          "marks": 1,
+          "scenario": "'It is important to eat food that nourishes your body.'/'Having a balanced diet with a variety of healthy food can keep your blood sugar stable, help you to maintain a healthy weight and improve your mood.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Exercise every day to increase your heart rate.",
+          "marks": 1,
+          "scenario": "'Daily exercises that increase your heart rate are good for your body and mind.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Keep your mind clear./Do not dwell on the past.",
+          "marks": 1,
+          "scenario": "'Another way to practise self-care is to have a clear mind.'/'Your attention and focus should be on the present moment.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Expand your knowledge on various topics.",
+          "marks": 1,
+          "scenario": "'Broaden your general knowledge. Exposure to new information can be exciting and it also decreases boredom and overthinking.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "Spend some time every day where you focus on yourself./Set aside time for yourself daily.",
+          "marks": 1,
+          "scenario": "'To care for yourself effectively, you need to spend some time every day focusing on yourself.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Practise a variety of relaxing activities.",
+          "marks": 1,
+          "scenario": "'Engage in various restful activities, like reading and meditation.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.8",
+          "parent_id": null,
+          "text": "Get a good night's rest/enough sleep.",
+          "marks": 1,
+          "scenario": "'Get good quality sleep as the benefits of a good night's sleep are well documented. A lack of quality sleep can negatively affect your health.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SECTION C: LANGUAGE - ANALYSING AN ADVERTISEMENT",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "D/compound",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "D",
+              "text": "compound"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "These words reassure the reader that the product is reliable/effective/credible.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "The advertiser captures the reader’s attention by using the following: large size of the bottle; bold font; image of the tooth with the target on it; lower case to indicate the product name; repeating the product name on the cap; a shaded area on the bottle label to resemble the gums on which the product works.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept any TWO of the above answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "By visiting the company's website/www.parodontax.co.za. OR By looking at the full range of products that is available in a Clicks store.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Health/Healthiness",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "To show that other parodontax products are available and to persuade the reader to buy/use these products. OR To persuade the reader to buy/use these products by emphasising the effectiveness of the product.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Open-ended. Accept a suitable answer, e.g. Yes. The product has been scientifically proven to work. It is alcohol free. It is three times more effective (parodontax targets 3x more plaque.) It is available in two variants. It claims to keep your gums and teeth healthy. OR No. The product focuses on gum health and not all people care about the health of their gums. There are only two variants therefore the advertisement will not appeal to many people.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Do not award a mark for Yes or No. The above are merely examples. A candidate can score 1 mark for an answer that is not well-substantiated. Accept a combination answer.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "QUESTION 4: ANALYSING A CARTOON",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "The outside/entrance of a house. There are shrubs/stairs/a door/a rubbish bin/a garden fence.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "He was punished/not allowed to play.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Dennis' mother says she is sorry to hear that Tommy had lied to his mother. OR Her downturned mouth shows her disappointment.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "I lie on my bed after school.",
+          "marks": 1,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5.1",
+          "parent_id": "4.5",
+          "text": "There are no speech bubbles/words in this frame. He looks up at his parents with his mouth closed/lips pursed.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5.2",
+          "parent_id": "4.5",
+          "text": "To allow the reader to focus on Dennis/to show how small Dennis feels (because he is guilty of lying to his parents).",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Open-ended. Accept a suitable answer, e.g. Yes. He does not respond to his mother's question; he simply leaves the house. OR No. He walks away without responding as he has to go somewhere.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NOTE: Do not award a mark for Yes or No. The above are merely examples. A candidate can score 1 mark for an answer that is not well-substantiated. Accept a combination answer.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "QUESTION 5: LANGUAGE AND EDITING SKILLS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "(a) feels (b) of (c) launched (d) It's/It is",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "doesn't it/does it not",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "The bundle is inspired by Eben Etzebeth, known as Elizabedi because/as he had KFC delivered to the Springboks' tour bus.",
+          "marks": 1,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Fans of the team captured the moment.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "The order will be the inspiration behind the 'Elizabedi' Bundle, an exclusive meal for R44,44 in honour of the No. 4 jersey.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Number",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "abbreviation",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "text": "Grant Macpherson said (that) they understood the need for Etzebeth to kick off an important event with South Africa's most loved chicken.",
+          "marks": 3,
+          "scenario": null,
+          "context": "NOTE: Award ONE mark for each underlined change and ONE mark for correct punctuation.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": "5.1",
+          "text": "more ideal",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "curiosity",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "open – verb; to – preposition",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "discovery",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "think alike",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": "5.2",
+          "text": "sprout",
+          "marks": 1,
+          "scenario": null,
+          "context": "NOTE: Accept other suitable answers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 13080,
+    "cached_tokens_saved": 0
+  }
+}
