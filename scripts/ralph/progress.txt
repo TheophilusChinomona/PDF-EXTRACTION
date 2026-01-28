@@ -170,3 +170,32 @@ Branch: ralph/hybrid-extraction-pipeline
 - OpenDataLoader requires quiet=True parameter to suppress console output during conversion
 ---
 
+## 2026-01-28 09:00 - US-007
+- Implemented quality scoring for routing decisions in hybrid extraction pipeline
+- Created calculate_quality_score() function with weighted scoring criteria:
+  - Text completeness (40%): >1000 chars = 0.4, >500 = 0.3, >100 = 0.2
+  - Structure detection (30%): >50 elements = 0.3, >20 = 0.2, >5 = 0.1
+  - Heading hierarchy (15%): >=5 headings = 0.15, >=3 = 0.1, >=1 = 0.05
+  - Table extraction (15%): valid tables (>3 rows) = 0.15, some tables = 0.1
+- Updated extract_pdf_structure() to calculate and include quality_score in result
+- Score is capped at 1.0 using min(score, 1.0)
+- Created comprehensive test suite with 16 new tests covering:
+  - All scoring thresholds and boundary conditions
+  - Realistic high-quality and low-quality PDF scenarios
+  - Edge cases (empty documents, mixed table quality)
+  - Floating-point precision handling
+- All 27 tests pass, typecheck passes with mypy --strict
+
+**Files changed:**
+- Updated: app/services/opendataloader_extractor.py (added calculate_quality_score function)
+- Updated: tests/test_opendataloader_extractor.py (added 16 quality scoring tests)
+- Updated: scripts/ralph/prd.json (marked US-007 as passes: true)
+
+**Learnings for future iterations:**
+- Quality score determines routing: <0.7 triggers Vision fallback, >=0.7 uses hybrid mode
+- Valid tables are defined as having >3 rows to filter out single-row artifacts
+- Floating-point arithmetic requires approximate comparisons in tests (use abs(a - b) < 0.001)
+- Quality scoring is now integrated into extract_pdf_structure() - no separate call needed
+- The quality_score field in DocumentStructure is no longer a placeholder
+---
+
