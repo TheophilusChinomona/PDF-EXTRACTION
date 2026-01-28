@@ -194,7 +194,7 @@
         "Tests pass (test various invalid file scenarios)"
       ],
       "priority": 10,
-      "passes": false,
+      "passes": true,
       "notes": ""
     },
     {

@@ -263,3 +263,39 @@ Branch: ralph/hybrid-extraction-pipeline
 - Update dependent tests when removing stubs - check for NotImplementedError expectations
 ---
 
+## 2026-01-28 12:00 - US-010
+- Implemented file upload validation with security checks
+- Created app/services/file_validator.py with validate_pdf() async function
+- Implemented size validation (max 200MB, returns 413 if exceeded)
+- Implemented empty file check (returns 400 if 0 bytes)
+- Implemented MIME type validation using python-magic (must be 'application/pdf')
+- Created sanitize_filename() function that:
+  - Removes path traversal attempts (../, ..\, etc.)
+  - Strips directory paths using Path(filename).name
+  - Removes null bytes and special characters
+  - Ensures .pdf extension is present
+  - Limits filename length to 255 characters
+- Implemented SHA-256 hash calculation for deduplication
+- Returns tuple: (content: bytes, file_hash: str, sanitized_filename: str)
+- Created comprehensive test suite: tests/test_file_validator.py with 20 tests
+- All tests pass (20/20), typecheck passes with mypy --strict
+- Added python-magic-bin to requirements.txt for Windows compatibility
+
+**Files changed:**
+- Created: app/services/file_validator.py (120 lines)
+- Created: tests/test_file_validator.py (281 lines)
+- Updated: requirements.txt (added python-magic-bin for Windows)
+- Updated: scripts/ralph/prd.json (marked US-010 as passes: true)
+
+**Learnings for future iterations:**
+- python-magic requires python-magic-bin on Windows to provide the libmagic DLL
+- Add platform-specific dependencies in requirements.txt using sys_platform marker
+- Path(filename).name is best practice for extracting base filename and preventing path traversal
+- Sanitize filenames AFTER extracting base name, not before (more effective)
+- FastAPI UploadFile.read() is async - must use await
+- HTTPException with status_code and detail is FastAPI's standard error pattern
+- Tuple return types work well for multi-value validation results
+- File hash (SHA-256) enables deduplication checks before processing
+- Test both boundary conditions (exactly 200MB passes, 200MB+1 fails)
+---
+
