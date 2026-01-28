@@ -142,6 +142,6 @@ async def version_info() -> Dict[str, str]:
     }
 
 
-# TODO: Add extraction routers in future user stories
-# from app.routers import extraction
-# app.include_router(extraction.router, prefix="/api/v1", tags=["extraction"])
+# Include extraction router
+from app.routers import extraction
+app.include_router(extraction.router)
