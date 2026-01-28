@@ -530,3 +530,320 @@ class TestExtractEndpoint:
 
         # Verify cleanup was attempted
         mock_remove.assert_called_once()
+
+
+class TestGetExtractionByIdEndpoint:
+    """Tests for GET /api/extractions/{extraction_id} endpoint."""
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_extraction_success(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test successful extraction retrieval by ID."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "file_name": "test.pdf",
+            "status": "completed",
+            "metadata": {"title": "Test Paper"},
+            "confidence_score": 0.95,
+            "bounding_boxes": {
+                "title_1": {"x1": 100, "y1": 200, "x2": 300, "y2": 220, "page": 1}
+            },
+            "processing_metadata": {"method": "hybrid"},
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["id"] == "12345678-1234-5678-1234-567812345678"
+        assert result["status"] == "completed"
+        assert "bounding_boxes" in result
+        assert "processing_metadata" in result
+
+        # Verify function call
+        mock_get_extraction.assert_called_once_with(
+            mock_supabase_client.return_value,
+            "12345678-1234-5678-1234-567812345678",
+        )
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_extraction_not_found(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test extraction retrieval when ID not found."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.return_value = None
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678")
+
+        # Assertions
+        assert response.status_code == status.HTTP_404_NOT_FOUND
+        assert "not found" in response.json()["detail"]
+
+    def test_get_extraction_invalid_uuid(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test extraction retrieval with invalid UUID format."""
+        # Make request with invalid UUID
+        response = client.get("/api/extractions/not-a-valid-uuid")
+
+        # Assertions
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Invalid UUID format" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_extraction_database_error(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test extraction retrieval when database error occurs."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.side_effect = Exception("Database connection failed")
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678")
+
+        # Assertions
+        assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
+        assert "Database error" in response.json()["detail"]
+
+
+class TestListExtractionsEndpoint:
+    """Tests for GET /api/extractions endpoint."""
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_success(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test successful listing of extractions."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        extractions_data = [
+            {
+                "id": "uuid-1",
+                "file_name": "doc1.pdf",
+                "status": "completed",
+                "created_at": "2024-01-01T00:00:00Z",
+            },
+            {
+                "id": "uuid-2",
+                "file_name": "doc2.pdf",
+                "status": "completed",
+                "created_at": "2024-01-02T00:00:00Z",
+            },
+        ]
+        mock_list_extractions.return_value = extractions_data
+
+        # Make request (default pagination)
+        response = client.get("/api/extractions")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert "data" in result
+        assert "pagination" in result
+        assert len(result["data"]) == 2
+        assert result["pagination"]["limit"] == 50
+        assert result["pagination"]["offset"] == 0
+        assert result["pagination"]["count"] == 2
+        assert result["pagination"]["has_more"] is False
+
+        # Verify function call with defaults
+        mock_list_extractions.assert_called_once_with(
+            mock_supabase_client.return_value,
+            limit=50,
+            offset=0,
+            status=None,
+        )
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_with_pagination(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with custom pagination."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        # Return exactly 10 items (same as limit) to test has_more=True
+        mock_list_extractions.return_value = [
+            {"id": f"uuid-{i}", "file_name": f"doc{i}.pdf", "status": "completed"}
+            for i in range(10)
+        ]
+
+        # Make request with custom pagination
+        response = client.get("/api/extractions?limit=10&offset=20")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["pagination"]["limit"] == 10
+        assert result["pagination"]["offset"] == 20
+        assert result["pagination"]["count"] == 10
+        assert result["pagination"]["has_more"] is True  # count == limit
+
+        # Verify function call
+        mock_list_extractions.assert_called_once_with(
+            mock_supabase_client.return_value,
+            limit=10,
+            offset=20,
+            status=None,
+        )
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_with_status_filter(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with status filter."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        failed_extractions = [
+            {
+                "id": "uuid-1",
+                "file_name": "failed.pdf",
+                "status": "failed",
+                "error_message": "Processing timeout",
+            }
+        ]
+        mock_list_extractions.return_value = failed_extractions
+
+        # Make request with status filter
+        response = client.get("/api/extractions?status_filter=failed")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert len(result["data"]) == 1
+        assert result["data"][0]["status"] == "failed"
+
+        # Verify function call with status filter
+        mock_list_extractions.assert_called_once_with(
+            mock_supabase_client.return_value,
+            limit=50,
+            offset=0,
+            status="failed",
+        )
+
+    def test_list_extractions_invalid_limit_too_small(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with invalid limit (too small)."""
+        response = client.get("/api/extractions?limit=0")
+
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Limit must be between 1 and 100" in response.json()["detail"]
+
+    def test_list_extractions_invalid_limit_too_large(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with invalid limit (too large)."""
+        response = client.get("/api/extractions?limit=101")
+
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Limit must be between 1 and 100" in response.json()["detail"]
+
+    def test_list_extractions_invalid_offset(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with negative offset."""
+        response = client.get("/api/extractions?offset=-1")
+
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Offset must be non-negative" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_invalid_status_filter(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with invalid status filter."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_list_extractions.side_effect = ValueError("Invalid status filter 'invalid'")
+
+        # Make request with invalid status
+        response = client.get("/api/extractions?status_filter=invalid")
+
+        # Assertions
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Invalid status filter" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_database_error(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions when database error occurs."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_list_extractions.side_effect = Exception("Database connection failed")
+
+        # Make request
+        response = client.get("/api/extractions")
+
+        # Assertions
+        assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
+        assert "Database error" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.list_extractions")
+    def test_list_extractions_empty_result(
+        self,
+        mock_list_extractions: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test listing extractions with no results."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_list_extractions.return_value = []
+
+        # Make request
+        response = client.get("/api/extractions")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["data"] == []
+        assert result["pagination"]["count"] == 0
+        assert result["pagination"]["has_more"] is False

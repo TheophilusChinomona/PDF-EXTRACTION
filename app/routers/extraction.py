@@ -16,6 +16,7 @@ from app.db.extractions import (
     check_duplicate,
     create_extraction,
     get_extraction,
+    list_extractions,
 )
 from app.db.supabase_client import get_supabase_client
 from app.models.extraction import ExtractionResult
@@ -149,3 +150,138 @@ async def extract_pdf(
             except Exception:
                 # Silently ignore cleanup errors
                 pass
+
+
+@router.get("/extractions/{extraction_id}", status_code=status.HTTP_200_OK)
+async def get_extraction_by_id(extraction_id: str) -> Response:
+    """
+    Retrieve extraction result by ID.
+
+    This endpoint fetches a previously completed extraction result
+    by its UUID, including all extracted data, bounding boxes, and
+    processing metadata.
+
+    Args:
+        extraction_id: UUID of the extraction to retrieve
+
+    Returns:
+        200: Extraction result found
+        400: Invalid UUID format
+        404: Extraction not found
+        500: Database error
+
+    Raises:
+        HTTPException: Various error conditions with appropriate status codes
+    """
+    # Validate UUID format
+    try:
+        uuid.UUID(extraction_id)
+    except ValueError:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid UUID format: {extraction_id}"
+        )
+
+    # Retrieve extraction from database
+    supabase_client = get_supabase_client()
+
+    try:
+        result = await get_extraction(supabase_client, extraction_id)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Database error: {str(e)}"
+        )
+
+    if result is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Extraction not found: {extraction_id}"
+        )
+
+    # Return extraction result as JSON
+    import json
+    return Response(
+        content=json.dumps(result),
+        media_type="application/json",
+        status_code=status.HTTP_200_OK
+    )
+
+
+@router.get("/extractions", status_code=status.HTTP_200_OK)
+async def list_all_extractions(
+    limit: int = 50,
+    offset: int = 0,
+    status_filter: Optional[str] = None
+) -> Response:
+    """
+    List extraction records with pagination and optional status filtering.
+
+    This endpoint returns a paginated list of extraction records,
+    ordered by creation date (newest first). Results can be filtered
+    by status.
+
+    Args:
+        limit: Maximum number of records to return (default: 50, max: 100)
+        offset: Number of records to skip for pagination (default: 0)
+        status_filter: Optional status filter ('pending', 'completed', 'failed', 'partial')
+
+    Returns:
+        200: List of extractions with pagination metadata
+        400: Invalid parameters (limit, offset, or status)
+        500: Database error
+
+    Raises:
+        HTTPException: Various error conditions with appropriate status codes
+    """
+    # Validate pagination parameters
+    if limit < 1 or limit > 100:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Limit must be between 1 and 100"
+        )
+
+    if offset < 0:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Offset must be non-negative"
+        )
+
+    # Retrieve extractions from database
+    supabase_client = get_supabase_client()
+
+    try:
+        results = await list_extractions(
+            supabase_client,
+            limit=limit,
+            offset=offset,
+            status=status_filter
+        )
+    except ValueError as e:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=str(e)
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Database error: {str(e)}"
+        )
+
+    # Build response with pagination metadata
+    response_data = {
+        "data": results,
+        "pagination": {
+            "limit": limit,
+            "offset": offset,
+            "count": len(results),
+            "has_more": len(results) == limit
+        }
+    }
+
+    import json
+    return Response(
+        content=json.dumps(response_data, default=str),  # default=str handles UUID/datetime
+        media_type="application/json",
+        status_code=status.HTTP_200_OK
+    )
