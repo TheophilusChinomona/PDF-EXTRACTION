@@ -105,10 +105,16 @@ EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Inte
 * **context:** Use for introductory framing text that sets up the essay topic.
 * **scenario:** Use ONLY for case studies with named entities (e.g., "PETRA FARMING purchased a franchise...").
 
-### 6. METADATA
-Extract from the cover page: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
+### 6. LANGUAGE DETECTION
+* Detect the language from the cover page metadata or document content
+* Use the FULL language name: English, Afrikaans, IsiZulu, IsiXhosa, Sepedi, Setswana, Sesotho, Xitsonga, SiSwati, Tshivenda, IsiNdebele
+* If the paper title says "Eng" → English, "Afr" → Afrikaans
+* Store in the `language` field
 
-### 7. QUESTION IDS AND PARENT LINKING
+### 7. METADATA
+Extract from the cover page: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, language, total_marks.
+
+### 8. QUESTION IDS AND PARENT LINKING
 * **id:** Use exact numbering as shown in the paper (1.1.1, 2.3.2, etc.). Do not renumber.
 * **parent_id:** For sub-questions that share a scenario or context, set parent_id to link them:
   - Question 2.6.1 → parent_id: "2.6"
@@ -239,7 +245,8 @@ def extract_with_vision_fallback(
         # Build extraction prompt for exam paper Vision analysis
         prompt = """Analyze this examination paper PDF and extract ALL content.
 
-METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks from cover page.
+METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, language, total_marks from cover page.
+LANGUAGE: Detect document language (English, Afrikaans, IsiZulu, IsiXhosa, Sepedi, Setswana, Sesotho, Xitsonga, SiSwati, Tshivenda, IsiNdebele). Title hints: "Eng" = English, "Afr" = Afrikaans.
 
 QUESTION GROUPS (CRITICAL):
 - group_id MUST be "QUESTION 1", "QUESTION 2", "QUESTION 3", etc. based on main question number
@@ -403,7 +410,8 @@ Here is the document in Markdown format:
 {doc_structure.markdown}
 ---
 
-METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
+METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, language, total_marks.
+LANGUAGE: Detect document language (English, Afrikaans, IsiZulu, IsiXhosa, Sepedi, Setswana, Sesotho, Xitsonga, SiSwati, Tshivenda, IsiNdebele). Title hints: "Eng" = English, "Afr" = Afrikaans.
 
 GROUPS (CRITICAL):
 - group_id MUST be "QUESTION 1", "QUESTION 2", etc. based on main question number

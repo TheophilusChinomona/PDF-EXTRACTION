@@ -35,6 +35,7 @@ def print_extraction_results(result) -> None:
     # Exam Paper Metadata
     print("EXAM PAPER METADATA:")
     print(f"  Subject: {result.subject}")
+    print(f"  Language: {result.language}")
     print(f"  Syllabus: {result.syllabus}")
     print(f"  Year: {result.year}")
     print(f"  Session: {result.session}")

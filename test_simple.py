@@ -61,6 +61,7 @@ async def test_extraction(pdf_path: str) -> None:
         # Exam paper metadata
         print(f"\nExam Paper Details:")
         print(f"  Subject: {result.subject}")
+        print(f"  Language: {result.language}")
         print(f"  Syllabus: {result.syllabus}")
         print(f"  Year: {result.year}")
         print(f"  Session: {result.session}")

@@ -117,6 +117,7 @@ class FullExamPaper(GeminiCompatibleModel):
     year: int = Field(description="Examination year, e.g., 2025")
     session: str = Field(description="Examination session, e.g., 'MAY/JUNE' or 'NOV'")
     grade: str = Field(description="Grade level, e.g., '12'")
+    language: str = Field(default="English", description="Document language, e.g., 'English', 'Afrikaans', 'IsiZulu'")
     total_marks: int = Field(default=150, description="Total marks for the paper")
     groups: List[QuestionGroup] = Field(
         default_factory=list,
