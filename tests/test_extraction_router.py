@@ -847,3 +847,321 @@ class TestListExtractionsEndpoint:
         assert result["data"] == []
         assert result["pagination"]["count"] == 0
         assert result["pagination"]["has_more"] is False
+
+
+class TestGetBoundingBoxesEndpoint:
+    """Tests for GET /api/extractions/{extraction_id}/bounding-boxes endpoint."""
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_bounding_boxes_success(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test successful retrieval of all bounding boxes."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {
+                "title_1": {"x1": 100, "y1": 200, "x2": 300, "y2": 220, "page": 1},
+                "section_1": {"x1": 100, "y1": 250, "x2": 400, "y2": 270, "page": 1},
+                "table_1": {"x1": 100, "y1": 300, "x2": 500, "y2": 400, "page": 2},
+            },
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/bounding-boxes")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert len(result) == 3
+        assert "title_1" in result
+        assert "section_1" in result
+        assert "table_1" in result
+        assert result["title_1"]["page"] == 1
+        assert result["table_1"]["page"] == 2
+
+        # Verify function call
+        mock_get_extraction.assert_called_once_with(
+            mock_supabase_client.return_value,
+            "12345678-1234-5678-1234-567812345678",
+        )
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_bounding_boxes_empty(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test retrieval when no bounding boxes exist."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {},
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/bounding-boxes")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result == {}
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_bounding_boxes_not_found(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test bounding boxes retrieval when extraction not found."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.return_value = None
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/bounding-boxes")
+
+        # Assertions
+        assert response.status_code == status.HTTP_404_NOT_FOUND
+        assert "not found" in response.json()["detail"]
+
+    def test_get_bounding_boxes_invalid_uuid(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test bounding boxes retrieval with invalid UUID format."""
+        # Make request with invalid UUID
+        response = client.get("/api/extractions/not-a-valid-uuid/bounding-boxes")
+
+        # Assertions
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Invalid UUID format" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_bounding_boxes_database_error(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test bounding boxes retrieval when database error occurs."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.side_effect = Exception("Database connection failed")
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/bounding-boxes")
+
+        # Assertions
+        assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
+        assert "Database error" in response.json()["detail"]
+
+
+class TestGetElementEndpoint:
+    """Tests for GET /api/extractions/{extraction_id}/elements/{element_id} endpoint."""
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_success_section(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test successful retrieval of a section element."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        bbox = {"x1": 100, "y1": 200, "x2": 300, "y2": 220, "page": 1}
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {
+                "section_1": bbox,
+            },
+            "sections": [
+                {
+                    "heading": "Introduction",
+                    "content": "This is the introduction section.",
+                    "page_number": 1,
+                    "bbox": bbox,
+                }
+            ],
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/section_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["element_id"] == "section_1"
+        assert result["element_type"] == "section"
+        assert result["bounding_box"] == bbox
+        assert result["content"]["heading"] == "Introduction"
+        assert result["content"]["content"] == "This is the introduction section."
+        assert result["content"]["page_number"] == 1
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_success_table(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test successful retrieval of a table element."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        bbox = {"x1": 100, "y1": 300, "x2": 500, "y2": 400, "page": 2}
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {
+                "table_1": bbox,
+            },
+            "tables": [
+                {
+                    "caption": "Table 1: Results",
+                    "page_number": 2,
+                    "data": [{"col1": "value1", "col2": "value2"}],
+                    "bbox": bbox,
+                }
+            ],
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/table_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["element_id"] == "table_1"
+        assert result["element_type"] == "table"
+        assert result["bounding_box"] == bbox
+        assert result["content"]["caption"] == "Table 1: Results"
+        assert result["content"]["page_number"] == 2
+        assert len(result["content"]["data"]) == 1
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_no_content_match(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test element retrieval when bbox exists but no content matches."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        bbox = {"x1": 100, "y1": 200, "x2": 300, "y2": 220, "page": 1}
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {
+                "element_1": bbox,
+            },
+            "sections": [],
+            "tables": [],
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/element_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_200_OK
+        result = response.json()
+        assert result["element_id"] == "element_1"
+        assert result["element_type"] == "element"
+        assert result["bounding_box"] == bbox
+        assert result["content"] == {}
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_not_found(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test element retrieval when element_id not found."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        extraction_data = {
+            "id": "12345678-1234-5678-1234-567812345678",
+            "bounding_boxes": {
+                "other_element": {"x1": 100, "y1": 200, "x2": 300, "y2": 220, "page": 1},
+            },
+        }
+        mock_get_extraction.return_value = extraction_data
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/missing_element")
+
+        # Assertions
+        assert response.status_code == status.HTTP_404_NOT_FOUND
+        assert "Element not found" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_extraction_not_found(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test element retrieval when extraction not found."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.return_value = None
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/element_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_404_NOT_FOUND
+        assert "Extraction not found" in response.json()["detail"]
+
+    def test_get_element_invalid_uuid(
+        self,
+        client: TestClient,
+    ) -> None:
+        """Test element retrieval with invalid UUID format."""
+        # Make request with invalid UUID
+        response = client.get("/api/extractions/not-a-valid-uuid/elements/element_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+        assert "Invalid UUID format" in response.json()["detail"]
+
+    @patch("app.routers.extraction.get_supabase_client")
+    @patch("app.routers.extraction.get_extraction")
+    def test_get_element_database_error(
+        self,
+        mock_get_extraction: AsyncMock,
+        mock_supabase_client: MagicMock,
+        client: TestClient,
+    ) -> None:
+        """Test element retrieval when database error occurs."""
+        # Setup mocks
+        mock_supabase_client.return_value = MagicMock()
+        mock_get_extraction.side_effect = Exception("Database connection failed")
+
+        # Make request
+        response = client.get("/api/extractions/12345678-1234-5678-1234-567812345678/elements/element_1")
+
+        # Assertions
+        assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
+        assert "Database error" in response.json()["detail"]

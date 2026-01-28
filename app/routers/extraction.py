@@ -285,3 +285,176 @@ async def list_all_extractions(
         media_type="application/json",
         status_code=status.HTTP_200_OK
     )
+
+
+@router.get("/extractions/{extraction_id}/bounding-boxes", status_code=status.HTTP_200_OK)
+async def get_bounding_boxes(extraction_id: str) -> Response:
+    """
+    Retrieve all bounding boxes for an extraction.
+
+    This endpoint returns all bounding box coordinates for elements
+    in the extracted PDF, keyed by element_id. Useful for implementing
+    citation features that need to link extracted content to specific
+    locations in the PDF.
+
+    Args:
+        extraction_id: UUID of the extraction
+
+    Returns:
+        200: Dictionary of bounding boxes (element_id -> bbox)
+        400: Invalid UUID format
+        404: Extraction not found
+        500: Database error
+
+    Raises:
+        HTTPException: Various error conditions with appropriate status codes
+    """
+    # Validate UUID format
+    try:
+        uuid.UUID(extraction_id)
+    except ValueError:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid UUID format: {extraction_id}"
+        )
+
+    # Retrieve extraction from database
+    supabase_client = get_supabase_client()
+
+    try:
+        result = await get_extraction(supabase_client, extraction_id)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Database error: {str(e)}"
+        )
+
+    if result is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Extraction not found: {extraction_id}"
+        )
+
+    # Extract bounding_boxes from result
+    bounding_boxes = result.get("bounding_boxes", {})
+
+    import json
+    return Response(
+        content=json.dumps(bounding_boxes),
+        media_type="application/json",
+        status_code=status.HTTP_200_OK
+    )
+
+
+@router.get("/extractions/{extraction_id}/elements/{element_id}", status_code=status.HTTP_200_OK)
+async def get_element(extraction_id: str, element_id: str) -> Response:
+    """
+    Retrieve a specific element with its bounding box and content.
+
+    This endpoint returns detailed information about a specific element
+    (heading, paragraph, table, etc.) including its bounding box coordinates
+    and associated content. Useful for implementing precise citation features.
+
+    Args:
+        extraction_id: UUID of the extraction
+        element_id: ID of the element (from bounding_boxes keys)
+
+    Returns:
+        200: Element data with bounding box, type, and content
+        400: Invalid UUID format
+        404: Extraction or element not found
+        500: Database error
+
+    Raises:
+        HTTPException: Various error conditions with appropriate status codes
+    """
+    # Validate UUID format
+    try:
+        uuid.UUID(extraction_id)
+    except ValueError:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid UUID format: {extraction_id}"
+        )
+
+    # Retrieve extraction from database
+    supabase_client = get_supabase_client()
+
+    try:
+        result = await get_extraction(supabase_client, extraction_id)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Database error: {str(e)}"
+        )
+
+    if result is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Extraction not found: {extraction_id}"
+        )
+
+    # Extract bounding_boxes and find the specific element
+    bounding_boxes = result.get("bounding_boxes", {})
+
+    if element_id not in bounding_boxes:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Element not found: {element_id}"
+        )
+
+    # Get the bounding box for this element
+    bbox = bounding_boxes[element_id]
+
+    # Try to find associated content from sections, tables, or other structured data
+    element_content = None
+    element_type = "unknown"
+
+    # Check sections for matching element
+    sections = result.get("sections", [])
+    for section in sections:
+        if isinstance(section, dict):
+            section_bbox = section.get("bbox")
+            if section_bbox and section_bbox == bbox:
+                element_content = {
+                    "heading": section.get("heading"),
+                    "content": section.get("content"),
+                    "page_number": section.get("page_number")
+                }
+                element_type = "section"
+                break
+
+    # Check tables if not found in sections
+    if element_content is None:
+        tables = result.get("tables", [])
+        for table in tables:
+            if isinstance(table, dict):
+                table_bbox = table.get("bbox")
+                if table_bbox and table_bbox == bbox:
+                    element_content = {
+                        "caption": table.get("caption"),
+                        "page_number": table.get("page_number"),
+                        "data": table.get("data")
+                    }
+                    element_type = "table"
+                    break
+
+    # If no specific content found, return just the bounding box
+    if element_content is None:
+        element_content = {}
+        element_type = "element"
+
+    # Build response
+    element_data = {
+        "element_id": element_id,
+        "element_type": element_type,
+        "bounding_box": bbox,
+        "content": element_content
+    }
+
+    import json
+    return Response(
+        content=json.dumps(element_data),
+        media_type="application/json",
+        status_code=status.HTTP_200_OK
+    )
