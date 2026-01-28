@@ -234,7 +234,7 @@
         "Document schema in comments"
       ],
       "priority": 12,
-      "passes": false,
+      "passes": true,
       "notes": ""
     },
     {

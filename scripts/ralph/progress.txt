@@ -324,3 +324,38 @@ Branch: ralph/hybrid-extraction-pipeline
 - Supabase package has deprecation warning for gotrue (migrate to supabase_auth in future)
 ---
 
+## 2026-01-28 14:00 - US-012
+- Implemented database schema migration for extractions table
+- Created migrations/001_create_extractions_table.sql (113 lines)
+- Created enum types: extraction_status (pending, completed, failed, partial) and processing_method_type (hybrid, vision_fallback, opendataloader_only)
+- Created extractions table with UUID primary key
+- Added file metadata columns: file_name, file_size_bytes, file_hash (unique index)
+- Added processing columns: status, processing_method, quality_score (0-1), confidence_score (0-1)
+- Added JSONB columns for structured data: metadata, sections, figures, tables, references, bounding_boxes
+- Added text columns: abstract, error_message
+- Added performance tracking: processing_time_seconds, cost_estimate_usd, retry_count (default 0)
+- Added timestamps: created_at (default NOW()), updated_at (auto-updated via trigger)
+- Added webhook_url for optional notification callbacks
+- Created indexes: unique file_hash, status, created_at DESC, processing_method, composite status+created_at
+- Added comprehensive documentation via COMMENT statements for all columns
+- Fixed typecheck issue in pdf_extractor.py: added explicit type hint for contents parameter in Vision fallback
+- All 110 tests pass, mypy --strict passes
+
+**Files changed:**
+- Created: migrations/001_create_extractions_table.sql
+- Updated: app/services/pdf_extractor.py (typecheck fix)
+- Updated: scripts/ralph/prd.json (marked US-012 as passes: true)
+
+**Learnings for future iterations:**
+- SQL migrations should use IF NOT EXISTS for idempotency
+- Enum types must be created before referencing them in CREATE TABLE
+- DECIMAL(4,3) provides 0.000-1.000 precision for scores (4 total digits, 3 after decimal)
+- CHECK constraints validate data integrity at database level
+- Unique indexes serve dual purpose: enforce uniqueness + optimize lookups
+- Composite indexes (status, created_at) optimize common query patterns (e.g., "get recent completed extractions")
+- UPDATE trigger with NOW() keeps updated_at synchronized automatically
+- COMMENT statements document schema intent for future developers
+- JSONB columns allow flexible schema for extracted content while maintaining SQL query capabilities
+- Mypy strict mode requires explicit typing for list literals passed to complex union type parameters
+---
+
