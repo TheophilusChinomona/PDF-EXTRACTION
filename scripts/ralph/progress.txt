@@ -299,3 +299,28 @@ Branch: ralph/hybrid-extraction-pipeline
 - Test both boundary conditions (exactly 200MB passes, 200MB+1 fails)
 ---
 
+## 2026-01-28 13:00 - US-011
+- Implemented Supabase client initialization with error handling
+- Created app/db/supabase_client.py with get_supabase_client() function
+- Uses supabase.create_client(url, key) to initialize client
+- Credentials loaded from Settings model (SUPABASE_URL, SUPABASE_KEY)
+- Validation handled by Settings validators - raises ValidationError if missing/invalid
+- Wraps create_client exceptions with clear error messages
+- Created comprehensive test suite: tests/test_supabase_client.py with 11 tests
+- All tests pass (11/11), typecheck passes with mypy --strict
+
+**Files changed:**
+- Created: app/db/supabase_client.py (38 lines)
+- Created: tests/test_supabase_client.py (217 lines)
+- Updated: scripts/ralph/prd.json (marked US-011 as passes: true)
+
+**Learnings for future iterations:**
+- Import pattern: from supabase import create_client, Client
+- create_client(url, key) returns Client object with .table() and other methods
+- Credentials validation happens in Settings model before get_supabase_client is called
+- Test pattern: Mock create_client to avoid actual network calls
+- Client return type is Client from supabase package
+- Errors from create_client should be wrapped with ValueError for clarity
+- Supabase package has deprecation warning for gotrue (migrate to supabase_auth in future)
+---
+

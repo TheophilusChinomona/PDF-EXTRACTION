@@ -213,7 +213,7 @@
         "Tests pass (with mocked Supabase client)"
       ],
       "priority": 11,
-      "passes": false,
+      "passes": true,
       "notes": ""
     },
     {
