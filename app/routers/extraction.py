@@ -7,7 +7,7 @@ Provides endpoints for uploading PDFs and retrieving extraction results.
 import os
 import tempfile
 import uuid
-from typing import Any, Optional
+from typing import Any, Optional, Union
 
 from fastapi import APIRouter, File, Form, HTTPException, Request, Response, UploadFile, status
 from pydantic import ValidationError
@@ -20,13 +20,21 @@ from app.db.extractions import (
     update_extraction_status,
     update_extraction,
 )
+from app.db.memo_extractions import (
+    check_memo_duplicate,
+    create_memo_extraction,
+    update_memo_extraction_status,
+    update_memo_extraction,
+)
 from app.db.review_queue import add_to_review_queue
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
 from app.models.extraction import FullExamPaper
+from app.models.memo_extraction import MarkingGuideline
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
+from app.services.memo_extractor import extract_memo_data_hybrid, PartialMemoExtractionError
 from app.services.webhook_sender import send_extraction_completed_webhook
 
 router = APIRouter(prefix="/api", tags=["extraction"])
@@ -39,6 +47,7 @@ async def extract_pdf(
     request: Request,
     file: UploadFile = File(..., description="PDF file to extract"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
+    doc_type: str = Form('question_paper', description="Document type: 'question_paper' or 'memo'"),
 ) -> Response:
     """
     Extract structured data from a PDF file using hybrid pipeline.
@@ -67,6 +76,13 @@ async def extract_pdf(
     temp_file_path: Optional[str] = None
 
     try:
+        # Step 0: Validate doc_type
+        if doc_type not in ('question_paper', 'memo'):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Invalid doc_type '{doc_type}'. Must be 'question_paper' or 'memo'"
+            )
+
         # Step 1: Validate PDF file
         try:
             content, file_hash, sanitized_filename = await validate_pdf(file)
@@ -78,16 +94,24 @@ async def extract_pdf(
                 detail=f"Corrupted or invalid PDF: {str(e)}"
             )
 
-        # Step 2: Check for duplicate
+        # Step 2: Check for duplicate (route based on doc_type)
         supabase_client = get_supabase_client()
-        existing_id = await check_duplicate(supabase_client, file_hash)
+
+        if doc_type == 'memo':
+            existing_id = await check_memo_duplicate(supabase_client, file_hash)
+        else:
+            existing_id = await check_duplicate(supabase_client, file_hash)
 
         is_retry = False
         retry_count = 0
 
         if existing_id:
             # Check if existing extraction is partial/failed - if so, retry it
-            existing_result = await get_extraction(supabase_client, existing_id)
+            if doc_type == 'memo':
+                from app.db.memo_extractions import get_memo_extraction
+                existing_result = await get_memo_extraction(supabase_client, existing_id)
+            else:
+                existing_result = await get_extraction(supabase_client, existing_id)
 
             if existing_result:
                 existing_status = existing_result.get("status")
@@ -115,19 +139,25 @@ async def extract_pdf(
         with open(temp_file_path, "wb") as f:
             f.write(content)
 
-        # Step 4: Extract PDF data using hybrid pipeline
+        # Step 4: Extract PDF data using hybrid pipeline (route based on doc_type)
         gemini_client = get_gemini_client()
 
-        extraction_result = None
+        extraction_result: Optional[Union[FullExamPaper, MarkingGuideline]] = None
         extraction_status = 'completed'
         error_message = None
 
         try:
-            extraction_result = await extract_pdf_data_hybrid(
-                client=gemini_client,
-                file_path=temp_file_path,
-            )
-        except PartialExtractionError as e:
+            if doc_type == 'memo':
+                extraction_result = await extract_memo_data_hybrid(
+                    client=gemini_client,
+                    file_path=temp_file_path,
+                )
+            else:
+                extraction_result = await extract_pdf_data_hybrid(
+                    client=gemini_client,
+                    file_path=temp_file_path,
+                )
+        except (PartialExtractionError, PartialMemoExtractionError) as e:
             # Gemini failed but OpenDataLoader succeeded - save partial result
             extraction_result = e.partial_result
             extraction_status = 'partial'
@@ -163,13 +193,21 @@ async def extract_pdf(
             # Handle failed extractions (no extraction_result)
             if extraction_status == 'failed' and extraction_result is None:
                 if is_retry and existing_id:
-                    # Update existing extraction to failed status
-                    await update_extraction_status(
-                        supabase_client,
-                        existing_id,
-                        status='failed',
-                        error=error_message
-                    )
+                    # Update existing extraction to failed status (route based on doc_type)
+                    if doc_type == 'memo':
+                        await update_memo_extraction_status(
+                            supabase_client,
+                            existing_id,
+                            status='failed',
+                            error=error_message
+                        )
+                    else:
+                        await update_extraction_status(
+                            supabase_client,
+                            existing_id,
+                            status='failed',
+                            error=error_message
+                        )
                     extraction_id = existing_id
                 else:
                     # For new failed extraction, we need a minimal ExtractionResult
@@ -181,24 +219,42 @@ async def extract_pdf(
             elif extraction_result is not None:
                 # Normal flow: we have extraction_result (completed or partial)
                 if is_retry and existing_id:
-                    # Update existing extraction with retry results
-                    await update_extraction(
-                        supabase_client,
-                        existing_id,
-                        extraction_result,
-                        status=extraction_status,
-                        error_message=error_message,
-                        retry_count=retry_count
-                    )
+                    # Update existing extraction with retry results (route based on doc_type)
+                    if doc_type == 'memo':
+                        await update_memo_extraction(
+                            supabase_client,
+                            existing_id,
+                            extraction_result,  # type: ignore[arg-type]
+                            status=extraction_status,
+                            error_message=error_message,
+                            retry_count=retry_count
+                        )
+                    else:
+                        await update_extraction(
+                            supabase_client,
+                            existing_id,
+                            extraction_result,  # type: ignore[arg-type]
+                            status=extraction_status,
+                            error_message=error_message,
+                            retry_count=retry_count
+                        )
                     extraction_id = existing_id
                 else:
-                    # New extraction
-                    extraction_id = await create_extraction(
-                        supabase_client,
-                        extraction_result,
-                        file_info,
-                        status=extraction_status
-                    )
+                    # New extraction (route based on doc_type)
+                    if doc_type == 'memo':
+                        extraction_id = await create_memo_extraction(
+                            supabase_client,
+                            extraction_result,  # type: ignore[arg-type]
+                            file_info,
+                            status=extraction_status
+                        )
+                    else:
+                        extraction_id = await create_extraction(
+                            supabase_client,
+                            extraction_result,  # type: ignore[arg-type]
+                            file_info,
+                            status=extraction_status
+                        )
             else:
                 # Should not reach here
                 raise HTTPException(
@@ -246,12 +302,22 @@ async def extract_pdf(
                 'status': extraction_status,
             }
             if extraction_result:
-                # Exam paper metadata for webhook
-                webhook_data['subject'] = extraction_result.subject
-                webhook_data['language'] = extraction_result.language
-                webhook_data['year'] = extraction_result.year
-                webhook_data['session'] = extraction_result.session
-                webhook_data['grade'] = extraction_result.grade
+                # Add metadata based on doc_type
+                if doc_type == 'memo' and isinstance(extraction_result, MarkingGuideline):
+                    # Memo metadata from meta dict
+                    webhook_data['subject'] = extraction_result.meta.get('subject')
+                    webhook_data['year'] = extraction_result.meta.get('year')
+                    webhook_data['session'] = extraction_result.meta.get('session')
+                    webhook_data['grade'] = extraction_result.meta.get('grade')
+                elif isinstance(extraction_result, FullExamPaper):
+                    # Exam paper metadata
+                    webhook_data['subject'] = extraction_result.subject
+                    webhook_data['language'] = extraction_result.language
+                    webhook_data['year'] = extraction_result.year
+                    webhook_data['session'] = extraction_result.session
+                    webhook_data['grade'] = extraction_result.grade
+
+                # Add processing method (both types have this)
                 processing_method = extraction_result.processing_metadata.get('method')
                 if processing_method:
                     webhook_data['processing_method'] = processing_method
