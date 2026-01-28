@@ -206,7 +206,11 @@ class TestVisionFallback:
         mock_gemini_client.files.delete.assert_called_once_with(name="temp_file_456")
 
     def test_vision_fallback_cleanup_on_error(self, mock_gemini_client):
-        """Test that uploaded files are cleaned up even when extraction fails."""
+        """Test that uploaded files are cleaned up even when extraction fails.
+
+        Note: With retry logic, the function retries 5 times (6 total attempts),
+        so cleanup happens 6 times - once per attempt in the finally block.
+        """
         mock_uploaded_file = Mock()
         mock_uploaded_file.name = "temp_file_789"
         mock_gemini_client.files.upload.return_value = mock_uploaded_file
@@ -218,8 +222,9 @@ class TestVisionFallback:
         with pytest.raises(Exception, match="API Error"):
             extract_with_vision_fallback(mock_gemini_client, "test.pdf")
 
-        # Verify cleanup still happened
-        mock_gemini_client.files.delete.assert_called_once_with(name="temp_file_789")
+        # Verify cleanup still happened (6 times: initial + 5 retries)
+        assert mock_gemini_client.files.delete.call_count == 6
+        mock_gemini_client.files.delete.assert_called_with(name="temp_file_789")
 
     def test_vision_fallback_no_cleanup_if_upload_fails(self, mock_gemini_client):
         """Test that cleanup isn't attempted if file upload fails."""

@@ -12,8 +12,10 @@ from google.genai import types
 
 from app.models.extraction import ExtractionResult, ExtractedTable
 from app.services.opendataloader_extractor import extract_pdf_structure
+from app.utils.retry import retry_with_backoff
 
 
+@retry_with_backoff()
 def extract_with_vision_fallback(
     client: genai.Client,
     file_path: str,
@@ -104,6 +106,7 @@ and title where possible.
                 pass
 
 
+@retry_with_backoff()
 async def extract_pdf_data_hybrid(
     client: genai.Client,
     file_path: str,
