@@ -579,3 +579,38 @@ Branch: ralph/hybrid-extraction-pipeline
 - Network error detection: check exception message for keywords like "timeout", "connection", etc.
 - functools.wraps preserves original function metadata (name, docstring) after decoration
 ---
+
+## 2026-01-28 21:00 - US-019
+- Implemented partial result storage for failed extractions
+- Updated create_extraction to accept status parameter (default 'completed')
+- Wrapped Gemini API call in try/except in extract_pdf_data_hybrid
+- Created PartialExtractionError exception containing partial OpenDataLoader data
+- When Gemini fails, returns partial result with tables, bounding_boxes, quality_score
+- Implemented automatic retry logic via file deduplication:
+  - check_duplicate() finds existing extraction by file_hash
+  - If status is 'partial' or 'failed', retry extraction
+  - If status is 'completed', return existing result (no retry)
+- Created update_extraction() function to update existing records during retry
+- Retry increments retry_count field in database
+- Added POST /extractions/{id}/retry endpoint (instructs user to re-upload file)
+- Returns 206 Partial Content for partial extractions, 201 Created for successful
+- Created 4 comprehensive tests covering partial extraction and retry flows
+- All 212 tests pass, mypy --strict passes
+
+**Files changed:**
+- Updated: app/db/extractions.py (added status parameter, update_extraction function)
+- Updated: app/services/pdf_extractor.py (PartialExtractionError, try/except, raise_on_partial parameter)
+- Updated: app/routers/extraction.py (retry logic, partial result handling, update vs create)
+- Updated: tests/test_extraction_router.py (4 new tests for partial/retry)
+- Updated: scripts/ralph/prd.json (marked US-019 as passes: true)
+
+**Learnings for future iterations:**
+- Partial extraction saves OpenDataLoader data even when Gemini fails - provides value to users
+- PartialExtractionError is a custom exception that carries the partial result as an attribute
+- Retry is implemented via duplicate detection: re-upload same file → detect hash → check status → retry if partial/failed
+- update_extraction() uses Supabase .update() to modify existing records (vs create which inserts new)
+- HTTP 206 Partial Content is the correct status code for partial extractions
+- When retrying, increment retry_count to track how many attempts were made
+- The retry endpoint (POST /extractions/{id}/retry) doesn't need file storage - instructs user to re-upload via POST /extract
+- This approach avoids storing PDFs on disk, reducing storage costs while enabling retry functionality
+---
