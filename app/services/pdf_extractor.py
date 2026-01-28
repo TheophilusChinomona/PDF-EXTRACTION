@@ -73,24 +73,38 @@ MIN_CACHE_TOKENS = 1024
 _EXTRACTION_CACHE_NAME: Optional[str] = None
 
 # System instruction for exam paper extraction (cached to reduce costs)
-EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an advanced Academic Document Intelligence AI. Your task is to extract exam paper content into a strict, machine-readable JSON format.
+EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Intelligence AI. Your role is to convert exam papers into strict, hierarchical JSON format.
 
-### CORE OBJECTIVES
-1. **Hierarchy:** Respect the structure of the paper. Group questions by their Sections or Main Questions (e.g., "SECTION A", "QUESTION 2").
-2. **Context:** You MUST extract the "context" that precedes a question. This includes:
-   * **Scenarios:** Case studies or stories (e.g., "PETRA FARMING...").
-   * **Instructions:** Specific instructions for a section.
-   * **Data Tables:** "Guide" tables often found in Business Studies (convert these to Key-Value pairs).
-3. **Accuracy:** Transcribe text exactly as it appears. Do not summarize.
-4. **Metadata:** Extract the Subject, Year, Session (e.g., May/June), Grade, and Syllabus (e.g., SC/NSC) from the header/cover page.
+### 1. EXTRACTION RULES
+* **Verbatim Text:** Extract question text exactly as it appears. Do not summarize.
+* **Scenarios are Mandatory:** If a question says "Read the scenario below", you MUST find that text and put it in the `scenario` field.
+* **Guide Tables:** If a question provides a table to guide the answer, convert that structure into `guide_table` as `[{"1.2.1": "statement..."}, {"1.2.2": "statement..."}, ...]`.
+* **Visual Context:** If a question refers to a diagram, describe it in the `context` field.
 
-### CRITICAL EXTRACTION RULES
-* **Scenarios:** If a question says "Read the scenario below," finding and attaching that scenario text to the question object is MANDATORY.
-* **Nulls:** If a field (like `options` or `guide_table`) is not present, omit it or set to null.
-* **Images:** If a question refers to a visual diagram (not text), describe the diagram briefly in a `context` field.
-* **Completeness:** Extract EVERY question. Do not skip any.
-* **Marks:** Verify marks are extracted for each question.
-* **Question IDs:** Use exact numbering as shown (1.1.1, 2.3.2, etc.)."""
+### 2. SPECIAL HANDLING FOR "MATCH COLUMNS" (CRITICAL)
+* **Do NOT Solve:** Never attempt to link Column A to Column B.
+* **Independence:** Treat Column A and Column B as completely SEPARATE lists.
+* **Unequal Lengths:** Column B often has MORE items (distractors) than Column A. This is expected - extract ALL of them.
+* **Schema:** Use `match_data` object with `column_a_items` and `column_b_items` as separate arrays.
+* **Labels:** Column A items have numeric labels (1.3.1, 1.3.2). Column B items have letter labels (A, B, C, D, E, F, G, H, I, J).
+
+### 3. GROUP IDENTIFICATION
+* **group_id:** Use "QUESTION X" format (e.g., "QUESTION 1", "QUESTION 2") based on the main question number.
+* **title:** Use the section/question heading text (e.g., "SECTION A (COMPULSORY)", "BUSINESS ENVIRONMENTS").
+
+### 4. FILL-IN-THE-BLANK QUESTIONS
+* **Word Bank:** Put the list of possible words in the `scenario` field.
+* **Statements:** Put each numbered statement in `guide_table` as `[{"1.2.1": "statement text..."}, {"1.2.2": "statement text..."}, ...]`.
+
+### 5. ESSAY QUESTIONS
+* **context:** Use for introductory framing text that sets up the essay topic.
+* **scenario:** Use ONLY for case studies with named entities (e.g., "PETRA FARMING purchased a franchise...").
+
+### 6. METADATA
+Extract from the cover page: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
+
+### 7. QUESTION IDS
+Use exact numbering as shown in the paper (1.1.1, 2.3.2, etc.). Do not renumber."""
 
 
 def _estimate_token_count(text: str) -> int:
@@ -213,22 +227,33 @@ def extract_with_vision_fallback(
         # Build extraction prompt for exam paper Vision analysis
         prompt = """Analyze this examination paper PDF and extract ALL content.
 
-Extract:
-1. **Metadata**: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks
-2. **Question Groups**: Group by SECTION or QUESTION number with title and instructions
-3. **Every Question** with:
-   - id (exact numbering: 1.1.1, 2.3.2, etc.)
-   - text (transcribe exactly - do not summarize)
-   - marks
-   - options (for MCQs only: label A/B/C/D with text)
-   - scenario (MANDATORY if question references a case study)
-   - guide_table (for fill-in or matching tables)
+METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks from cover page.
 
-CRITICAL:
+QUESTION GROUPS: Use group_id="QUESTION X" (e.g., "QUESTION 1"), title="SECTION NAME" (e.g., "SECTION A (COMPULSORY)").
+
+QUESTION TYPES - Handle each type correctly:
+
+1. **MCQs**: Use `options` array with [{label: "A", text: "..."}, {label: "B", text: "..."}, ...]
+
+2. **Match Columns** (CRITICAL - Do NOT solve/link them):
+   Use `match_data` with SEPARATE arrays:
+   - column_a_items: [{label: "1.3.1", text: "..."}, {label: "1.3.2", text: "..."}, ...]
+   - column_b_items: [{label: "A", text: "..."}, {label: "B", text: "..."}, ...] - include ALL items even distractors
+   Column B often has MORE items than Column A - this is expected, extract ALL of them.
+
+3. **Fill-in-blanks**:
+   - Word bank goes in `scenario` field
+   - Statements go in `guide_table` as [{"1.2.1": "statement..."}, {"1.2.2": "statement..."}, ...]
+
+4. **Essays**:
+   - Introductory/framing text goes in `context` field
+   - Case studies with named entities go in `scenario` field
+
+CRITICAL RULES:
 - Extract EVERY question without skipping any
-- Attach scenario text to questions that reference it
-- Transcribe text exactly as written
-- Use exact question numbering as shown in the paper
+- Transcribe text EXACTLY as written - do not summarize
+- Use exact question numbering as shown (1.1.1, 2.3.2, etc.)
+- For match columns: Column A = numbered items, Column B = lettered items (often more items than Column A)
 """
 
         # Call Gemini API with uploaded file and structured output
@@ -357,15 +382,31 @@ Here is the document in Markdown format:
 {doc_structure.markdown}
 ---
 
-Extract into JSON:
-1. **Metadata**: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks
-2. **Groups**: Each QUESTION/SECTION with group_id, title, instructions
-3. **Questions**: id, text (exact transcription), marks, options (MCQs only), scenario, guide_table
+METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
+
+GROUPS: Use group_id="QUESTION X" format, title=section heading text.
+
+QUESTION TYPES:
+
+1. **MCQs**: Use `options` array [{label: "A", text: "..."}, ...]
+
+2. **Match Columns** (CRITICAL - Extract BOTH columns as SEPARATE lists):
+   Use `match_data` with:
+   - column_a_items: [{label: "1.3.1", text: "..."}, ...]
+   - column_b_items: [{label: "A", text: "..."}, {label: "B", text: "..."}, ...] - include ALL items
+   Column B often has MORE items than Column A (distractors). Extract ALL of them.
+
+3. **Fill-in-blanks**:
+   - Word bank → `scenario` field
+   - Statements → `guide_table` as [{{"1.2.1": "statement..."}}, {{"1.2.2": "statement..."}}, ...]
+
+4. **Essays**:
+   - Intro text → `context` field
+   - Case studies → `scenario` field
 
 CRITICAL:
 - Extract ALL questions - do not skip any
-- Attach scenario/case study text to questions that reference it
-- Do not summarize - transcribe text exactly as written
+- Transcribe text EXACTLY as written
 - Use exact question numbering (1.1.1, 2.3.2, etc.)
 """
 

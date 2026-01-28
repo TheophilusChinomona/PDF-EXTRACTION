@@ -74,7 +74,7 @@
           "guide_table": [
              {"1.2.1": "An employee is entitled to ten consecutive days of ... leave after the birth of his or her child."},
              {"1.2.2": "Ranzo Furniture applied the ... vertical integration strategy when they took over Green Timber, their wood supplier."},
-             {"1.2.3": "The productivity of Lukas Engineering has improved... This is a/an ... in compiling a SWOT analysis."},
+             {"1.2.3": "The productivity of Lukas Engineering has improved due to the employment of qualified engineers. This is a/an ... in compiling a SWOT analysis."},
              {"1.2.4": "The ... Act has implications for the human resources function as it ensures that affirmative action measures are correctly implemented."},
              {"1.2.5": "Greywater Systems implements ... to ensure that the required standards are met at every stage of the production process."}
           ]
@@ -83,19 +83,35 @@
           "id": "1.3",
           "text": "Choose a description from COLUMN B that matches a term in COLUMN A.",
           "marks": 10,
-          "guide_table": [
-            {"COLUMN A": "1.3.1 National Credit Act", "COLUMN B": "Protects both lenders and borrowers from negligent lending practices"},
-            {"COLUMN A": "1.3.2 PESTLE analysis", "COLUMN B": "Tool used to evaluate the challenges posed by the macro environment"},
-            {"COLUMN A": "1.3.3 Placement procedure", "COLUMN B": "Linking the expectations of a position and the competencies of a new employee"},
-            {"COLUMN A": "1.3.4 Unemployment Insurance Fund", "COLUMN B": "Compulsory benefit that provides financial assistance to workers who lose their jobs due to illnesses"},
-            {"COLUMN A": "1.3.5 Total client/customer satisfaction", "COLUMN B": "Large businesses conduct market research to evaluate the needs of buyers"}
-          ]
+          "match_data": {
+            "column_a_title": "COLUMN A",
+            "column_b_title": "COLUMN B",
+            "column_a_items": [
+              { "label": "1.3.1", "text": "National Credit Act" },
+              { "label": "1.3.2", "text": "PESTLE analysis" },
+              { "label": "1.3.3", "text": "Placement procedure" },
+              { "label": "1.3.4", "text": "Unemployment Insurance Fund" },
+              { "label": "1.3.5", "text": "Total client/customer satisfaction" }
+            ],
+            "column_b_items": [
+              { "label": "A", "text": "large businesses conduct research on the latest developments to ensure planning is updated" },
+              { "label": "B", "text": "compulsory benefit that provides financial assistance to workers who lose their jobs due to illnesses" },
+              { "label": "C", "text": "protects both lenders and borrowers from negligent lending practices" },
+              { "label": "D", "text": "tool used to evaluate challenges posed by the market environment" },
+              { "label": "E", "text": "linking the expectations of a position and the competencies of a new employee" },
+              { "label": "F", "text": "compulsory benefit that provides financial assistance to workers who have retired" },
+              { "label": "G", "text": "tool used to evaluate the challenges posed by the macro environment" },
+              { "label": "H", "text": "linking the expectations of a position and the remuneration paid to a new employee" },
+              { "label": "I", "text": "large businesses conduct market research to evaluate the needs of buyers" },
+              { "label": "J", "text": "protects businesses from unfair labour practices" }
+            ]
+          }
         }
       ]
     },
     {
       "group_id": "QUESTION 2",
-      "title": "BUSINESS ENVIRONMENTS",
+      "title": "SECTION B - BUSINESS ENVIRONMENTS",
       "instructions": "Answer ANY TWO questions in this section.",
       "questions": [
         {
@@ -148,7 +164,7 @@
     },
     {
       "group_id": "QUESTION 3",
-      "title": "BUSINESS OPERATIONS",
+      "title": "SECTION B - BUSINESS OPERATIONS",
       "questions": [
         {
           "id": "3.1",
@@ -205,7 +221,7 @@
     },
     {
       "group_id": "QUESTION 4",
-      "title": "MISCELLANEOUS TOPICS",
+      "title": "SECTION B - MISCELLANEOUS TOPICS",
       "questions": [
         {
           "id": "4.1",
@@ -262,7 +278,7 @@
     },
     {
       "group_id": "QUESTION 5",
-      "title": "SECTION C - BUSINESS ENVIRONMENTS",
+      "title": "SECTION C - BUSINESS ENVIRONMENTS (LEGISLATION)",
       "instructions": "Answer ANY ONE question in this section. Essay type.",
       "questions": [
         {
@@ -275,8 +291,7 @@
     },
     {
       "group_id": "QUESTION 6",
-      "title": "SECTION C - BUSINESS OPERATIONS",
-      "instructions": "Answer ANY ONE question in this section. Essay type.",
+      "title": "SECTION C - BUSINESS OPERATIONS (HUMAN RESOURCES)",
       "questions": [
         {
           "id": "6",

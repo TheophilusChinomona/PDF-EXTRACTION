@@ -71,8 +71,16 @@ def print_extraction_results(result) -> None:
             print(f"  {q.id}: {text_preview} {marks_str}")
             if q.options:
                 print(f"    [MCQ with {len(q.options)} options]")
+            if q.match_data:
+                a_count = len(q.match_data.column_a_items) if q.match_data.column_a_items else 0
+                b_count = len(q.match_data.column_b_items) if q.match_data.column_b_items else 0
+                print(f"    [MATCH: Column A={a_count} items, Column B={b_count} items]")
+            if q.guide_table:
+                print(f"    [GUIDE TABLE: {len(q.guide_table)} entries]")
             if q.scenario:
-                print(f"    [Has scenario attached]")
+                print(f"    [Has scenario/word bank]")
+            if q.context:
+                print(f"    [Has context/intro text]")
             question_count += 1
         if question_count >= 5:
             break

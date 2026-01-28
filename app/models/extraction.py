@@ -34,22 +34,58 @@ class MultipleChoiceOption(GeminiCompatibleModel):
     text: str = Field(description="The content/text of the option")
 
 
+class MatchColumnItem(GeminiCompatibleModel):
+    """A single item in a match column question."""
+    label: str = Field(description="The identifier, e.g., '1.3.1' or 'A'")
+    text: str = Field(description="The content of the item")
+
+
+class MatchData(GeminiCompatibleModel):
+    """Structure for 'Match Column A with B' questions - keeps columns SEPARATE.
+
+    IMPORTANT: Do NOT attempt to link/match items between columns.
+    Column B often has MORE items than Column A (distractors).
+    """
+    column_a_title: str = Field(default="COLUMN A", description="Title of Column A")
+    column_b_title: str = Field(default="COLUMN B", description="Title of Column B")
+    column_a_items: List[MatchColumnItem] = Field(
+        default_factory=list,
+        description="Items in Column A (numbered items like 1.3.1, 1.3.2)"
+    )
+    column_b_items: List[MatchColumnItem] = Field(
+        default_factory=list,
+        description="ALL items in Column B including distractors (labeled A, B, C, etc.)"
+    )
+
+
 class Question(GeminiCompatibleModel):
     """A single question from an exam paper."""
     id: str = Field(description="The full question number, e.g., 1.1.1, 2.3.2")
     text: str = Field(description="The actual question text (transcribed exactly)")
     marks: Optional[int] = Field(default=None, description="Marks allocated to this question")
+
+    # Contextual fields
+    scenario: Optional[str] = Field(
+        default=None,
+        description="Case study text OR word bank for fill-in-blank questions"
+    )
+    context: Optional[str] = Field(
+        default=None,
+        description="Introductory/framing text for essays, or visual diagram descriptions"
+    )
+
+    # Type-specific structures
     options: Optional[List[MultipleChoiceOption]] = Field(
         default=None,
         description="For MCQs only: list of A/B/C/D options"
     )
-    scenario: Optional[str] = Field(
+    match_data: Optional[MatchData] = Field(
         default=None,
-        description="The case study/scenario text if question references one"
+        description="For match column questions: separate lists for Column A and B"
     )
-    guide_table: Optional[List[Any]] = Field(
+    guide_table: Optional[List[Dict[str, str]]] = Field(
         default=None,
-        description="For fill-in or matching tables (flexible format)"
+        description="For fill-in-blank: statements as [{\"1.2.1\": \"statement...\"}]"
     )
 
 

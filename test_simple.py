@@ -70,11 +70,27 @@ async def test_extraction(pdf_path: str) -> None:
         # Question groups summary
         print(f"\nQuestion Groups: {len(result.groups)}")
         total_questions = 0
+        match_questions = 0
+        guide_table_questions = 0
+        context_questions = 0
         for group in result.groups:
             q_count = len(group.questions)
             total_questions += q_count
+            for q in group.questions:
+                if q.match_data:
+                    match_questions += 1
+                if q.guide_table:
+                    guide_table_questions += 1
+                if q.context:
+                    context_questions += 1
             print(f"  {group.group_id}: {q_count} questions")
         print(f"\nTotal Questions: {total_questions}")
+        if match_questions > 0:
+            print(f"  Match Column Questions: {match_questions}")
+        if guide_table_questions > 0:
+            print(f"  Guide Table Questions: {guide_table_questions}")
+        if context_questions > 0:
+            print(f"  Questions with Context: {context_questions}")
 
         # Save JSON output
         print(f"\nSaving results to: {output_path}")
