@@ -4,10 +4,12 @@ You are an autonomous coding agent working on a software project.
 
 ## Your Task
 
-1. Read the PRD at `prd.json` in C:\Users\theoc\Desktop\Work\PDF-Extraction\scripts\ralph\prd.json  
+1. Read the PRD at `prd.json` in C:\Users\theoc\Desktop\Work\PDF-Extraction\scripts\ralph\prd.json
+   - Note: Completed stories are in `completedStories` array (minimal info)
+   - Pending stories with full details are in `userStories` array
 2. Read the progress log at `progress.txt` in C:\Users\theoc\Desktop\Work\PDF-Extraction\scripts\ralph\progress.txt (check Codebase Patterns section first)
 3. Check you're on the correct branch from PRD `branchName`. If not, check it out or create from main.
-4. Pick the **highest priority** user story where `passes: false`
+4. Pick the **highest priority** user story from `userStories` where `passes: false`
 5. Implement that single user story
 6. Run quality checks (e.g., typecheck, lint, test - use whatever your project requires)
 7. Update CLAUDE.md files if you discover reusable patterns (see below)

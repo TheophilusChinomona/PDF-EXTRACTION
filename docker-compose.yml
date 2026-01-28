@@ -1,0 +1,49 @@
+# Docker Compose configuration for PDF Extraction API
+# Use for local development and testing
+
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      # Gemini API Configuration
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - MODEL_NAME=${MODEL_NAME:-gemini-3-flash-preview}
+
+      # Supabase Configuration
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+
+      # Hybrid Mode Configuration
+      - ENABLE_HYBRID_MODE=${ENABLE_HYBRID_MODE:-true}
+      - QUALITY_THRESHOLD=${QUALITY_THRESHOLD:-0.7}
+
+      # File Validation Configuration
+      - MAX_FILE_SIZE_MB=${MAX_FILE_SIZE_MB:-200}
+
+      # Optional: Context Caching
+      - ENABLE_CONTEXT_CACHING=${ENABLE_CONTEXT_CACHING:-true}
+
+    volumes:
+      # Mount code for development (hot reload)
+      - ./app:/app/app
+      - ./tests:/app/tests
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+# Optional: Add a volume for persistent data
+volumes:
+  app_data:
+    driver: local
