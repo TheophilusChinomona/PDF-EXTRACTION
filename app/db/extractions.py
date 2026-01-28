@@ -1,0 +1,223 @@
+"""Database functions for managing extraction records.
+
+This module provides CRUD operations for extraction results in Supabase,
+including insertion, retrieval, deduplication, and status updates.
+"""
+
+from typing import Optional, List, Dict, Any
+from uuid import UUID
+from supabase import Client
+
+from app.models.extraction import ExtractionResult
+
+
+async def create_extraction(
+    client: Client,
+    data: ExtractionResult,
+    file_info: Dict[str, Any]
+) -> str:
+    """Insert a new extraction result into the database.
+
+    Args:
+        client: Supabase client instance
+        data: Extraction result with all extracted data
+        file_info: File metadata dictionary with keys:
+            - file_name (str): Sanitized filename
+            - file_size_bytes (int): File size in bytes
+            - file_hash (str): SHA-256 hash for deduplication
+            - processing_time_seconds (float, optional): Processing duration
+            - webhook_url (str, optional): Webhook notification URL
+
+    Returns:
+        str: UUID of created extraction record
+
+    Raises:
+        ValueError: If required file_info fields are missing
+        Exception: If database insertion fails
+    """
+    # Validate required file_info fields
+    required_fields = ['file_name', 'file_size_bytes', 'file_hash']
+    missing = [f for f in required_fields if f not in file_info]
+    if missing:
+        raise ValueError(f"Missing required file_info fields: {', '.join(missing)}")
+
+    # Extract processing metadata
+    proc_meta = data.processing_metadata
+    processing_method = proc_meta.get('method', 'hybrid')
+    quality_score = proc_meta.get('opendataloader_quality', 0.0)
+    cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
+
+    # Prepare database record
+    record = {
+        'file_name': file_info['file_name'],
+        'file_size_bytes': file_info['file_size_bytes'],
+        'file_hash': file_info['file_hash'],
+        'status': 'completed',
+        'processing_method': processing_method,
+        'quality_score': quality_score,
+        'confidence_score': data.confidence_score,
+        'metadata': data.metadata.model_dump(),
+        'sections': [s.model_dump() for s in data.sections],
+        'figures': [],  # Placeholder for future figure extraction
+        'tables': [t.model_dump() for t in data.tables],
+        'references': [r.model_dump() for r in data.references],
+        'bounding_boxes': {k: v.model_dump() for k, v in data.bounding_boxes.items()},
+        'abstract': data.abstract,
+        'processing_time_seconds': file_info.get('processing_time_seconds'),
+        'cost_estimate_usd': cost_estimate,
+        'webhook_url': file_info.get('webhook_url'),
+        'retry_count': 0,
+        'error_message': None
+    }
+
+    try:
+        response = client.table('extractions').insert(record).execute()
+        if not response.data or len(response.data) == 0:
+            raise Exception("Insert returned no data")
+        return str(response.data[0]['id'])
+    except Exception as e:
+        raise Exception(f"Failed to insert extraction: {str(e)}")
+
+
+async def get_extraction(
+    client: Client,
+    extraction_id: str
+) -> Optional[Dict[str, Any]]:
+    """Retrieve an extraction record by ID.
+
+    Args:
+        client: Supabase client instance
+        extraction_id: UUID string of the extraction
+
+    Returns:
+        Optional[Dict[str, Any]]: Extraction record as dictionary, or None if not found
+
+    Raises:
+        ValueError: If extraction_id is not a valid UUID
+        Exception: If database query fails
+    """
+    # Validate UUID format
+    try:
+        UUID(extraction_id)
+    except ValueError:
+        raise ValueError(f"Invalid UUID format: {extraction_id}")
+
+    try:
+        response = client.table('extractions').select('*').eq('id', extraction_id).execute()
+        if not response.data or len(response.data) == 0:
+            return None
+        # Type cast for mypy - response.data is a list of dicts
+        result: Dict[str, Any] = response.data[0]
+        return result
+    except Exception as e:
+        raise Exception(f"Failed to retrieve extraction: {str(e)}")
+
+
+async def check_duplicate(
+    client: Client,
+    file_hash: str
+) -> Optional[str]:
+    """Check if a PDF with the same hash has already been processed.
+
+    Args:
+        client: Supabase client instance
+        file_hash: SHA-256 hash of the file
+
+    Returns:
+        Optional[str]: UUID of existing extraction if found, None otherwise
+
+    Raises:
+        Exception: If database query fails
+    """
+    try:
+        response = client.table('extractions').select('id').eq('file_hash', file_hash).execute()
+        if not response.data or len(response.data) == 0:
+            return None
+        return str(response.data[0]['id'])
+    except Exception as e:
+        raise Exception(f"Failed to check duplicate: {str(e)}")
+
+
+async def update_extraction_status(
+    client: Client,
+    extraction_id: str,
+    status: str,
+    error: Optional[str] = None
+) -> None:
+    """Update the status of an extraction record.
+
+    Args:
+        client: Supabase client instance
+        extraction_id: UUID string of the extraction
+        status: New status ('pending', 'completed', 'failed', 'partial')
+        error: Optional error message (for failed/partial status)
+
+    Raises:
+        ValueError: If extraction_id is not a valid UUID or status is invalid
+        Exception: If database update fails
+    """
+    # Validate UUID format
+    try:
+        UUID(extraction_id)
+    except ValueError:
+        raise ValueError(f"Invalid UUID format: {extraction_id}")
+
+    # Validate status
+    valid_statuses = ['pending', 'completed', 'failed', 'partial']
+    if status not in valid_statuses:
+        raise ValueError(f"Invalid status '{status}'. Must be one of: {', '.join(valid_statuses)}")
+
+    # Prepare update data
+    update_data: Dict[str, Any] = {'status': status}
+    if error is not None:
+        update_data['error_message'] = error
+
+    try:
+        response = client.table('extractions').update(update_data).eq('id', extraction_id).execute()
+        if not response.data or len(response.data) == 0:
+            raise Exception(f"No extraction found with id {extraction_id}")
+    except Exception as e:
+        raise Exception(f"Failed to update extraction status: {str(e)}")
+
+
+async def list_extractions(
+    client: Client,
+    limit: int = 50,
+    offset: int = 0,
+    status: Optional[str] = None
+) -> List[Dict[str, Any]]:
+    """List extraction records with pagination and optional filtering.
+
+    Args:
+        client: Supabase client instance
+        limit: Maximum number of records to return (default: 50)
+        offset: Number of records to skip (default: 0)
+        status: Optional status filter ('pending', 'completed', 'failed', 'partial')
+
+    Returns:
+        List[Dict[str, Any]]: List of extraction records
+
+    Raises:
+        ValueError: If status filter is invalid
+        Exception: If database query fails
+    """
+    # Validate status filter if provided
+    if status is not None:
+        valid_statuses = ['pending', 'completed', 'failed', 'partial']
+        if status not in valid_statuses:
+            raise ValueError(f"Invalid status filter '{status}'. Must be one of: {', '.join(valid_statuses)}")
+
+    try:
+        query = client.table('extractions').select('*')
+
+        # Apply status filter if provided
+        if status is not None:
+            query = query.eq('status', status)
+
+        # Apply pagination and ordering
+        query = query.order('created_at', desc=True).range(offset, offset + limit - 1)
+
+        response = query.execute()
+        return response.data if response.data else []
+    except Exception as e:
+        raise Exception(f"Failed to list extractions: {str(e)}")
