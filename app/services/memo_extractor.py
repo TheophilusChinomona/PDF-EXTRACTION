@@ -482,3 +482,69 @@ class PartialMemoExtractionError(Exception):
         super().__init__(message)
         self.partial_result = partial_result
         self.original_exception = original_exception
+
+
+if __name__ == "__main__":
+    """CLI entry point for memo extraction.
+
+    Usage:
+        python -m app.services.memo_extractor path/to/memo.pdf
+
+    Outputs:
+        - Prints JSON to stdout
+        - Auto-saves to {input_filename}_memo_result.json alongside input PDF
+    """
+    import sys
+    import os
+    import asyncio
+    import json
+    from app.services.gemini_client import get_gemini_client
+
+    # Check for file path argument
+    if len(sys.argv) < 2:
+        print("Usage: python -m app.services.memo_extractor path/to/memo.pdf", file=sys.stderr)
+        sys.exit(1)
+
+    file_path = sys.argv[1]
+
+    # Check if file exists
+    if not os.path.exists(file_path):
+        print(f"Error: File not found: {file_path}", file=sys.stderr)
+        sys.exit(1)
+
+    # Initialize Gemini client
+    try:
+        client = get_gemini_client()
+    except ValueError as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    # Run extraction
+    try:
+        result = asyncio.run(extract_memo_data_hybrid(client, file_path))
+
+        # Convert to JSON
+        result_json = result.model_dump()
+        json_str = json.dumps(result_json, indent=2, ensure_ascii=False)
+
+        # Print to stdout
+        print(json_str)
+
+        # Auto-save alongside input PDF
+        input_dir = os.path.dirname(file_path)
+        input_basename = os.path.basename(file_path)
+        input_name = os.path.splitext(input_basename)[0]
+        output_path = os.path.join(input_dir, f"{input_name}_memo_result.json")
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(json_str)
+
+        print(f"\n[Saved to: {output_path}]", file=sys.stderr)
+
+    except PartialMemoExtractionError as e:
+        print(f"Error: Partial extraction - {e}", file=sys.stderr)
+        print(f"Partial result: {e.partial_result.model_dump_json(indent=2)}", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error: Extraction failed - {e}", file=sys.stderr)
+        sys.exit(1)
