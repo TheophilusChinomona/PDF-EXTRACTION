@@ -7,7 +7,7 @@ Provides endpoints for uploading PDFs and retrieving extraction results.
 import os
 import tempfile
 import uuid
-from typing import Optional
+from typing import Any, Optional
 
 from fastapi import APIRouter, File, Form, HTTPException, Request, Response, UploadFile, status
 from pydantic import ValidationError
@@ -241,13 +241,15 @@ async def extract_pdf(
         # Step 6: Send webhook if configured
         if webhook_url:
             # Prepare webhook summary data
-            webhook_data = {
+            webhook_data: dict[str, Any] = {
                 'file_name': sanitized_filename,
                 'status': extraction_status,
             }
             if extraction_result:
                 webhook_data['metadata'] = extraction_result.metadata.model_dump()
-                webhook_data['processing_method'] = extraction_result.processing_metadata.get('method')
+                processing_method = extraction_result.processing_metadata.get('method')
+                if processing_method:
+                    webhook_data['processing_method'] = processing_method
                 webhook_data['confidence_score'] = extraction_result.confidence_score
 
             # Fire and forget - don't wait for webhook

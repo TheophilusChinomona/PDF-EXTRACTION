@@ -6,8 +6,8 @@ from typing import Any, AsyncIterator, Dict, Union
 
 from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
-from slowapi import _rate_limit_exceeded_handler  # type: ignore[import-not-found]
-from slowapi.errors import RateLimitExceeded  # type: ignore[import-not-found]
+from slowapi import _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
 
 from app.config import get_settings
 from app.db.supabase_client import get_supabase_client
@@ -62,7 +62,7 @@ limiter = get_limiter()
 app.state.limiter = limiter
 
 # Register custom rate limit exceeded handler
-app.add_exception_handler(RateLimitExceeded, rate_limit_exceeded_handler)
+app.add_exception_handler(RateLimitExceeded, rate_limit_exceeded_handler)  # type: ignore[arg-type]
 
 # Add logging middleware (first, so it wraps all other middleware)
 app.add_middleware(RequestLoggingMiddleware)
@@ -174,3 +174,7 @@ app.include_router(review_queue.router)
 # Include batch processing router
 from app.routers import batch
 app.include_router(batch.router)
+
+# Include statistics router
+from app.routers import stats
+app.include_router(stats.router)

@@ -26,6 +26,13 @@ def mock_gemini_client():
     return MagicMock(spec=genai.Client)
 
 
+@pytest.fixture(autouse=True)
+def mock_get_or_create_cache():
+    """Mock the get_or_create_cache function to return a dummy cache name."""
+    with patch('app.services.pdf_extractor.get_or_create_cache', return_value="cache_test_123"):
+        yield
+
+
 @pytest.fixture
 def mock_high_quality_structure():
     """Create a high-quality DocumentStructure (quality_score >= 0.7)."""

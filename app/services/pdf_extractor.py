@@ -4,6 +4,8 @@ Hybrid PDF extraction pipeline combining OpenDataLoader and Gemini API.
 This module implements the core extraction logic that routes between:
 - Hybrid mode: OpenDataLoader structure + Gemini semantic analysis (80% cost savings)
 - Vision fallback: Direct Gemini Vision API for low-quality PDFs
+
+Uses context caching to reduce API costs by ~90% for repeated system instructions.
 """
 
 from typing import Optional
@@ -13,6 +15,74 @@ from google.genai import types
 from app.models.extraction import ExtractionResult, ExtractedTable
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.utils.retry import retry_with_backoff
+
+# Global cache name (reused across requests)
+_EXTRACTION_CACHE_NAME: Optional[str] = None
+
+# System instruction for academic PDF analysis (cached to reduce costs)
+ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert at analyzing academic research papers. Your task is to extract structured information from academic documents with high accuracy.
+
+When analyzing papers, you should:
+1. Identify and extract bibliographic metadata (title, authors, journal, year, DOI)
+2. Extract the abstract verbatim if present
+3. Parse document sections preserving hierarchy (Introduction, Methods, Results, Discussion, etc.)
+4. Extract tables with their structure and captions
+5. Parse bibliographic references into structured format
+6. Maintain accuracy and avoid hallucinations - only extract information that is clearly present
+
+For sections, include the heading text, full content, and starting page number.
+For references, parse citation text to extract authors, year, and title where possible.
+Focus on semantic understanding and structured extraction."""
+
+
+def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> str:
+    """
+    Get or create a context cache for academic PDF extraction.
+
+    This function implements a singleton pattern for the extraction cache,
+    creating it on first use and reusing it for subsequent requests.
+    The cache contains the system instruction for academic PDF analysis,
+    reducing API costs by ~90% for the cached portion.
+
+    Args:
+        client: Gemini API client
+        model: Gemini model name to use
+
+    Returns:
+        Cache name (resource identifier) to use in generate_content calls
+
+    Example:
+        >>> client = get_gemini_client()
+        >>> cache_name = get_or_create_cache(client)
+        >>> # Use cache_name in GenerateContentConfig
+    """
+    global _EXTRACTION_CACHE_NAME
+
+    # Return existing cache if available
+    if _EXTRACTION_CACHE_NAME is not None:
+        try:
+            # Verify cache still exists (not expired)
+            client.caches.get(name=_EXTRACTION_CACHE_NAME)
+            return _EXTRACTION_CACHE_NAME
+        except Exception:
+            # Cache expired or deleted, create new one
+            _EXTRACTION_CACHE_NAME = None
+
+    # Create new cache with 1-hour TTL
+    cache = client.caches.create(
+        model=model,
+        config=types.CreateCachedContentConfig(
+            display_name='academic_pdf_extraction',
+            system_instruction=ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION,
+            ttl="3600s",  # 1 hour as specified in acceptance criteria
+        )
+    )
+
+    if cache.name is None:
+        raise ValueError("Failed to create cache: cache name is None")
+
+    _EXTRACTION_CACHE_NAME = cache.name
+    return cache.name  # Return cache.name directly to ensure str type
 
 
 @retry_with_backoff()
@@ -52,9 +122,13 @@ def extract_with_vision_fallback(
         # Upload PDF file to Gemini Files API
         uploaded_file = client.files.upload(file=file_path)
 
+        # Get or create context cache for cost optimization
+        cache_name = get_or_create_cache(client, model)
+
         # Build extraction prompt for Vision analysis
-        prompt = """You are analyzing an academic research paper from an image-based PDF.
-Extract the following information by reading the document:
+        prompt = """Analyze this academic research paper from the uploaded PDF.
+
+Extract the following information:
 
 1. **Metadata**: Paper title, authors, journal, year, DOI
 2. **Abstract**: The paper's abstract (if present)
@@ -62,13 +136,10 @@ Extract the following information by reading the document:
 4. **Tables**: Extracted table data with captions
 5. **References**: Bibliographic references from the references section
 
-Please extract the information in structured JSON format. Focus on accurately reading
-and understanding the visual content. For sections, include the heading, content, and
-starting page number. For references, parse citation text to extract authors, year,
-and title where possible.
+Please extract the information in structured JSON format.
 """
 
-        # Call Gemini API with uploaded file and structured output
+        # Call Gemini API with uploaded file and structured output (using cache)
         from typing import Any
         contents_list: list[Any] = [uploaded_file, prompt]
         response = client.models.generate_content(
@@ -76,7 +147,8 @@ and title where possible.
             contents=contents_list,
             config=types.GenerateContentConfig(
                 response_mime_type='application/json',
-                response_schema=ExtractionResult
+                response_schema=ExtractionResult,
+                cached_content=cache_name  # Use context cache for cost savings
             )
         )
 
@@ -86,12 +158,29 @@ and title where possible.
             raise ValueError("Gemini API returned unexpected response type")
         result: ExtractionResult = parsed
 
+        # Extract cache statistics from usage metadata
+        cache_hit = False
+        cached_tokens = 0
+        total_tokens = 0
+
+        if hasattr(response, 'usage_metadata') and response.usage_metadata:
+            usage = response.usage_metadata
+            if hasattr(usage, 'cached_content_token_count'):
+                cached_tokens = usage.cached_content_token_count or 0
+                cache_hit = cached_tokens > 0
+            if hasattr(usage, 'total_token_count'):
+                total_tokens = usage.total_token_count or 0
+
         # Add processing metadata indicating fallback mode
         result.processing_metadata = {
             "method": "vision_fallback",
             "reason": "Low OpenDataLoader quality score",
-            "cost_savings_percent": 0,  # No cost savings in fallback mode
-            "model": model
+            "cost_savings_percent": 0,  # No cost savings from hybrid mode
+            "model": model,
+            "cache_hit": cache_hit,
+            "cached_tokens": cached_tokens,
+            "total_tokens": total_tokens,
+            "cached_tokens_saved": cached_tokens  # Tokens that benefited from cache discount
         }
 
         return result
@@ -156,13 +245,11 @@ async def extract_pdf_data_hybrid(
         # Low quality: fallback to Gemini Vision API
         return extract_with_vision_fallback(client, file_path, model)
 
-    # Step 3: Build prompt with markdown content for Gemini
-    prompt = f"""You are analyzing an academic research paper. Extract the following information:
+    # Step 3: Get or create context cache for cost optimization
+    cache_name = get_or_create_cache(client, model)
 
-1. **Metadata**: Paper title, authors, journal, year, DOI
-2. **Abstract**: The paper's abstract (if present)
-3. **Sections**: All major sections with headings and content
-4. **References**: Bibliographic references from the references section
+    # Step 4: Build prompt with markdown content for Gemini
+    prompt = f"""Analyze this academic research paper and extract structured information.
 
 Here is the paper content in Markdown format:
 
@@ -170,19 +257,24 @@ Here is the paper content in Markdown format:
 {doc_structure.markdown}
 ---
 
-Please extract the information in structured JSON format. Focus on semantic understanding of the content.
-For sections, include the heading, content, and starting page number.
-For references, parse citation text to extract authors, year, and title where possible.
+Extract:
+1. **Metadata**: Paper title, authors, journal, year, DOI
+2. **Abstract**: The paper's abstract (if present)
+3. **Sections**: All major sections with headings and content
+4. **References**: Bibliographic references from the references section
+
+Return structured JSON format.
 """
 
-    # Step 4: Call Gemini API with structured output schema (wrapped in try/except for partial results)
+    # Step 5: Call Gemini API with structured output schema and cache (wrapped in try/except for partial results)
     try:
         response = client.models.generate_content(
             model=model,
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type='application/json',
-                response_schema=ExtractionResult
+                response_schema=ExtractionResult,
+                cached_content=cache_name  # Use context cache for cost savings
             )
         )
 
@@ -192,7 +284,20 @@ For references, parse citation text to extract authors, year, and title where po
             raise ValueError("Gemini API returned unexpected response type")
         result: ExtractionResult = parsed
 
-        # Step 5: Merge deterministic tables from OpenDataLoader with Gemini data
+        # Step 6: Extract cache statistics from usage metadata
+        cache_hit = False
+        cached_tokens = 0
+        total_tokens = 0
+
+        if hasattr(response, 'usage_metadata') and response.usage_metadata:
+            usage = response.usage_metadata
+            if hasattr(usage, 'cached_content_token_count'):
+                cached_tokens = usage.cached_content_token_count or 0
+                cache_hit = cached_tokens > 0
+            if hasattr(usage, 'total_token_count'):
+                total_tokens = usage.total_token_count or 0
+
+        # Step 7: Merge deterministic tables from OpenDataLoader with Gemini data
         # OpenDataLoader's table extraction is more reliable than Gemini's
         odl_tables = [
             ExtractedTable(
@@ -208,13 +313,17 @@ For references, parse citation text to extract authors, year, and title where po
         # Merge bounding boxes from OpenDataLoader
         result.bounding_boxes = doc_structure.bounding_boxes
 
-        # Step 6: Add processing metadata
+        # Step 8: Add processing metadata including cache statistics
         result.processing_metadata = {
             "method": "hybrid",
             "opendataloader_quality": doc_structure.quality_score,
             "cost_savings_percent": 80,  # Hybrid mode achieves ~80% cost reduction
             "element_count": doc_structure.element_count,
-            "model": model
+            "model": model,
+            "cache_hit": cache_hit,
+            "cached_tokens": cached_tokens,
+            "total_tokens": total_tokens,
+            "cached_tokens_saved": cached_tokens  # Tokens that benefited from cache discount
         }
 
         return result
