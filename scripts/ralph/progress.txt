@@ -359,3 +359,37 @@ Branch: ralph/hybrid-extraction-pipeline
 - Mypy strict mode requires explicit typing for list literals passed to complex union type parameters
 ---
 
+## 2026-01-28 15:00 - US-013
+- Implemented database storage functions for extraction records in Supabase
+- Created app/db/extractions.py with 5 core CRUD functions:
+  - create_extraction(): Inserts extraction result with file metadata, returns UUID
+  - get_extraction(): Retrieves extraction by UUID, returns dict or None
+  - check_duplicate(): Checks for duplicate PDFs by file hash, enables deduplication
+  - update_extraction_status(): Updates status (pending/completed/failed/partial) with optional error message
+  - list_extractions(): Lists extractions with pagination (limit/offset) and status filtering
+- All functions are async, have full type hints, and include comprehensive validation
+- UUID validation raises ValueError for invalid formats
+- Status validation ensures only valid enum values ('pending', 'completed', 'failed', 'partial')
+- Database errors are caught and re-raised with clear context messages
+- Created comprehensive test suite: tests/test_extractions.py with 24 tests
+- All 134 tests pass (including 24 new extraction tests), mypy --strict passes
+- Fixed mypy type checking: explicit type cast for dict return values
+
+**Files changed:**
+- Created: app/db/extractions.py (210 lines)
+- Created: tests/test_extractions.py (398 lines)
+- Updated: scripts/ralph/prd.json (marked US-013 as passes: true)
+
+**Learnings for future iterations:**
+- Supabase Python client uses method chaining: client.table('name').select().eq().execute()
+- response.execute() returns object with .data attribute (list of dicts)
+- Empty result sets return response.data = [] or None, not an exception
+- UUID validation pattern: wrap UUID() constructor in try/except to catch ValueError
+- Status enums should be validated before passing to database to prevent SQL errors
+- Mypy strict mode: explicit type cast (result: Dict[str, Any] = data[0]) prevents no-any-return errors
+- When testing Supabase queries, mock the full chain: table().select().eq().execute()
+- Pagination: range(offset, offset + limit - 1) is correct Supabase pattern
+- Async function signatures required even though Supabase client is synchronous (for consistency)
+- Model.model_dump() converts Pydantic models to dicts for JSON storage
+---
+
