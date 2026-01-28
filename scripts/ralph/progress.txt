@@ -229,3 +229,37 @@ Branch: ralph/hybrid-extraction-pipeline
 - Async function signature required even though OpenDataLoader is synchronous (for future async Gemini calls)
 ---
 
+## 2026-01-28 11:00 - US-009
+- Implemented Vision fallback for low-quality PDFs (quality_score < 0.7)
+- Created extract_with_vision_fallback() function in app/services/pdf_extractor.py
+- Implemented file upload via client.files.upload(file=file_path)
+- Sends uploaded file + extraction prompt to Gemini API with response_schema=ExtractionResult
+- Added cleanup logic in finally block: client.files.delete(name=uploaded_file.name)
+- Cleanup is resilient: errors don't prevent result from being returned
+- Added processing_metadata: {'method': 'vision_fallback', 'reason': 'Low OpenDataLoader quality score', 'cost_savings_percent': 0}
+- Updated 3 existing tests to work with implemented fallback (removed NotImplementedError expectations)
+- Created 6 new comprehensive tests covering:
+  - Successful Vision extraction with file upload and cleanup
+  - Cleanup on success and on error (via finally block)
+  - No cleanup attempt if upload fails
+  - Silent cleanup failures (don't raise)
+  - Custom model parameter support
+- All 14 tests pass (6 Vision fallback + 8 hybrid extraction)
+- Typecheck passes with mypy --strict
+
+**Files changed:**
+- Updated: app/services/pdf_extractor.py (implemented extract_with_vision_fallback, 70 lines)
+- Updated: tests/test_pdf_extractor.py (replaced stub test, added 6 Vision tests, updated 3 hybrid tests)
+- Updated: scripts/ralph/prd.json (marked US-009 as passes: true)
+
+**Learnings for future iterations:**
+- Gemini Files API: client.files.upload(file=path) returns object with .name attribute
+- Vision mode requires contents=[uploaded_file, prompt] - list with file object first
+- Always use finally block for cleanup to ensure resources are freed even on errors
+- Use try/except in finally to silence cleanup failures (extraction result is more important)
+- Mypy strict mode: check hasattr() and truthiness for Optional attributes (uploaded_file.name)
+- Vision fallback has 0% cost savings (full Vision API cost), unlike hybrid mode (80% savings)
+- Test mocking pattern: Mock file upload, API response, and cleanup to verify complete flow
+- Update dependent tests when removing stubs - check for NotImplementedError expectations
+---
+

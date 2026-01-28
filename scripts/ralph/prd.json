@@ -173,7 +173,7 @@
         "Tests pass (with mocked Gemini File API)"
       ],
       "priority": 9,
-      "passes": false,
+      "passes": true,
       "notes": ""
     },
     {
