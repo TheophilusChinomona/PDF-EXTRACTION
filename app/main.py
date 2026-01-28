@@ -166,3 +166,7 @@ async def version_info() -> Dict[str, str]:
 # Include extraction router
 from app.routers import extraction
 app.include_router(extraction.router)
+
+# Include review queue router
+from app.routers import review_queue
+app.include_router(review_queue.router)

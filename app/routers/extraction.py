@@ -20,6 +20,7 @@ from app.db.extractions import (
     update_extraction_status,
     update_extraction,
 )
+from app.db.review_queue import add_to_review_queue
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
 from app.models.extraction import ExtractionResult
@@ -136,10 +137,16 @@ async def extract_pdf(
                 detail=f"PDF extraction failed validation: {str(e)}"
             )
         except Exception as e:
-            raise HTTPException(
-                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                detail=f"Processing error: {str(e)}"
-            )
+            # If retry count exceeds limit, set status to failed and prepare for review queue
+            if retry_count > 5:
+                extraction_status = 'failed'
+                error_message = str(e)
+                # extraction_result remains None for complete failures
+            else:
+                raise HTTPException(
+                    status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                    detail=f"Processing error: {str(e)}"
+                )
 
         # Step 5: Store result in database (including partial results)
         file_info = {
@@ -152,25 +159,78 @@ async def extract_pdf(
         }
 
         try:
-            if is_retry and existing_id:
-                # Update existing extraction with retry results
-                await update_extraction(
+            # Handle failed extractions (no extraction_result)
+            if extraction_status == 'failed' and extraction_result is None:
+                if is_retry and existing_id:
+                    # Update existing extraction to failed status
+                    await update_extraction_status(
+                        supabase_client,
+                        existing_id,
+                        status='failed',
+                        error=error_message
+                    )
+                    extraction_id = existing_id
+                else:
+                    # For new failed extraction, we need a minimal ExtractionResult
+                    # This shouldn't normally happen, but handle it by raising the error
+                    raise HTTPException(
+                        status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                        detail=f"Processing error: {error_message}"
+                    )
+            elif extraction_result is not None:
+                # Normal flow: we have extraction_result (completed or partial)
+                if is_retry and existing_id:
+                    # Update existing extraction with retry results
+                    await update_extraction(
+                        supabase_client,
+                        existing_id,
+                        extraction_result,
+                        status=extraction_status,
+                        error_message=error_message,
+                        retry_count=retry_count
+                    )
+                    extraction_id = existing_id
+                else:
+                    # New extraction
+                    extraction_id = await create_extraction(
+                        supabase_client,
+                        extraction_result,
+                        file_info,
+                        status=extraction_status
+                    )
+            else:
+                # Should not reach here
+                raise HTTPException(
+                    status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                    detail="Internal error: invalid extraction state"
+                )
+
+            # Add to review queue if retry count exceeded limit
+            if retry_count > 5 and extraction_status == 'failed':
+                # Determine error type from exception
+                error_type = "processing_error"
+                if error_message and "gemini" in error_message.lower():
+                    error_type = "gemini_api_error"
+                elif error_message and "validation" in error_message.lower():
+                    error_type = "validation_error"
+
+                # Get processing metadata if available
+                processing_method_val = None
+                quality_score_val = None
+                if extraction_result and extraction_result.processing_metadata:
+                    processing_method_val = extraction_result.processing_metadata.get("method")
+                    quality_score_val = extraction_result.processing_metadata.get("opendataloader_quality")
+
+                await add_to_review_queue(
                     supabase_client,
-                    existing_id,
-                    extraction_result,
-                    status=extraction_status,
-                    error_message=error_message,
+                    extraction_id,
+                    error_type=error_type,
+                    error_message=error_message or "Unknown error",
+                    processing_method=processing_method_val,
+                    quality_score=quality_score_val,
                     retry_count=retry_count
                 )
-                extraction_id = existing_id
-            else:
-                # New extraction
-                extraction_id = await create_extraction(
-                    supabase_client,
-                    extraction_result,
-                    file_info,
-                    status=extraction_status
-                )
+
         except Exception as e:
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -178,8 +238,13 @@ async def extract_pdf(
             )
 
         # Step 6: Return extraction result
-        # Use 206 Partial Content for partial extractions, 201 for complete
-        response_status = status.HTTP_206_PARTIAL_CONTENT if extraction_status == 'partial' else status.HTTP_201_CREATED
+        # Use appropriate status code based on extraction status
+        if extraction_status == 'failed':
+            response_status = status.HTTP_500_INTERNAL_SERVER_ERROR
+        elif extraction_status == 'partial':
+            response_status = status.HTTP_206_PARTIAL_CONTENT
+        else:
+            response_status = status.HTTP_201_CREATED
 
         # Prepare headers for response (including routing information for logging)
         response_headers = {
@@ -196,8 +261,21 @@ async def extract_pdf(
             if opendataloader_quality is not None:
                 response_headers["X-Quality-Score"] = str(opendataloader_quality)
 
+        # Build response content
+        import json
+        if extraction_result is not None:
+            response_content = extraction_result.model_dump_json()
+        else:
+            # Failed extraction with no result
+            response_content = json.dumps({
+                "status": "failed",
+                "error": error_message or "Extraction failed after maximum retries",
+                "extraction_id": extraction_id,
+                "queued_for_review": retry_count > 5
+            })
+
         return Response(
-            content=extraction_result.model_dump_json(),
+            content=response_content,
             media_type="application/json",
             status_code=response_status,
             headers=response_headers
