@@ -170,3 +170,7 @@ app.include_router(extraction.router)
 # Include review queue router
 from app.routers import review_queue
 app.include_router(review_queue.router)
+
+# Include batch processing router
+from app.routers import batch
+app.include_router(batch.router)

@@ -27,6 +27,7 @@ from app.models.extraction import ExtractionResult
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
+from app.services.webhook_sender import send_extraction_completed_webhook
 
 router = APIRouter(prefix="/api", tags=["extraction"])
 limiter = get_limiter()
@@ -237,7 +238,30 @@ async def extract_pdf(
                 detail=f"Database error: {str(e)}"
             )
 
-        # Step 6: Return extraction result
+        # Step 6: Send webhook if configured
+        if webhook_url:
+            # Prepare webhook summary data
+            webhook_data = {
+                'file_name': sanitized_filename,
+                'status': extraction_status,
+            }
+            if extraction_result:
+                webhook_data['metadata'] = extraction_result.metadata.model_dump()
+                webhook_data['processing_method'] = extraction_result.processing_metadata.get('method')
+                webhook_data['confidence_score'] = extraction_result.confidence_score
+
+            # Fire and forget - don't wait for webhook
+            import asyncio
+            asyncio.create_task(
+                send_extraction_completed_webhook(
+                    webhook_url,
+                    extraction_id,
+                    extraction_status,
+                    webhook_data
+                )
+            )
+
+        # Step 7: Return extraction result
         # Use appropriate status code based on extraction status
         if extraction_status == 'failed':
             response_status = status.HTTP_500_INTERNAL_SERVER_ERROR

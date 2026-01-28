@@ -3,9 +3,9 @@
 from typing import Any, Callable
 
 from fastapi import Request, Response
-from slowapi import Limiter  # type: ignore[import-not-found]
-from slowapi.errors import RateLimitExceeded  # type: ignore[import-not-found]
-from slowapi.util import get_remote_address  # type: ignore[import-not-found]
+from slowapi import Limiter
+from slowapi.errors import RateLimitExceeded
+from slowapi.util import get_remote_address
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.types import ASGIApp
 
