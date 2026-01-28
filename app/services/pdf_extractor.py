@@ -88,9 +88,14 @@ EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Inte
 * **Schema:** Use `match_data` object with `column_a_items` and `column_b_items` as separate arrays.
 * **Labels:** Column A items have numeric labels (1.3.1, 1.3.2). Column B items have letter labels (A, B, C, D, E, F, G, H, I, J).
 
-### 3. GROUP IDENTIFICATION
-* **group_id:** Use "QUESTION X" format (e.g., "QUESTION 1", "QUESTION 2") based on the main question number.
-* **title:** Use the section/question heading text (e.g., "SECTION A (COMPULSORY)", "BUSINESS ENVIRONMENTS").
+### 3. GROUP IDENTIFICATION (CRITICAL)
+* **group_id:** MUST be "QUESTION X" format based on the main question number:
+  - "QUESTION 1" for all Q1.x questions
+  - "QUESTION 2" for all Q2.x questions
+  - "QUESTION 3" for all Q3.x questions
+  - etc.
+* **title:** Use the section/topic heading (e.g., "SECTION A (COMPULSORY)", "BUSINESS ENVIRONMENTS")
+* Do NOT use "SECTION A", "SECTION B" as group_id - use "QUESTION 1", "QUESTION 2", etc.
 
 ### 4. FILL-IN-THE-BLANK QUESTIONS
 * **Word Bank:** Put the list of possible words in the `scenario` field.
@@ -103,8 +108,15 @@ EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Inte
 ### 6. METADATA
 Extract from the cover page: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
 
-### 7. QUESTION IDS
-Use exact numbering as shown in the paper (1.1.1, 2.3.2, etc.). Do not renumber."""
+### 7. QUESTION IDS AND PARENT LINKING
+* **id:** Use exact numbering as shown in the paper (1.1.1, 2.3.2, etc.). Do not renumber.
+* **parent_id:** For sub-questions that share a scenario or context, set parent_id to link them:
+  - Question 2.6.1 → parent_id: "2.6"
+  - Question 2.6.2 → parent_id: "2.6"
+  - Question 1.1.1 → parent_id: "1.1"
+  - Question 2.1 → parent_id: null (no sub-parts)
+  - Question 5 → parent_id: null (standalone essay)
+* This allows related sub-questions to be linked in a database."""
 
 
 def _estimate_token_count(text: str) -> int:
@@ -229,7 +241,10 @@ def extract_with_vision_fallback(
 
 METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks from cover page.
 
-QUESTION GROUPS: Use group_id="QUESTION X" (e.g., "QUESTION 1"), title="SECTION NAME" (e.g., "SECTION A (COMPULSORY)").
+QUESTION GROUPS (CRITICAL):
+- group_id MUST be "QUESTION 1", "QUESTION 2", "QUESTION 3", etc. based on main question number
+- title = section/topic name (e.g., "SECTION A (COMPULSORY)", "BUSINESS ENVIRONMENTS")
+- Do NOT use "SECTION A" as group_id - always use "QUESTION X" format
 
 QUESTION TYPES - Handle each type correctly:
 
@@ -248,6 +263,12 @@ QUESTION TYPES - Handle each type correctly:
 4. **Essays**:
    - Introductory/framing text goes in `context` field
    - Case studies with named entities go in `scenario` field
+
+PARENT_ID LINKING (Important for database):
+- Sub-questions sharing a scenario must have parent_id set
+- Example: 2.6.1 and 2.6.2 both get parent_id: "2.6"
+- Example: 1.1.1, 1.1.2, 1.1.3 all get parent_id: "1.1"
+- Standalone questions (2.1, 5, 6) get parent_id: null
 
 CRITICAL RULES:
 - Extract EVERY question without skipping any
@@ -384,7 +405,10 @@ Here is the document in Markdown format:
 
 METADATA: Extract subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks.
 
-GROUPS: Use group_id="QUESTION X" format, title=section heading text.
+GROUPS (CRITICAL):
+- group_id MUST be "QUESTION 1", "QUESTION 2", etc. based on main question number
+- title = section name (e.g., "SECTION A (COMPULSORY)")
+- Do NOT use "SECTION A" as group_id
 
 QUESTION TYPES:
 
@@ -403,6 +427,11 @@ QUESTION TYPES:
 4. **Essays**:
    - Intro text → `context` field
    - Case studies → `scenario` field
+
+PARENT_ID LINKING:
+- Sub-questions sharing a scenario need parent_id (e.g., 2.6.1 and 2.6.2 → parent_id: "2.6")
+- MCQ sub-questions need parent_id (e.g., 1.1.1, 1.1.2 → parent_id: "1.1")
+- Standalone questions get parent_id: null
 
 CRITICAL:
 - Extract ALL questions - do not skip any

@@ -61,6 +61,10 @@ class MatchData(GeminiCompatibleModel):
 class Question(GeminiCompatibleModel):
     """A single question from an exam paper."""
     id: str = Field(description="The full question number, e.g., 1.1.1, 2.3.2")
+    parent_id: Optional[str] = Field(
+        default=None,
+        description="Parent question ID for sub-questions (e.g., '2.6' for questions 2.6.1, 2.6.2)"
+    )
     text: str = Field(description="The actual question text (transcribed exactly)")
     marks: Optional[int] = Field(default=None, description="Marks allocated to this question")
 

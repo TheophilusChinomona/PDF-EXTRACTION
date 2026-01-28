@@ -68,7 +68,8 @@ def print_extraction_results(result) -> None:
                 break
             text_preview = q.text[:80] + "..." if len(q.text) > 80 else q.text
             marks_str = f"({q.marks} marks)" if q.marks else "(marks unknown)"
-            print(f"  {q.id}: {text_preview} {marks_str}")
+            parent_str = f" (parent: {q.parent_id})" if q.parent_id else ""
+            print(f"  {q.id}{parent_str}: {text_preview} {marks_str}")
             if q.options:
                 print(f"    [MCQ with {len(q.options)} options]")
             if q.match_data:
