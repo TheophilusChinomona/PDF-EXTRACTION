@@ -2,6 +2,8 @@
 
 This module defines the data structures used throughout the extraction pipeline,
 from bounding boxes to complete extraction results with validation.
+
+Includes both academic paper models (legacy) and exam paper models (current).
 """
 
 from typing import List, Optional, Dict, Any
@@ -22,11 +24,82 @@ class GeminiCompatibleModel(BaseModel):
     )
 
 
+# =============================================================================
+# EXAM PAPER MODELS (Primary use case)
+# =============================================================================
+
+class MultipleChoiceOption(GeminiCompatibleModel):
+    """A single option for a multiple choice question."""
+    label: str = Field(description="Option label: A, B, C, or D")
+    text: str = Field(description="The content/text of the option")
+
+
+class Question(GeminiCompatibleModel):
+    """A single question from an exam paper."""
+    id: str = Field(description="The full question number, e.g., 1.1.1, 2.3.2")
+    text: str = Field(description="The actual question text (transcribed exactly)")
+    marks: Optional[int] = Field(default=None, description="Marks allocated to this question")
+    options: Optional[List[MultipleChoiceOption]] = Field(
+        default=None,
+        description="For MCQs only: list of A/B/C/D options"
+    )
+    scenario: Optional[str] = Field(
+        default=None,
+        description="The case study/scenario text if question references one"
+    )
+    guide_table: Optional[List[Any]] = Field(
+        default=None,
+        description="For fill-in or matching tables (flexible format)"
+    )
+
+
+class QuestionGroup(GeminiCompatibleModel):
+    """A group of related questions (Section or Main Question)."""
+    group_id: str = Field(description="e.g., 'QUESTION 1' or 'SECTION A'")
+    title: str = Field(description="The group heading text")
+    instructions: Optional[str] = Field(
+        default=None,
+        description="Specific instructions for this section/group"
+    )
+    questions: List[Question] = Field(
+        default_factory=list,
+        description="List of questions in this group"
+    )
+
+
+class FullExamPaper(GeminiCompatibleModel):
+    """Complete extraction result for an examination paper.
+
+    This is the primary output model for exam paper extraction.
+    """
+    subject: str = Field(description="Subject name, e.g., 'Business Studies P1'")
+    syllabus: str = Field(description="Syllabus type, e.g., 'SC' or 'NSC'")
+    year: int = Field(description="Examination year, e.g., 2025")
+    session: str = Field(description="Examination session, e.g., 'MAY/JUNE' or 'NOV'")
+    grade: str = Field(description="Grade level, e.g., '12'")
+    total_marks: int = Field(default=150, description="Total marks for the paper")
+    groups: List[QuestionGroup] = Field(
+        default_factory=list,
+        description="Question groups (Sections or Main Questions)"
+    )
+    processing_metadata: Dict[str, Any] = Field(
+        default_factory=dict,
+        description="Metadata about processing method, quality scores, etc."
+    )
+
+
+# =============================================================================
+# ACADEMIC PAPER MODELS (Legacy - kept for backward compatibility)
+# =============================================================================
+
+
 class BoundingBox(GeminiCompatibleModel):
     """Bounding box coordinates for an element in the PDF.
 
     Coordinates are in PDF coordinate space (points, 72 DPI).
     Origin (0,0) is typically bottom-left of the page.
+
+    Note: Used primarily by academic paper extraction (legacy).
     """
     x1: float = Field(description="Left coordinate")
     y1: float = Field(description="Bottom coordinate")

@@ -57,13 +57,24 @@ async def test_extraction(pdf_path: str) -> None:
         print(f"  Method: {result.processing_metadata.get('method', 'unknown')}")
         print(f"  Cache Eligible: {result.processing_metadata.get('cache_eligible', False)}")
         print(f"  Cache Hit: {result.processing_metadata.get('cache_hit', False)}")
-        print(f"  Confidence Score: {result.confidence_score:.2%}")
 
-        if result.metadata:
-            print(f"\nTitle: {result.metadata.title}")
-        print(f"Sections: {len(result.sections)}")
-        print(f"Tables: {len(result.tables)}")
-        print(f"References: {len(result.references)}")
+        # Exam paper metadata
+        print(f"\nExam Paper Details:")
+        print(f"  Subject: {result.subject}")
+        print(f"  Syllabus: {result.syllabus}")
+        print(f"  Year: {result.year}")
+        print(f"  Session: {result.session}")
+        print(f"  Grade: {result.grade}")
+        print(f"  Total Marks: {result.total_marks}")
+
+        # Question groups summary
+        print(f"\nQuestion Groups: {len(result.groups)}")
+        total_questions = 0
+        for group in result.groups:
+            q_count = len(group.questions)
+            total_questions += q_count
+            print(f"  {group.group_id}: {q_count} questions")
+        print(f"\nTotal Questions: {total_questions}")
 
         # Save JSON output
         print(f"\nSaving results to: {output_path}")
@@ -81,7 +92,8 @@ async def test_extraction(pdf_path: str) -> None:
 
         if hasattr(e, 'partial_result'):
             print("\nPartial extraction available")
-            print(f"  Tables: {len(e.partial_result.tables)}")
+            print(f"  Subject: {e.partial_result.subject}")
+            print(f"  Groups: {len(e.partial_result.groups)}")
 
             # Save partial results
             print(f"\nSaving partial results to: {output_path}")

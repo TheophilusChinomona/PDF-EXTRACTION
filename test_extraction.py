@@ -29,65 +29,59 @@ def print_divider(title: str = "") -> None:
 
 
 def print_extraction_results(result) -> None:
-    """Pretty print extraction results."""
+    """Pretty print extraction results for exam papers."""
     print_divider("EXTRACTION RESULTS")
 
-    # Metadata
-    print("📄 METADATA:")
-    print(f"  Title: {result.metadata.title}")
-    if result.metadata.authors:
-        print(f"  Authors: {', '.join(result.metadata.authors)}")
-    if result.metadata.journal:
-        print(f"  Journal: {result.metadata.journal}")
-    if result.metadata.year:
-        print(f"  Year: {result.metadata.year}")
-    if result.metadata.doi:
-        print(f"  DOI: {result.metadata.doi}")
+    # Exam Paper Metadata
+    print("EXAM PAPER METADATA:")
+    print(f"  Subject: {result.subject}")
+    print(f"  Syllabus: {result.syllabus}")
+    print(f"  Year: {result.year}")
+    print(f"  Session: {result.session}")
+    print(f"  Grade: {result.grade}")
+    print(f"  Total Marks: {result.total_marks}")
 
-    # Abstract
-    if result.abstract:
-        print(f"\n📝 ABSTRACT:")
-        abstract_preview = result.abstract[:200] + "..." if len(result.abstract) > 200 else result.abstract
-        print(f"  {abstract_preview}")
+    # Question Groups Summary
+    print(f"\nQUESTION GROUPS ({len(result.groups)}):")
+    total_questions = 0
+    total_marks_found = 0
+    for group in result.groups:
+        q_count = len(group.questions)
+        group_marks = sum(q.marks or 0 for q in group.questions)
+        total_questions += q_count
+        total_marks_found += group_marks
+        print(f"  {group.group_id}: {group.title}")
+        print(f"    Questions: {q_count}, Marks: {group_marks}")
+        if group.instructions:
+            instr_preview = group.instructions[:60] + "..." if len(group.instructions) > 60 else group.instructions
+            print(f"    Instructions: {instr_preview}")
 
-    # Sections
-    print(f"\n📑 SECTIONS ({len(result.sections)}):")
-    for i, section in enumerate(result.sections[:5], 1):
-        heading = section.get("heading", "Untitled")
-        page = section.get("page_number", "?")
-        print(f"  {i}. {heading} (Page {page})")
-    if len(result.sections) > 5:
-        print(f"  ... and {len(result.sections) - 5} more sections")
+    print(f"\nTOTAL QUESTIONS: {total_questions}")
+    print(f"MARKS EXTRACTED: {total_marks_found}/{result.total_marks}")
 
-    # Tables
-    print(f"\n📊 TABLES ({len(result.tables)}):")
-    for i, table in enumerate(result.tables, 1):
-        caption = table.caption or "Untitled Table"
-        page = table.page_number
-        rows = len(table.data) if table.data else 0
-        print(f"  {i}. {caption} (Page {page}, {rows} rows)")
-
-    # References
-    print(f"\n📚 REFERENCES ({len(result.references)}):")
-    for i, ref in enumerate(result.references[:3], 1):
-        citation = ref.get("citation_text", "")[:80]
-        print(f"  {i}. {citation}...")
-    if len(result.references) > 3:
-        print(f"  ... and {len(result.references) - 3} more references")
-
-    # Bounding Boxes
-    print(f"\n📍 BOUNDING BOXES ({len(result.bounding_boxes)}):")
-    bbox_types = {}
-    for element_id in result.bounding_boxes.keys():
-        element_type = element_id.split("_")[0]
-        bbox_types[element_type] = bbox_types.get(element_type, 0) + 1
-    for element_type, count in bbox_types.items():
-        print(f"  - {element_type}: {count}")
+    # Sample questions preview
+    print(f"\nSAMPLE QUESTIONS (first 5):")
+    question_count = 0
+    for group in result.groups:
+        for q in group.questions:
+            if question_count >= 5:
+                break
+            text_preview = q.text[:80] + "..." if len(q.text) > 80 else q.text
+            marks_str = f"({q.marks} marks)" if q.marks else "(marks unknown)"
+            print(f"  {q.id}: {text_preview} {marks_str}")
+            if q.options:
+                print(f"    [MCQ with {len(q.options)} options]")
+            if q.scenario:
+                print(f"    [Has scenario attached]")
+            question_count += 1
+        if question_count >= 5:
+            break
+    if total_questions > 5:
+        print(f"  ... and {total_questions - 5} more questions")
 
     # Processing metadata
-    print(f"\n⚙️ PROCESSING METADATA:")
+    print(f"\nPROCESSING METADATA:")
     print(f"  Method: {result.processing_metadata.get('method', 'unknown')}")
-    print(f"  Confidence Score: {result.confidence_score:.2%}")
     if "opendataloader_quality" in result.processing_metadata:
         print(f"  OpenDataLoader Quality: {result.processing_metadata['opendataloader_quality']:.2%}")
     if "cost_savings_percent" in result.processing_metadata:
@@ -97,7 +91,7 @@ def print_extraction_results(result) -> None:
 
     # Cache statistics (if available)
     if result.processing_metadata.get('cache_hit'):
-        print(f"\n💾 CACHE STATISTICS:")
+        print(f"\nCACHE STATISTICS:")
         print(f"  Cache Hit: Yes")
         print(f"  Cached Tokens: {result.processing_metadata.get('cached_tokens', 0):,}")
         print(f"  Total Tokens: {result.processing_metadata.get('total_tokens', 0):,}")
@@ -120,11 +114,11 @@ async def test_extraction(pdf_path: str, output_file: Optional[str] = None) -> N
     # Validate file exists
     pdf_file = Path(pdf_path)
     if not pdf_file.exists():
-        print(f"❌ Error: File not found: {pdf_path}")
+        print(f"[ERROR] File not found: {pdf_path}")
         sys.exit(1)
 
     if not pdf_file.suffix.lower() == '.pdf':
-        print(f"❌ Error: File is not a PDF: {pdf_path}")
+        print(f"[ERROR] File is not a PDF: {pdf_path}")
         sys.exit(1)
 
     # Create output folder and determine output path
@@ -137,31 +131,31 @@ async def test_extraction(pdf_path: str, output_file: Optional[str] = None) -> N
         output_file = str(output_dir / output_filename)
 
     print_divider("PDF EXTRACTION TEST")
-    print(f"📄 File: {pdf_file.name}")
-    print(f"📂 Path: {pdf_file.absolute()}")
-    print(f"📦 Size: {pdf_file.stat().st_size / 1024:.1f} KB")
+    print(f"File: {pdf_file.name}")
+    print(f"Path: {pdf_file.absolute()}")
+    print(f"Size: {pdf_file.stat().st_size / 1024:.1f} KB")
 
     # Load configuration
-    print("\n🔧 Loading configuration...")
+    print("\nLoading configuration...")
     try:
         settings = get_settings()
         print(f"  Model: {settings.model_name}")
         print(f"  Hybrid Mode: {'Enabled' if settings.enable_hybrid_mode else 'Disabled'}")
     except Exception as e:
-        print(f"❌ Configuration error: {e}")
+        print(f"[ERROR] Configuration error: {e}")
         sys.exit(1)
 
     # Initialize Gemini client
-    print("\n🔌 Connecting to Gemini API...")
+    print("\nConnecting to Gemini API...")
     try:
         client = get_gemini_client()
-        print("  ✅ Connected")
+        print("  Connected")
     except Exception as e:
-        print(f"❌ Connection error: {e}")
+        print(f"[ERROR] Connection error: {e}")
         sys.exit(1)
 
     # Run extraction
-    print("\n🚀 Starting extraction...")
+    print("\nStarting extraction...")
     print("  (This may take 10-30 seconds depending on PDF size)")
 
     try:
@@ -170,13 +164,13 @@ async def test_extraction(pdf_path: str, output_file: Optional[str] = None) -> N
             file_path=str(pdf_file.absolute()),
             raise_on_partial=False  # Return partial results on error
         )
-        print("  ✅ Extraction complete!")
+        print("  Extraction complete!")
 
         # Print results
         print_extraction_results(result)
 
         # Save to file (always saves, either to specified path or auto-generated)
-        print(f"\n💾 Saving results to {output_file}...")
+        print(f"\nSaving results to {output_file}...")
         output_path = Path(output_file)
 
         # Convert result to dict for JSON serialization
@@ -185,23 +179,24 @@ async def test_extraction(pdf_path: str, output_file: Optional[str] = None) -> N
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result_dict, f, indent=2, ensure_ascii=False)
 
-        print(f"  ✅ Saved to {output_path.absolute()}")
+        print(f"  Saved to {output_path.absolute()}")
 
-        print("\n✅ Test completed successfully!")
+        print("\nTest completed successfully!")
 
     except Exception as e:
-        print(f"\n❌ Extraction error: {type(e).__name__}: {e}")
+        print(f"\n[ERROR] Extraction error: {type(e).__name__}: {e}")
 
         # Check if it's a partial extraction error
         if hasattr(e, 'partial_result'):
-            print("\n⚠️ Partial extraction available:")
-            print_extraction_results(e.partial_result)
+            print("\nPartial extraction available:")
+            print(f"  Subject: {e.partial_result.subject}")
+            print(f"  Groups: {len(e.partial_result.groups)}")
 
             # Save partial results (always saves)
-            print(f"\n💾 Saving partial results to {output_file}...")
+            print(f"\nSaving partial results to {output_file}...")
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(e.partial_result.model_dump(), f, indent=2, ensure_ascii=False)
-            print("  ✅ Saved partial results")
+            print("  Saved partial results")
 
         sys.exit(1)
 

@@ -12,7 +12,7 @@ from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
 
-from app.models.extraction import ExtractionResult, ExtractedTable
+from app.models.extraction import ExtractionResult, ExtractedTable, FullExamPaper
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.utils.retry import retry_with_backoff
 
@@ -72,20 +72,25 @@ MIN_CACHE_TOKENS = 1024
 # Global cache name (reused across requests)
 _EXTRACTION_CACHE_NAME: Optional[str] = None
 
-# System instruction for academic PDF analysis (cached to reduce costs)
-ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert at analyzing academic research papers. Your task is to extract structured information from academic documents with high accuracy.
+# System instruction for exam paper extraction (cached to reduce costs)
+EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an advanced Academic Document Intelligence AI. Your task is to extract exam paper content into a strict, machine-readable JSON format.
 
-When analyzing papers, you should:
-1. Identify and extract bibliographic metadata (title, authors, journal, year, DOI)
-2. Extract the abstract verbatim if present
-3. Parse document sections preserving hierarchy (Introduction, Methods, Results, Discussion, etc.)
-4. Extract tables with their structure and captions
-5. Parse bibliographic references into structured format
-6. Maintain accuracy and avoid hallucinations - only extract information that is clearly present
+### CORE OBJECTIVES
+1. **Hierarchy:** Respect the structure of the paper. Group questions by their Sections or Main Questions (e.g., "SECTION A", "QUESTION 2").
+2. **Context:** You MUST extract the "context" that precedes a question. This includes:
+   * **Scenarios:** Case studies or stories (e.g., "PETRA FARMING...").
+   * **Instructions:** Specific instructions for a section.
+   * **Data Tables:** "Guide" tables often found in Business Studies (convert these to Key-Value pairs).
+3. **Accuracy:** Transcribe text exactly as it appears. Do not summarize.
+4. **Metadata:** Extract the Subject, Year, Session (e.g., May/June), Grade, and Syllabus (e.g., SC/NSC) from the header/cover page.
 
-For sections, include the heading text, full content, and starting page number.
-For references, parse citation text to extract authors, year, and title where possible.
-Focus on semantic understanding and structured extraction."""
+### CRITICAL EXTRACTION RULES
+* **Scenarios:** If a question says "Read the scenario below," finding and attaching that scenario text to the question object is MANDATORY.
+* **Nulls:** If a field (like `options` or `guide_table`) is not present, omit it or set to null.
+* **Images:** If a question refers to a visual diagram (not text), describe the diagram briefly in a `context` field.
+* **Completeness:** Extract EVERY question. Do not skip any.
+* **Marks:** Verify marks are extracted for each question.
+* **Question IDs:** Use exact numbering as shown (1.1.1, 2.3.2, etc.)."""
 
 
 def _estimate_token_count(text: str) -> int:
@@ -106,11 +111,11 @@ def _estimate_token_count(text: str) -> int:
 
 def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
     """
-    Get or create a context cache for academic PDF extraction.
+    Get or create a context cache for exam paper extraction.
 
     This function implements a singleton pattern for the extraction cache,
     creating it on first use and reusing it for subsequent requests.
-    The cache contains the system instruction for academic PDF analysis,
+    The cache contains the system instruction for exam paper analysis,
     reducing API costs by ~90% for the cached portion.
 
     Returns None if the system instruction is too small (< 1024 tokens),
@@ -132,7 +137,7 @@ def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-previ
     global _EXTRACTION_CACHE_NAME
 
     # Check if system instruction meets minimum token requirement
-    estimated_tokens = _estimate_token_count(ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION)
+    estimated_tokens = _estimate_token_count(EXAM_EXTRACTION_SYSTEM_INSTRUCTION)
     if estimated_tokens < MIN_CACHE_TOKENS:
         # System instruction too small for caching, return None
         # Extraction will proceed without caching
@@ -152,8 +157,8 @@ def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-previ
     cache = client.caches.create(
         model=model,
         config=types.CreateCachedContentConfig(
-            display_name='academic_pdf_extraction',
-            system_instruction=ACADEMIC_EXTRACTION_SYSTEM_INSTRUCTION,
+            display_name='exam_paper_extraction',
+            system_instruction=EXAM_EXTRACTION_SYSTEM_INSTRUCTION,
             ttl="3600s",  # 1 hour as specified in acceptance criteria
         )
     )
@@ -170,7 +175,7 @@ def extract_with_vision_fallback(
     client: genai.Client,
     file_path: str,
     model: str = "gemini-3-flash-preview"
-) -> ExtractionResult:
+) -> FullExamPaper:
     """
     Extract PDF using Gemini Vision API fallback (for low-quality PDFs).
 
@@ -184,7 +189,7 @@ def extract_with_vision_fallback(
         model: Gemini model name to use
 
     Returns:
-        ExtractionResult with vision-based extraction
+        FullExamPaper with vision-based extraction
 
     Raises:
         FileNotFoundError: If PDF file doesn't exist
@@ -205,18 +210,25 @@ def extract_with_vision_fallback(
         # Get or create context cache for cost optimization (may be None if content too small)
         cache_name = get_or_create_cache(client, model)
 
-        # Build extraction prompt for Vision analysis
-        prompt = """Analyze this academic research paper from the uploaded PDF.
+        # Build extraction prompt for exam paper Vision analysis
+        prompt = """Analyze this examination paper PDF and extract ALL content.
 
-Extract the following information:
+Extract:
+1. **Metadata**: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks
+2. **Question Groups**: Group by SECTION or QUESTION number with title and instructions
+3. **Every Question** with:
+   - id (exact numbering: 1.1.1, 2.3.2, etc.)
+   - text (transcribe exactly - do not summarize)
+   - marks
+   - options (for MCQs only: label A/B/C/D with text)
+   - scenario (MANDATORY if question references a case study)
+   - guide_table (for fill-in or matching tables)
 
-1. **Metadata**: Paper title, authors, journal, year, DOI
-2. **Abstract**: The paper's abstract (if present)
-3. **Sections**: All major sections with headings and content
-4. **Tables**: Extracted table data with captions
-5. **References**: Bibliographic references from the references section
-
-Please extract the information in structured JSON format.
+CRITICAL:
+- Extract EVERY question without skipping any
+- Attach scenario text to questions that reference it
+- Transcribe text exactly as written
+- Use exact question numbering as shown in the paper
 """
 
         # Call Gemini API with uploaded file and structured output
@@ -224,7 +236,7 @@ Please extract the information in structured JSON format.
         contents_list: list[Any] = [uploaded_file, prompt]
 
         # Generate clean schema without additionalProperties for Gemini compatibility
-        raw_schema = ExtractionResult.model_json_schema()
+        raw_schema = FullExamPaper.model_json_schema()
         clean_schema = _remove_additional_properties(raw_schema)
 
         # Build config - only add cached_content if cache is available
@@ -245,7 +257,7 @@ Please extract the information in structured JSON format.
         import json
         response_text = response.text
         response_data = json.loads(response_text)
-        result: ExtractionResult = ExtractionResult.model_validate(response_data)
+        result: FullExamPaper = FullExamPaper.model_validate(response_data)
 
         # Extract cache statistics from usage metadata
         cache_hit = False
@@ -291,20 +303,19 @@ async def extract_pdf_data_hybrid(
     file_path: str,
     model: str = "gemini-3-flash-preview",
     raise_on_partial: bool = False
-) -> ExtractionResult:
+) -> FullExamPaper:
     """
-    Extract PDF data using hybrid pipeline (OpenDataLoader + Gemini).
+    Extract exam paper PDF using hybrid pipeline (OpenDataLoader + Gemini).
 
     This is the core extraction function implementing the 6-step hybrid pipeline:
     1. Extract PDF structure locally using OpenDataLoader
     2. Calculate quality score and route based on threshold
     3. Build prompt with structured markdown content
     4. Call Gemini API with response schema for structured output
-    5. Merge OpenDataLoader tables with Gemini semantic data
-    6. Add processing metadata (method, quality scores, cost savings)
+    5. Add processing metadata (method, quality scores, cost savings)
 
     If Gemini extraction fails but raise_on_partial=False, returns partial
-    extraction with OpenDataLoader data only (tables, bounding boxes).
+    extraction with basic metadata only.
 
     Args:
         client: Gemini API client
@@ -313,7 +324,7 @@ async def extract_pdf_data_hybrid(
         raise_on_partial: If True, raise exception on Gemini failure instead of returning partial result
 
     Returns:
-        ExtractionResult with complete or partial extraction data
+        FullExamPaper with complete or partial extraction data
 
     Raises:
         FileNotFoundError: If PDF file doesn't exist
@@ -323,8 +334,8 @@ async def extract_pdf_data_hybrid(
 
     Example:
         >>> client = get_gemini_client()
-        >>> result = await extract_pdf_data_hybrid(client, "paper.pdf")
-        >>> print(result.metadata.title)
+        >>> result = await extract_pdf_data_hybrid(client, "exam.pdf")
+        >>> print(result.subject)
         >>> print(result.processing_metadata["method"])  # "hybrid"
     """
     # Step 1: Extract PDF structure using OpenDataLoader (local, fast, free)
@@ -338,28 +349,30 @@ async def extract_pdf_data_hybrid(
     # Step 3: Get or create context cache for cost optimization (may be None if content too small)
     cache_name = get_or_create_cache(client, model)
 
-    # Step 4: Build prompt with markdown content for Gemini
-    prompt = f"""Analyze this academic research paper and extract structured information.
+    # Step 4: Build prompt with markdown content for exam paper extraction
+    prompt = f"""Extract all exam content from this examination paper.
 
-Here is the paper content in Markdown format:
-
+Here is the document in Markdown format:
 ---
 {doc_structure.markdown}
 ---
 
-Extract:
-1. **Metadata**: Paper title, authors, journal, year, DOI
-2. **Abstract**: The paper's abstract (if present)
-3. **Sections**: All major sections with headings and content
-4. **References**: Bibliographic references from the references section
+Extract into JSON:
+1. **Metadata**: subject, syllabus (SC/NSC), year, session (MAY/JUNE or NOV), grade, total_marks
+2. **Groups**: Each QUESTION/SECTION with group_id, title, instructions
+3. **Questions**: id, text (exact transcription), marks, options (MCQs only), scenario, guide_table
 
-Return structured JSON format.
+CRITICAL:
+- Extract ALL questions - do not skip any
+- Attach scenario/case study text to questions that reference it
+- Do not summarize - transcribe text exactly as written
+- Use exact question numbering (1.1.1, 2.3.2, etc.)
 """
 
     # Step 5: Call Gemini API with structured output schema (wrapped in try/except for partial results)
     try:
         # Generate clean schema without additionalProperties for Gemini compatibility
-        raw_schema = ExtractionResult.model_json_schema()
+        raw_schema = FullExamPaper.model_json_schema()
         clean_schema = _remove_additional_properties(raw_schema)
 
         # Build config - only add cached_content if cache is available
@@ -380,7 +393,7 @@ Return structured JSON format.
         import json
         response_text = response.text
         response_data = json.loads(response_text)
-        result: ExtractionResult = ExtractionResult.model_validate(response_data)
+        result: FullExamPaper = FullExamPaper.model_validate(response_data)
 
         # Step 6: Extract cache statistics from usage metadata
         cache_hit = False
@@ -395,23 +408,7 @@ Return structured JSON format.
             if hasattr(usage, 'total_token_count'):
                 total_tokens = usage.total_token_count or 0
 
-        # Step 7: Merge deterministic tables from OpenDataLoader with Gemini data
-        # OpenDataLoader's table extraction is more reliable than Gemini's
-        odl_tables = [
-            ExtractedTable(
-                caption=t.get("caption", ""),
-                page_number=t.get("page", 1),
-                data=t.get("data", []),
-                bbox=t.get("bbox")  # Pydantic will auto-convert dict to BoundingBox
-            )
-            for t in doc_structure.tables
-        ]
-        result.tables = odl_tables
-
-        # Merge bounding boxes from OpenDataLoader
-        result.bounding_boxes = doc_structure.bounding_boxes
-
-        # Step 8: Add processing metadata including cache statistics
+        # Step 7: Add processing metadata including cache statistics
         result.processing_metadata = {
             "method": "hybrid",
             "opendataloader_quality": doc_structure.quality_score,
@@ -428,29 +425,19 @@ Return structured JSON format.
         return result
 
     except Exception as e:
-        # If Gemini extraction fails, create partial result from OpenDataLoader data
+        # If Gemini extraction fails, create partial result
         if raise_on_partial:
             raise
 
-        # Build partial extraction result with OpenDataLoader data only
-        from app.models.extraction import ExtractedMetadata
-
-        partial_result = ExtractionResult(
-            metadata=ExtractedMetadata(title="[Partial Extraction]"),
-            abstract=None,
-            sections=[],
-            tables=[
-                ExtractedTable(
-                    caption=t.get("caption", ""),
-                    page_number=t.get("page", 1),
-                    data=t.get("data", []),
-                    bbox=t.get("bbox")
-                )
-                for t in doc_structure.tables
-            ],
-            references=[],
-            confidence_score=0.0,
-            bounding_boxes=doc_structure.bounding_boxes,
+        # Build partial extraction result with minimal data
+        partial_result = FullExamPaper(
+            subject="[Partial Extraction]",
+            syllabus="Unknown",
+            year=0,
+            session="Unknown",
+            grade="Unknown",
+            total_marks=0,
+            groups=[],
             processing_metadata={
                 "method": "partial",
                 "opendataloader_quality": doc_structure.quality_score,
@@ -475,11 +462,11 @@ class PartialExtractionError(Exception):
 
     Attributes:
         message: Error message
-        partial_result: ExtractionResult with partial data from OpenDataLoader
+        partial_result: FullExamPaper with partial data
         original_exception: The original exception that caused partial extraction
     """
 
-    def __init__(self, message: str, partial_result: ExtractionResult, original_exception: Exception):
+    def __init__(self, message: str, partial_result: FullExamPaper, original_exception: Exception):
         super().__init__(message)
         self.partial_result = partial_result
         self.original_exception = original_exception
