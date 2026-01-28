@@ -199,3 +199,33 @@ Branch: ralph/hybrid-extraction-pipeline
 - The quality_score field in DocumentStructure is no longer a placeholder
 ---
 
+## 2026-01-28 10:00 - US-008
+- Implemented hybrid extraction pipeline combining OpenDataLoader and Gemini API
+- Created app/services/pdf_extractor.py with extract_pdf_data_hybrid() function
+- Implemented 6-step pipeline:
+  1. Extract PDF structure locally using OpenDataLoader
+  2. Route based on quality_score threshold (0.7)
+  3. Build prompt with structured markdown content for Gemini
+  4. Call Gemini API with response_schema=ExtractionResult for structured output
+  5. Merge OpenDataLoader tables (more reliable) with Gemini semantic data
+  6. Add processing_metadata tracking method, quality scores, cost savings (80%)
+- Created stub for extract_with_vision_fallback() to be implemented in US-009
+- Created comprehensive test suite: tests/test_pdf_extractor.py with 9 tests
+- All tests pass (9/9), typecheck passes with mypy --strict
+
+**Files changed:**
+- Created: app/services/pdf_extractor.py (136 lines)
+- Created: tests/test_pdf_extractor.py (345 lines)
+- Updated: scripts/ralph/prd.json (marked US-008 as passes: true)
+
+**Learnings for future iterations:**
+- Gemini API generate_content accepts `contents=str` directly (not `contents=[str]`)
+- response.parsed returns union type - must type-check with isinstance() before assigning
+- Quality threshold at 0.7 determines routing: >=0.7 uses hybrid, <0.7 triggers fallback
+- OpenDataLoader tables should replace Gemini tables (deterministic extraction is more reliable)
+- Bounding boxes from OpenDataLoader are preserved via Pydantic auto-conversion (dict → BoundingBox)
+- Processing metadata should track: method, quality scores, cost savings, element count, model used
+- Vision fallback (US-009) will handle low-quality PDFs with quality_score < 0.7
+- Async function signature required even though OpenDataLoader is synchronous (for future async Gemini calls)
+---
+

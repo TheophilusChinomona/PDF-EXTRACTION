@@ -154,7 +154,7 @@
         "Tests pass (with mocked Gemini client and sample PDF)"
       ],
       "priority": 8,
-      "passes": false,
+      "passes": true,
       "notes": ""
     },
     {
