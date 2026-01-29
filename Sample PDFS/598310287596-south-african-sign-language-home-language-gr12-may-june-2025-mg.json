@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "subject": "South African Sign Language Home Language",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "It was a complete disaster!",
+          "type": "Essay",
+          "model_answers": [
+            "A sequence of events that led to the disaster.",
+            "Candidates should use SASL creatively and grammatically correct.",
+            "Candidate's response may start positive and end negative or vice versa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to sign ONE essay of 4–6 minutes on ONE of the given topics. Candidates may sign in any genre: narrative, descriptive, reflective, argumentative or discursive, or any combination of these.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Helping a stranger changed my life forever.",
+          "type": "Essay",
+          "model_answers": [
+            "Candidate response should be descriptive.",
+            "Candidate should create a picture in signs.",
+            "Candidate may choose signs and expressions to achieve the desired effect response may be negative or positive."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to sign ONE essay of 4–6 minutes on ONE of the given topics.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "If it was my decision, I would ...",
+          "type": "Essay",
+          "model_answers": [
+            "The candidate could depict a past or present event.",
+            "The candidate should present a personal insight.",
+            "Candidate should substantiate the reason for the decision.",
+            "The candidate's response could be negative or positive."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to sign ONE essay of 4–6 minutes on ONE of the given topics.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Technology has supported students in studying and working from home.",
+          "type": "Essay",
+          "model_answers": [
+            "Candidate may present both (discursive or argumentative) views",
+            "Use present tense",
+            "Candidate may use conjunctions to connect ideas.",
+            "The conclusion should clearly show the candidates preference."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to sign ONE essay of 4–6 minutes on ONE of the given topics.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Should Wi-Fi be free for learners and students?",
+          "type": "Essay",
+          "model_answers": [
+            "Candidate may present both (discursive or argumentative) views",
+            "Candidate response may be on whether learners and students should pay or not.",
+            "Use present tense",
+            "The candidate can substantiate and motivate their position",
+            "The conclusion should clearly show the candidate's preference."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to sign ONE essay of 4–6 minutes on ONE of the given topics.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6.1",
+          "text": "Helping each other",
+          "type": "Essay",
+          "model_answers": [
+            "Credit literal and figurative interpretation of the picture.",
+            "Candidate must give his/her own topic for the essay.",
+            "Candidate must show creativity in interpreting the picture.",
+            "There must be sufficient interpretation and link between the essay and the picture."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Sign a response to the picture. There must be a clear link between the essay and the picture.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6.2",
+          "text": "Humming bird and the bees",
+          "type": "Essay",
+          "model_answers": [
+            "Credit literal and figurative interpretation of the picture.",
+            "Candidate must give his/her own topic for the essay.",
+            "Candidate must show creativity in interpreting the picture.",
+            "There must be sufficient interpretation and link between the essay and the picture."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Sign a response to the picture. There must be a clear link between the essay and the picture.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6.3",
+          "text": "Flower growing on concrete",
+          "type": "Essay",
+          "model_answers": [
+            "Credit literal and figurative interpretation of the picture.",
+            "Candidate must give his/her own topic for the essay.",
+            "Candidate must show creativity in interpreting the picture.",
+            "There must be sufficient interpretation and link between the essay and the picture."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Sign a response to the picture. There must be a clear link between the essay and the picture.",
+          "notes": "Criteria: Content and Planning (30 marks), Language, Style and Editing (15 marks), Structure (5 marks). Total: 50 marks.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "INFORMAL PRESENTATION",
+          "type": "Transactional Text",
+          "model_answers": [
+            "The message signed should be positive.",
+            "The response should link to the specific department (Sports, Arts and Culture) and topic (Deaf inclusion).",
+            "Language should contain informal as well as some formal register.",
+            "The subject of the presentation must be clearly communicated."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length. The language, register, style and tone must be appropriate to the context.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "VOTE OF THANKS",
+          "type": "Transactional Text",
+          "model_answers": [
+            "Candidate should present factual content.",
+            "The message should be addressed to the doctor.",
+            "Language should be formal and appreciative.",
+            "The reasons must be clearly indicated."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "FORMAL REPORT",
+          "type": "Transactional Text",
+          "model_answers": [
+            "Candidate should use past tense.",
+            "Language should be formal.",
+            "The report should include factual descriptions."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "REQUEST",
+          "type": "Transactional Text",
+          "model_answers": [
+            "Candidates should use present tense.",
+            "Language should be formal and polite.",
+            "Message should be addressed to the company."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "CONGRATULATORY MESSAGE",
+          "type": "Transactional Text",
+          "model_answers": [
+            "The candidate should give specific information.",
+            "Message should be signed in a positive manner.",
+            "Language used should be informal."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "NEWS ITEM",
+          "type": "Transactional Text",
+          "model_answers": [
+            "Candidate should capture audience's attention.",
+            "Language used should be formal and sympathetic.",
+            "Candidate should present factual content."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Candidates are required to respond to TWO of the given topics. The response should be 2–3 minutes in length.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 12582,
+    "cached_tokens_saved": 0
+  }
+}

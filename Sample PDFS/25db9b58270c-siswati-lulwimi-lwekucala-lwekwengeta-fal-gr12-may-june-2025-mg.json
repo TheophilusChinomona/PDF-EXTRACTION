@@ -1,0 +1,759 @@
+{
+  "meta": {
+    "subject": "Siswati Lulwimi Lwekucala Lwekwengeta (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "May/June",
+    "grade": 12,
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "SIGABA A",
+      "questions": [
+        {
+          "id": "1.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Yinkhani",
+            "kuphakama"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Kunye kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kwakha lokudzingwa ngumtimba",
+            "kulwa nephoyizeni lengena emtimbeni"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Kunye kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngukutsi umuntfu anganatsi emaphilisi",
+            "Kuchubeka nekudla kudla lokukhuphula shukela emtimbeni"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tinyawo letibuhlungu",
+            "tilondza letigcina tikwenta uncanyulwe imilente",
+            "kudzinwa kwemtimba",
+            "kulimala kwemehlo",
+            "kufa luhlangotsi",
+            "inhloko lengapheli",
+            "kungatfoli bantfwana",
+            "naletinye tifo letinyenti"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Kutsatfu kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kungobe sibindzi ngiso lesiyindlela yekungenisa tifo letehlukahlukene",
+            "Sibindzi silibhuloho lekwedlulisa ingati lephuma ibuyele enhlitiyweni"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Kunye kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bangasitakala ngekutsi ingcondvo yabo ingaphazamiseki"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kusho kutsi lamakhemikhali lachamuka esibindzini asuke ashisa kakhulu"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kungobe imilente inemakhemikhali lakhona kumelana nale-ROS"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sifo sashukela sihlasela sibindzi, kuvuvuke imilete yakho bese sifo sekhensa yelibele senta kutsi kuvuvuke sandla"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kuliciniso ngobe inhlitiyo ingetulu ngasebeleni kantsi umlente ungaphasi etinyaweni"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kungenteka abanalwati lolwanele ngalesifo",
+            "kute tinsita tekukuhlola",
+            "babona kutsi lesibindzi sesimoshakele ngete basakhona kukusita"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Kubili kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sifundvo kutsi labasukuma kusenesikhatsi bayalapheka",
+            "ikhensa iyalapheka",
+            "kuhle kuvakashela kubetemphilo nawuva tinhlungu",
+            "kutfola lwati kusanesikhatsi kuyasita",
+            "sibocaphela bodokotela lababakhohlisi labadla imali ngemanga",
+            "sibodla kudla lokunemphilo"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Kutsatfu kwaloku. Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kupheka",
+            "kugeza",
+            "kunatsa",
+            "kuwasha",
+            "kunisela"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Kunye kwaloku",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.2",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.2.2",
+              "value": "C/Tinso"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lona lokusibonwa-1 ukhomba kuwonga emanti ngobe usebentisa ingilazi. Lokusibonwa-2 ukhomba kungawongi ngobe unatsa ngesandla acitseke yonkhe indzawo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umtselela wekuswelakala kwemanti ngobe uma singawongi banyenti bantfu labatawukhala ngemanti njengobe kukhalwa ngawo nasemmangweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "Tindlela tekutivikela ekulunyweni tinyoka",
+          "type": "Summary",
+          "model_answers": [
+            "Kumele wati tindzawo letitsandvwa tinyoka lapho nihlala khona.",
+            "Ungahambeli tindzawo letenile.",
+            "Ungafaki tandla netinyawo emigodzini longayati.",
+            "Nakisisa nawuhamba nobe uhleti etihlahleni.",
+            "Yembatsa tembatfo letiphephile nawuhamba etigangeni.",
+            "Ungakhetsi tindzawo tekukhempa letinematje netjani lobukhulu titsandvwa tinyoka.",
+            "Uma kune timvula letinetikhukhula caphelisisa kugeza nekudoba emadamini nasemifuleni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 7,
+          "marker_instruction": "Emaphuzu la-7 amumetse emamaki la-7. Lulwimi lutawunikwa emamaki lama-3.",
+          "notes": "Linani lemagama langengci kula-60.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "Sikhangisi",
+          "type": null,
+          "model_answers": [
+            "Kwentela kutsi bantfu basheshe babone lokukhangiswako/kudvonsa emehlo ebatsengi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Unenkinga yetihlalo temoto yakho?"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.3",
+              "value": "C/Labasihlanu"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngulabanetimoto",
+            "tigitjelwa"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Leligama lelitsi ‘butsaphutsaphu’ lisho kutsenga ngekushesha, kulesikhangisi linebudlelwano bekutsi lemitsi bayitsenga ngebunyenti isheshe iphele",
+            "Kugcugcutela"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lemisho itsatsa luhlangotsi ngobe ngekusetjentiswa kweligama lelitsi kuphela/batsi itfolakala eMpumalanga kuphela/ngiyo kuphela lehamba embili kantsi ungatfola kutsi ungayitfola nakuletinye tindzawo futsi kukhona letinye letihamba embili."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Akakaphumeleli ngobe kute tinombolo telucingo/i-imeyili/indzawo/ tonkhe tindlela tekuchumana netinkhombandlela tekutsi ufike lapho utfolakala khona lomkhicito lokhangiswako."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "Ikhathuni",
+          "type": null,
+          "model_answers": [
+            "Incodlana yekushova bantfwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.2",
+              "value": "D/Seliyashona"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imele kutsi Mbali uyacabanga/ukhuluma yedvwa akaphimiseli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Laba bacabanga kutsi ngilibele ngiyitfolile ibhaloni yami."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lomntfwana lomncane ushovwa ngepremu kepha Mbali yena uhamba ngetinyawo, usalele emuva, akabukwa nekubukwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lenkhulumo ikhomba kukhatsateka ngobe utsi, 'Ewu!' Futsi batsi abati kwekutsi bayotsini kumake wabo lokukhomba kukhatsateka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kungobe uyatisola ngekulahleka kwaMbali akatiwa kutsi ukuphi ngobe bebangakamnakekeli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono lenembako yamukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.1",
+          "text": "Takhi Temisho Ne-Esethi",
+          "type": null,
+          "model_answers": [
+            "Bulili."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngalesikhatsi basakhula babe wabo bekahlala abafundzisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngikhulele Kanyamazane eLikazi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Thishela ufundzisa bafundzi Siswati."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Bahlolwa batakhela umusho ngeligama lelidvwetjelwe lelitsi, 'Siswati' libe ngumentiwangco.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "a",
+              "value": "Lona"
+            },
+            {
+              "sub_id": "b",
+              "value": "Yena"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Duduzile ubhala ahlabela onkhe malanga."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Bahlolwa batakhela umusho ngesento 'bhala' kuveta indlela yesimo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Cha uma lulwimi lwetfu singalubhali kahle futsi singalukhulumi kahle asilutfutfukisi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kutangondzisa emtimbeni/kutangehlisa emtimbeni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.2",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.2.2",
+              "value": "B/Sikhatsi"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lokudla akunamphilo kepha/kodvwa kumele ngitinakekele ngidle kahle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Bahlolwa basebentisa sihlanganiso lesifanele kepha/kodvwa.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kutawumele ngitinakekele ngidle kahle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Bahlolwa babhala lomusho ube sesikhatsini lesitako.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 10144,
+    "cached_tokens_saved": 0
+  }
+}

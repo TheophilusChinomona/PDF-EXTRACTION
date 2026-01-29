@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "subject": "Siswati Lulwimi Lwasekhaya (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "Inkhwekhweti/Inhlaba",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "SIGABA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Bengitsi sengiphumile …",
+          "type": "Indzaba",
+          "model_answers": [
+            "Umhlolwa kulindzeleke kutsi abhale ngetintfo labecabanga kutsi sewuphumile kuto lokungenteka leto tintfo timphatsa kahle nobe kabi.",
+            "Umhlolwa kulindzeleke kutsi anike tizatfu letimente wabuyela etintfweni labetayele kutenta.",
+            "Indzaba kungenteka ilandzise/ichaze/ivete limuva lembhali.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Caphela: Kuyo yonkhe imibhalo cikelela linani lemagama lelimisiwe. Kwabiwa kwemamaki: (Bona irubhriki)",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Kudlalwa kwemidlalo leyahlukahlukene etikolweni",
+          "type": "Indzaba",
+          "model_answers": [
+            "Umhlolwa kulindzeleke kutsi abhale ngetinhlobo temidlalo letahlukahlukene lesetikolweni.",
+            "Umhlolwa angaveta kubaluleka kanye nemakhono lavelako lahlukene kubantfwana etikolweni.",
+            "Indzaba kungenteka ichaze/ilandzise/ivete limuva lembhali.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Tinsita tamahhala tahulumende letiphakelwa imimango",
+          "type": "Indzaba",
+          "model_answers": [
+            "Umhlolwa kulindzeleke kutsi abhale ngetinsita tamahhala letiphakelwa nguhulumende.",
+            "Umhlolwa akavete tinkinga taphambilini naletikhona emimangweni kanye netinhlobo tebantfu labahlomula kuleto tinsita.",
+            "Indzaba kungenteka ivete limuva lembhali/ilandzise/ichaze/Ibe nhlangotsimbili/hlangotsi lunye.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Kusetjentiswa kwe-inthanethi ekwelekeleleni kufundza nekufundzisa",
+          "type": "Indzaba",
+          "model_answers": [
+            "Umhlolwa kulindzeleke kutsi abhale ngendlela lekusetjentiswa ngayo i-inthanethi kwelekelela kufundza nekufundzisa.",
+            "Umhlolwa angaveta lokuhle nobe tinkinga letiba khona uma kufundvwa nobe kufundziswa.",
+            "Indzaba kungenteka ibe nhlangotsimbili/ichaze/ilandzise.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Bafundzi abakhokhele tindleko tesikolo. Vumela nobe uphikise lesitatimende.",
+          "type": "Indzaba",
+          "model_answers": [
+            "Umhlolwa kulindzeleke kutsi akhetse lunye luhlangotsi abhale ngalo angagudluki ite ifike esiphetfweni indzaba yakhe.",
+            "Akavete tizatfu letimenta avume kutsi kubhadalwe tindleko nobe aphikise kutsi tindleko tesikolo tikhokhelwe.",
+            "Indzaba kungenteka ibe hlangotsilunye/ichaze/ilandzise/Ivete limuva lembhali.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Sitfombe: Mincintiswano nemiklomelo",
+          "type": "Indzaba Lesuselwa Esitfombeni",
+          "model_answers": [
+            "Bahlolwa bangabhala ngemincintiswano nemiklomelo labayitfolako/Imphumelelo/Umncintiswano lengaphumelela kuwo.",
+            "Umhlolwa kulindzeleke kutsi avete emaphuzu lavakalako lahambelana nesitfombe, angagudluki kuso.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": "Sitfombe: Tinsita tamasipala/Kweswelakala kwemanti",
+          "type": "Indzaba Lesuselwa Esitfombeni",
+          "model_answers": [
+            "Bahlolwa bangabhala ngetinsita tamasipala/Kweswelakala kwemanti/Somiso lesihlasela ummango/Libhizinisi leliphatselene nalokusesitfombeni.",
+            "Umhlolwa kulindzeleke kutsi avete emaphuzu lavakalako lahambelana nesitfombe, angagudluki kuso.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": "Sitfombe: Lusito emtfolamphilo/Kugonywa kwebantfwana",
+          "type": "Indzaba Lesuselwa Esitfombeni",
+          "model_answers": [
+            "Bangabhala ngelusito lolutfolakala emtfolamphilo/kugonywa kwebantfwana/kugcwala kwemitfolamphilo/Kubhalisa imali yesondlo/sitfiketi sekutalwa kwebantfwana.",
+            "Umhlolwa kulindzeleke kutsi avete emaphuzu lavakalako lahambelana nesitfombe, angagudluki kuso.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "INKHULUMOMPHENDVULWANO",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Akube ngumhlolwa nagogo wakhe labakhulumako.",
+            "Akukhulunywe ngendzaba yemali yempesheni leseyitfolakele nenjabulo labanayo.",
+            "Akubhalwe sendlalelo senkhulumomphendvulwano ngembikwekuyibhala.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Ayifake loku: Singeniso, umtimba nesiphetfo; Luhlaka (Emagama alabakhulumako abhalwa ngasesandleni sesancele bese kufakwa ikholoni, bokhulunyiwe abafakwa. Lokwentekako kubhalwa kubakaki.); Kusetjentiswa inkhulumongco.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "UMLANDVOMUFI",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Umlandvomufi awuvete kushona kwemsakati lobekavakashela ummango wemhlolwa.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Awufake loku: Singeniso, umtimba nesiphetfo; Sihloko semlandvomufi wa ... (Ligama nesibongo semufi); Ligama nesibongo semufi nelusuku latalwa ngalo; Indzawo latalelwa kuyo nalashonele kuyo; Batali bakhe; Wesingaki ekhaya; Imfundvo; Umsebenti; Indlela nelusuku lashone ngalo; Umndeni; Emavi ekumvalelisa.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "INCWADZI YEBUHLOBO",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Incwadzi ayivete kuvelana kwemhlolwa nemnakabo ekuguleni. Akuvele nekumkhutsata kutsi achubeke anatse emaphilisi kute abalekele bungoti bekuwayekela.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Ayifake loku: Likheli linye lelisesandleni sekudla; Kweciwa umugca embikwesibingelelo; Sibingelelo (Mnaketfu/Mandlakayise); Singeniso lesetfula loko lekutawucocwa ngako; Tindzima letinemicondvo lebumbene; Siphetfo lesisonga loko lebekucocwa ngako; Kuvalelisa lokuhambelana nesibingelelo (Ngimi umnakenu); Sibongo asifakwa.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "SIHLATIYWA",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Sihlatiywa asiphatselane nenkhundla yemdlalo lawulalele wawutsandza.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Asifake loku: Singeniso, umtimba nesiphetfo; Sihloko sesihlatiywa; Sihloko semdlalo lolalelwe, ligama lembhali neligama lemsakato; Badlali labakhulu (labangedluli kulabane); Sifinyeto sesakhiwo; Ingcikitsi; Imibono/Tincomo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "INCWADZI YEMTSETFO",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Incwadzi yemhlolwa ayivete umonakalo lobekhona ngenca yemvula.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Ayifake loku: Emakheli aba mabili; Likheli lesibili lifakwa sikhundla salobhalelwako; Sibingelelo (Mnumzane/Nkhosatana); Sihloko sendzaba; Singeniso ngelulwimi loluhlelekile; Tindzima letinemicondvo lebumbene; Kuvalelisa (Ngimi lotitfobako); Kubhalwa ligama nesibongo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "UMBIKO LOHLELEKILE",
+          "type": "Imibhalombiko",
+          "model_answers": [
+            "Umbiko awuphatselane nemcimbi webaculi lobewukhona emmangweni wemhlolwa.",
+            "Umhlolwa akacikelele kusetjentiswa kwerejista lefanele, kukhetfwa kwemagama, kwakhiwa kwemisho, kubhalwa kwetindzima, tiphumuti nelupelomagama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Umbiko ufaka loku: Ligama lalobhalelwa (Uya ku…); Ligama lalobhale (Ubuya ku…); Lusuku (11 Inhlaba 2025); Sihloko (Umbiko ngemcimbi wekutfutfukisa sikhwama.); Umongo wembiko; Indlela yekutfola lwati; Lokutfolakele; Tincomo/Tiphakamiso; Siphetfo; Emavi ekubonga.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 12149,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,1901 @@
+{
+  "subject": "SETSWANA PUOTLALELETSO YA NTLHA (FAL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MOTSHEGANONG/SEETEBOSIGO",
+  "grade": "12",
+  "language": "Setswana",
+  "total_marks": 70,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: PADI - MORABARABA",
+      "instructions": "Araba dipotso TSOTLHE tsa padi e o e buisitseng.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "NOPOLO A",
+          "marks": null,
+          "scenario": "Dikgang tsa ga Mmakgosi o ne a di utlwile ka batsei ba molelo. A se ka a bona e le tlhaloganyo gore a dire sengwe se a ka tlogang a se ikotlhaela ka letsatsi lengwe. A mpa a emela letsatsi leo o tlaa kopanang le Mpute. Go botoka go utlwa dikgang di tswa ka mong wa tsona. Magatwegatwe ona a ka thuba motse o eme ka maoto a mabedi. \n\nFa a tsena, a ipotsa gangwe le gape gore o tlaa mo tsena ka le le reng eng. Motho ga a ke a tswa ka puo e e ntseng jaana go se na sepe se se mo tshwenyang; puo nngwe le nngwe e tshwanetse go tlisiwa ke e nnye mo go yona fa e se gore go a lwewa jaaka basadi ba o tlaa fitlhelang motho a bofile tuku mo lethekeng, a re o tlaa bolelela Mmasepherephetšhane gore ke mang. O jele eng ka tlala. Eo ke ntwa.\n\nA se ka a bua le ena pele. A mo leba, a mo tsaya a mo atla. A bona ka bonako gore ke lobaka le lesego la gagwe le mo nayang lona. A dira gore a utlwe ka mokgwa o a arabang ka gone gore go na le sengwe se se phoso. E seng gore phoso e kgolo ka ga Morwesi ga ba e lemoge. Nnyaya, ka ga yona a ka bo a ganne le go mo ama fela. Mosimane a mo elelelwa.",
+          "context": "ELA TLHOKO: Araba dipotso tse di boditsweng ka dinopolo TSOTLHE, k.g.r POTSO 1.1 le 1.2.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 1.1.1(a) go fitlha go 1.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Peter"
+              },
+              {
+                "label": "(b)",
+                "text": "Mmemme"
+              },
+              {
+                "label": "(c)",
+                "text": "Ntshimane"
+              },
+              {
+                "label": "(d)",
+                "text": "Mosadi wa Malateng"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "o lwesa Bontle le Mpute"
+              },
+              {
+                "label": "B",
+                "text": "o tsene sekolo kwa Mangaung"
+              },
+              {
+                "label": "C",
+                "text": "moletsi wa dikatara"
+              },
+              {
+                "label": "D",
+                "text": "o lwesa Morwesi le Ntshimane"
+              },
+              {
+                "label": "E",
+                "text": "o nyetswe kwa Tshwane"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "Ke mang yo o utlwileng dikgang tsa ga Mmakgosi go ya ka nopolo?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "Ke dikgang dife tse motho yo o mo umakileng mo go 1.1.2 a di utlwileng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "Ke eng se o se itseng ka lefelo la Bapong?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "Goreng mopadi a dirisitse lefoko 'magatwegatwe' mo temaneng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.6",
+          "parent_id": "1.1",
+          "text": "Go ya ka padi, ke mang mo baanelweng ba makgarebe yo o ka mo tsayang jaaka mofenyi wa morabaraba? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.7",
+          "parent_id": "1.1",
+          "text": "Tlhalosa leano le Mpute le Ntshimane ba le dirileng gore ba kgone go etela kwa Manyeleti.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.8",
+          "parent_id": "1.1",
+          "text": "Fa o lebile, mopadi o ne a ikaeletse eng ka go dira gore Ntshimane a ye Ntwane?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "NOPOLO B",
+          "marks": null,
+          "scenario": "Botshelo jwa ga Mpute ba tsaya ya bona tsela. A se ka a tswa mo ditsaleng tsa gagwe, boPeter. A tshela le bona. A tshela jaaka a bona. Ka letsatsi lengwe Bontle a tlalelwa a le kwa Ga-Rankuwa, dibese tsa tsamaya tsotlhe a tshwaregile gona kwa dikagong tsa mmuso. Go ne go tlile molao mongwe o o reng bana botlhe ba sekolo ba tshwanetse go lere makwalo a botsalo a semmuso mmogo le a a kwadilweng ke moruti. Batho ba bantsi ba ne ba se na a semmuso, mme ba tshwanelwa ke go ya kwa Ga-Rankuwa go a bona gona. Bontle e ne e le mongwe wa batho ba ba ileng gona, go itseela kgotsa go tseela bomonnaabona. \n\nE ne e le Labotlhano wa mafelo a tshipi a maleele. Ka go bona a tlaletswe, Mpute a mmolelela gore o ka mo pega mo mmotorokareng fa a ka nna pelotelelenyana fela go se kae. Mosetsana a se ka a nna le go ka supa gape. Nnyaya, le gale go ne go se phoso, ba tlaa tsamaisana tsela. E rile fa ba tlaa tsamaya monna mongwe wa mosweu yo o neng a na le ofisi mo gare, a biletsa Mpute kwa go ena. A mo naya dikwalo tse di tshwanetseng go isiwa Tshwane gona bosigo joo. Mpute le Bontle, mmogo le tsala nngwe, modirimmogo le Mpute, ba tshwanelwa ke go ya Tshwane pele.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(mane/mararo/mabedi); (lekwalo la go kgweetsa/lekwalo la matsalo la semmuso/lekwalo la borutabana); (Mangaung/Ga-Rankuwa/Moduane-a-Mmanotshe)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Makgarebe otlhe a Mpute a rataneng le ona mo pading a … ka palo."
+            },
+            {
+              "(b)": "Bontle o ne a ile go batla … kwa Ga-Rankuwa."
+            },
+            {
+              "(c)": "Ntshimane le Mmamoki ba kopane kwa …"
+            }
+          ]
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Bontle o ne a tlile go dira eng mo diofising tsa puso fa a tlaa kopana le Mpute?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.3",
+          "parent_id": "1.2",
+          "text": "Botshelo jwa ga Mpute bo ne bo ntse jang morago ga gore a bone tiro kwa Ga-Rankuwa?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.4",
+          "parent_id": "1.2",
+          "text": "Kgolagano ya ga Mpute le Peter e simolotse leng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.5",
+          "parent_id": "1.2",
+          "text": "Batsadi ba ga Ntshimane ba dirile eng go tlhotlheletsa lerato la ga Ntshimane le Morwesi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.6",
+          "parent_id": "1.2",
+          "text": "Ke eng se se bakileng kotsi ya sejanaga se se bolaileng Mpute?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.7",
+          "parent_id": "1.2",
+          "text": "O ithutile eng ka botsala jwa ga Morwesi le Bontle?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.8",
+          "parent_id": "1.2",
+          "text": "A o ka re Bontle o ne a rata Ntshimane? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.9",
+          "parent_id": "1.2",
+          "text": "Fa o bona, ke eng se se fetotseng maikutlo a ga Ntshimane ka go rata Mmule?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA A: PADI - BOGOSI KUPE",
+      "instructions": "Araba dipotso TSOTLHE tsa padi e o e buisitseng.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "NOPOLO C",
+          "marks": null,
+          "scenario": "Fa a tswa go phuta dipholo mo mosong a fitlhela rraagwe a dutse mo godimo ga mogoma a itshwere lehuma; a nta tsa bo kapa sebakanyana a ise a di atametse; mme gangwe le gape a gadima monnamogolo gore e re a gwetlha di atamele, ka mmu le one o ne o simolola go kgomarela, balemi ba gabile go tshwara mongola, di sa tlhole di fulela go kgora. Letsatsi la tlhatloga rraagwe a sa tsikinyege. Kgantele a di gapa a iketlile go botsa gore di tla golega leng. A tsamaya a betsa ditlhatshana ka thobane gore fa mmutla o ka tlola a otlolole letsogo, ba tle ba bone go digela mosoko. A potologa tlhofi ya mabele a badimo, a feta setlhatshana sa moretlwa, a ... ga tlola wa motlhaba ka fa tlase ga nao tsa gagwe. E rile o batalatsa ditsebe a otlolola letsogo mosimane yo o maroka. Ga re khuru! Fa lorole lo apoga a latlha masutlha, a baya molamu mo tsebeng go o bolaya ka setšhana. Mo tikologong ya Phiritona go fitlha kwa merakeng ya mošate, go boa jaana ka dikgaga tse dintsho tsa Magogong kwa letsatsi le neng le okamela motshegare o mogolo wa sethoboloko, go se mosimane yo o neng a tlhabakelwa ke mpa mo go ene. A iteba kwa moriting, a ngotla dinao, a tsholetsa tlhogo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.1",
+          "parent_id": "2.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 2.1.1(a) go fitlha go 2.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Botipe"
+              },
+              {
+                "label": "(b)",
+                "text": "Modimoeng"
+              },
+              {
+                "label": "(c)",
+                "text": "Oshupile"
+              },
+              {
+                "label": "(d)",
+                "text": "Obakeng"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "ke setlogolo sa ga Tukisang"
+              },
+              {
+                "label": "B",
+                "text": "ke monna yo o nyetseng moditšhaba"
+              },
+              {
+                "label": "C",
+                "text": "ke sajene wa kwa Sefatlhane"
+              },
+              {
+                "label": "D",
+                "text": "ke mmetli wa mokoro wa mošate"
+              },
+              {
+                "label": "E",
+                "text": "ke kgaitsadiaagwe Matlhodi"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "2.1.2",
+          "parent_id": "2.1",
+          "text": "Ke mang yo a neng a tswa go phutha dikgomo?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.3",
+          "parent_id": "2.1",
+          "text": "Ditiragalo tse di mo nopolong e, di diragalela kwa motseng ofe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.4",
+          "parent_id": "2.1",
+          "text": "Matlhodi o lemogile jang gore Oshupile o tlhokafetse?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.5",
+          "parent_id": "2.1",
+          "text": "Ke ka ntlha ya eng Matlhodi a ne a batla gore Oshupile a bolokiwe ka bonako?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.6",
+          "parent_id": "2.1",
+          "text": "Ke kgakololo efe eo Tukisang a neng a e naya Matlhodi morago ga loso lwa ga Oshupile? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.7",
+          "parent_id": "2.1",
+          "text": "Ke lebaka lefe le le dirileng gore Obakeng a tlogele mmaagwe morago ga loso lwa ga rraagwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.8",
+          "parent_id": "2.1",
+          "text": "Maikaelelo a ga Obakeng fa a fitlha kwa kampeng e ne e le afe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.9",
+          "parent_id": "2.1",
+          "text": "Fa o lebile Moremi, a o kare ke motho yo o nang le maikarabelo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "NOPOLO D",
+          "marks": null,
+          "scenario": "Rre Serokolo a re, 'Nnyaya, kgosi, se eme. Ga re ise re fetse se re tsileng ka sone.' A rakanya matlho le bakaulengwe ba gagwe. 'Borra, go bosigo. Kana mmuapele o rile la ntša le dubega le sa le metsi.'\nGa diragala ka ponyo ya leitlho; ya re kgosi e ise e lemoge gore go diragala eng, ya fitlhela ba e katetse dikatana mo ganong gore e sitwe ke go tlhaba mokgosi. Ba tswa ka yona, fa ba le mo kgorong, mongwe a sadisa kgosi, a solofetsa gore o tla phakelela mošate go tla go rulaganya mafoko a pitso. Ba tswa ka tsela ya moraka wa ga Tukisang; mo thotaneng ba tswa mo tseleng ba leba sekgwa sa ga Dimo, ba mo tsentse gare. Ba ise ba katoge motse kgakala mosepele wa utlwalela kgosi; mme go se yo o e tsayang tsia le fa e kgotšwa. Rre Serokolo a bolela fa a itse felo gongwe fa go tshwanetseng mokgape o ba tswang mo gae ka one. Ya re ba tsamaile sekgala sa dimaele tse pedi ba utlwa naka ya mokuakgosing e tserema kwa morago; mme ba itse gore e tla re banna ba sa le ba phuthega go utlwa se ba se bilediwang, ba be ba kgabagantse. Ba mo tsenya letsatsi gore a tsholetse dinao, a hemela godimo, motho wa batho.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.1",
+          "parent_id": "2.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(babedi/bararo/batlhano); (Tukisang/Modimoeng/Oshupile); (barongwa ba kgosi/bana ba ga Tukisang/morwa wa ga Matlhodi)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Tukisang o ne a na le barwa ba le …"
+            },
+            {
+              "(b)": "Obakeng e ne e le morwa wa ga …"
+            },
+            {
+              "(c)": "Mogwaafatshe wa barwa ba ga Tukisang o fisitswe ke …"
+            }
+          ]
+        },
+        {
+          "id": "2.2.2",
+          "parent_id": "2.2",
+          "text": "Go ya ka nopolo, ke ka ntlha ya eng nakana ya mokuelakgosi e ne e le la?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.3",
+          "parent_id": "2.2",
+          "text": "Mmakgosi o itsitse jang gore kgosi e thopilwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.4",
+          "parent_id": "2.2",
+          "text": "Ke eng se se tokafaditseng botshelo jwa ga Modimoeng mo pading?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.5",
+          "parent_id": "2.2",
+          "text": "Ke eng se sajene Botipe le monna wa lepodisi ba se boneng ka fa logageng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.6",
+          "parent_id": "2.2",
+          "text": "Goreng Obakeng a ne a itira yo o nang le kgatlhego fa mmaagwe a mmegela ka ga go nyelela ga bana ba ga Tukisang?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.7",
+          "parent_id": "2.2",
+          "text": "A o ka re Matlhodi o ne a rata Oshupile? Tshegetsa karabo ya gago ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.8",
+          "parent_id": "2.2",
+          "text": "A o akanya gore tshwetso e kgosi e e tsereng ka go amogela Modimoeng mo motseng e nnile kgato e e siameng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA A: PADI - BODIBENG JWA MATLHOMOLA",
+      "instructions": "Araba dipotso TSOTLHE ka padi e o e buisitseng.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "NOPOLO E",
+          "marks": null,
+          "scenario": "'A o sa ntse o batla go ya kwa nageng e nngwe gape ya baditšhaba?' Dimpho a utlwa rraagwe a goga mowa. \n'Nka kgona go tlola molelwane ke le esi go ya kwa Lesotho.' Letlamoreng a tswela pele. E ne e kete o bua a le esi. O ka re o ntsha kgang e e sa bolong go mo tshwenya mo pelong. 'Nka se tsamaye nako e telele thata, ke tlaa lebatsa go fitlha maemo a boela setlwaeding. Le fa e le gore ka moo dilo di lebegang ka teng, ga go supe e kete maemo a tlaa tokafala gotlhelele. Ga nkitla ke kgona go go tlogela o le esi le bana sebaka se seleele thata. Jaanong ke bona go le botoka gore re tsamaye rotlhe.'\n'Kana le fa re ya kwa Lesotho leo, re sa ntse re tlile go nna bafaladi. Nna ke lapisitswe ke go falala. Mofaladi kana ga a na lepe lefoko. O tsaya fela jaaka o fiwa. Ga re kitla re nna le sepe se e leng sa rona. Re tlile go tshela ka eng? Go tlile go diragala eng ka dilo tsotlhe tsa rona tse re di tlogetseng kwa ntlong ya rona? Ga re kitla re di tlogela fela jalo. Goreng o ne o dumela go tla mo? Le nna ke a itshola, nka bo ke sa reetsa mosadimogolo.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 3.1.1(a) go fitlha go 3.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Phikadili"
+              },
+              {
+                "label": "(b)",
+                "text": "Mangubo Sholo"
+              },
+              {
+                "label": "(c)",
+                "text": "Motshweneng"
+              },
+              {
+                "label": "(d)",
+                "text": "Mothonyana"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "kampa ya batshabi ya kwa Lesotho"
+              },
+              {
+                "label": "B",
+                "text": "tsala ya ga Dimpho kwa yunibesithing ya Lancaster go tswa kwa Mankweng"
+              },
+              {
+                "label": "C",
+                "text": "kampa ya batshabi ya kwa Lontone"
+              },
+              {
+                "label": "D",
+                "text": "o gakolotse Letlamoreng go tshaba mo Botswana"
+              },
+              {
+                "label": "E",
+                "text": "BoLetlamoreng ba ntse kwa ga gagwe kwa Lontone"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "Go ya ka nopolo, ke naga efe e Letlamoreng a neng a batla go tshabela kwa go yona?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "text": "Neela lebaka le le neng le gapeletsa Letlamoreng go tshabela kwa nageng e o e neetseng mo go 3.1.2.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.4",
+          "parent_id": "3.1",
+          "text": "Go ya ka nopolo, ke eng se se neng se dira gore Letlamoreng a se ka a batla go tsamaya a le esi go ya kwa nageng eo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.5",
+          "parent_id": "3.1",
+          "text": "Tlhagisa ntlha e e dirileng gore Odirile a feleletse a robegile letsogo fa ba ne ba ile go fitlha dibetsa tsa bona kwa Thabatshukudu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.6",
+          "parent_id": "3.1",
+          "text": "Modisaotsile o tlhokafetse jang?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.7",
+          "parent_id": "3.1",
+          "text": "O ka re Tsitsi ke motho wa semelo se se ntseng jang, go ya ka nopolo? Naya ntlha E LE NNGWE.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.8",
+          "parent_id": "3.1",
+          "text": "Go ya ka ditiragalo tsa padi e, a diGerilla di kgonne go fitlhelela kgololosego go tswa mo pusong ya Aforikaborwa?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "NOPOLO F",
+          "marks": null,
+          "scenario": "'Babinakgaboo!' Sefatlhego sa ga Tsitsi sa phatsima ka boitumelo fa a utlwa mafoko a. 'O mpoleletse gore o na le ntlo, e bile o nna a le esi mo go yona, ka jalo re ka tla go nna le ena go fitlhela re fiwa boagi kgotsa re busetswa morago. O ntsholofeditse gore a ka re thusa go batla legae la rona fa tsotlhe di ka re siamela. O rile o tlaa kopa tsala ya gagwe e e dirang kwa bankeng ya boditšhabatšhaba go ikgolaganya le banka ya me kwa Aforikaborwa, a ka kgona go ntsha bontlhabongwe ba madi gore a tle a re thuse. Ke bona e le dikgang tse di itumedisang, o bona jang moratiwa?'\n'Tsitsi a mo araba ka dikeledi.'\n'Ao rre, re tlile go tswa jang mo? A o akanya gore batho ba ba tlile go dumela re tsamaya?' Dimpho a botsa rraagwe a se na tsholofelo. \nLetlamoreng a sidila menwana ya gagwe jaaka a ne a tlwaetse go dira fa a itumetse.\n'Motshweneng a re ba tlile go re golola,' a bua a se na pelaelo. 'A re le ena o kile a nna mo maemong a re leng mo go one. O rile ka moso o tlaa ya go bona babueledi ba gagwe ba re thuse, o tlaa nteletsa mogala ka nako ya djo tsa motshegare.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(boitaolo/tshireletsego/khumo); (Motshweneng/Gabasiane/Mogomotsi); (letshoroma/kankere/nyumonia)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Ba lelapa la ga Letlamoreng fa ba ne ba tshaba kwa Mankweng ba ne ba batla …"
+            },
+            {
+              "(b)": "… ke ena a begetseng Letlamoreng ka loso lwa ga Odirile."
+            },
+            {
+              "(c)": "Mapodisi a ne a re Odirile o bolailwe ke bolwetse jwa …"
+            }
+          ]
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "text": "Motshweneng o ne a dira kwa kae?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "text": "BoTsitsi ba ne ba ana phologolo efe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.4",
+          "parent_id": "3.2",
+          "text": "Go ya ka nopolo, ke dilo dife tse Motshweneng a neng a di tshepisa boLetlamoreng? Neela DI LE PEDI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.5",
+          "parent_id": "3.2",
+          "text": "Goreng Tsitsi a ne a itumelela tshedimosetso e lefapha la batshabi le e neetseng Motshweneng gore boLetlamoreng ba kwa Pikadili?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.6",
+          "parent_id": "3.2",
+          "text": "Modisaotsile o ne a na le dingwaga di le kae fa a ne a dirwa moeteledipele wa diGerilla?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.7",
+          "parent_id": "3.2",
+          "text": "Goreng Tsitsi le Dimpho ba ne ba fetola diaparo fa ba fitlha kwa Botswana?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.8",
+          "parent_id": "3.2",
+          "text": "Goreng Dimpho a ne a itumeletse go nna kwa Lontone?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.9",
+          "parent_id": "3.2",
+          "text": "A o bona go siame gore Tsitsi le bana ba sale Letlamoreng morago gongwe le gongwe kwa a tshabelang teng ka ntlha ya mapodisi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.10",
+          "parent_id": "3.2",
+          "text": "Go tswa mo pading, mosadimogolo wa seaparo o bolailwe botlhoko ke mapodisi. Fa o ne o le ngwana wa gagwe o ne o tlaa dira eng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "KAROLO YA B: TERAMA - 'BO TLA SA JANG'",
+      "instructions": "Araba dipotso tse di boditsweng ka dinopolo TSOTLHE, k.g.r POTSO 4.1 le 4.2.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "NOPOLO G",
+          "marks": null,
+          "scenario": "KGOMOTSO: (O a sunasunetsa): Mma, nna tse ke di bonang di tsitsibanya mmele e le ruri. \nMMAKGOMOTSO: (Ka kutlwelobotlhoko): Se rialo tlhe Kgomotso ngwanaka …\nKGOMOTSO: (O a sunasunetsa): Di tlhabisa ditlhong mo go se nang bosekaseko mma.\nMMAKGOMOTSO: Se tlale pelo tlhe o nkitsise se se go tlhagetseng Kgomotso.\nKGOMOTSO: (O a sunasunetsa): Mma, ke ne ke sa gopola gore nyalo e botlhoko jaana …\nMMAKGOMOTSO: (O a mo gomotsa): Kgaotsa tlhe ngwanaka; kana selelo se oketsa kutlobotlhoko le one matshwenyego. Ke ne ke gopotse gore nyalo e, e tsile go fetola botshelo jwa … jwa me le gone go bo tokafatsa mma.\nKGOMOTSO: (O a sunasunetsa)\nMMAKGOMOTSO: E le gore go diragetse eng se se kanakana? Hee! Dilo tsa gompieno ruri …\nKGOMOTSO: (O a sunasunetsa): Ke raya gore botshelo jwa me mma, bo nna bo ntse bo nonwa ke keledi ya kutlobotlhoko letsatsi lengwe le lengwe.\nMMAKGOMOTSO: O! o a bo o ntlela ka dife tota … molato?\nKGOMOTSO: O ka se ka wa ntumela fa ke go raya ke re go mosetsana yo o nnang mo ntlong ya rona gone jaanong mma.\nMMAKGOMOTSO: O a re mosetsana?",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.1",
+          "parent_id": "4.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 4.1.1(a) go fitlha go 4.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Phofu"
+              },
+              {
+                "label": "(b)",
+                "text": "Kgomotso"
+              },
+              {
+                "label": "(c)",
+                "text": "Selebaleng"
+              },
+              {
+                "label": "(d)",
+                "text": "RaKgomotso"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "monna yo o bogale"
+              },
+              {
+                "label": "B",
+                "text": "o imisitswe ke Phofu"
+              },
+              {
+                "label": "C",
+                "text": "o boikobo"
+              },
+              {
+                "label": "D",
+                "text": "o thusitse go bona dinotlolo tsa ntlo MmaKgomotso"
+              },
+              {
+                "label": "E",
+                "text": "o sule ka kotsi ya sejanaga"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "4.1.2",
+          "parent_id": "4.1",
+          "text": "Kgomotso o utlwisitswe ke eng botlhoko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.3",
+          "parent_id": "4.1",
+          "text": "Tlhalosa thitokgang ya teramakhutshwe e.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.4",
+          "parent_id": "4.1",
+          "text": "Molwantshiwa mo teramakhutshweng e, ke mang? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.5",
+          "parent_id": "4.1",
+          "text": "Ka dintlha DI LE PEDI, tlhalosa semelo sa ga Selebaleng.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.6",
+          "parent_id": "4.1",
+          "text": "A tharabololo ya mathata a lenyalo la ga Kgomotso le Phofu e a kgotsofatsa?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.7",
+          "parent_id": "4.1",
+          "text": "A o dumelana le Kgomotso gore lenyalo le a sotla?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "NOPOLO H",
+          "marks": null,
+          "scenario": "KGOMOTSO: Mma tlhe, o leke go mo tlhalosetsa sentle tlhe. \nMMAKGOMOTSO: O sale a tswa fa a re o ya mabentleleng.\nKGOMOTSO: Hae! Ga ke itse gore ke a bo ke tsile go mo pota kae ruri.\nMMAKGOMOTSO: Mme le nna ke ntse ke ipotsa gore o ya go e tsayatsaya jang kgang e.\nRAKGOMOTSO: (Mongwe o a konyakonya): Koti koti …\nMMAKGOMOTSO: (O a seba): Gongwe ke ene …\nKGOMOTSO: (Le ene o a seba): Hm! Mo letle a tsene mma …\nMMAKGOMOTSO: Tsena! (O bula lebati a be a le tswala)\nRAKGOMOTSO: Dumelang mo gae.\nKGOMOTSO: Agee, rra.\nMMAKGOMOTSO: Ee, rra.\nRAKGOMOTSO: Ao! o tla leng Kgomotso?\nKGOMOTSO: Ke gone ke …\nMMAKGOMOTSO: Ke gone a ntseng a goroga rra …\nRAKGOMOTSO: A ko o iketle wena ga ke bue le wena … ao!\nMMAKGOMOTSO: Ija! Tlhalosetsa rraago gore go diragetseng ngwanaka, kana ke a bo ke sa tshwanela go bua.\nKGOMOTSO: Rra ke … ke fano jaana ka …\nRAKGOMOTSO: (O a galefa): Kgomotso; ke go botsa jaana ke bona gore o fano … ga ke ise nke ke go botse gore o fa kae … ke go boditse gore o tsile leng.\nMMAKGOMOTSO: Ga ke re ngwana o go tlhalosetsa se se mmayang fa …\nRAKGOMOTSO: Hei! Wena goromente, ke sa le kgakajana le wena; o dia Kgomotso o ya kgakala!\nKGOMOTSO: Ga se sebaka thata ke tsile, ke …\nRAKGOMOTSO: E le gore fa e kete ke nako tsa go tlhatlega dipitsana jaana, wa gago monna o apeetswe ke mang?",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.1",
+          "parent_id": "4.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(metshamekong/mminong/hoteleng); (mohumi/molemirui/mohumanegi); (iteile gonne a le matlhomantsi/kobile mo ntlong/tletse lekgarebe mo ntlong)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Phofu le Selebaleng ba ne ba tshwanetse go itisa kwa …"
+            },
+            {
+              "(b)": "Phofu ke monna wa …"
+            },
+            {
+              "(c)": "Kgomotso o ne a boela kwa gaabo gonne Phofu a mo …"
+            }
+          ]
+        },
+        {
+          "id": "4.2.2",
+          "parent_id": "4.2",
+          "text": "Ke eng se mmaagwe Kgomotso a tshwanetseng go se tlhalosa?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.3",
+          "parent_id": "4.2",
+          "text": "Ke ka ntlha ya eng Kgomotso a sa nnisege le fa a le kwa gaabo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.4",
+          "parent_id": "4.2",
+          "text": "Tlhalosa setlhoa sa teramakhutshwe e.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.5",
+          "parent_id": "4.2",
+          "text": "Modiragatsimogolo mo teramakhutshweng e, ke mang? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.6",
+          "parent_id": "4.2",
+          "text": "Lebakalegolo le le dirileng gore lenyalo la ga Phofu le Selebaleng le se ka la atlega ke lefe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.7",
+          "parent_id": "4.2",
+          "text": "A go ne go siame gore lepodisi le ye go tsaya dinotlolo tsa ntlo ya ga Kgomotso kwa ga Selebaleng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.8",
+          "parent_id": "4.2",
+          "text": "Go ya ka wena, a tsela e RaKgomotso a buisanang le MmaKgomotso ka yona go tswa mo temaneng e siame?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "KAROLO YA B: TERAMA - O LAETSE JALO",
+      "instructions": "Araba dipotso tse di boditsweng ka dinopolo TSOTLHE, k.g.r POTSO 5.1 le 5.2.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "NOPOLO I",
+          "marks": null,
+          "scenario": "Kwa ga Lentuwane, ke nako ya maitsiboa ya go utlwelela kgangtswelelopele 'Matswakabele'. Go tsena Nteseng o na le Makgolokwe.)\nNTESENG: A go a tsenwa?\nLENTUWANE: O mang tota? Bua leina la gago tlhe!\nNTESENG: Leina le senya motse. Ke nna tlhe tsala!\nLENTUWANE: Wa re mang?\nNTESENG: (Ka go seba.) Nteseng tlhe, Lentuwane.\nLENTUWANE: Ooo! Ija! Motho yo ke wena.\nNTESENG: Ke nna tsala, dumedisa rre yo, ke ene moeng wa rona.\nLENTUWANE: Dumela rra. O ka nna fa fatshe rra.\nNTESENG: Mma, rre ke yo. Ke rre Makgolokwe, ke ena yo ke go kaetseng ka ene.\nLENTUWANE: Ke a leboga. Ke ntse ke go tlhoka rra.\nMAKGOLOKWE: Ehe! Go rileng mma? Ke fano tswaya ka tsona.\nLENTUWANE: (Keledi ya rotha.) Ke na le mathata rra. Ke kopa thuso mo go wena. Mme yo, ke ene a go nkaetseng.\nMAKGOLOKWE: Ke nnete. Ena o a nkitse. Ke gakgamaditswe ke pitso ya gago mma. Tota ga a nkamela sepe. Rre wa fa o kae?\nLENTUWANE: Kwa morakeng, ke kgale a sa tle.\nMAKGOLOKWE: A o itse sengwe ka pitso e?\nLENTUWANE: Nnyaya rra, ke kgang ya sephiri.\nMAKGOLOKWE: Hei! O ka re go tla mpalela.\nLENTUWANE: Ke a go rapela tlhe! Ke tla go duela ka se o se batlang.\nMAKGOLOKWE: (A keketega ka ditshego.) Wa reng? Ka se ke se batlang?\nLENTUWANE: Ee, rra, ke a itlhaloganya. Kante o gopotse eng?",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 5.1.1(a) go fitlha go 5.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Ntukelele"
+              },
+              {
+                "label": "(b)",
+                "text": "Rantweetwee"
+              },
+              {
+                "label": "(c)",
+                "text": "Mafuthe"
+              },
+              {
+                "label": "(d)",
+                "text": "Bantobanto"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "ke matwetwe wa kwa Rampampa"
+              },
+              {
+                "label": "B",
+                "text": "ke moemedi wa banka"
+              },
+              {
+                "label": "C",
+                "text": "ke modisa wa dikgomo tsa Moeti"
+              },
+              {
+                "label": "D",
+                "text": "ke morutimogolo wa kereke ya Lutere"
+              },
+              {
+                "label": "E",
+                "text": "ke ngaka kwa sepetleleng sa Derdepoort"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Go ya ka nopolo, Nteseng o tsere karolo efe go leka go thusa Lentuwane ka mathata a gagwe le Moeti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "Moeti o ne a le kwa kae fa Nteseng a tla le rre wa moeng?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Go tswa mo nopolong e, ke eng se se bontshang fa Lentuwane a ne a utlwile botlhoko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Ke eng se se tlhodileng loso lwa ga Moeti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Ke ka ntlha ya eng Lentuwane a ne a batla go tshola ngwana wa mosetsana? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Ke lebaka lefe le le neng le dira gore Lentuwane a batle gore Moeti a kgaogane le Matoko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "text": "A Makgolokwe o diragaditse kopo ya ga Lentuwane ya gore ngwana wa ga Matoko a tlhokafale?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "NOPOLO J",
+          "marks": null,
+          "scenario": "(Morago ga kgwedi tse pedi, Matoko o boetse gae. Ka nako ya kgogamasigo, Matoko o tsena mo tsietsing ya lerallo.)\nMATOKO: (O menogana jaaka o ka re motho a jewa ke dinnalete ka fa le ka fa.) Itšhuuu! Mme o kae bathong! Tantabane kgaitsadiaka, sianela kwa go malome Sepepe. O mo kope, gore a itlhaganele. Ke bona gore ke dinako tsa bofelo. Ke tshwanelwa ke go ya bookelong.\nTANTABANE: Ke tla dira ka bonako. Nte ke go tshelele a digogwane pele.\nMATOKO: Ke a leboga. Ke itlosa bosetlha fela. Nako ga e sa tlhole e dumela. Bosa bo sele bo se na mahube.\nTANTABANE: (O tshwara lebati.) Nte ke direle ka pele.\nMATOKO: (Pele Tantabane a tswela kwa ntle.) Hei! Hei! Boa tlhe! Hei! O a itse ka tla ka tswa mo bothateng e le ruri!\nTANTABANE: A o a bitsa ausi?\nMATOKO: (Ka lentswe le le kwa tlase.) Ke ne ke re ema go le gonnye. Go na le sengwe se ke se lebetseng.\nTANTABANE: Dira ka bonako tuu! O tloga o gaelelwa.\nMATOKO: Ke feditse. Ke bone kakapa ke e. Badimo ba arabile ntle le mathata. O se tlhole o re o ya gope, ke kgonne go thusega. O tla tsoga o ba phakelela. Go bosigo o tloga o longwa ke dinoga.\nTANTABANE: Ausi, ruri o mmakaditse. Ka bonako jaana?\nMATOKO: Ee, go fedile. Ke ditiro tsa ga Moeti, Ga twe le Lentuwane ka thari ya ntlha go ne go ntse fela jaana.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(Lentuwane/Matoko/Mojalefa); (setobatobe, koloi ya E20, koloi ya Datsun); (Lamatlhatso, Latshipi, Labotlhano)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Modiragatsimogolo mo terameng e ke …"
+            },
+            {
+              "(b)": "Morago ga phitlho ya ga Moeti, Matoko le Lentuwane ba ne ba isiwa gae ka …"
+            },
+            {
+              "(c)": "Dithoto tsa ga Moeti di kgaogantswe ka letsatsi la …"
+            }
+          ]
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "Go ya ka nopolo, ke eng se se neng se dira gore Matoko a menogane jaaka o ka re motho a jewa ke dinnalete?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Mmui o bua ka ga mang fa a re, 'kakapa'?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "Lentuwane o boleletse kgosi dilo dife TSE PEDI tse di mo utlwisang botlhoko fa e sa le Moeti a fudugela kwa ga Matoko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": "5.2",
+          "text": "Ke bomang ba ba lekileng go tsereganya magareng ga Matoko le Lentuwane pele ga phitlho ya ga Moeti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.6",
+          "parent_id": "5.2",
+          "text": "Goreng Lentuwane a ne a lwela go boloka Moeti kwa ga gagwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.7",
+          "parent_id": "5.2",
+          "text": "Ka ntlha E LE NNGWE, tlhalosa ka fa moterama a rarabolotseng kgotlhang magareng ga ga Lentuwane le Matoko.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.8",
+          "parent_id": "5.2",
+          "text": "Fa o bona, o ka re go nna le madi ga ga Moeti ke gona go dirileng gore a feleletse a ratana kwa ntle?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.9",
+          "parent_id": "5.2",
+          "text": "A o dumelana le rre Pholo fa a re, Mojalefa ga a tshwanelwa ke boswa jwa ga Moeti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "KAROLO YA C: DIKGANKHUTSHWE",
+      "instructions": "Araba dipotso tse di boditsweng ka ga dinopolo TSOTLHE, k.g.r POTSO 6.1 le 6.2.",
+      "questions": [
+        {
+          "id": "6.1",
+          "parent_id": null,
+          "text": "'MOGATSAKA O TLA NKGOPOLA' — BM Ditlhokwe",
+          "marks": null,
+          "scenario": "'Tatlhego mogatsaka, a tota o lemoga fa o ikepela lemena ka dilo tse di maswe tse o di dirang. Ruri malatsi a ga ke go tlhaloganye, o lala o goroga masigo, o lala digoba, o itshiela go feta selekano, e bile o ditsalatsala. Go diragala eng ka wena mogatsaka?'\n'Bona fa Mmadira, ke go nyetse, ke go agetse ntlo, ke go fa madi, jaanong o mpatla eng? Le gone o mang wena gore o ntaole, Mme le Rre kgale ba beile tlhogo? Gore ke dira eng, ke tsamaya le bomang, ke nwa jang, ga di batle wena tseo. O tlholwa ke go mpha ngwana, re dingwaga re nyalane, mme ga o ntsalele ngwana. Fa e le gore o lapile ka nna, phuthaphutha se e leng sa gago o wele tsela.' \nMonate wa lenyalo o nyeletse jaaka mouwane, e le bohutsana.\nMmadira a simolola go tlhoka boroko, a ipotsa gore a ke ene tota Tatlhego monna wa gagwe yo a mo itseng. Yo a ineetseng mo diatleng tsa dira, tse di mo lebaditseng le bagolo kwa lapeng. Yo o buang fa malomaagwe e se rraagwe, fa a batla fela go mo jela madi le go mo tsenyetsa bana sekolo. Yo gompieno a mmitsang moopa, ngwana wa moloi le fa mmaagwe e le ene a mo tlhokisitseng thari ka ditswammung. Fa a mo fitlhetse e le molala wa e e motopo, a mo tlhabolotse, a mo dirile motho.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.1",
+          "parent_id": "6.1",
+          "text": "Tlhopha tlhaloso go tswa mo KHOLOMONG YA B e e tsamaelanang le leina le le mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 6.1.1(a) go fitlha go 6.1.1(d) mo BUKENG YA DIKARABO.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Gadinthone"
+              },
+              {
+                "label": "(b)",
+                "text": "Mothusi"
+              },
+              {
+                "label": "(c)",
+                "text": "Ditshebo"
+              },
+              {
+                "label": "(d)",
+                "text": "Ramokeledi"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "tsala ya ga Tatlhego"
+              },
+              {
+                "label": "B",
+                "text": "ga a batle boswa jwa ditaola tsa boloi tsa ga mmaagwe"
+              },
+              {
+                "label": "C",
+                "text": "ngaka e e alafileng Tatlhego"
+              },
+              {
+                "label": "D",
+                "text": "malomaagwe Mogakwe"
+              },
+              {
+                "label": "E",
+                "text": "o tlhadisitse Mmadira"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "6.1.2",
+          "parent_id": "6.1",
+          "text": "Mmadira o ne a sa itumedisiwe ke dilo dife TSE THARO tse Tatlhego a neng a di dira?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.3",
+          "parent_id": "6.1",
+          "text": "Ke eng se Tatlhego a latofatsang Mmadira ka sona?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.4",
+          "parent_id": "6.1",
+          "text": "Mmuisano o, o diragalela kwa toropong efe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.5",
+          "parent_id": "6.1",
+          "text": "Neela lebaka le le neng le gapeletsa Tatlhego go koba Mmadira fa ga gagwe.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.6",
+          "parent_id": "6.1",
+          "text": "Goreng Motsemme le Mmamosa ba ne ba maketse fa Ditshebo a ratana le Tatlhego?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.7",
+          "parent_id": "6.1",
+          "text": "Go ya ka wena, ke eng se boMogakwe ba ka bong ba se dirile go thusa Mmadira mo lenyalong la gagwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.8",
+          "parent_id": "6.1",
+          "text": "Fa o lebile, a mathata a go tlhoka ngwana mo lenyalong a tshwanetse go rweswa mosadi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2",
+          "parent_id": null,
+          "text": "'LENYALO KE KGETSE YA LESOGODI' – MI Siko",
+          "marks": null,
+          "scenario": "'Thaka ga go se ke tla se dirang, amogela sengwe le sengwe jaaka se ntse. Le nna ke lole ya matlhomahibidu le maikutlo pele ke tsaya tshwetso e morago ga go araba dipotso tse di boima go gaisa tsa moatlhodi.'\nLekau la tlhoma kgarebe matlho morago ga go bua.\n'Ke ne ke sa solofela fa o tla fetoga, lona banna le maobu a go …' Mokgethi a mo tsena ganong, \n'Se ntsole ditswalo ke ise ke go thadisetse kwa motlhodi o tswang teng.'\n'Le go ka, a o ka tsaya tshwetso o ise o utlwe gore nna ka reng? Ke se o sa bolong go se ikemisetsa rra.'\nMokgethi a se tlhole a senya nako, a se leke le go fitlha mafoko a ga mmaagwe fa a begela Lebogang.\n'Ga ke batle gore e re ka moso fa re tsena mo lefifing re bo re lela, kgotsa ga o ise o lemoge fa Mme a go ntshetsa a masweu fela malatsi a? Setlhare sa mosi ke go o katoga. Fa nka bo ke sa go rate nkabo ke sa go tlhalosetsa tsotlhe tse Mme a di buileng.'\n'Mokgethi go boima go kgaogana le lekau la go tshwana le wena, ke tla leka go go itebatsa gonne go pateletsa ga go thuse sepe.' Lebogang a tobetsa seyalemowa molodi wa simolola gape. Bobedi jwa fetoga dimumu go fitlha molotsana o ya bokhutlong. Tladimothwana ya ratha, ga sala go didimetswe go lebanwe mo dithakeng tsa matlho. Bobedi jwa kgaogana morago ga go utlwelela 'LET'S JUST KISS AND SAY GOODBYE' go sa balege.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.1",
+          "parent_id": "6.2",
+          "text": "Feleletsa dipolelo tse di latelang ka go tlhopha mafoko a a nepagetseng go tswa mo masakaneng:",
+          "marks": null,
+          "scenario": "(Phatwe, Seetebosigo, Sedimonthole); (morutabana/mooki/lephodisa); (Thaka/Terry/Ditshebo)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "(a)": "Mokgethi o simolotse go ratana le Morwesi ka kgwedi ya …"
+            },
+            {
+              "(b)": "Mokgethi o ne a dira jaaka …"
+            },
+            {
+              "(c)": "… o ne a ratana le Morwesi."
+            }
+          ]
+        },
+        {
+          "id": "6.2.2",
+          "parent_id": "6.2",
+          "text": "Neela lebaka le le tlhodileng mmuisano o o mo nopolong e e fa godimo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.3",
+          "parent_id": "6.2",
+          "text": "Go ya ka ditiragalo tsa kgankhutshwe, goreng Morwesi a ka se ikanngwe ke monna? Tshegetsa ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.4",
+          "parent_id": "6.2",
+          "text": "Ke eng se se dirileng gore Mokgethi a feleletse a bone kotsi ya sejanaga?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.5",
+          "parent_id": "6.2",
+          "text": "Ke ka ntlha ya eng Dithole a ne a sa rate fa Mokgethi a nyala Lebogang? Ntlha E LE NNGWE.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.6",
+          "parent_id": "6.2",
+          "text": "Mokgethi o dirile eng kwa bookelong go bontsha Morwesi gore o mo utlwisitse botlhoko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.7",
+          "parent_id": "6.2",
+          "text": "Ke kgakololo efe go ya ka nopolo e Mokgethi a e neetseng Lebogang mabapi le botsalano ba gagwe le mmaagwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.8",
+          "parent_id": "6.2",
+          "text": "Fa o ka bo o le Mokgethi mme mmaago a sa rate lekgarebe la gago o ne o tlaa dira eng?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "KAROLO YA D: POKO",
+      "instructions": "Araba dipotso tse di boditsweng ka maboko OTLHE, k.g.r. POTSO 7.1 LE 7.2.",
+      "questions": [
+        {
+          "id": "7.1",
+          "parent_id": null,
+          "text": "BOTLHANKA – SF Motlhake",
+          "marks": null,
+          "scenario": "1 Ke go boleletse gangwe le gape, \n2 Go lemala ga namane ke go lala le mmaayo; \n3 Motlhanka o simolotse go botologa \n4 Ke tlile go tswa natso go tlhabilwe mankokwane.\n\n5 Ke go boleletse gangwe le gape, \n6 Motlhanka ga a ntshetswe meno, \n7 Wa leka, o a itebala; \n8 A tloge a thube kobo segole.\n\n9 Ke go boleletse gangwe le gape, \n10 Motlhanka ga a nnele molelo le batho; \n11 Motho o a tle a intshe maise, \n12 Go tlogwe go sekwe mafoko a se na mmui.\n\n13 Ke go boleletse gangwe le gape, \n14 Batho ga re lekane re se meno. \n15 Ntšwa di gana go robala ntle, \n16 Re tlile go solwa lesolo se se mankopa.\n\n17 Ke go boleletse gangwe le gape, \n18 Motlhanka motho, ga a kgwele mathe, \n19 Wa leka, o itshenyetsa didiba; \n20 E tla re madiba a tšhwa, wa ngoalala.\n\n21 Ke go boleletse gangwe le gape, \n22 Batlhanka, masimo a rona! \n23 Ntšwa ga e thibelelwe kgorong, \n24 Wa leka, e go bontsha meno.\n\n25 Ke go boleletse gangwe le gape, \n26 Ka re, o ngate o tiise: \n27 Botshelo motho, ga bo itsiwe, \n28 Motlhanka wa gago, morena wa gago wa ka moso.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.1",
+          "parent_id": "7.1",
+          "text": "Buisa leboko lotlhe ka kelotlhoko, mme morago o tlhophe tlhaloso mo KHOLOMONG YA B e e tsamaelanang le ponagalo ya poko kgotsa sekapuo se se mo KHOLOMONG YA A. Kwala fela tlhaka (A–E) fa thoko ga potso 7.1.1(a) go fitlha go 7.1.1(d) mo BUKENG YA DIKARABO",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "KHOLOMO YA A",
+            "column_b_title": "KHOLOMO YA B",
+            "column_a_items": [
+              {
+                "label": "(a)",
+                "text": "Go kgwelwa mathe"
+              },
+              {
+                "label": "(b)",
+                "text": "Go botologa"
+              },
+              {
+                "label": "(c)",
+                "text": "Go ntshetswa meno"
+              },
+              {
+                "label": "(d)",
+                "text": "Go thuba kobo segole"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "go iketla"
+              },
+              {
+                "label": "B",
+                "text": "go tshegisiwa"
+              },
+              {
+                "label": "C",
+                "text": "go nyatsiwa"
+              },
+              {
+                "label": "D",
+                "text": "go tlotliwa"
+              },
+              {
+                "label": "E",
+                "text": "go ikgogomosa"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "7.1.2",
+          "parent_id": "7.1",
+          "text": "Neela dintlha DI LE PEDI tse di supang fa leboko le, e le la segompieno.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.3",
+          "parent_id": "7.1",
+          "text": "Tlhalosa bokao jwa sekapuo se se mo go mola wa 27 fa godimo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.4",
+          "parent_id": "7.1",
+          "text": "Nopola mola go tswa mo temaneng ya bofelo o o bontshang gore motlhanka o botlhokwa.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.5",
+          "parent_id": "7.1",
+          "text": "Goreng mmoki a re, 'batlhanka, ke masimo a rona!'?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.6",
+          "parent_id": "7.1",
+          "text": "Tlhagisa molaetsa o o tlhagelelang mo meleng ya 18–20.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.7",
+          "parent_id": "7.1",
+          "text": "Fa o lebile, goreng mmoki a bontsha maikutlo a kutlobotlhoko go ya ka diteng tsa leboko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.8",
+          "parent_id": "7.1",
+          "text": "Go ya ka wena, a go nna motlhanka go bontsha tshotlego?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2",
+          "parent_id": null,
+          "text": "BOSIELA – LD Raditladi",
+          "marks": null,
+          "scenario": "1 Bosiela ga bo phimoge sekalobadi, \n2 Ga bo na motho a botlhapa ka mosidi, \n3 A bo phimola a bo latlhela bodibeng, \n4 Go tswa maswe, jone bo salele nameng.\n\n5 Ke ledimo le jang batho le metlhape, \n6 Moselesele o sadisang le makape, \n7 Go sale bolota go sale botlhoko, \n8 Go sale sebodu se tlhokang dipheko.\n\n9 Bosiela ke pula ya kgogolamoko, \n10 Ke mosetlho o sa rwalelwang le ditlhako, \n11 Bo go kolobetsa bo sa go rapele, \n12 Bo go tlhabe dinao, ditlhako o di rwele.\n\n13 Bosiela ruri ke leselamotlhaka, \n14 Le utswang dikoko, masogo le dikgaka; \n15 Bo tsena fela le fa ntlo e ageletswe, \n16 Bo bo bo senya lokgapho lwa ntlo e feetswe.\n\n17 Bosiela ruri bo ka bo bo itlhotlhorwa, \n18 Nkoo ke botshwara ke bo gasetsa borwa \n19 Ke bo latlha jaaka mokgatha wa kobo, \n20 Go garolwaka ke ditau tsa lengobo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.1",
+          "parent_id": "7.2",
+          "text": "Tlhopha karabo e e maleba ka go kwala tlhaka e e nepagetseng A, B, C kgotsa D. Kgogolamoko ke pula e e nang …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "ka selemo."
+            },
+            {
+              "label": "B",
+              "text": "mariga."
+            },
+            {
+              "label": "C",
+              "text": "morago ga thobo."
+            },
+            {
+              "label": "D",
+              "text": "pele ga thobo."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.2",
+          "parent_id": "7.2",
+          "text": "Ke mela efe E MEBEDI e e bontshang gore mmoki o utlwisitswe botlhoko ke bosiela mo temaneng ya 2?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.3",
+          "parent_id": "7.2",
+          "text": "Mmoki mo moleng wa ntlha o kaya eng fa a re bosiela ga bo phimoge sekalobadi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.4",
+          "parent_id": "7.2",
+          "text": "Mmoki o tshwantshanya bosiela le eng mo moleng wa 13?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.5",
+          "parent_id": "7.2",
+          "text": "Neela ponagalo ya poko mo moleng wa 16.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.6",
+          "parent_id": "7.2",
+          "text": "Goreng mmoki a dirisitse lefoko 'ledimo' mo moleng wa botlhano?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.7",
+          "parent_id": "7.2",
+          "text": "Neela sekapuo se se dirisitsweng mo moleng 19.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.8",
+          "parent_id": "7.2",
+          "text": "Tlhalosa bokao ba mola 12.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.9",
+          "parent_id": "7.2",
+          "text": "Ke ka ntlha ya eng mmoki a re, 'bosiela bo kolobetsa bo sa rapele' mo moleng wa 11?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.10",
+          "parent_id": "7.2",
+          "text": "Fa o lebile, goreng mmoki a re a ka latlhela bosiela kwa ditaung?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 33566,
+    "cached_tokens_saved": 0
+  }
+}

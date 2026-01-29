@@ -1,0 +1,190 @@
+{
+  "subject": "Tshivenda Luambo lwa Hayani (HL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Tshivenda",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KHETHEKANYO YA A: MAANEA",
+      "instructions": "Fhindulani mbudziso NTHIHI fhedzi kha dza malo dzi tevhelaho. Vhulapfu ha phindulo yaŋu vhu vhe maipfi a u bva kha a 400 u swika kha a 450. Ṅwalani NOMBORO ya maanea e na nanga.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Uyo musi ndo guda uri maano a vhambwa nga luvhadzi ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Izwi ndi zwine nda si tame u xelelwa ngazwo vhutshiloni ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Kupembelele ukwu ku nkhumbudza ḓuvha ḽe ra wana mvelelo dza gireidi ya 11 ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Pfunzo, tshone tshiko tsha vhuṱali na muxedzi wa mvelele kha vhaswa ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "U guda nga Luambo lwa Ḓamuni ndi zwavhuḓisa u fhira nga Luisimane?",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Nangoho iḽo ḽo vha dakalo-fulu kha nṋe ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Tshivhumbeo tsha maanea tshi tshi bva kha tshifanyiso tsho nangiwa.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Zwifanyiso zwi tevhelaho zwi nga ṱokonya kana zwa vusa zwipfi zwaŋu, kana zwa dzikusa kuvhonele kwaŋu kwa zwithu. Ḓinangeleni tshifanyiso TSHITHIHI ni kone u ṅwala maanea. Ṅwalani nomboro ya mbudziso ye na nanga (1.7 kana 1.8). PFESESANI: Hu tea u vha na vhuṱumani vhu re khagala vhukati ha maanea aŋu na tshifanyiso tshe na nanga.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Tshivhumbeo tsha maanea tshi tshi bva kha tshifanyiso tsho nangiwa.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Zwifanyiso zwi tevhelaho zwi nga ṱokonya kana zwa vusa zwipfi zwaŋu, kana zwa dzikusa kuvhonele kwaŋu kwa zwithu. Ḓinangeleni tshifanyiso TSHITHIHI ni kone u ṅwala maanea. Ṅwalani nomboro ya mbudziso ye na nanga (1.7 kana 1.8). PFESESANI: Hu tea u vha na vhuṱumani vhu re khagala vhukati ha maanea aŋu na tshifanyiso tshe na nanga.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KHETHEKANYO YA B: ZWIBVELEDZWA ZWA VHUDAVHIDZANI",
+      "instructions": "Fhindulani mbudziso MBILI kha dza rathi dzi tevhelaho. Vhulapfu ha mutumbu wa phindulo iṅwe na iṅwe vhu vhe maipfi a u bva kha a 180 u swika kha a 200. Dzhielani nzhele zwi tevhelaho: - Vha ṱanganedzaho mafhungo, redzhisiṱara, thouni na tshitaila. - Munanguludzo wa maipfi na tshivhumbeo tsha luambo. - Tshivhumbeo. Ṅwalani NOMBORO ya tshibveledzwa tshe na nanga.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "VHURIFHI HA TSHISHAKA (INIFOMAḼA)\n\nNi na khonani yaŋu ane na ḓi dzulela u pembelela ḓuvha ḽa mabebo a vhoiwe ni noṱhe miṅwaha yoṱhe, zwino uno ṅwaha ha tshe na dzangalelo nazwo.\n\nInwi mu ṅwaleleni vhurifhi ha u mu humbela uri ni dovhe ni pembele ni noṱhe.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "ATHIKILI YA MAGAZINI\n\nInwi ni na mpho ya u konesa u lunzhedza malungu na dovha na a shumisa kha u nakisa zwienda.\n\nṄwalani athikili ya magazini yo livhiswaho kha vhaganḓisi ni tshi anḓadza mishumo iyo yavhuḓi kha lushaka.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "NGANEAVHUTSHILO YA MUFU\n\nṄwana wa makhadzi waŋu Dambudzo Tshihwenu o ri sia nga lufu lwa tshivutshela.\n\nṄwalani nganeavhutshilo ine na ḓo i vhala nga ḓuvha ḽa mbulungo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "MUVHIGO WA FOMAḼA\n\nHo vha na khakhathi khulu ya u lwela desike nga vhagudi vha kiḽasi ine na dzhena khayo.\n\nInwi sa mugudi o vhonaho zwoṱhe, ṅwalani muvhigo une na ḓo u ṋekedza ṱhohoyatshikolo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "MUFHINDULANO\n\nNo ḓelwa nga muhumbulo wa u fara nyambedzano na khonani yaŋu ane a vhonala a si tsha shuma zwavhuḓi na u dzula o ṱungufhala kiḽasini.\n\nṄwalani mufhindulano vhukati haŋu nae.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "VHURIFHI HA TSHIOFISI (FOMAḼA)\n\nVharengisi vha afho tshikoloni tshine na dzhena khatsho vha khou rengisela vhagudi mafola.\n\nInwi sa murangaphanḓa wa vhagudi, ṅwalani vhurifhi ha u ḓivhadza vhulanguli ha tshikolo nga zwiito izwo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8476,
+    "cached_tokens_saved": 0
+  }
+}

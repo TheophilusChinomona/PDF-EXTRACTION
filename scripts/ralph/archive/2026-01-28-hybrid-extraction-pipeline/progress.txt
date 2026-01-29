@@ -1,0 +1,28 @@
+# Ralph Progress Log
+
+Started: 2026-01-28
+Project: PDF-Extraction (Memo Extraction Sidecar)
+Branch: ralph/memo-extraction-sidecar
+
+---
+
+## Codebase Patterns
+
+- **Gemini SDK:** Use `from google import genai` (modern SDK), NOT `google.generativeai`
+- **Settings Pattern:** Use `get_settings()` for configuration access (singleton via @lru_cache)
+- **Pydantic v2:** Raises `ValidationError` for validation failures (not `ValueError`)
+- **Mypy Configuration:** Requires `plugins = pydantic.mypy` in mypy.ini for BaseSettings support
+- **OpenDataLoader API:** Uses functional `convert()` not object-oriented `DocumentLoader()` class
+- **OpenDataLoader Output:** Writes JSON/Markdown files to disk - must read them to extract data
+- **Quality Scoring:** <0.7 triggers Vision fallback, >=0.7 uses hybrid mode
+- **FastAPI Routers:** Import functions at module level (not inside functions) to enable test mocking
+- **Retry Pattern:** Decorator handles both sync and async functions via inspect.iscoroutinefunction()
+- **Partial Extraction:** Save OpenDataLoader data even when Gemini fails - provides value to users
+- **File Cleanup:** Use finally block with try/except to silence cleanup failures
+- **Rate Limiting:** Use slowapi with `get_limiter()` singleton; reset limiter in tests with `autouse=True` fixture
+- **GeminiCompatibleModel:** Base class in app/models/extraction.py - all Gemini-facing models must extend it
+- **Schema Cleaning:** Use `_remove_additional_properties()` from pdf_extractor.py for Gemini API compatibility
+- **Context Caching:** Separate global cache name per extraction type (exam vs memo) with 1-hour TTL
+- **DB Patterns:** CRUD functions in app/db/ mirror each other - follow app/db/extractions.py for new tables
+
+---

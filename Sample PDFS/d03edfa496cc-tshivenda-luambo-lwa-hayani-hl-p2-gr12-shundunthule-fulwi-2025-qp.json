@@ -1,0 +1,1029 @@
+{
+  "subject": "Tshivenda Luambo lwa Hayani (HL) P2",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "SHUNDUNTHULE/FULWI",
+  "grade": "12",
+  "language": "Tshivenda",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KHETHEKANYO YA A: VHURENDI (VHURENDI HO RANDELWAHO)",
+      "instructions": "Fhindulani mbudziso MBILI dzi&#191;we na dzi&#191;we kha N&#184;A dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "text": "Murendi wa tshirendo itshi u sumbedza u vhilahedzwa nga zwithu zwinzhi zwine zwa khou itea shangoni. Nga maipfi a u bva kha a 250 u swika kha a 300, sengulusani n&#181;ila ine murendi a shumisa ngayo ndima/zwitanza u bvisela khagala ndivho yawe tshirendoni itshi.",
+          "marks": 10,
+          "scenario": "NDI &#182;EMBE-&#182;E VHAHASHUNI? &#8211; AA Mphaga 1 Mukosi wo &#190;ahwa musi wa mvula khulu; 2 Zwirulu zwi si na mutsho zwo sin&#187;ana, 3 Mupo na vhathu zwa lovha, 4 Ha farwa milomo &#188;i &#187;embe &#188;ihulu, 5 Vha&#190;anu na vhararu vha phuluswa ho tama Ene, 6 Muhuweleli mukosi o &#190;avha wa shaya mubvumeli, 7 Ya likitana yo likitana vha vha na nzhele, 8 Ha phethea nyito, &#188;i &#187;embe &#188;i sa lavheleswi. 9 Sogani ho laiwa vha&#188;a ... 10 Matanda n&#187;evheni a konyolelwa, 11 &#184;owa vha shaya u lavhelesa, 12 Vha fa vha lovha, vha fa. 13 Zwiambela uno musi ndi levhu-levhu! 14 Lushaka lu vutshela lushaka, 15 Ho&#190;he na ho&#190;he ndi ruvhu-ruvhu! 16 Vha &#187;o vha na nzhele sa vha sa musi u&#188;a. 17 Ndi ganuko &#188;a vhalavhelesi, 18 &#186;wana u na &#191;wana, 19 Mvula a i rothi, 20 U vhulahana ndi u vhulahana. 21 Ndi ma&#190;hakheni a &#190;halano, 22 N&#187;ala i a kora, 23 Mi&#187;alo i mi&#187;alo, 24 Ndi &#187;embe &#188;a muitashango.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KHETHEKANYO YA A: VHURENDI (VHURENDI HO RANDELWAHO)",
+      "instructions": "Fhindulani mbudziso MBILI dzi&#191;we na dzi&#191;we kha N&#184;A dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "Ndi zwifhio zwine murendi a tama u zwi bvisela khagala nga mutaladzi/ vese ya 4? 'Thoro ... are&#187;i'",
+          "marks": 2,
+          "scenario": "KHA INWI WANGA &#8211; FR Modau 1 Mbilu yanga yo dzunguluwa sa tshi&#187;a&#187;a tshi sa &#187;ivhi vhuyo 2 Makole manzhi lufuno lwo fovhela khambani yalwo 3 Sa tshibode tsho &#187;ipfundisa ngomu khambani 4 Thoro dzine nda zwala dzi tshi &#188;iwa nga are&#187;i 5 Dzi ngomu thumbuni ya mavu ano. 6 Ndo lila mi&#190;odzi ya xa zwisimani zwayo 7 Hu tshi shaya mu&#191;we ane mbilu yawe ya khathuwa 8 Ra lila ro&#190;he sa tsiwana 9 Mi&#190;odzi ri tshi &#189;anzwedzelana sa zwibwanana 10 Nda thetshela vhududo ha mbilu ya lufuno 11 &#183;a vha &#188;one dzilafho &#188;a yanga mbilu. 12 &#184;amusi yanga mbilu yo shanduka tshilombe luvhan&#187;eni 13 Mbilu yo fura dakalo-zwililo, 14 Mufunwa wanga nandi! 15 Ngavhe lwashu lufuno lu tshi titima 16 Nda hangwa mi&#190;odzi na mavhadzi a muhumbulo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "Ndi figara-&#187;e ya muambo ine murendi a i shumisa kha mutaladzi/vese ya 6? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "Sedzani ndima/tshitanza tsha 3. &#184;eani pfanapheleledzo/raimi ya ndima/tshitanza tshenetsho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Ndi ufhio muhumbulo muhulwane une murendi a &#190;o&#181;a u u bveledza nga tshirendo itshi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "Ni a tendelana na na kuhumbulele kwa murendi ku re kha mitaladzi/ vese dza 15&#8211;16? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KHETHEKANYO YA A: VHURENDI (VHURENDI HO RANDELWAHO)",
+      "instructions": "Fhindulani mbudziso MBILI dzi&#191;we na dzi&#191;we kha N&#184;A dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "Ndi zwifhio zwine murendi a tama u zwi bvisela khagala nga mutaladzi/ vese ya 1? 'Ven&#187;a .... vhatuka'",
+          "marks": 2,
+          "scenario": "VHATUKANA VHA VEN&#182;A &#8211; IP Demana, ET Maumela na WM Mbulaheni 1 Ven&#187;a &#188;o beba vhatuka, 2 Vhatuka vha imbaho Ven&#187;a &#188;a thetshelesa, 3 Vhuvhili havho vha tshi tshimbila, 4 Vha nga khomba na mu&#190;hannga lufunoni. 5 Ni ntakadza hani maswuhana, 6 Nga zwi&#190;u&#190;ulo zwa&#189;u zwi penyaho, 7 Vhukati hazwo hu elaho milambo, 8 Milambo ya ma&#187;i a elaho. 9 Ha&#189;wani ha&#189;u zwine ha bula, 10 Hu bula mapfandau, 11 A sa thetshelwi nga tsiwana, 12 Ya thetshela u &#187;ivhumba vhuhosi hu hayo. 13 Ven&#187;a ngoho kha &#188;i hule, 14 Vhuhulwane ha&#188;o vhu sumbee, 15 Sa musidzana vhakegulu o sema, 16 &#185;amba &#188;awe &#188;i vhonwe a tshi imbelwa. 17 Zwikoloni vhana vho ni lindela, 18 Vhafumakadzi mihani vha tshi shaya, 19 Vho lindela inwi ni tshi tika, 20 Ngoma dza&#189;u dzi tshinwaho na nga mazioni. 21 Yehova n&#189;e sa Itani na Thinandavha nnyite-vho, 22 Nnyite ndi &#187;ifhelwevho, 23 Uri na &#187;uvha &#188;ine nda &#190;uwa, 24 Ndi e&#187;ele-vho hu no hulisea.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "Ndi figara-&#187;e ya muambo ine murendi a i shumisa kha mutaladzi/vese ya 4? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "Sedzani ndima/tshitanza tsha 3. &#184;eani pfanapheleledzo/raimi ya ndima/ tshitanza tshenetsho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "text": "Ndi ufhio muhumbulo muhulwane une murendi a &#190;o&#181;a u u bveledza nga tshirendo itshi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": "3",
+          "text": "Ni a tendelana na na kuhumbulele kwa murendi ku re kha mitaladzi/ vese dza 13&#8211;14? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "KHETHEKANYO YA A: VHURENDI (VHURENDI HO RANDELWAHO)",
+      "instructions": "Fhindulani mbudziso MBILI dzi&#191;we na dzi&#191;we kha N&#184;A dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "text": "Ndi zwifhio zwine murendi a tama u zwi bveledza nga mitaladzi/ vese ya 1&#8211;4?",
+          "marks": 2,
+          "scenario": "MIHUMBULOLUTSHETSHE &#8211; AA Mphaga 1 Sa bambiri &#188;i hwalwaho nga muya, 2 Sa magabelo magabela ngei na ngei, 3 Sa &#190;hun&#181;u i sa &#181;ivhi hune ya ya, 4 I tekiswa na nga lukhan&#181;wa. 5 Ndi nguluvhe ine na u &#190;anzwa, 6 Thopheni vhumbulu ya vha mashika 7 Ndi khuhu ine na u swiswa, 8 I hangweledza ya vhuya. 9 Ndi buphuthe ndi donngi badani, 10 Ndi khuhu yo farelwa u &#190;havhiwa, 11 Ndi nguluvhe sagani yo lindela u &#190;havhiwa, 12 A i humbuli. 13 I guma lumemeni, 14 I wela mugodini, 15 I fashwa nga mulavhu, 16 I tou humbulelwa, 17 Ndi mihumbulo ya lutshetshe.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "text": "Ndi figara-&#187;e ya muambo ine murendi a i shumisa kha mutaladzi/vese ya 9? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "text": "Sedzani ndima/tshitanza tsha 3. &#184;eani pfanapheleledzo/raimi ya ndima/ tshitanza tshenetsho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": "4",
+          "text": "Ndi ufhio muhumbulo muhulwane une murendi a &#190;o&#181;ou u u bveledza nga tshirendo itshi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": "4",
+          "text": "Ni a tendelana na na kuhumbulele kwa murendi ku re kha ndima/tshitanza tsha 3? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "KHETHEKANYO YA A: VHURENDI (VHURENDI VHU SONGO VHONWAHO - KHOMBEKHOMBE)",
+      "instructions": "Vhalani tshirendo itshi nga vhuronwane uri ni &#187;o kona u fhindula mbudziso dzi tevhelaho.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "text": "Ndi zwifhio zwine murendi a tama u zwi bveledza nga mutaladzi/vese ya 1?",
+          "marks": 2,
+          "scenario": "&#183;O KOVHELA &#8211; AC Bvumbi 1 Mihumbulo yanga i thimathimoni 2 Ndo ima khunzikhunzini ya lwanzhe 3 Vhulwadze ho mbaraga milenzhe 4 Hune magabelo a mphoshomedza a sa fhedzi 5 A tshi lila uri ndi tibiwe nga swiswi 6 Uri ndi vhone swiswi 7 &#182;uvha &#188;o kovhela 8 Ma&#190;o anga a lwa na muhumbulo 9 Muhumbulo u vhona zwawo 10 Milenzhe yanga a i tsha fulufhedzea 11 Ndi vhungwendengwende 12 Yo farwa nga nyofho 13 Ndi swenda sa &#191;wana 14 N&#181;evhe dzanga dzo dzinga 15 Mu&#190;o&#181;o wanga a u remi a u remi 16 Mbilu yanga a i swi a i swi 17 A &#188;i kovheli nda awela n&#181;ala na &#181;ora 18 Mu&#189;e wanga u ngafhi? 19 U mphe muhumbulo wa tshigidi 20 A mphe mugo wa tsimbi 21 A ntshandukise ndi vhe tshi&#189;oni, ndi fhufhele makoleni.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "text": "Murendi u shumisa figara-&#181;e ya muambo kha mutaladzi/vese ya 3? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "text": "Nga mitaladzi/vese dza 17&#8211;21, ndi ndivho ifhio ine murendi a tama u i bvisela khagala? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "text": "Ndi vhu&#181;ipfi-&#181;e ha murendi vhu bvukululwaho nga mutaladzi/vese ya 17? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "text": "Ni a tendelana na kuvhonele kwa murendi ku re kha ndima/tshitanza tsha 3? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (NGANEA)",
+      "instructions": "Fhindulani MBUDZISO YA 6 (mbudziso ndapfu) KANA MBUDZISO YA 7 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Bugu ya nganea ya shaya thero i a rothola. Vhaanewa vhahulwanwe buguni ya nganea vha na mushumo vhukuma wa u bveledza thero. No &#187;isendeka nga &#188;ikumedzwa &#188;o &#189;etshedzwaho afho n&#190;ha, sengulusani n&#181;ila ine mu&#191;wali a shumisa ngayo Tshifhiwa, Vho Madilaga na Vho Luvhani sa vha&#191;we vha vhaanewa vhahulwane u bveledza thero.",
+          "marks": 25,
+          "scenario": null,
+          "context": "NANDI NDI SHENGA? &#8211; NE Sigogo. Vhulapfu ha maanea a&#189;u vhu vhe u bva kha maipfi a 400 u ya kha a 450.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (NGANEA)",
+      "instructions": "Fhindulani MBUDZISO YA 6 (mbudziso ndapfu) KANA MBUDZISO YA 7 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "7.1",
+          "parent_id": "7",
+          "text": "Zwi tshi kwama Vho Madilaga na Vho Luvhani ndi lushaka lufhio lwa khu&#187;ano lwo &#190;aniwaho afho mafhungoni e na vhala? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA A (Nandi ndi shenga?): I&#188;o &#187;uvha Vho Luvhani vho ri u vhuya hayani vha pfa vha si na na nungo... Vho Madilaga vho ri u pfa izwo vha thoma vha sokou ri hwii! ... [Lines 1-20] ... 'Luvhani, Luvhani, mmbudzeni zwauri ni khou ntshutshedza ngoho.' ... [Lines 21-42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2",
+          "parent_id": "7",
+          "text": "Vho Madilaga mafhungoni ayo e na &#189;etshedzwa afho n&#190;ha vho olwa sa muthu-&#187;e? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.3",
+          "parent_id": "7",
+          "text": "Ndi tshifhio tshipi&#181;a tsha puloto tsho &#190;aniwaho nga mafhungo e na vhala afho n&#190;ha? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.4",
+          "parent_id": "7",
+          "text": "Vhu&#181;ipfi ha Vho Madilaga vhu dzumbululwa hani nga mafhungo e na vhala afho n&#190;ha? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.5",
+          "parent_id": "7",
+          "text": "Mafhungo aya e na vhala afho n&#190;ha a thusedza hani u &#190;o&#190;omodza thaidzo mu&#190;ani wa Vho Madilaga no sedza zwe zwa bvelela nga murahu buguni iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.6",
+          "parent_id": "7",
+          "text": "Mulaedza une mu&#191;wali wa bugu iyi a tama u &#187;isela vhavhali ndi ufhio? Tikedzani phindulo ya&#189;u.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.7",
+          "parent_id": "7",
+          "text": "Sumbedzani ndeme ya zwine mu&#191;wali a itela zwone musi a tshi shumisa Vho Silima sa muanewa buguni iyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.8",
+          "parent_id": "7",
+          "text": "Masiandaitwa o vhangwaho nga kutshilele kwa Vho Maambavha&#191;we sa muanewa buguni iyi ndi afhio? Bulani mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.9",
+          "parent_id": "7",
+          "text": "U tenda ha Tshifhiwa u &#190;uwa na khotsi awe Vho Madilaga musi a tshi ya u ambara gaweni Germany zwo thusedza hani u bveledza magumo a &#188;ishandi mafhungoni a nganea iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.10",
+          "parent_id": "7",
+          "text": "U ya nga kuvhonele kwa&#189;u ni vhona zwo vha zwo tea naa uri Vho Ana vha farelwe nga mu&#190;a wa ha Madilaga kha zwe vha u khakhela ngazwo? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.11",
+          "parent_id": "7",
+          "text": "Ni a pfela vhu&#190;ungu Tshifhiwa kha zwe zwa bvelela khae mafhungoni a bugu iyi? Tikedzani phindulo ya&#189;u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 8",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (NGANEA)",
+      "instructions": "Fhindulani MBUDZISO YA 8 (mbudziso ndapfu) KANA MBUDZISO YA 9 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "8",
+          "parent_id": null,
+          "text": "Bugu ya nganea ya shaya thero i a rothola. Vhaanewa vhahulwane buguni ya nganea vha na mushumo vhukuma wa u bveledza thero. No &#187;isendeka nga &#188;ikumedzwa &#188;o &#189;etshedzwaho afho n&#190;ha, sengulusani n&#181;ila ine mu&#191;wali a shumisa ngayo Vho-Loshani, Maria na Aifheli sa vha&#191;we vha vhaanewa vhahulwane u bveledza thero.",
+          "marks": 25,
+          "scenario": null,
+          "context": "ISHA &#183;A MI&#185;ODZI &#8211; NE Phaswana. Vhulapfu ha maanea a&#189;u vhu vhe u bva kha maipfi a 400 u ya kha a 450.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 9",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (NGANEA)",
+      "instructions": "Fhindulani MBUDZISO YA 8 (mbudziso ndapfu) KANA MBUDZISO YA 9 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "9.1",
+          "parent_id": "9",
+          "text": "Zwi tshi kwama Vho-Loshani na Maria, ndi lushaka lufhio lwa khu&#187;ano lwo &#190;aniwaho afho mafhungoni e na vhala? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA B (Isha la Mitodzi): 'Ni ri ndi nga tou itela vhutshivha &#191;wana wa hayani? Litshani ndi ye hu sa &#187;o pfi nangoho Loshani ha funi zwa mu&#191;we zwi tshi naka.' ... [Lines 1-24] ... 'Ro ri musi ro dzula na Aifheli, ra wana zwo tea uri vhone vha vhe murangaphan&#187;a wa munyanya washu...' ... [Lines 25-34]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.2",
+          "parent_id": "9",
+          "text": "Vho-Loshani mafhungoni ayo e na &#189;etshedzwa afho n&#190;ha vho olwa sa muthu-&#187;e? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.3",
+          "parent_id": "9",
+          "text": "Ndi tshipi&#181;a tshifhio tsha puloto tshi &#190;aniwaho nga mafhungo e na vhala? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.4",
+          "parent_id": "9",
+          "text": "Vhu&#181;ipfi ha Vho-Loshani vhu dzumbululwa hani nga mafhungo e na vhala afho n&#190;ha? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.5",
+          "parent_id": "9",
+          "text": "Mafhungo aya e na vhala afho n&#190;ha a thusedza hani u &#190;o&#190;omodza thaidzo mu&#190;ani wa Vho-Aifheli no sedza zwe zwa bvelela nga murahu buguni iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.6",
+          "parent_id": "9",
+          "text": "Mulaedza une mu&#191;wali wa bugu iyi a tama u &#187;isela vhavhali ndi ufhio? Tikedzani phindulo ya&#189;u.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.7",
+          "parent_id": "9",
+          "text": "Sumbedzani ndeme ya zwine mu&#191;wali a itela zwone musi a tshi shumisa Vho-Sara sa muanewa buguni iyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.8",
+          "parent_id": "9",
+          "text": "Masiandaitwa o vhangwaho nga kutshilele kwa Vho-Josephine zwi tshi kwama mu&#190;a wavho ndi afhio? Bulani mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.9",
+          "parent_id": "9",
+          "text": "Lu&#191;walo lwe Maria a &#191;walela munna wawe Aifheli lwo thusedza hani u bveledza magumo a &#188;ishandi mafhungoni a nganea iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.10",
+          "parent_id": "9",
+          "text": "U ya nga kuvhonele kwa&#189;u ni vhona zwo vha zwo tea naa uri Aifheli a farele Maria kha zwe a mu khakhela ngazwo? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.11",
+          "parent_id": "9",
+          "text": "Ni a pfela vhu&#190;ungu Vho-Loshani kha zwe zwa bvelela khavho mafhungoni a bugu iyi? Tikedzani phindulo ya&#189;u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 10",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (FOLUKU&#183;OO)",
+      "instructions": "Fhindulani MBUDZISO YA 10 (mbudziso ndapfu) KANA MBUDZISO YA 11 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "10",
+          "parent_id": null,
+          "text": "Ma&#191;walwa a sialala ndi tshiko tsha n&#181;ivho tsha lushaka lu&#191;we na lu&#191;we. Lushaka lu a kona u tsivhudzwa na u kaidzwa, lwa dovha hafhu lwa eletshedzwa uri lu vule ma&#190;o kha zwithu zwinzhi zwo fhambanaho uri lu sa &#187;o &#187;idzhenisa khomboni na mirafho yalwo i no &#187;o lu tevhela. Sengulusani n&#181;ila ine zwibveledzwa zwa sialala zwi tevhelaho zwa nga shumiswa u &#189;ea khwa&#190;hisedzo kha i&#188;o &#188;ikumedzwa &#188;o bulwaho afho n&#190;ha. TSHIBVELEDZWA TSHA C: LUNGANO 'Vhatukana vha no shanduka' NA TSHIBVELEDZWA TSHA D: TSHIKHO&#182;O 'Makwin&#187;a a Tshiungani'",
+          "marks": 25,
+          "scenario": null,
+          "context": "KHUVHANGANYO YA FOLUKU&#183;OO &#8211; RV Tshikovhi. Vhulapfu ha maanea a&#189;u vhu vhe u bva kha maipfi a 400 u ya kha a 450.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 11",
+      "title": "KHETHEKANYO YA B: NGANEA/FOLUKU&#183;OO (FOLUKU&#183;OO)",
+      "instructions": "Vhalani mafhungo a tevhelaho uri ni &#187;o kona u fhindula mbudziso.",
+      "questions": [
+        {
+          "id": "11.1",
+          "parent_id": "11",
+          "text": "Mafhungoni a lungano ulu lwe na vhala afho n&#190;ha muanetsheli u &#190;ana hani mvumbo ya muvhu&#181;a?",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA E: VHANA VHA U SA PFA &#8211; TZ Ramaliba. 'Salungano! Salungano!' Ho vha hu na vha&#191;we mukegulu vhe vha vha vha tshi dzula na vha&#181;uhulu vhavho vhavhili, wa mutukana na wa musidzana. ... [Lines 1-32]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.2",
+          "parent_id": "11",
+          "text": "Khanedzano ye khaladzi na khaladzi vha vha nayo musi vhe lwendoni i &#190;ana lushaka lufhio lwa khu&#187;ano? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.3",
+          "parent_id": "11",
+          "text": "U sa an&#187;ana vhukati ha avha vhana vhavhili musi vhe lwendoni zwi tshi kwama n&#181;ila ine ya tea u dzhiiwa zwo vha na masiandaitwa-&#187;e? Bulani ZWIVHILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.4",
+          "parent_id": "11",
+          "text": "&#185;alutshedzani uri ndaela ine vhana vha i fhiwa nga makhulu wavho i thusedza hani u anetshela zwa phan&#181;a lunganoni ulwu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.5",
+          "parent_id": "11",
+          "text": "U lamukiswa ha vhana avha nga muvhu&#181;a uri vha si &#188;iwe nga dziphukha hu &#190;ana hani vhu&#181;ipfi havho? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.6",
+          "parent_id": "11",
+          "text": "Ndi mulaedza-&#187;e une muanetsheli wa lungano ulu a tama u tshi ya kha vhathetshelesi/vhavhali?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.7",
+          "parent_id": "11",
+          "text": "Arali ho vha hu inwi khaladzi a hoyu mutukana, &#185;alutshedzani nga mbuno MBILI zwe na vha ni &#187;o ita zwone nga ndaela ye na &#189;ewa nga makhulu wa&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.8",
+          "parent_id": "11",
+          "text": "&#185;alutshedzani zwine murendi a &#190;o&#181;a u vhudza vhavhali/vhathu nga mutaladzi/vese ya 2?",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA F: VHURENDI HA SIALALA (TSHIKHO&#182;O). THOVHELE MUTHUHATHO&#186;WI RAMMBU&#182;A &#8211; TZ Ramaliba. 1 Ahee Rammbu&#187;a Tshiwangamatembele ahee! 2 Rammbu&#187;a ane luvhilo a edza luvhu&#187;a 3 Iwe ane arali zwo vhifha wa tsa nga matembele 4 Iwe ane arali zwo vhifha wa sunguvhela bakoni &#188;a Tshavha&#187;in&#187;a 5 Iwe muthu ha tho&#191;wi; hu tho&#191;wi kholomo na mbudzi 6 Iwe mu&#187;uhulu wa Vele Mutumbukavhathu 7 Ahee Rammbu&#187;a Tshiwangamatembele ahee!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.9",
+          "parent_id": "11",
+          "text": "Ndi ifhio ndeme ya tshiga tsho shumiswaho magumoni a mitaladzi/ vese dza 1 na 7.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.10",
+          "parent_id": "11",
+          "text": "Ndi zwifhio zwine murendi a tama vhavhali/vhathetshelesi vha tshi zwi &#187;ivha nga ha khosi Rammbu&#187;a musi ro sedza mitaladzi/vese dza 3&#8211;4?.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.11",
+          "parent_id": "11",
+          "text": "Muhumbulo muhulwane wa tshikho&#181;o itshi ndi ufhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.12",
+          "parent_id": "11",
+          "text": "Kutshilele kwa khosi Rammbu&#187;a kwo bulwaho kha tshirendo itshi ni vhona ku tshi &#190;anganedzea naa? Tikedzani phindulo ya&#189;u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 12",
+      "title": "KHETHEKANYO YA C: &#182;IRAMA",
+      "instructions": "Fhindulani MBUDZISO YA 12 (mbudziso ndapfu) KANA MBUDZISO YA 13 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "12",
+          "parent_id": null,
+          "text": "Mu&#191;wali wa bugu ya &#187;irama a kundelwa u bveledza khu&#181;ano zwavhu&#181;i zwi xedza vhu&#190;ala ha u &#190;ana mu&#181;ifho na u takula dzangalelo &#188;a vhavhali buguni yeneyo. No &#187;itika nga &#188;ikumedzwa i&#188;i, sengulusani n&#181;ila ine mu&#191;wali wa iyi &#187;irama a shumisa ngayo vhatambi u bveledza khu&#181;ano.",
+          "marks": 25,
+          "scenario": null,
+          "context": "U LEMA HU FHIRA U LOTSHELWA &#8211; DR IP Demana. Vhulapfu ha maanea a&#189;u vhu vhe u bva kha maipfi a 400 u ya kha a 450.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 13",
+      "title": "KHETHEKANYO YA C: &#182;IRAMA",
+      "instructions": "Fhindulani MBUDZISO YA 12 (mbudziso ndapfu) KANA MBUDZISO YA 13 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "text": "Nyambedzano i re vhukati ha Mashudu na Khwa&#190;hisani i dzumbulula lushaka lufhio lwa khu&#187;ano? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA G: VHO-MARI&#185;A: Zwino uyu Tshibio ni &#187;o tou mu landulisa hani? ... MASHUDU: Bute &#188;ia, &#188;i a vhuya &#188;a dina! ... KHWA&#190;HISANI: (Hu dzhena Khwa&#190;hisani o fara bugu dzawe...) Bugu dzi a &#189;ea muthu n&#181;ala vha a &#187;ivha mmawe. ... [Lines 1-42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "text": "Mafhungo e na vhala afho n&#190;ha a bvukulula hani mvumbo ya Vho-Mari&#190;a? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "text": "Mufhindulano u re vhukati ha vhatambi mafhungoni e na vhala afho n&#190;ha u na vhu&#190;umani-&#181;e na zwe zwa &#187;o bvelela phan&#181;a &#187;iramani iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "text": "Sedzulusani mutaladzi u tevhelaho: 'Hu &#187;o thoma ha &#187;ihunga inwi. &#182;ithu a &#188;i shoni nandi!' Sumbedzani mushumo wa kuvhonele kwa muanetsheli u &#190;aniwaho nga mutaladzi uyu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.5",
+          "parent_id": "13",
+          "text": "Mafhungo e na vhala afho n&#190;ha a bvukululula mudzedze ufhio wa tshifhinga? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.6",
+          "parent_id": "13",
+          "text": "No sedza mafhungo a bugu iyi nga u angaredza, muhumbulo muhulwane une mu&#191;wali a tama u u isa kha vhavhali ndi ufhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.7",
+          "parent_id": "13",
+          "text": "U shumiswa ha Tsa&#191;wani zwi dzumbulula ndivho ifhio ya mu&#191;wali &#187;iramani iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.8",
+          "parent_id": "13",
+          "text": "No sedza mafhungo a &#181;irama iyi nga u angaredza, kutshilele kwa Vho-Mari&#190;a ku fhambana hani na kwa Khwa&#190;hisani? Sumbedzani nga mbuno THARU dzi pfalaho.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.9",
+          "parent_id": "13",
+          "text": "&#185;alutshedzani uri aironi ya &#187;irama ndi mini. Sumbedzani afho he mu&#191;wali a shumisa hone aironi &#181;iramani iyi.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.10",
+          "parent_id": "13",
+          "text": "Ni humbula uri vhu&#181;ifari ha Mashudu kha mme awe Vho-Mari&#190;a musi vha tshi mu eletshedza uri a songo &#190;uwa na Tsa&#191;wani tshikhuwani zwo tea naa? Tikedzani muhumbulo wa&#189;u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.11",
+          "parent_id": "13",
+          "text": "Ndi tsheo dzifhio dze na vha ni tshi &#187;o vha no dzi dzhia arali ho vha hu inwi He&#188;eni, musi munna wa&#189;u o vhuya na mu&#191;we musadzi? Zwi sumbedzeni nga mbuno MBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 14",
+      "title": "KHETHEKANYO YA C: &#182;IRAMA",
+      "instructions": "Fhindulani MBUDZISO YA 14 (mbudziso ndapfu) KANA MBUDZISO YA 15 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "14",
+          "parent_id": null,
+          "text": "Mu&#191;wali wa bugu ya &#187;irama a kundelwa u bveledza khu&#181;ano zwavhu&#181;i zwi xedza vhu&#190;ala ha u &#190;ana mu&#181;ifho na u takula dzangalelo &#188;a vhavhali buguni yeneyo. No &#187;itika nga &#188;ikumedzwa i&#188;i, sengulusani n&#181;ila ine mu&#191;wali wa iyi &#187;irama a shumisa ngayo vhatambi u bveledza khu&#181;ano.",
+          "marks": 25,
+          "scenario": null,
+          "context": "TSHILWAVHUSIKU &#8211; TT Mudau. Vhulapfu ha maanea a&#189;u vhu vhe u bva kha maipfi a 400 u ya kha a 450.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 15",
+      "title": "KHETHEKANYO YA C: &#182;IRAMA",
+      "instructions": "Fhindulani MBUDZISO YA 14 (mbudziso ndapfu) KANA MBUDZISO YA 15 (mbudziso pfufhi).",
+      "questions": [
+        {
+          "id": "15.1",
+          "parent_id": "15",
+          "text": "Nyambedzano i re vhukati ha Luka na Ledia i dzumbulula lushaka lufhio lwa khu&#187;ano? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": "TSHIBVELEDZWA TSHA H: LUKA: A hu na zwe wa nkhakhela ngazwo Ledia wanga. ... LEDIA: Arali Luka wanga a sa vhaiswi nga muya wanga; ndi tshini tsho khanikhaho mbilu ya khotsi a vhananga? ... PIET: (Hu dzhena Oubaas Piet.) Ndi mini mukalaha? Khezwi wo fara danda? ... [Lines 1-50]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.2",
+          "parent_id": "15",
+          "text": "Musi no sedza mafhungo a re afho n&#190;ha ni nga ri mini nga mvumbo ya Piet? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.3",
+          "parent_id": "15",
+          "text": "Mufhindulano u re vhukati ha vhatambi mafhungoni e na vhala afho n&#190;ha u na vhu&#190;umani-&#181;e na zwe zwa &#187;o bvelela phan&#181;a &#181;irama iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.4",
+          "parent_id": "15",
+          "text": "Sedzulusani mutaladzi u tevhelaho: 'A thi ambi havha vhane na n&#189;e ra &#190;wa navho. Bvela kule hanga ndi sa &#187;o u livhala! (Ledia u a bva.)' Sumbedzani mushumo wa kuvhonele kwa mu&#191;wali u &#190;aniwaho nga mutaladzi uyu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.5",
+          "parent_id": "15",
+          "text": "Ndi mudzedze ufhio wa tshifhinga u bvukululwaho nga mafhungo e na vhala? Tikedzani phindulo ya&#189;u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.6",
+          "parent_id": "15",
+          "text": "No sedza mafhungo a bugu iyi nga u angaredza, muhumbulo muhulwane une mu&#191;wali a tama u u isa kha vhavhali ndi ufhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.7",
+          "parent_id": "15",
+          "text": "U shumiswa ha Luka zwi dzumbulula ndivho ifhio ya mu&#191;wali &#187;iramani iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.8",
+          "parent_id": "15",
+          "text": "No sedza mafhungo a &#181;irama iyi nga u angaredza, kutshilele kwa Ledia ku fhambana hani na kwa Nyaphophi? Sumbedzani nga mbuno THARU dzi pfalaho.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.9",
+          "parent_id": "15",
+          "text": "&#185;alutshedzani uri aironi ya &#187;irama ndi mini. Sumbedzani afho he mu&#191;wali a shumisa hone aironi &#181;iramani iyi.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.10",
+          "parent_id": "15",
+          "text": "Ni humbula uri vhu&#181;ifari ha Piet nga murahu ha musi a tshi wana Mphelekedzeni o sera &#187;ira&#190;a ya hune Piet a dzula hone vhu tshi &#190;anganedzea naa? Tikedzani muhumbulo wa&#189;u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.11",
+          "parent_id": "15",
+          "text": "Ndi tsheo dzifhio dze na vha ni tshi &#187;o vha no dzi dzhia arali no vha ni Tshilwavhusiku, musi no swielela Maforo&#190;ereke a vho hana u &#190;uwa shangoni &#188;a&#189;u? Zwi sumbedzeni nga mbuno MBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 31625,
+    "cached_tokens_saved": 0
+  }
+}

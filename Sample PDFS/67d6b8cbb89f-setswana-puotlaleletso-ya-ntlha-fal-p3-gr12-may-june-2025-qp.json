@@ -1,0 +1,208 @@
+{
+  "subject": "Setswana Puotlaleletso ya Ntlha (FAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Setswana",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: TLHAMO",
+      "instructions": "Kwala tlhamo ya boleele jwa mafoko a a ka nnang 250–300 ka NNGWE fela ya ditlhogo kgotsa ditshwantsho tse di neilweng. Fa o dirisa setshwantsho go kwala tlhamo, se neele setlhogo. O se ka wa lebala go thala letlhomeso/lenaneopaakanyo PELE o kwala.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Ke ne ka latlhwa ke ditsala tsa me tsa botlhokwa.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Maemo a ditsela mo nageng ya Aforikaborwa a baya matshelo a badirisi mo kotsing.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Fa nka amogela madi a puso a tlamelo ya bana …",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Monate le bosula jwa go tsena sekolo mo mafaratlhatlheng.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Botshelo kwa ntle ga motsadi ga bo monate. Dumela kgotsa ganela.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Motshameko o o itumedisang o nkileng ka o bogela.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Tlhopha setshwantsho SE LE SENGWE go tswa mo go tse di latelang, mme o kwale tlhamo ka ga sona. Nomora potso ya gago go nna (1.7 kgotsa 1.8). Neela tlhamo ya gago setlhogo se se maleba. ELA TLHOKO: Diteng tsa tlhamo ya gago di tshwanetse go nyalana le setshwantsho se o se tlhophileng.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Setshwantsho sa tsela e e thubegileng e bile e na le lehuti le legolo (sinkhole) fa gare ga toropo.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Tlhopha setshwantsho SE LE SENGWE go tswa mo go tse di latelang, mme o kwale tlhamo ka ga sona. Nomora potso ya gago go nna (1.7 kgotsa 1.8). Neela tlhamo ya gago setlhogo se se maleba. ELA TLHOKO: Diteng tsa tlhamo ya gago di tshwanetse go nyalana le setshwantsho se o se tlhophileng.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Setshwantsho sa setlhopha sa batho ba phepafatsa tikologo/setšhaba ka go goba matlakase.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITLHANGWA TSE DILEELE TSA TIRISANO GAMMOGO LE DITLHANGWA TSE DI DIRISANG MEKGWA E E FAROLOGANENG YA TLHAELETSANO",
+      "instructions": "Araba potso e le NNGWE fela mo karolong e. Karabo e nne boleele jwa mafoko a a ka nnang 120–150.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "LEKWALO LA SEMMUSO. O dirile lekwalokopo la go dira mophato wa borobedi mo sekolong se se gaufi le legae la gaeno mo mafaratlhatlheng, mme ga o ise o arabiwe. Kwalela Mokhuduthamaga wa Lefapha la Thuto o ngongorege ka ntlha e.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "PEGELO. Barutwana ba le bantsi ba rata go fedisa matshelo a bona ka go ipolaya. Dira dipatlisiso ka ga tiragalo e, mme morago o kwale pegelo ka diphitlhelelo tsa gago le dikatlanegiso.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "TSA BOTSHELO JWA MOSWI. Rakgadiago ga a bolo go lwala, mme e rile fa le tsoga mo mosong la fitlhela a iketse badimong. Kwala tsa botshelo jwa moswi rakgadiago.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "POTSOTHERISANO. O reteletswe ke go tla go kwala tlhatlhobo ya Setswana ka gonne go ne go na le ditshupetso kwa lefelong le o nnang kwa go lona, ditsela tsotlhe di ne di tswaletswe, mme go se ka fa o ka fetang go ya kwa sekolong. Mogokgo o batla go itse gore ke ka ntlha ya eng o sa kgona go kwala tlhatlhobo. Kwala potsotherisano magareng ga gago le mogokgo wa sekolo.",
+          "marks": 30,
+          "scenario": null,
+          "context": "Setshwantsho sa ntlha ya puisano magareng ga barutwana ba babedi ba le kwa sekolong/thutong.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DITLHANGWA TSE DIKHUTSHWANE TSA TIRISANO",
+      "instructions": "Araba potso e le NNGWE fela mo karolong e. Karabo e nne boleele jwa mafoko a a ka nnang 80–100.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "PAMPITSHANA YA TSHEDIMOSETSO. Go na le bothata ba go utswiwa ga megala ya motlakase mo motseng wa gaeno. Kwala pampitshana ya tshedimosetso o tsibose baagi ka ga ntlha e.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "DITAELO. Mmaago o gateletswe ke bolwetse mme o tlhoka madi a go ya go bona ngaka ka ntlha ya gobo a sa kgone go tsamaya. Kwala ditaelo tse mmaago a go di neileng morago ga gore a go neele karata ya gagwe ya banka gore o ye go goga madi.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "PHASALATSO. Sekaseka setshwantsho se se fa tlase, mme morago o kwale phasalatso e e tlaa tsamaelang le sona.",
+          "marks": 20,
+          "scenario": null,
+          "context": "Setshwantsho se supa papatso ya 'SESOLO': Monster + Big Korn = R50.00, LAYS + Maynards = R45.00, Energy Drink + Water = R35.00.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8067,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "subject": "Xitsonga: Ririmi ro Engetela ro Sungula (FAL) P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "Mudyaxihi/Khotavuxika",
+  "grade": "12",
+  "language": "Xitsonga",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "XIYENGE XA A: XIKAMBELANTWISISO",
+      "instructions": "Hlaya xitshuriwa lexi landzelaka kutani u hlamula swivutiso leswi nga ta xi landzela.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Longoloxa swilo SWIMBIRHI ku suka eka NDZIMANA YA 1 leswi vanhu va nga swi endlaka ku kuma mali yo tihanyisa.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA A: PROSI - LEXI NGA XAVIWIKI XI PFUMALA MUNAVETISI. 'Ku dya hi ku endleriwa pulani, na ku tshama u karhi u kombela swa karharisa.' Lawa i marito ya muntshwa loyi a voneke leswaku vutomi bya tika loko u nga byi tlhariheli. Vanhu va swi kota ku luka mano leswaku va ta kota ku siya ndlala hi rivilo; van'wana va navetisa swixavisiwa swo hambanahambana swo fana na mihandzu, matsavu swiambalo na swin'wana na swin'wana. Van'wana va tiendlela swirhapa emakaya ya vona kutani matsavu ya kona va ya navetisa na ku xavisa epatwini. Van'wana va vumba mintlawa va endla tiphurojeke to hambanahambana; to luka, to rhunga, to vatla na tin'wana na tin'wana. Xa nkoka i ku va va etlela va dyile leswaku makhwiri ya nga gunguli.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Tsavula xivulavulelo eka NDZIMANA YA 1 lexi vulaka ku endla pulani.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA A: PROSI - LEXI NGA XAVIWIKI XI PFUMALA MUNAVETISI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Hlamusela leswi nhlokomhaka ya xitshuriwa yi vulaka swona.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA A: PROSI - LEXI NGA XAVIWIKI XI PFUMALA MUNAVETISI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Ku ya hi xitshuriwa, hi kwihi laha xiyimo xa bindzu xi nga ehenhla kona?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA A: PROSI - LEXI NGA XAVIWIKI XI PFUMALA MUNAVETISI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Ku ya hi NDZIMANA YA 2, hi tihi tinxaka timbirhi ta timanga leti kumekaka ti xavisiwa hi xitalo?",
+          "marks": 2,
+          "scenario": "Mabindzu lama ya tivekaka swinene i ya le switichini swa mathekisi na mabazi, laha hi kona ku xavisiwaka kona swilo swo hambanahambana swo fana na matsavu, swakudya, swo nwa na switirhisiwa swa tiselulafoni. U ta kuma muxavisi a khomile timanga to katingiwa na to virisiwa, ku endlela leswaku vaxavi va kota ku hlawula leti va ti tsakelaka no eneriseka. Hakunene a ku etleriwi, n'wana u kuriseriwa laha bindzu ri nga kona, a tlhela a vuya a ta sungula ra yena bindzu ra xiyimo xa le henhla.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Hi wihi nkoka wa ku va n'wana a kulela endhawini leyi ku vulavuriwaka hi yona eka NDZIMANA YA 2?",
+          "marks": 2,
+          "scenario": "Mabindzu lama ya tivekaka swinene i ya le switichini swa mathekisi na mabazi...",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Marito lama ya voyamisiweke eka NDZIMANA YA 3 lama nge: 'Mukhuhlwana nkwee!' ya vula leswaku loko u xava malamula mukhuhlwana wa …",
+          "marks": 1,
+          "scenario": "Vatswari va siya miti ya vona va etlela kwalomo leswaku va ta kota ku pfhumbisa miti ya vona... U ta kuma wansati a beburile n'wana hala tlhelo a khomile saka ra malamula, rito ku twala ra ku: 'Lamula hala, saka i R30 ntsena, mukhuhlwana nkwee!'...",
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "nghena."
+            },
+            {
+              "label": "B",
+              "text": "hola."
+            },
+            {
+              "label": "C",
+              "text": "nge ku khomi."
+            },
+            {
+              "label": "D",
+              "text": "ku tlulela."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Hlamusela hungu leri tisiwaka eka vaxavi hi xithathelo lexi nga eka NDZIMANA YA 4 lexi nge: 'Xibodhlelana lexi xi ku pfuxa u file.'",
+          "marks": 2,
+          "scenario": "Minkarhi yin'wana hasahasa leyi vaka kona, u hetelela u nga ha swi tivi leswaku n'anga ya xintima yi hambana kwihi ni muxavisi loyi a navetisaka swibodhlelana swa mirhi. ... 'Xibodhlelana lexi xi ku pfuxa u file' lawa i marito ya jaha leri nga ebindzwini.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9.1",
+          "parent_id": "1.9",
+          "text": "Eka NDZIMANA YA 4 munhu loyi a xavisaka matamatisi i wa xinuna.",
+          "marks": 2,
+          "scenario": "Minkarhi yin'wana hasahasa leyi vaka kona... Loko wa ha hlamarisiwa hi swibodhlelana ku humelela wa swirhundzu, 'Matamatisi hi lawa vana va ta xeva.'",
+          "context": "Vula u ku HI SWONA KUMBE A HI SWONA kutani u seketela nhlamulo ya wena:",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9.2",
+          "parent_id": "1.9",
+          "text": "Vanhu lava kombelaka mali eka NDZIMANA YA 6 va va va siyiwile hi xifambo xo ya entirhweni.",
+          "marks": 2,
+          "scenario": "Eka mphesamphesa wolowo u ta hlangana na un'wana a ku kombela mali a nga tirhangi nchumu. ... Loko a kombela mali, u vula leswaku u lahlakeriwile hi mali yo khandziya ku tlhelela ekaya, kumbe u siyiwile hi xo khandziya lexi a xi n'wi landzile leswaku a ya entirhweni lowu a ha ku wu kumaka.",
+          "context": "Vula u ku HI SWONA KUMBE A HI SWONA kutani u seketela nhlamulo ya wena:",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "Hi yihi nghozi leyi nga humelelaka vaxavisi lava va tsutsumaka va rhendzela movha?",
+          "marks": 2,
+          "scenario": "Vatswari va siya miti ya vona va etlela kwalomo... Loko ku yima movha laha ku xavisiwaka kona, u ta vona ndlela leyi va gingirikaka ha yona. U ta vona wonge va lo vona xo xi vona, hindlela leyi va tsutsumaka hayona va rhendzela movha.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Hi rihi khombo leri nga vaka kona eka mirhi leyi xavisiwaka exitarateni?",
+          "marks": 2,
+          "scenario": "Minkarhi yin'wana hasahasa leyi vaka kona... Mirhi ya kona yi tala ku ka yi nga tsariwangi swileriso na leswi nga hlanganisiwa ku endla murhi wa kona.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "Loko a wu ri Holobye wa Nhluvukiso wa swa mabindzu lamatsongo a wu ta endla yini hi vanhu lava ku vulavuriwaka hi vona eka NDZIMANA YA 5?",
+          "marks": 2,
+          "scenario": "Loko u fika emadorobeni u ta hlanganisiwa hi vavatli na vapfapfarhuti va swilo swo hambanahambana. Un'wana u ku komba rifetho na nkombe, hala tlhelo un'wana u hetisa ku vatla loko van'wana va ri eku huleleni na ku rhunga swixavisiwa leswi nga endliwa hi vuhlalu.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Xana ku nga va ku ri na vuxaka byihi exikarhi ka lavambirhi?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA B: XIFANISO. [Xifaniso lexi kombisaka wanuna na wansati. Wanuna u tumbetile swiluva endzhaku ka yena. Wansati u ri: 'A ndzi nga ku langutelangi!']",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.14",
+          "parent_id": null,
+          "text": "Kombisa ndlela leyi munhu loyi wa xisati a hlamarisiwaka hi yona hi loyi wa xinuna.",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA B: XIFANISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.15",
+          "parent_id": null,
+          "text": "Hikokwalaho ka yini loyi wa xinuna a tumbetile swiluva?",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA B: XIFANISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.16",
+          "parent_id": null,
+          "text": "Paluxa matitwelo ya nhwana loyi hi ku leteriwa hi leswi nga exifanisweni? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA B: XIFANISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "XIYENGE XA B: NKOMISO",
+      "instructions": "Hlaya xitshuriwa xa C laha hansi kutani u longoloxa tipoyinti ta NKOMBO u kombisa nkoka wa ku endla vutiolori. SWILETELO: 1. Longoloxa NKOMBO wa tipoyinti hi marito LAMA NGA HUNDZIKI 70. 2. Nombora swivulwa swa wena ku suka eka 1–7. 3. Tsala poyinti YIN'WE eka xivulwa xin'wana na xin'wana. 4. Tirhisa marito ya WENA N'WINYI. 5. Kombisa ntsengo wa marito lama u ma tirhiseke ma ri endzeni ka swiangi emakumu ka nkomiso wa wena.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Longoloxa tipoyinti ta NKOMBO u kombisa nkoka wa ku endla vutiolori.",
+          "marks": 10,
+          "scenario": "XITSHURIWA XA C: NKOKA WA VUTIOLORI. Vutiolori byi nga hlamuseriwa tanihi hi maendlelo yan'wana na yan'wana lama endlaka leswaku swirho swa miri swi fambafamba. Ku nga va hindlela ya ku va munhu a swi kunguhatile kumbe ku ri migingiriko ya siku na siku ekaya. Loko munhu a endla migingiriko leyi a nga ehleketi swo tala, leswi swi endla leswaku moya wa yena wu tshama wu phyuphyile. Ku na tinxakanxaka to tala ta migingiriko ya vutiolori, leti katsaka ku khida, ku tsutsuma na ku famba. Hinkwaswo leswi swi pfuna leswaku mipfimbi na misiha ya munhu swi tirha kahle kutani nkhuluko wa ngati wu va lowu tshamisekeke. Munhu loyi a endlaka vutiolori hi ku famba, ku tsutsuma kumbe ku ya endhawini yo endlela eka yona vutiolori u va na nkateko wo hlangana na vanhu vo hambahambana kutani a tikumela vanghana vo tala lava a nga hlekaka na ku bula leti na letiya na vona. Loko miri wu ri karhi wu fambafamba na ku endla migingiriko wa tiyelela. Miri a wo tiyelela ntsena wu tlhela wu va na matimba ku tlula ekusunguleni. Miri lowu nga na matimba wa tilwela eka mavabyi yo fana na ntshikelelo wa ngati na vuvabyi bya chukela. Munhu loyi a gingirikaka khwiri ra yena ri gayela swakudya hi ku hatlisa leswi endlaka leswaku a nga nyuheli. Munhu loyi a endlaka vutiolori nghohe ya yena ya saseka na ku languteka ku fana na ya munhu lontsongo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "XIYENGE XA C: RIRIMI EKA MBANGU - XIVUTISO XA 3: XINAVETISO",
+      "instructions": "Hlaya xitshuriwa lexi landzelaka kutani u hlamula swivutiso leswi nga ehansi ka xona.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Xinavetiso lexi xi kongomisiwe eka vamani?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA D: XINAVETISO. [Xifaniso xa movha wa BMW lowu tsariweke: U NGA YI LORHI KUNENE YI CHAYELE! HI TA KU TSHOVELA 45% N'HWETI LEYI. KOMBELA KU HI ENDZELA SWESWI EKA: www.websitename.com. KU KUMA VUXOKOXOKO +000 123 456 7890.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Xana rito 'yi' eka xivulavulelo 'U nga yi lorhi kunene', ri yimela yini?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Hikwalaho ka yini ku nga tsariwangi nxavo wa nchumu lowu navetisiwaka?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Loko va ku: 'Kombela ku hi endzela sweswi eka ...', va vula leswaku u va endzela ku ya ...",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": "Hlawula nhlamulo leyi nga yona eka leti nga laha hansi.",
+          "options": [
+            {
+              "label": "A",
+              "text": "kuma vito ra nchumu lowu xavisiwaka."
+            },
+            {
+              "label": "B",
+              "text": "vona vaxavisi na vhengele ra vona."
+            },
+            {
+              "label": "C",
+              "text": "wu lomba u muka na wona."
+            },
+            {
+              "label": "D",
+              "text": "wu vona na ku wu chayela u wu twa."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Marito ya 'yi chayele', ya na nkoka muni eka vaamukeri wa mahungu?",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Marito ya 'Hi ta ku tshovela 45% n'hweti leyi', ya khorwisa ke? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Marito lama nge 'U nga yi lorhi kunene yi chayele' ya seketela hindlela yihi xifaniso lexi nga eka xinavetiso.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA D: XINAVETISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "XIVUTISO XA 4: KU XOPAXOPA KHATHUNI",
+      "instructions": "Xiyaxiya xitshuriwa lexi landzelaka kutani u hlamula swivutiso leswi nga ehansi ka xona.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Boxa mbangu lowu timhaka leti nga eka khathuni ti humelelaka eka wona.",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA E. [Khathuni leyi kombisaka mudyondzi a tshame exitulwini a tlimbanyisiwe hi nkarhi. Mudyondzisi u ri: 'Nkarhi wu herile! Tisani maphepha ya n'wina haleno!'. Mudyondzi u huwelela a ku: 'NKARHI?! Phela hi kona ndzi heta nhlayo ya vumbirhi!']",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Xana eka khathuni leyi ku vulavula swimunhuhatwa swingani?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA E.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Xana i nkarhi wo endla yini lowu nga hela?",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA E.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Ku va rito 'NKARHI' ri tsariwile hi maletere lamakulu ri tlhela ri vekeriwa xivutiso na xihlamalo swi komba leswaku ximunhuhatwa xa ...",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA E.",
+          "context": "Hlawula nhlamulo leyi nga yona eka leti nga laha hansi.",
+          "options": [
+            {
+              "label": "A",
+              "text": "holova."
+            },
+            {
+              "label": "B",
+              "text": "huwelela."
+            },
+            {
+              "label": "C",
+              "text": "yimbelela."
+            },
+            {
+              "label": "D",
+              "text": "xavelela."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Ximunhuhatwa eka khathuni xi titwa njhani? Seketela.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA E.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Rito 'Tisani' eka xivulavulelo xa 'Tisani maphepha ya n'wina haleno!' ri kombisa yini? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA E.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7",
+          "parent_id": null,
+          "text": "Hi ku vona ka wena i yini xi endleke leswaku ximunhuhatwa xi heleriwa hi nkarhi? Seketela nhlamulo ya wena hi leswi nga eka khathuni.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA E.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "XIVUTISO XA 5: RIRIMI NA VUSWIKOTI BYO HLELA",
+      "instructions": "Hlaya xitshuriwa lexi landzelaka kutani u hlamula swivutiso leswi nga ehansi ka xona.",
+      "questions": [
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Vumba xivulavulelo xin'wana hi rito leri tikisiweke (kahle), u humesa nhlamuselo yo hambana na leyi nga eka xivulavulelo lexi: Va fanele ku tiva mahanyelo ya vana va vona kahle.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI - VUHLAYISEKI BYA VANA. Tiko ri yimile hi milenge na ku taleriwa hi vugevenga lebyi tsuvulaka na misisi. Vatswari va fanele ku veka tihlo eka vuhlayiseki bya vana va vona hi xiyimo xa le henhla swinene. Ku va vatswari va dyondzisa n'wana wa vona wo sungula loyi se a kuleke ku ringanela ku va na vutihlamuleri ehenhla ka vamakwavo i mhaka ya kahle. I swa nkoka ku vatswari va tiva vanghana va vana va vona na lomu va tshamaka kona. Vatswari va fanele ku tinyika nkarhi wo ya etindhawini ta vuhungasi tanihi ndyangu, na ku tlhela va amukela swiboho leswinene swa vana va vona. Ku lawula vana ku tlula mpimo swi na khombo na ku vanga ntshikelelo wa miehleketo. Mhaka yin'wana ya kahle i ku amukela tinyiko leti va nga na tona hikuva tin'wana hi leti ti nga ta va ntirhovutomi eka vona. N'wana loyi a nga kurisiwa kahle hi rirhandzu u kula kahle na ku va na vutitshembi eku hanyeni ka yena. Vana na vona va fanele ku yingisa vatswari tanihihilaha xivuriso xa vakhale xi vulaka ha kona loko xi ku: 'Rhavi lerintshwa ri tiyisiwa ri hi lera khale.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Yisa xivulavulelo lexi nga laha hansi eka nkarhi lowu nga hundza. Tiko ri yimile hi milenge na ku taleriwa hi vugevenga lebyi tsuvulaka na misisi.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "Nyika rito rin'we ro vula marito lama tikisiweke (n'wana wa vona wo sungula) eka xivulavulelo lexi nga laha hansi. Vatswari va fanele ku dyondzisa n'wana wa vona wo sungula, loyi se a kuleke ku ringanela ku va na vutihlamuleri ehenhla ka vamakwavo.",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Nyika ntirho wa rito leri tikisiweke (kahle) eka xivulavulelo lexi landzelaka: Mhaka yin'wana ya kahle i ku amukela tinyiko leti va nga na tona hikuva tin'wana hi leti ti nga ta va ntirhovutomi eka vona.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Hlawula risivinene leri faneleke rito leri tikisiweke (khombo) eka xivulavulelo lexi, 'Ku lawula vana ku tlula mpimo swi na khombo ...'",
+          "marks": 1,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "leyi."
+            },
+            {
+              "label": "B",
+              "text": "vona."
+            },
+            {
+              "label": "C",
+              "text": "hina."
+            },
+            {
+              "label": "D",
+              "text": "rona."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Nyika ntsongahato wa marito lama tikisiweke (vana) eka xivulavulelo lexi nga laha hansi. Loko vatswari va ya kun'wana kambe va nga fambi na vana va vona, va fanele ku siya vana na munhu loyi va n'wi tshembaka.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Yisa xivulavulelo lexi nga laha hansi eka tlhelo ra nandzulo. Switsundzuxo swa kahle swi kumeka eka vatswari.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "text": "Xana xivuriso lexi nga laha hansi a wu ta xi tirhisa loko swi te yini? 'Rhavi lerintshwa ri tiyisiwa ri hi lera khale.'",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA F: PROSI.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Yisa xivulavulelo lexi nga laha hansi eka vun'we. Vakulukumba lava va ta vuyeriwa nan'waka.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA G: XIFANISO. [Xifaniso xa matamatisi/mihandzu. Tsalwa ri ri: Murhi lowu wu tswarile swinene! Vakulukumba lava va ta vuyeriwa nan'waka. Va ta puna tiko ra ka hina hi mihandu leyinene.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "Hlela marito lama tikisiweke (puna) eka xivulavulelo lexi landzelaka: Ndzi ta puna tiko ra ka hina hi mihandu leyinene.",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA G: XIFANISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Tlhela u tsala xivulavulelo lexi landzelaka u sungula hi rito leri landzelaka: Lowu ... Murhi lowu wu tswarile swinene!",
+          "marks": 2,
+          "scenario": "XITSHURIWA XA G: XIFANISO.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 19254,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "subject": "Sepedi Leleme la Gae (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1",
+          "text": "DITAODIŠO",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 50,
+          "marker_instruction": "Balekwa ba ngwale taodišo ya mantšu a 400–450 ka hlogo e tee ya tšeo di filwego. Ba ka ngwala ka mehuta ye e latelago ya ditaodišo: Taodišokanegelo, taodišotlhaloši, taodišokgadimo, taodišokahlaahlo, taodišongangišano goba tswalano ya tšona.",
+          "notes": "Dintlha tšeo di filwego ka tlase ga hlogo ye nngwe le ye nngwe ke tša go hlahla baswai fela. Kwešišo ya molekwa ya hlogo yeo a e kgethilego e elwe šedi le ge dintlha tša gagwe di fapana le tšeo di filwego.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "1.1 … ruri e bile mohlohleletši wa mmakgonthe",
+                "points": [
+                  "Go letetšwe gore molekwa a laetše gore mohlohleletši wa mmakgonthe ke mang le gore tlhohleletšo ya gagwe e amile maphelo a batho bjang."
+                ]
+              },
+              {
+                "sub_topic": "1.2 Bohlale bo tšwa lebading",
+                "points": [
+                  "Go letetšwe gore molekwa a bolele ka fao a ithutilego ka gona go tšwa diphošong tša gagwe."
+                ]
+              },
+              {
+                "sub_topic": "1.3 Dipolao ka Afrika-Borwa ke tlhobaboroko",
+                "points": [
+                  "Go letetšwe gore molekwa a ngwale ka tsela ye dipolao ka nageng e lego bothata ka gona."
+                ]
+              },
+              {
+                "sub_topic": "1.4 Tiragalo ye e fetošitšego bophelo bja ka",
+                "points": [
+                  "Go letetšwe gore molekwa a ngwale ka tiragalo e tee yeo e dirilego gore a fetole bophelo bja gagwe le gore e bo fetotše bjang."
+                ]
+              },
+              {
+                "sub_topic": "1.5 Mekgwanakgwana ya go iphediša e thiba letšatši",
+                "points": [
+                  "Go letetšwe gore molekwa a laetše ka mo go nago le mekgwanakgwana ye mentši ye batho ba ka iphedišago ka yona."
+                ]
+              },
+              {
+                "sub_topic": "1.6 Go oketšwa ga ditheko tša madila go ka fokotša tšhomišompe ya ona. Dumela goba o ganetše.",
+                "points": [
+                  "Go letetšwe gore molekwa a tšee lehlakore la go dumela goba go ganetša go laetša ka fao go oketšwa ga ditheko tša madila go ka fokotšago goba go ka se fokotšego tšhomišompe ya madila."
+                ]
+              },
+              {
+                "sub_topic": "1.7 Seswantšho (Go seketša)",
+                "points": [
+                  "Go letetšwe gore molekwa a tšweletše sengwalwa sa gagwe ka tlhathollo ya seo se tšweletšwago seswantšhong ntle le go fetola kgopolokgolo.",
+                  "A tšweletše bohlokwa bja go seketša ka bophara."
+                ]
+              },
+              {
+                "sub_topic": "1.8 Seswantšho (Thuto/Lelere)",
+                "points": [
+                  "Go letetšwe gore molekwa a tšweletše sengwalwa sa gagwe ka tlhathollo ya seo se tšweletšwago seswantšhong ntle le go fetola kgopolokgolo.",
+                  "A laetše ka mo thuto e ka dirago gore motho a fihle maemong a godimo bophelong le ka moo go hloka thuto go ka dirago gore a se be le tšwelopele."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "LENGWALO LA SEMMUŠO",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa a ngwalele moruti wa kereke ya gabo lengwalo la go kgopela go tsena taba ya batswadi ba gagwe ka bogare.",
+            "Retšistara le segalo e be tše di fodilego, tša semmušo.",
+            "Sebopego le botelele e be tša maleba.",
+            "Atrese ya mongwadi/moromedi.",
+            "Maemo a moamogedi/moromelwa le atrese.",
+            "Madume.",
+            "Hlogo ya taba.",
+            "Matseno.",
+            "Diteng e be tša go tšweletša kgopelo mabapi le go tsena taba ya batswadi ka bogare.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tša maleba.",
+            "Mafelelo/bofelo le leina: Ka boikokobetšo, Wa lena, Masekwameng H."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "EMEILE",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa bjalo ka mongwaledi wa bafsa a ngwalele modirelaleago emeile ya go mo lemoša ka bothata bja bana ba ba dulago ba nnoši motseng wa gabo.",
+            "Sebopego le botelele e be tša maleba.",
+            "Atrese ya emeile ya moromelwa (mahlodi.t@dsd.gov.za).",
+            "Hlogo ye e laetšago lebaka la go romela emeile.",
+            "Madume/matseno e be a makopana a semmušo.",
+            "Diteng e be tša maleba tša go lemoša modirelaleago ka bana bao ba dulago ba nnoši.",
+            "Retšistara le polelo e be tša semmušo.",
+            "Segalo e be sa maleba.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Mafelelo/Bofelo e be boitsebišo bja mongwadi ka botlalo (Mohlala: Ke nna/Wa lena, Masia TT)."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "TŠA BOPHELO BJA MOHU",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa a bontšhe gore mohu o šometše lapa la gabo le maikarabelo a gagwe.",
+            "Leina le sefane sa mohu.",
+            "Batswadi ba mohu.",
+            "Lefelo le mohu a belegetšwego go lona.",
+            "Letšatši la matswalo a mohu.",
+            "Dithuto tšeo mohu a di fihleletšego.",
+            "Go laetšwe gore mohu e be e le mothuši wa ka lapeng.",
+            "Ditiro tše botse tše mohu a gopolwago ka tšona.",
+            "Letšatši le a hlokofetšego ka lona.",
+            "Go laetšwe gore mohu o hlokofetše ka morago ga bolwetši bjo bokopana.",
+            "Meloko ya kgauswi ye mohu a e tlogetšego.",
+            "Lefoko la taelo (Mohlala: Robala ka khutšo).",
+            "Mohu a ka laelwa ka sereto.",
+            "Retšistara le polelo e be tša go hlompha.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Go ngwalwe ka motho wa boraro, ka lebaka le le fetilego."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "POLELO",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa a tšweletše maikemišetšo a polelo ya gagwe, e lego go fa polelo mabapi le go thakgolwa ga protšeke ya mohlagase.",
+            "Matseno, mmele le mafelelo/thumo.",
+            "Matseno e be a a gogago šedi ya batheeletši.",
+            "Diteng di be mabapi le go thakgolwa ga protšeke ya mohlagase.",
+            "Go šomišwe mafoko a makopana a dikgopolo tše bonolo.",
+            "Retšistara le polelo e be tša go hlompha.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "ATHIKELE YA KGATIŠOBAKA",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa a ngwale athikele mabapi le go lemoša setšhaba ka go utswiwa ga bana ba basetsana le go kgala taba ye.",
+            "Go be le hlogotaba.",
+            "Laetša leina la mmegi.",
+            "Efa dintlha ka boripana le ka nepagalo ntle le go kgopamiša nnete.",
+            "Ngwala ditaba tše bohlokwa fela.",
+            "Diteng di lebane le go lemoša setšhaba mabapi le go utswiwa ga bana ba basetsana le go kgala taba ye.",
+            "Athikele/ Taodišwana ya gago e tsoše kgahlego le go hlohleletša mmadi.",
+            "Šomiša retšistara le polelo tša semmušo.",
+            "Tšhomišo ya gago ya polelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Sebopego: Leina la kgatišobaka, letšatšikgwedi (Lebone, Hlakola 2025), Hlogo, Leina la mmegi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "PEGO",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Go letetšwe gore molekwa a ngwale pego mabapi le diphadišano tša dipapadi tša sedikothuto.",
+            "Go be le hlogotaba.",
+            "Go tšweletšwe bokamorago/boithekgo.",
+            "Go laetšwe leina la moamogedi le mmegi (E ya go: E tšwa go: le atrese ge go hlokega).",
+            "Letšatšikgwedi le laetšwe.",
+            "Diteng di lebane thwii le tabakgolo (Diphadišano tša dipapadi tša kgwele ya maoto tša sedikothuto).",
+            "Go ngwalwe ka lebaka le le fetilego.",
+            "Go šomišwe mahlaodi le mantšu ao a tsošago maikutlo go tšweletša dikgopolo.",
+            "Retšistara le polelo e be tša semmušo.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Mmegi a laetše ditšhišinyo mabapi le tlhohleletšo ye barutwana ba e filwego."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 10544,
+    "cached_tokens_saved": 0
+  }
+}

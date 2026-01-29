@@ -1,0 +1,208 @@
+{
+  "subject": "Sesotho Puo ya Tlatsetso ya Pele (FAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sesotho",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: MOQOQO",
+      "instructions": "Kgetha sehlooho SE LE SENG, mme o ngole moqoqo wa bolelele ba mantswe a 250 ho isa ho a 300. Ha o kgethile ho ngola ka setshwantsho, o nehe moqoqo wa hao sehlooho. Hopola ho etsa moralo, mme o be o boele o lekole moqoqo wa hao botjha ho hlaola diphoso.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "text": "Le kajeno ke sa ipotsa hore ke fetile jwang bothateng boo!",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Ruri mehla e fetohile!",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Eo thuto e tla dula pelong ya ka ho ya ho ile.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Thekenoloji ya Phetoho ya Bone ya Diindasteri (4th Industrial Revolution) e nketse batho mesebetsi. Na o a dumela?",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "Botle le bobe ba dithuto tsa tlatsetso tsa mafelo a beke baithuting ba Kereiti 12.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Setshwantsho sa karatjhe ya mafura a dikoloi (petrol station).",
+          "marks": 50,
+          "scenario": "Ditshwantsho tse latelang di qholotsa mehopolo e itseng maikutlong a hao. Kgetha se le seng, o ntano ngola moqoqo ka mohopolo wa sehlooho o qholotswang ke setshwantsho. Ngola nomoro ya potso eo o e kgethang (1.6, 1.7 KAPA 1.8) mme o iqapele sehlooho sa hao.",
+          "context": "Setshwantsho se bontshang setsi sa ho tshela mafura a dikoloi (Filling Station/Fuel Station).",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "Setshwantsho sa teroli ya ho reka mabenkeleng (shopping trolley).",
+          "marks": 50,
+          "scenario": "Ditshwantsho tse latelang di qholotsa mehopolo e itseng maikutlong a hao. Kgetha se le seng, o ntano ngola moqoqo ka mohopolo wa sehlooho o qholotswang ke setshwantsho. Ngola nomoro ya potso eo o e kgethang (1.6, 1.7 KAPA 1.8) mme o iqapele sehlooho sa hao.",
+          "context": "Setshwantsho se bontshang teroli ya ho reka mabenkeleng e le feela yona ntle le dithepa ka hare.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "Setshwantsho sa tjhelete ya Afrika Borwa.",
+          "marks": 50,
+          "scenario": "Ditshwantsho tse latelang di qholotsa mehopolo e itseng maikutlong a hao. Kgetha se le seng, o ntano ngola moqoqo ka mohopolo wa sehlooho o qholotswang ke setshwantsho. Ngola nomoro ya potso eo o e kgethang (1.6, 1.7 KAPA 1.8) mme o iqapele sehlooho sa hao.",
+          "context": "Setshwantsho se bontshang madi a pampiri le madi a tshepe a Afrika Borwa.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITEMA TSA KGOKAHANO TSE TELELE",
+      "instructions": "Kgetha mme o ngole tema E LE NNGWE ya bolelele ba mantswe a 120 ho isa ho a 150. Hopola ho etsa moralo mme o be o boele o lekole tema ya hao botjha ho hlaola diphoso.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "LENGOLO LA SEMMUSO\n\nE mong wa bareki lebenkeleng le motseng wa heno o ile a wa, mme ralebenkele a mo thusa ka potlako. Ka hona, ngolla ralebenkele lengolo leo ka lona o mo babatsang ka tshwaro e ntle ya bareki.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "TEKOLOKAKARETSO\n\nO ne o shebelletse filimi e sa tswa phatlalatswa e o ammeng maikutlo. Ngola tekolokakaretso ya yona.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "RAPOROTO\n\nO ne o le teng ka phaposing ya borutelo nakong eo ba bang ba baithutimmoho le wena ba neng ba lwana, mme e mong wa bona o ile a tswa dikotsi. Ngolla mosuwehlooho tlaleho ya se ileng sa etsahala.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "PUISANO\n\nMatsatsing a kajeno moaparo wa bomme le barwetsana mafung o tsositse dipuo tse ngata. Ngola puisano e dipakeng tsa sebohodi sa radiyo le e mong wa baholo ba motse wa heno ka taba ena.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DITEMA TSA KGOKAHANO TSE KGUTSHWANE",
+      "instructions": "Kgetha mme o ngole tema E LE NNGWE ya bolelele ba mantswe a 80 ho isa ho a 100. Hopola ho etsa moralo mme o be o boele o lekole tema ya hao botjha ho hlaola diphoso.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "KARETE YA MEMO\n\nNgwaneno eo e leng kgale a nyametse ebile ho nahanwa hore o hlokahetse o fumanehile, mme le rerile ho mo etsetsa mokete wa ho mo amohela. Etsa karete ya memo eo o memelang motswalle wa hao moketeng oo ka yona.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "MOLAETSA WA WHATSAPP\n\nMotswalle wa hao o qetile beke a sa tle sekolong mme le fuwe mosebetsi wa hae ka Labohlano. Mo ngolle molaetsa wa WhatsApp moo o mo hlalosetsang kamoo mosebetsi oo o lokelang ho etswa kateng.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "DITSHUPISO\n\nRakgadi wa hao ya dulang porofenseng e nngwe, o batla ho ba teng moketeng wa dikapeso wa abuti wa hao ya qetileng lengolo la Masters o tla tshwarelwa holong ya motse. Mo ngolle ditshupiso tse tla etsa hore a ilo fihla holong eo. Ikamahanye le tse latelang:\n• Boemelo ba ditekesi.\n• Mabitso a diterata.\n• Karatjhe ya mafura a dikoloi.\n• Mmolo.\n• Holo.",
+          "marks": 20,
+          "scenario": null,
+          "context": "ELA TLHOKO: Sheba mmapa o tla o help o leqepheng la 7.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8621,
+    "cached_tokens_saved": 0
+  }
+}

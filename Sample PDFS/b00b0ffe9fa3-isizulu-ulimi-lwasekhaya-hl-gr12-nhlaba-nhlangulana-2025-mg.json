@@ -1,0 +1,1000 @@
+{
+  "meta": {
+    "subject": "IsiZulu Ulimi Lwasekhaya (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "NHLABA/NHLANGULANA",
+    "grade": 12,
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "ISIQEPHU A: IZINKONDLO",
+      "questions": [
+        {
+          "id": "1",
+          "text": "'ISIZIBA SENHLAKANIPHO' – EJ Mhlanga",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": "Sebenzisa irubhrikhi esekhasini lama-40 ukumaka i-eseyi.",
+          "notes": null,
+          "topic": "Kuyiqiniso ukuthi uma umuntu efuna ukufunda kumele adele konke njengoba imbongi idele ikhaya iyofuna ulwazi.",
+          "essay_structure": {
+            "introduction": [
+              "Kuyiqiniso ukuthi uma umuntu efuna ukufunda kumele adele konke njengoba imbongi idele ikhaya iyofuna ulwazi."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ukulangazelela kanye nentshisekelo",
+                "points": [
+                  "Imbongi inethemba lokuthola ulwazi ngokuvuka ekuseni kakhulu ukuze iye esikhungweni semfundo njengoba ithi, 'Kusempondozankomo …'.",
+                  "Imbongi iyayilangazelela imfundo ngoba iyaphokophela ngokuhamba indlela ende iyofuna kwezinye izindawo ezikude nekhaya njengoba ihamba yenyusa 'amaqele'.",
+                  "Ihamba le ndlela ukuze iyothola ukukhanyiseleka engqondweni ngemfundo ejulile yingakho ithi, 'Ngiyoncel' amanzi ngobhaqa.'",
+                  "Imbongi inentshisekelo ngenxa yokuthi yona yakhetha ukuqhubeka nokufunda yashiya owabo/ontanga bezidlalela 'osebeni, bedoba izinhlanzi'."
+                ]
+              },
+              {
+                "sub_topic": "Ukudideka kanye nokubalisa",
+                "points": [
+                  "Imbongi ibuye ikhombise ukudideka ngenxa yokuthi imfundo iyadida ngoba akukho muntu ongathi usefunde ngokwanele usazi yonke into emhlabeni njengoba ithi, 'Uyimpambankwici weNjulase.'",
+                  "Imbongi iyabalisa ngenxa yokuthi iyokuthola nini ukuphumula ngoba nomzimba usuyazwela ukukhathala ngokuba ihlezi ifunda njalo yingakho ithi, '… osufohlok' umhlandla.'",
+                  "Imbongi iyaqhubeka ibonakala inokudideka ngoba isho ukuthi imfundo 'iyimpicabadala' ngenxa yokuthi imfundo iyinkinga kubantu abancane nakwabadala ngoba ngisho noma ifundisiwe kepha luyakhohlwakala ulwazi olufundile."
+                ]
+              },
+              {
+                "sub_topic": "Ithemba leqiniso",
+                "points": [
+                  "Imbongi ikhombisa ukuba nethemba lokuthi kungenzeka kube khona abangafunda balithole iqiniso noma ulwazi ngale ndida eyimfundo njengoba ikhuluma ngemfumbe nempicabadala'.",
+                  "Iphinde imbongi ibe nethemba lokuthi mhlawumbe uma seyidlulile emhlabeni abasele bayokwazi ukuthola iqiniso ngokujula kwemfundo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Imbongi ikwazile ukukhetha amagama agqamisa umoya.",
+              "La magama agqamisa umoya wokulangazelela, wokudideka nentshisekelo.",
+              "Imbongi ephokophelele ngayo ukuzuza imfundo ephezulu etholakala ezindaweni ezikude."
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "text": "'UTHUNYWE NGUBANI?' – KNN Gcumisa",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": null,
+          "notes": "Nikeza amamaki amabili kuleyo naleyo mpendulo echanile.",
+          "topic": "Ukufa namandla ako",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU A: IZINKONDLO (cont.)",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umbizi / i-Aphostrofi",
+            "Imbongi ikhuluma nokufa engathi ibhekene nakho ngqo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma esigagulile isifengqo wanikeza nencazelo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umqondo oqukethwe umugqa wesi-4 owokuthi la mandla amakhulu kangaka kuwatholaphi ukufa.",
+            "Emgqeni wesi-5 ilinganisa amandla okufa namandla anjengawamabutho akwaMandlakazi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ewuchazile umqondo wemigqa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi ibihlose ukukhombisa ukuxakeka/ukudideka yilobu bubi namandla ukufa okunawo angaziwa ukuthi akwazi kanjani ukubulala nabantu abadala nabaphile saka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyivezile inhloso",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Le migqa ingelekelele ukuqonda ukuthi imbongi inomoya wokudideka/wokudumala/wokukhathazeka ngenxa yokuthi abanye bayakwazi ukuthi ukufa sekuke kwavakasha bengazange bavume ukuthi bavakashelwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ewuvezile umoya",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi iphumelele kahle ukusethulela indikimba yokufa ngoba ikhuluma nakho ngqo ukufa.",
+            "Ize izibuze nemibuzo engadingi mpendulo mayelana nakho.",
+            "Isho nokuthi akukhethi kuthatha abancane kanye nabadala futhi baningi asebezithole behlaselwa ngukufa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma echazile ngendikimba yokufa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU A: IZINKONDLO (cont.)",
+      "questions": [
+        {
+          "id": "3",
+          "text": "'IDWALA LIKASHAKA' – JM SIKAKANE",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukwenzasamuntu/isenzasamuntu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Nikeza imaki elilodwa uma esishilo isifengqo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umqondo oqukethwe yibinza lesi-3 owokuthi kuleli dwala kulapho iNkosi uShaka abikezela khona ukuqhamuka kwabelungu okwabe sekwenzeka nangempela sebelunguza olwandle ayebabone emi phezu kwaleli dwala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma echaze kafushane umqondo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Inhloso yembongi yokusebenzisa le-enjambamenti ukuxhumanisa umqondo oqale emgqeni we-14 kuya kowe-16 nokufunda ngokushesha/ukunganqamuli umqondo/ukwakha ilukuluku."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyishilo inhloso ye-injambamenti wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "La magama angelekelele ukuba ngiqonde umoya wokuzigqaja.",
+            "Imbongi izigqaja ngemvelo eyidwala equkethe umlando wesizwe lapho amabutho ayeziqeqeshela khona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma echazile umoya wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi iphumelele kahle ukudlulisa indikimba yobuqhawe/yomlando weNkosi uShaka eyabumba isizwe samaZulu ngendlela enobuhlakani isebenzisana nebutho layo, yalinda ukufika kwabelungu ukuze ivikele isizwe sayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ephawulile ngendikima wesekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU A: IZINKONDLO (cont.)",
+      "questions": [
+        {
+          "id": "4",
+          "text": "'UCU OLUMHLOPHE' – CT MSIMANG",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I-okzimoroni"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Nikeza imaki elilodwa uma egagulile isifengqo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imvumelwano siqalo 'Lu …' idala umgqumo omnandi osamculo ogcizelela ukuthi lolu cu yilona oluhlanganisa izithandani futhi luyisivumelwano salokho ezikuthembisile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma echazile ngemvumelwano",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isenzasamuntu sinomthelela wokuthi ngiqonde ukuthi uthando luqala kancane kancane.",
+            "Intombi ize ibe namahloni okuyibuka ngqo insizwa ezinhlamvini zamehlo njengoba emsulwa, ethambile, enganasici futhi edinga ukuphathwa kahle inakekekelwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma echazile ngesenzasamuntu",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngicabanga ukuthi umyalezo uthi, 'uthando luphathwa kahle'/uluhloniphe uma ungalwazisi noma ungaluphathi kahle nangenhlonipho luyogqashuka okuwuphawu lokuphela kothando bese konakala izinto kakhulu zibe inhlakanhlaka zingalungiseki."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma enikezile umyalezo wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Le nkondlo inesigqi esinensayo ngenxa yomoya wokukhathazeka kwentombi ebhekene nobunzima bokuhlulwa uthando lwensizwa.",
+            "Ibuka ubunzima okumele idlule kubona uma yakha lolu cu oluwuphawu lothando uma isiqoma insizwa.",
+            "Siyanensa ngenxa yomoya wokuzwa uthando alwakhayo uze amxwayise kanti inemigqa eminingi evalelike, eminingi imigqa inamagama amane."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma esihlaziyile isigqi wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU A: IZINKONDLO (cont.)",
+      "questions": [
+        {
+          "id": "5",
+          "text": "'YEBO-KE NSIZWA' – GC NYANDA no JJ THWALA",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Uncoma ubuhle ubabaza ubuhlakani,",
+            "Uhluphekile impela ngiyezwa,",
+            "Imvumelwanosiqalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma etomulile washo uhlobo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi isebenzise isikhawu/isizura u- ',' ukuphumula nokuhlukanisa ukuveza ubunzima bendlela le nsizwa esiyihambile yeshela, ifuna uthando kule ntombi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma echazile ukusetshenziswa kwesikhawu/isizura",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi isebenzise ukuxhumanasiqalo kanye nokuxhumanamaphakathi 'Noma ngingenawo …' ukugqamisa /ukugcizelela ukuthi noma ingenabo ubuciko nobugagu bokuqophisana nale nsizwa eyisesheli kepha inakho efisa ukukusho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ekuchazile ukusetshenziswa kokuxhumana",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi ihlose ukuqhathanisa izigaba zokukhula kwentombi ukuthi lo oweshelwayo angeke avume ngisho noma ngabe ukusiphi isigaba okungaba esokuqoma noma esokudlulelwa yisikhathi sokugana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyivezile inhloso yokusebenza kwamagama",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbongi iphumelele kahle ukuveza umqondo wothando ngoba ithi noma ngabe isisezingeni lokuthanda umuntu wesilisa kepha yona ayinalo uthando lwale nsizwa.",
+            "Iphinde ithi ukugqoka kahle kwayo akusho ukuthi isuke ifuna ukuheha le nsizwa ngoba ayikakafuni ukugqoka izingubo ezinde nokuthwala ekhanda.",
+            "Yingakho-ke ithi lobu buhle obubonwa yile nsizwa obokujabulisa abanye abantu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ephawulile wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU B: INOVELI/UBUCIKO BOMLOMO",
+      "questions": [
+        {
+          "id": "6",
+          "text": "BENGITHI LIZOKUNA – NG Sibiya",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Kuyiqiniso ukuthi uma umuntu ekwazile ukuzikhethela impilo akabi nokusola abanye abantu. Kule noveli kunabalingiswa abazikhethele impilo abayiphilayo okube nemiphumela eyahlukene.",
+          "essay_structure": {
+            "introduction": [
+              "Kuyiqiniso ukuthi uma umuntu ekwazile ukuzikhethela impilo akabi nokusola abanye abantu.",
+              "Kule noveli kunabalingiswa abazikhethele impilo abayiphilayo okube nemiphumela eyahlukene."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "UMhlengi Ngidi",
+                "points": [
+                  "UMhlengi Ngidi uyisoka likaNontobeko unothando lokuphila impilo yokuba ngumuntu wesifazane.",
+                  "Ngaphambi kokuba ayoziguqula ubulili akavele nje anyamalale emehlweni kaNontobeko kepha ufika efulethini lakhe umtshela ukuthi mabehlukane nakuba engamtsheli isizathu.",
+                  "Uphinda wenza ubulungiswa uya kuManqoba Ngidi, uyise, ngenhloso yokumtshela ngempilo ayiphilayo.",
+                  "UMhlengi ulalela uNgidi uma emkhombisa isipho sakhe amthengele sona, ipulazi. Kunokuba asijabulele isipho ubuza uNgidi ukuthi umthanda ngokweqiniso na? Uma evuma uNgidi uMhlengi umtshela ukuthi u'gay'.",
+                  "UNgidi uyamxosha. UMhlengi uyaxolisa, umtshela ukuthi uyamthanda njengoyise kepha uphuma esenyobozela."
+                ]
+              },
+              {
+                "sub_topic": "UNontobeko",
+                "points": [
+                  "UNontobeko uyehluleka ukwamukela ukwaliwa nguMhlengi, wephula ilungelo lokuphila ngoba uphuma efulethini lakhe uziphonsa emgwaqeni, ashayiswe imoto kaNkululeko.",
+                  "Uvuma ukuthandana noNkululeko kepha ambekele umbandela wokuthi aze angaphatheki kabi uma ehluleka ukuqhubeka nothando lwabo.",
+                  "Uvuma ukushada noNkululeko, amale ngaphambi kosuku lomshado qede ahambe ngabo lobo busuku ukuyofuna uMhlengi.",
+                  "Ufika kwaNgidi eGcilima, ufuna uMhlengi ngoba enethemba lokuthi bazobuyelana. Ugcina ngokumthola uMhlengi kodwa usenguMahlengi, usephila impilo yokuba ngumuntu wesifazane, akhale."
+                ]
+              },
+              {
+                "sub_topic": "uXolani",
+                "points": [
+                  "Impilo ekhethwe nguXolani imlethela izinkinga empilweni yakhe. Wephula isethembiso asenze noLungile oyinkosikazi yakhe.",
+                  "Wehluleka ukulalela umhlangano wosomabhizinisi, usanganiswa ukubona intokazi enhle enguMahlengi.",
+                  "Ukhetha impilo yokukhohlisa uLungile uma emshayela ucingo uthi kukhona okumbambile yingakho engekho ekhaya.",
+                  "Uvakashela uMahlengi efulethini afike aphuze utshwala, abuye ebusuku emzini wakhe.",
+                  "Eshiya izingane zodwa ebusuku zigcine zisha nendlu, zishone aye kodla noMahlengi eJohn Dory's."
+                ]
+              },
+              {
+                "sub_topic": "uNgidi",
+                "points": [
+                  "UNgidi ukhetha ukungaganwa ngemuva kokushiywa ngunina kaMhlengi embeletha ngoba enothando lokukhulisa uMhlengi.",
+                  "Uyehluleka ukwamukela inkulumo kaMhlengi uma emtshela ukuthi uyi 'gay'. Uyamxosha umthembisa isibhamu.",
+                  "Wamukela uNontobeko, umhlalisa kwakhe, akamkhuzi noma futhi akambonisi uma ebona udaba lubhalwe ephephandabeni 'Ifa Lamehlo'.",
+                  "Wephula isethembiso sokulobola uNomalanga Ndlovu, umshiya engamazisi ngesinqumo asithathile sokufuna uMhlengi."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Impela kuyiqiniso ukuthi uma umuntu ekwazile ukuzikhethela impilo akabi nokusola abanye abantu.",
+              "Kule noveli kunabalingiswa abazikhethele impilo okube nemiphumela eyahlukene empilweni yabo.",
+              "Abanye babe nokuzisola ngokuzikhethela impilo njengoNontobeko noXolani."
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "text": "BENGITHI LIZOKUNA – NG Sibiya (Short questions)",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umlandi usingenisela indaba ngokusichazela isimo sikaXolani ayeseyiso emuva kokubonana noMahlengi.",
+            "Usichazela ukuthi uyacabanga konke obekukade kwenzeka aze agicne esehleka yedwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ewuchazile umsebenzi womlandi",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "UMahlengi wanikeza uXolani ikhadi lakhe lebhizinisi elinenombolo yocingo.",
+            "UMahlengi wavuma ukuvakashelwa nguXolani ngemuva komhlangano.",
+            "UMahlengi wabamba ucingo lukaXolani yize wayenesoka lakhe uNdumiso.",
+            "UMahlengi wavuma ukuphuma noXolani beyodla isidla sakusihlwa eJohn Dory’s."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma efingqile isigameko kulesi siqeshana",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "La mazwi aveza isimo senhlalo esihle nesihambisana nendlela okwenzeka ngayo njengoba uMahlengi ekhombisa ukukhululeka, utshela uXolani ukuthi wamukelekile uma efuna ukuvakasha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ewavezile amazwi",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "uLungile athanda ngalo uXolani olomshado njengoba bevezwe bengabashadikazi. Uyinkosikazi yakhe ethembekile futhi emhloniphayo umyeni wayo.",
+            "Uthando uMahlengi analo ngoXolani olungamukelekile ngoba lwagcina seluphazamisa umshado.",
+            "UMahlengi naye wayethandana noNdumiso kepha uma uthando lukaXolani selumehlula ubhala incwadi yokwala isoka lakhe elinguNdumiso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma eqhathanisile uthando lwabalingiswa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngiyazwelana naye ngoba uzithola esengena ezindlekweni abekade engazilindele. Kwase kumele alungise imoto yakhe. Angagcini lapho azame ukuthola isikhathi sokuvakashela uNontobeko esibhedlela.",
+            "NOMA",
+            "Angizwelani naye ngoba uNontobeko nguyena owaziphonsa emotweni kaNkululeko ngenxa yokwaliwa nguMhlengi. Kwakungelona iphutha likaNkululeko."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ekuvezile ukuzwelana /nokungazwelani",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isigameko esiyisingeniso sale siqeshana esokubamba inkunzi kukaNdumiso epulazini likaNgidi.",
+            "UNdumiso owabe eqambe amanga ezibize ngokuthi unguSibalukhulu ubamba inkunzi, uthatha imali kaNgidi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eshilo isigameko esitholakala esingenisweni",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "UNdumiso uvezwe njengomlingiswa onobugebengu/ onesihluku/ ongenanembeza/onomona. Ubamba uNgidi inkunzi, uthatha imali esisefweni.",
+            "Ubuye avezwe njengomlingiswa odelelayo, uyanxapha, asikaze uNgidi uma embiza ngoSibalukhulu.",
+            "Aphinde avezwe njengomlingiswa onomona, uma ebona imali kaNgidi aze ancincize."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eshilo ukuvezwa komlingiswa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umbhali uhlose ukugqamisa ukuthi abangabukelwa phansi abantu abaphila nokugula/ukukhubazeka ngoba nabo bangabantu abakwazi ukulekelela uma kunesidingo.",
+            "UNyambose uyalekelela kwaNgidi uma ebona ukuthi isango lishiywe lingalivaliwe, uyalivala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyinikezile inhloso yombhali",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngicabanga ukuthi wawuzoba muhle. UNgidi wayezokwamukela, aqhubeke nokuthanda uMhlengi, andise amapulazi akhe, ebonisana noMhlengi.",
+            "NOMA",
+            "Ngicabanga ukuthi wawuzoba mubi. Kwakuzodingeka ukuba uNgidi aphile impilo yokuzenzisa. Kwakuzomphoqa ukuba azame ukwamukela lesi simo sendodana yakhe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma ewuvezile umphumela empilweni yabalingiswa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umbhali uphumelele kahle ukuphetha le ndaba kuvuthondaba ngoba inkinga ebibhekene nomlingiswa omkhulu ixazululekile.",
+            "Bonke abalingiswa abekade bekhathazekile balitholile iqiniso lokuthi wayekade engumuntu wesilisa kodwa usezishintshile waba ngumuntu wesifazane."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma ekwazile ukuphawula wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU C: UMDLALO",
+      "questions": [
+        {
+          "id": "16",
+          "text": "KUDELA OWAZIYO – BP Maphumulo",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Lesi sitatimende esishiwo umbhali siliqiniso ngoba cishe yonke imizi iyaba nezinkinga ebhekana nazo njengoba nakulo mdlalo zikhona izinkinga ezikhungethe umuzi kaMdaluli.",
+          "essay_structure": {
+            "introduction": [
+              "Lesi sitatimende esishiwo umbhali siliqiniso ngoba cishe yonke imizi iyaba nezinkinga ebhekana nazo njengoba nakulo mdlalo zikhona izinkinga ezikhungethe umuzi kaMdaluli."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ukuphelelwa ngumsebenzi nezinkinga zezimali",
+                "points": [
+                  "UMdaluli oyinhloko yaleli khaya uphelelwa ngumsebenzi kade kunguye kuphela osebenzayo nowondlayo ekhaya.",
+                  "Lokhu kushabalalisa wonke amathemba akhe akade enawo ngomndeni wakhe.",
+                  "UMdaluli uyahluleka ukukhokha isikweletu sasekolishi lapho kufunda khona uLondiwe.",
+                  "Lokhu kudala ingcindezi kuphinde kushabalalise nenjabulo kuye kanye nasemndenini wakhe."
+                ]
+              },
+              {
+                "sub_topic": "Udlame emndenini",
+                "points": [
+                  "Lokhu kudala ingcindezi enkulu kuMdaluli uphelelwa wuthando lokudla uma umkakhe emphakela.",
+                  "Ushaya umkakhe kusihlwa kuze kusiza ukufika kukaManqina ezolamula lolu dungunyane.",
+                  "Aphinde ashaye uMaMlanduli ebusuku uma enqaba ukumnikeza indabandaba okugcina elahlekelwa ukuhlonishwa izingane zakhe njengoba uLondiwe abiza amaphoyisa."
+                ]
+              },
+              {
+                "sub_topic": "Ubudlelwano noChivenga",
+                "points": [
+                  "UMdaluli uvundulula ikhono lakhe lakudala lokwakha izindlu.",
+                  "Uthola umsebenzi wokwakha umuzi kaSaziwayo Ntenga waseMangethe usindwa zinyawo ngoba uphucwa iqatha emlonyeni uChivenga.",
+                  "UChivenga ubiza amanani aphansi, lokhu kuphuca kukaMdaluli isinkwa emlonyeni kwadala ukuba isimo sasemzini wakhe sibe sibi kakhulu.",
+                  "UMdaluli abe nomona athakathe uChivenga. UChivenga ubolelwa yisandla agcine eselaliswe esibhedlela."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Umbhali uphumelele kahle ukuveza ukuthi awukho umuzi ongenazo izinkinga.",
+              "Izinkinga ezibhekene nomuzi kaMdaluli ezitholakala ngenhla ziyakufakazela ukuthi yilowo nalowo muzi unezinkinga zawo."
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "text": "KUDELA OWAZIYO – BP Maphumulo (Short questions)",
+          "type": "Short Questions",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kusemzini kaChivenga kwaHlomendlini."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Nikeza imaki elilodwa uma esinikezile isizinda sendawo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "UHlengiwe uzombheka uChivenga ukuthi useyalulama lokho kukhombisa ukumkhathalela nothando ngokuzombona uyamzwela ngisho nasezinhlungwini abonakala ekuzo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma esigagulile isenzo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Imbangela yesimo senhlalo esingesihle ukulimala kukaChivenga emuva kokuthi eshaywe uMdaluli.",
+            "Uze walaliswa esibhedlela.",
+            "UHlengiwe kuyamkhathaza ukumbona esezinhlungwini uze abone ukuthi basheshe bamkhipha esibhedlela engakalulami kahle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyichazile kafushane imbangela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isigameko esasifihlelwe umlingiswa onguHlengiwe esokuthi uChivenga wayesenze ubugebengu ehlangene noHeshana washintsha ipasi likaHlengiwe walibhala isibongo sakhe kwasengathi sebeshadile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma esibhalile isigameko esasifihlelwe umlingiswa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lezi zenzo zokushintshwa kwamapasi azikho emthethweni.",
+            "UHlengiwe wanikeza uChivenga ipasi lakhe ngethemba lokuthola umsebenzi. Labuya selithi ushade noChivenga.",
+            "Baningi abantu abazithola sebeshadile nabantu abangabazi ngaphandle kokuvumelana nabo njengoba kwenzekile nakuHlengiwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma eyamanise izigameko wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ivumakabili lalibikezela ukuthakathwa kukaChivenga ethakathwa nguMdaluli.",
+            "Ivumakabili inyoni eyaziwa ngokuba nomoya omubi, ivamise ukusetshenziswa ngabathakathi.",
+            "Nempela uChivenga wathakathwa uMdaluli wabola isandla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma exoxile ngesibikezelo",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "UChivenga wayelaliswe esibhedlela ngenxa yokuhlaselwa alinyazwe nguMdaluli ngokumshaya ngemolontshisi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma eyibhalile imbangela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umoya ovezwa uChivenga owokujabula njengoba evakashelwe isithandwa sakhe uHlengiwe yize esezinhlungwini.",
+            "Uyaqhubeka umbiza ngamagama amnandi akhombisa uthando, umbiza ngomayitukluza, mntakwethu nangethambo lakhe leKentucky."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma exoxile ngomoya",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Izenzo ezenziwa nguMdaluli kuChivenga zimveza njengomlingiswa oyigwala.",
+            "Waqala ngokuthakatha uChivenga wabola umunwe.",
+            "Waphinda wamhlasela ngemolontshisi. Lokho kwakungubugwala ngoba wayesaba ukubangisana naye ebhizinisini."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma ewubekile umbono wezenzo zabalingiswa",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Inhloso yombhali yokusebenzisa uMbhebhezeli ukuqaphelisa abantu ukuthi kukhona abangani abangathembekile.",
+            "UMbhebhezeli ungumngani kaMdaluli amethembayo namxoxela zonke izinkinga zakhe. Uvela nesisombululo senkinga sokuthi makathakathe uChivenga.",
+            "Emveni kwalokho uhamba ngasese uvakashela uChivenga esibhedlela amtshele ukuthi uyamazi umuntu omthakathayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amathathu uma eyivezile inhloso",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "17.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngicabanga ukuthi ngangingemukela isimo esingehlele ngokuthi ngixoxisane nomndeni wami noma ngiye kodokotela abeluleka ngokwengqondo.",
+            "Ngangingaqhubeka nokufuna amatoho noma ngizisungulele ibhizinisi engingalenza ukuthola imali. Lokho kwakuzogwema udlame."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Nikeza amamaki amabili uma exoxe ngesisombululo wasekela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": true,
+    "cached_tokens": 21696,
+    "total_tokens": 34833,
+    "cached_tokens_saved": 21696
+  }
+}

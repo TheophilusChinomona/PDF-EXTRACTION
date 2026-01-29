@@ -1,14 +1,94 @@
 # Ralph Progress Log
+Started: Wed, Jan 28, 2026  7:45:37 PM
+---
+## 2026-01-28 20:00 - US-001
+- Implemented memo Pydantic models in app/models/memo_extraction.py
+- Created EssayStructure, MemoQuestion, MemoSection, and MarkingGuideline models
+- All models extend GeminiCompatibleModel for JSON schema compatibility
+- Files changed: app/models/memo_extraction.py (new)
 
-Started: 2026-01-28
-Project: PDF-Extraction (Hybrid Architecture)
-Branch: ralph/hybrid-extraction-pipeline
-
+**Learnings for future iterations:**
+- EssayStructure.body_sections requires Dict[str, Any] instead of Union[List[str], Dict[str, List[str]]] because the actual JSON structure has keys like "sub_topic", "points", "positives", "negatives", "rights" - more flexible than just list or nested dict
+- The sample JSON validates perfectly with this schema - tested against Sample PDFS/outputs/Sample output-marking guideline.json
+- MemoQuestion supports multiple answer formats: model_answers (list or dict), answers (list of dicts with sub_id/value), structured_answer (list of dicts for paired answers like strategy/motivation)
+- Typecheck passes with mypy without any issues
 ---
 
-## Codebase Patterns
+## 2026-01-28 20:30 - US-002
+- Implemented memo extraction service in app/services/memo_extractor.py
+- Created MEMO_EXTRACTION_SYSTEM_INSTRUCTION with Section A/B/C specific rules
+- Implemented get_or_create_memo_cache() with separate _MEMO_CACHE_NAME global
+- Implemented extract_memo_with_vision_fallback() for low-quality PDFs
+- Implemented extract_memo_data_hybrid() main async pipeline
+- Created PartialMemoExtractionError exception class
+- Files changed: app/services/memo_extractor.py (new)
 
-(Ralph will add discovered patterns here as work progresses)
+**Learnings for future iterations:**
+- Reused _remove_additional_properties() and _estimate_token_count() from pdf_extractor.py via imports - no code duplication
+- Memo cache is completely separate from exam paper cache (different global variable) to avoid cache collisions
+- System prompt emphasizes extracting ALL valid answers even if more than marks available (critical for grading flexibility)
+- Memo prompts handle three distinct section types: A (MCQ/Fill/Match), B (Short answer with model_answers), C (Essays with essay_structure)
+- Added None check for response.text to satisfy mypy - Gemini API can return None in error cases
+- Pre-existing typecheck errors in pdf_extractor.py are not blockers - memo_extractor.py has no errors
+---
 
+## 2026-01-28 20:45 - US-003
+- Added CLI entry point to app/services/memo_extractor.py
+- CLI accepts file path argument and validates file existence
+- Outputs JSON to stdout and auto-saves to {input_name}_memo_result.json
+- Handles errors gracefully with stderr output
+- Files changed: app/services/memo_extractor.py (modified)
+
+**Learnings for future iterations:**
+- CLI entry point uses asyncio.run() to call the async extract_memo_data_hybrid function
+- Output path constructed using os.path.join() and os.path.splitext() to place result alongside input PDF
+- Uses sys.stderr for error messages and save notification to keep stdout clean for JSON piping
+- get_gemini_client() import needed inside __main__ block to avoid circular imports
+---
+
+## 2026-01-28 21:00 - US-004
+- Created app/db/memo_extractions.py with database functions for memo_extractions table
+- Implemented create_memo_extraction(), get_memo_extraction(), check_memo_duplicate()
+- Implemented update_memo_extraction_status(), list_memo_extractions(), update_memo_extraction()
+- Files changed: app/db/memo_extractions.py (new)
+
+**Learnings for future iterations:**
+- Memo metadata comes from data.meta dict (not top-level fields like exam papers)
+- Need to extract subject, year, session, grade, total_marks from meta dict using .get() with defaults
+- Sections stored as JSONB using [s.model_dump() for s in data.sections] pattern
+- All function signatures mirror extractions.py exactly - consistent API patterns across document types
+- Table name is 'memo_extractions' (separate from 'extractions' table)
+---
+
+## 2026-01-28 21:15 - US-006
+- Created migrations/004_create_memo_extractions_table.sql
+- Table structure mirrors extractions table with memo-specific columns
+- Includes indexes on file_hash (unique), status, created_at, processing_method
+- Reuses extraction_status and processing_method_type enums from migration 001
+- Updated_at trigger uses existing update_updated_at_column() function
+- Files changed: migrations/004_create_memo_extractions_table.sql (new)
+
+**Learnings for future iterations:**
+- Table is independent from extractions - no foreign keys between them
+- Memo metadata columns (subject, year, session, grade, total_marks) are at top level, not nested in JSONB
+- Sections stored as JSONB column for flexibility (stores array of MemoSection objects)
+- Can reuse enum types from previous migrations (extraction_status, processing_method_type)
+- Can reuse trigger function (update_updated_at_column) across multiple tables
+---
+
+## 2026-01-28 21:30 - US-005
+- Added doc_type routing to POST /api/extract endpoint in app/routers/extraction.py
+- Added doc_type Form parameter with default 'question_paper' (backward compatible)
+- Added validation for doc_type values ('question_paper' or 'memo')
+- Branched logic at 6 key points: duplicate check, extraction call, status update, create/update, webhook
+- Files changed: app/routers/extraction.py (modified)
+
+**Learnings for future iterations:**
+- extraction_result needs Union type: Optional[Union[FullExamPaper, MarkingGuideline]] to satisfy mypy
+- Must handle both PartialExtractionError and PartialMemoExtractionError in exception catch
+- Webhook data structure differs: memo uses meta dict (extraction_result.meta.get('subject')) vs exam paper top-level fields (extraction_result.subject)
+- Used type: ignore[arg-type] for database calls since mypy can't infer type narrowing from doc_type routing
+- Default parameter value ensures backward compatibility - existing API clients unaffected
+- Must import get_memo_extraction inside the if block to avoid circular import issues
 ---
 

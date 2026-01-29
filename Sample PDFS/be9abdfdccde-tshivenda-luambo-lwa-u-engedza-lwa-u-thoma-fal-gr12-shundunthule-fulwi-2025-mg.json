@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "subject": "Tshivenda Luambo lwa u Engedza lwa u Thoma (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "Shundunthule/Fulwi",
+    "grade": "12",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Ndi he nda vhona ndeme ya khonani vhukuma vhutshiloni.",
+          "type": "Maanea",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Aya ndi maanea ane muᄡwali u anetshela nga ha ndeme ya khonani vhutshiloni.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhiraho.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Muᄡwali u buletshedza nga ha ndeme ya khonani vhutshiloni.",
+                  "Muᄡwali u ola tshifanyiso tsha zwine a khou amba ngazwo muhumbuloni wa muvhali."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Khangwa dzanga dzo ndzhenisa khakhathini.",
+          "type": "Maanea",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Muᄡwali u buletshedza nga ha khangwa dzawe dzo mu dzhenisaho khakhathini.",
+                  "Muᄡwali u ola tshifanyiso tsha zwo bvelelaho muhumbuloni wa muvhali."
+                ]
+              },
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Aya ndi maanea ane muᄡwali a anetshela nga ha khangwa dzawe dzo mu dzhenisaho khakhathini.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhelaho/tsha zwino.",
+                  "Magumo a songo ᄑoweleaho a fhedza mafhungo zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "U vhuisa muhumbulo",
+                "points": [
+                  "Afha muᄡwali u vhuisa mihumbulo a i ᅉea vhuᄑipfi na u nyanyuwa hawe.",
+                  "U vhuisa mihumbulo u yelana na mafhungo ayo.",
+                  "Muᄡwali u a kona u dzhia sia ᄱine a khou ᄱi imelela."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Magumo a ᄱitambwa e a ntakadzesa.",
+          "type": "Maanea",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "U vhuisa muhumbulo",
+                "points": [
+                  "Afha muᄡwali u vhuisa mihumbulo a i ᅉea vhuᄑipfi na u nyanyuwa hawe.",
+                  "U vhuisa mihumbulo i yelanaho na miᄱoro kana lutamo lwawe.",
+                  "Muᄡwali u a kona u dzhia sia ᄱine a khou ᄱi imelela."
+                ]
+              },
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Aya ndi maanea ane muᄡwali a anetshela tshiᄓori kana zwiwo zwo no bvelelaho.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhelaho/tshiᄑaho.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Ndo ᄓoᄑou lovha.",
+          "type": "Maanea",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "U vhuisa muhumbulo",
+                "points": [
+                  "Afha muᄡwali u vhuisa mihumbulo nga ha u ᄓoᄑou lovha hawe.",
+                  "Muᄡwali u a kona u dzhia sia ᄱine a khou ᄱi imelela."
+                ]
+              },
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Muᄡwali u anetshela tshiᄓori kana zwi si zwavhuᄵi zwo bvelelaho zwo vhangaho u ᄓoᄑou lovha hawe.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhelaho.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Muᄡwali u buletshedza nga zwi si zwavhuᄵi zwo vhangwaho u ᄓoᄑou u lovha hawe.",
+                  "Muᄡwali u ola tshifanyiso tsha zwine a khou amba ngazwo muhumbuloni wa muvhali."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Mindende ya vhana i khou ᅉaᅉisa u ᄑihwala ha vhaswa. ᄒaᄓani ni tshi tenda kana ni tshi hanedza.",
+          "type": "Maanea",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "U ᄓaᄓa khani",
+                "points": [
+                  "Afha muᄡwali u vha e na nᄑila yawe ine a vhona zwithu ngayo.",
+                  "Mihumbulo yawe i tea u vha khagala u bva mathomoni u swika magumoni.",
+                  "Muᄡwali u sumbedza u imelela ᄱiᄡwe sia/fhungo.",
+                  "Muᄡwali u tikedza vhukuma fhungo ᄱine a khou ᄓoᄑa ᄱi tshi tendiwa.",
+                  "Muᄡwali u sumbedza vhukhwiᅉe ha fhungo ᄱine a khou ᄱi imelela."
+                ]
+              },
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Aya ndi maanea ane muᄡwali a anetshela tshiᄓori kana zwiwo zwo no bvelelaho.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsha zwino.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "U vhuisa muhumbulo",
+                "points": [
+                  "Afha muᄡwali u vhuisa mihumbulo a i ᅉea vhuᄑipfi na u nyanyuwa hawe.",
+                  "U vhuisa mihumbulo i yelanaho na miᄱoro kana lutamo lwawe.",
+                  "Muᄡwali u a kona u dzhia sia ᄱine a khou ᄱi imelela."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Tshifanyiso (Running/Athletics)",
+          "type": "Maanea a tshifanyiso",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Muᄡwali u anetshela nga ha ndeme ya nyonyoloso kha vhathu.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhelaho.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Afha muᄡwali a nga buletshedza nga ha ndeme ya nyonyoloso kha vhathu.",
+                  "Muᄡwali u ola tshifanyiso tsha zwine a khou amba ngazwo muhumbuloni wa muvhali."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Tshifanyiso (Lion)",
+          "type": "Maanea a tshifanyiso",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Muᄡwali a nga anetshela nga ha ndau",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsha zwino.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Hu nga buletshedzwa nga ha vhuhali ha ndau.",
+                  "Afha muᄡwali u vha e na nᄑila yawe ine a vhona zwithu ngayo.",
+                  "Mihumbulo yawe i tea u vha khagala u bva mathomoni u swika magumoni.",
+                  "Muᄡwali u sumbedza u imelela ᄱiᄡwe sia/ fhungo.",
+                  "Muᄡwali u tikedza vhukuma fhungo ᄱine a khou ᄓoᄑa ᄱi tshi tendiwa."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.8",
+          "text": "Tshifanyiso (Racing car)",
+          "type": "Maanea a tshifanyiso",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Nganetshelo",
+                "points": [
+                  "Muᄡwali a nga anetshela nga ha goloi ya mbambe.",
+                  "Zwi anetshelwaho zwi tea u kunga na u tendisea.",
+                  "Mafhungo a hone a ᄡwalwa nga tshifhinga tsho fhelaho.",
+                  "Magumo a songo ᄑoweleaho a fhedza tshiᄓori zwavhuᄑi."
+                ]
+              },
+              {
+                "sub_topic": "Mbuletshedzo",
+                "points": [
+                  "Hu nga buletshedzwa nga ha goloi ya mbambe.",
+                  "Afha muᄡwali u vha e na nᄑila yawe ine a vhona zwithu ngayo.",
+                  "Mihumbulo yawe i tea u vha khagala u bva mathomoni u swika magumoni.",
+                  "Muᄡwali u sumbedza u imelela ᄱiᄡwe sia/ fhungo.",
+                  "Muᄡwali u tikedza vhukuma fhungo ᄱine a khou ᄓoᄑa ᄱi tshi tendiwa.",
+                  "Muᄡwali u sumbedza vhukhwiᅉe ha fhungo ᄱine a khou ᄱi imelela."
+                ]
+              },
+              {
+                "sub_topic": "U vhuisa muhumbulo",
+                "points": [
+                  "Afha muᄡwali u vhuisa mihumbulo a i ᅉea vhuᄑipfi na u nyanyuwa hawe.",
+                  "U vhuisa mihumbulo i yelanaho na miᄱoro kana lutamo lwawe.",
+                  "Muᄡwali u a kona u dzhia sia ᄱine a khou ᄱi imelela."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "VHURIFHI HA TSHISHAKA",
+          "type": "Zwibveledzwa Zwilapfu zwa Vhudavhidzani",
+          "model_answers": [
+            "Vhu na ̑iresi nthihi i tevhelwaho nga datumu.",
+            "Vhu na theshano.",
+            "Vhu na marangaphanᄑa ane a ᅉea ludungela muvhali nga ha mafhungo ane a ᄑo vhala ngao kha vhurifhi uho.",
+            "Vhu na mutumbu.",
+            "Vhu tea u vha na ndunzhendunzhe ya mafhungo u bva mathomoni u swika magumoni.",
+            "Vhu tea u vha na nyonesano.",
+            "Madzina a muᄡwali."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "NGANEAVHUTSHILO YA MUFU",
+          "type": "Zwibveledzwa Zwilapfu zwa Vhudavhidzani",
+          "model_answers": [
+            "Madzina a mufu.",
+            "Mabebo na vhabebi vhawe.",
+            "Zwa pfunzo dzawe.",
+            "ᄐuvha ᄱe mufu a lovha ngaᄱo",
+            "Mushumo wawe.",
+            "Zwa mveledziso kha tshitshavha.",
+            "Tshivhangi tsha lufu.",
+            "Vhe a vha sia.",
+            "Mulaedza mupfufhi/tshikhoᄑo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "RIVIYU/TSEDZULUSO",
+          "type": "Zwibveledzwa Zwilapfu zwa Vhudavhidzani",
+          "model_answers": [
+            "Dzina ᄱa bugu.",
+            "Lushaka lwa bugu.",
+            "Muᄡwali na vhagudiswa.",
+            "Manweledzo",
+            "Puloto.",
+            "Vhabvumbedzwa.",
+            "Fhethuvhupo.",
+            "Zwiᄡwe zwiᄓalusi zwa bugu.",
+            "Mihumbulo yanga nga ha bugu.",
+            "Themendelo.",
+            "Phendelo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "INTHAVIYU YA U ᅇWALA",
+          "type": "Zwibveledzwa Zwilapfu zwa Vhudavhidzani",
+          "model_answers": [
+            "Muambi muthihi u ᄓokonya vhaᄡwe nga u vha vhudzisa mbudziso.",
+            "Madzina a muambi a ᄡwalwa kha tshanᄑa tsha monde tsha siaᄓari.",
+            "Hu shumiswe kholoni nga murahu ha dzina ᄱa muambi a no khou amba.",
+            "Mutaladzi muswa u a shumiswa u sumbedza muambi muswa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "GARAᄐA YA THAMBO",
+          "type": "Zwibveledzwa Zwipfufhi zwa Vhudavhidzani",
+          "model_answers": [
+            "ᄐhoho ya garaᄓa.",
+            "Marangaphanᄑa.",
+            "Tshifhinga.",
+            "Fhethu.",
+            "Mulaedza.",
+            "Maambarele.",
+            "Magumo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "DAYARI",
+          "type": "Zwibveledzwa Zwipfufhi zwa Vhudavhidzani",
+          "model_answers": [
+            "I anzela u ᄡwalwa kha bugu yo khetheaho.",
+            "I ᄡwaliwa misi yoᄓhe.",
+            "Zwi ᄡwalwaho zwi na datumu.",
+            "Hu nga shumiswa lushaka lwa tshibveledzwa tshi sumbedzaho vhuᄑifhinduleli ha vhuᅉe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "MASIA",
+          "type": "Zwibveledzwa Zwipfufhi zwa Vhudavhidzani",
+          "model_answers": [
+            "U shumisa nzudzanyo i lunzhedzanaho.",
+            "U laedza nga ha sia ᄱo khetheaho.",
+            "U sumbedza vhukule ha vhukuma.",
+            "U ᅉea vhuᄓanzi nga ha zwiimiswa zwi thusaho zwi wanalaho nᄑilani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 15083,
+    "cached_tokens_saved": 0
+  }
+}

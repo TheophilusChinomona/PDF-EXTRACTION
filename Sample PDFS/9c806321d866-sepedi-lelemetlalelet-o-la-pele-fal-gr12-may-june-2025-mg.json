@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "subject": "Sepedi Lelemetlaleletšo la Pele (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Ya tla ya na letšatši leo! (Ke taodišokanegelo/taodišotlhaloši)",
+          "type": "Narrative/Descriptive Essay",
+          "model_answers": [
+            "Taodišokanegelo e laodiša tiragalo ye e fetilego. E ka ngwalwa go tšwa lehlakoreng le lengwe le le lengwe.",
+            "Molekwa a ka tšweletša nako ya letšatši la ditiragalo.",
+            "Molekwa a ka tšweletša ka mokgwa wo e nelego ka gona.",
+            "Molekwa a ka tšweletša tše di hlagilego ge e ena (botse/bobe).",
+            "Ka taodišotlhaloši, mongwadi o hlaloša selo se sengwe gore mmadi a kgone go itemogela sona.",
+            "Taodišotlhaloši: Go diregile eng, kae.",
+            "Taodišotlhaloši: Tše di hlagilego ge e ena.",
+            "Taodišotlhaloši: Ditlamorago tša pula yeo ya go na."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Mo ke gahlanago le yena, bjang bo ka se mele. (Ke taodišokanegelo)",
+          "type": "Narrative Essay",
+          "model_answers": [
+            "Taodišokanegelo e laodiša tiragalo ye e fetilego. E ka ngwalwa go tšwa lehlakoreng le lengwe le le lengwe.",
+            "Go diregile eng, kae.",
+            "Ditaragalo di mo hloletše eng yeo e mmefedišitšego.",
+            "Tšeo a tlogo go di dira.",
+            "Ditlamorago tšeo a mo dirilego tšona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Ge ke ngwala lephephe la mathomo la tlhahlobo ya Mphato wa Marematlou. (Ke taodišokgadimo/taodišotlhaloši)",
+          "type": "Reflective/Descriptive Essay",
+          "model_answers": [
+            "Ka taodišokgadimo, mongwadi o eleletša tiragalo yeo a kilego a e bona, a ekwa, goba a badile ka yona nakong ye e fetilego.",
+            "A laodiše go ya ka fao a e gopolago ka gona. Go mohuta wo wa taodišo, go ka ba le tumo.",
+            "Ka taodišotlhaloši, mongwadi o hlaloša selo se sengwe gore mmadi a kgone go itemogela sona.",
+            "Maikutlo ao a go aparetšego.",
+            "Ditiragalo tša letšatši leo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Meepo ya dimenerale e tliša katlego ditšhabeng. (Ke taodišokahlaahlo)",
+          "type": "Discursive Essay",
+          "model_answers": {
+            "positives": [
+              "Dimenerale ke eng/Mehuta ya dimenerale",
+              "Go holega ga naga ka dimenerale",
+              "Tše botse tšeo di tlišwago ke dimenerale",
+              "Tše botse tšeo di diragalago bašomi ba meepong"
+            ],
+            "negatives": [
+              "Tše mpe tšeo di tlišwago ke dimenerale",
+              "Tše mpe tšeo di diragalago bašomi ba meepong"
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Go kgethelwa molekane go phala go nyalwa ke motho fela. (Ke taodišongangišano)",
+          "type": "Argumentative Essay",
+          "model_answers": [
+            "Tša go kgethelwa: Tlhokomelo ya gore ke motho yo ba mo tsebago.",
+            "Tša go kgethelwa: Go boloka serithi sa batswadi.",
+            "Tša motho fela: Mokgonyana o begwa go batswadi ba gagwe.",
+            "Tša motho fela: Go nyenyefatša seriti sa batswadi.",
+            "Tša motho fela: Ditaba di tšwela pepeneneng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Dinaga tša Afrika! (Ke taodišotlhaloši)",
+          "type": "Descriptive Essay",
+          "model_answers": [
+            "Tlhalošo ya kontinente ya Afrika.",
+            "Dipolelo tša dinaga tšeo.",
+            "Ditšo tša go fapana.",
+            "Ekonomi ya dinaga tšeo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": "Seswantšho sa A. (Ke taodišotlhaloši)",
+          "type": "Descriptive Essay (Visual prompt)",
+          "model_answers": [
+            "Go swanetše go ba le kamano magareng ga tlhalošo le seswantšho.",
+            "Mohola wa sedirišwa (Setšidifatši/Aene).",
+            "Mafelo ao go ka hwetšwago sedirišwa.",
+            "Tsheketšo ye re e hwetšago."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": "Seswantšho sa B. (Ke taodišokanegelo/taodišotlhaloši)",
+          "type": "Narrative/Descriptive Essay (Visual prompt)",
+          "model_answers": [
+            "Go swanetše go ba le kamano magareng ga tlhalošo le seswantšho.",
+            "Bolemirui.",
+            "Mohola wa kgomo.",
+            "Mohola wa maswi.",
+            "Seo mogami a swanetšego go se dira.",
+            "Tlhohleletšo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "LENGWALO LA SEGWERA",
+          "type": "Friendly Letter",
+          "model_answers": [
+            "Sebopego le botelele e be tša maleba.",
+            "Atrese e be e tee fela ya mongwadi/moromedi.",
+            "Letšatšikgwedi le ngwalwe ka tlase ga atrese.",
+            "Madume/Matseno e be a makopana a maleba, a segwera.",
+            "Diteng e be tša go eletša.",
+            "Retšistara le polelo e be tša segwera.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Mafelelo/Bofelo e be boitsebišo bja mongwadi ka mokgwa wa setlwaedi.",
+            "Mohlala: Ke nna/Mogwera wa gago Mokgadi.",
+            "Mongwadi wa lengwalo ga se a swanela go ngwala leina le sefane, eupša leina la gagwe fela goba sereto."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "TšA BOPHELO BJA MOHU",
+          "type": "Obituary",
+          "model_answers": [
+            "Leina le sefane sa mohu.",
+            "Batswadi ba mohu.",
+            "Lefelo leo mohu a belegetšwego go lona.",
+            "Letšatši la matswalo a mohu.",
+            "Dithuto tšeo mohu a di fihleletšego di laetšwe.",
+            "Go laetšwe mošomo wa gagwe.",
+            "Tša tirišano le setšhaba ka kakaretšo.",
+            "Maemo a lenyalo le bana ba gagwe.",
+            "Seo se hlotšego lehu.",
+            "Letšatši leo a hlokofetšego ka lona.",
+            "Meloko ya kgauswi yeo mohu a e tlogetšego.",
+            "Lefoko la taelano. Mohlala: Robala ka khutšo.",
+            "Mohu a ka laelwa ka sereto.",
+            "Retšistara le polelo e be tša go hlompha.",
+            "Tšhomišopolelo, tlotlontšu le maswaodikga e be tše di nepagetšego.",
+            "Go ngwalwe ka motho wa boraro, ka lebaka le le fetilego."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "DITSHWAYATSHWAYO",
+          "type": "Review",
+          "model_answers": [
+            "Sebopego le botelele e be tša maleba.",
+            "Ditshwayatshwayo di be mabapi le lefelo le leswa la bojelo.",
+            "Ngwala ka lebaka la bjale.",
+            "Go šomišwe mahlaodi le mantšu ao a tsošago maikutlo.",
+            "Go tšweletše maemo le ditšhišinyo mabapi le ditshwayatshwayo.",
+            "Dintlhakgolo di tšweletše ka boripana.",
+            "Ditaba di se anegwe ka moka, mmegelwa a šielwe go ikgopolela le go ikagela seswantšhokgopolo.",
+            "Kanegelo e dire gore moanegelwa a kganyoge go etela lefelo leo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "POTšIšOTHERIšANO",
+          "type": "Interview",
+          "model_answers": [
+            "Go šomišwe dithekniki tša potšišotherišano.",
+            "Go be le mmotšiši le mmotšišwa.",
+            "Maina a diboledi e lego Mokwele le Sewelewele a be ka lehlakoreng la nngele la letlakala.",
+            "Maswao a kgorwana ka morago ga maina a diboledi.",
+            "šomiša mothaladi wo mofsa go laetša seboledi se sengwe le se sengwe se sefsa.",
+            "Matseno a mmotšiši a tšweletše morero.",
+            "Ditaba di be lehlakoreng la tšona gomme di be mabapi le go thopa sefoka sa bongwadi.",
+            "Go be le kwešišano le kamogelano go hlola moya wa tshepano.",
+            "Mmotšiši a botšiše dipotšišo go tšwa go tša kakaretšo go iša go tša go ikgetha.",
+            "Go šomišwe polelo ya go hlamega; ya go laetša šedi le tlhohleletšo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "PAPATšO",
+          "type": "Advertisement",
+          "model_answers": [
+            "E be ka gare ga lepokisana.",
+            "Thoma ka go ngwala hlogo ya papatšo.",
+            "šomiša difonte tša go fapana.",
+            "Laetša gore go bapatšwa eng.",
+            "Efa tshedimošo ka botlalo ya sebapatšwa.",
+            "Bontšha gore papatšo e kwalakwatšwa kae.",
+            "Polelo e be ya maleba ya go goga šedi ya bareki."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "PUKUTšATšI",
+          "type": "Diary Entry",
+          "model_answers": [
+            "E be ka gare ga lepokisana.",
+            "Thoma ka go ngwala letšatšikgwedi le ngwaga.",
+            "Bontšha ditiragalo tša letšatši le lengwe le le lengwe.",
+            "Ngwala ka motho wa pele.",
+            "Polelo e be ya segwera.",
+            "Ditiragalo tša letšatši ka letšatši tša nako yeo o e feditšego ga malome."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "DITšHUPETšO",
+          "type": "Directions",
+          "model_answers": [
+            "A tšweletše bokgole bja go tloga mo a lego gona go fihla sekolong.",
+            "A tšweletše maswao ao a tlogo mo hlahla.",
+            "A tšweletše dilo tša tlhago le tšeo e sego tša tlhago (meago, dikolo, maporogo).",
+            "A laetše monabo ka dikilometara goba dimetara.",
+            "A diriše khutlonne (Bohlabela, Bodikela, Leboa le Borwa).",
+            "šomiše retšistara ya maleba.",
+            "Go tloga boemapese ka Leboa, mmileng wa Phuti, tšea tsela ya go leba Bohlabela.",
+            "Go dimetara tše e ka bago tše masometharo, o tla bona bobjalo bja mehlare, tšea ka la go ja o lebile Borwa.",
+            "Otlela dimetara tše e ka bago tše lekgolo o tla bona sediko pele ga lebenkele la bojelo le botshwelamare go la nngele.",
+            "Feta sediko o lebe Borwa.",
+            "Tšea ka mmila wa Phosa letsogong la go ja, o lebe Bodikela.",
+            "Feta meago ya badirelaleago ka letsogong la go ja le lepatlelo la dipapadi ka letsogong la nngele.",
+            "Morago ga dimetara tše masomehlano o tla bona sefero sa go tsena sekolong sa Sedibeng letsogong la nngele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14246,
+    "cached_tokens_saved": 0
+  }
+}

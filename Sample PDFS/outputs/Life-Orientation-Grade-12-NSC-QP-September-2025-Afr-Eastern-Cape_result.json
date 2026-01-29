@@ -1,0 +1,534 @@
+{
+  "subject": "Lewensorihntering",
+  "syllabus": "NSC",
+  "year": 2025,
+  "session": "SEPTEMBER",
+  "grade": "12",
+  "language": "Afrikaans",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "AFDELING A (VERPLIGTEND)",
+      "instructions": "Beantwoord AL die vrae in hierdie afdeling.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Verskeie opsies word as moontlike antwoorde op die volgende vrae gegee. Kies die antwoord en skryf slegs die letter (A–D) langs die vraagnommers (1.1.1 tot 1.1.5) in die ANTWOORDEBOEK neer, bv. 1.1.6 D.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "'n Voorbeeld van chroniese stres:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Altyd gespanne wees oor die beplanning van 'n naderende gebeurtenis"
+            },
+            {
+              "label": "B",
+              "text": "Gereeld senuweeagtig voel voor 'n belangrike voorlegging"
+            },
+            {
+              "label": "C",
+              "text": "Gereelde gespannendheid tydens 'n meningsverskil met vriende"
+            },
+            {
+              "label": "D",
+              "text": "Voortdurende angs om aan ander se verwagtinge te voldoen"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "'n Voorbeeld van 'n omgewingsingrypingsprogram:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Opvoedkundige aktiwiteite wat inwoners aanmoedig om bendeverwante misdade in die omgewing te rapporteer"
+            },
+            {
+              "label": "B",
+              "text": "'n Opleidingskursus wat die gemeenskap leer om die rioolstelsels doeltreffend te bestuur"
+            },
+            {
+              "label": "C",
+              "text": "'n Veldtog wat gemeenskappe bemagtig oor die voordele daarvan om afval doeltreffend te herwin"
+            },
+            {
+              "label": "D",
+              "text": "Navorsing wat deur plaaslike owerhede uitgevoer word om die gevolge van afvalstorting in riviere uit te lig"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "'n Sosialemedia-voetspoor is die ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "vermoë om heeltemal anoniem te bly terwyl 'n persoon gereeld op sosialemedia-platforms bedrywig is."
+            },
+            {
+              "label": "B",
+              "text": "inhoud wat 'n persoon op sosiale media deel en waarmee hy/sy/hulle interaksie het, wat sy/haar/hulle aanlyn identiteit vorm."
+            },
+            {
+              "label": "C",
+              "text": "aantal volgelinge wat 'n individu op sosiale media het, ongeag sy/haar/hulle aanlyn teenwoordigheid."
+            },
+            {
+              "label": "D",
+              "text": "totale aantal sosialemedia-platforms waarby individue aansluit om direkte boodskappe aan ander te stuur."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "Die Nasionale Kwalifikasieraamwerk (NKR) verskaf 'n stelsel ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "van akkreditasie vir goedgekeurde opvoedkundige instellings."
+            },
+            {
+              "label": "B",
+              "text": "om die kurrikulum oor al die opleidingsprogramme heen te standaardiseer."
+            },
+            {
+              "label": "C",
+              "text": "wat die krediete van elke vlak van leer aanteken."
+            },
+            {
+              "label": "D",
+              "text": "om befondsing vir hoëronderwyskwalifikasies te vergroot."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "Die verskil tussen inheemse speletjies en tradisionele sport is dat inheemse speletjies ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "op ontspanning fokus, terwyl tradisionele sport op standaardreëls fokus."
+            },
+            {
+              "label": "B",
+              "text": "deur kinders gespeel word, terwyl tradisionele sport deur volwassenes gespeel word."
+            },
+            {
+              "label": "C",
+              "text": "uitgebreide toerusting gebruik, terwyl tradisionele sport basiese toerusting vereis."
+            },
+            {
+              "label": "D",
+              "text": "wêreldwyd dieselfde is, terwyl tradisionele sport oor kulture heen verskil."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Gee EEN woord/term vir elk van die volgende beskrywings. Skryf slegs die woord/term langs die vraagnommers (1.2.1 tot 1.2.3) in die ANTWOORDEBOEK neer.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "'n Suid-Afrikaanse wet wat benadeelde groepe, mense met gestremdhede en rasse minderhede help om beter werksgeleenthede te kry",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Die vermoë om te verstaan wat 'n ander persoon voel en om dinge vanuit hulle oogpunt te sien",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.3",
+          "parent_id": "1.2",
+          "text": "'n Versameling dokumente, prestasies, vaardighede, kwalifikasies wat 'n individu se professionele vermoëns en ervarings toon",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Beantwoord die volgende vrae deur die antwoord langs die vraagnommers (1.3.1 tot 1.3.3) in die ANTWOORDEBOEK te skryf. Skryf jou antwoorde in volsinne.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.1",
+          "parent_id": "1.3",
+          "text": "Definieer die term kardiovaskulêre uithouvermoë soos in liggaamlike opvoeding gebruik.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.2",
+          "parent_id": "1.3",
+          "text": "Wat word van jou verwag wanneer jy 'n 'bespreek krities'-vraag in 'n assesseringstaak beantwoord?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.3",
+          "parent_id": "1.3",
+          "text": "Bespreek die belangrikheid daarvan om tydens 'n eksamen die vrae noukeurig deur te lees.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Lees die teks hieronder en beantwoord die vrae wat volg. Skryf jou antwoorde in volsinne.",
+          "marks": null,
+          "scenario": "BELASTINGPLIGTIGHEID: 'N UITDAGING IN SUID-AFRIKA\nBelastingbedrog gee dikwels aanleiding tot 'n bespreking oor regverdigheid en verantwoordelikheid onder landsburgers. Entrepreneurs staan voor uitdagings om hulle besigheidsgroei te balanseer terwyl hulle hul belastingpligtigheid nakom. Belastingbetalende landsburgers is egter steeds noodsaaklik vir Suid-Afrika.\n[Aangepas uit www.businesstech.co.za. Toegang op 7 Januarie 2025 verkry.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.1",
+          "parent_id": "1.4",
+          "text": "Gee TWEE redes waarom die nie-betaling van belasting as 'n daad van bedrog beskou word.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.2",
+          "parent_id": "1.4",
+          "text": "Verduidelik hoe entrepreneurs die belastingpligtigheid van hulle besighede doeltreffend kan bestuur.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.3",
+          "parent_id": "1.4",
+          "text": "Bespreek hoe die land bevoordeel kan word deur verantwoordelike belastingbetalende landsburgers te hê.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "AFDELING B (VERPLIGTEND)",
+      "instructions": "Beantwoord AL die vrae in hierdie afdeling. Skryf jou antwoorde in volsinne.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Lees die uittreksel hieronder en beantwoord die vrae wat volg.",
+          "marks": null,
+          "scenario": "MENSEREGTEKENDINGS\nVeilige en gesonde lewe\nDie onlangse verkoop van besmette¹ voedselprodukte deur sommige kleinsake-ondernemings in gemeenskappe het ernstige kommer oor openbare gesondheid, verbruikersbeskerming en menseregte gewek. Mediaverslae het aangedui dat sommige besighede skadelike voedselprodukte verkoop het, wat 'n impak op veilige en gesonde lewensomstandighede in gemeenskappe het. Ondersoeke het ontbloot dat baie van hierdie besighede onwettig bedryf is, en dat hulle nie aan voedselveiligheidsregulasies voldoen het nie en sodoende die gesondheid van die gemeenskap aan ernstige gevare blootgestel het.\nHoewel sommige van hierdie besighede deur buitelanders besit word, is die werklike probleem nie nasionaliteit nie, maar eerder die gebrek aan die afdwing van voedselveiligheidswette en nienakoming deur sekere besighede. Sommige van hierdie eienaars wat daarvan beskuldig word dat hulle besmette produkte verkoop, het egter slagoffers van xenofobie in hulle gemeenskappe geword, wat 'n impak op hulle geestelike welstand het. Die Handves van Regte beskerm individue teen diskriminasie en waarborg die regte van alle individue, ongeag hulle nasionaliteit. Hierdie openbare-gesondheid- en veiligheidstandaarde moet ooreenstem met menseregte om verbruikers teen gevaar te beskerm. Die oplossing van hierdie krisis vereis 'n gesamentlike poging van individue, gemeenskappe en die regering.\nWoordelys:\n¹besmette: onveilig of skadelik vir menslike inname/gebruik\n[Aangepas uit www.pmg.org.za. Toegang op 2 Maart 2025 verkry.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "Noem hoe blootstelling aan besmette voedselprodukte 'n persoon se reg op 'n gesonde lewe kan beïnvloed.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "Beskryf EEN moontlike voordeel van klein besighede in gemeenskappe.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "Verduidelik EEN faktor wat xenofobiese gesindhede teenoor buitelandse besigheidseienaars in gemeenskappe kan laat toeneem.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Bespreek die moontlike impak van diskriminasie op die geestelike welstand van slagoffers van xenofobie.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "Assesseer die verantwoordelikheid van die media om bewustheid oor 'n veilige en gesonde lewe te skep.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": "2",
+          "text": "Beveel TWEE maniere aan waarop die regering huidige wette kan versterk wat die verkoop van besmette goedere voorkom. Dui ook by ELKE antwoord aan hoe dit 'n veilige en gesonde lewe binne gemeenskappe kan verseker.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "AFDELING B (VERPLIGTEND)",
+      "instructions": "Beantwoord AL die vrae in hierdie afdeling. Skryf jou antwoorde in volsinne.",
+      "questions": [
+        {
+          "id": "3",
+          "parent_id": null,
+          "text": "Lees die uittreksel hieronder en beantwoord die vrae wat volg.",
+          "marks": null,
+          "scenario": "MENSLIKE FAKTORE WAT SLEGTE GESONDHEID VEROORSAAK\nRook deur adolessente\nFaktore wat tot slegte gesondheid bydra, kan 'n individu se gesondheid en toekomstige geleenthede negatief beïnvloed. Onlangse mediaverslaggewing dui aan dat daar 'n hoë voorkoms is van leerders in skole wat rook, waarskynlik as gevolg van die maklike toegang tot sigarette en damprooktoestelle ('vapes')¹. Die normalisering van rook onder jongmense het tot 'n toename in eksperimentering en verslawing gelei, wat hulle gesondheid en akademiese prestasie aantas.\nSosiale media speel 'n betekenisvolle rol om die leefstylkeuses van die jeug van vandag te beïnvloed. Swak gewoontes en keuses wat vroeg in die lewe gemaak word, kan 'n blywende uitwerking op die algehele langtermynwelstand en lewenskwaliteit van individue hê.\n'n Gefokusde benadering tot persoonlike welstand kan individue help om ingeligte keuses te maak, wat hulle daardeur help om skadelike middels te vermy. Skole speel 'n noodsaaklike rol om leerders na positiewe gewoontes te lei, deur effektiewe maatreëls te implementeer. Hierdie maatreëls kan leerders bemagtig om ingeligte besluite te neem, wat hulle langtermyngesondheid en toekomstige groei sal bevoordeel.\nWoordelys:\n¹damprooktoestelle ('vapes'): elektroniese sigarette\n[Aangepas uit www.pmc.ncbi.co.za. Toegang op 3 Januarie 2025 verkry.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "Definieer die term menslike faktore wat slegte gesondheid veroorsaak.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "Beskryf EEN moontlike langtermyngesondheidsrisiko vir jong rokers.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "Verduidelik hoekom leerders wat rook, meer geneig is om met ander middels te eksperimenteer.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "text": "Bespreek TWEE maniere waarop blootstelling aan sosiale media die gebruik van middels onder die jeug kan aanmoedig.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": "3",
+          "text": "Beveel TWEE maatreëls aan wat deur skole geïmplementeer kan word om leerders te ontmoedig om te rook. Motiveer ELKE antwoord.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": "3",
+          "text": "Assesseer die belangrikheid van 'n persoonlike leefstylplan om jongmense te help om middelmisbruik te vermy. Dui ook by ELKE antwoord aan hoe hierdie plan hulle kan help om beter leefstylkeuses te maak.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "AFDELING C",
+      "instructions": "Beantwoord enige TWEE vrae in hierdie afdeling. Jou antwoorde moet uit paragrawe bestaan. Punte sal SLEGS toegeken word vir antwoorde wat in volsinne geskryf is.",
+      "questions": [
+        {
+          "id": "4",
+          "parent_id": null,
+          "text": "Lees die uittreksel hieronder en beantwoord die vrae wat volg. Skryf paragrawe oor arbeidswette. Gebruik die volgende as 'n riglyn:\n- Noem kortliks VIER maniere waarop werkgewers kan verseker dat arbeidswette suksesvol in hulle organisasies geïmplementeer word. (4 x 1) (4)\n- Analiseer hoe onvanpaste gedrag deur sommige lede van vakbonde 'n negatiewe invloed op die werksomgewing kan hê. (2 x 4) (8)\n- Evalueer die impak op 'n jong werker wat arbeidswet-oortredings in die werkplek rapporteer. (2 x 4) (8)",
+          "marks": null,
+          "scenario": "ARBEIDSWETTE\nWerkers se regte en verpligtinge in die werkplek\n'n Onlangse ondersoek na Suid-Afrika se restaurantbedryf het aan die lig gebring dat sommige restaurante nie aan arbeidswette voldoen nie, en jong werkers was huiwerig om hierdie oortredings te rapporteer. Daar is ook bevind dat sommige vakbondlede by onaanvaarbare gedrag in die werkplek betrokke was.\n[Aangepas uit www.actionsa.org. Toegang op 24 Maart 2025 verkry.]",
+          "context": "Skryf paragrawe oor arbeidswette.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "AFDELING C",
+      "instructions": "Beantwoord enige TWEE vrae in hierdie afdeling. Jou antwoorde moet uit paragrawe bestaan. Punte sal SLEGS toegeken word vir antwoorde wat in volsinne geskryf is.",
+      "questions": [
+        {
+          "id": "5",
+          "parent_id": null,
+          "text": "Lees die uittreksel hieronder en beantwoord die vrae wat volg. Skryf paragrawe oor die media. Gebruik die volgende as 'n riglyn:\n- Noem kortliks VIER maniere om kuberveiligheid te handhaaf terwyl aanlyn vaardighede ontwikkel word om werkloosheid teen te werk. (4 x 1) (4)\n- Analiseer hoe kubervaardigheid jongmense kan help om werkloosheid teen te werk. (2 x 4) (8)\n- Evalueer die betekenis van gedrukte media in 'n ontwikkelende digitale wêreld. (2 x 4) (8)",
+          "marks": null,
+          "scenario": "DIE MEDIA\nOm kubervaardig te wees\nIn 'n ontwikkelende digitale wêreld word gedrukte media nou vinniger met die gebruik van elektroniese media onder jongmense vervang. Sodoende word jongmense meer kubervaardig en ontwikkel aanlyn vaardighede wat hulle kan help om werkloosheid teen te werk, terwyl hulle terselfdertyd leer om kuberveilig te bly.\n[Aangepas uit www.scirp.org. Toegang op 24 Maart 2025 verkry.]",
+          "context": "Skryf paragrawe oor die media.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "AFDELING C",
+      "instructions": "Beantwoord enige TWEE vrae in hierdie afdeling. Jou antwoorde moet uit paragrawe bestaan. Punte sal SLEGS toegeken word vir antwoorde wat in volsinne geskryf is.",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Lees die uittreksel hieronder en beantwoord die vrae wat volg. Skryf paragrawe oor werwingsprosesse. Gebruik die volgende as 'n riglyn:\n- Noem kortliks VIER faktore om te oorweeg wanneer jy iemand as 'n verwysing in jou curriculum vitae (CV) byvoeg. (4 x 1) (4)\n- Analiseer die belangrikheid daarvan om navorsing te doen oor 'n maatskappy se missiestelling wanneer jy vir beskikbare poste aansoek doen. (2 x 4) (8)\n- Evalueer hoekom 'n werkgewer kan kies om 'n kandidaat met vorige werkservaring in diens te neem. (2 x 4) (8)",
+          "marks": null,
+          "scenario": "WERWINGSPROSESSE\nAlgemene tendense en praktyke\nHuidige werwingsprosesse word deur tegnologie en dataontleding gedryf, met 'n sterk fokus op 'n kandidaat se werksondervinding. Daarom kan dit tot jou voordeel wees om die regte verwysings te kies om in jou curriculum vitae (CV) te noem en om navorsing te doen oor 'n maatskappy se missiestelling wanneer jy vir 'n werk oorweeg word.\n[Aangepas uit www.hr-simplified.co.za. Toegang op 2 Maart 2025 verkry.]",
+          "context": "Skryf paragrawe oor werwingsprosesse.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14210,
+    "cached_tokens_saved": 0
+  }
+}

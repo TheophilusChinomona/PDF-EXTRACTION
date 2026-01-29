@@ -1,0 +1,942 @@
+{
+  "meta": {
+    "subject": "BUSINESS STUDIES P1",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "Grade 12",
+    "total_marks": 150
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.1.1",
+              "value": "B"
+            },
+            {
+              "sub_id": "1.1.2",
+              "value": "D"
+            },
+            {
+              "sub_id": "1.1.3",
+              "value": "A"
+            },
+            {
+              "sub_id": "1.1.4",
+              "value": "C"
+            },
+            {
+              "sub_id": "1.1.5",
+              "value": "D"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": "Complete the statements",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.2.1",
+              "value": "parental"
+            },
+            {
+              "sub_id": "1.2.2",
+              "value": "backward"
+            },
+            {
+              "sub_id": "1.2.3",
+              "value": "strength"
+            },
+            {
+              "sub_id": "1.2.4",
+              "value": "Employment Equity"
+            },
+            {
+              "sub_id": "1.2.5",
+              "value": "quality assurance"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": null,
+          "type": "Match Columns",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.3.1",
+              "value": "C"
+            },
+            {
+              "sub_id": "1.3.2",
+              "value": "G"
+            },
+            {
+              "sub_id": "1.3.3",
+              "value": "E"
+            },
+            {
+              "sub_id": "1.3.4",
+              "value": "B"
+            },
+            {
+              "sub_id": "1.3.5",
+              "value": "I"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "Pillars of the Broad-Based Black Economic Empowerment Act (BBBEE)",
+          "type": null,
+          "model_answers": [
+            "Management control",
+            "Ownership",
+            "Enterprise and supplier development/ESD",
+            "Skills development",
+            "Socio-economic development/Social responsibility"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first FOUR (4) only.",
+          "notes": "4 x 1",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "Advantages of intensive strategies",
+          "type": null,
+          "model_answers": [
+            "Increase in sales/income and profitability due to a variety of advertising campaigns.",
+            "Regular sales to existing customers may increase.",
+            "Gain customer loyalty through effective promotion campaigns.",
+            "Improved service delivery may positively impact/increase sales.",
+            "Eliminate competitors and dominate market prices.",
+            "Decrease in price could influence customers to buy more products.",
+            "Businesses can have more control over the prices of products/services.",
+            "Enables the business to focus on markets/well researched quality products that satisfy the needs of consumers.",
+            "Increased market share reduces the business's vulnerability to actions of competitors.",
+            "Any other relevant answer related to the advantages of intensive strategies."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "Types of diversification strategies from the scenario",
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": [
+            {
+              "strategy": "Concentric diversification",
+              "motivation": "They added homemade cheese to their product range to increase sales to new customers."
+            },
+            {
+              "strategy": "Conglomerate diversification",
+              "motivation": "PF also opened a petrol station to attract new customers."
+            }
+          ],
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only. Award marks for the types of diversification strategies even if the quotes are incomplete. Do not award marks for motivations if the types of diversification strategies were incorrectly identified. Accept responses in any order.",
+          "notes": "Submax (4) for Strategy; Submax (2) for Motivation",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "Rights of employers in terms of the Labour Relations Act/LRA",
+          "type": null,
+          "model_answers": [
+            "form employer organisations to represent them in labour related matters.",
+            "form bargaining councils for collective bargaining purposes.",
+            "lockout employees who engage in labour action/an unprotected/illegal strike.",
+            "dismiss employees who engage in an unprotected/illegal strike/misconduct such as intimidation/violence during a strike action.",
+            "not pay/remunerate employees who have participated in a protected strike for services/work they did not do during the strike.",
+            "Any other relevant answer related to the rights of employers in terms of the LRA."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "Types of defensive strategies",
+          "type": null,
+          "model_answers": [
+            "Divestiture: Disposing/Selling some assets/divisions that are no longer profitable/productive. Selling off divisions/product lines with slow growth potential. Decreasing the number of shareholders by selling ownership. Paying off debts by selling unproductive assets. Withdrawing/Divesting their investment share in another business.",
+            "Retrenchment: Terminating the employment contracts/Letting go of employees for operational/structural/restructuring reasons/reduce costs/expenses. Decreasing the number of product lines/Closing certain departments may result in some workers becoming redundant.",
+            "Liquidation: Selling all assets/Bringing the business activities to an end due to the inability to repay creditors/bankruptcy/lack of capital. Selling the entire business in order to pay shareholders a fair price for their shares. Allowing creditors to apply for forced liquidation in order to have their claims settled. Companies in financial distress/difficulty may appeal for business rescue to avoid liquidation."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only.",
+          "notes": "Strategy (2); Description (1); Submax (3) per strategy",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "2.6.1",
+          "text": "Identify the Legislation",
+          "type": null,
+          "model_answers": [
+            "Compensation for Occupational Injuries and Diseases Amendment Act/COIDA"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6.2",
+          "text": "Other advantages of Compensation for Occupational Injuries and Diseases Amendment Act/COIDA",
+          "type": null,
+          "model_answers": [
+            "Promotes health and safety of employees which reduces accidents in the workplace.",
+            "Employees do not contribute towards this fund, which improves morale in the workplace.",
+            "Claiming processes are relatively simple, resulting in timeous pay-outs.",
+            "Eliminates time and costs spent on lengthy civil court proceedings.",
+            "Any compensation to an employee/the family is exempt from income tax.",
+            "Employers are protected from financial burden should an accident occur in the workplace provided that the employer was not negligent.",
+            "Makes businesses more socially responsible as they cannot just employ workers at random in dangerous working conditions.",
+            "Workers are treated with dignity and respect as businesses view them as valuable assets and not just as workers.",
+            "Covers all employees at the workplace if both parties meet all the necessary safety provisions in the Act.",
+            "Creates a framework for acceptable employment practices and safety regulations.",
+            "Supply administrative guidelines/mechanisms for dealing with/processing claims.",
+            "Employees are compensated financially for any injury/disability resulting from performing their duties at their workplace.",
+            "In the event of the death of an employee as a result of a work-related accident/disease, his/her dependent(s) will receive financial support.",
+            "Employees receive medical assistance provided there is no other medical assistance option. /Cannot claim medical assistance from the fund and medical aid.",
+            "Medical expenses/Other types of compensation are paid to employees and/or their families depending on the type/severity of the injuries.",
+            "Any other relevant answer related to other advantages of COIDA for businesses."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Do not award marks for 'monthly contributions to a common fund to protect workers in the event of workplace accidents'. Accept relevant facts if the Act was incorrectly identified as an answer in QUESTION 2.6.1.",
+          "notes": "Max (4)",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "2.7",
+          "text": "Strategic management process",
+          "type": null,
+          "model_answers": [
+            "OPTION 1: Have a clear vision/mission statement/measurable/realistic objective in place. Identify opportunities/weaknesses/strengths/threats by conducting environmental scanning/situational analysis. Tools available for environmental scanning may include a SWOT analysis/Porter's Five Forces model/PESTLE analysis/industrial analysis tools. Formulate alternative strategies to respond to the challenges. Develop (an) action plan(s), including the tasks to be done/deadlines to be met/resources to be procured. Implement selected strategies by communicating it to all stakeholders/organising business resources/motivating staff. Continuously evaluate/monitor/measure strategies in order to take corrective action.",
+            "OPTION 2: Review/Analyse/Re-examine their vision/mission statement. Conduct an environmental analysis using models such as SWOT/PESTLE/Porter's Five Forces. Formulate a strategy, such as a defensive/retrenchment strategy. Implement a strategy, using a template such as an action plan. Control/Evaluate/Monitor the implemented strategy to identify gaps/deviations in implementation. Take corrective action to ensure goals/objectives are met."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.1",
+          "text": "Components of job analysis",
+          "type": null,
+          "model_answers": [
+            "Job description",
+            "Job specification"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only.",
+          "notes": "(2 x 1)",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "Meaning of piecemeal as a salary determination method",
+          "type": null,
+          "model_answers": [
+            "Workers are paid according to the number of items/units produced/action performed.",
+            "Workers are not remunerated for the number of hours worked, regardless of how long it takes them to make the items.",
+            "Mostly used in factories particularly in the textile/technology industries.",
+            "Any other relevant answer related to piecemeal as a salary determination method."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 4,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3.1",
+          "text": "Aspects of the induction programme from the scenario",
+          "type": null,
+          "model_answers": [
+            "a tour of the premises",
+            "an overview of the business"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only.",
+          "notes": "(2 x 1)",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "3.3.2",
+          "text": "Benefits of induction",
+          "type": null,
+          "model_answers": [
+            "Allows new employees to settle in quickly and work effectively.",
+            "Ensures that new employees understand the rules and restrictions in the business.",
+            "New employees may establish relationships with fellow employees at different levels.",
+            "Make new employees feel at ease in the workplace, which reduces anxiety/ insecurity/fear.",
+            "The results obtained during the induction process provide a base for focussed training.",
+            "Increases quality of performance/productivity which promotes the effective use of working methods/resources.",
+            "Minimises/Decreases the need for on-going training and development.",
+            "Employees will be familiar with organisational structures, such as who are their supervisors/low level managers.",
+            "Opportunities are created for new employees to experience/explore different departments.",
+            "New employees will understand their role/responsibilities concerning safety regulations and rules.",
+            "New employees will know the layout of the building/factory/offices where everything is which saves production time.",
+            "Learn more about the business so that new employees understand their roles/responsibilities in order to be more efficient.",
+            "Company policies regarding conduct/procedures/safety and security/employment contract/conditions of employment/working hours/leave are communicated.",
+            "Realistic expectations for new employees, as well as the business are created.",
+            "New employees may feel part of the team resulting in positive morale/motivation.",
+            "Employees may have a better understanding of business policies regarding ethical/professional conduct/procedures/ CSR.",
+            "Reduces the staff turnover as new employees have been inducted properly.",
+            "Any other relevant answer related to the benefits of induction for businesses."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": "Selection procedure",
+          "type": null,
+          "model_answers": [
+            "OPTION 1: Determine fair assessment criteria on which selection will be based. Applicants must submit the application forms/curriculum vitae and certified copies of personal documents/IDs/proof of qualifications. Sort the received documents/CVs according to the assessment/selection criteria. Screen/Determine which applications meet the minimum job requirements and separate these from the rest. Preliminary interviews are conducted if many suitable applications were received/to identify suitable applicants. Reference checks/Vetting process should be made to verify the content of CVs/regarding work experience/criminal records/qualifications. Compile a shortlist of potential candidates identified. Shortlisted candidates may be subjected to various types of selection tests such as skills tests. Invite shortlisted candidates for an interview. A written offer is made to the selected candidate. Inform unsuccessful applicants about the outcome of their application. /Some advertisements indicate the deadline for informing only successful candidates. Any other relevant answer related to the selection procedure as a human resources activity.",
+            "OPTION 2: Receive documentation such as application forms and sort it according to the criteria of the job. Evaluate CVs and create a shortlist/screen the applicants. Check information in the CVs and contact references. Conduct preliminary sifting interviews to identify applicants who are not suitable for the job, although they meet all requirements. Assess/Test candidates who have applied for senior positions/to ensure the best candidate is chosen. Conduct interviews with shortlisted candidates. Offer employment in writing to the selected candidate(s)."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "The procedure may be in any order.",
+          "notes": "Max (6)",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": "Benefits of a good quality management system",
+          "type": null,
+          "model_answers": [
+            "Effective customer services are rendered, resulting in increased customer satisfaction.",
+            "Time and resources are used efficiently.",
+            "Productivity increases through proper time management/using high quality resources.",
+            "Products/Services are constantly improved resulting in increased levels of customer satisfaction.",
+            "Vision/Mission/Business goals may be achieved.",
+            "A business has a competitive advantage over its competitors.",
+            "Regular training will continuously improve the quality of employees' skills/ knowledge/competencies.",
+            "Employers and employees will have a healthy working relationship resulting in happy/productive workers/improved employee morale/ productivity.",
+            "Increased market share/Financial stability as more customers improve profitability.",
+            "Improves business image as there are less defects/returns.",
+            "Any other relevant answer related to the benefits of a good quality management system."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 4,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": "Business functions that contribute to the success of the business from the scenario",
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": [
+            {
+              "function": "General management function",
+              "motivation": "The Chief Executive Officer (CEO) effectively communicates the shared vision and mission of the business with employees."
+            },
+            {
+              "function": "Public relations function",
+              "motivation": "BE also provides regular press releases to all stakeholders."
+            }
+          ],
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only. Award marks for the business functions even if the quotes are incomplete. Do not award marks for motivations if the business functions were incorrectly identified.",
+          "notes": "Submax (4) for Function; Submax (2) for Motivation",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "3.7",
+          "text": "Act step of the PDCA model",
+          "type": null,
+          "model_answers": [
+            "Institutionalise the improvement to meet the needs of the business.",
+            "Devise strategies on how to continually improve operational procedures.",
+            "If the change was successful, implement it on a wider scale.",
+            "The business should continuously revise the process to identify and improve on shortcomings/until they get it right.",
+            "Any other relevant answer related to how businesses can apply the act step of the PDCA model to improve the quality of products."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 4,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.8",
+          "text": "Impact of adequate financing and capacity as a total quality management/TQM element",
+          "type": null,
+          "model_answers": {
+            "positives": [
+              "Large businesses have sufficient financing to test everything before implementing.",
+              "They can afford to have systems in place to prevent errors in processes/defects in raw materials/products.",
+              "Able to afford product research/market researchers to gather information about products/customers. /Large businesses can fund programmes aimed at improving quality processes.",
+              "Large businesses can afford to purchase quality raw materials and equipment.",
+              "Any other relevant answer related to the positive impact/advantages of adequate financing and capacity as a TQM element on large businesses."
+            ],
+            "negatives": [
+              "If the demand for a business product increases/orders begins coming in faster than expected, the business may lack the capital required to fund the production of the stock/to fill the orders.",
+              "These rapidly growing businesses can consume large amounts of capital as they try to balance normal operations and expansion.",
+              "Any other relevant answer related to the negative impact/disadvantages of adequate financing and capacity as a TQM element on large businesses."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "Forces of Porter's Five Forces model",
+          "type": null,
+          "model_answers": [
+            "Bargaining power of suppliers/Power of suppliers",
+            "Bargaining power of buyers/Power of buyers",
+            "Threat/Barriers to new entrants to the market",
+            "Competitive rivalry/Power of competitors",
+            "Threat of substitutes/substitution"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first FOUR (4) only.",
+          "notes": "(4 x 1)",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "Business sectors from statements",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.2.1",
+              "value": "Secondary sector"
+            },
+            {
+              "sub_id": "4.2.2",
+              "value": "Tertiary sector"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": "Penalties for non-compliance with the Employment Equity Act/EEA",
+          "type": null,
+          "model_answers": [
+            "Businesses may face heavy fines for non-compliance.",
+            "They can be ordered to pay compensation/damages to the employee for unfair discrimination.",
+            "Labour inspectors may conduct onsite visits/interview employees to determine whether the information supplied on the employment equity plans is true or has been falsified.",
+            "Labour inspectors may investigate/inspect/ask questions about complaints which can create a bad image for the business.",
+            "A compliance order may be issued to businesses that do not comply with the EEA.",
+            "Businesses may be brought before the Labour Court if compliance orders are not adhered to/no efforts made to reach targets.",
+            "The Department of Labour may block non-compliant businesses from doing business with the government/receiving government tenders.",
+            "Any other relevant answer related to penalties for non-compliance with the EEA."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": "Steps in strategy evaluation",
+          "type": null,
+          "model_answers": [
+            "Examine the underlying basis of a business strategy.",
+            "Look forward and backwards into the implementation process.",
+            "Compare the expected performance with the actual performance.",
+            "Determine the reasons for deviations and analyse these reasons.",
+            "Take corrective action so that deviations may be corrected.",
+            "Set specific dates for control and follow up.",
+            "Draw up a table of the advantages and disadvantages of a strategy.",
+            "Decide on the desired outcome that will result in the achievement of business goals envisaged when strategies are implemented.",
+            "Consider the impact of the strategic implementation in the internal/external environments of the business.",
+            "Any other relevant answer related to the steps in strategy evaluation."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "The steps may be in any order.",
+          "notes": "Max (6)",
+          "topic": "BUSINESS ENVIRONMENTS",
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": "Legal requirements of an employment contract",
+          "type": null,
+          "model_answers": [
+            "The employer and employee/Both parties must sign the contract.",
+            "Employer and employee must agree to any changes to the contract.",
+            "No party may unilaterally change aspects of the employment contract.",
+            "The remuneration package, including benefits, must be clearly indicated.",
+            "The employment contract may not contain any requirements that are in conflict with the BCEA.",
+            "Aspects of the employment contract can be renegotiated during the course of employment.",
+            "The employer must explain the terms and conditions of the employment contract to the employee.",
+            "Conditions of employment/duties/responsibilities of the employees must be stipulated clearly.",
+            "All business policies/procedures/disciplinary codes/rules can form part of the employment contract.",
+            "The employer must allow the employee to thoroughly read through the contract before it is signed.",
+            "The employment contract should include a code of conduct and code of ethics.",
+            "Any other relevant answer related to the legal requirements of an employment contract."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 4,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": "Impact of fringe benefits",
+          "type": null,
+          "model_answers": {
+            "positives": [
+              "Attractive fringe benefit packages may result in higher employee retention/reduces employee turnover.",
+              "Attracts qualified/skilled/experienced employees who may positively contribute towards the business goals/objectives.",
+              "Improves productivity resulting in higher profitability.",
+              "It increases employee satisfaction/loyalty, as they may be willing to go the extra mile.",
+              "Businesses save money as benefits are tax deductible.",
+              "Fringe benefits can be used as leverage for salary negotiations.",
+              "Any other relevant answer related to the positive impact/advantages of fringe benefits on businesses."
+            ],
+            "negatives": [
+              "Businesses which cannot offer fringe benefits, fail to attract skilled workers.",
+              "Businesses which offer employees different benefit plans may create resentment/Employees who receive less benefit may not be motivated resulting in lower productivity.",
+              "It can create conflict/lead to corruption if allocated unfairly.",
+              "Fringe benefits are additional costs that may result in cash flow problems.",
+              "Decreases business profits, as incentive/package/remuneration costs are higher.",
+              "Administrative costs increase, as benefits need to be correctly recorded for tax purposes.",
+              "Workers only stay with the business for fringe benefits, and may not be committed/loyal to the tasks/business.",
+              "Businesses have to pay advisors/attorneys to help them create benefit plans that comply with legislation.",
+              "Errors in benefit plans may lead to costly lawsuits/regulatory fines.",
+              "Any other relevant answer related to the negative impact/disadvantages of fringe benefits on businesses."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 6,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.7.1",
+          "text": "Ways in which total quality management/TQM can reduce the cost of quality from the scenario",
+          "type": null,
+          "model_answers": [
+            "The production manager works closely with suppliers to improve the standards of raw materials.",
+            "KM monitors their maintenance programmes on a regular basis to prevent the breakdown of equipment."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO (2) only. Only award marks for responses that are quoted from the scenario.",
+          "notes": "(2 x 1)",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "4.7.2",
+          "text": "Other ways in which total quality management/TQM can reduce the cost of quality",
+          "type": null,
+          "model_answers": [
+            "Introduce quality circles to discuss ways of improving the quality of work/workmanship.",
+            "Schedule activities to eliminate duplication of tasks.",
+            "Share responsibility for quality output amongst management and workers.",
+            "Train employees at all levels, so that everyone understands their roles in quality management.",
+            "Develop work systems that empower employees to find new ways of improving quality.",
+            "Improve communication about quality challenges/deviations, so that everyone can learn from experience.",
+            "Reduce investment on expensive, but ineffective inspection procedures in the production process.",
+            "Any other relevant answer related to other ways in which TQM can reduce the cost of quality."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Do not award marks for responses that are quoted from the scenario in QUESTION 4.7.1.",
+          "notes": "Max (4)",
+          "topic": "BUSINESS OPERATIONS",
+          "essay_structure": null
+        },
+        {
+          "id": "4.8",
+          "text": "How the quality of performance of the administration function can contribute to the success of the business",
+          "type": null,
+          "model_answers": [
+            "Fast and reliable data capturing and processing systems.",
+            "Make reliable information available to management on time.",
+            "Make relevant information available for quick decision-making.",
+            "Handle complaints quickly and effectively.",
+            "Use modern technology efficiently.",
+            "Implement effective risk management policies to minimise business losses.",
+            "Quality assurance/Control/Evaluation is recorded accurately.",
+            "All documentation is kept neatly and orderly in a safe place.",
+            "Easy to recall and find information/documentation.",
+            "Financial documents are kept up to date and recorded accurately.",
+            "All systems and processes are documented.",
+            "Any other relevant answer related to how the quality of performance of the administration function can contribute to the success of the business."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": 4,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "questions": [
+        {
+          "id": "5",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "BUSINESS ENVIRONMENTS (LEGISLATION)",
+          "essay_structure": {
+            "introduction": [
+              "The Consumer Protection Act aims to protect consumers from exploitation and unfair business practices.",
+              "The CPA was introduced to promote equality in the consumer market for all consumers of goods and services.",
+              "Businesses have a legal responsibility to protect/promote the rights of consumers, as they are held accountable for their actions.",
+              "Businesses that comply with the CPA are able to reduce heavy penalties which may prevent a financial loss in the long term.",
+              "Any other relevant introduction related to the purpose of the CPA/impact of the CPA on businesses/consumer rights in terms of the CPA/ways in which businesses can comply with the CPA."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Purpose of the Consumer Protection Act/CPA",
+                "points": [
+                  "Promotes fair/accessible and sustainable places for people to sell their products.",
+                  "Establishes national standards to protect consumers regardless of their economic status.",
+                  "Provides guidelines for better consumer information and to prohibit unfair business practices.",
+                  "Promotes responsible consumer behaviour amongst consumers.",
+                  "Promotes consistent laws relating to consumer transactions and agreements.",
+                  "Establishes a National Consumer Commission (NCC).",
+                  "Ensures that consumers have access to information they need to make informed choices.",
+                  "Promotes the rights and full participation of historically disadvantaged individuals as consumers.",
+                  "Ensures that consumers are not misled/deceived by suppliers of goods/ services.",
+                  "Promotes consumer safety by protecting them from hazardous products/ services.",
+                  "Strengthens a culture of consumer rights and responsibilities.",
+                  "Empowers consumers to take legal action if their rights are not upheld.",
+                  "Protects consumers against contracts that include unfair terms, which limit the liability of suppliers.",
+                  "Protects consumers against unscrupulous businesses such as fly-by-night franchisors.",
+                  "Allows for consumers and businesses to resolve disputes fairly/effectively.",
+                  "Any other relevant answer related to the purpose of the CPA."
+                ]
+              },
+              {
+                "sub_topic": "Impact of the Consumer Protection Act/CPA",
+                "positives": [
+                  "Businesses may be safeguarded from dishonest competitors.",
+                  "Businesses may be protected if they are regarded as consumers.",
+                  "Prevents larger businesses from undermining smaller ones.",
+                  "May gain consumer loyalty, if they comply with CPA.",
+                  "Enables businesses to resolve disputes fairly through the National Consumer Commission/Consumer Court/Industrial ombudsmen.",
+                  "Businesses may build a good image if they ensure that they do not violate consumer rights.",
+                  "Any other relevant answer related to the positive impact/advantages of CPA on businesses."
+                ],
+                "negatives": [
+                  "Confidential business information may become available to competitors.",
+                  "Penalties for non-compliance may be very high.",
+                  "Businesses may feel unnecessarily burdened by legal processes.",
+                  "They have to disclose more information about their products and processes/services.",
+                  "Processes and procedures required by CPA can be expensive/time consuming.",
+                  "Consumers can take advantage of the business and return goods when it is not necessary to do so.",
+                  "Staff need to be trained/Legal experts need to be consulted, which can lead to an increase in operational costs.",
+                  "Many business documents need to be simplified/revamped at extra cost as consumers have a right to receive contracts in a simple/ understandable language.",
+                  "Administration costs increase as legal contracts need to be worded in plain language/pitched at the level of the consumer.",
+                  "Businesses may need insurance against claims from consumers/ Provisions in the Act increase risks for unforeseen claims and lawsuits.",
+                  "Businesses have to replace/repair faulty items/refund money if the fault occurs within six months after purchase.",
+                  "Supply chain management in stock levels will have to change, as defective goods have to be replaced within six months at the request of the consumer.",
+                  "Information technology systems need to be improved as the retailer must keep more detailed records of interactions with consumers/be able to report to the National Consumer Commission (NCC).",
+                  "Any other relevant answer related to the negative impact/disadvantages of CPA on businesses."
+                ]
+              },
+              {
+                "sub_topic": "Consumer rights in terms of the Consumer Protection Act/CPA",
+                "rights": [
+                  "Right to choose: choose suppliers and/or goods; shop around for the best prices; return goods that are unsafe/defective for a full refund; reject goods that are not the same as the sample marketed; cancel/renew fixed term agreements; request written quotations and cost estimates.",
+                  "Right to privacy: stop/restrict unwanted direct marketing; object to unwanted promotional e-mails/telesales; stop/lodge complaints about the sharing of their personal details.",
+                  "Right to fair and honest dealings: Suppliers may not use physical force or harass customers; Suppliers may not give misleading/false information; Businesses may not promote pyramid schemes and/or chain letter schemes; Businesses may not overbook/oversell goods/services and then not honour the agreement.",
+                  "Right to disclosure and information: Contracts and agreements should be in plain language and easy to understand; Businesses should display prices, which are fully inclusive/disclosing all costs; Businesses should label products and trade descriptions correctly; Consumers may request the unit and bulk price of the same product; If two prices for the same product are displayed, consumers should pay the lower price; All information related to the country of origin, expiry dates/ingredients of the products should be disclosed.",
+                  "Right to fair and responsible marketing: Businesses should not mislead consumers on pricing/benefits/uses of goods and services; Consumers may cancel purchases made through direct marketing within five working days/cooling-off period.",
+                  "Right to fair value/good quality and safety: Consumers may demand quality goods/services; They may receive an implied/written warranty; To be informed and receive guidance about hazardous/ dangerous products; Reject goods that are not the same quality as the sample marketed; Return faulty items if the fault occurs within six months after purchasing the item.",
+                  "Right to accountability by suppliers: Consumers have the right to be protected in lay-bye agreements; Businesses should honour credit vouchers and prepaid services.",
+                  "Right to fair/just and reasonable terms and conditions: Businesses should provide consumers with written notices of clauses that may limit consumer rights; Businesses may not market/sell goods at unfair prices.",
+                  "Right to equality in the consumer market: Businesses should not limit access to goods and services; Businesses may not vary the quality of their goods to different consumers; Businesses should not discriminate when marketing their products and services in different areas/places; Businesses may not charge different prices for the same goods/services; Quality of goods may not vary when supplied to different consumers."
+                ],
+                "marker_instruction": "Mark the first THREE (3) only."
+              },
+              {
+                "sub_topic": "Ways in which businesses can comply with the Consumer Protection Act/CPA",
+                "points": [
+                  "Disclose prices of all products on sale.",
+                  "Provide adequate training to staff on the CPA.",
+                  "All agreements must provide for a five-day cooling-off period.",
+                  "Ensure that goods/services offered are standardised/of the same quality.",
+                  "Comply with the requirements regarding promotional competitions.",
+                  "Comply with requirements regarding the display of information on labels/ packaging.",
+                  "Display the name of the business on all business documents, such as invoices/contracts.",
+                  "Bundling of goods/services should benefit consumers, such as offering a cell phone and a tablet at a special price.",
+                  "Implement measures that will facilitate complaints, such as suggestion boxes.",
+                  "Any other relevant answer related to ways in which businesses can comply with the CPA."
+                ]
+              }
+            ],
+            "conclusion": [
+              "The Consumer Protection Act requires both businesses and consumers to act responsibly when conducting business activities in the consumer market.",
+              "Businesses that correctly implement the CPA are able to gain the positive impact and reduce the negative impact on their business operations.",
+              "Businesses that apply the consumer rights are able to increase market share, gain more loyal customers and improve their customer base.",
+              "Compliance with CPA not only benefits consumers but also strengthens the overall integrity of the market by ensuring a balanced relationship between consumers and businesses.",
+              "Any other relevant conclusion related to the purpose of the CPA/impact of the CPA on businesses/consumer rights in terms of the CPA/ways in which businesses can comply with the CPA."
+            ]
+          }
+        },
+        {
+          "id": "6",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "BUSINESS OPERATIONS (HUMAN RESOURCES FUNCTION)",
+          "essay_structure": {
+            "introduction": [
+              "Recruitment procedure is a systematic process on identifying and filling vacant positions within the business.",
+              "External recruitment enables businesses to employ qualified people from outside the business.",
+              "The interviewer is responsible for administration and logistical arrangements of the interview process.",
+              "The reasons for the termination of employment contracts should be clearly explained to all employees.",
+              "Any other relevant introduction related to the recruitment procedure/impact of external recruitment on businesses/role of the interviewer during the interview/reasons for termination of an employment contract."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Recruitment procedure as a human resources activity",
+                "points": [
+                  "The human resource manager should evaluate the job/prepare a job analysis, that includes the job specification/job description/in order to identify recruitment needs.",
+                  "The human resource manager should prepare the job description in order to determine the responsibility/key performance areas related to the nature of the job.",
+                  "The human resource manager should indicate the job specification/description/key performance areas to attract suitable candidates.",
+                  "Choose the method of recruitment, such as internal/external, to reach/ target the suitable applicants/candidates.",
+                  "Vacancies can be internally advertised via internal email/word of mouth/ posters/staff notices.",
+                  "If internal recruitment is unsuccessful, external recruitment should be considered.",
+                  "If the external recruitment is chosen, the relevant recruitment sources should be selected, such as recruitment agencies/tertiary institutions/ newspapers.",
+                  "The advertisement should be prepared with the relevant information, such as the name of the company/contact details/contact person.",
+                  "Place the advertisement in the appropriate media that will ensure that the best candidates apply.",
+                  "Any other relevant answer related to the recruitment procedure as a human resources activity."
+                ],
+                "marker_instruction": "The procedure can be in any order."
+              },
+              {
+                "sub_topic": "Impact of external recruitment on businesses",
+                "positives": [
+                  "New candidates bring new talents/ideas/experiences/skills into the business. /Overall efficiency/Increase in productivity may occur as the new workers adds value to the business.",
+                  "There is a larger pool of candidates from which to choose.",
+                  "It may help the business to meet affirmative action and BBBEE targets.",
+                  "Minimises unhappiness/conflict amongst current employees who may have applied for the post.",
+                  "There is a better chance of getting a suitable candidate with the required skills/qualifications/competencies who do not need much training/ development which reduce costs.",
+                  "Any other relevant answer related to the positive impact/advantages of external recruitment on businesses."
+                ],
+                "negatives": [
+                  "Information on CVs/from referees may not be reliable.",
+                  "Many unsuitable applications can slow down the selection process.",
+                  "New candidates generally take longer to adjust to a new work environment.",
+                  "External sources can be expensive, such as recruitment agencies' fees/advertisements in newspapers/magazines.",
+                  "The selection process may not be effective as an incompetent candidate may be chosen.",
+                  "Recruitment process takes longer as background checks must be conducted /is time-consuming due to the lengthy process of finding suitable candidates.",
+                  "In-service training may be needed which decreases productivity during the time of training.",
+                  "External recruitment may limit promotion/growth opportunities for existing employees that could lead to resentment.",
+                  "Any other relevant answer related to the negative impact/disadvantages of external recruitment on businesses."
+                ]
+              },
+              {
+                "sub_topic": "Role of the interviewer during the interview",
+                "points": [
+                  "Allocate the same amount of time to each candidate.",
+                  "Introduce members of the interviewing panel to each candidate/interviewee.",
+                  "Make the interviewee feel at ease to acquire good responses.",
+                  "Explain the purpose of the interview to the panel and the interviewee.",
+                  "Record interviewees' responses for future reference.",
+                  "Do not misinform/mislead the interviewee by asking unrelated questions to the position.",
+                  "Avoid discriminatory/controversial types of questions.",
+                  "Provide an opportunity for the interviewee to ask questions about the position/job.",
+                  "Close the interview by thanking the interviewee for attending the interview.",
+                  "Any other relevant answer related to the role of the interviewer during the interview."
+                ]
+              },
+              {
+                "sub_topic": "Reasons for termination of an employment contract",
+                "points": [
+                  "The employer may dismiss an employee for a valid reason(s), such as unsatisfactory job performance/misconduct.",
+                  "Employer may no longer have work for redundant employees/cannot fulfil the contract/is restructuring.",
+                  "The employer may retrench some employees due to insolvency/may not be able to pay the employees.",
+                  "Employees decided to leave/resign voluntarily for better job opportunities.",
+                  "An employee may have reached the pre-determined age for retirement.",
+                  "Incapacity to work due to illness/injuries.",
+                  "By a mutual agreement between the employer and employee.",
+                  "The duration of the employment contract expires/comes to an end.",
+                  "Any other relevant answer related to reasons for termination of an employment contract."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Businesses that implement effective recruitment procedures are able to achieve their recruitment goals.",
+              "A business that uses external recruitment methods is able to ensure a diversified workforce.",
+              "The interviewer who understands their role during the interview will be able to successfully conduct effective interviews.",
+              "The human resource manager should be knowledgeable on the reasons for terminating an employment contract to avoid unnecessary lawsuits/ civil proceedings.",
+              "Any other relevant conclusion related to the recruitment procedure/ impact of external recruitment on businesses/role of the interviewer during the interview/reasons for termination of an employment contract."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 27573,
+    "cached_tokens_saved": 0
+  }
+}

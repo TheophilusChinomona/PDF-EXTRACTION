@@ -1,0 +1,190 @@
+{
+  "subject": "Setswana Puo ya Gae (HL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Setswana",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: TLHAMO",
+      "instructions": "Kwala tlhamo ya boleele jwa mafoko a a ka nnang 400–450 ka NNGWE FELA ya ditlhogo kgotsa ditshwantsho tse di neilweng. Fa o dirisa setshwantsho go kwala tlhamo, se neele setlhogo se se maleba. O se ka wa lebala go thala letlhomeso kana lenaneopaakanyo, go tlhagisa setlhangwa sa ntlha le go se runa pele o kwala sa bofelo.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "text": "Nkabo ke ngwana wa morago",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Ga nkitla ke lebala tiragalo eo",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Phetogo ya maemo a loapi",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Fa e ka re ke tsoga ka iphitlhela ke humile …",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "A go botlhokwa go isa bagodi kwa legaeng la tlhokomelo ya bagodi?",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Lorato lwa madi le dithoto lo gakaditse bosenyi. Dumela kgotsa o ganetse.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "[Setshwantsho sa batho ba ba dirang ditiro tsa go nonotsha mmele mo teng ga jimi]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Ditshwantsho tse di mo go tsebe 3 le 4 di ka tsosa maikutlo kgotsa tsibogo e e rileng. Tlhopha setshwantsho se le SENGWE mme o kwale tlhamo ka ga sona. Neela tlhamo ya gago setlhogo se se maleba. Nomora potso ya gago go nna (1.7 kgotsa 1.8). ELA TLHOKO: Diteng tsa tlhamo ya gago di tshwanetse go nyalana le setshwantsho se o se tlhophileng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "[Setshwantsho sa moitseanape wa motlakase yo o tlhokomelang ditshipi tsa motlakase]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Ditshwantsho tse di mo go tsebe 3 le 4 di ka tsosa maikutlo kgotsa tsibogo e e rileng. Tlhopha setshwantsho se le SENGWE mme o kwale tlhamo ka ga sona. Neela tlhamo ya gago setlhogo se se maleba. Nomora potso ya gago go nna (1.7 kgotsa 1.8). ELA TLHOKO: Diteng tsa tlhamo ya gago di tshwanetse go nyalana le setshwantsho se o se tlhophileng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITLHANGWA TSA TIRISANO",
+      "instructions": "Araba dipotso di le PEDI fela mo karolong e. Karabo e nne boleele jwa mafoko a a ka nnang 180–200 (diteng fela). O gakololwa go runa le go tlhotlha ditlhangwa tsa gago diphoso.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "LEKWALO LA BOTSALANO. Mogoloo o ne a tsenetse kgaisano ya puiso le mopeleto e e mo logatong lwa Porofense mme a fenya sekgele. Mo kwalele lekwalo le mo go lona o mo akgolang o bo o mo kopa tshedimosetso le maele a go tsenela mofuta o wa kgaisano.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "IMEILE/LEKWALO LA MARANYANE. Mmangwanaago o rekile bolao kwa lebenkeleng lengwe mme bo na le diphoso. O lekile go kopa gore a neelwe bo bongwe fela morekisi ga a bontshe kgatlhego ya go mo thusa. Kwalela motsamaisimogolo wa lebenkele imeile, o mo itsise ka ga se, o bo o kope tharabololo ya bothata jo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "PEGELO. Mo sekolong sa lona go na le barutwana ba ba jeleng dikuku tse di nang le botlhole e bile ba amogetswe kwa bookelong. Botsamaisi jwa sekolo bo go kopile jaaka moeteledipele wa lekgotla la barutwana go dira dipatlisiso ka ga tiragalo e. Kwalela botsamaisi jwa sekolo pegelo ka se o se fitlheletseng.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "THADISO. Mo malobeng o ne o lebeletse terama ya Skeem Saam mo thelebišeneng mme e ne ya go gapa maikutlo. Thadisa ka ga terama eo go rotloetsa batho gore ba e lebelele.",
+          "marks": 25,
+          "scenario": "[Setshwantsho sa batshameki ba terama ya Skeem Saam. Se nopotswe go tswa go: Sowetanlive.co.za, 12 Firikgong 2022]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "LENANEOTEMA LE METSOTSO YA KOPANO. O ne o tsenetse kopano le balekane ba gago e mo go yona lo neng lo bua ka ga go batla go itshimololela setlamo sa go ipolokela madi kgwedi ka kgwedi. Kwala lenaneotema le metsotso ya kopano eo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": "2",
+          "text": "PUO. O mongwe wa ba ba tla tsenelang moletlo wa go keteka dipholo tsa marematlou mme o kopilwe go neelana ka puo go leboga le go akgola barutwana le barutabana. Kwala puo e o tlaa neelanang ka yona.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8811,
+    "cached_tokens_saved": 0
+  }
+}

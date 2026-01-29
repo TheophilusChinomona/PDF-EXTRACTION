@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "subject": "IsiXhosa Ulwimi Lwasekhaya (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "Canzibe/Silimela",
+    "grade": "Senior Certificate/National Senior Certificate",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "ICANDELO A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Lade lazaliseka ithemba",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Isincoko singabalisa/chaza/camngca/xoxela amacala omabini/xoxela icala elinye. Isincoko masicwangciswe ngokukuko.",
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Intshayelelo efanelekileyo"
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singalibali elimalunga nethemba elizaliseka ngenxa yokuzingisa ukufumana imfundo/ ukufumana umsebenzi/ ukufumana into ekukudala eyinqwenela.",
+                  "Singangethemba eloyisa imingeni ekuhlangatyezwana nayo endleleni.",
+                  "Singabonakalisa imvakalelo ngethemba elizalisekileyo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Isiphelo esifanelekileyo"
+            ]
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Wayeyincutshe ke loo mcuphi",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Isincoko singabalisa/chaza/camngca/xoxela amacala omabini/xoxela icala elinye.",
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singangobuncutshe/ngoloyiso lomcuphi owayephanda ityala/amatyala.",
+                  "Singangeenkumbulo ngobuncutshe bomcuphi.",
+                  "Singachaza iimpawu zomcuphi owayeyincutshe ekuphandeni amatyala.",
+                  "Singacamngca/singakhankanya izenzo zobuncutshe kumcuphi.",
+                  "Singangemingeni/imiqobo abehlangabezana nayo lo mcuphi xa ebephanda."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.3",
+          "text": "Isiphumo sihambelana nesenzo hayi iminqweno yodwa",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singabalisa ngezinto ezenzekileyo ezikhokelela ekuzuzeni impumelelo oyisebenzeleyo/ ekufundeni ukuqiqa phambi kokuba wenze iimpazamo ezinokubangela ukuba ungaphumeleli.",
+                  "Singaxhasa ngembali/ngenkcaza/ngokucamngca intetho ethi ukuthetha asikokwenza.",
+                  "Singangempazamo ayenzileyo ngokulinda iziphumo kungekho nto yenziwayo/ukuhlala ngokuthandaza ungenzi nto/ukuthemba imimoya engentla ngaphandle kokwenza.",
+                  "Singachaza izenzo ezinxamnye neziphumo azilindelayo.",
+                  "Singabalisa/sichaze/sicamngce ngefuthe lala mazwi mhla waweva empilweni yakhe."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.4",
+          "text": "Wandipheka endophula",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singalibali lemini enye/leemini eziliqela/isiganeko/iziganeko/imeko awayekuyo yokungxixhwa ngemibuzo.",
+                  "Singalibali elingempathombi/ubunzima/lokukhula nzima/lokufunda nzima enesiphumo esihle/esimnandi."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Akukho lula ukukhetha phakathi kwabazali",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singangempixano abanayo umntu ekufuneka ekhethile phakathi kwabazali.",
+                  "Singangemeko apho kufuneka umntwana ekhethe ukuhamba okanye ukuhlala nomnye kubazali kwimeko enyanzela oko."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Bafana twatse ngezenzo, makangazithetheleli",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nawuphi na umxholo ohambelana nesihloko uya kwamkelwa.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singangothelekiso phakathi komntu ozibona engcono kunomnye/otyhola omnye umntu ngezenzo zakhe abe engaziboni ukuba nezakhe zikwanjalo.",
+                  "Singachaza/sicamngca ngokukhankanya izenzo abafana ngazo okanye azithethelela kuzo.",
+                  "Singangokulunga/nokungalungi kokungazazi komntu."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.7",
+          "text": "Isincoko esivuselelwe ngumfanekiso (Isipho)",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Umviwa makanike isihloko esifanelekileyo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singalibali elingesipho/inkcaza engesipho/ucamngco ngesipho esifunyenweyo/ekunikezelwe ngaso.",
+                  "Singabalula imvakalelo emva kokufumana isipho.",
+                  "Singayingxoxo engokuxabiseka/ukungaxabiseki kwesipho/iingxaki ezidalwa zizipho."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "1.8",
+          "text": "Isincoko esivuselelwe ngumfanekiso (Imbalela/Unxweme)",
+          "type": "Isincoko",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Umviwa makanike isihloko esifanelekileyo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Singalibali/singayinkcaza/singacamngca ngesiganeko/imeko engembalela.",
+                  "Singakhankanya unobangela wembalela, iziphumo nezisombululo zembalela.",
+                  "Singangeengxaki zamafama/zendalo negalelo likarhulumente kwiimeko zembalela.",
+                  "Singangobungozi bokuhamba wedwa."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        }
+      ]
+    },
+    {
+      "section_id": "ICANDELO B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "ILETA YOBUHLOBO",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Kulindeleke ukuba umviwa abhale imihlathi emiBINI kule ibuziweyo. Ubude mabubeli-100-120 amagama.",
+          "notes": "Idilesi inye kuphela iqalwe kwisiqingatha sephepha. Azisetyenziswa izifinyezi.",
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Umhlathi wokuqala unike intsusa nezizathu zokubhala."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Umxholo ubemalunga nokucela indawo yokuhlala ngethuba ebefuna umsebenzi kwidolophu ahlala kuyo.",
+                  "Umhlathi olandelayo ukhulise umxholo."
+                ]
+              },
+              {
+                "sub_topic": "Ulwimi nesimbo",
+                "points": [
+                  "Sebenzisa ulwimi olungekho sesikweni nolucelayo/olucengayo.",
+                  "Izimelabizo ezibonisa ubuhlobo zingasetyenziswa.",
+                  "Izikhuzo noburharha zingasetyenziswa."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Umhlathi wokugqibela unamazwi okuqukumbela.",
+              "Isiphelo sibeseseleta yobuhlobo size silandelwe ligama kuphela."
+            ]
+          }
+        },
+        {
+          "id": "2.2",
+          "text": "INTETHO ESESIKWENI",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Mayibe nesihloko aza kuthetha phantsi kwaso.",
+              "Intshayelelo mayithengise iingcamango (yokukhuthaza nokomeleza abafundi bebanga le-12 abaza kuhlalela iimviwo).",
+              "Mayitsale umdla wabaphulaphuli (umzekelo/ibalana)."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Isiqu sentetho",
+                "points": [
+                  "Mayikhankanye iingongoma aza kucangcatha kuzo.",
+                  "Mayinxibelelane/inxulumane nabaphulaphuleyo.",
+                  "Iingongoma eziphambili zomyalezo.",
+                  "Kunokusetyenziswa amabalana ahlekisayo okugxininisa."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Isiphelo masishwankathele iingongoma eziphambili.",
+              "Mayibe nophawu olubonisa ukuba iyaphela (umz. 'elokugqiba')."
+            ]
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "I-OBHITSHUWARI",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Makwenziwe amagqabantshintshi obomi bepolisa elingasekhoyo ebelizinikele emsebenzini wekomiti yeForam yokugcina ucwangco.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Ibenesihloko esingalowo ingaye.",
+              "Umhlathi wokuqala mawazise ngokufa, unike iinkcukacha: igama lomfi, ubudala/ukuzalwa."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umhlathi olandelayo",
+                "points": [
+                  "Uncoma/uhlomle ngegalelo likamfi, iimpembelelo zakhe, nezinto azinikele kuzo."
+                ]
+              },
+              {
+                "sub_topic": "Umhlathi wesithathu",
+                "points": [
+                  "Udlulisa amazwi ovelwano kwabalahlekelweyo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Umhlathi wesine usenokumema abantu kwimini yomngcwabo/yomhla wesikhumbuzo."
+            ]
+          }
+        },
+        {
+          "id": "2.4",
+          "text": "ILETA EYA KUMHLELI",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Mayibeneedilesi ezimbini kwicala lasekhohlo.",
+              "Mayilandelise ngomcimbi ngokuhambelana nombuzo.",
+              "Kwisibuliso (Mhlekazi/Nkosazana)."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umxholo",
+                "points": [
+                  "Umxholo mawube ngendlela exazalala ekulahlwa ngayo inkunkuma kwiindawo ezingafanelekanga.",
+                  "Umhlathi olandelayo ukhulise umxholo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mayiqukumbele ngeengcebiso kwiingxaki.",
+              "Mayibenesiphelo esiseseleta esesikweni size silandelwe yifani noonobumba-magama bombhali."
+            ]
+          }
+        },
+        {
+          "id": "2.5",
+          "text": "IRIVYU",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Mayibe/mawubenesihloko, umbhali/umdidiyeli/umhleli.",
+              "Makuvakale ukuba uthetha ngefilim/umdlalo weqonga."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umzimba we-irivyu",
+                "points": [
+                  "Mayiveze imixholo nemiyalezo ephambili.",
+                  "Mayivakalise izimvo neemvakalelo zomviwa.",
+                  "Inike isigxekoncomo (izilungiso ezifunekayo/ezingafunekiyo).",
+                  "Mayibalule abantu enokwenza umahluko kubo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Kwisiphelo makuvele iingcebiso nezindululo."
+            ]
+          }
+        },
+        {
+          "id": "2.6",
+          "text": "INQAKU LEPHEPHANDABA",
+          "type": "Imihlathi",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Malibenesihloko esazisa umcimbi.",
+              "Igama lephephandaba, nomhla, igama lombhali, indawo, ixesha."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Umhlathi wokuqala nesibini",
+                "points": [
+                  "Uphuhlise oko kukwisihloko nesimalunga nokugweba kukhuphiswano lokubhala iijenre ezahlukileyo.",
+                  "Umhlathi wesibini uveza intsusa yendibano/yokhuphiswano."
+                ]
+              },
+              {
+                "sub_topic": "Imihlathi elandelayo",
+                "points": [
+                  "Itshawuze ngezakhono zokubhalwa nokunikezelwa kweejenre ezahlukileyo.",
+                  "Umongo mawubengeejenre ezahlukileyo: amabali amafutshane, isihobe, inoveli nedrama.",
+                  "Malivakalise izimvo neemvakalelo zomviwa ngokhetho lwemixholo."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 15407,
+    "cached_tokens_saved": 0
+  }
+}

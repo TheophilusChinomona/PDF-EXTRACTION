@@ -1,0 +1,629 @@
+{
+  "subject": "ENGLISH FIRST ADDITIONAL LANGUAGE P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A: COMPREHENSION",
+      "instructions": "Read BOTH TEXT A and TEXT B and answer the set questions.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Why is the following statement false? Storytelling was only introduced recently.",
+          "marks": 1,
+          "scenario": "TEXT A: THE POWER OF STORYTELLING\\n1 Storytelling is an ancient art form that has been used for centuries to convey messages, share experiences and connect with others. From oral traditions to written texts, stories have the power to inspire, educate and entertain people.\\n2 There is little that can match good storytelling for strongly connecting and influencing us to make decisions. Sharing stories bonds us to each other, strengthens our relationships, our communities and the world around us. Stories help us to build bridges between different cultures. Through storytelling, cultural traditions, values and beliefs are shared, thereby promoting cross-cultural understanding. In addition, stories also entertain and offer an escape from reality.\\n3 The reason good stories have such a strong influence on humans is that they directly impact emotions. Humans are emotional beings, even though they tend to believe that they are rational beings. Research has shown that people often make emotional decisions before their rational minds do, even if they are unaware of it. While individuals may believe that they make decisions using their rational brain, they often make them based on emotions. When listening to a story, more of the brain is engaged than when we are simply presented with data. Stories can turn abstract concepts into relatable and interesting content, maintaining interest and focus.\\n4 'Data does not change human behaviour, but emotions do. Storytelling dynamically engages emotions and increases trust in the storyteller,' writes Karen Eber in The Perfect Story: How to Tell Stories that Inform, Influence and Inspire. Stories can evoke emotions and create a deep emotional bond between the storyteller and the audience. As people listen to stories, they gain empathy for the storytellers, particularly when the storytellers openly display their emotions for everyone to see and possibly criticise as they share their experiences. This emotional engagement with the storyteller makes the message more meaningful and memorable.\\n5 Storytelling can be used to motivate and stir people to take action. Many great speakers have discovered that telling stories has a much greater influence on their audiences than simply giving out information. When people tell us a story, we automatically try to put ourselves in their place, imagining what it is like for them. We can imagine their fear, sadness, disappointment as well as share in their hope, joy and happiness. For this reason, messages received from stories are more meaningful than those received from other sources. Stories have the power to increase our levels of empathy.\\n6 The power of storytelling does not diminish; it remains important in the workplace and in human lives. Harvey Deutschendorf, an expert on emotional behaviour, argues that storytelling is not just fun; it is also an incredibly efficient and intelligent way to get ahead at work. Organisations and leaders can use stories to create bonds, motivate teams and establish a sense of community and belonging for employees.\\n7 The need for social interaction, relationships and forming bonds is part of who we are. Many of us fear that we will lose the connection with each other due to the sharp rise in the use of technology which impacts on face-to-face communication and relationships. It is crucial that we use proven methods that can strengthen and enhance our emotional ties to one another in this time of change. Storytelling remains a vital tool for communication, personal growth and professional success.\\n8 Storytelling is a powerful tool that has the ability to transform individuals and communities. By controlling the power of storytelling, we can connect with others, share our experiences and create meaningful relationships. Whether in personal or professional settings, storytelling is an essential skill that can help us in many ways and make a lasting impact. [Adapted from https://www.fastcompany.com]",
+          "context": "Refer to paragraph 1.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "How does storytelling connect people? State TWO points.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 2.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Explain how stories are able to 'offer an escape from reality'.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 2.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "What does the information in lines 15–16 ('While individuals may ... based on emotions') suggest about decision-making?",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 3.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.1",
+          "parent_id": "1.4",
+          "text": "According to Karen Eber, why does data not 'change human behaviour' (line 20)?",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 4.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.2",
+          "parent_id": "1.4",
+          "text": "Why does the writer refer to the observations made by Karen Eber in her book? State TWO points.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 4.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "How can storytelling increase 'our levels of empathy' (line 36)?",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 5.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.1",
+          "parent_id": "1.6",
+          "text": "Choose the correct answer to complete the following sentence. A synonym for the word 'diminish' as used in this context is …",
+          "marks": 1,
+          "scenario": null,
+          "context": "Refer to paragraph 6.",
+          "options": [
+            {
+              "label": "A",
+              "text": "lessen."
+            },
+            {
+              "label": "B",
+              "text": "vanish."
+            },
+            {
+              "label": "C",
+              "text": "improve."
+            },
+            {
+              "label": "D",
+              "text": "increase."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.2",
+          "parent_id": "1.6",
+          "text": "State TWO benefits of using storytelling in professional settings. Use your OWN words.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 6.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7.1",
+          "parent_id": "1.7",
+          "text": "Using your OWN words, explain what the writer means by the 'sharp rise' (line 45) in the use of technology.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 7.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7.2",
+          "parent_id": "1.7",
+          "text": "Explain why 'proven methods' (line 46) should be used to strengthen emotional ties. State TWO points.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to paragraph 7.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Do you think storytelling will remain popular among people? Substantiate your answer.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to the text as a whole.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": null,
+          "text": "Discuss the suitability of the title, 'THE POWER OF STORYTELLING'.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to the text as a whole.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "Why is 57,2% printed in a larger font than the other percentages?",
+          "marks": 2,
+          "scenario": "TEXT B: Infographic 'Where South Africans live'. A bar graph showing population by province: GP (15.8 m, 26.3%), KZN (11.5 m, 19.1%), WC (7.1 m, 11.8%), EC (6.7 m, 11.1%), LP (5.9 m, 9.9%), MP (4.7 m, 7.9%), NW (4.1 m, 6.9%), FS (2.9 m, 4.9%), NC (1.3 m, 2.2%). A text bubble highlights that GP, KZN, and WC account for '57.2% of South Africa's population lives in three provinces'.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Besides North West and Mpumalanga, which other TWO provinces have nearly the same number of residents?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "What does 2,2% suggest about the population of the Northern Cape?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "In your view, is the inclusion of the key at the bottom of this text important? Substantiate your answer.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION B: SUMMARY",
+      "instructions": "Your summary must be written in point form. List your SEVEN points in full sentences, using no more than 70 words. Number your sentences from 1 to 7. Write only ONE point per sentence. Use your OWN words as far as possible. Indicate the total number of words you have used in brackets at the end of your summary.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Read the passage (TEXT C) below and list SEVEN ways to practise self-care.",
+          "marks": 10,
+          "scenario": "TEXT C: WAYS TO PRACTISE SELF-CARE. Self-care is about taking time to give yourself what you need to develop and grow. It is not about being selfish. The care you give yourself can improve your mood and relationships. There are various things you can do to practise self-care. Humans are social beings who need to connect with others and spend time with friends and family. Visiting friends and spending time with loved ones can be good for your mental health. It is important to eat food that nourishes your body. Having a balanced diet with a variety of healthy food can keep your blood sugar stable, help you to maintain a healthy weight and improve your mood. Daily exercises that increase your heart rate are good for your body and mind. Moving your body is what is important. You could go to the gym, join an exercise class or go out in nature and take a walk. Another way to practise self-care is to have a clear mind. Your attention and focus should be on the present moment. Broaden your general knowledge. Exposure to new information can be exciting and it also decreases boredom and overthinking. To care for yourself effectively, you need to spend some time every day focusing on yourself. Engage in various restful activities, like reading and meditation. Get good quality sleep as the benefits of a good night's sleep are well documented. A lack of quality sleep can negatively affect your health. When you feel well cared for, it is easier to support and care for others. [Adapted from https://www.citizen.co.za]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SECTION C: LANGUAGE - ANALYSING AN ADVERTISEMENT",
+      "instructions": "Study the advertisement (TEXT D) below and answer the set questions.",
+      "questions": [
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "Choose the correct answer to complete the following sentence: The word 'Mouthwash' is an example of a … word.",
+          "marks": 1,
+          "scenario": "TEXT D: An advertisement for parodontax Daily Gum Care Mouthwash. It states 'SCIENTIFICALLY PROVEN TO HELP KEEP GUMS HEALTHY'. It mentions targeting plaque germs where brushing alone can't reach and lists Fresh Mint and Extra Fresh variants. Includes the Clicks logo and website.",
+          "context": "Refer to the words, 'Daily Gum Care Mouthwash'.",
+          "options": [
+            {
+              "label": "A",
+              "text": "classic"
+            },
+            {
+              "label": "B",
+              "text": "complex"
+            },
+            {
+              "label": "C",
+              "text": "composite"
+            },
+            {
+              "label": "D",
+              "text": "compound"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "How are the words, 'SCIENTIFICALLY PROVEN', intended to influence the reader?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "How does the advertiser draw the reader's attention to the product? Refer to the visual ONLY.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "How can a potential customer find out more information about parodontax?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Study the following sentence. Use parodontax for healthy gums and teeth. Rewrite the underlined word (healthy) as a noun.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Explain the advertiser's intention in including the following sentence: 'Complete your oral … keep gums healthy.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Does the advertiser succeed in convincing the reader to purchase the product? Substantiate your answer.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "SECTION C: LANGUAGE - ANALYSING A CARTOON",
+      "instructions": "Study the cartoon (TEXT E) below and answer the set questions. NOTE: In this cartoon, the boy's name is Dennis. The man and woman are his parents.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Identify the setting. Give a reason for your answer.",
+          "marks": 2,
+          "scenario": "TEXT E: A Dennis the Menace cartoon titled 'PARENTAL LEAVE'. Frame 2 shows Dennis sitting dejectedly outside next to a garbage bin. Frame 3-5 show his mother asking why he isn't playing with Tommy; Dennis explains Tommy 'got grounded' for lying to his mom. Frame 6-8 show the father asking Dennis if he would ever lie to them; Dennis stays silent in Frame 7 and then runs away saying 'Gotta go' in Frame 8.",
+          "context": "Refer to FRAME 2.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "What does Dennis mean by, 'He got grounded'?",
+          "marks": 1,
+          "scenario": null,
+          "context": "Refer to FRAME 4.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "How does the cartoonist convey that Dennis' mother is disappointed?",
+          "marks": 1,
+          "scenario": null,
+          "context": "Refer to FRAME 5.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Study the following sentence: 'You would never lie to us, would you?' Use a homonym for the word 'lie' in a sentence of your own.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5.1",
+          "parent_id": "4.5",
+          "text": "How does the cartoonist convey that Dennis is left speechless? State TWO points.",
+          "marks": 2,
+          "scenario": null,
+          "context": "Refer to FRAME 7.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5.2",
+          "parent_id": "4.5",
+          "text": "Explain why the cartoonist only includes the lower bodies of Dennis' parents.",
+          "marks": 1,
+          "scenario": null,
+          "context": "Refer to FRAME 7.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Do you think that Dennis' actions in FRAME 8 indicate that he is guilty of telling lies? Substantiate your answer.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "SECTION C: LANGUAGE - LANGUAGE AND EDITING SKILLS",
+      "instructions": "Read the passage (TEXT F) below, which has some deliberate errors, and answer the set questions.",
+      "questions": [
+        {
+          "id": "5.1.1(a)",
+          "parent_id": "5.1.1",
+          "text": "Correct the SINGLE error in the following sentence: It feel like the celebrations are never-ending.",
+          "marks": 1,
+          "scenario": "TEXT F: THE NEW KFC 'ELIZABEDI' BUNDLE\\n1 It feel like the celebrations are never-ending. There are many moments off the Rugby World Cup tugging at our heart strings.\\n2 Thus, Kentucky Fried Chicken (KFC) launshed the 'Elizabedi' Bundle. Its a meal inspired by the Springboks' victory. It also celebrates iconic moments of the Webb Ellis Cup tour.\\n3 The bundle is inspired by Eben Etzebeth, known as 'Elizabedi'. Eben had KFC delivered to the Springboks' tour bus. The moment was captured by fans of the team. The order was the inspiration behind the 'Elizabedi' Bundle, an exclusive meal for R44,44 in honour of the No. 4 jersey.\\n4 This is not the first time Etzebeth has shared special moments with a KFC meal. In 2013 the champion received KFC from Stormers' stalwart Scarra Ntubeni.\\n5 Grant Macpherson said, 'We understand the need for Etzebeth to kick off an important event with South Africa's most loved chicken.' It is an ideal solution for a champion on tour.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1(b)",
+          "parent_id": "5.1.1",
+          "text": "Correct the SINGLE error in the following sentence: There are many moments off the Rugby World Cup tugging at our heart strings.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1(c)",
+          "parent_id": "5.1.1",
+          "text": "Correct the SINGLE error in the following sentence: Thus KFC launshed the 'Elizabedi' Bundle.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1(d)",
+          "parent_id": "5.1.1",
+          "text": "Correct the SINGLE error in the following sentence: Its a meal inspired by the Springboks' victory.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": null,
+          "text": "Complete the following tag question. Write down only the missing words. It also celebrates iconic moments of the Webb Ellis Cup tour, ...?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": null,
+          "text": "Combine the following sentences into a single sentence. The bundle is inspired by Eben Etzebeth, known as Elizabedi. Eben had KFC delivered to the Springboks' tour bus.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": null,
+          "text": "Rewrite the following sentence in the active voice: The moment was captured by fans of the team.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": null,
+          "text": "Rewrite the following sentence in the simple future tense: The order was the inspiration behind the 'Elizabedi' Bundle, an exclusive meal for R44,44 in honour of the No. 4 jersey.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": null,
+          "text": "Study the following sentence: It is a KFC meal in honour of the No. 4 jersey. Write 'No.' in full.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": null,
+          "text": "Choose the correct word from those in brackets. KFC is an example of an (abbreviation/acronym).",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": null,
+          "text": "Rewrite the following sentence in reported speech: Grant Macpherson said, 'We understand the need for Etzebeth to kick off an important event with South Africa's most loved chicken.'",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": null,
+          "text": "Provide the correct degree of comparison in the following sentence: It is an ideal solution for a champion on tour; it could be even (ideal) for a champion at home.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Give the correct form of the underlined word (curious) in the following sentence: Her natural curious leads her to ask difficult questions.",
+          "marks": 1,
+          "scenario": "TEXT G: Graphic titled 'Brilliant Books for Curious Minds'. It shows a profile of a human head with a lightbulb inside the brain area containing the word 'ideas'. Additional lightbulbs surround the head.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "Study the following sentence: Books open your mind to different worlds and thoughts. State the part of speech of EACH of the underlined words (open, to) as used in this sentence.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Give the singular form of the underlined word (discoveries) in the following sentence: Books are gateways to fascinating discoveries.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "Complete the following proverb. Write down only the missing words. Great minds … …, but fools seldom differ.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": "5.2",
+          "text": "Replace the phrase in brackets with a single word. Ideas are like seeds in the garden of the mind, waiting to (begin to grow) into something amazing.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 18902,
+    "cached_tokens_saved": 0
+  }
+}

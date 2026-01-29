@@ -1,0 +1,1046 @@
+{
+  "meta": {
+    "subject": "South African Sign Language Home Language",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A: POETRY",
+      "questions": [
+        {
+          "id": "1",
+          "text": "'SOWETO, JUNE 16th' by Modiegi Moime",
+          "type": "Poetry Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Definition and discussion of how pace is used in the poem",
+          "essay_structure": {
+            "introduction": [
+              "Pace is a poetic device which is used to captivate the viewer and portray the message of the poet through movement (slow and fast).",
+              "Changes in pace may be seen in change of actions or when highlighting a particular moment in the poem."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Slow pace",
+                "points": [
+                  "At the beginning of the poem the signs are slower as the children sense the tension, distrust and indication of suspicion.",
+                  "Following the shooting of the person, the man running is signed at a very slow pace to draw attention to the seriousness of the action represented.",
+                  "The learner carries the dead boy in slow motion which indicates the shocking tragedy.",
+                  "The learner carries the coffin in slow pace or motion which indicates the depth of emotions associated with the tragedy.",
+                  "The funeral is also signed at a slower pace to show the extreme sorrow and despair.",
+                  "The slow pace allows the viewer to absorb each second of emotion that the poet is experiencing.",
+                  "The viewer is compelled to empathize with the emotion within the poem."
+                ]
+              },
+              {
+                "sub_topic": "Normal pace",
+                "points": [
+                  "Towards the middle of the poem, the children realize that they cannot understand the language in the classroom.",
+                  "They look at each other in confusion.",
+                  "This shows the learners' hatred and intolerance towards the schooling system that they are forced to be part of."
+                ]
+              },
+              {
+                "sub_topic": "Fast pace",
+                "points": [
+                  "Occurs when the children begin to protest and scream.",
+                  "The children are throwing stones.",
+                  "The sparks fly from the bombs.",
+                  "The bombs are exploding.",
+                  "There is chaos in the school environment/society as leaners refuse to conform to this oppressive schooling system."
+                ]
+              },
+              {
+                "sub_topic": "Normal pace (Conclusion)",
+                "points": [
+                  "As the children return to school and are studying contentedly because they overcame their struggles and accomplished their purpose.",
+                  "Their message was heard and actions were taken to resolve the problem.",
+                  "Freedom of choice in education was achieved."
+                ]
+              },
+              {
+                "sub_topic": "Sudden/quick pace",
+                "points": [
+                  "Is indicated when the learner is shot and we witness the extreme violence of police brutality."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "2.1",
+          "text": "Signer's state of mind in 'ALONE'",
+          "type": null,
+          "model_answers": [
+            "Lonely",
+            "Unwanted",
+            "Depressed",
+            "Unsupported",
+            "Isolated"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "Impressions of hyperbolic signs in 'ALONE'",
+          "type": null,
+          "model_answers": [
+            "To emphasis the intensity of his feelings.",
+            "To gain the empathy of the viewer for the signer's state of mind."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "Effect of image in context of 'ALONE'",
+          "type": null,
+          "model_answers": [
+            "Love can bring change in a person's emotional state.",
+            "Love brings life.",
+            "Love can come in any form or shape.",
+            "Love brings change of perspective."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any similar response with THREE positive points.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "Elements in nature mirroring emotions in 'ALONE'",
+          "type": null,
+          "model_answers": [
+            "Rain – represents emotions of sadness, depression, tears.",
+            "Wind/cold – represents emotions of loneliness, isolation, depression, being unsupported.",
+            "Sun – represents emotions of hope, new beginnings, and positive attitude."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any similar response with THREE distinct points.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.1",
+          "text": "Drawing attention to senses in 'FIVE SENSES'",
+          "type": null,
+          "model_answers": [
+            "The poet uses exaggerated movements of the left hand to indicate the 5 senses.",
+            "Eye gaze is fixed on the left hand.",
+            "Right hand moves to the left to close with an exaggerated deliberate movement."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "Explain NMFs in 'FIVE SENSES'",
+          "type": null,
+          "model_answers": [
+            "NMF shows negative feelings.",
+            "The sense is unhappy because it is unable to communicate / needs support."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept the above or other similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "Reason for sign 'BOTH' in 'FIVE SENSES'",
+          "type": null,
+          "model_answers": [
+            "The poet signs/uses BOTH to indicate the sense of hearing and the sense of sight.",
+            "He reinforces that the two senses collaborate with each other.",
+            "They work together to support each other.",
+            "They are interdependent."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": "Signer being Deaf reflected in 'FIVE SENSES'",
+          "type": null,
+          "model_answers": [
+            "The poet taps the senses. Tapping is an acceptable action in Deaf culture.",
+            "The senses show their function instead of explaining. The visual access is better for the Deaf.",
+            "The modified 5-hand is an expression of Deaf culture / language / identity."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "Impression of WORLD in 'THE ROSEBUSH'",
+          "type": null,
+          "model_answers": [
+            "The WORLD is created beautifully.",
+            "The WORLD is well crafted.",
+            "The earth moves in its own orbit."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "Relationship between roses and animals in 'THE ROSEBUSH'",
+          "type": null,
+          "model_answers": [
+            "They have an interdependent relationship.",
+            "The plants provide food for the animals and the animals provides a reproductive function for the plants."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": "Use of cinematography in 'THE ROSEBUSH'",
+          "type": null,
+          "model_answers": [
+            "The feature is slow motion.",
+            "The specific signs are slowed down further.",
+            "The signs outside of the signing space and the pause create a crisis point in the poem."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": "Signer's attitude towards destruction of nature in 'THE ROSEBUSH'",
+          "type": null,
+          "model_answers": [
+            "The signer indicates clearly that she supports protecting nature. She signs graciously with positive NMFs.",
+            "When she signs about nature being destroyed her signing is harsh with big movements and negative NMFs.",
+            "The comment at the end of the poem that we can either cherish or destroy nature and the consequences thereof leads to the end question.",
+            "The signer pertinently and strategically poses a question at the end of her poem where she wants the viewer to make the choice to cherish or destroy.",
+            "She now leaves the viewer with something to think about."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1",
+          "text": "Conditions in mainstream school in 'MAINSTREAM'",
+          "type": null,
+          "model_answers": [
+            "For a Deaf child an interpreter is needed/mandatory.",
+            "There is a lot of speaking taking place which may confuse a Deaf child.",
+            "She is dependent on an interpreter and cannot participate spontaneously.",
+            "The Deaf child has to look at the teacher who is speaking, and then look at the interpreter for translation in Sign Language.",
+            "Having to look at so many places at once is intense and takes concentration."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "Attitudes of hearing learners in 'MAINSTREAM'",
+          "type": null,
+          "model_answers": [
+            "The hearing learners are ignorant about the needs of a Deaf person.",
+            "This ignorance makes them appear to be inconsiderate of the Deaf child on the playground.",
+            "They show no willingness to include the Deaf child, as they stare at her instead of making her feel included."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.3",
+          "text": "Feelings towards the interpreter in 'MAINSTREAM'",
+          "type": null,
+          "model_answers": [
+            "The interpreter is not keeping up with the spoken language, there is no smooth simultaneous/parallel interpretation taking place.",
+            "The interpreter waits for the person who is talking, then starts to sign."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Give one mark for ONE of the above reasons. Give an additional mark for depth in the explanation.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.4",
+          "text": "Signer's comment at the very end of 'MAINSTREAM'",
+          "type": null,
+          "model_answers": [
+            "The signer's comment at the end of the poem is one of shock towards mainstream, shown by the signs 'MAINSTREAM THAT'.",
+            "The comment implies that mainstream education is ignorant of the needs of the Deaf for simultaneous interpreting.",
+            "Everyone is looking at her because she is different and not including her as a newcomer.",
+            "Mainstream is ignorant of the social needs of Deaf people."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B: LONGER STORY",
+      "questions": [
+        {
+          "id": "6",
+          "text": "'ASA STANDS UP FOR HERSELF' by University of Stellenbosch",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Internal conflict within Asa",
+          "essay_structure": {
+            "introduction": [
+              "Asa has a good background when it comes to rules and values. Asa's parents have rules about her dating, and good values have also been instilled by the school.",
+              "Asa is innocent and wants to obey her parents' instructions.",
+              "Asa, by nature, shies away from conflict.",
+              "She lacks the foresight to see how a situation could endanger her personal wellbeing."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Internal conflicts",
+                "points": [
+                  "Mandisa tells Asa that she needs to put on more lipstick. Asa's NMFs reveal that she does not agree but reluctantly accepts. Asa does not want to confront her cousin.",
+                  "Mandisa stops Asa from sending an SMS to her father. Asa feels uneasy but lacks courage to refuse.",
+                  "Asa is torn between loyalty to her father's rules (meeting any boy she dates) and peer pressure from Mandisa.",
+                  "Mandisa influences Asa to believe Kenzo is charming/wealthy despite community disapproval. Asa trusts Mandisa blindly.",
+                  "Kenzo pays for the meal which makes Asa uncomfortable as the school taught her to pay for her own to avoid expectations.",
+                  "Mandisa forces Asa to watch a movie alone with Kenzo. Asa is anxious as she does not know him and parents would not approve.",
+                  "Asa is aware of movie age restrictions and that she won't understand without subtitles, creating inner conflict.",
+                  "Kenzo acts like a gentleman but Asa cannot refuse him paying, creating conflict on how to handle the situation.",
+                  "Asa shows discomfort when Kenzo touches her shoulder/breast/hip. He exploits her vulnerability and takes advantage of her innocence.",
+                  "Asa cannot argue with Kenzo because she is Deaf and there is a communication barrier. She is conflicted about body privacy.",
+                  "Asa questions her lack of good judgement and feels disgusted/regretful for being so gullible.",
+                  "Her internal conflict is resolved when she realizes she cannot allow herself to be manipulated and decides to defend her personal rights."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "7.1",
+          "text": "Place the extract into context",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "7.1.1",
+              "value": "Before – Asa wants to message her father to tell her where she is going but Mandisa asks her not to."
+            },
+            {
+              "sub_id": "7.1.2",
+              "value": "After – Mandisa tells Asa that Kenzo is 21 years old, does drugs but is rich."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.2",
+          "text": "Father's rules on dating",
+          "type": null,
+          "model_answers": [
+            "The family wants to know who she is going out with and what kind of person it is.",
+            "Asa's father wants to know where she is going so he knows where to fetch her."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.3",
+          "text": "Kenzo's behaviour upon arrival",
+          "type": null,
+          "model_answers": [
+            "Kenzo looks cool by nodding his head when he arrives.",
+            "Kenzo is relaxed holding the steering wheel with one hand."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.4",
+          "text": "Following father's rules outcome",
+          "type": null,
+          "model_answers": [
+            "Asa's father would have known Kenzo would take advantage and not permitted the date.",
+            "If the father met Kenzo, he would have perceived him as too old and prevented the date.",
+            "She would not have experienced sexual harassment.",
+            "She would not have felt guilty for doing things her parents did not approve of."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.5",
+          "text": "Mandisa's negative influence on Asa",
+          "type": null,
+          "model_answers": [
+            "Encouraging Asa to conform to her image (lipstick).",
+            "Influencing Asa to go against father's rules and not inform him of whereabouts.",
+            "Ignoring clear indications of Asa being uncomfortable.",
+            "Introducing Asa to a boy parents would not approve of.",
+            "Placing Asa in danger by introducing her to a boy involved in criminal activities."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.6",
+          "text": "Asa's escape to the bathroom",
+          "type": null,
+          "model_answers": [
+            "Kenzo harasses Asa sexually (breast/hip). She communicates discomfort and tries to leave.",
+            "Kenzo forces her back. Asa screams for attention but nobody helps.",
+            "Kenzo tries to silence her with his hand over her mouth.",
+            "Asa bites his hand and escapes. The bathroom is a safe place where Kenzo cannot follow."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "The depth of explanation must be considered when rewarding marks.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.7",
+          "text": "Asa's emotional state in extract",
+          "type": null,
+          "model_answers": [
+            "Asa cries because she is disgusted by sexual harassment.",
+            "Asa reflects and questions herself for agreeing to be alone with Kenzo.",
+            "Asa deeply regrets allowing herself to be in this appalling situation.",
+            "Asa blames herself and criticises herself for being naïve.",
+            "Asa blames herself for allowing manipulation by Mandisa and Kenzo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.8",
+          "text": "Asa's personality contribution to harassment",
+          "type": null,
+          "model_answers": [
+            "Submissive to Mandisa – agreed not to tell parents despite knowing it was wrong.",
+            "Weak-willed – agreed to date a 21-year-old while she is only 15.",
+            "Easily influenced – agreed to watch a movie despite age restrictions.",
+            "Inexperienced – did not realize being alone with Kenzo could endanger her wellbeing."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "7.9",
+          "text": "Asa's father as a significant person",
+          "type": null,
+          "model_answers": [
+            "He brought her up to obey rules.",
+            "His advice (ignored) could have prevented the dangerous situation.",
+            "In moments of self-reflection, Asa thinks about his advice.",
+            "He was upset but immediately went to help his daughter.",
+            "He used an expensive Uber, showing he cares more about wellbeing than money."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Accept FOUR of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "8",
+          "text": "'TOGETHER WE'RE STRONG' by University of Stellenbosch",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Conflict Albertina experiences",
+          "essay_structure": {
+            "introduction": [
+              "Ma Monikazi has strong intuitions that her daughter Nontsikelelo will be a freedom fighter and 'mother of the nation'.",
+              "The apartheid era was filled with violence, oppression, and constant conflicts between police and resistance fighters."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Albertina's internal conflict",
+                "points": [
+                  "Violation of culture when forced to choose an English name at school; she values her traditional name but gives in for the sake of education.",
+                  "Inner conflict due to being away from family; she misses them and is sorrowful.",
+                  "Inner struggles as a nurse, wondering if siblings are hungry or in school while she cares for others."
+                ]
+              },
+              {
+                "sub_topic": "Albertina's external conflict",
+                "points": [
+                  "Societal conflict: she wins a competition but is denied a scholarship due to age discrimination; she holds back tears bravely.",
+                  "Forced to leave home for a far-away Catholic school to pursue education; scholarship conditions forced her to work during holidays, away from family.",
+                  "Police raid: shouting at police for being rude and damaging her flowers; she replants them believing they will grow again.",
+                  "Supporting and hiding her husband's secrets from the police.",
+                  "Husband's 26-year imprisonment; she continues fighting for the dompas to be disbanded.",
+                  "Imprisoned and released by the apartheid government several times."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "9.1",
+          "text": "Place the extract into context",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "9.1.1",
+              "value": "Before – Ntsiki attends school at age six and is forced to choose an English name."
+            },
+            {
+              "sub_id": "9.1.2",
+              "value": "After – She chooses the name Albertina and is later chosen as head girl."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.2",
+          "text": "Ntsiki questions English name",
+          "type": null,
+          "model_answers": [
+            "Ntsiki feels there is nothing wrong with her name.",
+            "She likes the name she has.",
+            "She does not understand why she has to get a new name.",
+            "She does not know what the English name means."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.3",
+          "text": "Importance of education to Albertina",
+          "type": null,
+          "model_answers": [
+            "Goal orientated; studies hard for tests to further high school education.",
+            "Sacrifices time with family and endures loneliness to complete education.",
+            "Trains to become a nurse to help people."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.4",
+          "text": "Albertina displays resistance",
+          "type": null,
+          "model_answers": [
+            "Questioning the reason for changing her name; standing up for herself.",
+            "Supporting husband by not disclosing secrets; being protective and defiant.",
+            "Voicing unhappiness at the police for their rudeness and trespassing.",
+            "Organising a march to the Union Building against unfair government treatment."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.5",
+          "text": "Incidences confirming her dream",
+          "type": null,
+          "model_answers": [
+            "Loved and took care of siblings (washing clothes, cleaning, cooking).",
+            "Comforted baby brother until he laughed.",
+            "Sang mother's special song to her baby brother.",
+            "Always thought of family wellbeing while away.",
+            "Comforted sick babies in hospital by singing.",
+            "Always dreamed of having her own children."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.6",
+          "text": "Reasons Albertina fell in love with Walter",
+          "type": null,
+          "model_answers": [
+            "He was a clever man.",
+            "He was brave; she was attracted to his strong personality as a political fighter.",
+            "Shared vision of a free and just South Africa.",
+            "He was friendly and had a big smile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.7",
+          "text": "Max's birth inspiration",
+          "type": null,
+          "model_answers": [
+            "Inspired her to fight for a South Africa where her child could be free.",
+            "Caused her and husband to become involved in politics to oppose apartheid.",
+            "She protected her husband's secrets to help the fight for freedom."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.8",
+          "text": "Albertina's actions influencing Max's future",
+          "type": null,
+          "model_answers": [
+            "Supported her husband in a group that resisted and later negotiated with the government.",
+            "Became a freedom fighter herself, playing an active role in political change.",
+            "Organised the women's march in Pretoria against the dompas.",
+            "Combined efforts ended the apartheid government."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above and the last point.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "9.9",
+          "text": "'Mother of the nation' statement",
+          "type": null,
+          "model_answers": [
+            "Yes: Mother's foresight at birth ('mother of all blessings').",
+            "Yes: Strong-willed as a child, questioning authority.",
+            "Yes: Longed for and pursued a free/democratic SA for everyone.",
+            "Yes: Joined women's movement to march against pass laws.",
+            "Yes: Undying love for freedom proved true through hard work and jail time.",
+            "No: Unlikely response but well-motivated response should be credited."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Accept any similar responses. The depth of the argument must be considered.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C: DRAMA",
+      "questions": [
+        {
+          "id": "10",
+          "text": "'LIVING ON THE EDGE' by University of Stellenbosch",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Peer insensitivity and ignorance towards Kim's circumstances",
+          "essay_structure": {
+            "introduction": [
+              "Kim is a Deaf university student dependent on her grandmother's pension and a bursary.",
+              "The loss of her grandmother has a huge impact on her financial, academic, and personal life."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Discussion of peer attitudes",
+                "points": [
+                  "Vernonique believes Kim can never be on the same social level; displays arrogant attitude and disbelief.",
+                  "Tarone ignorantly comments on Kim forgetting a textbook, lacking empathy for her financial situation.",
+                  "Tarone embarrasses Kim by asking why her mother does not give financial support despite being reminded of her plight.",
+                  "Tarone is unsympathetic regarding Kim's absenteeism due to her grandmother's illness.",
+                  "Tarone brags about his wealthy home/flat when Kim explains she must sell things to pay rent.",
+                  "Lecturer tries to persuade Kim to talk, but does not fully understand the severity of her situation.",
+                  "Classmates are cruel after grandmother's death; move away because she smells bad due to deteriorating hygiene.",
+                  "Tarone and Veronique gossip and show disgust rather than finding out why she is struggling.",
+                  "Veronique admits she and Tarone never supported Kim and dismisses her worth as a friend.",
+                  "Kim's other friends are the ones who provided support."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Kim fought two battles: poverty/destitution and peer insensitivity.",
+              "Wealthy peers like Tarone and Veronique do not understand her plight because they have only been exposed to wealth.",
+              "There is a need to develop personal courage to overcome challenges like prejudice and social inequality."
+            ]
+          }
+        },
+        {
+          "id": "11.1",
+          "text": "Place the extract into context",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "11.1.1",
+              "value": "Before - End of scene two. Veronique reprimands Tarone for asking about Kim's mother."
+            },
+            {
+              "sub_id": "11.1.2",
+              "value": "After - Beginning of scene 4 where Kim is called into the lecture's office."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.2",
+          "text": "Veronique's reaction to Tarone's question",
+          "type": null,
+          "model_answers": [
+            "Veronique is annoyed with Tarone for asking why Kim's mother isn't helping.",
+            "She averts attention by asking how Kim's grandmother is doing."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Discuss in detail for full marks to be awarded.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.3",
+          "text": "Tarone's insensitivity regarding his house",
+          "type": null,
+          "model_answers": [
+            "Grew up rich and never experienced poverty; snobbish and brags about his house.",
+            "Does not show sympathy or respect for those not on his financial/social level.",
+            "Does not understand circumstances different from his; cannot empathise.",
+            "Highlights the social inequality between Kim and Tarone."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Depth of the answer has to be considered.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.4",
+          "text": "Impact of Kim's grandmother's illness",
+          "type": null,
+          "model_answers": [
+            "Sacrificed two weeks of class to care for her; studies were neglected.",
+            "Financial worry and stress of selling grandmother's things to support her.",
+            "Decline in appearance indicating depression.",
+            "Self-isolation and refusal of help."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.5",
+          "text": "Kim's changing appearance links to the plot",
+          "type": null,
+          "model_answers": [
+            "Beginning: Neat/clean hair and clothes; indicates she is feeling okay and has a normal social life.",
+            "Middle (Rising action): Greasy hair, dark circles, sloppy posture; indicates lack of sleep due to burden and stress.",
+            "Middle (Falling action): Hygiene deteriorates, greasy hair; indicates neglect of physical/emotional care and depression.",
+            "End: Clean, light-coloured clothes and hair; indicates she is feeling better, confident, and able to care for herself."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.6",
+          "text": "Account for Kim's attitudes in extract",
+          "type": null,
+          "model_answers": [
+            "Frustrated as she cannot see how counselling will help.",
+            "Angry because students with financial means are insensitive ('ALL FORGET').",
+            "Sarcastic about other students' expensive orders during group work.",
+            "Frustrated because wealthy students boast ('RICH PARTY')."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.7",
+          "text": "Explain Amy's intentions",
+          "type": null,
+          "model_answers": [
+            "To break the communication barrier by recognizing the need for an interpreter.",
+            "Adamant to share info on available psychological/grief services.",
+            "Explains that a social worker can provide vouchers for food/toiletries.",
+            "Shows compassion and willingness to accompany Kim to support services."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.8",
+          "text": "Conversation assisting Kim later",
+          "type": null,
+          "model_answers": [
+            "Kim approaches the university social worker for emotional distress services.",
+            "Received financial help in the form of vouchers for daily needs.",
+            "Managed to focus on studies and gained entry to exams.",
+            "Made supportive friends in Amy and her brother."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or any similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "11.9",
+          "text": "Author's implied motives in creating drama",
+          "type": null,
+          "model_answers": [
+            "Convey importance of compassion towards fellow students with challenges.",
+            "Educate viewer not to make assumptions about others' circumstances.",
+            "Create awareness of poverty, social inequality, and loss.",
+            "Create awareness of the benefits of empathy, care, love, and support.",
+            "Motivate respect, understanding, and uplifting of each other.",
+            "Alert people to break down communication barriers."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses. The depth of a single argument must be considered.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 26804,
+    "cached_tokens_saved": 0
+  }
+}

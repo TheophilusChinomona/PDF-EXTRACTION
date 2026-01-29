@@ -1,0 +1,208 @@
+{
+  "subject": "Tshivenda Luambo lwa u Engedza lwa u Thoma (FAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Tshivenda",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KHETHEKANYO YA A: MAANEA",
+      "instructions": "Fhindulani mbudziso NTHIHI kha dza malo dzi tevhelaho. Vhulapfu ha phindulo yañu vhu vhe maipfi a u bva kha 250 u ya kha 300.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Ndi he nda vhona ndeme ya khonani vhukuma vhutshiloni.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Khangwa dzanga dzo ndzhenisa khakhathini.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Magumo a ļitambwa e a ntakadzesa.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Ndo ţoḑou lovha.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Mindende ya vhana i khou ņaņisa u ḑihwala ha vhaswa. Ţaţani ni tshi tenda kana ni tshi hanedza.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Nangani tshifanyiso tshithihi kha zwi tevhelaho ni ñwale ngatsho maanea ane na ḑo ḑisikela ţhoho. (Tshifanyiso tsha vhathu vhavhili vhane vha khou nita mivhaladzo ya muvhili nahone vha khou fhumatsana zwanda)",
+          "marks": 50,
+          "scenario": null,
+          "context": "PFESESANI: Hu tea u vha na vhushaka vhukati ha maanea añu na tshifanyiso tshe na ņanga.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Nangani tshifanyiso tshithihi kha zwi tevhelaho ni ñwale ngatsho maanea ane na ḑo ḑisikela ţhoho. (Tshifanyiso tsha ndau yo dzulaho hatsini)",
+          "marks": 50,
+          "scenario": null,
+          "context": "PFESESANI: Hu tea u vha na vhushaka vhukati ha maanea añu na tshifanyiso tshe na ņanga.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Nangani tshifanyiso tshithihi kha zwi tevhelaho ni ñwale ngatsho maanea ane na ḑo ḑisikela ţhoho. (Tshifanyiso tsha moḑoro wa mbilaelo wa F1/Formula 1)",
+          "marks": 50,
+          "scenario": null,
+          "context": "PFESESANI: Hu tea u vha na vhushaka vhukati ha maanea añu na tshifanyiso tshe na ņanga.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KHETHEKANYO YA B: ZWIBVELEDZWA ZWILAPFU ZWA VHUDAVHIDZANI",
+      "instructions": "Fhindulani mbudziso NTHIHI kha nņa dzi tevhelaho. Vhulapfu ha phindulo yañu vhu vhe maipfi a u bva kha 120 u ya kha 150.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Inwi mu ñwaleleni vhurifhi ni tshi khou mu khuthadza kha zwe a ţangana nazwo.",
+          "marks": 30,
+          "scenario": "VHURIFHI HA TSHISHAKA. Muzwala wañu o wana khombo ya moḑoro a tshi khou bva mushumoni nazwino o valelwa vhuongeloni.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Ñwalani nganeavhutshilo iyo.",
+          "marks": 30,
+          "scenario": "NGANEAVHUTSHILO YA MUFU. Muofhe khonani yañu ya mbiluni o ri sia nga vhulwadze ha tshivutshela. Vhabebi vhawe vho ni humbela u ñwala nganeavhutshilo yawe i no ḑo vhaliwa nga ḑuvha ļa mbulungo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Ñwalani riviyu ya bugu iyo.",
+          "marks": 30,
+          "scenario": "RIVIYU/TSEDZULUSO. Inwi ni funesa u vhala bugu. Muñwe muñwali makone o ñwala bugu ntswa ya ni takadzesa.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Ñwalani inthaviyu yo vhaho hone vhukati hañu na mulangi wa vhuongelo uho.",
+          "marks": 30,
+          "scenario": "INTHAVIYU YA U ÑWALA. Tshigwada tshine na holisana natsho tshi khou fara lwendo lwa u ya Botswana. Nga nthani ha thahelelo ya masheleni no ţoḑa mushumo wa u kulumaga vhuongeloni ha muvhunduni wa hañu. Inwi no wela kha vhathu vhe vha vhidzwa u ita inthaviyu.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KHETHEKANYO YA C: ZWIBVELEDZWA ZWIPFUFHI ZWA VHUDAVHIDZANI/ ZWA TSUMBEDZI/ZWA MAFHUNGO",
+      "instructions": "Fhindulani mbudziso NTHIHI kha tharu dzi tevhelaho. Vhulapfu ha phindulo yañu vhu tea u vha maipfi a u bva kha 80 u ya kha 100.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Ñwalani iyo garaţa ya thambo.",
+          "marks": 20,
+          "scenario": "GARAŢA YA THAMBO. Vhurangaphanḑa ha shango ļa hañu ho humbula u vha na ḑuvha ļa u pembelela mvelaphanḑa yo vhaho hone kha masia manzhi kha shango. Inwi no ņewa mushumo wa u ramba vhadzulapo vhuţamboni uho nga garaţa.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Inwi ñwalani dayari ya maḑuvha maţanu a zwe na ita musi ni gammbani iyo.",
+          "marks": 20,
+          "scenario": "DAYARI. Nga holodei ya Fulwi inwi no vha muñwe wa tshivhidzo tsha kereke tshe tsha ya u gammba Polokwane tshi tshi khou pfumbudzwa lwa vhege yoţhe. Ho vha hu na zwine na ita ḑuvha na ḑuvha.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Inwi mu laedzeni hune muḑi wa hañu wa vha hone ni tshi khou shumisa masia na zwiñwe zwiimiswa zwo fhambanaho.",
+          "marks": 20,
+          "scenario": "MASIA. U bva tshe muţa wa hañu wa pfuluwa, mmane wañu ha athu u lu vhea hafha muḑini wa hañu. Ņamusi no ţanganedza luţingo lwawe a tshi khou humbela u laedziwa hune muḑi wa hañu wa vha hone.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 7783,
+    "cached_tokens_saved": 0
+  }
+}

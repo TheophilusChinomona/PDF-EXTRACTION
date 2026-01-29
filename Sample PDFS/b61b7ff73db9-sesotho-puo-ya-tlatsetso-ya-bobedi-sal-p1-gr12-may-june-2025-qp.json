@@ -1,0 +1,432 @@
+{
+  "subject": "Sesotho Puo ya Tlatsetso ya Bobedi (SAL) P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sesotho",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: TEKOKUTLWISISO",
+      "instructions": "Potsong ena o nehilwe mefuta E MMEDI ya ditema. Bala tema E NNGWE le E NNGWE ka tlhoko, o nto araba dipotso tsohle tse botsitsweng temeng ka nngwe. Araba ka lentswe LE LE LENG feela moo ho hlokehang, ntle le haeba potso e hloka tlhaloso kapa karabo e teletsana.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Bolela lebitso la mophetwa eo tema e buang ka yena, o nto nehelana ka lefu le mo tshwereng.",
+          "marks": 2,
+          "scenario": "HIV KE KAROLO YA BOPHELO BA KA\n\n1 Phindile Sithole-Spong (23) o qadile ho kula kgafetsa a le dilemo tse nne empa ho se motho ya tsebang hore o tshwerwe ke bohloko bofe. O ne a kgathatswa ke dipeine tse sefubeng hammoho le bohloko ba ntaramane haholo. A kgathatswa haholo ke tshwaetso e ka sefubeng le ho se heme ka tshwanelo. O re, 'Ke hopola hantle hore ha ke le dilemo tse robedi, mme o ile a hlokahala ka lebaka la ho sitwa ho hema, yaba ke hodiswa ke nkgono. Ha ke le dilemo tse robedi, mme o ile a hlokahala ka lebaka la ho sitwa ho hema, yaba ke hodiswa ke nkgono. Ha ke le dilemo tse 13, motswalle wa mme, Desree Spong, a nkamohela le ho nkgodisa jwalo ka moradi wa hae. Ebe ntle le Desree, ke ne ke tla ba ngwana mang?'\n\n2 Desree o ile a mo isa ngakeng mme ngaka ya mo hlalosetsa tsohle pele e mo etsa diteko tsa madi. Bophelo ba hae bo matswedintsweke ba mmakela kgatello ya maikutlo. Ka mora dibeke tse pedi, diphetho tsa madi tsa tla di bontsha disele tse tshweu tsa madi (CD4) di le tlase haholo hobane o na le tshwaetso ya HIV, eo ha morao e ka fetohang phamokate. Kaha a ne a eso kene diketsong tsa thobalano, a utlwisisa hore e ka nna ba o hlahile ka kokwanahloko ena. Maikutlo a hae a ne a tletse pherekano ya hore le yena o tla hlokahala jwalo ka mmae. Ngaka e ile ya mo laela ho nwa dipidisi letsatsi le letsatsi hore a tle a phele hantle ka kokwanahloko ena.\n\n3 Phindile o re, 'Ke ile ka matlafala mme ka qala ho iphumana. Masole a ka a mmele a ba boemong bo loketseng. Ka ithuta ka thata, ka fumana lengolo la Kereiti ya 12 mme ka ntshetsa dithuto tsa ka pele Yunivesithing ya Cape Town'. O ne a ithutela bongodi ba dikalaneng le metantsho. Selemong sa bobedi a le yunivesithing, bophelo ba hae ba kgutlela morao mme a fumana bohloko ba ntaramane hape. 'Ke ile ka emisa dithuto tsa ka nako e ka etsang selemo. Hoba ke boele yunivesithing, ka fetola menahano ya ka,' ke yena eo. A qala ho ikamohela ka seo a leng sona kajeno. A ba mmuelli wa baithuti ba phelang ka kokwanahloko ena. O ne a bolella setjhaba ka pale ya hae. O re, 'Ka morao ho moo, ka ikutlwa ke imolohile. Bophelo ba ka ba ba betere mme ka thusa ho ntlafatsa maphelo a batho ba bang.'\n\n4 Phindile o motlotlo ho ka fetola maphelo a batho ba phelang ka kokwanahloko ena, a leka ho ba bontsha hore ha se bofelo ba lefatshe. Ka mora ho qeta lengolo la Bachelor of Arts, a iphumana a se a bitswa ke baphatlalatsi ba dimakasine, masedinyana le tsa kgaso ho tla ba phetela ka kamoo a fetotseng bophelo ba hae kateng. A fumana monyetla wa ho bua dikolong, diyunivesithing le dikhampaneng tse kgolo ho tla ruta basebeletsi ba bona ka kokwanahloko ena.\n\n[E qotsitswe le ho hlophiswa ho tswa makasineng wa Drum, Tshitwe, 2012:110–111]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Bolela matshwao A MARARO ao lefu lena le ka iponahatsang ka wona. Sheba seratswana sa 1.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Hlwaya polelo temeng e nnetefatsang hore mophetwa eo o mmoletseng ho 1.1 o na le tshwaetso ya HIV. Sheba seratswana sa 2.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Hobaneng ha mophetwa a ne a tletse pherekano? Sheba seratswana sa 2.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "Bolela dithuto tseo mophetwa, sheba 1.1, a neng a ithutela tsona Yunivesithing ya Cape Town. Sheba mola wa 21.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Hlahisa lebaka le nako tseo mophetwa a emisitseng dithuto tsa hae ka tsona. Sheba mola wa 22–23.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "Akaretsa mohopolo wa sehlooho wa tema ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "Sepheo sa mongodi ke sefe ka polelo ee, 'bophelo ba hae bo ne bo le matswedintsweke?' Sheba seratswana sa 2.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": "1",
+          "text": "Kgetha karabo e nepahetseng ka ho fetisisa ho (A–D). Ngola nomoro le tlhaku feela, o be o tshehetse ka lebaka.\n\nMokgabisopuo o sebedisitsweng polelong ena, 'Ebe ntle le Desree ke ne ke tla ba ngwana mang?', ke ...",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "lefosisanako."
+            },
+            {
+              "label": "B",
+              "text": "lepata."
+            },
+            {
+              "label": "C",
+              "text": "leetsisa."
+            },
+            {
+              "label": "D",
+              "text": "lebotsi."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": "1",
+          "text": "Hlalosa hore maele ana, 'Kgutsana ho phela e marapo a thata', a dumellana jwang le ditaba tsa tema.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": "1",
+          "text": "Hobaneng ho le bohlokwa ho ya itlhahloba bakeng sa kokwanahloko ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": "1",
+          "text": "Ho ata ha kokwanahloko ee ya HIV ho ama moruo wa naha jwang?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Bolela maikutlo a renang temeng ena. Fana ka lebaka.",
+          "marks": 2,
+          "scenario": null,
+          "context": "TEMA YA B: BOKGONI BA HO BOHA. Boha tema ena, ebe o araba dipotso tse e latelang. [Setshwantsho sa lelapa le thabileng]",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.14",
+          "parent_id": null,
+          "text": "Ho ya ka tjhebo ya hao, na ketsahalo e bonahalang temeng ee e bohlokwa? Tshehetsa karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": "TEMA YA B: BOKGONI BA HO BOHA. Boha tema ena, ebe o araba dipotso tse e latelang. [Setshwantsho sa lelapa le thabileng]",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: KGUTSUFATSO",
+      "instructions": "Bala tema ena o nto e kgutsufatsa ka ho hlahisa mekgwa ya ho ntlafatsa puo ya hao ka dintlha TSE SUPILENG tsa sehlooho.\n\nHLOKOMELA:\n1. Kgutsufatsa mekgwa ya ho ntlafatsa puo ya hao ka dintlha TSE SUPILENG, ka mantswe a sa feteng a 60.\n2. Nomora dipolelo tsa hao ho tloha ho 1 ho isa ho 7.\n3. Ngola polelo e nngwe le e nngwe moleng wa yona o motjha.\n4. Bontsha PALO YA MANTSWE qetellong.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Bala tema ena o nto e kgutsufatsa ka ho hlahisa mekgwa ya ho ntlafatsa puo ya hao ka dintlha TSE SUPILENG tsa sehlooho.",
+          "marks": 10,
+          "scenario": "MEKGWA YA HO NTLAFATSA PUO YA HAO\n\nHo ntlafatsa puo ya hao ke ntho ya bohlokwa bakeng sa puisano e atlehileng le kutlwisiso e phatlalletseng ya lefatshe. Ho bala kgafetsa ke tsela e ntle ya ho eketsa tlotlontswe ya hao. Dibuka, dingodilweng kapa di-blog di o tsebisa mantswe a matjha ka tsela e bonolo. Ha o kopana le lentswe leo o sa le tsebeng, ho sebedisa bukantswe ho tla o thusa ho utlwisisa le ho sebedisa lentswe leo nakong e tlang.\n\nHo boloka buka ya mantswe ke mokgwa o mong wa ho ithuta ka tlhoko mantswe a matjha. Ngola lentswe ka moelelo wa lona le mohlala, ebe o le lekola kgafetsa. Dipapadi tsa mantswe jwalo ka skhrebole le diphazele di ka etsa hore ho ithuta mantswe ho be monate. Sena se phephetsa kelello ya hao le ho eketsa puo ya hao.\n\nHo ngola kgafetsa – ekaba ho ngola dipale kapa dibuka, ho tla o fa monyetla wa ho sebedisa mantswe ao o ithutileng ona. Ho ithuta metso le dikgutsufatso tsa mantswe, ke mokgwa wa ho utlwisisa mantswe ao o sa a tsebeng. Tsebo ena e tla o thusa ho hlalosa mantswe a matjha ha bonolo.\n\nHa o mamela diphodkhaste le dividiyo tsa thuto, o ka ithuta mantswe a matjha ka moelelo o nepahetseng, ho etsa hore ho be bonolo ho a sebedisa ka nepo. Ka ho kenyelletsa mekgwa ena bophelong ba hao ba letsatsi le letsatsi, puo ya hao e tla hola butlebutle.\n\n[E qotsitswe le ho lokiswa ho tswa ho indeed.com]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DIBOPEHO LE MELAO YA TSHEBEDISO YA PUO - POTSO YA 3: PAPATSO",
+      "instructions": "Bala le ho boha tema e latelang ka tlhoko, o nto araba dipotso tse thehilweng hodima manollo ya papatso le tshebediso ya puo.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Hobaneng ha mmapatsi a qatsohisa fonte polelong ena, 'E BORELEDI, E LEBEJANA, E MONATE.'?",
+          "marks": 2,
+          "scenario": null,
+          "context": "TEMA YA D: Papatso ya illy Espresso. 'E BORELEDI, E LEBEJANA, E MONATE. Espresso ya Italy e ikgethile.'",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Tshebediso ya polelo ena, 'Kofi ya Espresso e ikgethile', e na le seabo sefe temeng?",
+          "marks": 2,
+          "scenario": null,
+          "context": "TEMA YA D",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Kgetha karabo e nepahetseng ho (A–D). Ngola nomoro le tlhaku feela.\n\nMmapatsi o totobatsa karaburetso efe le hona ka maikemisetso afe ka kgetho ya mantswe polelong e latelang?\n'E BORELEDI, E LEBEJANA, E MONATE':",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Kutlo"
+            },
+            {
+              "label": "B",
+              "text": "Pono"
+            },
+            {
+              "label": "C",
+              "text": "Tatso"
+            },
+            {
+              "label": "D",
+              "text": "Monko"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Na mmapatsi o atlehile ho bapatsa sehlahiswa ka tshebediso ya setshwantso? Fana ka lebaka.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "POTSO YA 4: KHATHUNU",
+      "instructions": "Boha tema e latelang ka tlhoko, o nto araba dipotso tse thehilweng ho manollo ya khathunu le tshebediso ya puo.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Hobaneng ha mokhathunu a sebedisitse leetsisamodumo, 'nyele!', monahanong wa mophetwa ya khathunung?",
+          "marks": 2,
+          "scenario": "TEMA YA E: Khathunu e bontshang thibelo ya diketsahalo tsa ntwa dikolong. Ho na le terata ya ditshepe mme titjhere o sireleditswe. Polelo: 'Ke tla mo bolaya nyele!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "text": "Hlahisa maikutlo a fehlwang ke tshebediso ya terata e khathunung. Fana ka lebaka.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "text": "Sepheo sa mokhathunu ke sefe ka ho tona mahlo a baithuti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": "4",
+          "text": "Manolla phoqo e khathunung.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "POTSO YA 5: PROSA",
+      "instructions": "5.1 Bala tema e latelang, o nto araba dipotso tse tla latela.",
+      "questions": [
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Bolela ntlhakemo ya mongodi ka sehlooho sa tema.",
+          "marks": 2,
+          "scenario": "NYAOPE E MPOLAETSE NGWANA\n\nNtate wa Mpho o re ho bohloko ho bona moradi wa hae eo e leng kgorula a senya bophelo ba hae ka dithethefatsi. Yena le mohatsae ba buile le moradi wa bona ka makgetlo ka boitshwaro ba hae empa a se ba mamele. Mpho o ile a matha le metswalle ya hae e mebe e tsubang nyaope. O re Mpho o qetile kgwedi a sa ye sekolong. O nkile boikgathatso ba ho botsa ka moradi wa hae sekolong kaha a tlohille hae a apere yunifomo ya sekolo. O re o ne a siya heke e butswe ho fihlela ka kgitla ka kgopolo ya hore moradi wa hae a ka tshwana a kgutlela hae.\n\nNtate o re, 'Ke rata moradi wa ka ho sa kgathalletsehe seo a leng sona, ha feela nka mo fumana. Ke batla ho mo fumanela thuso.' Ho nkile ntate wa Mpho dilemo tse nne a eso fumane moradi wa hae. O re, 'Ke ne ke sa lahle tshepo ka kgopolo ya hore o tla kgutlela lelapeng.' O fana ka keletso ho batswadi ba nang le bothata bo tshwanang le ba hae hore ba rate bana ba bona le ho ikemisetsa ho ba thusa. O tswela pele, 'Batswadi ba tsebe bana ba bona mme ba se emele e marothodi. Dithethefatsi di senya kelello le boitshwaro ba bana, qetellong di a bolaya.'\n\n[E qotsitswe le ho hlophiswa ho tswa makasineng a Bona Mmesa 2011:45]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Ketsahalo ya hore ntate wa Mpho a siye heke e butswe e o hlahisetsa mohopolo ofe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "Mongodi o sebedisitse moelelo o patehileng polelong ena, '... ba se emele e marothodi'. Ngola polelo eo ka moelelo o totobetseng.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Hlalosa sesosa sa hore Mpho a qetelle a tswile sekolong.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Mongodi o fehla maikutlo a jwang ho wena o le mmadi ka tema ee? Tshehetsa karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Na tema ee e na le tshekamelo? Tshehetsa karabo ya hao.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Na o dumellana le mohopolo wa hore nyaope e a bolaya? Tshehetsa karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "Lokisa diphoso tsa puo, tsa mopeleto mmoho le tsa matshwao a puo tse hlahellang temeng ena.",
+          "marks": 6,
+          "scenario": null,
+          "context": "TEMA YA G: Setshwantsho sa hlapi e tswasitsweng ka polasetiki. Mongolo: 'seo o se lahlela ka le watleng Ke se yang ka mpeng ya hau.'",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14851,
+    "cached_tokens_saved": 0
+  }
+}

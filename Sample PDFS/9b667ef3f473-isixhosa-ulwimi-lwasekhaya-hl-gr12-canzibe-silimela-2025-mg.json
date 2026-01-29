@@ -1,0 +1,1033 @@
+{
+  "meta": {
+    "subject": "ISIXHOSA ULWIMI LWASEKHAYA (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "CANZIBE/SILIMELA",
+    "grade": "12",
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1",
+          "text": "'OKUHLE' – ZS Qangule",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Isigama salo mbongo sityhila umxholo othi, uloyiso sisiphumo sokuzinikela.",
+              "Ukuqaqambisa umxholo woloyiso osisiphumo sokuzinikela umbongo usebenzisa inkwenkwe nabazali bayo ukwenza umqondiso wokuzinikela."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Kwisitanza sokuqala",
+                "points": [
+                  "Umqolo othi, Izithanda iincwadi ingenzi nomolweni utyhila ukuzinikela.",
+                  "Ngokomxholo walo mbongo kubonakala ukuba inkwenkwe yayitshomene kakhulu neencwadi, isoloko ithe nca kuzo ingenalo nethuba lokuya kudlala nabanye abantwana.",
+                  "Lo mqolo utyhila uloyiso xa usithi, 'Yayisingcutha isiLungu ingaqhelisi, Iwadlakaza amanani njengesiNgesi.'",
+                  "Ukungcutha kuqhele kubhekisa ekutyeni into ngokuyonwabela kuze ukudlakaza ibekukuphatha into ngendelelo."
+                ]
+              },
+              {
+                "sub_topic": "Kwisitanza sesibini nesesithathu",
+                "points": [
+                  "Kumqolo othi, 'Yaba yiminyakana idudulela phambili, yaba mbalwana yabhavumlela kude'; kusetyenziswa isinciphiso esingu 'iminyakana' xa kubalwa ixesha elincinci.",
+                  "Ukuzinikela kubonakaliswe ngokusebenzisa ibinzana, 'idudulela phambili' ngenjongo yokuthi konke ikwenze isebenzisa amandla ngokududula.",
+                  "Lukwafakelwe uloyiso koku kubhavumlela kude kuba ukubhavumla sisandi esenziwa yinto esebenzisa amandla awengeziweyo."
+                ]
+              },
+              {
+                "sub_topic": "Kwisitanza sesine",
+                "points": [
+                  "Imiqolo ethi, 'Yabila ingqondo yona okweyegagu. Lancama ixhego lathi liyazinikela', iveza ukuzinikela ngesibaxo esithi 'yabila ingqondo'.",
+                  "Ixhego elinguyise wenkwenkwe liboniswa ukuzinikela ngegama elithi 'lancama'.",
+                  "Ukuncama kuzisa intsingiselo yokuba lathi lizazi ukuba alinamali yokufundisa lazibona lithatha neyokugqibela kuba inkwenkwe izinikela."
+                ]
+              },
+              {
+                "sub_topic": "Kwisitanza sesihlanu",
+                "points": [
+                  "Kugqama ukuzinikela kwekhehlekazi nonyana.",
+                  "Ukuzinikela kuvela kwisigama ngokuthi sizise intsingiselo yokuba ixhegokazi lithi lizitotobela linjalo kodwa lizimisele ukuba inkwenkwe mayifunde igqibe."
+                ]
+              },
+              {
+                "sub_topic": "Kwisitanza sesithandathu",
+                "points": [
+                  "'Qondo leB.A. walixwaya emhlana. Khanyisa mzi babone kudana.' Nalapha ubaxo olwakhelwe kwisikweko luphuhlisa ukuba uloyiso lubesisiphumo esiyiB.A.",
+                  "Isigama esithi inkwenkwe ilixway'emhlana siyenza ibengathi yinto elula enokuthathwa nje ibekwe emqolo kuba emva kokuzinikela bekusele kungathi bekulula."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Imfundo efunyenwe yinkwenkwe ngokwesi sitanza isigama sityhila ukuba iB.A. izisa ukhanyo ukuze baqhubele phambili nabo bebengayithatheli ngqalelo imfundo."
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "text": "'WATSHA UMZI' – N Mgqwetho",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.1",
+              "value": "Zifunelwa ingxaki yokumka kwe-Afrika zikho/ yingxaki yehlazo elivela ngokuwa kombhinqo wooNozala be-Afrika/ yingxaki yophawu lukaKhayeni olwenza iinkokelikazi zingaboni ingozi ekuyo i-Afrika."
+            },
+            {
+              "sub_id": "2.2",
+              "value": "Yintsingiselo ethi nabasiphetheyo abazibandakanyi nengxaki ekhoyo/ neenkosi zethu zenza ngathi aziyiboni ingxaki."
+            },
+            {
+              "sub_id": "2.3",
+              "value": "Ngowokuthunuka izazela zabalahle okukokwabo nangona bebexelelwe okanye bebevile ngemfuneko yokungakulahli./ Ngowokulumkisa uluntu lwaseAfrika ngokuza kubehlela nanjengoko belahle izithixo zabo."
+            },
+            {
+              "sub_id": "2.4",
+              "value": "Zikuveza ngokusebenzisa isigama esiqulethe ukuba abantu balikhe phezulu ilizwi likaThixo baze bazibona sebephulukana nenkululeko yabo elizweni labo ngenxa yokulahla okukokwabo."
+            },
+            {
+              "sub_id": "2.5",
+              "value": "Ndiyakungqina ukuhambelana kuba isihloko esithi, 'Watsha umzi' sisisilumkiso esazisa ngomonakalo kanti nomongo wombongo ungesilumkiso kumzi we-Afrika owonakalelwayo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isibini kwezi (2.1, 2.2).",
+          "notes": "Nayiphi na impendulo echanekileyo kwi 2.5",
+          "topic": "'WATSHA UMZI'",
+          "essay_structure": null
+        },
+        {
+          "id": "3",
+          "text": "'ULANGALIBALELE' – SEK Mqhayi",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1",
+              "value": "Kukugcina igama namanxowa/kukugcina ingcwaba likaBhungane."
+            },
+            {
+              "sub_id": "3.2",
+              "value": "Yintsingiselo yokuba wazalelwa ... waswelekela."
+            },
+            {
+              "sub_id": "3.3",
+              "value": "Kukugxininisa/kukubethelela uluvo lokuba uLangalibalele unamandla awafumana ngokuzalwa awagqithisela nakwinzala yakhe nanjengoko eyinkosi kwaye unawo namandla aphuhliswa zizenzo zakhe."
+            },
+            {
+              "sub_id": "3.4",
+              "value": "Ngokwesigama esithi, 'Nkunz' egqume kuNtabamhlope, Kwahlokom' amawa neentlanjana' esisukela kumqolo we-12–13 kuyavela ukungonwabisi kukaLangalibalele xa ekhalaza kuhlokome amawa neentlanjana./ Ngokwesigama esithi, 'ikhe yaginywa mbumbulu ziqithi, suk'iziqithi zahlamb' intliziyo,' esisukela kumqolo we-14–15 kutyhileka ukuba ngexesha ebeseRobben Island uLangalibalele bekungonwatywa."
+            },
+            {
+              "sub_id": "3.5",
+              "value": "Ndiyakungqina ukuhambelana kuba isihloko esithi, 'uLangalibalele' nomongo wombongo ungoLangalibalele."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isibini kwezi (3.3, 3.4).",
+          "notes": null,
+          "topic": "'ULANGALIBALELE'",
+          "essay_structure": null
+        },
+        {
+          "id": "4",
+          "text": "'UKUBETHWA NGEMVABA' – SEK Mqhayi",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1",
+              "value": "Kukubambana komnumzana nenkosikazi yakhe/ kukuyityundyutha ngemvaba inkosikazi."
+            },
+            {
+              "sub_id": "4.2",
+              "value": "Yeyokuphuma kancinci kobisi/ yeyokufumana into enencasa."
+            },
+            {
+              "sub_id": "4.3",
+              "value": "Ngowokuqaqambisa ukuzinga kwesenzo sokubethwa komntu ongaphindisiyo."
+            },
+            {
+              "sub_id": "4.4",
+              "value": "Ngokwezi zitanza zibini umfazi ubalixhoba engaqondi ngokuyolelwa ziziphumo zobumnandi obuza nokubethwa yindoda kabuhlungu, kuze kuqondakale ukuba ebelixhoba umfazi yakuzibhaqela indoda icebo lokuza nebhotolo itsho iyeke ukuxhaphaza umfazi nomfazi atsho aphumle."
+            },
+            {
+              "sub_id": "4.5",
+              "value": "Ndiyakungqina ukuhambelana kuba isihloko esithi 'ukubethwa ngemvaba' sithetha ukubethwa ngesixhobo sokugcina ubisi ngeli xesha umongo walo mbongo nawo ungembali yokubethwa komfazi ngemvaba."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "'UKUBETHWA NGEMVABA'",
+          "essay_structure": null
+        },
+        {
+          "id": "5",
+          "text": "'UMAMA' B.W MATYENI",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1",
+              "value": "Ngumnt'osisiququq' ukwenziwa./Ngumnt' osisikhuthal' ukudalwa."
+            },
+            {
+              "sub_id": "5.2",
+              "value": "Ngumfanekiso ntelekelelo wokugqwesa/ wokuncomeka/ wobunkokheli ngezenzo/ wokukhomba indlela ayihambe/ womzekelo omhle."
+            },
+            {
+              "sub_id": "5.3",
+              "value": "Ukusetyenziswa kunye kwamagama 'isikroba, ikroba,' kutyhila ingxaki yokuba izibhoxi zifumana ithuba lokubhoxa xa engekho umama./Yeyokuba ukungabikho kukamama kuvulela abangendawo amathuba okwenza izinto ezingamkelekanga/ ezigwenxa."
+            },
+            {
+              "sub_id": "5.4",
+              "value": "Imiqolo eli-14/iikwatreni ezintathu ezinekhaphlethi."
+            },
+            {
+              "sub_id": "5.5",
+              "value": "Ziyanqweneleka iimpawu ezinjengokuququzela/ukukhuthala/ukuvuka ekuseni/ ukuqoqosha/ukuthi cwaka xa usebenza nzima/ukuvakala kwesikroba xa engekho nobunkokheli njengoko zingasoloko zihamba kunye emntwini. / Akuqhelekanga ukuba iimpawu ezinqweneleka kangaka zibesemntwini omnye."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nayiphi na kwezi (5.2, 5.3).",
+          "notes": null,
+          "topic": "'UMAMA'",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "6",
+          "text": "INKAWU IDLIW'ILILA – S Kula",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Kungquzulwano phakathi komthetho nolwaphulomthetho kutyhileka inkohlakalo ebifihlakele kuThantaswa.",
+              "Inkohlakalo sisimo sokwenza okubi ngenjongo kwabanye abantu. Sakheleka ngaphakathi emntwini size sibonakale ngezenzo, iingcinga neentetho eziqulethe okubi."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Kwakugwintwa uMsindisi",
+                "points": [
+                  "uThantaswa ubonakalisa ukuba kuthe kanti ufukame iimpawu neenjongo zenkohlakalo ngomyeni wakhe.",
+                  "Ziyayityhila inkohlakalo iincoko zakhe, ukubandakanyeka kukaThantaswa ekugwintweni kukaMsindisi.",
+                  "Uvakala kwincoko apho ayalela uMfuneko ukuba asebenze 'njengepolisa elive umkhondo.'",
+                  "Kuyacaca kwale ncoko ukuba ebeyinxalenye yesicwangciso sokubulalwa kukaMsindisi ngokuncoma ngentetho ezibandakanyayo ethi, 'abafana bawuqhube ngempumelelo umsebenzi ebesibasingathise wona.'"
+                ]
+              },
+              {
+                "sub_topic": "Xa umthetho sele ungquzulana nolwaphulomthetho",
+                "points": [
+                  "Umthetho ubeka uMfezeko Mapheza, ulandela inkqubo esemthethweni yokubeka umcuphi.",
+                  "uThantaswa onenkohlakalo akaneli, ungxamile ukuba makafe uMapheza ngcono kuba umthetho ukhe wamlekuza ejongile uNqoza.",
+                  "Uyavundla, aphimisele athi, 'kanti ufa nini lo Mapheza?' Yinkohlakalo ezalwa lungquzulwano lomthetho nolwaphulomthetho kuba umnqwenelela ukufa uMapheza engekabhaqi nto."
+                ]
+              },
+              {
+                "sub_topic": "Ukulila okwenkawu",
+                "points": [
+                  "Ukulila okwenkawu kwakugwintwa uMsindisi kutyhila inkohlakalo anayo uThantaswa kuba ekulileni kwakhe kukrokreleka injongo yokudyobha abantu intshongo emehlweni.",
+                  "Nangona kulula ukumtyhola ngelithi ulila kuba enesazela, uliliswa kukuba edliwa sisazela sokuba eyinxalenye kwiyelenqe lokufa kukaMsindisi."
+                ]
+              },
+              {
+                "sub_topic": "Kwisithuba apho uThantaswa avuswa nguMdlambila ngewili",
+                "points": [
+                  "Kudula inkohlakalo ngokungenelela esebenzisana noMfuneko ukuba kujikwe iwili kaMsindisi ibandakanye uThantaswa ukuze afumane imali.",
+                  "uThantaswa ukhohlakele kuba uwela kulwaphulomthetho ngenxa yokuba intliziyo yakhe ayikwazi ukwamkela ukuba umntwana umele ukufumana amalungelo."
+                ]
+              },
+              {
+                "sub_topic": "Inkohlakalo iye iziveza ukubanzulu kuThantaswa",
+                "points": [
+                  "Xa engxamela ukufa kukaMapheza ade adlule kumazwi kaMfuneko abemele ukumthomalalisa athi uza kufuna ixhwele eliza kumnika umalingatshoni ukuze afe uMapheza.",
+                  "Kungqineka ukumfuna efile ngokuphimisela athi uMapheza ufanelwe ngumpu phakathi kwamehlo."
+                ]
+              },
+              {
+                "sub_topic": "Ukudikwa kukaThantaswa",
+                "points": [
+                  "uMapheza kuThantaswa ungumthetho ngeli xesha yena Thantaswa sele elulwaphulomthetho oluneenyawo.",
+                  "Ukhona kwiyelenqe lokuba kugqogqwe indlu kaMapheza ngeenjongo zokufumana umpu ukuze adutyulwe ngawo kwenziwe ngathi uzibulele."
+                ]
+              },
+              {
+                "sub_topic": "Bubungqina benkohlakalo ukufuna uMapheza afe ngokumkhupha esibhedlele",
+                "points": [
+                  "uThantaswa ufuna umthetho uphelelwe ngamandla kwaye kuye esaphila uMapheza umthetho usenawo amandla.",
+                  "uThantaswa ubekulo iyelenqe lokwenza uMapheza afe wade wafaka isandla ngemali yokubhatalwa kukaSiphongo."
+                ]
+              },
+              {
+                "sub_topic": "Inkohlakalo yokungakwazi ukumelana namandla omthetho",
+                "points": [
+                  "idula ngokudubula uMfuneko azidubule naye xa umthetho umvalele iibhanki engasakwazi ukwenza amayelenqe ahlawulelwayo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Umthetho omthe mbende uThantaswa osisaphulimthetho utyhila inkohlakalo abengaziwa ngayo uThantaswa, obesaziwa ngobuhle obuveleleyo.",
+              "Le inkohlakalo ivele imthathe imse kwantshabalalo.",
+              "Liyinene elithi isisila senkuku sibonwa mhla ligquthayo kuba kwimeko apho umthetho udyarha izaphulimthetho, rhoqo sibona inkohlakalo entsha kuThantaswa."
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "text": "INKAWU IDLIW'ILILA – S Kula",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "7.1",
+              "value": "Kukungahlangani kwexesha aziswe ngalo umphanga ngamapolisa nexesha adlulise ngalo umphanga kuMkhokeli."
+            },
+            {
+              "sub_id": "7.2",
+              "value": "Ligumgedle abalenza kunye lokutheza amandla/lokulahla umkhondo kuphando lukaMfezeko olungokufa kukaYangaphi./ Ligumgedle abakunye kulo lokuqinisekisa ukuba umkhondo wokufa kukaYangaphi awumbandakanyi uThantaswa."
+            },
+            {
+              "sub_id": "7.3",
+              "value": "Uyinxalenye kwiyelenqe lokudlisa uMfezeko ityhefu./ Ukulo neyelenqe lokuba kugujululwe umpu kaMfezeko ukuze adutyulwe ngawo./ Uyinxalenye ngexesha kuzanywa ukuba uMfezeko abiwe esibhedlele ukuze atshiselwe netyotyombe kwaSiphongo."
+            },
+            {
+              "sub_id": "7.4",
+              "value": "Afukame ootsotsi abafumaneka lula xa kufuneka kubulawe umntu./ Afukame ixhwele uSiphongo, nalo elifumaneka lula kumayelenqe okwaphula umthetho./Ayindawo izaphulimthetho ezizimela kuyo./ Kukho neethaveni ezisisigqubu sokucwangcisa ulwaphulomthetho nokugcina iziqhamo zolwaphulomthetho."
+            },
+            {
+              "sub_id": "7.5",
+              "value": "Ndiyangqina udlala indima yokubasisaphulimthetho kuba uncedisa uThantaswa ukuba atshintshe ubunini kwilifa likaMsindisi ngondlelamnyama./Udlala indima yokubasisaphulimthetho ngokuziphatha gwenxa emsebenzini ade amangalelwe ezinkundleni zamatyala."
+            },
+            {
+              "sub_id": "7.6",
+              "value": "Alizange liphumelele kuba uMfezeko waphuma emva kweentsuku esibhedlele engafanga."
+            },
+            {
+              "sub_id": "7.7",
+              "value": "Kukufumana imali kaNompumelelo emva kokumkhupha kwityala lokubulala umyeni wakhe ngobuqhophololo./kukufumana imali yokongeza umrholo ngokuthengisa imipu yomsebenzi./lithemba lokufumana imali kwilifa likaMsindisi./kukumane ephumelela okwethutyana kumagumgedle abemane ewenza ngabanye abalinganiswa."
+            },
+            {
+              "sub_id": "7.8",
+              "value": "Kudiza ukuba kukho isipolisa esisebenzisana nootsotsi./ Kudiza ukuba phaya esipoliseni kukho esizizaphulimthetho."
+            },
+            {
+              "sub_id": "7.9",
+              "value": "Kukufumana umpu kaMapheza ngenjongo yokuwusebenzisa ukumdubula ukuze kucingwe ukuba uzibulele kwangokwakhe."
+            },
+            {
+              "sub_id": "7.10",
+              "value": "uThantaswa/uMfuneko/uMdlambila"
+            },
+            {
+              "sub_id": "7.11",
+              "value": "Iphelele emoyeni imiqobo ayibekelweyo njengokungafi kwakhe emva kokugalelelwa ityhefu kwisiselo/nokuzanywa ukuba atshiswe nendlu aze asinde/uphelele emoyeni nowokugqogqwa kompu wakhe ngeenjongo zokumdubula ngawo/Ibeyilibazisa le miqobo kuba ekugqibeleni baye bade bafunyanwa ukuba ngabo abangababulali."
+            },
+            {
+              "sub_id": "7.12",
+              "value": "Ndiyangqina yinoveli yolwaphulomthetho, kuba ibali lisungulwa ngesiganeko solwaphulomthetho liqhutywe ngumcuphi oza nesisombululo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isibini kwezi (7.2, 7.4, 7.7, 7.10, 7.11).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "8",
+          "text": "NYANA WAM! NYANA WAM! – WK Tamsanqa",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Kungquzulwano phakathi kwemingeni yokukhula nobizo emntwini kutyhileka ukuba kuthe kanti uThole ungumntwana oqatshulwe ngelizwi likaThixo.",
+              "Ukubangumntwana oqatshulwe ngelizwi likaThixo kuthetha ukuba ubuThixo buyathelela nokuba umntu sele esenza izinto ezingahambisaniyo nelizwi likaThixo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Phakathi kwemiqondiso yokuba ngumntwana oqatshulwe ngelizwi likaThixo",
+                "points": [
+                  "Kuqaqambe isazela kuThole. Siziveze ngokubhomboloza kwityeli apho ebesezwa utywala ngoontangandini.",
+                  "Basihlupheze isazela sakhe ngokuthi athi esela babe bemntyontyela ngelizwi likaThixo ebeliphuma kumbhobho osisiqaqadeki esinguThemba."
+                ]
+              },
+              {
+                "sub_topic": "Sele elahlekile eluthandweni eBhayi",
+                "points": [
+                  "uValo luveza ukuqatshulwa kwakhe ngelizwi likaThixo mhla ilizwi lomshumayeli wakwaSigxabhayi lirhiphula umbilini wakhe endleleni eya kuloNomsa.",
+                  "Ekuhambeni kwethuba usinda kuJoe neqela lakhe elimfuna efile ngenxa yokuzisondeza kwakhe ngothando kuNomsa.",
+                  "Nokusinda akufumene kwangale mini kudiza amandla angaqhelekanga amsindisayo."
+                ]
+              },
+              {
+                "sub_topic": "KuThole ukubangumntwana kaThixo",
+                "points": [
+                  "Kuvela ngokuba izinto zakhe zenzeke ngokwahlukileyo njengokuba asindiswe kwiingonyama eKnysna.",
+                  "Imali ayibethelwa xa ebuya eNgilane neentshumayelo zakhe ezivuselela abantu de zimdibanise noyena yise omzalayo."
+                ]
+              },
+              {
+                "sub_topic": "Ukubangumntwana kaThixo komntu kuyaziveza nangamaphupha",
+                "points": [
+                  "EKnysna, ehlathini, uThole ubiwa bubuthongo, ephethelwe imbengwana ziingonyama, afumane iphupha apho abangathi uwa phezu kwengonyama.",
+                  "Kwasephupheni njalo asindiswe ngumfo onomnqwazi wameva omxhwila emlonyeni wengonyama, amphose kude.",
+                  "Alimonwabisanga nephupha lomfo onomnqwazi wameva kwaseKnysna emva kokusinda kwakhe wade wancama wathengisa imfuyo."
+                ]
+              },
+              {
+                "sub_topic": "Umntwana kaThixo uthi akukhala kuyise azibonakalise uyise onguThixo",
+                "points": [
+                  "uThole uthi mhla ajamelene nomngeni wezihange zikaJoe ezifungele ukumbulala enze umthandazo okhatshwa zizibhambathiso zokuyisebenzela inkosi xa enokusindiswa.",
+                  "Ukuvela kwamapolisa asindisa uThole ekufeni kubayimpendulo yalo mthandazo.",
+                  "Adanduluke yena uThole ngelithi, 'Umkhulu Thixo!' ukungqina ubukho bukaThixo kwindlela yakhe yobomi."
+                ]
+              },
+              {
+                "sub_topic": "Ngumntwana kaThixo kuphela onqandelwa asinde engenaso nesiphako",
+                "points": [
+                  "sele ede wabe uwe phezu kwazo iingonyama ehlathini.",
+                  "Ukwenzeka kwento engaqhelekanga yokubaleka kwengonyama xa uThole eyikhawulela egaqa kuveza ukhuseleko oluvela kuThixo."
+                ]
+              },
+              {
+                "sub_topic": "Umntwana kaThixo ukhutshwa sele ezibona esisinhanha",
+                "points": [
+                  "uThole uthi sele enento yonke kwelo laseKnysna kodwa angonwabi.",
+                  "Isazela sakhe sivuselelwe yintshumayelo yonyana wolahleko ethi imenzakalise, imkhumbuze ngendlela ekumele ayithathe."
+                ]
+              },
+              {
+                "sub_topic": "Nangona uThole ebengekafikeleli kwinqanaba lokuzinikela",
+                "points": [
+                  "iintshumayelo zakhe zidala isimanga sokugqobhoka kwabafundi baseDikeni ngexesha angumfundi apho.",
+                  "Ubomi bakhe buyabonakala ukuba burhangqwe ziintsikelelo zikaThixo."
+                ]
+              },
+              {
+                "sub_topic": "Ungquzulwano lobomi bokukhula nohlanga lobizo lukaThixo",
+                "points": [
+                  "Intandabuzo kaThole isonjululwa emva kwentshumayelo kamfundisi uMaqoma esikolweni kwaSomgxada.",
+                  "Impendulo yalo mbuzo ibekukuzinikela kwakhe.",
+                  "uThole yena uthi akwamkela uThixo afumane uyise omzalayo.",
+                  "Ngodumo lweentshumayelo zakhe utsala umdla kwixhego elihlala enkomponi ekufumaniseka ukuba nguyise."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Kuyabonakala ukuba uThole uqatshulwe ngelizwi likaThixo xa ujonga iindlela ezenzeka nezingaqhelekanga ngayo izinto kubomi bakhe."
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "text": "NYANA WAM! NYANA WAM! – WK Tamsanqa",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "9.1",
+              "value": "Kukucinga ukuba bayathandana noNomsa kanti uza kuhlangana nokubethelwa ibhokisi nguJoe."
+            },
+            {
+              "sub_id": "9.2",
+              "value": "Sesokusondeza uNomsa ekuthe kanti uza nobungozi ebomini bakhe./ sesengxaki yokubethwa nguJoe eza ngokuba ezisondeze uNomsa."
+            },
+            {
+              "sub_id": "9.3",
+              "value": "Kukulahlekiswa ziitshomi/ kukubethwa nguJoe ethandene noNomsa wakhe/ kukubukela iitshomi zakhe ziqwengwa ziingonyama/ kukutyiwa yindlala eKnysna waphela eligqirha/ kukubaligqirha atyatyulwe ngamaphupha."
+            },
+            {
+              "sub_id": "9.4",
+              "value": "Ubudala babalinganiswa bale noveli benze kwalula ukulahlekisana nokufakana kwimikhwa engalunganga kwabalinganiswa."
+            },
+            {
+              "sub_id": "9.5",
+              "value": "Ndiyangqina kuba nguye olahlekisa uThole kwindlela yakhe yobufundisi nangona engaqondi okanye nangona engenzi ngeenjongo nje."
+            },
+            {
+              "sub_id": "9.6",
+              "value": "Zange aphumelele kuba kwavela amapolisa wabaleka uJoe neqela lakhe, waba uyasinda njalo uThole."
+            },
+            {
+              "sub_id": "9.7",
+              "value": "Ukhuthazwa ngumnqweno akubona uchwenene womfundisi owayenqanda abantwana abalwayo./ Ukhuthazwa nguThozama ngokumxhasa nokumnika iincwadi./ Ukhuthazwa nguFikizolo noMaNtuli kwisigqibo sakhe sokubuyela esikolweni./ Ukhuthazwa ngabefundisi bakwaLizwi."
+            },
+            {
+              "sub_id": "9.8",
+              "value": "Zidiza ukuba uThole uphiwe ngokwahlukileyo kwabanye abantu."
+            },
+            {
+              "sub_id": "9.9",
+              "value": "Kukupha uThole isipho sokumamkela kuba evela eNgilane."
+            },
+            {
+              "sub_id": "9.10",
+              "value": "Umfundisi Maqoma/Umfundisi Shepherd."
+            },
+            {
+              "sub_id": "9.11",
+              "value": "Kuyacaca ukuba umlinganiswa oya elubizweni lokubangumfundisi uyakwazi ukuyoyisa imiqobo enamandla njengoko sibone uThole ehlangana nemiqobo efuna ukuzeyisa okungaphaya kokuqonda, njengokoyisa utywala, ukuthandana nokuqhatha abantu baseKnysna waze yena wayohlula./ Eminye imiqobo ikhe ibeke ubomi bomlinganiswa kumngcipheko kodwa asinde, aphumelele abengumfundisi nanjengoko uThole wayephakathi kokufa nokuphila ehlathini laseKnysna, waphakathi kokufa nokuphila kuloNomsa apho uJoe wayemfuna ebhubhile kodwa wamnceda ukuba ahlaziye izibhambathiso zesifungo sakhe sobufundisi waphumelela."
+            },
+            {
+              "sub_id": "9.12",
+              "value": "Ndiyangqina kuba uphawu lwenoveli engentlalo olukukufumbatha izinto ezingentlalo yabantu luyabonakala xa uThole obezimisele ukubangumfundisi esiwa evuka ezama ukubangumfundisi ade aphumelele."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isithathu kwezi (9.3). Nasiphi na isibini kwezi (9.7).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "10",
+          "text": "UKHOZI OLUMAPHIKO – N Saule",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Kungquzulwano phakathi kwengcinezelo nomzabalazo wenkululeko kutyhileka ubuqhawe kuMfazwe.",
+              "Ingcinezelo egqubayo kule noveli isukela kurhulumente wocalucalulo ize ibangele ukuba uluntu oluquka uMfazwe lwenze imigushuzo ekhatshwa luqhankqalazo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "uMfazwe uvela ubuqhawe",
+                "points": [
+                  "xa ethi ngexesha lengcinezelo azincame, njengetitshala abakrobise abafundi bezifundo zeMbali kwiimeko zengcinezelo ezigqubayo kwilizwe loMzantsi Afrika.",
+                  "Amaqhawe omzabalazo ebebonwa ngokungawazinzisi amapolisa ngela xesha lengcinezelo, kuba ebehlala efunwa ngenjongo yokuwavalela okanye ukuwavala umlomo."
+                ]
+              },
+              {
+                "sub_topic": "Ungquzulana nengcinezelo ngokuzincama",
+                "points": [
+                  "akrobise abafundi bezifundo zezeMbali kwingcinezelo neempawu zayo.",
+                  "Uyabanjwa aze angcungcuthekiswe ngeenjongo zokuba akhuphe ulwazi analo ngemigushuzo eyenzekayo kwaQaka.",
+                  "Buyatyhileka ubuqhawe bukaMfazwe bucace xa akwaziyo ukumelana neemeko zokungcungcuthekiswa ade aphume enganikezelanga ngelizwe lakhe."
+                ]
+              },
+              {
+                "sub_topic": "Ukuthengisa ngomzabalazo",
+                "points": [
+                  "bekudla ngokubonakala ngokuthi othengiweyo ade avume ukubayimpimpi.",
+                  "uMfazwe uthi sele edliswa ngezinja, ethukwa, etshiselwa, nanjengoko ezo iziimpawu zongquzulwano phakathi kwengcinezelo nemigqushalazo yenkululeko anganikezeli.",
+                  "Akanikezeli ngelizwe lakhe sele amapolisa emthembisa ngobomi obumnandi."
+                ]
+              },
+              {
+                "sub_topic": "Iimpimpi esezivumile",
+                "points": [
+                  "nazo zidla ngokuba zinikeze ngolwazi olufaka lowo ufunwayo engxakini.",
+                  "Ubudlelwane bukaFriday noMfazwe bungenile kolu vavanyo lukukuxikixwa yingcinezelo, wagqushalaza waxolela ukuncama uFriday kunokuncama umzabalazo anikezele ngelizwe lakhe."
+                ]
+              },
+              {
+                "sub_topic": "uMfazwe uzibona ekwelinye idabi lokuhlamba igama lakhe",
+                "points": [
+                  "kuFriday kunye noluntu lakwaQaka, oku kumtyhila njengeqhawe kuba uwalwa ngempumelelo la madabi ngempumelelo sele ede wabe utshiselwe nekhaya lakhe.",
+                  "Ukuncama isithandwa lolunye uphawu lobuqhawe abonakala ngalo uMfazwe ukuba akathengisi tu ngelizwe lakhe."
+                ]
+              },
+              {
+                "sub_topic": "Ubonakalisa ubuqhawe xa aqhwesha ngempumelelo",
+                "points": [
+                  "emva kokucetyiswa nguHlathi ukuba abhace ngeenjongo zokumsindisa kumapolisa nakuluntu lakwaQaka olukhokelwa nguFriday olwalusele lulutshaba kuye ngenxa yobutshantliziyo bakhe bokulwa ingcinezelo."
+                ]
+              },
+              {
+                "sub_topic": "Ungquzulwano lukaMfazwe namapolisa",
+                "points": [
+                  "amele ingcinezelo kutyhila ubuqhawe kuMfazwe akufika ngempumelelo kwinkampu yeNtsimb'ebomvu.",
+                  "Butyhuluba ubuqhawe ngokuthi afumane ingcebiso kumzingeli ngendlela yokuqhwesha amxhobise nangamafutha anokuwasebenzisa kunye nomqwayito wendlela aze afike ngempumelelo."
+                ]
+              },
+              {
+                "sub_topic": "Elubhacweni ungquzulwano",
+                "points": [
+                  "ludla ngokuvela ngokukrokrelana nokungathembani kwabo balwela inkululeko.",
+                  "uMfazwe akasindanga kolu krokrelo kuba nabanye balapho abalwela inkululeko babeyawamtyhola ngobuntlola.",
+                  "Ubuqhawe buvela ekoyiseni iingqondo zabebecinga ukuba uyintlola ngezenzo zakhe ezibonakalise ukuba akayiyo intlola koko ungumncedi kubo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Ukusinda kuhlaselo luphawu lobuqhawe. uMfazwe usinda kuhlaselo olwenziwa ngamajoni karhulumente wengcinezelo aze avele ukuba naye uliqhawe ngakumbi xa esindisa nabanye."
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "text": "UKHOZI OLUMAPHIKO – N Saule",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "11.1",
+              "value": "Waziwa njengoqalazive kuba ebebangowokuqala ukwazi abantu abaza kubulawa ngamapolisa nezasekuhlaleni bezisisiwa nguye emapoliseni."
+            },
+            {
+              "sub_id": "11.2",
+              "value": "OoNoposi abanamali ininzi kanti yena uFriday unemali eninzi./ Oonoposi abanxibi mpahla isemgangathweni abe uFriday enxiba iimpahla ezisemgangathweni."
+            },
+            {
+              "sub_id": "11.3",
+              "value": "Kukumbambisa ngamapolisa, avalelwe engenzanga nto./Kukutshisa ikhaya likaMfazwe./ Kukudukisa abazali bakaMfazwe baphele bebhubha./ Kukuyokugqogqa uMfazwe kwatat'uGaba."
+            },
+            {
+              "sub_id": "11.4",
+              "value": "Indawo yakwaQaka yindawo enezidubedube kuba kuyo ngokwebali kuhlala abantu abamnyama abacinezelekileyo apho bekubulawa abafundi bengenzanga nto./ Kukutshiswa kwezikolo abantwana abamnyana basale bengenandawo yokufunda/ Kutshiselwa abantu ezimotweni ngenxa yemizamo yokulwa nengcinezelo."
+            },
+            {
+              "sub_id": "11.5",
+              "value": "Ndiyagqina kuba uKK wabulawelwa etrongweni ngamapolisa engenzanga nto."
+            },
+            {
+              "sub_id": "11.6",
+              "value": "Zange aphumelele kuba uMfazwe wayesejele ngala mini kuthiwa makatshiswe ngayo/kuba yonke le nto uMfazwe uyayibaliselwa."
+            },
+            {
+              "sub_id": "11.7",
+              "value": "Ziinkuthazo zikatat'uGaba. Zikamfundisi uHlathi/Uncedo lomzingeli."
+            },
+            {
+              "sub_id": "11.8",
+              "value": "Kudiza ukuba uyimpimpi ezifihlayo ebantwini."
+            },
+            {
+              "sub_id": "11.9",
+              "value": "Kukufumana uMfazwe baze bambulale."
+            },
+            {
+              "sub_id": "11.10",
+              "value": "NguNokuzola/noCikizwa"
+            },
+            {
+              "sub_id": "11.11",
+              "value": "Ibenamandla imiqobo efuna ukunyamezela efana nokubekwa izityholo zobumpimpi kude kutshiswe nekhaya lakhe/imiqobo yokumenza ajikelwe ngabafundi bakhe baphele sebemfuna phantsi naphezulu kodwa wayohlula."
+            },
+            {
+              "sub_id": "11.12",
+              "value": "Ndiyangqina kuba uphawu lwenoveli engopolitiko olukukulwa nengcinezelo komlinganiswa ophambili luyabonakala ngoMfazwe olwa nengcinezelo, wabhaca wabuya ngetikiti lenkululeko."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isithathu kwezi (11.3). Nasiphi na isibini kwezi (11.10).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "12",
+          "text": "UBUNCWANE BONCWADI LWEMVELI – MMI Swana nabanye",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Kungquzulwano phakathi kwemingeni yentlalo nomlinganiswa kutyhileka inzondelelo kuDeliwe ngeli xesha kutyhileka ubuqhawe kuRharhabe.",
+              "Inzondelelo kukubanomonde, kukungabuzi, kukungakhalazi, nokungasolimntu, koko wenze ekuthiwe kwenze, uwunyuke umnqantsa uwugqibe nokuba sele kunzima."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ungquzulwano phakathi kwemingeni kaDeliwe yokuphila nesiphene somzimba",
+                "points": [
+                  "sokubasisifombo luvela ngokungathandwa ngabazali bakhe kuba besithi mbi.",
+                  "uDeliwe uyazondelela amelane noko kucatshukelwa ngokuthi cwaka athule, angaphenduli, kwaye anganyhukuli namnye kubangcikivi bakhe.",
+                  "Ukuzondelela kuDeliwe kuvela ngokungabubuyiseli ngobunye ububi obuza ngakuye."
+                ]
+              },
+              {
+                "sub_topic": "Ungquzulwano nemingeni ahlangana nalo uDeliwe",
+                "points": [
+                  "alwaneli nje ukuba lubekho ekhayeni nabamelwane kubandakanyeya noontanga bakhe baveza ukungamthandi.",
+                  "uDeliwe umelana nale meko ngokuba akalwi nabo koko avuke ngentseni ukuya kukha amanzi ukuze angadibani nongquzulwano oluza nabangcikivi bakhe.",
+                  "uDeliwe udela izoyikiso zokusolwa ngumlambo xa esiya ngentseni emlanjeni.",
+                  "Inzondelelo kuye iphuhla ngokuthi akuphephe ukubenza buhlungu abangcikivi bakhe.",
+                  "Uyiqonda kakuhle ukuba inzondelelo kukujongana ngqo nomnqamlezo wakho ungasoli mntu."
+                ]
+              },
+              {
+                "sub_topic": "Kungquzulwano phakathi komngeni wokungcikivwa nguDeli ongumnakwabo",
+                "points": [
+                  "uDeliwe umelana nawo nomngeni womntakwabo ombiza njengomcholwa kwikhaya lakhe.",
+                  "uDeliwe akambuyiseli ngobubi engambambeli nenqala.",
+                  "uDeliwe acele ukukhatshwa kwanguDeli ukuya kwaninakhulu apho uDeliwe wayethunywe khona. Akwala uDeli kuba engafuni kubonwa nesifombo akamlwisi uyayihamba yedwa indlela."
+                ]
+              },
+              {
+                "sub_topic": "Kungquzulwano phakathi kwemingeni nokumelana nemingeni, uDeliwe",
+                "points": [
+                  "xa engancedwa mntu uhamba yedwa elila.",
+                  "Ufumana uncedo kungenelelo lwelizwi elimbuzayo ulilela ntoni, aze akuchaza limyalele ukuba anyamezele ngakumbi, anyuke intaba ade afike encochoyini apho afumana nomyalelo wokuhlala emthandazweni.",
+                  "uMonde wakhe uyamqhuba ukuba aqhubekeke ngomonde ayenyuke noxa ingumnqantsa intaba.",
+                  "Ukuzondelela enze ngokwemiyalelo uDeliwe kumenza abuyele engasenasifombo, sisukile."
+                ]
+              },
+              {
+                "sub_topic": "Nakwisibongo 'Intaba kaNdoda'",
+                "points": [
+                  "kungquzulwano oluphakathi kukaRharhabe namaLawu /nabaThwa kudula ubuqhawe bukaRharhabe.",
+                  "Ukufika kukaRharhabe nehlokondiba labalandeli bevela kwaPhalo phesheya komlambo, beqhephuke kuGcaleka, bemise imizi, balime nokulima kuvusa umnyele kumaLawu."
+                ]
+              },
+              {
+                "sub_topic": "Udiwu lwemfazwe",
+                "points": [
+                  "oluqhubeka ngenxa yoku kungavisisani luthatha ithuba, iiveki zizale iinyanga, kusifa umntu, kude kungenelele nabaThwa.",
+                  "uRharhabe uyoyisa kude kuloo mpalalo gazi, kuzalwe isivumelwano emva kokoyiswa kwamaLawu bavela ubuqhawe bukaRharhabe ngoloyiso lakhe."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Ubuqhawe bukaRharhabe bubonakala ngakumbi akudala uxolo nemvisiswano namaLawu ngokunaniselana ngeenkomo ngenjongo yokuzuza umhlaba ukuze kungabikho zintliziyo."
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "text": "UBUNCWANE BONCWADI LWEMVELI – MMI Swana nabanye",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "13.1",
+              "value": "Babethandana oku kusisimanga."
+            },
+            {
+              "sub_id": "13.2",
+              "value": "Wayeyindoda ephandela usapho lwayo./ Ukhathazeka kakhulu kukuswelekelwa ngumntwana."
+            },
+            {
+              "sub_id": "13.3",
+              "value": "Isiqalo/intshayelelo-kwathi ke kaloku ngantsomi/ixesha lakudala kudala – dala./Abalinganiswa zizilwanyana./ Uphindaphindo olutsala umdla wabaphulaphuli-sibhuqe,sabhuqa./ isiphelo – phela-phela ngantsomi."
+            },
+            {
+              "sub_id": "13.4",
+              "value": "Silibele ukutyisa abantwana ngenxa yeendaba./Silahla isitshixo sendlu."
+            },
+            {
+              "sub_id": "13.5",
+              "value": "Ndiyangqina kuba isikhukukazi soyiswa luxanduva lokuba ngumama wekhaya, sibutha imini yonke nabantwana belambile./ Senza into ethandwa siso singajonganga kuvisa buhlungu mntwini kodwa izinto ziphelele ebubini singaqondanga."
+            },
+            {
+              "sub_id": "13.6",
+              "value": "Alizange liphumelele kuba ngokwentsomi nanamhlanje isikhukukazi sisaqhwaya sikhangela isitshixo./ Abantwana baso basaxhwila ngukhetshe nanamhlanje."
+            },
+            {
+              "sub_id": "13.7",
+              "value": "Kukufa komntwana wakhe/kukulahleka kwesitshixo."
+            },
+            {
+              "sub_id": "13.8",
+              "value": "Kudiza ukuba uRhulumente nguye owenza umanyano lweentlanga ngeentlanga kwisizwe."
+            },
+            {
+              "sub_id": "13.9",
+              "value": "Kukuqaqambisa ukuba ingcinezelo yamabhulu ibingakhethanga sini sithile."
+            },
+            {
+              "sub_id": "13.10",
+              "value": "Kuyimfuneko ukubulela kwidlelo neenkomo xa zenze umsebenzi omhle wokukhupha izilumko zelizwe."
+            },
+            {
+              "sub_id": "13.11",
+              "value": "Mzulu/ Mxhosa/ Msuthu/ Mvenda/ Mswazi/ Mtswana/ Ngesi/ Bhulu/ Mtsonga./ Mpedi kuba zonke uzirhiwula uziqhubele buhlantini bunye."
+            },
+            {
+              "sub_id": "13.12",
+              "value": "Ngabantu abangaboni xabiso kumanyano kuba ukhuthaza umanyano nokuhlalisana kakuhle kwezizwe ezahlukeneyo./ Ngabantu abangaxabisanga/abangabaziyo ubomi obebuphilwa ngabantu abamnyama kuba ukhumbuza ngendlela ehanjwe ngabantu abamnyama nempumelelo yabo eMzantsi Afrika."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isithathu kwezi (13.3). Nasiphi na isibini kwezi (13.11).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "questions": [
+        {
+          "id": "14",
+          "text": "BUZANI KUBAWO – WK Tamsanqa",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Ukhetho alwenzayo umntu ebomini lungeza neziphumo ezibi okanye ezimnandi.",
+              "Ngqina olu luvo ngabalinganiswa uZwilakhe noGugulethu."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "uZwilakhe",
+                "points": [
+                  "uZwilakhe unosapho, unenkosikazi enguMaGaba, unonyana onguGugulethu kanti nentombi enguNozipho.",
+                  "Unyana wakhe onguGugulethu ukixabiso lokuba atshate, kodwa ukhetho alwenzayo uZwilakhe lubaneziphumo ezibi kweli khaya.",
+                  "Ubumnandi kweli khaya bujika akuvuma uZwilakhe ukulukuhlwa ngowakwakhe okhetha ukuba amtshatise ngenkani uGugulethu nentombi kaMcothama.",
+                  "Ukhetho lwabo luzisa uxinzelelo olumandla kuGugulethu nengxubakaxaka kweli khaya.",
+                  "uZwilakhe uyaqhuba uthi enawo amaHlubi okumcebisa, akhethe ukuba angawamameli, atsho angathathi necebo lawo."
+                ]
+              },
+              {
+                "sub_topic": "Iziphumo zolu khetho",
+                "points": [
+                  "Olu khetho lokungawamameli amaHlubi lunesiphumo esiwudungayo umzi esikukwahlulelana phakathi kwamaHlubi.",
+                  "aHlulelana ngokuthi uZweni akhalale azikhuphe kwiingoxo zelobola.",
+                  "uZwilakhe ukhetha ukumsayinela unyana wakhe ecaweni enqandwa ngumfundisi, isiphumo siba kukuba unyana azonde alishiye ikhaya.",
+                  "Iziphumo zibamanyukunyezi kukufa kwabantu abathandayo uZwilakhe ukuqalela kuMaGaba, uThobeka nabantwana bakhe noGugulethu buqu.",
+                  "uZwilakhe naye esifa umoya, obonakala ukufa ngokuzisola kwakhe.",
+                  "Ufa namthanyana sele ekhetha ukuba kuxhonywe yena endaweni yonyana kodwa umthetho ugweba umbulali omangalelweyo."
+                ]
+              },
+              {
+                "sub_topic": "uGugulethu",
+                "points": [
+                  "uGugulethu uvinjwa ithuba lokuzikhethela umfazi kuba uyise uyamnyanzela okokoko.",
+                  "uZibona ekhetha ukukhalala, izinto zihambe kakubi ngohlobo lokuba uphela esima ezinkundleni ngenxa yokuba uNomaMpondomise ucinga ukuba lukhetho lwakhe olumenza abe akatshatanga naye.",
+                  "uGugulethu ukhetha ukubulala uThobeka nabantwana bakhe. Isiphumo sokubulala siba kukugwetywa intambo."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "15",
+          "text": "BUZANI KUBAWO – WK Tamsanqa",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "15.1",
+              "value": "Kuyiqale ngokuthi uZwilakhe namanye amaHlubi akubone kulungile ukuzekela uGugulethu intombi ethandwa nguMaGaba ngeli xesha amanye amaHlubi ehambisana noGugulethu."
+            },
+            {
+              "sub_id": "15.2",
+              "value": "Aqulethe uluvo lokuba nguyise oneempendulo zayo yonke into engale ntombi kuba nguye oyikhokelayo, oyinyanzelisayo./ Aqulethe uluvo lokuba uGugulethu umbona engasenakutshintsha uyise./ Aqulethe uluvo lokuba uGugulethu unikezele."
+            },
+            {
+              "sub_id": "15.3",
+              "value": "AmaHlubi adlala indima yokubangabantu bekhaya ngoko ke angabacebisi nabaxhasi bekhaya likaGugulethu."
+            },
+            {
+              "sub_id": "15.4",
+              "value": "Uzizoba mayana. Uzobo olumayana lwenzeka xa isimo somlinganiswa sihlunyiswa kwiintetho zakhe singachazwanga ngokungqalileyo. Ngokwamazwi kaZwilakhe uzipela ukungabinantlonipho kumaHlubi ngokunqonqozisa ukuba akasayi kujika kwinto ayithethayo."
+            },
+            {
+              "sub_id": "15.5",
+              "value": "Umbeka ityala ngokuthi sekufiwa nje nguNomaMpondomise nguye lo usisiqalo sezehlo ngokufuna ukungabiloxoki kuMaGaba./ Ngokungavumi ukuba uGugulethu azithethelele sele ede wacengelwa nguMzamo./ Ngokutshatisa uGugulethu ade amtshatele phambi komfundisi aze uNomaMpondomise akuva ngomtshato, azibulale/ Ngokuthi selesifa nje uThobeka nabantwana bakhe abathathu ngokubulawa nguGugulethu kungokuba nguZwilakhe oqale ingxaki."
+            },
+            {
+              "sub_id": "15.6",
+              "value": "Iinjongo zikaMaGaba zokunyanzelisa uGugulethu ukuba atshate uThobeka zazikukuqinisekisa ukuba bona bazali bohlala bemthathela izigqibo unyana wabo abamthandayo, abeve kodwa, banela nje ukumnyanzelisa zaqala iingxaki zokungamanyelwa nguGugulethu asuke athi, 'Buzani kubawo' angenzi nenye wade unyana waphela engumbulali noMaGaba wafa."
+            },
+            {
+              "sub_id": "15.7",
+              "value": "Sisenzo sokubulala uThobeka nabantwana bakhe."
+            },
+            {
+              "sub_id": "15.8",
+              "value": "Ngamagama axela intshukumo yabalinganiswa."
+            },
+            {
+              "sub_id": "15.9",
+              "value": "Eneneni izigqibo zifanele ukuba sithathwa emva kokuhluza phakathi kokulungileyo nokungalunganga kodwa umlinganiswa onguZwilakhe yena ubonakalisa ukungakuthatheli ingqalelo ukuhluza ngokuthi eve into echaphazela uGugulethu ngoMaGaba, ayithathe, angambuzi, angambeki nasesikalini, ayithathe ngobunjalo bayo ayenze, angajiki nokuba sekufiwa."
+            },
+            {
+              "sub_id": "15.10",
+              "value": "Impixano yangaphakathi yenzeka xa umlinganiswa enezimvo ezikhabanayo ngaphakathi kuye/engqondweni yakhe nekufuneka ethathe isigqibo ngayo. Umzekelo; ukubethabethana kwezimvo zikaNomaMpondomise ngelixa kufuneka ethabathe isigqibo sokwamkela isicelo somtshato sikaGugulethu zibe iinkomo zikaMcunukelwa zisebuhlanti."
+            },
+            {
+              "sub_id": "15.11",
+              "value": "Ngowokuba uluntu malucingisise, lujonge nemithetho phambi kokuthatha izigqibo ezikhulu kuba uNomadpondomise uzeyelisele ngenxa yovakalelo./ Ngowokuba izigqibo mazingathathwa ngeemvakalelo kuba umnikazi zingamfaka engxakini enkulu."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isibini kwezi (15.2, 15.5).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "16",
+          "text": "INDLAL' INAMANYALA – M Lamati",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Ukhetho alwenzayo umntu ebomini lungeza neziphumo ezibi okanye ezimnandi.",
+              "Ngqina olu luvo ngabalinganiswa uMamQhinebe noSiqhiwu."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "uMamQhinebe",
+                "points": [
+                  "uMamQhinebe unengxaki yokungabinamyeni eselula, uyasokola, ufundisa abantwana ooSiqhiwu ngethemba lokuba bakugqiba ukufunda baza kuphangela.",
+                  "Isiphumo sokhetho lwakhe sibakukuphumelela kukaSiqhiwu unyana wakhe ibanga leshumi.",
+                  "uMamQhinebe ukhetha ukumcebisa uSiqhiwu ngokuba anyobe suka oko kubenesiphumo esiyingxaki yokungavisisani komntu nonyana wakhe.",
+                  "Ukhetho alwenzayo uMamQhinebe lokutyeshela imithetho yenkonzo, abe iintsana engumama webhatyi lunesiphumo sokungena zwabha kumgibe wokubasisicaka sikaMagrazula.",
+                  "Ukhetho alwenzileyo uMamQhinebe lokuba iintsana lumnika impumelelo yethutyana kuba uzifaka kumgibe wokubanjwa ngamapolisa."
+                ]
+              },
+              {
+                "sub_topic": "uSiqhiwu",
+                "points": [
+                  "Kwelinye icala uSiqhiwu uzikhethela, ayibethelele into yokuba akanakunyoba efundile, afunge ukuba uza kuqeshwa ngemfundo hayi ukunyoba.",
+                  "uSiqhiwu ukhetha ukuwulwa umkhonyovu wokunyobisa aze abeke izabatha zokubhabhisa uMaqhikizane oyinkintsela yokunyobisa.",
+                  "Isiphumo siba kukuphumelela ngokuthi uMaqhikizane abanjwe agwetywe, aphulukane nomsebenzi, aze uSiqhiwu awufumane etshaya umsebenzi nabanye abaselungelweni."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "17",
+          "text": "INDLAL' INAMANYALA – M Lamati",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "17.1",
+              "value": "Iimbono ngokuqeshwa kukaThembinkosi ziyiqala iyantlukwano ngokwenza abalinganiswa bahlulelane phakathi malunga nexabiso lokunyoba ukuze kufumaneke umsebenzi."
+            },
+            {
+              "sub_id": "17.2",
+              "value": "Aqulethe uluvo lokuba/isikhalazo sokuba kukho ukungalinganiswa/ ukungaphathwa ngendlela efanayo/ukwenzelwa kwabanye ngokukhethekileyo."
+            },
+            {
+              "sub_id": "17.3",
+              "value": "uSiqhiwu noSiphokazi badlala indima yolutsha oluxhatshazwa ngenxa yendlala./ yolutsha olulwa loyise ubuqhophololo bokunyobisa ngemisebenzi./ yokuphelisa ucalucalulo kubekho umakulinganwe amahlwempu angajongelwa phantsi."
+            },
+            {
+              "sub_id": "17.4",
+              "value": "Luzobo mayana. Uzobo olumayana lwenzeka xa isimo somlinganiswa sihlunyiswa kwiintetho zakhe singachazwanga ngokungqalileyo. uSiqhiwu ukuthetha kwakhe kumazwi akhe kumpela njengomntu okudidi lwabantu abalawulwa bubuthandazwe xa esilwela umba wokungalingani kwamahlwempu nezityebi."
+            },
+            {
+              "sub_id": "17.5",
+              "value": "Amahlwempu anyathelwa ngokuthi mawanyobe akhuphe imali ukuze afumane umsebenzi wakwarhulumente isiphumo siba sesokuba ababinamali, batsho bahlale iminyaka bengenamsebenzi./ Amahlwempu angabantu basetyhini enziwa aphule umthetho ngokuba iintsana aze aphelele ejele eshiya nezawo iintsana zingenamncedi."
+            },
+            {
+              "sub_id": "17.6",
+              "value": "Iinjongo zikaMamQhinebe zokuba iintsana yayikukuhlala kwindawo yezityebi eyiNorthCrest kodwa waphela ebanjelwa ukuba iintsana waya ejele."
+            },
+            {
+              "sub_id": "17.7",
+              "value": "Kukho iintsana eziman'ukulahleka ngokubiwa nguMamQhinebe noMaGatyeni baze bazithengise kwixhwele, yiyo le nto athunakalayo kwakuthethwa ngazo kuba kulinyala ukubandakanyeka kwakhe ekubiweni kweentsana."
+            },
+            {
+              "sub_id": "17.8",
+              "value": "Ngamagama axela intshukumo yabalinganiswa./ Ngamagama axela nomntu ekuthethwa naye/ekubhekiswa kuye./ Ngamagama axela icala aya ngakulo umlinganiswa."
+            },
+            {
+              "sub_id": "17.9",
+              "value": "Eneneni isigqibo sifanele ukuba sithathwa emva kokuhluza phakathi kokulungileyo nokungalunganga kodwa umlinganiswa onguMamQhinebe yena ubonakala engakunikanga thuba ukuhluza, esebenzisana kuphela umnqweno wakhe wokuya kuhlala eNorth Crest ngokuhamba ebetha abantu esiba iintsana."
+            },
+            {
+              "sub_id": "17.10",
+              "value": "Impixano yangaphakathi yenzeka xa umlinganiswa enezimvo ezikhabanayo kuye ngaphakathi/engqondweni yakhe nekufuneka ethathe isigqibo ngayo. Umzekelo okule ncwadi ngowaxa kubethabethana izimvo engqondweni kaMaGatyeni ngexesha ebekufuneka ethathe isigqibo sokuba iintsana kunye noMamQhinebe."
+            },
+            {
+              "sub_id": "17.11",
+              "value": "Ngumyalezo wokuba uluntu malungazoyikiseli/malungoyiki/ malungakuthandabuzi ukuyilwela into olucinga ukuba idla umzi kuba kubonakele kwimpumelelo kaSiqhiwu kwidabi lakhe nomkhwa kaMaqhikizane ukuba ukuyilwela kuyahlawula."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nasiphi na isibini kwezi (17.8).",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": true,
+    "cached_tokens": 11235,
+    "total_tokens": 34119,
+    "cached_tokens_saved": 11235
+  }
+}

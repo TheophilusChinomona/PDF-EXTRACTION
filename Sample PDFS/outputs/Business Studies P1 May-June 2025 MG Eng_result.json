@@ -1,0 +1,541 @@
+{
+  "subject": "Business Studies P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "total_marks": 150,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A",
+      "instructions": "COMPULSORY",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Multiple choice questions",
+          "marks": 10,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "B",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "D",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "A",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "C",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "D",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Fill-in-the-blank questions",
+          "marks": 10,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "1.2.1": "parental"
+            },
+            {
+              "1.2.2": "backward"
+            },
+            {
+              "1.2.3": "strength"
+            },
+            {
+              "1.2.4": "Employment Equity"
+            },
+            {
+              "1.2.5": "quality assurance"
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Matching Column questions",
+          "marks": 10,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.1",
+          "parent_id": "1.3",
+          "text": "C",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.2",
+          "parent_id": "1.3",
+          "text": "G",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.3",
+          "parent_id": "1.3",
+          "text": "E",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.4",
+          "parent_id": "1.3",
+          "text": "B",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.5",
+          "parent_id": "1.3",
+          "text": "I",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "BUSINESS ENVIRONMENTS",
+      "instructions": "Mark the FIRST TWO questions only.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Pillars of the Broad-Based Black Economic Empowerment Act (BBBEE)",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Advantages of intensive strategies",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Types of diversification strategies from the scenario",
+          "marks": 6,
+          "scenario": "1. They added homemade cheese to their product range to increase sales to new customers. 2. PF also opened a petrol station to attract new customers.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Rights of employers in terms of the Labour Relations Act/LRA",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Types of defensive strategies",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.1",
+          "parent_id": "2.6",
+          "text": "Legislation: Compensation for Occupational Injuries and Diseases Amendment Act/COIDA",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.2",
+          "parent_id": "2.6",
+          "text": "Other advantages of Compensation for Occupational Injuries and Diseases Amendment Act/COIDA",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Strategic management process",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "BUSINESS OPERATIONS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Components of job analysis",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Meaning of piecemeal as a salary determination method",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "text": "Aspects of the induction programme from the scenario",
+          "marks": 2,
+          "scenario": "A tour of the premises; an overview of the business",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "text": "Benefits of induction",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Selection procedure",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Benefits of a good quality management system",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Business functions that contribute to the success of the business from the scenario",
+          "marks": 6,
+          "scenario": "1. The Chief Executive Officer (CEO) effectively communicates the shared vision and mission of the business with employees. 2. BE also provides regular press releases to all stakeholders.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Act step of the PDCA model",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.8",
+          "parent_id": null,
+          "text": "Impact of adequate financing and capacity as a total quality management/TQM element",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "MISCELLANEOUS TOPICS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Forces of Porter's Five Forces model",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.1",
+          "parent_id": "4.2",
+          "text": "Business sectors from statements: Secondary sector",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.2",
+          "parent_id": "4.2",
+          "text": "Business sectors from statements: Tertiary sector",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Penalties for non-compliance with the Employment Equity Act/EEA",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Steps in strategy evaluation",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Legal requirements of an employment contract",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Impact of fringe benefits",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7.1",
+          "parent_id": "4.7",
+          "text": "Ways in which total quality management/TQM can reduce the cost of quality from the scenario",
+          "marks": 2,
+          "scenario": "The production manager works closely with suppliers to improve the standards of raw materials. KM monitors their maintenance programmes on a regular basis to prevent the breakdown of equipment.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7.2",
+          "parent_id": "4.7",
+          "text": "Other ways in which total quality management/TQM can reduce the cost of quality",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.8",
+          "parent_id": null,
+          "text": "How the quality of performance of the administration function can contribute to the success of the business",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "BUSINESS ENVIRONMENTS (LEGISLATION)",
+      "instructions": "Mark the FIRST question only.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "Introduction, Purpose of the Consumer Protection Act/CPA, Impact of the Consumer Protection Act/CPA, Consumer rights in terms of the CPA, Ways in which businesses can comply with the Consumer Protection Act/CPA, and Conclusion.",
+          "marks": 40,
+          "scenario": null,
+          "context": "The Consumer Protection Act aims to protect consumers from exploitation and unfair business practices. Businesses have a legal responsibility to protect/promote the rights of consumers.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "BUSINESS OPERATIONS (HUMAN RESOURCES FUNCTION)",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "6.1",
+          "parent_id": null,
+          "text": "Introduction, Recruitment procedure as a human resources activity, Impact of external recruitment on businesses, Role of the interviewer during the interview, Reasons for termination of an employment contract, and Conclusion.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Recruitment procedure is a systematic process on identifying and filling vacant positions within the business. External recruitment enables businesses to employ qualified people from outside the business.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 23354,
+    "cached_tokens_saved": 0
+  }
+}
