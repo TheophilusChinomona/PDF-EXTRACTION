@@ -6,6 +6,7 @@ results in Supabase, including insertion, retrieval, deduplication, and status u
 Mirrors the patterns from extractions.py but targets the memo_extractions table.
 """
 
+import asyncio
 from typing import Optional, List, Dict, Any
 from uuid import UUID
 from supabase import Client
@@ -91,7 +92,9 @@ async def create_memo_extraction(
     }
 
     try:
-        response = client.table('memo_extractions').insert(record).execute()
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions').insert(record).execute()
+        )
         if not response.data or len(response.data) == 0:
             raise Exception("Insert returned no data")
         return str(response.data[0]['id'])
@@ -123,7 +126,9 @@ async def get_memo_extraction(
         raise ValueError(f"Invalid UUID format: {extraction_id}")
 
     try:
-        response = client.table('memo_extractions').select('*').eq('id', extraction_id).execute()
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions').select('*').eq('id', extraction_id).execute()
+        )
         if not response.data or len(response.data) == 0:
             return None
         # Type cast for mypy - response.data is a list of dicts
@@ -150,7 +155,9 @@ async def check_memo_duplicate(
         Exception: If database query fails
     """
     try:
-        response = client.table('memo_extractions').select('id').eq('file_hash', file_hash).execute()
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions').select('id').eq('file_hash', file_hash).execute()
+        )
         if not response.data or len(response.data) == 0:
             return None
         return str(response.data[0]['id'])
@@ -193,7 +200,9 @@ async def update_memo_extraction_status(
         update_data['error_message'] = error
 
     try:
-        response = client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
+        )
         if not response.data or len(response.data) == 0:
             raise Exception(f"No memo extraction found with id {extraction_id}")
     except Exception as e:
@@ -237,7 +246,7 @@ async def list_memo_extractions(
         # Apply pagination and ordering
         query = query.order('created_at', desc=True).range(offset, offset + limit - 1)
 
-        response = query.execute()
+        response = await asyncio.to_thread(lambda: query.execute())
         return response.data if response.data else []
     except Exception as e:
         raise Exception(f"Failed to list memo extractions: {str(e)}")
@@ -311,7 +320,9 @@ async def update_memo_extraction(
     }
 
     try:
-        response = client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
+        )
         if not response.data or len(response.data) == 0:
             raise Exception(f"No memo extraction found with id {extraction_id}")
     except Exception as e:
