@@ -8,6 +8,8 @@ This module implements memo extraction logic that routes between:
 Reuses core infrastructure from pdf_extractor.py with memo-specific prompts.
 """
 
+import asyncio
+import json
 from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
@@ -22,7 +24,8 @@ from app.utils.retry import retry_with_backoff
 # Minimum tokens required for Gemini context caching (API requirement)
 MIN_CACHE_TOKENS = 1024
 
-# Global memo cache name (separate from exam paper cache)
+# Global memo cache name (separate from exam paper cache) with thread-safe lock
+_memo_cache_lock = asyncio.Lock()
 _MEMO_CACHE_NAME: Optional[str] = None
 
 # System instruction for memo extraction (adapted from sample system prompt)
@@ -84,7 +87,7 @@ Extract from cover page or first page:
 Output ONLY valid JSON matching the `MarkingGuideline` schema. Do NOT include explanatory text outside the JSON structure."""
 
 
-def get_or_create_memo_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
+async def get_or_create_memo_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
     """
     Get or create a context cache for memo extraction.
 
@@ -105,47 +108,49 @@ def get_or_create_memo_cache(client: genai.Client, model: str = "gemini-3-flash-
 
     Example:
         >>> client = get_gemini_client()
-        >>> cache_name = get_or_create_memo_cache(client)
+        >>> cache_name = await get_or_create_memo_cache(client)
         >>> if cache_name:
         >>>     # Use cache_name in GenerateContentConfig
     """
     global _MEMO_CACHE_NAME
 
-    # Check if system instruction meets minimum token requirement
+    # Check outside lock (no shared state)
     estimated_tokens = _estimate_token_count(MEMO_EXTRACTION_SYSTEM_INSTRUCTION)
     if estimated_tokens < MIN_CACHE_TOKENS:
         # System instruction too small for caching, return None
         return None
 
-    # Return existing cache if available
-    if _MEMO_CACHE_NAME is not None:
-        try:
-            # Verify cache still exists (not expired)
-            client.caches.get(name=_MEMO_CACHE_NAME)
-            return _MEMO_CACHE_NAME
-        except Exception:
-            # Cache expired or deleted, create new one
-            _MEMO_CACHE_NAME = None
+    # Acquire lock for thread-safe access
+    async with _memo_cache_lock:
+        # Return existing cache if available
+        if _MEMO_CACHE_NAME is not None:
+            try:
+                # Verify cache still exists (not expired)
+                client.caches.get(name=_MEMO_CACHE_NAME)
+                return _MEMO_CACHE_NAME
+            except Exception:
+                # Cache expired or deleted, create new one
+                _MEMO_CACHE_NAME = None
 
-    # Create new cache with 1-hour TTL
-    cache = client.caches.create(
-        model=model,
-        config=types.CreateCachedContentConfig(
-            display_name='memo_extraction',
-            system_instruction=MEMO_EXTRACTION_SYSTEM_INSTRUCTION,
-            ttl="3600s",  # 1 hour
+        # Create new cache with 1-hour TTL
+        cache = client.caches.create(
+            model=model,
+            config=types.CreateCachedContentConfig(
+                display_name='memo_extraction',
+                system_instruction=MEMO_EXTRACTION_SYSTEM_INSTRUCTION,
+                ttl="3600s",  # 1 hour
+            )
         )
-    )
 
-    if cache.name is None:
-        raise ValueError("Failed to create memo cache: cache name is None")
+        if cache.name is None:
+            raise ValueError("Failed to create memo cache: cache name is None")
 
-    _MEMO_CACHE_NAME = cache.name
-    return cache.name
+        _MEMO_CACHE_NAME = cache.name
+        return cache.name
 
 
 @retry_with_backoff()
-def extract_memo_with_vision_fallback(
+async def extract_memo_with_vision_fallback(
     client: genai.Client,
     file_path: str,
     model: str = "gemini-3-flash-preview"
@@ -181,7 +186,7 @@ def extract_memo_with_vision_fallback(
         uploaded_file = client.files.upload(file=file_path)
 
         # Get or create context cache for cost optimization
-        cache_name = get_or_create_memo_cache(client, model)
+        cache_name = await get_or_create_memo_cache(client, model)
 
         # Build extraction prompt for memo Vision analysis
         prompt = """Analyze this marking guideline (memorandum) PDF and extract ALL content.
@@ -238,7 +243,6 @@ Extract ALL content without skipping any questions or answers."""
         )
 
         # Parse structured response
-        import json
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")
@@ -333,10 +337,10 @@ async def extract_memo_data_hybrid(
     # Step 2: Route based on quality score
     if doc_structure.quality_score < 0.7:
         # Low quality: fallback to Gemini Vision API
-        return extract_memo_with_vision_fallback(client, file_path, model)
+        return await extract_memo_with_vision_fallback(client, file_path, model)
 
     # Step 3: Get or create context cache for cost optimization
-    cache_name = get_or_create_memo_cache(client, model)
+    cache_name = await get_or_create_memo_cache(client, model)
 
     # Step 4: Build prompt with markdown content for memo extraction
     prompt = f"""Extract all content from this marking guideline (memorandum).
@@ -402,7 +406,6 @@ IMPORTANT: Extract ALL questions from ALL sections without skipping any."""
         )
 
         # Parse structured response
-        import json
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")

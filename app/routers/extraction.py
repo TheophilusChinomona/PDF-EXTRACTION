@@ -4,6 +4,7 @@ PDF extraction API endpoints.
 Provides endpoints for uploading PDFs and retrieving extraction results.
 """
 
+import json
 import os
 import tempfile
 import uuid
@@ -150,7 +151,7 @@ async def extract_pdf(
                 # If completed, return existing result
                 if existing_status == "completed":
                     return Response(
-                        content=str(existing_result),
+                        content=json.dumps(existing_result),
                         media_type="application/json",
                         status_code=status.HTTP_200_OK,
                         headers={"X-Extraction-ID": existing_id}
@@ -400,7 +401,6 @@ async def extract_pdf(
                 response_headers["X-Quality-Score"] = str(opendataloader_quality)
 
         # Build response content
-        import json
         if extraction_result is not None:
             response_content = extraction_result.model_dump_json()
         else:
@@ -478,7 +478,6 @@ async def get_extraction_by_id(request: Request, extraction_id: str) -> Response
         )
 
     # Return extraction result as JSON
-    import json
     return Response(
         content=json.dumps(result),
         media_type="application/json",
@@ -559,7 +558,6 @@ async def list_all_extractions(
         }
     }
 
-    import json
     return Response(
         content=json.dumps(response_data, default=str),  # default=str handles UUID/datetime
         media_type="application/json",
@@ -619,7 +617,6 @@ async def get_bounding_boxes(request: Request, extraction_id: str) -> Response:
     # Extract bounding_boxes from result
     bounding_boxes = result.get("bounding_boxes", {})
 
-    import json
     return Response(
         content=json.dumps(bounding_boxes),
         media_type="application/json",
@@ -734,7 +731,6 @@ async def get_element(request: Request, extraction_id: str, element_id: str) -> 
         "content": element_content
     }
 
-    import json
     return Response(
         content=json.dumps(element_data),
         media_type="application/json",

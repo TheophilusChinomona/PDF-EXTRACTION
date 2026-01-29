@@ -8,6 +8,8 @@ This module implements the core extraction logic that routes between:
 Uses context caching to reduce API costs by ~90% for repeated system instructions.
 """
 
+import asyncio
+import json
 from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
@@ -69,7 +71,8 @@ def _remove_additional_properties(schema: Dict[str, Any]) -> Dict[str, Any]:
 # Minimum tokens required for Gemini context caching (API requirement)
 MIN_CACHE_TOKENS = 1024
 
-# Global cache name (reused across requests)
+# Global cache name (reused across requests) with thread-safe lock
+_extraction_cache_lock = asyncio.Lock()
 _EXTRACTION_CACHE_NAME: Optional[str] = None
 
 # System instruction for exam paper extraction (cached to reduce costs)
@@ -146,7 +149,7 @@ def _estimate_token_count(text: str) -> int:
     return len(text) // 4
 
 
-def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
+async def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-preview") -> Optional[str]:
     """
     Get or create a context cache for exam paper extraction.
 
@@ -167,48 +170,50 @@ def get_or_create_cache(client: genai.Client, model: str = "gemini-3-flash-previ
 
     Example:
         >>> client = get_gemini_client()
-        >>> cache_name = get_or_create_cache(client)
+        >>> cache_name = await get_or_create_cache(client)
         >>> if cache_name:
         >>>     # Use cache_name in GenerateContentConfig
     """
     global _EXTRACTION_CACHE_NAME
 
-    # Check if system instruction meets minimum token requirement
+    # Check outside lock (no shared state)
     estimated_tokens = _estimate_token_count(EXAM_EXTRACTION_SYSTEM_INSTRUCTION)
     if estimated_tokens < MIN_CACHE_TOKENS:
         # System instruction too small for caching, return None
         # Extraction will proceed without caching
         return None
 
-    # Return existing cache if available
-    if _EXTRACTION_CACHE_NAME is not None:
-        try:
-            # Verify cache still exists (not expired)
-            client.caches.get(name=_EXTRACTION_CACHE_NAME)
-            return _EXTRACTION_CACHE_NAME
-        except Exception:
-            # Cache expired or deleted, create new one
-            _EXTRACTION_CACHE_NAME = None
+    # Acquire lock for thread-safe access
+    async with _extraction_cache_lock:
+        # Return existing cache if available
+        if _EXTRACTION_CACHE_NAME is not None:
+            try:
+                # Verify cache still exists (not expired)
+                client.caches.get(name=_EXTRACTION_CACHE_NAME)
+                return _EXTRACTION_CACHE_NAME
+            except Exception:
+                # Cache expired or deleted, create new one
+                _EXTRACTION_CACHE_NAME = None
 
-    # Create new cache with 1-hour TTL
-    cache = client.caches.create(
-        model=model,
-        config=types.CreateCachedContentConfig(
-            display_name='exam_paper_extraction',
-            system_instruction=EXAM_EXTRACTION_SYSTEM_INSTRUCTION,
-            ttl="3600s",  # 1 hour as specified in acceptance criteria
+        # Create new cache with 1-hour TTL
+        cache = client.caches.create(
+            model=model,
+            config=types.CreateCachedContentConfig(
+                display_name='exam_paper_extraction',
+                system_instruction=EXAM_EXTRACTION_SYSTEM_INSTRUCTION,
+                ttl="3600s",  # 1 hour as specified in acceptance criteria
+            )
         )
-    )
 
-    if cache.name is None:
-        raise ValueError("Failed to create cache: cache name is None")
+        if cache.name is None:
+            raise ValueError("Failed to create cache: cache name is None")
 
-    _EXTRACTION_CACHE_NAME = cache.name
-    return cache.name  # Return cache.name directly to ensure str type
+        _EXTRACTION_CACHE_NAME = cache.name
+        return cache.name  # Return cache.name directly to ensure str type
 
 
 @retry_with_backoff()
-def extract_with_vision_fallback(
+async def extract_with_vision_fallback(
     client: genai.Client,
     file_path: str,
     model: str = "gemini-3-flash-preview"
@@ -245,7 +250,7 @@ def extract_with_vision_fallback(
         uploaded_file = client.files.upload(file=file_path)
 
         # Get or create context cache for cost optimization (may be None if content too small)
-        cache_name = get_or_create_cache(client, model)
+        cache_name = await get_or_create_cache(client, model)
 
         # Build extraction prompt for exam paper Vision analysis
         prompt = """Analyze this examination paper PDF and extract ALL content.
@@ -312,8 +317,9 @@ CRITICAL RULES:
         )
 
         # Parse structured response - manually parse JSON since we used dict schema
-        import json
         response_text = response.text
+        if response_text is None:
+            raise ValueError("Gemini API returned empty response")
         response_data = json.loads(response_text)
         result: FullExamPaper = FullExamPaper.model_validate(response_data)
 
@@ -405,10 +411,10 @@ async def extract_pdf_data_hybrid(
     # Step 2: Route based on quality score
     if doc_structure.quality_score < 0.7:
         # Low quality: fallback to Gemini Vision API
-        return extract_with_vision_fallback(client, file_path, model)
+        return await extract_with_vision_fallback(client, file_path, model)
 
     # Step 3: Get or create context cache for cost optimization (may be None if content too small)
-    cache_name = get_or_create_cache(client, model)
+    cache_name = await get_or_create_cache(client, model)
 
     # Step 4: Build prompt with markdown content for exam paper extraction
     prompt = f"""Extract all exam content from this examination paper.
@@ -476,8 +482,9 @@ CRITICAL:
         )
 
         # Parse structured response - manually parse JSON since we used dict schema
-        import json
         response_text = response.text
+        if response_text is None:
+            raise ValueError("Gemini API returned empty response")
         response_data = json.loads(response_text)
         result: FullExamPaper = FullExamPaper.model_validate(response_data)
 
