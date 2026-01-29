@@ -14,8 +14,8 @@ def get_client_ip(request: Request) -> str:
     """
     Get the client IP address from the request.
 
-    Uses X-Forwarded-For header if present (for proxied requests),
-    otherwise falls back to direct client address.
+    Only trusts X-Forwarded-For header from configured trusted proxies
+    to prevent IP spoofing attacks.
 
     Args:
         request: FastAPI request object
@@ -23,15 +23,28 @@ def get_client_ip(request: Request) -> str:
     Returns:
         Client IP address string
     """
-    # Check for X-Forwarded-For header (common with proxies/load balancers)
-    forwarded_for = request.headers.get("X-Forwarded-For")
-    if forwarded_for:
-        # Take the first IP in the list (original client)
-        return forwarded_for.split(",")[0].strip()
+    from app.config import get_settings
 
-    # Fall back to direct client address
-    result: str = get_remote_address(request)
-    return result
+    direct_ip: str = get_remote_address(request)
+
+    # Check trusted proxies
+    settings = get_settings()
+    if not settings.trusted_proxies:
+        return direct_ip  # Prevent spoofing
+
+    # Parse trusted proxy list
+    trusted_proxy_list = [
+        ip.strip() for ip in settings.trusted_proxies.split(",")
+        if ip.strip()
+    ]
+
+    # Only trust X-Forwarded-For if from trusted proxy
+    if direct_ip in trusted_proxy_list:
+        forwarded_for = request.headers.get("X-Forwarded-For")
+        if forwarded_for:
+            return forwarded_for.split(",")[0].strip()
+
+    return direct_ip
 
 
 # Create the limiter with in-memory storage (MVP)

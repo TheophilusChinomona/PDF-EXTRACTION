@@ -41,6 +41,25 @@ class Settings(BaseSettings):
         description="Gemini model to use for extraction"
     )
 
+    # CORS Configuration
+    allowed_origins: str = Field(
+        default="*",
+        description="Comma-separated list of allowed CORS origins"
+    )
+
+    @field_validator("allowed_origins")
+    @classmethod
+    def validate_allowed_origins(cls, v: str) -> str:
+        if v.strip() == "*":
+            print("WARNING: CORS allow_origins='*' in production is insecure")
+        return v.strip()
+
+    # Rate Limiting Configuration
+    trusted_proxies: str = Field(
+        default="",
+        description="Comma-separated list of trusted proxy IPs"
+    )
+
     # Feature Flags
     enable_hybrid_mode: bool = Field(
         default=True,

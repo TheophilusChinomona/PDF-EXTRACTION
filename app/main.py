@@ -71,9 +71,15 @@ app.add_middleware(RequestLoggingMiddleware)
 app.add_middleware(RateLimitMiddleware)
 
 # Add CORS middleware
+settings = get_settings()
+allowed_origins_list = (
+    ["*"] if settings.allowed_origins == "*"
+    else [origin.strip() for origin in settings.allowed_origins.split(",")]
+)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict this to specific domains
+    allow_origins=allowed_origins_list,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
