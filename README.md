@@ -101,6 +101,8 @@ The application is configured via environment variables.
 | `ENABLE_HYBRID_MODE` | Enable local OCR + AI routing. Set `false` for AI-only. | `true` |
 | `QUALITY_THRESHOLD` | Confidence score (0-1) to trigger AI fallback. | `0.7` |
 | `MAX_FILE_SIZE_MB` | Maximum allowed upload size. | `200` |
+| `BATCH_WORKERS` | Number of PDFs to process concurrently (CLI). | `1` |
+| `BATCH_API_LIMIT` | Max concurrent Gemini API calls (CLI). | `3` |
 
 ## 🚀 Quick Start
 
@@ -130,6 +132,43 @@ curl -X POST "http://localhost:8000/api/extract" \
   "confidence_score": 0.98
 }
 ```
+
+### 3. Batch Process Local PDFs (CLI)
+
+For bulk local file processing, use the built-in CLI tool with parallel processing support:
+
+```bash
+# Process all document_*.pdf files in Sample PDFS/ directory (sequential)
+python -m app.cli batch-process
+
+# Process with 5 workers in parallel
+python -m app.cli batch-process --workers 5
+
+# Process custom directory with specific pattern
+python -m app.cli batch-process --directory /path/to/pdfs --pattern "*.pdf"
+
+# Control API concurrency (prevent rate limits)
+python -m app.cli batch-process --workers 10 --api-limit 3
+
+# Get help
+python -m app.cli batch-process --help
+```
+
+**CLI Options:**
+- `--directory, -d`: Directory containing PDFs (default: Sample PDFS/)
+- `--pattern, -p`: Glob pattern for PDF files (default: document_*.pdf)
+- `--workers, -w`: Number of PDFs to process in parallel (default: 1)
+- `--api-limit, -a`: Max concurrent Gemini API calls (default: 3)
+
+**Performance:**
+- Sequential (`--workers 1`): ~60s per PDF
+- Parallel (`--workers 5`): ~4-5x faster for batches
+- API limit prevents hitting Gemini rate quotas
+
+**Output:**
+- Renames PDFs to canonical filenames (e.g., `4257c821-business-studies-p1-gr12-may-june-2025-mg.pdf`)
+- Saves JSON extraction results alongside each PDF
+- Generates `_batch_summary.json` with overall statistics
 
 ## 📚 API Documentation
 
@@ -169,12 +208,20 @@ mypy app/
 ```text
 pdf-extraction/
 ├── app/
-│   ├── main.py              # Application entry point
+│   ├── main.py              # FastAPI application entry point
+│   ├── cli.py               # CLI commands (batch processing, etc.)
+│   ├── __main__.py          # Module entry point (python -m app.cli)
 │   ├── config.py            # Environment configuration
 │   ├── routers/             # API endpoints (extract, batch, etc.)
-│   ├── services/            # Core logic (PDF extractor, Gemini client)
+│   ├── services/            # Core logic (PDF extractor, batch processor, etc.)
+│   │   ├── batch_processor.py   # Local file batch processing
+│   │   ├── pdf_extractor.py     # PDF extraction logic
+│   │   ├── memo_extractor.py    # Memo extraction logic
+│   │   └── ...
 │   ├── models/              # Pydantic data schemas
-│   └── db/                  # Database interactions
+│   ├── db/                  # Database interactions
+│   └── utils/               # Shared utilities (retry logic, etc.)
+├── scripts/                 # Development scripts (Ralph agent, etc.)
 ├── tests/                   # Test suite
 ├── docker-compose.yml       # Container orchestration
 └── requirements.txt         # Project dependencies

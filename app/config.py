@@ -47,6 +47,20 @@ class Settings(BaseSettings):
         description="Enable hybrid extraction (OpenDataLoader + Gemini)"
     )
 
+    # Batch Processing Concurrency
+    batch_workers: int = Field(
+        default=1,
+        ge=1,
+        le=50,
+        description="Number of PDFs to process concurrently (1=sequential)"
+    )
+    batch_api_limit: int = Field(
+        default=3,
+        ge=1,
+        le=10,
+        description="Max concurrent Gemini API calls (prevents rate limits)"
+    )
+
     # Model configuration
     model_config = SettingsConfigDict(
         env_file=".env",
