@@ -4,6 +4,7 @@ This module provides a decorator for automatic retry of transient failures
 with exponential backoff and jitter to prevent thundering herd problems.
 """
 
+import asyncio
 import functools
 import logging
 import random
@@ -99,7 +100,7 @@ def retry_with_backoff(
                         f"Retrying in {delay:.2f}s..."
                     )
 
-                    time.sleep(delay)
+                    await asyncio.sleep(delay)
 
             # Should never reach here, but satisfy type checker
             if last_exception:
