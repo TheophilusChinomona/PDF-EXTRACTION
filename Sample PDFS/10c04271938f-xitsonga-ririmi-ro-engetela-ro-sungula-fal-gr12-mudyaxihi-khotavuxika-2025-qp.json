@@ -1,0 +1,1204 @@
+{
+  "subject": "Xitsonga Ririmi ro Engetela ro Sungula (FAL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MUDYAXIHI/KHOTAVUXIKA",
+  "grade": "12",
+  "language": "Xitsonga",
+  "total_marks": 70,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "XIYENGE XA A: NOVHELE",
+      "instructions": "Hlamula xivutiso xa novhele leyi u yi dyondzeke.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Boxa vito ra lokixi laha timhaka leti ti humelelaka kona.",
+          "marks": 1,
+          "scenario": "'Mpfuleni u va rhanga hi ku tiehleketa u nga si vulavula na mina. Tsundzuka leswaku ndzi tata wa wena.'\n'U tata wa mani? U tata wa mina wena? A ndzi na tatana mina. U tatana wa njhani lowo khoma vana hi tihanyi to tani? I khale u hi xanisa man. Se mina ndzi tiyiserile swi ringene, ndzi ri swi ringene. Ndzi karhele man, ndzi karhele hi swa muti lowu. Hi fanele nkarhi hinkwawo hi tshama hi lo hlukuvala hikokwalaho ka wena. U ni tihanyi to chavisa man, tihanyi ta wena ti hi dyondzise ni vunwa. Hi fanele mikarhi hinkwayo hi hanya hi ku ku lukela mano ya ku ku kanganyisa, hi ku chava ku himeteriwa ni ku holoveriwa. U kanganyisa vanhu va ta tama va ku a hi ku lulama ka wena kasi u bihe, u ntsumi ya Sathana, ho tshama hi kala ro hisa laha mutini.'\n'Mpfuleni u vula mani sweswo, u vula mina ku va ntsumi ya ka Sathana?' ku vutisa nkulukumba Ntekele hi ku sungula ku kufumela.\n'Ndzi vula mani? Kasi ndzi vulavula na mani un'wanyana kwala? Ndzi vula wena, ndzi ri u hi xanisile swi ringene ... u ni mbilu ya ribye mukhalabye ndzina.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Xana a ku humelele yini ku kondza Mpfuleni a vula marito lawa: 'U tata wa mani?'",
+          "marks": 1,
+          "scenario": "'Mpfuleni u va rhanga hi ku tiehleketa u nga si vulavula na mina. Tsundzuka leswaku ndzi tata wa wena.'\n'U tata wa mani? U tata wa mina wena? A ndzi na tatana mina. U tatana wa njhani lowo khoma vana hi tihanyi to tani? I khale u hi xanisa man. Se mina ndzi tiyiserile swi ringene, ndzi ri swi ringene. Ndzi karhele man, ndzi karhele hi swa muti lowu. Hi fanele nkarhi hinkwawo hi tshama hi lo hlukuvala hikokwalaho ka wena. U ni tihanyi to chavisa man, tihanyi ta wena ti hi dyondzise ni vunwa. Hi fanele mikarhi hinkwayo hi hanya hi ku ku lukela mano ya ku ku kanganyisa, hi ku chava ku himeteriwa ni ku holoveriwa. U kanganyisa vanhu va ta tama va ku a hi ku lulama ka wena kasi u bihe, u ntsumi ya Sathana, ho tshama hi kala ro hisa laha mutini.'\n'Mpfuleni u vula mani sweswo, u vula mina ku va ntsumi ya ka Sathana?' ku vutisa nkulukumba Ntekele hi ku sungula ku kufumela.\n'Ndzi vula mani? Kasi ndzi vulavula na mani un'wanyana kwala? Ndzi vula wena, ndzi ri u hi xanisile swi ringene ... u ni mbilu ya ribye mukhalabye ndzina.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Xana marito ya Mpfuleni lama nge: 'hi tshama hi lo hlukuvala … ho tshama hi kala ro hisa' ya tiyisisa hindlela yihi swiendlo swa Ntekele endyangwini wa yena?",
+          "marks": 2,
+          "scenario": "'Mpfuleni u va rhanga hi ku tiehleketa u nga si vulavula na mina. Tsundzuka leswaku ndzi tata wa wena.'\n'U tata wa mani? U tata wa mina wena? A ndzi na tatana mina. U tatana wa njhani lowo khoma vana hi tihanyi to tani? I khale u hi xanisa man. Se mina ndzi tiyiserile swi ringene, ndzi ri swi ringene. Ndzi karhele man, ndzi karhele hi swa muti lowu. Hi fanele nkarhi hinkwawo hi tshama hi lo hlukuvala hikokwalaho ka wena. U ni tihanyi to chavisa man, tihanyi ta wena ti hi dyondzise ni vunwa. Hi fanele mikarhi hinkwayo hi hanya hi ku ku lukela mano ya ku ku kanganyisa, hi ku chava ku himeteriwa ni ku holoveriwa. U kanganyisa vanhu va ta tama va ku a hi ku lulama ka wena kasi u bihe, u ntsumi ya Sathana, ho tshama hi kala ro hisa laha mutini.'\n'Mpfuleni u vula mani sweswo, u vula mina ku va ntsumi ya ka Sathana?' ku vutisa nkulukumba Ntekele hi ku sungula ku kufumela.\n'Ndzi vula mani? Kasi ndzi vulavula na mani un'wanyana kwala? Ndzi vula wena, ndzi ri u hi xanisile swi ringene ... u ni mbilu ya ribye mukhalabye ndzina.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Nhlawulo wa marito ya mutsari eka mavulavulelo ya Mpfuleni eka ntshaho lowu ya kombisa yini hi matitwelo ya Mpfuleni.",
+          "marks": 2,
+          "scenario": "'Mpfuleni u va rhanga hi ku tiehleketa u nga si vulavula na mina. Tsundzuka leswaku ndzi tata wa wena.'\n'U tata wa mani? U tata wa mina wena? A ndzi na tatana mina. U tatana wa njhani lowo khoma vana hi tihanyi to tani? I khale u hi xanisa man. Se mina ndzi tiyiserile swi ringene, ndzi ri swi ringene. Ndzi karhele man, ndzi karhele hi swa muti lowu. Hi fanele nkarhi hinkwawo hi tshama hi lo hlukuvala hikokwalaho ka wena. U ni tihanyi to chavisa man, tihanyi ta wena ti hi dyondzise ni vunwa. Hi fanele mikarhi hinkwayo hi hanya hi ku ku lukela mano ya ku ku kanganyisa, hi ku chava ku himeteriwa ni ku holoveriwa. U kanganyisa vanhu va ta tama va ku a hi ku lulama ka wena kasi u bihe, u ntsumi ya Sathana, ho tshama hi kala ro hisa laha mutini.'\n'Mpfuleni u vula mani sweswo, u vula mina ku va ntsumi ya ka Sathana?' ku vutisa nkulukumba Ntekele hi ku sungula ku kufumela.\n'Ndzi vula mani? Kasi ndzi vulavula na mani un'wanyana kwala? Ndzi vula wena, ndzi ri u hi xanisile swi ringene ... u ni mbilu ya ribye mukhalabye ndzina.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5.1",
+          "parent_id": "1.5",
+          "text": "N'wa-Xitlhelana a a lovile loko Mpfuleni a holova na tata wa yena.",
+          "marks": 2,
+          "scenario": "Hlamula u ku: 'hi swona' kumbe 'a hi swona' kutani u seketela nhlamulo ya wena:",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5.2",
+          "parent_id": "1.5",
+          "text": "Mpfuleni u landziwile hi Lefty leswaku a ya tshama na yena endzhaku ka ku holova na Ntekele.",
+          "marks": 2,
+          "scenario": "Hlamula u ku: 'hi swona' kumbe 'a hi swona' kutani u seketela nhlamulo ya wena:",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Mpfilumpfilu lowu a wu ri kona emutini wa Ntekele wu kanetana na mahanyelo ya Xikriste. Seketela mhaka leyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Manayila a ri munhu wo tlhariha no titsongahata. Kombisa ntiyiso wa mhaka leyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Ntekele a a ri na manyunyu yo tivona a antswa ku tlula vanhu van'wana. Seketela hi leswi humeleleke eka ntshaho lowu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": null,
+          "text": "Nyika vonelo ra wena ehenhla ka matikhomelo ya Muzayiwe ya ku tirhisa xiyimo xa Ntekele ku fikelela makwanga ya yena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "I yini lexi a xi tsakisa Manayila eka siku leri?",
+          "marks": 2,
+          "scenario": "Hi siku leri tlhandlamaka, ndzhaku ka ku sweka swakudya swa nhlikanhi, Manayila o fika, a kuma ku yime bazi ya nkarhi wa mbirhi hi ndzhenga, hi loko a namba a yi tala ehenhla. Ina, u fanele ku ya vonana ni makwavo Mpfuleni. Tani hilaha swi talaka ku va hakona, loko munhu a kala a kuma ndlela yo phuvula eka mhaka leyi a yi n'wi dya, Manayila a a twa a tsakile. Ni nimpundzu loko a pfuxelana ni tata wa yena loyi a a languteka a ri ni tingana naswona a punyarile, swi tikomba handle ka ku kanakanisa leswaku a a nga helanga hi ku byi swinya, u pfuxelane na yena xikandza xa yena xi lo nchanamanaaaa, ongeti a ku vanga na mhaka yo karhata exikarhi ka vona hi xatolo ka kona. Leswi swi hlamarisa nkulukumba Ntekele loyi a a langutele ku n'wi vona a rhwale nomu, xikandza xa yena xi ri karhi xi visungana a ri karhi a endla vukukurukukuru, ku komba ku pfimba chelele. Ina, nkulukumba Ntekele u hlamale ngopfu, a nga twisisi leswaku ntsako lowu a wu vonaka exikandzeni xa Manayila a wu ri wa yini.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Hikokwalaho ka yini nkulukumba Ntekele a a languteka a punyarile?",
+          "marks": 1,
+          "scenario": "Hi siku leri tlhandlamaka, ndzhaku ka ku sweka swakudya swa nhlikanhi, Manayila o fika, a kuma ku yime bazi ya nkarhi wa mbirhi hi ndzhenga, hi loko a namba a yi tala ehenhla. Ina, u fanele ku ya vonana ni makwavo Mpfuleni. Tani hilaha swi talaka ku va hakona, loko munhu a kala a kuma ndlela yo phuvula eka mhaka leyi a yi n'wi dya, Manayila a a twa a tsakile. Ni nimpundzu loko a pfuxelana ni tata wa yena loyi a a languteka a ri ni tingana naswona a punyarile, swi tikomba handle ka ku kanakanisa leswaku a a nga helanga hi ku byi swinya, u pfuxelane na yena xikandza xa yena xi lo nchanamanaaaa, ongeti a ku vanga na mhaka yo karhata exikarhi ka vona hi xatolo ka kona. Leswi swi hlamarisa nkulukumba Ntekele loyi a a langutele ku n'wi vona a rhwale nomu, xikandza xa yena xi ri karhi xi visungana a ri karhi a endla vukukurukukuru, ku komba ku pfimba chelele. Ina, nkulukumba Ntekele u hlamale ngopfu, a nga twisisi leswaku ntsako lowu a wu vonaka exikandzeni xa Manayila a wu ri wa yini.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "Xana mutsari loko a ku: '... a ri karhi a endla vukukurukukuru, ku komba ku pfimba chelele ...' Ku pfimba chelele i ku ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "yimbelela."
+            },
+            {
+              "label": "B",
+              "text": "xurha."
+            },
+            {
+              "label": "C",
+              "text": "hlundzuka."
+            },
+            {
+              "label": "D",
+              "text": "pfimba."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Hi kwihi ku hambana loku nga kona exikarhi ka vumunhu bya Manayila na Mpfuleni.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.14",
+          "parent_id": null,
+          "text": "Muluthanyi i ximunhuhatwa lexi vangaka dzolonga exikarhi ka ximunhuhatwankulu na xisihalari. Hi ku vona ka wena i mani muluthanyi exikarhi ka Manayila na Ntekele? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.15",
+          "parent_id": null,
+          "text": "Hlamusela hilaha rito 'vahedeni' ri hundzukeke xikhovolelo hakona eka vutomi bya Nkulukumba Ntekele?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.16",
+          "parent_id": null,
+          "text": "Hi yihi mhaka leyi a yi ri kona leyi ku vulavuriwaka hi yona eka ntila wa 8, lowu nge: 'Ongeti a ku vanga na mhaka yo karhata exikarhi ka vona hi xatolo ka kona'?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.17",
+          "parent_id": null,
+          "text": "Xana u nga vula yini hi xiboho xa Mpfuleni xa ku lan'wa ndyangu wa ka vona endzhaku ka ku holova na Ntekele?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.18",
+          "parent_id": null,
+          "text": "Ku rhandza ngopfu ku tekeriwa ehenhla swi na khombo. Kombisa vonelo ra wena u kongomisile eka Ntekele.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "XIYENGE XA B: NTLANGU - BYOKOTA MADLAYISANA – MM Marhanele",
+      "instructions": "Hlaya ntshaho lowu landzelaka hi vukheta kutani u hlamula swivutiso leswi nga ehansi ka wona.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Hi xihi xivangelo xa ku va vanhu lava va tikumile va ri eka ndhawu leyi?",
+          "marks": 1,
+          "scenario": "MAZIBUKO: A hi yeni hi ya n'wi boha a ha etlele, kambe loko o pfuka a hi ri vonanga. \nM'SAPA: Loko a ri mina a ndzi tshineli no tshinela, yanani n'wina tinhenha.\nMAZIBUKO: Hinkwerhu hi fanele ku boha wanuna loyi.\nM'SAPA: Mina a ndzi yi. Va tolo va vurile loko va te: 'Tinhenha ti file matoya ya sala ya dlayana ni vuputsu.'\nMAZIBUKO: Loko u nga yi hi ta ku hehla evukosini.\nM'ZAMANI: M'sapa ri swi lava ngopfu ku dlayisa van'wana. Kasi u toya he M'sapa? Wo tiyela ku suma tinsimu emabyalweni. (Va nyantamela ku fana ni ximanga loko xi onga kondlo. Leswi MATHEBULA a etlele bya rifu, naswona a langutile ehenhla wonge u kombela ku hundzuseriwa xinwelo xa rifu hi loyi a nga n'wi tiveki, loyi a nga tshama a twa hi ta yena hi thicara Manganyi wa le Soweto, vavanuna va fikile va n'wi boha. Loko a ku phaphaa! a kuma leswaku va fikile va tirhile ntirho. Hiloko va rhangisana na yena va ya ehosini.)\nM'SAPA: Mazibuko ndza ku chava. Loko a ko va mina na M'zamani ingi hi nga dyi endlanga nchumu dyinuna ledyi.\nM'ZAMANI: Mina a ndzi nga chavi, a ndzi tivi wena na Khawana?\nMATHEBULA: Se mi ndzi yisa kwihi? Ndzi tshikeni ndzi sungula hi ku ya teka swiambalo swa mina lahaya.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Xana Mathebula a a ambarile yini eka siku leri?",
+          "marks": 2,
+          "scenario": "MAZIBUKO: A hi yeni hi ya n'wi boha a ha etlele, kambe loko o pfuka a hi ri vonanga. \nM'SAPA: Loko a ri mina a ndzi tshineli no tshinela, yanani n'wina tinhenha.\nMAZIBUKO: Hinkwerhu hi fanele ku boha wanuna loyi.\nM'SAPA: Mina a ndzi yi. Va tolo va vurile loko va te: 'Tinhenha ti file matoya ya sala ya dlayana ni vuputsu.'\nMAZIBUKO: Loko u nga yi hi ta ku hehla evukosini.\nM'ZAMANI: M'sapa ri swi lava ngopfu ku dlayisa van'wana. Kasi u toya he M'sapa? Wo tiyela ku suma tinsimu emabyalweni. (Va nyantamela ku fana ni ximanga loko xi onga kondlo. Leswi MATHEBULA a etlele bya rifu, naswona a langutile ehenhla wonge u kombela ku hundzuseriwa xinwelo xa rifu hi loyi a nga n'wi tiveki, loyi a nga tshama a twa hi ta yena hi thicara Manganyi wa le Soweto, vavanuna va fikile va n'wi boha. Loko a ku phaphaa! a kuma leswaku va fikile va tirhile ntirho. Hiloko va rhangisana na yena va ya ehosini.)\nM'SAPA: Mazibuko ndza ku chava. Loko a ko va mina na M'zamani ingi hi nga dyi endlanga nchumu dyinuna ledyi.\nM'ZAMANI: Mina a ndzi nga chavi, a ndzi tivi wena na Khawana?\nMATHEBULA: Se mi ndzi yisa kwihi? Ndzi tshikeni ndzi sungula hi ku ya teka swiambalo swa mina lahaya.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Handle ka Mathebula, hi byihi vuxaka exikarhi ka hosi Magamana na vanhu lava nga eka ntshaho lowu?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "I yini a a xi chavisa M'sapa eka ntshaho lowu?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Hlawula nhlamulo yin'we eka leti landzelaka: Marito ya Mhangani ya leswaku 'mhaka leyi ndzi ta yi vona, a yi nga heli ntsena', ya hlamusela leswaku u ta …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "rilela."
+            },
+            {
+              "label": "B",
+              "text": "rihisela."
+            },
+            {
+              "label": "C",
+              "text": "tsutsumela."
+            },
+            {
+              "label": "D",
+              "text": "khulela."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "Hi wihi ntikelo wa marito ya Mazibuko ya leswaku, 'Mazibuko ndza ku chava'?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Hosi Magamana loko a fanele a ahlula milandzu a rhanga a endla vulavisisi ku lava ku kuma vumbhoni lebyi tiyeke.",
+          "marks": 2,
+          "scenario": "Hlamula 'hi swona' kumbe 'a hi swona', u tlhela u seketela nhlamulo ya wena.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.8",
+          "parent_id": null,
+          "text": "Hlamusela lexi nga endla leswaku Mathebula va n'wi khoma hi ku olova.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.9",
+          "parent_id": null,
+          "text": "Hikokwalaho ka yini Mavundza a tshikelela mhaka ya leswaku Gezani u dlayiwile hi swibakele swa Mathebula.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.10",
+          "parent_id": null,
+          "text": "N'wa-Rimbelule a ri munhu wa ku rhandza ntiyiso na ku tshembeka. Seketela mhaka leyi.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.11",
+          "parent_id": null,
+          "text": "Xana timhaka leti nga eka ntshaho lowu a ti humelela etikweni rihi?",
+          "marks": 1,
+          "scenario": "MABOKORO: Wansati loyi u ni nhlana o swi thya, thya, hi xin'we-xin'we, hambi leswi va nge vavasati va ehleketa hi timbilu loyi u ehleketa hi byongo.\nMAMBURU: Leswi nga vuriwa hi wansati loyi swa yelana ni leswi hi nga swi twa tolo ni vusiku endlwini ya Mathebula.\nMAGAMANA: Hi ku komisa u nga yima wena Mamburu u hlamusela tiko leswi wena ni vandla ra wena mi swi tweke tolo endlwini ya Thebuyi. (MAMBURU a yima a hlamusela hinkwaswo.)\nVANHU: Mayeke, n'anga hi yona mudlayi lonkulu laha tikweni.\nM'SAPA: N'anga Mavundza yi pariwile swi le rivaleni.\nMAZIBUKO: (A hlevetela.) Mavundza u tidlayisile hi ku thathela ncuva wa Xingoni a tshika wa Xitsonga.\nMAGAMANA: Vumbhoni bya vudyohi bya n'anga byi ringene ni tiko ri xurhile hi ntiyiso lowu ri wu kumeke. Ndzi nga si nyumisa maxaka, vana, vanakulobye, vasati ni swigangu swa n'anga Mavundza, hi leswi ndzi nga ta endla swona, ndzi rhandza ku tisola eka nkulukumba Mathebula. Wena Mathebula ndzi hosi ya wena, kambe namuntlha ndzi nandza wa wena. Ndzi ku dyoherile ngopfu, hikuva ndzi lavile ku humesa vutomi bya wena u nga ri na xidyoho nandzu. Ndzi ta basisa vito ra wena hi ku ku nyika xitulu eka muganga wun'wana etikweni ra mina. Tiva Thebuyi, a wa ha ri mubohiwa kumbe gayisa, …",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.12",
+          "parent_id": null,
+          "text": "Nyika mavito ya vanhu lava va twiweke va vulavula endlwini ya Mathebula.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.13",
+          "parent_id": null,
+          "text": "Hlamusela leswi hosi Magamana a tisolaka eka swona eka ntshaho lowu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.14",
+          "parent_id": null,
+          "text": "Xana hosi Magamana u n'wi khensile hi yini N'wa-Rimbelule? Nyika SWIMBIRHI ntsena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.15",
+          "parent_id": null,
+          "text": "Kombisa ku titwa ka vaakatiko eka siku leri.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.16",
+          "parent_id": null,
+          "text": "Hi kwihi ku tikeriwa loku Mathebula a langutanile na kona mayelana na nsati wa yena Makhanana eka siku leri?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.17",
+          "parent_id": null,
+          "text": "Hikokwalaho ka yini hosi Magamana loko a vulavula na Mathebula a ku: 'Thebuyi'?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.18",
+          "parent_id": null,
+          "text": "Kombisa ku hambana exikarhi ka vumunhu bya Makhanana na N'wa Rimbelule.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.19",
+          "parent_id": null,
+          "text": "Nyika vonelo ra wena ehenhla ka ku va Mathebula a rivalerile Makhanana.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.20",
+          "parent_id": null,
+          "text": "Nawu wa 'tihlo hi tihlo' lowu a wu tirhisiwa hi hosi Magamana a wu amukeleki eka nkarhi wa sweswi? Seketela.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "XIYENGE XA B: NTLANGU - KU DYELA NYAMA EMATLUKENI – DJ Risenga",
+      "instructions": "Hlaya ntshaho lowu landzelaka hi vukheta kutani u hlamula swivutiso leswi nga ehansi ka wona.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Vanhu lava bulaka laha a va tshama etikweni rihi?",
+          "marks": 1,
+          "scenario": "MZAMANI: U fambile njhani lomu a wu yile kona? Va njhani va ka Piet?\nMA'AM JOYCE: Va kona. A ku na swi karhata, na yena Vukosi u kona, o karhatiwa hi swivavi ekhwirini. Ndzi n'wi khutazile leswaku swi ta hela nakona a swi na dokodela wo swi tshungula, loko nkarhi wu fikile swi ta nyamalala hi swoxe.\nMZAMANI: Swivavi swo tano a swi kombi leswaku u tirhwele? Hikona u swi twa sweswi u nga n'wi endzela, naswona swi endla tin'hweti tingani?\nMA'AM JOYCE: U vula leswaku i n'hweti ya vukaye.\nMZAMANI: Loko a nga ku byelangi swa ha suka emasungulweni u endle xihoxo. Yena Vukosi a a fanele a ku byerile wena mana wa yena kutani wena u byela mina. Lo'wa xigangu xakwe Piet a a nga ta vula nchumu eka mina, i swilo swa vavasati.\nMA'AM JOYCE: A a nga ri kona. A hi ri vambirhi ntsena. (A nga hlamuli xivutiso xa Mzamani lexo sungula xa ku va Vukosi a vikela mana wakwe swa ha ku sungula, kuveni Vukosi u n'wi byerile. Yena Ma'am Joyce u tshame na swona.)\nMZAMANI: Leswi swi nga kusuhi, masiku ya wena yo ya n'wi seketela ya le kusuhi. Hambileswi va nga si tekanaka ximfumo, hi nawu a a fanele a va laha kaya, eka wena mana wa yena. Le ... hi le nhoveni, ...",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Nyika vito ra ndhawu leyi Ma'am Joyce a endzele eka yona ku kala a vutisiwa leswaku 'U fambile njhani lomu a wu yile kona?'",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Xana Piet loyi ku vulavuriwaka hi yena a a tirha ntirho muni?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Ma'am Joyce a a tshembekile eka nuna wa yena.",
+          "marks": 2,
+          "scenario": "Vula 'hi swona' kumbe 'a hi swona' kutani u seketela nhlamulo ya wena.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Hlamusela ndlela leyi Ma'am Joyce a leleke Mzamani hi yona loko a ya eka Vukosi ro sungula.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Marito lawa ya nge: 'Lo'wa xigangu xakwe Piet' ya paluxa yini hi matitwelo ya Mzamani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "I yini leswi hi kombisaka leswaku Vukosi a teka nkarhi wo leha a nga vonani na tata wa yena?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.8",
+          "parent_id": null,
+          "text": "Hlamusela ndlela leyi Ma'am Joyce a nga seketela Vukosi hi yona eka xiyimo lexi a a ri eka xona.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.9",
+          "parent_id": null,
+          "text": "Maendlelo ya Piet yo lava ku pfuniwa hi Ma'am Joyce mayelana na swa timali a ya amukeleki. Seketela mhaka leyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.10",
+          "parent_id": null,
+          "text": "Aneka vonelo ra wena mayelana na vukati bya Ma'am Joyce na Mzamani?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.11",
+          "parent_id": null,
+          "text": "Boxa vito ra n'wana wa Vukosi na Piet.",
+          "marks": 1,
+          "scenario": "VHAKISA: Hi vuyisile ka N'waMzamani. Hambi kona! Yhi! (Muongori u ta na n'wana a n'wi tlakurile. U n'wi nyiketa mana wakwe a n'wi xinga. Hinkwavo va n'wayitela ku katsa na muongori.) Ma yi vona mihlolo ka! I Piet hi yexe! Futhi loko wo kaneta u ta va u hlola!\nPIET: Hi n'wina mi nga na tihlo ra gama. Mina yo na yi xa.\nMUONGORI: Kambe ko va n'wina buti hi n'wexe. Hambi va ku yini, mi lo tiveleka. (Vhakisa na Piet va huma. Va siya Vukosi a ha ri emubedweni. Muongori u tlherisela n'wana ekamareni laha ku nga na vana van'wana.)\nPIET: …, a mi titwisa ku yini loko Vukosi a wela ehansi nkarhi lowuyani loko a lava ku mi hambanisa na Xilavi?\nVHAKISA: Ebyongweni bya mina a ku hlangenehlangene, ndzi vuya ndzi pembunuka ku n'wi vona a wela ehansi. Ku ta ku chava ka leswaku a nga onhakeriwa, kasi va ka Munene va ta hi vhikela va tlhela va amukela n'wana exibedhlele.\nPIET: Mi swi tekise ku yini swa vamanana lavaya?\nVHAKISA: A ku na swin'wana i byalwa lebyi va karhatisaka. Loko a yi nga ri mhaka ya Vukosi a ndzi lava ku n'wi rhidimba loyi Xilavi. Yena byalwa a byi n'wi lawuli ngopfu, kambe ku pyopyiwa a a pyopyiwile.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.12",
+          "parent_id": null,
+          "text": "Vito leri thyiweke n'wana wa Vukosi na Piet, ri na nsunsumeto muni eka ntlangu lowu?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.13",
+          "parent_id": null,
+          "text": "Xana Piet u vula yini loko a ku. 'Mina yo na yi xa.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.14",
+          "parent_id": null,
+          "text": "Loko Vhakisa a ku: 'Piet hi yexe!' u hlamusela leswaku n'wana u fana ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "na makwavo."
+            },
+            {
+              "label": "B",
+              "text": "na yena."
+            },
+            {
+              "label": "C",
+              "text": "a ri yexe."
+            },
+            {
+              "label": "D",
+              "text": "na hahani."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.15",
+          "parent_id": null,
+          "text": "Xana Vhakisa na Xilavi a a va hambanisiwa loko ku humelela yini?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.16",
+          "parent_id": null,
+          "text": "Marito ya Vhakisa loko a ku: 'Hambi kona! Yhi!' ya paluxa yini hi ku titwa ka yena?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.17",
+          "parent_id": null,
+          "text": "Hlamusela leswi ku tsakisaka hi vumunhu bya Vhakisa.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.18",
+          "parent_id": null,
+          "text": "Handle ka mhaka ya ku velekiwa ka n'wana, hi yihi mhaka yin'wana leyi Ma'am Joyce a nga ya yi rungulela Mzamani.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.19",
+          "parent_id": null,
+          "text": "Eku vuyeni ka Ma'am Joyce hi le ka Vukosi i yini lexi hlamariseke Mzamani mayelana na maambalelo ya yena?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.20",
+          "parent_id": null,
+          "text": "Kun'wana eka tsalwa leri Ma'am Joyce u ri eka Mzamani, 'A ndzi mi kombeli, ndzo mi byela.' Hi ku vona ka wena mavulavulelo lawa ya kombisa yini hi vumunhu bya Ma'am Joyce?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "XIYENGE XA C: SWIRUNGULWANA/SWIHUNGWANA",
+      "instructions": "Eka xiyenge lexi, swivutiso swi huma eka swirungulwana leswi landzelaka: 'MACHONISI' hi SJ Malungana; 'MASASEKA-FULARHA' hi KA Khosa. Hlamula swivutiso swo huma eka mintshaho HAMIMBIRHI ku nga XIVUTISO XA 4.1 NA XIVUTISO XA 4.2.",
+      "questions": [
+        {
+          "id": "4.1.1",
+          "parent_id": null,
+          "text": "I vana va xikolo xihi lava a va yimbelela eka ntshaho lowu?",
+          "marks": 1,
+          "scenario": "Xi te xiyimo xa ha ri tano, vana va xikolo va ta va ri karhi va yimbelela va ku: 'Tata gorilla tana! Hiyoo! Hakamela! Hiyoo! Huma ni tirhisiti! Hiyoo! Handle ka swona! Hiyoo! Hi ku hisile!'\nHakamela u lo na swi vonisa sweswo o kongoma fasitere ra hofisi yakwe. Ni laha a nga nghena hi kona a va kumanga ni vuthala. Hi ku hlundzuka, vana va xikolo hi ku pfunana ni vatswari va phikurile Cressida ya Hakamela yi ganama kunene. Leswi a yi swi twile khale, a ku twala vupfoyopfoyo ntsena. Hakamela u nghenile endlwini bya xihuhuri. Nsati u hlamarisiwile hi ku vona nuna a tsutsuma a khomile piki. Hi ku copeta ka tihlo rivanti ri tshwa ni khiya, kutani ku landzela ku mbeyetela ka piki ekamareni. Sorisa u te a ha hlamala leswi a swi endliwa hi nuna, a hoxa mahlo yakwe ehenhla ka ntshungu lowu a wu ri karhi wu yimbelela hi ndlela yo komba ku hlundzuka wu kongomile emutini wakwe. Ntshungu lowu loko wu vona Sorisa wu nyanya ku tsutsuma wonge i vahloti lava a va lava ku gajela mpfundla. Ntshungu a wu hetanga nkarhi wu nga rhendzelanga muti wa Hakamela. Sorisa a twa wonge u biwa hi xirhami lexi vangiweke hi ku wa ka gamboko.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.2",
+          "parent_id": null,
+          "text": "Xana Hakamela a endlile yini ku kala vanhu lava va n'wi tela ehofisini na le kaya?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.3",
+          "parent_id": null,
+          "text": "Hlamusela leswi susumeteke Hakamela ku endla mhaka leyi u yi boxeke eka 4.1.2.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.4",
+          "parent_id": null,
+          "text": "Eka ntila wa 1 mutsari u ri, 'Xi te xiyimo xa ha ri tano,' Xana i xiyimo xihi lexi ku vuriwaka xona eka ntshaho lowu?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.5",
+          "parent_id": null,
+          "text": "Kombisa ntlimbo wa le handle lowu Hakamela a ri na wona eka xirungulwana lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.6",
+          "parent_id": null,
+          "text": "Hi ku ya hi nhlamuselo ya masiku hinkwawo, 'ku mbeyetela' swi vula ku …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "ba xilo ko tala."
+            },
+            {
+              "label": "B",
+              "text": "wa ka xilo ko tala."
+            },
+            {
+              "label": "C",
+              "text": "ta ka xilo ko tala."
+            },
+            {
+              "label": "D",
+              "text": "fa ka xilo ko tala."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.7",
+          "parent_id": null,
+          "text": "Kombisa mhaka yin'we eka xirungulwana hinkwaxo leyi paluxaka leswaku Hakamela a nga tlharihangi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.8",
+          "parent_id": null,
+          "text": "Vito ra Sorisa ra yelana na mahanyelo ya yena. Seketela mhaka leyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.9",
+          "parent_id": null,
+          "text": "Hi ku leteriwa hi leswi nga eka ntila wa 19, xana u n'wi twela vusiwana Sorisa ke? Seketela hi leswi nga eka tsalwa hinkwaro.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.1",
+          "parent_id": null,
+          "text": "Boxa mintirho MIMBIRHI leyinene leyi Patricia a yi endla emutini wa Bettie na Tommie.",
+          "marks": 2,
+          "scenario": "'Patricia wa ha swi tsakela ku tirha laha kaya hambileswi Mpho a nga kula ke?'\n'Mi vula yini sister?'\n'Ndzi tsakela leswaku u ya ndzi pfuna le clinic', Bettie a n'wi kombela hi moya lowunene. Patricia a a nga voni xiphiqo hikuva Mpho a a yisiwa eElite Creche mixo un'wana na un'wana. Hi minkarhi yo tala hinkwavo a va vuya va karhele entirhweni. Mutirhi wo pfala Patricia le mutini a a nga ha kumekanga. Loko va chayisa ku vuya yi va yona le mutini. 'Buti Tom, u fanele u vuya u sweka toe!' 'Ndza swi twisisa, kambe Patricia u ta hi teka njhani?' 'A nga hlamarisa hi yini? U dyondzekile n'wana loyi! swo va swa vutomi bya hositele swa nyumisa, phela hi le mutini laha; a hi le Medunsa Bettie man!' Bettie u lo na twa leswi o khanisa timhuti, a tlula a tswontswa Tommie. 'Ndza swi twisisa, darling, ndzi ta endla cool down my baby, please!' Tommie a vula leswi a karhi a vunga-vunga nsati hi swiambalo wonge o va ndzumulo. Ku sukela siku leri dokodela Madambi a va nga ha pfali hi awara ya ntsevu nimadyambu, kambe a va pfala ntirho hi awara ya mune. A va tsutsumela mapoto na wacheni. Ku vuya ka Bettie hi awara ya nhungu nimadyambu a swo fanela swi tshame hi mfanelo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.2",
+          "parent_id": null,
+          "text": "Dokodela Madambi na sister Bettie a va tirha kwihi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.3",
+          "parent_id": null,
+          "text": "Marito lawa, 'Bettie u lo na twa leswi o khanisa timhuti, …' ya vula yini?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.4",
+          "parent_id": null,
+          "text": "Xana maendlelo lawa ya Bettie yo khanisa timhuti na ku tswontswa Tommie ya kombisa yini hi vumunhu bya yena?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.5",
+          "parent_id": null,
+          "text": "Marito lama 'Ndza swi twisisa, kambe Patricia u ta hi teka njhani?' ya paluxa yini hi vutihlamuleri bya Madambi tani hi nhloko ya muti?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.6",
+          "parent_id": null,
+          "text": "I mani Maseseka-Fulara eka xirungulwana lexi? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.7",
+          "parent_id": null,
+          "text": "Marito lawa 'Mutirhi wo pfala Patricia le mutini a a nga ha kumekanga ...' ya hlamusela yini mayelana na ku laviwa ka mutirhi wa le kaya?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.8",
+          "parent_id": null,
+          "text": "Mhaka ya ku va Madambi a vuya a sweka na ku hlantswa masiku hinkwawo ya amukeleka ke? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.9",
+          "parent_id": null,
+          "text": "Hi ku vona ka wena dyondzo yi swi kotile ku aka Tommie na Bettie loko swi ta eka timhaka ta vutomi ke? Seketela mhaka ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "XIYENGE XA D: VUTLHOKOVETSERI",
+      "instructions": "Hlamula swivutiso swo huma eka switlhokovetselo HASWIMBIRHI ku nga XIVUTISO XA 5.1 NA XIVUTISO XA 5.2.",
+      "questions": [
+        {
+          "id": "5.1.1",
+          "parent_id": null,
+          "text": "Hi mintila leyi nga hundziki mune boxa hungunkulu leri mutlhokovetseri a lavaka ku ri fikisa hi xitlhokovetselo lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": "NDZA SWI TIVA – KG Baloyi\n1 U nga kali u ndzi holovela,\n2 U nga kali u ndzi hlundzukela u ndzi chovola,\n3 Ndzi swi tiva swinene,\n4 Leswaku wena hi wena,\n5 A wu ndzi kohli ndza ku tiva.\n...\n23 Khwiri ra misava i rikulu,\n24 Kasi hikwalaho ka yini ku fa ku nga fi?\n25 Fana wena rifu hi ta wisa.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": null,
+          "text": "Nyika nhlamuselo ya rito 'Mumbi' eka xitlhokovetselo lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": null,
+          "text": "Mutlhokovetseri u hlamusela yini hi ntila wa 24 lowu nge: 'Kasi hikwalaho ka yini ku fa ku nga fi?'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": null,
+          "text": "Boxa xikongomelo xa mutsari eka xitlhokovetselo lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": null,
+          "text": "Marito ya 'Ntshiva wa nkarhi …' eka ndzimana ya vunharhu ya vula ku … ka nkarhi?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "yima"
+            },
+            {
+              "label": "B",
+              "text": "fika"
+            },
+            {
+              "label": "C",
+              "text": "famba"
+            },
+            {
+              "label": "D",
+              "text": "xanisa"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": null,
+          "text": "Ku vuyeleriwa ka rito ra 'Ndzi' eka mintila ya 19 na 20 swi komba ntshikelelo. Hi yihi mhaka leyi ku tshikeleriwaka yona?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": null,
+          "text": "Kombisa thoni leyi tisiwaka hi mintila ya 19 na 20 eka ndzimana ya 4. Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": null,
+          "text": "Tsavula ntila eka ndzimana ya vumbirhi lowu vulaka leswaku a nga na wona marito eka leswi a kongomaneke na swona.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": null,
+          "text": "Ku va xitlhokovetselo xi hela hi ndzimana ya mintila yitsongo eka tindzimana letin'wana swi kombisa ku hela ka swilo swimbirhi. Andlala vonelo ra wena ehenhla ka mhaka leyi.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": null,
+          "text": "Hi mintila leyi nga tluliki MUNE nyika mongo wa xitlhokovetselo lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": "TSAKANI HI BYONA – KG Baloyi\n1 Vutomi a byi lavi ku chacheriwa marhonge,\n2 A byi lavi ku humeseriwa ntshiva,\n3 A byi lavi ku dlembadlembisiwa,\n4 Vutomi a byi lavi ku sohasohiwa.\n...",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": null,
+          "text": "Tsavula marito eka ndzimana ya 1 lama vulaka leswaku nkanu a yi laveki evuton'wini.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": null,
+          "text": "Mbuyelelo wa marito 'a byi lavi ku …' eka ndzimana ya 1 wu tshikelela mhaka yihi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": null,
+          "text": "Hi swihi swin'wana leswi mutlhokovetseri a kumbetelaka leswaku hi swona swi karhataka vanhu evuton'wini eka ndzimana ya 3?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": null,
+          "text": "Xana rito 'muka' eka ntila wa 18 ri vula yini eka xitlhokovetselo lexi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.6",
+          "parent_id": null,
+          "text": "Rito rin'wana leri vulaka ku dina laha ka xitlhokovetselo i …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "ntshiva."
+            },
+            {
+              "label": "B",
+              "text": "swirha."
+            },
+            {
+              "label": "C",
+              "text": "fundzha."
+            },
+            {
+              "label": "D",
+              "text": "vindza"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.7",
+          "parent_id": null,
+          "text": "Nyika dyondzo leyi u yi kumeke eka xitlhokovetselo lexi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.8",
+          "parent_id": null,
+          "text": "Xana xitlhokovetselo lexi xi ku lemukisa yini?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.9",
+          "parent_id": null,
+          "text": "Xana u titwa njhani endzhaku ka loko u hlayile xitlhokovetselo lexi? Seketela nhlamulo ya wena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 27029,
+    "cached_tokens_saved": 0
+  }
+}

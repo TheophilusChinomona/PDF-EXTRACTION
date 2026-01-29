@@ -29,10 +29,12 @@ from app.db.memo_extractions import (
 from app.db.review_queue import add_to_review_queue
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
-from app.models.extraction import FullExamPaper
+from app.models.extraction import DocumentStructure, FullExamPaper
 from app.models.memo_extraction import MarkingGuideline
+from app.services.document_classifier import classify_document
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
+from app.services.opendataloader_extractor import extract_pdf_structure
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 from app.services.memo_extractor import extract_memo_data_hybrid, PartialMemoExtractionError
 from app.services.webhook_sender import send_extraction_completed_webhook
@@ -47,7 +49,7 @@ async def extract_pdf(
     request: Request,
     file: UploadFile = File(..., description="PDF file to extract"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
-    doc_type: str = Form('question_paper', description="Document type: 'question_paper' or 'memo'"),
+    doc_type: Optional[str] = Form(None, description="Document type: 'question_paper' or 'memo'. If omitted, auto-detected."),
 ) -> Response:
     """
     Extract structured data from a PDF file using hybrid pipeline.
@@ -76,12 +78,18 @@ async def extract_pdf(
     temp_file_path: Optional[str] = None
 
     try:
-        # Step 0: Validate doc_type
-        if doc_type not in ('question_paper', 'memo'):
+        # Step 0: Validate doc_type (if explicitly provided)
+        classification_method: Optional[str] = None
+        precomputed_doc_structure: Optional[DocumentStructure] = None
+
+        if doc_type is not None and doc_type not in ('question_paper', 'memo'):
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail=f"Invalid doc_type '{doc_type}'. Must be 'question_paper' or 'memo'"
             )
+
+        if doc_type is not None:
+            classification_method = "user_provided"
 
         # Step 1: Validate PDF file
         try:
@@ -93,6 +101,29 @@ async def extract_pdf(
                 status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
                 detail=f"Corrupted or invalid PDF: {str(e)}"
             )
+
+        # Step 1b: Auto-classify if doc_type not provided
+        if doc_type is None:
+            # Write temp file early so we can run OpenDataLoader for classification
+            temp_file_path = os.path.join(
+                tempfile.gettempdir(),
+                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
+            )
+            with open(temp_file_path, "wb") as f:
+                f.write(content)
+
+            # Extract structure (reused later to avoid duplicate work)
+            precomputed_doc_structure = extract_pdf_structure(temp_file_path)
+
+            # Run classifier cascade
+            gemini_client = get_gemini_client()
+            classification = classify_document(
+                filename=sanitized_filename,
+                markdown_text=precomputed_doc_structure.markdown,
+                gemini_client=gemini_client,
+            )
+            doc_type = classification.doc_type
+            classification_method = classification.method
 
         # Step 2: Check for duplicate (route based on doc_type)
         supabase_client = get_supabase_client()
@@ -130,16 +161,17 @@ async def extract_pdf(
                     is_retry = True
                     retry_count = existing_result.get("retry_count", 0) + 1
 
-        # Step 3: Save file temporarily to disk
-        temp_file_path = os.path.join(
-            tempfile.gettempdir(),
-            f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
-        )
-
-        with open(temp_file_path, "wb") as f:
-            f.write(content)
+        # Step 3: Save file temporarily to disk (skip if already written during classification)
+        if temp_file_path is None:
+            temp_file_path = os.path.join(
+                tempfile.gettempdir(),
+                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
+            )
+            with open(temp_file_path, "wb") as f:
+                f.write(content)
 
         # Step 4: Extract PDF data using hybrid pipeline (route based on doc_type)
+        # get_gemini_client() returns a singleton, so this is cheap even if called twice
         gemini_client = get_gemini_client()
 
         extraction_result: Optional[Union[FullExamPaper, MarkingGuideline]] = None
@@ -151,11 +183,13 @@ async def extract_pdf(
                 extraction_result = await extract_memo_data_hybrid(
                     client=gemini_client,
                     file_path=temp_file_path,
+                    doc_structure=precomputed_doc_structure,
                 )
             else:
                 extraction_result = await extract_pdf_data_hybrid(
                     client=gemini_client,
                     file_path=temp_file_path,
+                    doc_structure=precomputed_doc_structure,
                 )
         except (PartialExtractionError, PartialMemoExtractionError) as e:
             # Gemini failed but OpenDataLoader succeeded - save partial result
@@ -178,6 +212,11 @@ async def extract_pdf(
                     status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                     detail=f"Processing error: {str(e)}"
                 )
+
+        # Step 4b: Inject classification metadata into extraction result
+        if extraction_result is not None and classification_method:
+            extraction_result.processing_metadata["classification_method"] = classification_method
+            extraction_result.processing_metadata["doc_type"] = doc_type
 
         # Step 5: Store result in database (including partial results)
         file_info = {
@@ -345,7 +384,10 @@ async def extract_pdf(
         # Prepare headers for response (including routing information for logging)
         response_headers = {
             "X-Extraction-ID": extraction_id,
+            "X-Doc-Type": doc_type,
         }
+        if classification_method:
+            response_headers["X-Doc-Type-Method"] = classification_method
 
         # Add routing information to headers for logging middleware
         if extraction_result and extraction_result.processing_metadata:

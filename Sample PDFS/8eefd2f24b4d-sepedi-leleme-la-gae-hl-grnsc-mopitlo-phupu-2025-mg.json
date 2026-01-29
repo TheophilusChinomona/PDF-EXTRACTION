@@ -1,0 +1,638 @@
+{
+  "meta": {
+    "subject": "Sepedi Leleme la Gae (HL)",
+    "paper_type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "Mopitlo/Phupu",
+    "grade": "NSC",
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1.1",
+          "text": null,
+          "type": "Direct Quote",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "(a)",
+              "value": "'… go se fiwe ka mabjokong.'"
+            },
+            {
+              "sub_id": "(b)",
+              "value": "'O be o tla bolotšwa ka nose.'"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kgethologanyo ya semorafe.",
+            "Go rekwa dipuku.",
+            "Go ithutwa ka tlala.",
+            "Go sepelwa maeto a matelele ka maoto go ya dikolong.",
+            "Go hloka tšhelete."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "TŠE THARO fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Go fedišwa ga thupa dikolong.",
+            "Go se sa lefela dithuto."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "E TEE fela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Thuto ka Afrika-Borwa ke kgapeletšo.",
+            "Ditlabakelo tša thuto di fiwa barutwana ntle le tefo.",
+            "Dikolo di ile tša kaonafatšwa.",
+            "Dikolo di ile tša šuthetšwa kgauswi le batho.",
+            "Dikolong go na le Lenaneo la phepo ya barutwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "TŠE PEDI fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mmušo wa temokrasi o thomile tirišo ya theknolotši dikolong tša Bathobaso mola ka mmušo wa kgethologanyo theknolotši e be e se gona ka dikolong tša Bathobaso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.6",
+          "text": "Go ingwaya ka lekomane ka magetleng.",
+          "type": null,
+          "model_answers": [
+            "Se hlaloša bose bjo Bathobaso ba ilego ba bo kwa ka morago ga ge theknolotši e thomile go dirišwa ka dikolong."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Go fa barutwana mabokgoni a go šomiša theknolotši ka go dira dinyakišišo dithutong tša bona.",
+            "Go ikgokaganya le barutiši le barutwana ka bona.",
+            "Go lokišetša barutwana lefase la mešomo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "TŠE PEDI fela",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Baithuti ba mohuta wo ba ka feleletša ba sa tšwelele dithutong, bokamoso bja nyelela.",
+            "Bao ba nago le thušo ya mašeleng ba ka tšeelwa thušo yeo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Karabo ya maleba e tla amogelwa.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ba thušwa ka mašeleng a go lefela dithuto.",
+            "Ba fiwa dithušathuto tša maleba.",
+            "Ba fiwa dijo sekolong.",
+            "Dikolo di le kgauswi le mo ba dulago."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "TŠE THARO fela.",
+          "notes": "Ee + Mehlala",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ba kgotlelele go fihla mphatong wa senyane ba tle ba ye dikholetšheng tša TVET go yo ithutela mošomo wa diatla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "B/Morutišigadi le barutwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Thapolete/Laptop/Sebaledi"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "SETŠWELETŠWENG SA A TEMANENG YA 2 go bolelwa ka gore barutwana ba Bathobaso le ba Bathobašweu matšatšing a lehono ba amogela thuto ya go swana mola SETŠWELETŠWA SA B seswantšhong sa 2 se bontšha morutišigadi wa Mothomošweu a ruta morutwana wa Mothomoso le wa Mothomošweu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Setlabela sa ditsebeng se thuša barutwana go efoga lešata le le ka bago gona/Gore tše di bolelwago di kwewe ke bona fela.",
+            "Setlabela sa letsogong se thuša go sepetša khesa mo khomphutheng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tiragalo ya seswantšho sa 2 e ka hlola botee le segwera magareng ga merafe ya go fapana.",
+            "E ka hlola tšhomišanommogo magareng ga merafe ya go fapana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Dikarabo tša maleba di tla amogelwa.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.6",
+          "text": "Maikutlo a lethabo",
+          "type": null,
+          "model_answers": [
+            "Ke thabišwa ke go bona bana ba rutwa tšhomišo ya Laptop/Sebaledi go tloga bonnyaneng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "Kakaretšo: Mokgwa wa go phela bophelo bjo bo nago le phepo",
+          "type": "Summary",
+          "model_answers": [
+            "Motho a hlokomele boima bja mmele wa gagwe.",
+            "Tlogela go ja dijo tša makhura le swikiri ye ntši.",
+            "Leka ka maatla go ja dijo tše di nago le phepo.",
+            "Netefatša gore ka letšatši o nwa tekano ya digalase tše seswai tša meetse.",
+            "Batho ba be le nako ya go ikhutša le go robala diiri tše seswai tšatši ka tšatši.",
+            "Go bohlokwa go itšhidolla ka ge se se thuša kelelo ya madi le tšhilego ya dijo mmeleng.",
+            "Batho ba bee maikutlo a bona ka fase ga taolo gore ba kgone go lebana le maemo afe kapa afe a bophelo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": "Meputso ye šupa (7) e abelwa dintlha tše šupa (7). Meputso ye meraro (3) e abelwa polelo.",
+          "notes": "Molekwa ga se a swanela go fokoletšwa meputso ge a sa laetša palo ya mantšu goba ge a se a bala mantšu gabotse.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "C/Batho bohle"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "'Reka pakana e tee ka R2.50 fela o hwetše e tee mahalahala!'"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Fonte ye kgolo e tšweletša leina la sebapatšwa/Fonte ye kgolo e goga šedi ya bareki mola fonte ye nnyane e tlaleletša molaetša wa papatšo/gokagoketša bareki."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sekotlelo - sekotlelwana"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Leswao la tlogelo le laetša gore kgopolo ya gore motho ge a lle go tla direga eng ga se ya felela.",
+            "Leswao la tlabego/makalo le gatelela kgopolo ya gore Maggi noodles di thabiša batho ka moka ebile di bose/ le laela bareki gore ge ba reka pakana e tee ya Maggi noodles ba tla hwetša e tee mahala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mmolelwana wo o na le mantšu a go se fete a šupa.",
+            "O gatelela mohola wa sebapatšwa.",
+            "O dira gore bareki ba se lebale sebapatšwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "TŠE PEDI fela.",
+          "notes": "Ee + Mehlala",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A/Ntle"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ipshina/thakgetše."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Pudula ya 1 ke ya go bolela mola ya 2 e le ya go nagana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Belege/Athile/Beputše (lephethi)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kepisi (leina)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Go a fiša/Letšatši le hlabile/Leratadima le hlakile.",
+            "Go aperwe diaparo tša selemo.",
+            "Go nwewa dino/lewa dijo tša go fodiša mmele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "E TEE fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": "Maikutlo a lethabo",
+          "type": null,
+          "model_answers": [
+            "Ke thabišwa ke go bona ba lapa ba le mmogo ba thabile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "'na le'",
+            "Leba la na le/Leba la tswalano."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Fihla/Khutiša",
+            "Matome o fihla/khutiša tšhelete ya gagwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "-ng mo go mahlong ke moselana wa go laetša lefelo leo diphošo tše dingwe di direlwago gona.",
+            "-ng mo go itshwareleng e dirišeditšwe go laela batho ba bantši gore ba itshwarele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tšona – E emetše mafokodi le diphošo tše di dirwago ke batho.",
+            "Bona – E emetše batho ba ba re ratago ebile ba re fa thekgo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ka – Le bontšha kgonagalo ya kaonafalo ya dikamano gare ga batho.",
+            "i – E laetša gore mošomo wa go swarela o dirwa godimo ga sediri ke sediri."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9226,
+    "cached_tokens_saved": 0
+  }
+}

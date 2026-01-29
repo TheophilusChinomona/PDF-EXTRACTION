@@ -1,0 +1,2159 @@
+{
+  "subject": "IsiZulu Ulimi Lokuqala Lokwengeza (FAL) P2",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "IsiZulu",
+  "total_marks": 70,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "ISIQEPHU A: INOVELI - ITHEMBA LAMI – LF Mathenjwa",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Ngokwalesi siqeshana osifundile ngabe lezi zitatimende ezilandelayo yiyiqiniso noma azilona iqiniso? (Bhala inombolo yombuzo bese ubhala: iqiniso noma akulona iqiniso lapho kufanele khona.)",
+          "marks": null,
+          "scenario": "ISIQESHANA A\n\nEkufikeni kwakhe kwaNonkamfela kwafuneka ukuba ahambe ayoyazisa inyanga ukuthi usebuyile. Wayehlose nokuthi ngalolo suku aqedele nenkokhelo eyayisisilele, ezwe noma hleze kukhona inyanga eyayingafisa ukukuphawula. Nebala kusihlwa selithanda ukuphola ilanga, wanikela khona wayifumana iziphumulele endlini ibeke umancishana ide yehlisa ilanga lasemini kwazise kuyashisa kuleliya eligudla ugu. Ukushisa kwelanga lakhona kufana nezulu lakhona elina unyaka wonke uze uyophela golokoqo. Kuyivela kancane ukuthola izimoba zakhona zichelelwa ngenkasa ngoba imvula khona yinsakavukela umchilo wesidwaba. Wezwakala eseluqanduqandu umfo kaMkhumane ekhuleka; 'Mankonofela owankonofela izifo zabafo nabafokazana, nsizw' endala eyacwil' esizibeni izinyanga ibhekene nenkosazana! Makhos' amakhulu!'\n'Ngena mfo kaMkhumane sizwe ukuthi usiphathele ziphi ebaQulusini.'\n'Hhiya baba, singaniphathela ziphi ngaphandle kwawo amahlalakhona lawa ezifo zethu?'\n'Cha ubukeka uncibilikile Mkhumane, negazi liya ngokuya lihlambuluka. Kufanele uqikelele ukuyisebenzisa impela leya mithi engagcina ngikunikeze yona.'\n'Kuyokwenzeka kanjalo baba Mbeje. Sengiphose ngalibala into ebekufanele ngiqale ngayo. Baba bengiphethe nanansi inkomo eyayisilele,' washo wawachaya amaphuphu ezikhova.\n'Thatha lokhu ukwethule emakhosini. Konke okungena lapha akukhona okwami okwamakhosi. Ngingajeza nokujeza uma ngingakwenza okwami, ...'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "Ekufikeni kwakhe kwaMbeje kwafuneka ukuba uSandanezwe ahambe ayokwazisa uFohlela ukuthi usebuyile.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "Kubo kaSandanezwe kusebaQulusini.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "USandanezwe wakhokhela uNonkamfela imali eyayisisilele ngalolu suku.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "Inkokhelo ebekwa nguSandanezwe kufanele ayethule kuFohlela.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "Kule ndawo yaseMacekane kunodedangendlale bamasimu kamoba.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Ngokwale noveli uhlala kuphi uNokulindela?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kulezi ezilandelayo:\nIsimo sokukhuluma esithi:\nImvula khona yinsakavukela umchilo wesidwaba sisho ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "into eyenzeka zonke izinsuku."
+            },
+            {
+              "label": "B",
+              "text": "into eyenzeka kanye ngonyaka."
+            },
+            {
+              "label": "C",
+              "text": "ukugqoka into eyodwa njalo."
+            },
+            {
+              "label": "D",
+              "text": "ukuchelela amasimu njalo ntambama."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Yiziphi izinto EZIMBILI ezenza ukuthi uNonkamfela azame isu lokuxosha uSandanezwe emzini wakhe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Tomula ibinzana/umusho okulesi siqeshana ofakazela ukuthi inyanga yayibeke ukhamba phambi kwayo ngesikhathi kufika uSandanezwe.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Chaza ukuthi laba balingiswa abalandelayo bangabantu abanjani ngokwezenzo zabo. Bhala amaphuzu AMABILI ngomlingiswa ngamunye.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.1",
+          "parent_id": "1.6",
+          "text": "UZondiwe",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.2",
+          "parent_id": "1.6",
+          "text": "UMaZikalala",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Ithini indikimba yale noveli? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Kwasehlisa kanjani isithunzi sikaZabalaza ukushaywa nguSandanezwe phambi kukaNokulindela?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": null,
+          "text": "USandanezwe wayengathembekile kwezothando. Sekela impendulo yakho ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "Ngubani owasiza umndeni kaSandanezwe ngemoto yokuya kwaCeza?",
+          "marks": 1,
+          "scenario": "ISIQESHANA B\n\n'Kulungile baba, ngisazoke ngiyocela imoto yalaphaya kwaSiwela ukuba basisize khona namhlanje, hhayi kusasa.' Nebala umnumzane wakwaSiwela akazange aba lukhuni komakhelwane bakhe. Kwasukwa ngayo leyo ntambama kuphikelelwe kwaCeza. Kwathi kuqambe kuqeda nya ukuhlwa, yabe ima imoto egcekeni kwaMbuyisa. 'O! Sikhulekile baba Mbuyisa! SingabakwaMkhumane kwelasenhla ebaQulusini size ngokugula!' Kwathuleka isikhashana, kwathi ngesikade lezwakala izwi eliyisihosho; 'Ngenani naye kuleya ndlu engezansi, umfana uzonilayela, ngiyeza khona manje.' Bahamba bayongena lapho umfana ebalayele khona. Wathi uma efika uMbuyazi wezwakala encinciza; 'Benihlaleleni nalo muntu esecishe wanifela nje? Niyambona ukuthi usengamathambo kanjani?'\n'Besilokhu sizama baba kodwa kusho khona ukuthi ukufa akuzwa lutho.'\n'Awuthi sibone-ke nsizwenye. Ake ukhumule sibone izimbilaphu ukuthi zinjani zona njengoba zonke izindlala zivuvukele nje. Anibheke imihlola madoda, nihlezi nomuntu izimbilaphu sezivuvuke kanjena. Buka nje lo muntu, ayisekho neyodwa indlala engavuvukile emzimbeni wakhe. Namanje mfana kusho ukuthi izimbiza obuzidla zinamandla ngoba zikwazile ukubamba lezi zimbilaphu zingaqhumi esikhathini eside kangaka. Le nto iyilumbo elicushwa kumuntu wesifazane. Abanye balicupha ngalesi silwane okuthiwa yimbila bayixube nezinhlamvu zesihlahla esithile okuthi uma leso sihlahla sesiqhuma nazo ziqhume ...'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Inyanga yathi licushwa kanjani ilumbo athakathwe ngalo uSandanezwe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "Ngokubhekisa emgqeni wesi-9 kuya kowe-14, bhala imibuzo EMIBILI ebuzwa nguMbuyisa kulesi siqeshana osifundile.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Fingqa ngamaphuzu AMABILI inkulumo kaMbuyisa kusuka emgqeni we-15 kuya kowe-19.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.14",
+          "parent_id": null,
+          "text": "Nikeza ubuhle nobubi bezenzo zomlingiswa onguNonkamfela kule noveli. Bhala iphuzu ELILODWA eliveza ubuhle neLILODWA eliveza ububi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.15",
+          "parent_id": null,
+          "text": "Chaza ukuthi kungani sithi uSandanezwe ungumlingiswa omkhulu kule ndaba. Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.16",
+          "parent_id": null,
+          "text": "Kungani kwaba yisenzo esihle ukuthi umnumzane abahlawulise kanzima oZabalaza ngokuthakatha uNokulindela? Sekela impendulo yakho ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.17",
+          "parent_id": null,
+          "text": "Umbhali wale noveli uphumelele ukusivezela kahle isifundo kule ndaba. Sekela impendulo yakho ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "ISIQEPHU A: INOVELI - KUSINDA KWEHLELA ENDODENI – SJ Mchunu",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Ngokwalesi siqeshana osifundile ngabe lezi zitatimende ezilandelayo yiyiqiniso noma azilona iqiniso? (Bhala inombolo yombuzo bese ubhala: iqiniso noma akulona iqiniso lapho kufanele khona.)",
+          "marks": null,
+          "scenario": "ISIQESHANA C\n\nNgelinye ilanga ubaba wagqoka ihembe lakhe lishwabene ngoba engenakulilungiselwa noma engenakunikwa insimbi alilungise. Kwala noma ethi ucela indodana yakhe ukuba imcelele umakoti amlungiselele, wathi usejahe emsebenzini yena. Uma ephumela ngaphandle abantu bayamangala ukubona uyise wabantu abagwilike kangaka, abahlala bebahle ngaso sonke isikhathi, engcole ngalolu hlobo. Abanye babeze bazibuze ukuthi ngabe akaqambi yini amanga uma ethi unguyise wabo na. Bayambona futhi ukuthi lo muntu uya ngokuya eguga kube sengathi akasadli nakudla lapho ehlala khona. Ngelinye ilanga ubaba ezihambela nje emgwaqeni bude buduze nalapho ehlala khona edolobheni laseThekwini, abonwe omunye umuntu ohlala ngalapho ehlala khona, ambingelele maqede bese ethi wamuzwa exoxa indaba yakhe, wasecabanga ukuthi amfundise ukudlala ilotho. Wabe esemcela ukuba ake afike kuyena. Lavuma-ke leli khehla, wayeselinika inombolo yomuzi wakhe. Ngemuva kwezinsuku ezine, babonana. Baxoxa. Bavumelane. Wameluleka ukuthi idlalwa kanjani ilotho nokuthi kusetshenziswa malini uma ufakela izinombolo ezingaki nokuthi idlalwaphi. Wabuye wamtshela ukuthi kuvulwa nini kuvalwe nini nezinsuku okudlalwa ngazo. Wambuza ukuthi wake wawadlala yini amahhashi, waphendula ngokuthi cha! Kwase kusho ukuthi kufanele adlale naye izinsukwana ezimbalwa aze afunde kahle impela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.1",
+          "parent_id": "2.1",
+          "text": "Umuzi kaMjwayeli useGoli.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.2",
+          "parent_id": "2.1",
+          "text": "Ngelinye ilanga uManyoba wagqoka ihembe lakhe lishwabene ngoba engenakulilungiselwa noma engenakunikwa insimbi alilungise.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.3",
+          "parent_id": "2.1",
+          "text": "Umakhelwane kaMjwayeli wafundisa uManyoba ukudlala ilotho.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.4",
+          "parent_id": "2.1",
+          "text": "Umakhelwane wabuye wambona uManyoba ngemuva kwamaviki amane.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.5",
+          "parent_id": "2.1",
+          "text": "UManyoba wayengakaze awadlale amahhashi.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Ngokwale noveli uhlala kuphi uMduduzi?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nLichazani igama elibhalwe ngokugqamile kuleli binzana elilandelayo:\n… uyise wabantu abagwilike kangaka. Abantu …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "abanemali eningi."
+            },
+            {
+              "label": "B",
+              "text": "abahlukumeza abanye."
+            },
+            {
+              "label": "C",
+              "text": "abenza ubugebengu."
+            },
+            {
+              "label": "D",
+              "text": "abathakatha abanye."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Yiziphi izizathu EZIMBILI ezenza ukuthi amadodana kaManyoba avumelane ngokuhlalisa abazali bawo ngokwehlukana?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Tomula umusho okulesi siqeshana ofakazela ukuthi uManyoba wayeya ngokuya encipha emzimbeni ngesikhathi ehlala nendodana yakhe.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "Chaza ukuthi laba balingiswa abalandelayo bangabantu abanjani ngokwezenzo zabo. Bhala amaphuzu AMABILI ngomlingiswa ngamunye.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.1",
+          "parent_id": "2.6",
+          "text": "UMduduzi",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.2",
+          "parent_id": "2.6",
+          "text": "UFanyana",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Ithini indikimba yale noveli? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.8",
+          "parent_id": null,
+          "text": "Ngesikhathi uManyoba ehamba nenduna uNgobese beya ehhovisi likaNdabazabantu, yini eyayenza ukuba azizwe ejabula kodwa aphinde ashaywe uvalo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.9",
+          "parent_id": null,
+          "text": "UNtombela wayengathembekile kumkakhe waseXobho. Sekela lesi sitatimende ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.10",
+          "parent_id": null,
+          "text": "Wayeyokwenzani uFanyana lapho okwakujwayele khona umama wakhe?",
+          "marks": 1,
+          "scenario": "ISIQESHANA D\n\nEmuva eGoli uFanyana uyobuza lapho kwase kujwayele khona umama wakhe. Umama wakhe wabe enomuzi ongumakhelwane ayewuvakashela emini afike athole okuya ethunjini. Lo muzi iwona umama ayewuxoxela ngendlela aphatheke ngayo lapha emzini wendodana yakhe. Kulo muzi yilapho umama ayesethandazela khona. Wayethokoza lapha umama ngoba umama wakulo muzi naye kwakunguMaNdlovu. Lo MaNdlovu naye wayewumuntu okholiwe futhi ezithanda izihlobo zakhe.\n'Ngqo … Ngqo …!'\n'Ubani lowo? Ngiyaphupha yini bantu?' Kubuza lo mama.\n'Yimina uMchunu, makhelwane.' Sekuphendula uFanyana ngezwi elincengayo.\n'Ngiyaphupha ngilele yini? Uthi akuzuvuka ubaba emathuneni esazilalela? Ngabe uwena lo ozongena kwami? Umkakho wayengibiza ngomthakathi!'\n'Cha! Awuphuphi mama. Ngicela ukungena, Gatsheni.'\n'Yeyeni webantu! Anizwe engibhuqa, uthi ngizwe kahle, uthini?'\n'Hawu Boya benyathi! Ngicela ungingenise, kukhona udaba engize ngalo.' Eseze wagebisa ikhanda. 'Ngena. Ufunani? Sheshisa ngiyasebenza la endlini. Ngiseneziningi izingubo okufanele ngiziwashe.' Wangena wangabe esapholisa maseko, wahlala phezu kwendaba. 'Njengoba wazi ukuthi uhambile umama izolo, abafowethu obekufanele babonane nabo esiteshini eMnambithi ababatholi. Sebebafune baze badela.'\n'Pho mina ngixhumaphi lapho njengoba ukhuluma nami ngila eGoli?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.11",
+          "parent_id": null,
+          "text": "Yiluphi usizo uMaNdlovu ayeluthola uma evakashele umakhelwane ngokwalesi siqephu?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.12",
+          "parent_id": null,
+          "text": "Ngokubhekisa emgqeni wesi-8 kuya kowe-11, bhala imibuzo EMIBILI ebuzwa ngumakhelwane kaFanyana kulesi siqeshana osifundile.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.13",
+          "parent_id": null,
+          "text": "Fingqa ngamaphuzu AMABILI okwenzeka kulesi siqeshana kusuka emgqeni we-15 kuya kowe-18.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.14",
+          "parent_id": null,
+          "text": "Nikeza ubuhle nobubi bezenzo zomlingiswa onguThembalihle kule noveli. Bhala iphuzu ELILODWA eliveza ubuhle neLILODWA eliveza ububi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.15",
+          "parent_id": null,
+          "text": "Chaza ukuthi kungani sithi uManyoba ungumlingiswa omkhulu kule ndaba. Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.16",
+          "parent_id": null,
+          "text": "Kungani kwaba yisenzo esihle ukuthi uManyoba abalele epulazini likaGeorge, ahambe ayosebenza emafemini? Sekela impendulo yakho ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.17",
+          "parent_id": null,
+          "text": "Umbhali wale noveli uphumelele ukusivezela kahle isifundo kule ndaba. Sekela ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "ISIQEPHU A: INOVELI - UMSHADO – N Zulu",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Ngokwalesi siqeshana osifundile ngabe lezi zitatimende ezilandelayo yiyiqiniso noma azilona iqiniso? (Bhala inombolo yombuzo bese ubhala: iqiniso noma akulona iqiniso lapho kufanele khona.)",
+          "marks": null,
+          "scenario": "ISIQESHANA E\n\nWethuka esefikile lapho okulindwa khona izinto zokuhamba uBhekani. Umqondo wakhe ugcwele imicabango engapheli. Akukho nokuncane ukujabula emphefumulweni wakhe. Iphupho namanje usengalixoxa ukusuka nokuhlala. Akawanaki vele amaphupho, futhi akafuni nezincazelo zawo kodwa leli lanamuhla linomkhuba phakathi. Okuxaka kakhulu ke futhi ukuthi nonina uphuphe lona leli phupho. Ame athule du. Umqondo wakhe ugxile ephusheni. Kusobala ukuthi uyise ufuna ashade ngokushesha uBhekani. Ingani ephusheni umbuze kaningi ebuza umbuzo owodwa: 'Namanje awukafuni ukuganwa? Namanje awukafuni ukuthatha umfazi?' Uma ekhumbula kahle uBhekani sengathi uphendulile kodwa uyise wahwaqa, ekhombisa ukuthi impendulo ayimgculisi.\n'Cha, kuzofuneka ngiganwe.' Ukhuluma yedwa njalo uBhekani. 'Kodwa ngizoshada nobani?' Wayezibuza lo mbuzo, impendulo wagcina engayitholanga. Umqondo wakhe wazulazula ethatha ebeka izintombi asake athandana nazo. Wayethi uma ezifaka esikalweni, ezihlolisisa zonke zingafaneli ukumgana. Bayanda manje abantu lapha okumelwe khona amatekisi. Nakhu sekufika intokazi ima eduze kukaBhekani. Athikaziseke emicabangweni yakhe. Abuke le ntokazi. Inhle. Imhlophe qwa. Izinwele lezi zilungiswe ngobunono obukhulu. Zinhle zikanywe kahle. Athi uma eyibhekisisa abone ubuhwanqa obuphuphuzelayo obucishe busikaze izihlathi. Kanti zinjani zona izihlathi! Ungafunga uthi azigcotshwa kodwa ziyapholishwa.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "UBhekani usefundise iminyaka emihlanu nje vo.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "Okwakuxaka uBhekani kakhulu ukuthi nonina wayephuphe lona leli phupho elibuza ukuthi uganwa nini.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "text": "UBhekani wayeqala ngqa ukubona uTholakele ngalolu suku.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.4",
+          "parent_id": "3.1",
+          "text": "Izihlathi zale ntokazi zabe zipholishwa.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.5",
+          "parent_id": "3.1",
+          "text": "UTholakele wafike wama eduze kukaBhekani.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Ngokwale noveli uhlala kuphi umama kaPamella?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nLichazani igama elibhalwe ngokugqamile kuleli binzana elilandelayo:\n… uyise wahwaqa. Ukushintsha ebusweni ekhombisa …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "ukuthukuthela."
+            },
+            {
+              "label": "B",
+              "text": "ukujabula."
+            },
+            {
+              "label": "C",
+              "text": "uthando."
+            },
+            {
+              "label": "D",
+              "text": "ukwaneliseka."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Yiziphi izizathu EZIMBILI ezenza ukuthi umama kaBhekani abone uThokaleke engakufanele ukuba ngumakoti wendodana yakhe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Tomula umusho okulesi siqeshana ofakazela ukuthi uBhekani wayengenayo intombi ayethandana nayo ayeyibona isezingeni lokuba umakoti wakhe.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Chaza ukuthi laba balingiswa abalandelayo bangabantu abanjani ngokwezenzo zabo. Bhala amaphuzu AMABILI ngomlingiswa ngamunye.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6.1",
+          "parent_id": "3.6",
+          "text": "UZenze",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6.2",
+          "parent_id": "3.6",
+          "text": "Umalume kaBhekani",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Ithini indikimba yale noveli? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.8",
+          "parent_id": null,
+          "text": "Isenzo sikaBhekani sokulobola uTholakele sabulimaza kanjani ubudlelwane phakathi kwakhe nomalume wakhe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.9",
+          "parent_id": null,
+          "text": "UBhekani wayengathembekile kwezothando. Sekela lesi sitatimende ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.10",
+          "parent_id": null,
+          "text": "Wayegqoke izingubo ezinjani uTholakele ngalolu suku?",
+          "marks": 1,
+          "scenario": "ISIQESHANA F\n\nAkahlalanga isikhathi eside. Wafika uTholakele. Muhle nanamuhla uTholi lo. Ushaye zona futhi ezimnyama kodwa hhayi ezifana nezayizolo. Athi uma ebuka lezi zingubo uBhekani akhumbule amagama kaSifiso. Ubuhle bukaTholi busheshe buwususe lo mqondo omfikelayo.\n'Singayitholaphi indawo esingahlala kuyo isikhashana eside nje Tholakele?'\n'Asiye kwami. Uzokhululeka lapho, akukho nkinga.'\n'Kanti uhlala wedwa?'\n'Ngihlala ngedwa.'\n'Kungcono-ke uma kunjalo.'\n'Asihambe-ke.'\nBahamba belinganisene uBhekani noTholakele. Abone uBhekani ukuthi bayalingana. Wakheke kahle uTholakele. Ubukhosikazi bumfanele impela. Abaxoxanga kakhulu endleleni, uTholi imibuzo eminingi wayethi uzoyiphendula endlini. Bathe befika endlini, wavula uTholi, bangena.\n'Kuhle lapha endlini yakho Tholi.'\n'Ngiyabonga. Izinto zami eziningi zasala ekhaya.'\nAkukho sihlalo lapha. UBhekani kwathiwa akahlale embhedeni.\n'Ngingakwenzela isiphuzo?'\n'Ngingajabula kakhulu.'\nUTholakele wenza isiphuzo nje uBhekani uthola ithuba lokumbuka kahle. Isiketi asigqokile sinezinkinobho phambili ezisuka phezulu ziphele ezansi. UTholi akazifasile ezimbili ezingasekugcineni. Amehlo kaBhekani awasasuki kuleso sikhadlana sezinkinobho esiveza ithanga likaTholi.\nAqede ukwenza isiphuzo uTholi, asibeke oqwembeni lokhethe oluhlotshisiwe, asilethe. Bahlale basondelane.\n'Ngethemba ukuthi awuze ngakho ukuzongeshela lapha Bheki. Ngikuthatha njengesivakashi nje sami.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.11",
+          "parent_id": null,
+          "text": "Zingaki izihlalo/izitulo endlini kaTholakele?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.12",
+          "parent_id": null,
+          "text": "Ngokubhekisa emgqeni wesi-5 kuya kowesi-9, bhala imibuzo EMIBILI ebuzwa nguBhekani kulesi siqeshana osifundile.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.13",
+          "parent_id": null,
+          "text": "Fingqa ngamaphuzu AMABILI okwenzeka kulesi siqeshana kusuka emgqeni wama-20 kuya kowama-27.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.14",
+          "parent_id": null,
+          "text": "Nikeza ubuhle nobubi bezenzo zomlingiswa onguLindiwe kule noveli. Bhala iphuzu ELILODWA eliveza ubuhle neLILODWA eliveza ububi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.15",
+          "parent_id": null,
+          "text": "Chaza ukuthi kungani sithi uBhekani ungumlingiswa omkhulu kule ndaba. Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.16",
+          "parent_id": null,
+          "text": "Kungani kwaba yisenzo esihle ukuthi uTholakele anqabe ukungenwa nguBhatomu? Sekela impendulo yakho ngamaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.17",
+          "parent_id": null,
+          "text": "Umbhali wale noveli uphumelele ukusivezela kahle isifundo kule ndaba. Sekela ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "ISIQEPHU B: UMDLALO - ABABULALI BENYATHI – RM Mngadi",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Ngubani obizwa ngokhandaqinile esiqeshini?",
+          "marks": 1,
+          "scenario": "ISIQESHANA G\n\nDUMA: Wowu! Umuntu ongukhandaqinile akabuboni ubuhle obenziwa ngumuntu amzondayo. Phela uyangizonda uDlamini. Asimyeke uDlamini okwamanje. Indlela obeka ngayo inginika ithemba. Mbandlwa, ngicela usho uma ngabe unenkinga nge-air time futhi ungajwayeli ukuyivala iselula yakho.\nMBANDLWA: Cha, okwamanje ngisenayo. Phela kuseyiyo lena owanginika yona. Uzame-ke ukucupha isisoka enkulumweni yakho ngosuku lomhlangano. Angifuni ukubona umholi wami ebhibhidla phambi kwabantu.\nDUMA: Elokubhibhidla lihoxise wenobhala. (esho ehleka) Mina angisiyo ingane. Ngangingeke ngiqonywe ngize ngiganwe ngungqeqe wakwaMashu ukube ngangibhibhidla. Lokho nje kukodwa kungubufakazi bokuthi ukubhibhidla nami, izinto ezingahlobene.\nMBANDLWA: Asazi phela. (eneka nezandla) Mfowethu, angikushiye. Phela sekuhlwa ngomnyama. Sengingaze ngihlangane noDlamini ebumnyameni. Phela ngeke angiyeke lowo uma ehlangana nami ebusuku.\nDUMA: Hawu! Sale usulinda ukudla kwakusihlwa. Uzothini nje uMaShezi usuhamba ungadlile kanti futhi wena awuganiwe?\nMBANDLWA: (ahleke aze amkhombe) We! We! Awuzwe uDuma madoda! Ukuganwa lokhu nikwenza igugu elizedlula zonke izinto. Mina ngisenaye umama. Kanti-ke nje mfowethu, ngiqinisile uma ngithi asingakuvumeli ukuhlwa kuqhubeke ngingakahambi. Useyoxola naye umuntu wakwaMashu. (ahleke) Angithi ngihlezi ngidla lapha ekhaya. Hhayi, sala kahle mfowethu. (asukume)\nDUMA: Uma uphatha elobumnyama, ngiyakuvumela. Woza-ke ngikukhiphe.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Nikeza izizathu EZIMBILI ezenza ukuthi uMbandlwa enqabe ukulinda ukudla kwaDuma ngalolu suku.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Yiliphi icala ayeboshelwe lona uDlamini?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nUzame-ke ukucupha isisoka enkulumweni yakho ngosuku lomhlangano.\nIsimo sokukhuluma esibhalwe ngokugqamile sisho:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Ukukhuluma ngobugwala."
+            },
+            {
+              "label": "B",
+              "text": "Ukukhuluma kakhulu."
+            },
+            {
+              "label": "C",
+              "text": "Ukukhuluma ngobuciko."
+            },
+            {
+              "label": "D",
+              "text": "Ukukhuluma ngobudlabha."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Chaza ngephuzu ELILODWA ukuthi kungani sithi uDuma wazifaka yena enkingeni agcina esekuyo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Tomula umusho enkulumweni kaDuma osikhombisa ukuthi uMbandlwa wayenomakhalekhukhwini.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7",
+          "parent_id": null,
+          "text": "Qondanisa IKHOLOMU A neKHOLOMU B",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "IKHOLOMU A",
+            "column_b_title": "IKHOLOMU B",
+            "column_a_items": [
+              {
+                "label": "4.7.1",
+                "text": "Wayebizwa ngoMzizi"
+              },
+              {
+                "label": "4.7.2",
+                "text": "KwaMashu kusekhweni lakhe"
+              },
+              {
+                "label": "4.7.3",
+                "text": "Washaywa yinduna"
+              },
+              {
+                "label": "4.7.4",
+                "text": "Waphathwa isifo senhliziyo"
+              },
+              {
+                "label": "4.7.5",
+                "text": "Wafundela ubuthishela"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "UDuma"
+              },
+              {
+                "label": "B",
+                "text": "UShandu"
+              },
+              {
+                "label": "C",
+                "text": "UMaNgema"
+              },
+              {
+                "label": "D",
+                "text": "UDlamini"
+              },
+              {
+                "label": "E",
+                "text": "UMbandlwa"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "4.8",
+          "parent_id": null,
+          "text": "Lukuphi uvuthondaba kulo mdlalo? Chaza kafushane.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.9",
+          "parent_id": null,
+          "text": "Ukushiswa kukaDlamini nomndeni wakhe kwadalela ikhansela uDuma isixakaxaka. Yiliphi isu/iqhinga alenza ukuzama ukuphuma kule nkinga ayesebhekene nayo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.10",
+          "parent_id": null,
+          "text": "Ucabanga ukuthi ukuziphatha kwekhansela uDuma kwamphazamisa kanjani ukuthi asebenze ngokukhululeka endaweni? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.11",
+          "parent_id": null,
+          "text": "Yini eyayethuse uMaShezi kulesi siqeshana?",
+          "marks": 1,
+          "scenario": "ISIQESHANA H\n\nDUMA: Lalela phela. UMaShezi usephendukile. Wethuswe yisimo lesi sakho kanye nabafanyana abahambisana nenkosi, abadlule kwami badelela. Ngempela uyatwetwa manje. Uze wathi kungaba ngcono uma mina ngingazehlisa enkosini noma ngiyeke kwabukhansela lobu. Hheyi! Wethuke ngempela uMaShezi. Ngethukile ngoba ngiyamazi umkami. Ubebhodla umlilo ngokuyokhuleka enkosini kodwa manje usemane waphenduka kuhle kwemali uma abafana bedlala isipina.\nMBANDLWA: (Asukume) Uyadlala uMaShezi! Hhayi bo! Senzeni? Sijabulise lezi zilima ezingahambisani nezinguquko? Lutho! Lalela lapha wena! Hamba uye emaphoyiseni ufike ubike ngomhlangano ofuna ukuwubiza maqede uwacele ukuba afike ngoba kunabantu abangayifuni inqubekela phambili kule ndawon. Uchaze nje nangobungozi babo. Ngeke amaphoyisa akwenzele phansi. Akekho umuntu ongazithela emaphoyiseni ewabona. Uyabona, lowo mhlangano uyokunika amandla ngoba uyonunusela abantu ngezinhlelo ezikhangisayo okufanele zenziwe. Ngiyakutshela nongafuni lutho ngekhansela, uyophenduka ahambisane nalo. Emva kwalowo mhlangano uyophenduka inkosi. Imilomo, bheka koDlamini (avale umlomo wakhe ngesandla elingisa amazwi akhe) koDlamini.\nDUMA: Usuyakhuluma-ke mfo. Uyazi okunye engikucabangayo ngukuthi umhlangano akusadingeki siwubize ngombhobho. Sizobhala isimemo esikhangisayo maqede sicele ozosibhalela sona ngekhompyutha. Ukusukela lapho, siyozigaya emshinini lona ozokhipha sekuyizimemo eziningi ukuze sikwazi ukuzinameka kulo leli wadi lami.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.12",
+          "parent_id": null,
+          "text": "Bhala isizathu esenza ukuthi uMaShezi ayoxoxisana noMaNgema.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.13",
+          "parent_id": null,
+          "text": "Inkosi uShandu ithi intuthuko yayizodala ziphi izinkinga endaweni? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.14",
+          "parent_id": null,
+          "text": "Ngubani umqhathi kulo mdlalo? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.15",
+          "parent_id": null,
+          "text": "Izinqumo ezathathwa yinkosi uShandu esibhedlela zayishintsha kanjani inhlalo emphakathini? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.16",
+          "parent_id": null,
+          "text": "Ubaluleke ngani umlandi emdlalweni? Bhala iphuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.17",
+          "parent_id": null,
+          "text": "Inkosi uShandu yayihlakaniphe ngaphezu kwendlela uDuma ayeyibona ngayo. Sekela lesi sitatimende ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.18",
+          "parent_id": null,
+          "text": "Phawula ngamaphuzu AMABILI usho ukuthi kungani uSayitsheni echazwa njengomlingiswa olimelayo iqiniso.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "ISIQEPHU B: UMDLALO - ICALA KALIBOLI – VM Mbhele",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "Ngokwalesi siqeshana ngobani abantu ababekhiphe umyalelo wokuthi uNhleko angavuleli muntu egumbini okwakulele kulo umfundisi esibhedlela?",
+          "marks": 1,
+          "scenario": "ISIQESHANA I\n\nSONTO: Yini indaba?\nNHLEKO: Umthetho sisi.\nSONTO: Cha, okwami kuhlukile.\nNHLEKO: Ngilalele, qhubeka uchaze.\nSONTO: Mina ngikhonza naye, unguMfundisi wami.\nNHLEKO: Hhawu kanti uyadlala. Ubala lolo ongitshela lona. Kuke kwafika ingelosi yathi ithunywe nguNkulunkulu kuMfundisi kodwa asiyingenisanga. Uyini ke wena?\nSONTO: Ngifuna nje ukumenzela umkhuleko bese ngiyaphuma. Angeke ngihlale.\nNHLEKO: Ingelosi yona ibifuna ukuzomphilisa aphume lapha esibhedlela.\nSONTO: (Eseqala ukukhombisa ukucasuka.) Umthetho onjani lo ovimba ukuthi abantu bakhulekelwe? Mina ngazi ukuthi umthetho izinkolo zabantu uyazihlonipha.\nNHLEKO: Musa ukusukela umthetho nkosikazi Mbhele. Ubani othe umthetho awufuni nithandaze? Mina ngithe umthetho uvimba ukubonwa kukaMfundisi, hhayi ukuthandaza lokhu wena osukusho.\nSONTO: Ngingathandaza kanjani ungafuni ngingene?\nNHLEKO: Kuseduze kabi lapha ngaphakathi, uma ungathandaza ulapho ukhona njengamanje, umthandazo wakho ungafika kuMfundisi.\nSONTO: Kanti udelela ngempela, uthi angithandaze ngilapha?\nNHLEKO: Ehhene asiguqe, ngizokulekelela.\nSONTO: (Ngolaka) Lalela la ndoda ndini, ngizokuceba kubaphathi bakho ngale nto oyenzayo, uxoshwe.\nNHLEKO: Yibo impela labo baphathi abathe ngingakuvuleli.\nSONTO: Hhayi, kulungile. Kangihambe-ke ngoba nakhu awufuni ukungingenisa. Kakuzukungisiza nakancane ukuphikisana nawe lapha.\nNHLEKO: Kungcono ngoba uyabona nawe ukuthi kakuzukukusiza nhlobo.\n(Anikine ikhanda uSonto, aphenduke ahambe.)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "Nikeza izizathu EZIMBILI ezenza uSonto azibone enelungelo lokungena abone umfundisi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.3",
+          "parent_id": null,
+          "text": "Yiliphi icala elalenziwe ngumlingiswa oqavile?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.4",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nEhhene asiguqe, ngizokulekelela.\nIgama elibhalwe ngokugqamile lisho ukuthi:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Asixoxisane"
+            },
+            {
+              "label": "B",
+              "text": "Asixolelane"
+            },
+            {
+              "label": "C",
+              "text": "Asithandaze"
+            },
+            {
+              "label": "D",
+              "text": "Asihlukane"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.5",
+          "parent_id": null,
+          "text": "Chaza ngephuzu ELILODWA ukuthi kungani sithi uMbhele wazifaka yena enkingeni agcina esekuyo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.6",
+          "parent_id": null,
+          "text": "Tomula umusho ochaza ukuthi uSonto wayengasasiboni isidingo sokuncenga umseshi uNhleko.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.7",
+          "parent_id": null,
+          "text": "Qondanisa IKHOLOMU A neKHOLOMU B",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "IKHOLOMU A",
+            "column_b_title": "IKHOLOMU B",
+            "column_a_items": [
+              {
+                "label": "5.7.1",
+                "text": "Wabulalisa uMaNtuli"
+              },
+              {
+                "label": "5.7.2",
+                "text": "Wazala isigebengu"
+              },
+              {
+                "label": "5.7.3",
+                "text": "Uhloniphekile emphakathini"
+              },
+              {
+                "label": "5.7.4",
+                "text": "Ushintsha isikole"
+              },
+              {
+                "label": "5.7.5",
+                "text": "Umakhelwane kaMbhele"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "UMaMkhize"
+              },
+              {
+                "label": "B",
+                "text": "UZinhle"
+              },
+              {
+                "label": "C",
+                "text": "UDlamini"
+              },
+              {
+                "label": "D",
+                "text": "USonto"
+              },
+              {
+                "label": "E",
+                "text": "UMbhele"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "5.8",
+          "parent_id": null,
+          "text": "Lukuphi uvuthondaba kulo mdlalo? Chaza kafushane.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.9",
+          "parent_id": null,
+          "text": "Ukulahleka kwemali uSonto ayeyigebenge umfundisi yikona okwamdalela isixakaxaka. Yiliphi isu/iqhinga alenza ukuzama ukuphuma kule nkinga ayesebhekene nayo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.10",
+          "parent_id": null,
+          "text": "Ucabanga ukuthi ukuboshwa kukaSonto kwayishintsha kanjani impilo kaZinhle? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.11",
+          "parent_id": null,
+          "text": "Yini eyayenza ukuthi uSonto alahle ithemba lokuthi wayengaphuma phambili kuleli cala lokufa kukaMbhele?",
+          "marks": 1,
+          "scenario": "ISIQESHANA J\n\nMAMKHIZE: Yikho wawusuthi ubona sengathi usecabanga ukukushiya.\nSONTO: Leso esinye sezizathu.\nMAMKHIZE: Wase ubona kungcono afe.\nSONTO: (Ekhala) Yebo, ukuze ngithole imali.\nMAMKHIZE: Manje sekuvela kanjani ukuthi nguwe owahlela ukufa kwakhe?\nSONTO: Amaphoyisa abamba oMthofi.\nMAMKHIZE: Obani manje oMthofi?\nSONTO: Yilezi zinja engangizithumile. Zavele zalikhipha lonke iqiniso.\nMAMKHIZE: Awu mntanami!\nSONTO: Kunjalo nje mama. Bazobe bengofakazi benkantolo bonke laba bantu. (Ekhala kakhulu) Ngeke ngidabule mama, ngeke!\nMAMKHIZE: Ungalilahli ithemba mntanami.\nSONTO: Sengililahlile.\nMAMKHIZE: (Ekhala) Awu mntanami ...\nSONTO: Ngiyaxolisa mama ngokukuzwisa ubuhlungu.\nMAMKHIZE: Ngiyakuxolela mntanami. Kodwa mina ngisenalo ithenjana lokuthi ...\nSONTO: Sisodwa nje isicelo sami mama.\nMAMKHIZE: Khuluma mntanami, ngilalele.\nSONTO: Ngicela ungikhulisele umntanami.\nMAMKHIZE: Ngiyezwa mntanami.\nSONTO: Umkhulise kahle mama, umtshele ukuthi umhlaba uyahlaba mama. Umtshele ukuthi abathatha izindlela ezinqamulelayo ezinokukhohlakala babolela ejele njengami.\nMAMKHIZE: Ngeke ubolele ejele mntanami. Uzophuma ukhulise indodakazi yakho.\nSONTO: Ngiyofela lapha mama. (Akhale kakhulu.) Awu, ngiyazisa ngomntanami, ngake ngazenza ngathanda imali, ngavumela usathane angenze ingelosi yakhe!\nMAMKHIZE: Kangivalelise mntanami, nakhu sekuthiwa sesiphelile isikhathi. Usale kahle mntanami.\nSONTO: Uhambe kahle mama. Ungikhonzele enganeni yami. Ungixolisele kakhulu kuyo. Uyitshele ukuthi ikhule ingabi njengami. Uyitshele ukuthi ngiyohlala ngiyithanda.\n(Behlukane kanjalo-ke. Emva kwezinyangana wavela enkantolo uSonto. Amlahla onke amacala akhe. Wagwetshwa ukudilikelwa yijele.)",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.12",
+          "parent_id": null,
+          "text": "Nikeza isizathu esenza kube nzima kuSonto ukufuna ummeli ongamzamela ukuthi athole ibheyili.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.13",
+          "parent_id": null,
+          "text": "Kwakulula ukuthi uDlamini akwazi ukubona ukuthi uSonto wayeyifihle kuphi imali. Bhala amaphuzu AMABILI afakazela lokhu.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.14",
+          "parent_id": null,
+          "text": "Ngubani umqhathi kulo mdlalo? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.15",
+          "parent_id": null,
+          "text": "Izinqumo ezathathwa nguMbhele esehhovisi likaNtshangase zayishintsha kanjani impilo kaSonto? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.16",
+          "parent_id": null,
+          "text": "Ubaluleke ngani umlandi emdlalweni? Bhala iphuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.17",
+          "parent_id": null,
+          "text": "UMbhele wayengahlakaniphile kangako. Sekela lesi sitatimende ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.18",
+          "parent_id": null,
+          "text": "Phawula ngamaphuzu AMABILI usho ukuthi kungani uMaMkhize echazwa njengomlingiswa olimelayo iqiniso.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "ISIQEPHU B: UMDLALO - ISIKO NELUNGELO – N Zulu",
+      "instructions": "Funda iziqeshana EZIMBILI ezingezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "6.1",
+          "parent_id": null,
+          "text": "Ngubani lo mama okukhulunywa ngaye kulesi siqeshana?",
+          "marks": 1,
+          "scenario": "ISIQESHANA K\n\nTHABI: Leli su likamama phela yilona elizokukhipha osizini.\nTHENJIWE: Uyazi uzoze ungicasule manje. Okokuqala nje uyingane kabi. Ngeke uze ungeluleke wena.\nTHABI: Kanti uzolulekwa ubani? Angithi nomama awumlaleli? Ngitshele ubaba akhulume nawe?\nTHENJIWE: Nansi ingulube inginonela bo!\nTHABI: Musa ukungibiza ngengulube. Ngichazele kahle ukuthi umama lona awumlaleli ngani. Indlela ibuzwa kwabaphambili.\nTHENJIWE: Uma ungafuni sixabane Thabi yeka le nto oyikhulumayo.\nTHABI: Cha kusho ukuthi unenkinga bo. Bonke abantu okhuluma nabo uxabana nabo. Ngiya kuDumisani-ke manje ngimtshele ukuthi akasize akhulume nawe ukuze umgane.\nTHENJIWE: Ungangihlanyeli mina. Angifune kugana muntu mina manje. USkhumbuzo wazifela kwaphela konke okuwuthando enganginakho.\nTHABI: Angiyethembi le nto oyishoyo. Njengoba uthi ufuna ukuhamba lapha ekhaya, kusho ukuthi kukhona ofuna ukumgana.\nTHENJIWE: Ukhuluma nami kanjalo?\nTHABI: Ngiyaxolisa uma ngiphaphalazile. Kodwa yini wena ungabalaleli abadala?\nTHENJIWE: Umuntu unelungelo lokuzikhethela inqubo yakhe kulezi zinsuku. Angifuni-ke nami ukuzophoqelelwa ngamasiko abhedayo.\nTHABI: Ngiyakudabukela kodwa. Umama uzokugoba yonke le nkani onayo.\nTHENJIWE: (Ecasukile) Ubani onenkani Thabi? (Asondele kuye)\nTHABI: Usufuna ukungishaya uma ngikutshela iqiniso.\nTHENJIWE: Ngibuza ukuthi ubani onenkani? Angisiso isilima sokudlala umamezala mina. Zingamane zilime ziyetsheni okungcono.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2",
+          "parent_id": null,
+          "text": "Nikeza izizathu EZIMBILI ezenza uGugu athi akalithandisisi isiko lokungenwa.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.3",
+          "parent_id": null,
+          "text": "Yiliphi icala langempela ayeboshelwe lona umngani kaThenjiwe uSipho?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.4",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nIndlela ibuzwa kwabaphambili.\nIsimo sokukhuluma esibhalwe ngokugqamile sisho ukuthi:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Kuyasiza ukubuza kubangani."
+            },
+            {
+              "label": "B",
+              "text": "Kuyasiza ukubuza komakhelwane."
+            },
+            {
+              "label": "C",
+              "text": "Kuyasiza ukubuza kwabanolwazi."
+            },
+            {
+              "label": "D",
+              "text": "Kuyasiza ukubuza emaphoyiseni."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.5",
+          "parent_id": null,
+          "text": "Chaza ngephuzu ELILODWA ukuthi kungani sithi uSipho wazifaka yena enkingeni agcina esekuyo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.6",
+          "parent_id": null,
+          "text": "Tomula umusho enkulumweni kaThenjiwe ochaza ukuthi uyabuqonda ubuhle bentando yeningi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.7",
+          "parent_id": null,
+          "text": "Qondanisa IKHOLOMU A neKHOLOMU B",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "IKHOLOMU A",
+            "column_b_title": "IKHOLOMU B",
+            "column_a_items": [
+              {
+                "label": "6.7.1",
+                "text": "Umngani kaThenjiwe"
+              },
+              {
+                "label": "6.7.2",
+                "text": "Uyakwazi ukuthunga"
+              },
+              {
+                "label": "6.7.3",
+                "text": "Wayegula kakhulu"
+              },
+              {
+                "label": "6.7.4",
+                "text": "Waxoshelwa ukungena izindaba"
+              },
+              {
+                "label": "6.7.5",
+                "text": "Wagwazwa uSipho"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "UThenjiwe"
+              },
+              {
+                "label": "B",
+                "text": "UNondumiso"
+              },
+              {
+                "label": "C",
+                "text": "UDumisani"
+              },
+              {
+                "label": "D",
+                "text": "UGugu"
+              },
+              {
+                "label": "E",
+                "text": "Ugogo"
+              }
+            ]
+          },
+          "guide_table": null
+        },
+        {
+          "id": "6.8",
+          "parent_id": null,
+          "text": "Lukuphi uvuthondaba kulo mdlalo? Chaza kafushane.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.9",
+          "parent_id": null,
+          "text": "Ukushona kukaSipho yikona okwadalela uThenjiwe isixakaxaka. Yiliphi isu/iqhinga alenza ukuzama ukuphuma kule nkinga ayesebhekene nayo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.10",
+          "parent_id": null,
+          "text": "Ucabanga ukuthi uMaMbatha wayisebenzisa kanjani ingxabano phakathi kukaSipho noDumisani ukubuyisa ukuthula emndenini kaZungu? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.11",
+          "parent_id": null,
+          "text": "Ngobani laba bantu athi uNondumiso akufuneki bahlanganiswe ngenkani?",
+          "marks": 1,
+          "scenario": "ISIQESHANA L\n\nTHENJIWE: Angimfuni nje mama!\nNONDUMISO: Inkani ngeke isize ngalutho lapha mama. Ukuhlanganisa abantu ngenkani kuyingozi, bagcina bebulelene.\nZUNGU: Makhulu lawo magama ndodakazi. Ngike ngasho ukuthi kukhona amasiko asefuna ukubhekisiswa kulezi zinsuku.\nMAMBATHA: Yimaphi amagama amakhulu lapha Manzini? Yimaphi? Wakhweza izingane phezu kwethu zibheda. Le ngane (Akhombe uThenji) izogana uDumisani. Sengiqedile.\nTHENJIWE: (Akhale) Sengibone kahle ukuthi aningifuni lapha ekhaya. Ngiyahamba-ke manje.\nNONDUMISO: Kahle Thenji.\nMAMBATHA: Ungahamba uma uthanda. Angithi kade usuhambile vele. Ubuyiswe ubani? Uma uhlala lapha ekhaya, qonda kuDumisani.\nZUNGU: Ngeke ilunge le nto yakho MaMbatha.\nMAMBATHA: Sekungeyami le nto Manzini? Usho ukuthini uma usho njalo?\nNONDUMISO: Baba, Manzini. Ngicela ukuhamba noThenji. Injongo yami ukuba siyoxoxa ekhaya ngalolu daba. Kokunye siyobuya nabazali bethu, sibhunge sindawonye.\nMAMBATHA: Ukhona umakoti othi ezilile abe elokhu ehla enyuka. Akayi ndawo lo. (Akhombe uThenji)\nTHENJIWE: (Emi ngezinyawo) Ngiyahamba. Angithi awuzwa uma ngithi angimfuni uDumisani?\nNONDUMISO: Kahle Thenji. Njengoba siya ekhaya kokunye bazosichazela kangcono ngaleli siko.\nZUNGU: Sengathi kungcono khona lokho.\nMAMBATHA: Angisafuni ukukhuluma manje. Uma ungazimisele ngoDumisani ngiyakudabukela. Uyogugela ezinsisheni.\nTHENJIWE: Ngingamane ngigugele kuzo.\nMAMBATHA: Uphendula mina kanjalo? (Asukume) Phumani lapha!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.12",
+          "parent_id": null,
+          "text": "Nikeza isizathu esasenza uDumisani athi kuThabi angambali kubantu okufanele bangene uThenjiwe.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.13",
+          "parent_id": null,
+          "text": "Nikeza izindlela EZIMBILI uThenjiwe akhombisa ngazo ukungahloniphi emzini.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.14",
+          "parent_id": null,
+          "text": "Ngubani umqhathi kulo mdlalo? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.15",
+          "parent_id": null,
+          "text": "Isinqumo esathathwa nguThenjiwe sokufaka ushevu etiyeni likaDumisani sayishintsha kanjani impilo yakhe uThenjiwe? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.16",
+          "parent_id": null,
+          "text": "Ubaluleke ngani umlandi emdlalweni? Bhala iphuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.17",
+          "parent_id": null,
+          "text": "UZungu wayehlakaniphe ngaphezu kwendlela uMaMbatha ayembona ngayo. Sekela lesi sitatimende ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.18",
+          "parent_id": null,
+          "text": "Phawula ngamaphuzu AMABILI usho ukuthi kungani uGugu echazwa njengomlingiswa olimelayo iqiniso.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "ISIQEPHU C: IZINDABA EZIMFISHANE - IZINYEMBEZI ZOTHANDO – DBZ Ntuli",
+      "instructions": "Funda lezi ziqeshana ezilandelayo ezitonyulwe ezindabeni ezimfishane ezimbili bese uphendula imibuzo ehlelwe esiqeshini ngasinye.",
+      "questions": [
+        {
+          "id": "7.1.1",
+          "parent_id": null,
+          "text": "Wayehleli kuphi uNomkhosi ngokwalesi siqeshana?",
+          "marks": 1,
+          "scenario": "ISIQESHANA M - 'AMATHUNZI EZINTABA' – NAP Khumalo\n\nNgaye ngaqhwakela etsheni, uNomkhosi wahlala otshanini eceleni kwami. Sabuka ubuhle bemvelo. Lapha sasizibuka ezinkakhayini zonke izintaba, amagquma, imihosha, imifula nemizi yabanumzane. Amehlo ayegijima agcine kude le, lapho umhlaba ubonakala uqabulana nesibhakabhaka khona. Ngakwelinye icala ulwandle sasilubuka kahle laphaya phansi lugubha amagagasi alo. Umuntu wabuka kunkhe lokhu qede wezwa inhliziyo ijaja ngokunye. Kwakukuhle ngeqiniso.\n'Uthini ngalobu buhle obungaka Sithandwa?' ngibuza kuNomkhosi lapho sesihlezi kamnandi, amehlo endanda zinkalo zonkana.\n'Ngibona ubuhle obumangalisayo, ubuhle obunzulu obuqhamuka esandleni soMdali.'\n'Ngizwa nginokujabula okukhulu, ngifikelwa yisivuvu sentokozo ngalobu buhle obungaka obufukanyelwe luthando lwethu oluyisimanga. Letha leso sandla sakho esinsobonsobo ngisibambe Nomkhosi, inkinga sekuyoba yindlela yokusiyeka singasayekeki.' Asilethe uNomkhosi isandla ngisibambe, uthando luvele lwenyuke lufinyelele emazingeni angenakulinganiswa. Achobozele.\n'Kepha ngabe bonke abantu bayabubona nje lobu buhle bemvelo nentokomalo obuyilethayo? Mina ngibona sengathi akunjalo, kepha bonke lobu buhle bukhethelwe thina sodwa Nomkhosi.'\n'Uyabona Siziba, amazwi akho angishayisa uvalo. Mahle kakhulu kunalokhu engikucabangayo. Afana nobuhlalu bamagobolondo ekhethelo, ayingcwenga engayiwa.'\n'Yeyamisa lelo khanjana lakho elihlana lapha esifubeni sami Mntakwethu.' Akwenze. Ngiqhubeke, 'Ngiyabonga kakhulu ngala mazwi owashoyo.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.2",
+          "parent_id": null,
+          "text": "Bhala OKUKODWA okuyimvelo ababekubuka ngalolu suku.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.3",
+          "parent_id": null,
+          "text": "Caphuna ibinzana lamagama asesigabeni sokuqala asitshela ukuthi okunye ababekubuka kwakuqhelile kubona.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.4",
+          "parent_id": null,
+          "text": "Yini eyayenza uSiziba ajabule ngalolu suku?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.5",
+          "parent_id": null,
+          "text": "Ngokwalesi siqeshana, kungani amazwi kaSiziba ayemshayisa ngovalo uNomkhosi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.6",
+          "parent_id": null,
+          "text": "Chaza leli gama elibhalwe ngokugqamile esiqeshini ngendlela elisetshenziswe ngayo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.7",
+          "parent_id": null,
+          "text": "Chaza ngokuqoqeka kwale ndaba ngokwesikhathi. Bhala iphuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.8",
+          "parent_id": null,
+          "text": "Lutholakala kuphi uvuthondaba kule ndaba? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.9",
+          "parent_id": null,
+          "text": "Nikeza umyalezo otholakala kule ndaba. Bhala iphuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.1.10",
+          "parent_id": null,
+          "text": "Uthini umbono wakho ngokuhlawuliswa kukaSiziba izinkomo ezinhlanu ngecala lokubulala uNomkhosi ngokungenhloso? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.1",
+          "parent_id": null,
+          "text": "Bhala igama lomlingiswa ongusomabhizinisi ngokwalesi siqeshana.",
+          "marks": 1,
+          "scenario": "ISIQESHANA N - 'INGCEBO YEZICEBI NEZIMPOFANA' – MJ Mngadi\n\nEmaphethelweni edolobheni laseMhlali wayenepulazi lesimoba, efuye amahhashi, hhayi omjaho, kepha okuzithokozisa. Kukuwo-ke lo muzi ayehlaliswe kuwo lapha eMhlali uValerie. Nokho ayechake kakhulu ngakho uMcCall kwakuwumndeni. Wayengabizwa ngangane nankosikazi.\nEsamile ngaphandle ekude ngemicabango, wabona ngenye yezintokazi ezimbili ezazisebenza lapha ekhaya isiseduze kwakhe. KwakunguThulisiwe Luthuli owayezomazisa ukuthi uMnu. McCall wayekade eshaye ucingo ebuza ukuthi, 'usaphila yini, nokuthi usazithokozisa na njengoba nanixoxile?'\n'Uthe ushaya ukuphi?'\n'Ubesesikhumulweni sezindiza. Angazi noma uza lapha noma uya phesheya yini.'\n'Angifuni ukukhuluma indaba kaDave. Kungcono ukuhlala ehlathini kunokuhlala kuleli hlane lakwakhe.' Wabalisa enengiwe. 'Angisazi noma uDave ngiyamthanda noma ngiyamdabukela yini. Ake nisho nina esenike nahlala naye isikhathi eside; uke amnike nje omunye umuntu inhliziyo isikhathi okungenani esingangengxenye yosuku?'\n'Mhlawumbe ukhuluma ngohlangothi lwamabhizinisi?' kusho uThulisiwe. 'Yebo, ningaxoxa ngokuqondene nawo kuze kushone ilanga uma lingakatholakali ikhambi lokwandisa inzuzo. Uma kodwa kuya ngasothandweni, cha. Angisho nje ukuthi sengineshumi leminyaka ngilapha, ngiyisisebenzi sokuqala futhi esaqashwa kulo muzi uqediwe ukwakhiwa. Kuyo yonke le minyaka siyaqala ngqa ukudidizelela intokazi eze ngaye ingazengaludaba lwamabhizinisi. Ngike ngimbone ekutatazelela nokukutatazelela. Ungowokuqala ngqa ukuba uke uhlale kuze kuphele izinyanga ezintathu! Kodwa wawugezephi?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.2",
+          "parent_id": null,
+          "text": "Nikeza OKUBILI okwakwenza impilo kaDave ibe ngebukeka njengechakile/njengenobuphofu kodwa ebe enemali.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.3",
+          "parent_id": null,
+          "text": "Sizathu sini esasenza uValerie amdabukele uDave?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.4",
+          "parent_id": null,
+          "text": "Iphetha kanjani le ndaba? Bhala amaphuzu AMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.5",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nIsimo sokukhuluma esisemshweni olandelayo: ꞌKodwa wawugezephi?ꞌ sisho ukuthi:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Ubhukuda kuphi?"
+            },
+            {
+              "label": "B",
+              "text": "Usebenza kuphi?"
+            },
+            {
+              "label": "C",
+              "text": "Wenza ngani?"
+            },
+            {
+              "label": "D",
+              "text": "Uhlala kuphi?"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.6",
+          "parent_id": null,
+          "text": "Qhathanisa ngokubhala okufanayo nomehluko phakathi kwezenzo zomlingiswa onguValerie nezenzo zomlingiswa onguDave.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.7",
+          "parent_id": null,
+          "text": "Isenzo sikaDave sokuqamba ibha yakhe ngoValerie simveza njengomuntu onjani? Bhala iphuzu ELILODWA bese ulesekela.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.8",
+          "parent_id": null,
+          "text": "Ngokucabanga kwakho kwenziwa yini ukuthi abesifazane ababeba nobudlelwane bezothando noDave bangahlali isikhathi esingaphezu kwezinyanga ezintathu? Sekela impendulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2.9",
+          "parent_id": null,
+          "text": "Isingeniso sale ndaba emfushane sihle. Sekela ngamaphuzu AMATHATHU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 8",
+      "title": "ISIQEPHU D: IZINKONDLO - SEZIBUYA INHLAZANE – SB Mlambo",
+      "instructions": "Funda inkondlo engezansi bese uphendula imibuzo ezolandela.",
+      "questions": [
+        {
+          "id": "8.1.1",
+          "parent_id": null,
+          "text": "Tomula uphinde ugagule imvumelwano etholakala esitanzeni soku-1.",
+          "marks": 2,
+          "scenario": "SEZIBUYA INHLAZANE – SB Mlambo\n\n1 Sezibuy' inhlazane\n2 Sekugqigqwa namagula\n3 Sekuyisikhathi sokukleza.\n\n4 Kusesibayeni solwazi\n5 Kusengwa amahinikazi\n6 Kusengwa izigqala\n\n7 Kuyaphithizela ubuyaluyalu\n8 Ayagcwala amathunga kuyathululwa\n9 Kwabanye ziwakhahlel' egcwele.\n\n10 Kusesibayeni solwazi\n11 Sengathi ngumbondo neminjonjo\n12 Bazozuza selithambama.\n\n13 Asebegcwalisile bayayikizela\n14 Sebeyeke imiyeko yokunqoba\n15 Imiyeko bayithole sebeqedile.\n\n16 Izehluleki seziyabanyonkoloza\n17 Zibabeka izici bengenazo\n18 Kuthiwa bayazidla!\n\n19 Sebezizuzele izaqheqhe\n20 Abasayikwephucwa muntu!\n21 Yisinkwa sabo!\n\n22 Nani enisashay' umphehlu\n23 Yalelani nabanye abantu\n24 Ngamaqhinga okusenga le nkomazi",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.2",
+          "parent_id": null,
+          "text": "Bhala umqondo osobala oqukethwe yisitanza sesi-5 ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.3",
+          "parent_id": null,
+          "text": "Imbongi iqonde ukuthini uma ithi, 'Izehluleki seziyabanyonkoloza'?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.4",
+          "parent_id": null,
+          "text": "Kungani imbongi isebenzise uphawu lokubabaza emgqeni we-18?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.5",
+          "parent_id": null,
+          "text": "Tomula igama elisho uhlobo lwezinkomo ezikhipha ubisi oluningi elitholakala esitanzeni sesi-2.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.6",
+          "parent_id": null,
+          "text": "Yisiphi isifundo esitholakala kule nkondlo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.7",
+          "parent_id": null,
+          "text": "Ngokwenkondlo obani laba asebezuze izaqheqhe esitanzeni sesi-7?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.8",
+          "parent_id": null,
+          "text": "Chaza ngephuzu ELILODWA okushiwo yimbongi ngokucashile/ngokujulile emigqeni elandelayo:\n'Nani enishay' umphehlu\nYalelani nabanye abantu\nNgamaqhinga okusenga le nkomazi'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.1.9",
+          "parent_id": null,
+          "text": "Imbongi ithi uma usuzuze imfundo akekho ongakuphuca yona, iyohlezi ikusiza njalo. Uyavumelana yini nalokhu? Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.1",
+          "parent_id": null,
+          "text": "Bhala izindawo EZIMBILI ezisesitanzeni soku-1 ayefunwa kuzo uNonkululeko.",
+          "marks": 2,
+          "scenario": "NONKULULEKO – Nomthandazo C Makhanya\n\n1 Nonkululeko ntokaz' enhle,\n2 Kad' ufunwa nkalo zonke,\n3 Imilomo ingavalwa ngawe,\n4 Ufunw' ezintabeni zasemaweni,\n5 Ufunw' emagqumeni nasezigodini,\n6 Namhla ufunyenwe ntokazi enhle.\n\n7 Nonkululeko ntokaz' enhle,\n8 Ufunwe ngaphesheya nanganeno,\n9 Wafunwa kuyo yonk' i-Afrika;\n10 Wafunwa kuyo yonk' i-Eshiya;\n11 Wafunwa kuyo yonk' iYurophu,\n12 Wafunwa kuyo yonk' iMelika.\n\n13 Nonkululeko siphalaphala sika-Afrika,\n14 Ukufika kwakho kuletha intokozo,\n15 Yesul' izinyembezi zeminyaka,\n16 Namuhla sisin' umphiqilo,\n17 Sishay' indlamu, sichway' uchwayo,\n18 Sisin' umphendu, sisin' umqokozo.\n\n19 Nonkululeko ntokaz' enhle,\n20 Ulindwe ngokukhul' ukubekezela,\n21 Ulindw' abanewenu bozalo,\n22 Baguquk' imilalandle kwezinye izinkalo,\n23 Bagqok' izinxibi kwamany' amagquma,\n24 Baguquk' iziduli zaphakade kwelemiphafa.\n\n25 Nonkululeko ntokaz' enhle,\n26 Ukufika kwakho kufana\n27 Nokuqhamuka kwenhlamvu yelanga,\n28 Ewukukhanya kwaphakade.\n29 Ubukhona bakho bush' ukuhlabana\n30 Okuyosala kungumlando waphakade.\n\n31 Nonkululeko ntokaz' enhle,\n32 Uzel' uNokuthula sethaba,\n33 Wazal' uNtuthuko sethaba,\n34 Wazal' uNobuhle sethaba,\n35 Wazal' uNolubambiswano sethaba,\n36 Phila njalo ntokaz' enhle!\n\n37 Nonkululeko ntokaz' enhle,\n38 Mana njalo kuleyo nqubo,\n39 Qhubeka njalo kuleyo migomo,\n40 UNolucwasano mfak' inhlanekela,\n41 UNoluphithano mkhomb' indlela,\n42 UNomaqili mfundis' isifundo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.2",
+          "parent_id": null,
+          "text": "Khipha umugqa oyimpindwa otholakala kule nkondlo.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.3",
+          "parent_id": null,
+          "text": "Tomula imigqa enokuxhumana esitanzeni sesi-7, udwebele amagama enza ukuxhumana bese usho uhlobo lwakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.4",
+          "parent_id": null,
+          "text": "Isihloko sale nkondlo siyisifengqo. Bhala usho ukuthi siluhlobo luni lesi sifengqo.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.5",
+          "parent_id": null,
+          "text": "Iyini inhloso yembongi yokusebenzisa isizura/isikhawu emgqeni we-17?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.6",
+          "parent_id": null,
+          "text": "Tomula imigqa emibili eyisibonelo senjambamenti kule nkondlo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.7",
+          "parent_id": null,
+          "text": "Khetha impendulo efanele kwezilandelayo:\nIndikimba yale nkondlo ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "inkolo."
+            },
+            {
+              "label": "B",
+              "text": "amasiko."
+            },
+            {
+              "label": "C",
+              "text": "inkululeko."
+            },
+            {
+              "label": "D",
+              "text": "ukufa."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.8",
+          "parent_id": null,
+          "text": "Imbongi iqonde ukuthini esitanzeni sesi-5 uma ithi, 'Ubukhona bakho bush' ukuhlabana'?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.9",
+          "parent_id": null,
+          "text": "Imbongi ilisebenzise kahle igama elithi uNoluphithano. Sekela impendulo yakho ngephuzu ELILODWA.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2.10",
+          "parent_id": null,
+          "text": "Phawula ngesigqi senkondlo mayelana nesivinini bese wesekela ngokubhekisa kulokhu okulandelayo:\nUmoya nemigqa yayo.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 36844,
+    "cached_tokens_saved": 0
+  }
+}

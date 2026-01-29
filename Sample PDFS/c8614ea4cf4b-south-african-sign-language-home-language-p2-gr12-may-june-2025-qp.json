@@ -1,0 +1,616 @@
+{
+  "subject": "SOUTH AFRICAN SIGN LANGUAGE HOME LANGUAGE P2",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A: POETRY - PRESCRIBED POETRY",
+      "instructions": "Answer any TWO of the following questions.",
+      "questions": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "text": "Pace is a dominant poetic feature in this poem. Define and discuss how pace is used in this poem by referring closely to the text in your answer. The length of your essay should be between 2–3 minutes.\n\nPOEM WATCH WATCH\nFIND FIND WHAT \nPACE P-A-C-E\nTHIS THIS TOP THIS IMPORTANT \nPACE YOU DEEP EXPLAIN\nSIGN YOUR STRUCTURE\nTIME 2–3 MINS",
+          "marks": 10,
+          "scenario": "View the poem titled 'Soweto, June 16th' by Modiegi Moime and answer the essay question that follows.",
+          "context": "Content (6)\nLanguage structure and use (4)",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION A: POETRY - PRESCRIBED POETRY",
+      "instructions": "Answer any TWO of the following questions.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "View the clip. What does the clip indicate about the signer's state of mind?\n\nCLIP THERE\nSIGN SO SO\nTHINK FEEL WHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'Alone' by Daniel Durant and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "What impressions are created by the signer's use of hyperbolic signs?\n\nSIGN HYPERBOLE H-Y-P-E-R-B-O-L-E THIS\nYOU WATCH WATCH \nIMPRESSION WHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'Alone' by Daniel Durant and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "Discuss the effect of this image in the context of the poem as a whole.\n\nSIGN TIME THIS \nI-LOVE-YOU EFFECT-ME TIME AFTER\nWHAT \nDEEP EXPLAIN",
+          "marks": 3,
+          "scenario": "View the poem titled 'Alone' by Daniel Durant and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Critically discuss the effectiveness of the use of elements in nature to mirror human emotions.\n\nPEOPLE FEEL DEEP\nCOMPLICATED \nWEATHER THIS THIS LINK RIGHT",
+          "marks": 3,
+          "scenario": "View the poem titled 'Alone' by Daniel Durant and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SECTION A: POETRY - PRESCRIBED POETRY",
+      "instructions": "Answer any TWO of the following questions.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "View the clip. How does the poet draw attention to the senses?\n\nCLIP THERE POET\nPEOPLE WATCH-ME S-E-N-S-E-S \nHOW",
+          "marks": 2,
+          "scenario": "View the poem titled 'Five Senses' by Paul Scott and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "View the clip. Explain the NMFs in the clip.\n\nCLIP THERE\nNMF\nEXPLAIN",
+          "marks": 2,
+          "scenario": "View the poem titled 'Five Senses' by Paul Scott and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "View the clip. Comment on the reason for the sign 'BOTH' used in this clip.\n\nCLIP THERE\nSIGN SO-SO\nWHY \nEXPLAIN",
+          "marks": 3,
+          "scenario": "View the poem titled 'Five Senses' by Paul Scott and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "text": "Critically discuss how the signer, being Deaf, is reflected in the poem.\n\nPOET HE SELF DEAF\nPOEM THERE THERE FIND FIND \nDEEP EXPLAIN",
+          "marks": 3,
+          "scenario": "View the poem titled 'Five Senses' by Paul Scott and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "SECTION A: POETRY - PRESCRIBED POETRY",
+      "instructions": "Answer any TWO of the following questions.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "text": "What impression of the WORLD does the signer create at the beginning of the poem?\n\nPOEM START BEGIN\nSIGNER TWIRLS WORLD THIS\nYOU OBSERVE \nTHINK WHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'The Rosebush' by Ella Mae Lentz and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "text": "View the clip. What does the clip indicate about the relationship between the roses and animals?\n\nCLIP THERE\nANIMALS GROUP\nROSEBUSH GROUP\nTHIS THIS RELATIONSHIP\nWHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'The Rosebush' by Ella Mae Lentz and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "text": "View the clip. Discuss how the use of cinematography emphasises the signer's feeling.\n\nCLIP THERE\nCINEMATOGRAPHY C-I-N-E-M-A-T-O-G-R-A-P-H-Y\nEMPHASISE POEM FEEL \nHOW",
+          "marks": 3,
+          "scenario": "View the poem titled 'The Rosebush' by Ella Mae Lentz and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": "4",
+          "text": "Critically comment on the signer's attitude towards the destruction of nature as seen in the poem.\n\nPOEM NATURE N-A-T-U-R-E DESTROY\nPOET HIS ATTITUDE THIS\nDEEP EXPLAIN",
+          "marks": 3,
+          "scenario": "View the poem titled 'The Rosebush' by Ella Mae Lentz and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "SECTION A: POETRY - UNSEEN POETRY (COMPULSORY)",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "text": "View the clip. What does the clip indicate about the conditions in this mainstream school for the poet?\n\nCLIP THERE\nMAINSTREAM SCHOOL\nPOET WALK FIND \nWHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'Mainstream' by Helen Morgan and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "text": "What attitudes are the hearing learners displaying towards the Deaf learner?\n\nDEAF CHILD WALK \nHEARING CHILDREN LOOK\nATTITUDE WHAT",
+          "marks": 2,
+          "scenario": "View the poem titled 'Mainstream' by Helen Morgan and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "text": "View the clip. Comment on the signer's feelings towards the interpreter in the poem.\n\nCLIP THERE\nPOET LOOK INTERPRETER\nFEEL WHAT \nEXPLAIN DEEP",
+          "marks": 3,
+          "scenario": "View the poem titled 'Mainstream' by Helen Morgan and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "text": "Critically discuss the signer's comment at the very end of the poem.\n\nPOET SIGN END \nMAINSTREAM SO-SO\nYOU EXPLAIN\nDISCUSS DEEP",
+          "marks": 3,
+          "scenario": "View the poem titled 'Mainstream' by Helen Morgan and answer the questions that follow.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "SECTION B: LONGER STORY - 'ASA STANDS UP FOR HERSELF'",
+      "instructions": "Answer EITHER QUESTION 6 (essay question) OR QUESTION 7 (contextual question).",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Asa, as a naïve, innocent and obedient Deaf girl, comes under the persuasive influence of Mandisa. This leads to the disturbing situation that unfolds for Asa. Critically discuss the internal conflict which the above situation creates within Asa. The length of your essay should be 8–10 minutes.\n\nTHIS ASA LIKE-THAT INSIDE ACCEPT ACCEPT GOOD GOOD OBEY\nTHIS MANDISA INFLUENCE LATER HAPPEN WORST\nINTERNAL CONFLICT HER \nDISCUSS DETAIL\nTIME 8–10 MINUTES SIGN",
+          "marks": 25,
+          "scenario": "'ASA STANDS UP FOR HERSELF' produced by the University of Stellenbosch",
+          "context": "Content (15)\nLanguage structure and use (10)",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "SECTION B: LONGER STORY - 'ASA STANDS UP FOR HERSELF'",
+      "instructions": "Answer EITHER QUESTION 6 (essay question) OR QUESTION 7 (contextual question).",
+      "questions": [
+        {
+          "id": "7.1",
+          "parent_id": "7",
+          "text": "Place the extract into context. \n\nEXTRACT BEFORE \nAFTER HAPPEN HAPPEN WHAT",
+          "marks": 2,
+          "scenario": "[EXTRACT A: 02:05–02:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2",
+          "parent_id": "7",
+          "text": "Explain why the father has rules on dating. \n\nASA FATHER\nDATING RULES THERE \nFATHER DECIDE WHY \nEXPLAIN",
+          "marks": 2,
+          "scenario": "[EXTRACT A: 02:05–02:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.3",
+          "parent_id": "7",
+          "text": "Describe Kenzo's behaviour when he arrives.\n\nKENZO CAR DRIVE \nBEHAVIOUR HIS HOW",
+          "marks": 2,
+          "scenario": "[EXTRACT A: 02:05–02:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.4",
+          "parent_id": "7",
+          "text": "What would have happened if Asa followed her father's rules?\n\nASA FATHER HERS RULE THERE \nASA OBEY DO DO LATER HAPPEN WHAT",
+          "marks": 3,
+          "scenario": "[EXTRACT A: 02:05–02:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.5",
+          "parent_id": "7",
+          "text": "With reference to the above extract, discuss Mandisa's negative influence on Asa. Justify your response by considering the story in its entirety. \n\nEXTRACT STORY THIS \nYOU LOOK EVALUATE MANDISA ASA \nMANDISA INFLUENCE NEGATIVE THIS EXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT A: 02:05–02:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.6",
+          "parent_id": "7",
+          "text": "Explain Asa's escape to the bathroom. \n\nASA GO TOILET THERE WHY \nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT B: 08:30–09:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.7",
+          "parent_id": "7",
+          "text": "Explain Asa's emotional state in this extract.\n\nEXTRACT THIS LOOK ASA EMOTIONAL WHY\nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT B: 08:30–09:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.8",
+          "parent_id": "7",
+          "text": "How does Asa's personality contribute to her being harassed? \n\nASA THIS PEOPLE THERE EASY LOOK MANIPULATE HARASS LOOK SEXUALLY WHY \nPERSONALITY HERS \nPERSONALITY HARASS LINK HOW",
+          "marks": 3,
+          "scenario": "[EXTRACT B: 08:30–09:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.9",
+          "parent_id": "7",
+          "text": "Asa's father is a significant person in her life. Justify your opinion. \n\nASA LIFE HERS FATHER VERY IMPORTANT \nOPINION YOURS EXPLAIN",
+          "marks": 4,
+          "scenario": "[EXTRACT B: 08:30–09:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 8",
+      "title": "SECTION B: LONGER STORY - 'TOGETHER WE'RE STRONG'",
+      "instructions": "Answer EITHER QUESTION 8 (essay question) OR QUESTION 9 (contextual question).",
+      "questions": [
+        {
+          "id": "8",
+          "parent_id": null,
+          "text": "Albertina is characterised as a courageous, caring and ambitious woman. She comes under the immense oppression of apartheid. The political situation in the country creates conflict. Critically discuss the conflict Albertina experiences. The length of your essay should be 8–10 minutes.\n\nSOUTH AFRICA HISTORY APARTHEID OPPRESS \nALBERTINA INSIDE STRONG CARE CONFIDENT STAND-UP\nALBERTINA CONFLICT THIS EXPLAIN DETAIL\n8–10 MINUTES SIGN",
+          "marks": 25,
+          "scenario": "'TOGETHER WE'RE STRONG' produced by the University of Stellenbosch",
+          "context": "Content (15)\nLanguage structure and use (10)",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 9",
+      "title": "SECTION B: LONGER STORY - 'TOGETHER WE'RE STRONG'",
+      "instructions": "Answer EITHER QUESTION 8 (essay question) OR QUESTION 9 (contextual question).",
+      "questions": [
+        {
+          "id": "9.1",
+          "parent_id": "9",
+          "text": "Place the extract into context. \n\nEXTRACT BEFORE AFTER \nHAPPEN WHAT",
+          "marks": 2,
+          "scenario": "[EXTRACT C: 05:10–05:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.2",
+          "parent_id": "9",
+          "text": "Explain why Ntsiki questions having an English name. \n\nNTSIKI LOOK ENGLISH NAME GIVE WHY \nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT C: 05:10–05:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.3",
+          "parent_id": "9",
+          "text": "How do we know the importance of education to Albertina? \n\nALBERTINA FEEL EDUCATION VERY IMPORTANT\nYOU FIND HOW",
+          "marks": 3,
+          "scenario": "[EXTRACT C: 05:10–05:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.4",
+          "parent_id": "9",
+          "text": "Discuss how Albertina displays resistance throughout the story. \n\nSTORY THROUGHOUT ALBERTINA RESIST\nASSERTIVE THIS HOW",
+          "marks": 3,
+          "scenario": "[EXTRACT C: 05:10–05:40]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.5",
+          "parent_id": "9",
+          "text": "What incidences before the extract confirm that this is her dream?\n\nEXTRACT BEFORE \nALBERTINA DO DO THIS \nLINK EXTRACT DREAM ACHIEVE THIS THIS \nWHAT",
+          "marks": 2,
+          "scenario": "[EXTRACT D: 15:12–15:42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.6",
+          "parent_id": "9",
+          "text": "What made Albertina fall in love with Walter?\n\nALBERTINA WALTER FALL-IN-LOVE \nWHY",
+          "marks": 2,
+          "scenario": "[EXTRACT D: 15:12–15:42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.7",
+          "parent_id": "9",
+          "text": "How did Max's birth inspire Albertina?\n\nALBERTINA BORN MAX THIS INSPIRE HOW \nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT D: 15:12–15:42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.8",
+          "parent_id": "9",
+          "text": "How did Albertina's actions influence Max's future? \n\nALBERTINA LOBBY MAX FUTURE HIS INFLUENCE \nHOW",
+          "marks": 3,
+          "scenario": "[EXTRACT D: 15:12–15:42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.9",
+          "parent_id": "9",
+          "text": "The extract refers to Albertina as the 'Mother of the nation'. Do you agree with the statement? Motivate your answer. \n\nPEOPLE LOOK-UP ALBERTINA \nSHE MOTHER NATION LIKE-THAT \nYOU AGREE \nEXPLAIN",
+          "marks": 4,
+          "scenario": "[EXTRACT D: 15:12–15:42]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 10",
+      "title": "SECTION C: DRAMA - 'LIVING ON THE EDGE'",
+      "instructions": "Answer EITHER QUESTION 10 (essay question) OR QUESTION 11 (contextual question).",
+      "questions": [
+        {
+          "id": "10",
+          "parent_id": null,
+          "text": "Kim is not just a victim of poverty and social inequality. She is also a victim of the insensitivity and ignorance from her peers towards her circumstances. Critically discuss if they truly understood her situation. The length of your essay should be 8–10 minutes.\n\nPERSON THIS KIM POOR SOCIAL EQUALITY NO \nPEOPLE UNIVERSITY THERE LOOK SENSITIVE NO \nIGNORANT \nTHEY UNDERSTAND HER DEEP TRUE \nDISCUSS DETAIL\n8–10 MINUTES SIGN",
+          "marks": 25,
+          "scenario": "'LIVING ON THE EDGE' produced by the University of Stellenbosch",
+          "context": "Content (15)\nLanguage structure and use (10)",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 11",
+      "title": "SECTION C: DRAMA - 'LIVING ON THE EDGE'",
+      "instructions": "Answer EITHER QUESTION 10 (essay question) OR QUESTION 11 (contextual question).",
+      "questions": [
+        {
+          "id": "11.1",
+          "parent_id": "11",
+          "text": "Place the extract into context. \n\nEXTRACT BEFORE AFTER \nHAPPEN HAPPEN WHAT",
+          "marks": 2,
+          "scenario": "[EXTRACT E: 05:00–06:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.2",
+          "parent_id": "11",
+          "text": "Why does Veronique react to Tarone's question? \n\nTARONE ASK\nVERONIQUE PUSH \nWHY",
+          "marks": 2,
+          "scenario": "[EXTRACT E: 05:00–06:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.3",
+          "parent_id": "11",
+          "text": "Explain why Tarone is being insensitive when talking about his big house with the flat in the backyard.\n\nKIM THERE \nTARONE SIGN HOUSE BIG FLAT SMALL \nPARENTS MOVE CAN\nTHIS SIGN LIKE-THAT SENSITIVE THIS NO SENSITIVE NO \nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT E: 05:00–06:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.4",
+          "parent_id": "11",
+          "text": "Discuss the impact of Kim's grandmother's illness on her life. Justify your answer by considering the whole drama. \n\nGRANDMOTHER SICK \nKIM LIFE HERS THIS INFLUENCE\nHOW",
+          "marks": 3,
+          "scenario": "[EXTRACT E: 05:00–06:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.5",
+          "parent_id": "11",
+          "text": "Discuss how Kim's changing appearance links to the plot.\n\nDRAMA THROUGHOUT HAPPEN HAPPEN \nKIM LOOKS CHANGE \nLINK-DRAMA HOW",
+          "marks": 3,
+          "scenario": "[EXTRACT E: 05:00–06:00]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.6",
+          "parent_id": "11",
+          "text": "Account for Kim's attitudes in this extract. \n\nEXTRACT THIS \nKIM ATTITUDE \nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT F: 10:27–11:22]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.7",
+          "parent_id": "11",
+          "text": "Explain Amy's intention in this extract. \n\nKIM THIS AMY GIRL HEARING \nMEET-KIM \nWHY",
+          "marks": 3,
+          "scenario": "[EXTRACT F: 10:27–11:22]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.8",
+          "parent_id": "11",
+          "text": "Explain how the conversation in this extract later assisted Kim to overcome her situation.\n\nKIM THIS AMY MEET\nCONVERSATION THIS \nLATER HELP \nHOW",
+          "marks": 3,
+          "scenario": "[EXTRACT F: 10:27–11:22]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.9",
+          "parent_id": "11",
+          "text": "Critically evaluate the author's implied motives in creating this drama.\n\nPERSON THIS IDEA DRAMA THEIR GOAL \nYOU EVALUATE\nEXPLAIN",
+          "marks": 3,
+          "scenario": "[EXTRACT F: 10:27–11:22]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 20232,
+    "cached_tokens_saved": 0
+  }
+}

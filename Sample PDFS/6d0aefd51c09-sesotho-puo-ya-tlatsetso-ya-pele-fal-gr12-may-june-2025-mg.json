@@ -1,0 +1,1998 @@
+{
+  "meta": {
+    "subject": "Sesotho Puo ya Tlatsetso ya Pele (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1",
+          "text": "POTSO YA 1: MAHLALE A KOPANE LEKWA – DN Katsie",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": 35,
+          "marker_instruction": null,
+          "notes": "Section A contains various options; learners choose based on their prescribed books.",
+          "topic": "Pale/Nobele/Novele",
+          "essay_structure": null
+        },
+        {
+          "id": "1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke wa Mananyetsa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Karaburetso ya pono."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke lehlabathe le neng le le leswe ka lebaka la pula e neng e nele.",
+            "Ke mehlala ya dieta tsa Mananyetsa lehlabatheng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne a se a phela jwaleng.",
+            "O ne a se a phela ka ho boledisa borui ba hae."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mananyetsa o ile a wela lerabeng la Sekgukguni ka hore eitse ha a fumana mmate wa seeta sa pele seo a se siileng morao, a etse qeto ya ho kgutla a ilo se lata athe ka ho etsa jwalo o itihela lerabeng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Nnete hobane Sekgukguni o ile a qetella a fumane mokotla wa tjhelete moo Mananyetsa a neng a o patile teng yaba o baleha ka wona. Ho tloha moo ba dula ba lelekisana, ba o tsekisana. Ke ka hona ho thweng ketsahalo ena e thusa ho ntshetsa kgohlano pele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mofumahadi o ne a loketse ho belaela hobane morena o hlokahetse yena mofumahadi a sa tsebe hore morena o ne a kolota ngaka.",
+            "Ka hara matona a morena ho ne ho lokela ho ba le a le mong ya neng a lokela ho hopola tshobotsi ya ngaka e neng e phekola morena hobane morena ha a ete a le mong ho se na matona a mo felehetsang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bopelonolo ba hae ba ho ithaopa ho ya rekela Sekgukguni jwala, bo ile ba nolofalletsa Sekgukguni ho sala a nka mokotla wa tjhelete moo o neng o patilwe teng. Ka mora moo, Mananyetsa a halefa, a mo sala morao a batla ho i kgapela wona hape."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Le sebedisitswe ka sepheo sa ho hlakisa le ho hatella ntlha/taba ya hore mohlala wa dieta tsa Mananyetsa o ile wa se hlole o bonahala hohang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lewa la tlholo di ngolweng le bolela hore bobe bo etswang paleng bo lokela ho fuwa kotlo e bo lokelang. Paleng ena ha le a fihlellwa hobane re bona baphetwa ba sehlooho ba sa fumana kotlo e ba lokelang ka ho utswetswa mofumahadi tjhelete."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne a o nkile ha mofumahadi wa morena Ramoroko."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne a kgathetse haholo hobane o ne a tsamaile sebaka se selelele hodima a ne a sa robala ka lebitleng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ho buua ka ho tsoma.",
+            "Ho buua ka bana ba ntseng ba kga dishweshwe le monakaladi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mongodi o bolela hore Mananyetsa o ne a tsamaya a sa etse lerata e le hore a se ke a bonwa kapa a utluwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mafosi, hobane sesosa sa kgohlano paleng ena ke boqhekanyetsi/meharo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ho bile le bohlokwa ba ho ntshetsa pale pele hobane Mananyetsa ha a se a fumane tjhelete ha hae, o ile a etsa qeto ya ho baleha ka yona. Ketso eo e ile ya susumetsa Sekgukguni hore a mo lelekise ka sepheo sa ho ikgapela yona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lebitso la pale ena le a e tshwanela hobane diketsahalo tsa yona di thehilwe bohlaleng bo tshwanang ba baphetwa ba sehlooho, ba ileng ba qala ho kopana nokeng ya Lekwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Di re bopela tharahano hobane ka mora hore Mananyetsa a siye Sekgukguni ka lebitleng, ditaba di ile tsa mpefala ho feta dipakeng tsa baphetwa bana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.19",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Puisanong eo ho totobala karaburetso ya pono. Mmadi kelellong ya hae o ba le setshwantsho se etsang eka o se a ntse a bona bana ba se nang molato batshohileng ba buisanang le ntate eo ba sa mo tsebeng. Karaburetso ena e hlakisa hantle kgalefo eo Mananyetsa a neng a na le yona baneng bao.",
+            "Puisanong eo ho totobala karaburetso ya kutlo. Mmadi kelellong ya hae o ba le setshwantsho se etsang eka o se a ntse a utlwa bana ba se nang molato ba buisanang le ntate eo ba sa mo tsebeng. Karaburetso ena e hlakisa hantle kamoo puisano eo e tsamaileng habohloko kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2",
+          "text": "POTSO YA 2: BOSWEU BA LEHLWA – Sello Moroe",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Hlomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kgohlano ya kantle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ba kena moo ke neng ke phutha sefela le Bebele .",
+            "Lekwala ke wena o lwantshanang le batho le ka Sontaha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lekwala",
+            "Sefelekwane"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Maikutlo a kgalefo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wa monamodi hobane o ne a namola ntwa e dipakeng tsa Hlomi le Tshiu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "E bile le bohlokwa ba ho ntshetsa kgohlano pele ka hore Tshiu ya neng a tsekisana Lerato le Hlomi, o ile a mo hloya le ho mo lwantsha ho feta."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Dipuo tsa baphetwa.",
+            "Diketso tsa baphetwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A dumellana le diketsahalo tsa qotso ena hobane Tshiu o ne a lwana le Hlomi empa o ile a sheshenella Puse le Lerato ba neng ba se na molato.",
+            "A dumellana le diketsahalo tsa yona hobane Tshiu o ile a kgaruma morekisi ya neng a leka ho namola Tshiu le Hlomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lebotsi ke bokgabo boo ho bona mmadi a ipotsang dipotso tseo a sa lebellang dikarabo tsa tsona mme mantsweng ana a Puse, le sebedisitswe ho bontsha ho ferekana le ho makala ha Puse a makalla tsela eo hempe ya Hlomi e neng e susubane kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mmae o ne a tseba ka kamano ya hae le Lerato."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tjhe, ke e nngwe ya tse re bopelang tharahano hobane e ile ya mpefatsa le ho feta dikamano dipakeng tsa Hlomi le Tshiu mme kgohlano ya tota ho feta."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Baphetwa",
+            "Mehla ya diketsahalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "E bile le bohlokwa ba ho re tjebela pele ketsahalong eo ho yona Tshiu a neng a kopa tshwarelo ho Hlomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke ketsahalo eo ho yona Hlomi a ileng a lora a hloleha ho tshwara Lerato hobane ho hlokahala ha Lerato ho ile ha phethahatsa toro eo mme Hlomi a inkela Dineo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Karaburetso ya pono."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O bolela hore a se mamedisisi/nkele hloohong tse neng di buuwa ke Tshiu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke thuto ya hore batho ba atleha ka ditsela tse fapaneng bophelong hobane ha Mokgifa a ne a tsamaya yunivesithing ka lebaka la mathata a lelapa la habo, seo se ne se sa bolele hore a ke ke a hlola a atleha bophelong hobane metswalle ya hae e neng e setse yunivesithing e ile ya kopana le yena a se a atlehile haholo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Ho elwe tlhoko dikarabo tsa baithuti.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.19",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ntlhakemo ya mongodi ke ho dumela tshebetsong ya dingaka tsa setso hobane Tshiu o ne a ilo kopa Mmadito ho mo fa ditlhare tse tla etsa hore Lerato a mo rate mme a hane Hlomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3",
+          "text": "POTSO YA 3: SEHLEKEHLEKE SA DEIDRO – VT Masima",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Botswania"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne a makalletse ho bona boemo bo hodimo ba thekenoloji e sebediswang moo.",
+            "O ne a makalletse tshireletso e matla e sebakeng seo.",
+            "O ne a makalletse kamoo sebaka seo se neng se patehile kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Di re tsebisa hore o bohlale.",
+            "Di re tsebisa hore o na le tjhebelopele.",
+            "Di re tsebisa hore ha a tele habonolo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Mphafudi hobane o ile a kwenehela mokgatlo wa Bana ba Phiri a nya matsete ho Chikano."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Paliya, hobane o kgonne ho namolela Chikano diatleng tsa Sister Ruth ya neng a batla ho mmolaya kwana Kweneng. A boela a mo namolela hape diatleng tsa mobishopo Biala ya neng a batla ho mmolaya Bosothonia."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "E re totoballetsa kgohlano ya kantle hobane o balehide ho lwanwa, ditho tsa Mokgatlo wa Bana ba Phiri di se di bolaile Amanda."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mafosi, mongodi o atlehile hobane diketsahalong tsa pale ho totobetse hore maqheka/maqiti ohle a Mokgatlo wa Bana ba Phiri, a rerwa ke yena. Ke yena ya lohileng moralo wa kwetelo ya mopresidente Monnafeela wa Bosothonia. Ke yena hape ya kentseng Nasala Bosothonia ka botsotsi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tomatso e totobala ka tsela ya hore Chikano o ne a sa tsebe hore moborigadiri Ramaqiti, eo yena Chikano a rometsweng ho yena hore a mo thuse, ke yena molaodi e moholo wa Mokgatlo wa Bana ba Phiri oo a ntseng a tsomana le wona feela babadi/mmadi yena o a tseba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mehla ya diketsahalo qotsong ena e totobala e le ya kajeno moo thekenoloji e seng e rena e busa lefatshe. Sena se totobatswa ke dihotele tseo baeti ba seng ba dula ho tsona. Ho bile hape ho buisanwana ka difonofono. Dikepe ho sebediswa ditlhapikepe tsa nyutleleha, mme ho se ho sebediswa disatalaete ho batla le ho sireletsa disebediswa tse kang tsona ditlhapikepe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Di etsahala ka mora ketsahalo eo ho yona Paliya a ileng a pholosa Chikano diatleng tsa Sister Ruth ya neng a re o a mo thunya kwana Kweneng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke ketsahalo eo ho yona Mphafudi a ileng a kwenehela mokgatlo wa Bana ba Phiri, a inehela ho boChikano a nya matsete ka tsa mokgatlo oo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Paliya, hobane o ile a pholosa Chikano Sister Ruth a re o a mo thunya Kweneng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Baphetwa",
+            "Sesosa sa kgohlano.",
+            "Mehla ya diketsahalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A/Tharahano hobane kgohlano e tota le ho feta, ditaba di mpefela ho feta ha Ramaqiti le mokgatlo wa hae wa Bana ba Phiri ba batla ho bolaya Chikano, sepheo e le ho pata bopaki bo tla ba tshwarisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke ketsahalo eo ho yona Chikano a ileng a batla a bolawa toropong ya Seruwe ha a ne a butswelwa ka sefako sa dikulo ke dinokwane tse ileng tsa baleha.",
+            "Ke ketsahalo eo ho yona Chikano a ileng a batla a bolawa Leseru ha a ne a etetse kgarebe ya hae Katriena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Karaburetso ya pono e qotsong, e nthusa ho utlwisisa hore efeela Chikano a ne a le dipakeng tsa lefu le bophelo a setswe morao ke mahlahana a Ramaqiti."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mokgatlo wa Bana ba Phiri o ne o se o haellwa ke tjhelete.",
+            "Mobishopo Biala o ne a batla ho kenya tshabo e kgolo direng tsa bona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molaetsa wa mongodi paleng ena ke hore letsoho la mmuso le le lelele hobane Ramaqiti ya neng a etsa bonokwane bo kenelletseng a ipatile ka maemo a hae sesoleng, o ile a qetella a fumanwe hore ke yena mookamedi wa mokgatlo wa dikweta o ipitsang Bana ba Phiri. Ha a se a lemoha hore sesole le sepolesa sa dinaha tsa Afrika e Borwa di mo patisitse, a ipha naha ho ya moo ho sa tsebeng motho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Ho elwe tlhoko dikarabo tsa baithuti.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "4",
+          "text": "POTSO YA 4: SEFI – DJ Nkutha",
+          "type": "Tshwantshiso/Terama",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Raboditse."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ho na le dibapadi.",
+            "Ho na le puisano ya dibapadi.",
+            "Ho na le qhwebeshano/kgohlano.",
+            "Ho na le ditshupiso tsa kalaneng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne hlokomela lelapa la hae hantle.",
+            "O ne a hlompha lelapa la hae.",
+            "O ne a sa nwe jwala.",
+            "O ne a na le seriti.",
+            "E ne e le modumedi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tshwantshanyo/papiso hobane o bapisa pherekano e ka mpeng ya hae le ntwa ya Iraq."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ne a se a se na tjhelete hobane o ne a lelekuwe mosebetsing.",
+            "O ne a se a kula.",
+            "O ne a tahwa haholo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mongodi o hlahisa leeme la bong ka ho bontsha Raboditse le Motaung, ya ileng a kena ha morao lefehlong lena, ba phedisa basadi le baradi ba bona hampe ka ho ba shapa, ba ba bitsolla feela le pela bana.",
+            "O hlahisa leeme ka ho bontsha basadi ban a le diphoso tsa bona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke ketsahalong eo ho yona re bonang Motaung ka lebaka la dikeletso tsa Raboditse, a kwenehela morero wa lelapa la hae wa ho isa Tiisetso yunivesithing."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Motaung e ne e le modumedi ha Raboditse yena e ne e le ngaka ya setso.",
+            "Motaung o ne a hlompha mohatsae ha Raboditse a ne a sa bone wa hae ka letho.",
+            "Motaung o ne a sa nwe jwala ha Raboditse a ne a nwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hangata ho dumelwa hore ditoro di fupere melaetsa ya bohlokwa maphelong a ba di lorang. Tshwantshisong ena, re bona sena se nnetefala moo Tiisetso a ileng a lora ntatae a tshellwa ho hong/tjhefu dijong, mme a tsoha a tshohile haholo hore e mpe e be ha se nnete. Ho fetse ha ba jwalo, ntatae o ile a tshellwa moriana jwaleng ke Mmatshele ya neng a fuwe ke Raboditse."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Dipuo tsa hae."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Melao",
+            "Modimo",
+            "Mosadi"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke Raboditse, hobane o ne a sebetsa mmoho le mohatsae Mmankepe ho thuha kgotso ya lelapa la Motaung."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Le senola Motaung e le sebapadi se itlhomphang hobane o ne a sa batle ho itiha seriti.",
+            "Le senola Motaung e le sebapadi se tshepahalang hobane o ne a sa batle ho roba dikano tsa lenyalo la hae."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bohlokwa ba yona ke ho hatella/toboketsa taba ya hore Mmatshele o ne a hlile a le motle haholo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sepheo sa hae ke ho hohella Motaung ha Mmatshele, ho mo etsa hore a phuthollohe, a tsebe hore kaha o a hlompheha ha a ilo dula le bo mauthwauthwana moo. Ba tla ba ka phaposing e ikgethileng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tomatso e hlaha ka tsela ya hore Motaung ha a tsebe hore motswalle wa hae, Raboditse, o se a mo rerile le Mmatshele. Qotsong mona o bua jwalo ka ha eka a ka mo lokisetsa haeba a tshaba empa rona babadi re se re ntse re tseba hore o se a buile le Mmatshele hore a tle a ikgapele Motaung."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Dinoka",
+            "Makoloi"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Ho elwe tlhoko dikarabo tsa baithuti.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mongodi o utlwahala a tshehetsa tshebetso le matla a ditlhare tshwantshisong ena. Re utlwa Raboditse kamehla ha a bua le mohatsae Mmankepe a ipoledisa kamoo yena ditlhare a di tsebang kateng, mme ebile le yena mohatsae a mo paka. Ha ho makatse he, ho bona Raboditse a sebedisa ditlhare, a di fa Mmatshele hore a di tshele jwaleng ba Motaung. Ka mora moo yaba ho fedile ka Motaung, a kgokgothelleha ha Mmatshele ho fihlela a mo montse a bile a mo lelekile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "5.1",
+          "text": "'PELO E JA SERATI' – NA Mpembe",
+          "type": "Dipalekgutshwe",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke lebaka la hore mora wa hae o ile a re o tla tsebisa ntatae lebaka le neng le susumetsa mmae hore a latelle ho mo nyalla Puleng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Baphetwa",
+            "Sesosa sa kgohlano."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke kgale ke kopa batswadi ba ka hore ke batla ho nyala.",
+            "Ha a rate le ho utlwa feela, ka Moipone."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Pheteletso hobane Mafotha o fetelletsa tsela eo a ratang Moipone ka yona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke dumellana le polelo ena hobane Mmamafotha ke yena ya neng a le kgahlanong le qeto ya mora wa hae ya ho nyala Moipone, a batla hore a nyale motswala wa hae Puleng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bohlokwa ba boipuiso ke ho re senonela ngongoreho ya Mafotha malebana le qeto ya mmae ya ho mo hanela ho nyala Moipone."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Dipuo tsa hae.",
+            "Diketso tsa hae."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kgohlano ya ka hare hobane di ne di mo ngongorehisa hoo a neng a sa kgone ho etsa qeto ka tsona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ho lewa la tlholo dingolweng, baphetwa ba etsang bobe ba otlwa ka lebaka la bobe boo mme ba etsang botle ba putswa ho latela botle boo. Palekgutshweng ena re bona botle bo hlola bobe ha Mmamafotha ya neng a sa rate ha mora wa hae a nyala Puleng, a ile a qetella a ipone phoso, a ba a inehela mme a dumellana le mohopolo wa mohatsae le Mafotha wa hore mora a inyalle kgarebe e ratwang ke yena, Moipone."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "'HA E LALE' – NA Mpembe",
+          "type": "Dipalekgutshwe",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hantlentle Makgisa ke yena ya lenyokonyane ka hara borathepa.",
+            "O meharo, o dikgoka o bile o kgantsha hore yena ha a kgathalle ho tshetjwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ke meharo ya boraditekesi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Karaburetso ya pono.",
+            "Karaburetso ya kutlo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "E le nngwe feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sehlooho sa yona se a hohela.",
+            "E kgutshwane.",
+            "E pheta ketsahalo e le nngwe e phethahetseng.",
+            "E na le baphetwa ba mmalwa.",
+            "E na le poloto e le nngwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Tse pedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molwantshi hobane o lwantshana le borathepa ba bang, o senya kgotso kgwebong ya ditekesi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mehla ya sejwalejwale ya tokoloho moo batho ba batsho ba seng ba dumelletswe ho hweba ka ditekesi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Le sebedisitswe ka sepheo sa ho totobatsa ngongoreho ya Mahaila ya hore ebe kgotso e tla ba teng neng indastering ya ditekesi na."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O ile a lelekwa mokgatlong wa borathepa.",
+            "Diketso tsa hae di ile tsa thibelwa ho sebetsa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lebitso lena Mahaila le amana le seabo sa hae palekgutshweng ena ka hore o ile a ba le sebete sa ho etsa bonnete ba hore merusu ya ditekesi, e fella ruri motseng wa habo, ke tjho le Makgisa ya neng a tshwajwa ke setjhaba sohle sa habo, o ile a mo haila a lahlelwa ntle mokgatlong wa ditekesi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tomatso dingolweng ke moo baphetwa ba amehang ba sa tsebeng tseo babadi ba di tsebang. Palekgutshweng ena re bona Makgisa a ya kopanong ka kgopolo ya hore o tla lo utlwa ditaba tse molemo, tse tla mo thabisa empa rona babadi re ne re se re ntse re tseba hore ha ho no ba jwalo kaha o ile a lelekwa mokgatlong oo wa borathepa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA D",
+      "questions": [
+        {
+          "id": "6.1",
+          "text": "'LEFU' – J Mokoena",
+          "type": "Dithothokiso",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ubellang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Fika",
+            "Fatsheng"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molathothokiso wa 13/lefu ke lena ke mokgokakgwale."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molathothokiso wa 1/ha ke bua ka lefu, ke re ke phakwe,",
+            "Molathothokiso wa 2/ha ke bua ka phakwe, ke re ke Ramautla hobane melathothokiso eo e bopilwe ka dikarauto tsa puo tse tshwanang mmoho le palo ya mantswe e lekanang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bohlokwa ba yona ke ho hlakisa hore sethothokisi se tshaba lefu haholo, se a lla ha se lokela ho bua kapa ho ngola ka lona hoo se seng se bile se nyahamela le boqapi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sepheo sa sethothokisi ke ho hatella/toboketsa e le ho tiisa hore efela lefu le tlositse bao se ba ratang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "E sebedisitswe ka maikemisetso a ho tlamahanya/hatella/mohopolo wa ho re lefu le ikentse mohlorisi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wena"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molemo wa yona ke ho re tsebisa hore lefu le nka batho motjhaotjhele ka ditsela tse fapaneng, ka dintwa tsa marumo kapa ka dithunya."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sehalo ke maikutlo a sethothokisi. Thothokisong ena sehalo ke sa ho teneha le ho halefa kapa hona ho utlwa bohloko hobane lefu le ikentse mosotli, mohlorisi ya etsang hore batho ba dule ba tshohile, ba lla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2",
+          "text": "'HO SE TSHEPAHALE' – RN Phume",
+          "type": "Dithothokiso",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molathothokiso wa 13/a tshola tlhako morong'."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Pere ya letebele",
+            "Mopheme",
+            "Lemenemene",
+            "Phokojwe",
+            "Ramaqiti"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "A mabedi feela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molathothokiso wa 7/Helang bo! Leqwatsiqwatsi ha se motho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Phetapheto ya mantswe e diehisitsweng.",
+            "Phetapheto ya moelelo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bohlokwa ba wona ke ho hlakisa taba ya hore leqwatsiqwatsi le sentse tsohle ebile le senyeditse bohle le sa kgetholle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Se sebedisitse lentswe, 'hle' ka maikemisetso a ho hatella kopo ya sona ya hore leqwatsiqwatsi le be le mohau bathong ba morena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Molathothokisong oo, ho bolelwa hore leraba le neng le tjheuwe le mo tshwasitse, o tshwerwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Se le sebedisitse ka sepheo sa ho hlakisa kamoo leqwatsiqwatsi le jeleng diphoofolo tsa batho ka sehloho kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6.2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Anastrofi ke tshebediso ya tatellano e sa tlwaelehang ya mantswe molathothokisong, mme mona e sebedisitswe ka sepheo sa ho hatella mohopolo wa ho eletsa leqwatsiqwatsi ka matla hore le fetole mekgwa ya lona hobane ho seng jwalo le tla thulana le ba kang lona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 21646,
+    "cached_tokens_saved": 0
+  }
+}

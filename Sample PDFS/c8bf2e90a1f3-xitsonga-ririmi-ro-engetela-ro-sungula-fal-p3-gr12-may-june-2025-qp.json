@@ -1,0 +1,208 @@
+{
+  "subject": "Xitsonga: Ririmi ro Engetela ro Sungula (FAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Xitsonga",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "XIYENGE XA A: XITSALWANA",
+      "instructions": "Hlawula nhlokomhaka YIN'WE ntsena leyi u yi twisisaka swinene kutani u tsala xitsalwana hi yona kambe u nga humi emhakeni. Rhanga u endla nkunguhato u nga si sungula ku tsala. Xitsalwana xa wena xi fanele ku va na kwalomu ka 250–300 wa marito.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Buku yo tsakisa leyi ndzi yi hlayeke.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Xitsalwana",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Nhlawulo wa mani na mani wa nkarhi na nkarhi.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Xitsalwana",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Loko ndzo tshuka ndzi winile mamiliyoni ya tirhandi.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Xitsalwana",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Ku ya ehansi ka vukorhokeri eswibedhlele swa mani na mani swi vangiwa hi mafambiselo ya vurhangeri bya tiko. Pfumela kumbe u kaneta mhaka leyi.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Xitsalwana",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Vurimi byi fanele ku rhangisiwa emahlweni laha tikweni.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Xitsalwana",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Hlawula xifaniso XIN'WE eka swifaniso swa 1.6–1.8 laha hansi kutani u tsala xitsalwana hi xona. Xitsalwana xin'wana na xin'wana xi fanele ku va na nhlokomhaka leyi faneleke.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt: An athlete is shown winning a race by crossing a finish line tape, with other runners behind them.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Hlawula xifaniso XIN'WE eka swifaniso swa 1.6–1.8 laha hansi kutani u tsala xitsalwana hi xona. Xitsalwana xin'wana na xin'wana xi fanele ku va na nhlokomhaka leyi faneleke.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt: The South African national flag flying on a flagpole against a cloudy sky.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Hlawula xifaniso XIN'WE eka swifaniso swa 1.6–1.8 laha hansi kutani u tsala xitsalwana hi xona. Xitsalwana xin'wana na xin'wana xi fanele ku va na nhlokomhaka leyi faneleke.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt: A massive crack or sinkhole has opened up in the middle of a city street, showing structural damage to the road surface.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "XIYENGE XA B: XITSHURIWA XA XITSALWAMBIKO XO LEHA",
+      "instructions": "Hlawula nhlokomhaka YIN'WE ntsena leyi u yi twisisaka swinene kutani u tsala xitsalwambiko hi yona, kambe u nga humi emhakeni. Rhanga u endla nkunguhato u nga si sungula ku tsala. Xitsalwambiko xa wena xi fanele ku va na kwalomu ka 120–150 wa marito. Sungula nhlamulo ya wena eka PHEJI YINTSHWA.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "PAPILA RA MAFUNDZA. Tsalela nhloko ya xikolo xa n'wina papila, u n'wi tsundzuxa hi vusirheleri na vuhlayiseki lebyi faneleke ku endliwa exikolweni xa n'wina.",
+          "marks": 30,
+          "scenario": null,
+          "context": "Formal Letter",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "IMEYILI. Tsalela muakelani wa wena imeyili u khensa ku va a ku pfunile ku kuma ntirho wa nkarhinyana eka khamphani ya vona.",
+          "marks": 30,
+          "scenario": null,
+          "context": "Email",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "XIVIKO. Tanihi hi murhangeri wa vantshwa endhawini ya ka n'wina, u komberiwile ku endla vulavisisi mayelana na ku andza ka matirhiselo ya swidzidziharisi hi vantshwa. Tsala xiviko lexi yaka eka Meyara.",
+          "marks": 30,
+          "scenario": null,
+          "context": "Report",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "N'WANGULANO. Tsala n'wangulano exikarhi ka muchayeri wa thekisi na mukhandziyi loyi a nga hundza laha a chikaka kona hi xihoxo.",
+          "marks": 30,
+          "scenario": null,
+          "context": "Dialogue",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "XIYENGE XA C: XITSHURIWA XA XITSALWAMBIKO XO KOMA",
+      "instructions": "Hlawula nhlokomhaka YIN'WE ntsena leyi u yi twisisaka swinene kutani u tsala xitsalwambiko hi yona, kambe u nga humi emhakeni. Rhanga u endla nkunguhato u nga si sungula ku tsala. Xitsalwambiko xa wena xi fanele ku va na kwalomu ka 80–100 wa marito. (U nga tluli pheji yin'we yo hlamulela eka yona.) Sungula nhlamulo ya wena eka PHEJI YINTSHWA.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "XINAVETISO. Tsala xinavetiso xa bindzu ra wena ra vukorhokeri bya ku tsema byanyi na ku hunguta minsinya.",
+          "marks": 20,
+          "scenario": null,
+          "context": "Advertisement",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "HUNGU RA SMS. Tsala hungu ra SMS exikarhi ka wena na munghana wa wena laha mi angulanaka ka ntlhanu mi vulavula hi timhaka to lulamisela ku tsala xikambelo. (Tirhisa marito lama heleleke.)",
+          "marks": 20,
+          "scenario": null,
+          "context": "SMS Message",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "SWILETELO. Wena na vanghana va wena mi twananile ku ya vona filimi esinema ya laha u tshamaka kona. Tsala swiletelo swa ndlela leswi va nga ta swi landzelela ku suka exitichini xa mathekisi ku ya fika esinema ya kona.",
+          "marks": 20,
+          "scenario": null,
+          "context": "Directions",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8680,
+    "cached_tokens_saved": 0
+  }
+}

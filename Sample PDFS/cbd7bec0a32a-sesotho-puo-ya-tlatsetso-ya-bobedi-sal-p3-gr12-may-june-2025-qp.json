@@ -1,0 +1,208 @@
+{
+  "subject": "Sesotho Puo ya Tlatsetso ya Bobedi (SAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sesotho",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: MOQOQO",
+      "instructions": "Kgetha sehlooho kapa setshwantsho SE LE SENG mme o ngole moqoqo wa bolelele ba mantswe a 200 ho isa ho a 250. Ha o kgethile ho ngola ka setshwantsho, o nehe moqoqo wa hao sehlooho. Hopola ho etsa moralo mme o be o boele o lekole moqoqo wa hao botjha ho hlaola diphoso. ELA TLHOKO: Ho tlamehile ho ba le kgokahano dipakeng tsa moqoqo wa hao le setshwantsho seo o se kgethileng.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "text": "Metswalle",
+          "marks": 40,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Ke batla ho fetola bophelo ba ka.",
+          "marks": 40,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Batjha ba lahlile botjhaba le boitshwaro bo botle.",
+          "marks": 40,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Qeto eo ke neng ke lokela ho e nka.",
+          "marks": 40,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka sona. O nehe moqoqo wa hao sehlooho se loketseng.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Setshwantsho sa sefate se seholo se le seng mahatheng/thoteng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka sona. O nehe moqoqo wa hao sehlooho se loketseng.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Setshwantsho sa batho ba babedi ba hodile (monna le mosadi) ba thabile mme ba tadimile selefounu.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka sona. O nehe moqoqo wa hao sehlooho se loketseng.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Setshwantsho sa ditshila tse qhalaneng fatshe pela mekotla ya dipolasetiki ya ditshila.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka sona. O nehe moqoqo wa hao sehlooho se loketseng.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Setshwantsho sa mangau a mabedi a tadimileng hodimo.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITEMA TSA KGOKAHANO TSE TELELE",
+      "instructions": "Kgetha mme o ngole tema E LE NNGWE ya bolelele ba mantswe a 80 ho isa ho a 100. Hopola ho etsa moralo mme o be o boele o lekole tema ya hao botjha ho hlaola diphoso.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "LENGOLO LA SETSWALLE\n\nMoithuti e mong wa sekolo seo o kenang ho sona o hlokahetse, a tshwerwe ke lefu la kankere. Ngolla ba lelapa labo lengolo o ba tshedise.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "LENGOLO LA SEMMUSO\n\nNgolla mokhanselara wa motse wa heno lengolo, moo o tletlebang ka phaepe ya metsi eo e sa le e phatloha dibeke tse pedi tse fetileng.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "PUISANO\n\nNgola puisano dipakeng tsa hao le sebohodi sa TV moo le buisanang ka boitshwaro le kgethollo dipapading.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "TEKOLOKAKARETSO\n\nNgola tekolokakaretso ka lenaneo la 'BATJHA LE MMINO' leo o neng o le kenetse kgweding e fetileng.",
+          "marks": 20,
+          "scenario": null,
+          "context": "Setshwantsho sa sehlopha sa batjha ba ntseng ba letsa diletsa tsa mmino le ho bina.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DITEMA TSA KGOKAHANO TSE KGUTSHWANE",
+      "instructions": "Kgetha mme o ngole tema E LE NNGWE ya bolelele ba mantswe a 60 ho isa ho a 80 (dikahare feela). Hopola ho etsa moralo mme o be o boele o lekole tema ya hao botjha ho hlaola diphoso.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "PHOUSETARA\n\nO e mong wa leloko la mokgatlo wa baithuti sekolong sa heno. Etsa phousetara e etsang kgoeletso hore batjha ba tlo ingodisetsa botho ba mokgatlo oo.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "WHATSAPP\n\nBaithuti ba Kereiti ya 12 ba lokela ho bopa dihlotshwana tsa ho itokisetsa ditlhahlobo tsa bona tsa mahareng a selemo. Tsebisa bomphato wa hao ka WhatsApp ka boitokisetso boo. Ngola dintlha tsohle tse hlokahalang bakeng sa boitokisetso.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "DITSHUPISO\n\nLe lokela ho nka leeto la sekolo ka terene. Ka tataiso ya mmapa o latelang, ngola ditshupiso tsa ho tloha lapeng ho ya fihla seteisheneng moo le palamelang teng.\n\nDitshupisong tsa hao bua ka:\n• Mabitso a diterata\n• Dibaka tse tsebahalang\n• Bolelele ba sebaka\n• Letangwana",
+          "marks": 20,
+          "scenario": null,
+          "context": "Mmapa o bontshang mabitso a diterata (Kila Street, Lolo Street, Palesa Street, Molale Street, Supa Street, Pule Street, Karabo Street, Nko Street, Thuto Street, Bottle Street) le dibaka tse fapaneng jwalo ka Mmaraka, Musiam, Boemafofane, Phakeng, Kereke, Bana-ba-lebese PPS, Lapeng, Laeborari, Pampiri HS, Letangwana, Banka, Lebenkele la Thabo, Holo ya motse, Theatre, Seteishene, Borokgo le Lebenkele la Ramatheola.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9400,
+    "cached_tokens_saved": 0
+  }
+}

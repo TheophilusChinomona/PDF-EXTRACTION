@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "subject": "Sepedi Lelemetlaleletšo la Pele (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Tekakwešišo",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.1.1",
+              "value": "(a) 'Leitšibolo' (b) 'Senoinoi'"
+            },
+            {
+              "sub_id": "1.1.2",
+              "value": "Mekgolokwane"
+            },
+            {
+              "sub_id": "1.1.3",
+              "value": "Tlhompho, Lerato"
+            },
+            {
+              "sub_id": "1.1.4",
+              "value": "Silver Lakes"
+            },
+            {
+              "sub_id": "1.1.5",
+              "value": "Go hloka boikemo ga Ntshwarele."
+            },
+            {
+              "sub_id": "1.1.6",
+              "value": "Go boa gae ka masa; Go robala a tsoga ka madila; Go gerema le makgarebe a go fapafapana."
+            },
+            {
+              "sub_id": "1.1.7",
+              "value": "(a) Mosadi ge a nyetšwe ga a swanela go boela gagabo le ge a kopana le mathata. (b) Ge motho a go hloriša, o mo šikologe."
+            },
+            {
+              "sub_id": "1.1.8",
+              "value": "Ke go bethwa ga Kelapile."
+            },
+            {
+              "sub_id": "1.1.9",
+              "value": "Dikeletšo tša bobedi bja bona di thubile lapa la bana ba bona; Ya mmagoKelapile e re sehlare sa muši ke go o tlogela mola ya mmagoNtshwarele e le gore Ntshwarele a nyale mosadi yo mongwe."
+            },
+            {
+              "sub_id": "1.1.10",
+              "value": "Aowa. Ka gobane ge tša bogadi di thatafa o boela gagabo."
+            },
+            {
+              "sub_id": "1.1.11",
+              "value": "Ntshwarele o swerwe ke malwetši a thobalano; Ntshwarele o senyegetšwe ke lapa."
+            },
+            {
+              "sub_id": "1.1.12",
+              "value": "Go boledišana le molekane wa gagwe pele; Batho ba babedi ge ba na le mathata ba swanetše go leka go rarolla bothata bjoo pele ba ka nyaka thušo go batho ba bangwe."
+            },
+            {
+              "sub_id": "1.1.13",
+              "value": "Aowa. Tlholo ya ngwana ke ya batho ba babedi, e lego monna le mosadi; Ntshwarele le yena a ka no ba le bothata bja peu."
+            },
+            {
+              "sub_id": "1.1.14",
+              "value": "Maele a mmagoNtshwarele a senyeditše Ntshwarele lenyalo; MmagoKelapile o eletša morwedi'agwe gore ge tša bogadi di mo palela a tloge."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 23,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Visual Literacy (Graph)",
+          "type": "Data Interpretation",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.2.1",
+              "value": "C/2022"
+            },
+            {
+              "sub_id": "1.2.2",
+              "value": "2023. E bontšha e le ka godimo ga diperesente tše 40."
+            },
+            {
+              "sub_id": "1.2.3",
+              "value": "Go tsebiša setšhaba ka dipalopalo tša barutwana ba Kreiti ya 12 bao ba ithutago Sepedi ngwaga ka ngwaga."
+            },
+            {
+              "sub_id": "1.2.4",
+              "value": "Bašemane ba Kreiti ya 12 ba ngwaga wa 2021 ke ba bantši go feta 2023."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 7,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "Kakaretšo (Summary)",
+          "type": "Summary",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": [
+            {
+              "quote": "'Se se hlola gore go be le phišo ye e tseneletšego ...'",
+              "summary_point": "E hlola phišo ya phetelelo."
+            },
+            {
+              "quote": "'Ya tliša komelelo ya masetlapelo go diphedi ka bophara.'",
+              "summary_point": "E hlola komelelo."
+            },
+            {
+              "quote": "'Komelelo e hlola mello ya hlaga ya go se laolege. '",
+              "summary_point": "Go ba le mello ya hlaga."
+            },
+            {
+              "quote": "'Phišo ye e ka tliša dipula tša maatlakadibe.'",
+              "summary_point": "E hlola dipula tša maatlakadibe."
+            },
+            {
+              "quote": "'Dipula tše di a hlobaetša gobane di tla le meetsefula ao a hlolago tshenyo.'",
+              "summary_point": "Tshenyo ye ntši e hlolwa ke meetsefula."
+            },
+            {
+              "quote": "'…letšatši le tsenelela matlalong a batho gomme la hlola malwetši a go fapafapana go swana le kankere ya letlalo.'",
+              "summary_point": "Phišo ya letšatši e bakela batho malwetši bjalo ka kankere ya letlalo."
+            },
+            {
+              "quote": "'Ditsunami le tšona di thoma go ipha maatla ka lebaka la phetogo ya leratadima.'",
+              "summary_point": "Phetogo ya leratadima e hlola le ditsunami."
+            }
+          ],
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": "Kabo ya meputso: Dintlha = 7; Polelo = 3; Palomoka = 10. Ge molekwa a tsopotše dintlha tše 6 go iša go tše 7 ka ntle le go di hlaloša, ga a fiwe moputso wa polelo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "3",
+          "text": "Ad (Tlhahlo ya go swaya karolo ya C)",
+          "type": "Visual Analysis",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1",
+              "value": "Vaseline"
+            },
+            {
+              "sub_id": "3.2",
+              "value": "Banna fela"
+            },
+            {
+              "sub_id": "3.3",
+              "value": "Theko, Lefelo, Mogala (Mark first TWO only)"
+            },
+            {
+              "sub_id": "3.4",
+              "value": "Mmapatši o re Vaseline e dira gore letlalo le relele bjalo ka la leseana."
+            },
+            {
+              "sub_id": "3.5",
+              "value": "Se diretšwe banna fela."
+            },
+            {
+              "sub_id": "3.6",
+              "value": "A lethabo. O a sega/myemyela."
+            },
+            {
+              "sub_id": "3.7",
+              "value": "Lepotlelo, Sekhipa"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4",
+          "text": "Cartoon Analysis",
+          "type": "Visual Analysis",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1",
+              "value": "Leswao la pelo ye e kgaogilego; Sefahlego sa go laetša manyami."
+            },
+            {
+              "sub_id": "4.2",
+              "value": "A/Monna o kgopišitše mosadi; Pelo ya mosadi e laetša e kwele bohloko."
+            },
+            {
+              "sub_id": "4.3",
+              "value": "Pelo ya mosadi e laetša go kwa bohloko; Pelo ya monna e laetša go rata."
+            },
+            {
+              "sub_id": "4.4",
+              "value": "Pudula ya 1 ke ya go bolela mola ya 2 e le ya go nagana."
+            },
+            {
+              "sub_id": "4.5",
+              "value": "Lentiri. Ka gore modiro o direga godimo ga gagwe."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5",
+          "text": "Language in Context",
+          "type": "Language",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1.1",
+              "value": "'woo', wola"
+            },
+            {
+              "sub_id": "5.1.2",
+              "value": "Merupa/Marolo. Madilo le Tilu ke merupa ga di ke di swara selo."
+            },
+            {
+              "sub_id": "5.1.3",
+              "value": "(a) A aparelwa ke tlalelo. (b) Tlalelo ya se mo aparele."
+            },
+            {
+              "sub_id": "5.1.4",
+              "value": "Modirišotatelano: Ditiro tša gona di a latelana; Madiri a gona a felela ka tlhaka ya ‘a’."
+            },
+            {
+              "sub_id": "5.1.5",
+              "value": "Gadi! Lediri e lego gadima."
+            },
+            {
+              "sub_id": "5.1.6",
+              "value": "(a) Sekhutlong (b) Le hlatha lediri e lego 'lebile'."
+            },
+            {
+              "sub_id": "5.1.7",
+              "value": "Bobedi bja tšona bo šoma go hlaola. Motelele e tšea hlogo ya leina, mohlare mola ya gagwe e tšea hlogo ya leina, mpša; Wo motelele ke lehlaodi la tlhago mola ya gagwe e le leamanyi."
+            },
+            {
+              "sub_id": "5.2.1",
+              "value": "D/Khrikhete"
+            },
+            {
+              "sub_id": "5.2.2",
+              "value": "Diteki. Legoro la 10 (Di-)"
+            },
+            {
+              "sub_id": "5.2.3",
+              "value": "Wona. Wona o thabiša setšhaba sa Afrika Borwa."
+            },
+            {
+              "sub_id": "5.2.4",
+              "value": "Thaba"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8540,
+    "cached_tokens_saved": 0
+  }
+}

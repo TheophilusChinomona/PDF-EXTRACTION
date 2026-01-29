@@ -1,0 +1,1252 @@
+{
+  "subject": "SISWATI LULWIMI LWASEKHAYA (HL) P2",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "SiSwati",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SIGABA A: TINKONDLO - TINKONDLO LETIFUNDVWE EKLASINI",
+      "instructions": "Fundza lenkondlo bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "text": "Bhala indzabambhalo ngemcondvo losebaleni walenkondlo/lokushiwo yinkondlo.",
+          "marks": 10,
+          "scenario": "NGITJELE MPHUCUKO NGITJELE – NC Mthethwa\n1 Baphi baphenguli bakitsi?\n2 Tiphi tingedla takitsi?\n3 Baphi balozi bakitsi?\n4 Baphi bafembi bakitsi?\n5 Ngitjele mphucuko, ngitjele.\n\n6 Itolo besiteka tekwelapha:\n7 Sitsats' emanga kubaphenguli,\n8 Sicapha tindzengelo letinemandla,\n9 Sibhunyisa tinyamatane letinemandla\n10 Sipheka timbita letinemandla,\n11 Lamuhla iphi leyonchubo?\n12 Ngitjele mphucuko ngitjele.\n\n13 Umkhuhlane bengiwutfonya ngelikhatsato,\n14 Ngiwunikela ngemacemb' emhlonyane,\n15 Ngiwunikela ngemacemb' eliboza,\n16 Ngiwunikela ngemacemb' esibhaha,\n17 Ngiwugcobele' emagcol' embabatane,\n18 Lamuhl' umkhuhlane ngiwentani?\n19 Ngitjele mphucuko, ngitjele.\n\n20 Yeka takho mbulalave!\n21 Uyagcilata ugcilatisise ngculazi,\n22 Utsatsa kanye matsatsakanye,\n23 Udl' ingati mdlangati,\n24 Uyabhubhisa mbhubhisi,\n25 Ngikwelaphe ngani mbulalave?\n26 Ngitjele mphucuko, ngitjele.",
+          "context": "Budze bemphendvulo yakho abube ngemagama la-190 kuya kula-240.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SIGABA A: TINKONDLO - TINKONDLO LETIFUNDVWE EKLASINI",
+      "instructions": "Fundza lenkondlo bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "Nika bunkondlo lobucindzetelwe lobusemgceni we-2 newe-3. Usho ngani?",
+          "marks": 2,
+          "scenario": "MAKE – VE Fakude\n1 Ngilivile kahle livi lakhe,\n2 Lipholile, lipholile,\n3 Liphole njengemtfombo losehlatsini lemvelo,\n4 Lipholisa tiphitsiphitsi.\n5 Uphimisa kanye\n6 Kuphume tonkhe tipoliyane,\n7 Kusale kuhhusha\n8 Lophilisak' umoya,\n9 Siphile sonkhe sive seNkhosi.\n\n10 Ngitivile tandla takhe,\n11 Tiyabotjotela, tiyaphilisa tisindzise,\n12 Ngitive kahle ngenela ngenelisisa,\n13 Tipholise emanceba nemancebakati,\n14 Titsi titsambile nje,\n15 Tibe telapha tonkhe tifo,\n16 Lapho tihambe khona\n17 Inyama ihlumisa kwemahlumel' ehlobo,\n18 Kuhlume yonkh' imphil' ekhaya.\n\n19 Ngitetsembile tindlebe takhe,\n20 Ngetsembe budze bato,\n21 Tindze tengc' umsakato wemoya,\n22 Tiyibamba yonkh' imimoya\n23 Itive tonkhe tikhalo\n24 Lilalele lonkhe likhaya,\n25 Kulalele ngisho nato tive.\n\n26 Ngiyawutsandz' umlomo wakhe,\n27 Ukhipha letikhaliphile,\n28 Ukhipha letitsambile,\n29 Uvuvutela kuthula,\n30 Uyabhandisha, uyalobola, wondle,\n31 Sive sisime ngawo,\n32 Sive sesiphila ngawo,\n33 Sive setsembe wona.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "Yini lebangela kutsiwe umugca we-7 newe-8 usicedzelelamcondvo? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "Ngusiphi simo semoya lesivetwa yindzima ye-2 yalenkondlo? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Sinongo sini lesivetwa ngumugca we-27 kulenkondlo? Usho ngani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "Uyavumelana yini naloku lokushiwo ngusonkondlo ngamake emigceni lecindzetelwe endzimeni yekugcina? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SIGABA A: TINKONDLO - TINKONDLO LETIFUNDVWE EKLASINI",
+      "instructions": "Fundza lenkondlo bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "Lamalunga lacindzetelwe emgceni we-2 newe-4 akha buphi bunkondlo? Usho ngani?",
+          "marks": 2,
+          "scenario": "SENGIBUYILE – ZP Masango\n1 Sengibuyile mntfwanaketfu,\n2 Ngicel' ungemukele ngaletimhlophe,\n3 Ulibale ngetayitolo s'tsandvwa sami,\n4 Ngitinikela kuwe nginje,\n5 Ngimanikiniki njengendvodzana\n6 Yelulahleko eBhayibhelini.\n\n7 Ngilihambile lonkhe leli lakaMhlaba,\n8 Ngendluli' imifula ngawel' emabhuloho,\n9 Ngahamba ngaze ngayowelela mshiya loya,\n10 Lapho kukhonjwa ngalosekhatsi khona,\n11 Kodvwa' angikamboni lonjengawe.\n\n12 Ngibabonile, ngabeva bangibongelela,\n13 Ngetibongelelo letehla kamnandzi,\n14 Kodvwa kimi konkhe loko,\n15 Kuye kwafana nelite.\n16 Bebangikhomba buhle, bangijikisa\n17 Kulo lonkhe leli leMvelinchanti,\n18 Bangitfobela sengatsi ngiyinkhosi,\n19 Kodvwa konkhe kufane nelite.\n\n20 Lamuhla sengikhetse kubuyela kuwe,\n21 Ngobe takho tandla tiyangitfokomalisa,\n22 Sengilungele kuluhamba loluhambo,\n23 Ngihlome ngetikhali tenhlakanipho,\n24 Netikhali tekuhlonipha labanye,\n25 Labaseceleni kwemphilo yami.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "Nika sizatfu lesente kutsi sonkondlo akhulume lamagama lasemgceni we-7 newe-11 walenkondlo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "Bunkondlo buni lobuvetwa nguletinhlavu letigcanyiswe emgceni we-16? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "text": "Ngekubona kwakho nguyiphi ingcikitsi sonkondlo layetfulela tetsamelilwati ngalenkondlo lengenhla? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": "3",
+          "text": "Sifundvo sini lositfola ngemuva kwekufundza indzima yekugcina yalenkondlo? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "SIGABA A: TINKONDLO - TINKONDLO LETIFUNDVWE EKLASINI",
+      "instructions": "Fundza lenkondlo bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "text": "Nika bunkondlo lobuvetwa ngulamagama lacindzetelwe endzimeni ye-1. Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": "MADIDA – NP Ndlovu\n1 Sadideka sonkhe sive,\n2 Wadidek' ummango wonkhe,\n3 Hhawu lwabumbeka lusendv' emndenini\n4 Ngenca yalo lutsandvo,\n5 Sivetel' imfihlo yakho lutsandvo!\n\n6 Uyash' umntfwana wemfati,\n7 Buyaphela butfong' ebusuku,\n8 Kuyas' abuke ngewayitolo\n9 Ngabe ngemaloyo yini\n10 Hhawu, ushiswa lutsandvo\n11 Lutsandvo asewusivetel' imfihlo yakho.\n\n12 Ngab' imihlolo yini\n13 Wantjintja umuntfu kubalingani,\n14 Sewunguphunyuka bamphetse\n15 Ingani uphetfwe lutsandvo\n16 Lutsandvo sivetele inhlitiyo yakho.\n\n17 Vel' uvete sitfombe sakho,\n18 Ngisho kuwe lutsandvo\n19 Ingani phela ungumadida\n20 Udida tingcondvo, inhlitiyo nemehlo\n21 Lutsandvo ulisela lelingabonwa,\n22 Lutsandvo sivetele imfihlo yakho.\n\n23 Ingani unika litsemba lelingabonwa\n24 Wenta tihlatsi tivakashele tindlebe\n25 Angisakhulumi ngemiva phela ayihlaliseki\n26 Kantsi lutsandvo wena uvelaphi\n27 Ungumsa wabani kuleli\n28 Lutsandvo ngiyakwesaba ungumadida\n29 Udla ngisho inhlitiyo yemuntfu\n30 Hhawu, lutsandvo ulichawe\n31 Lutsandvo sivetele imfihlo yakho.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "text": "Chaza kutsi kungani kutsiwe umugca we-10 ucuketse sidvonsamoya.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "text": "Luhlobo luni lwebunkondlo lolu lolucindzetelwe emgceni we-12 newe-13? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": "4",
+          "text": "Phawula ngephethini yendzima yekugcina yalenkondlo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": "4",
+          "text": "Ulikhetse kahle yini sonkondlo leligama lelitsi, 'Madida', kulenkondlo lengenhla? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "SIGABA A: TINKONDLO - INKONDLO LENGAKAFUNDVWA EKLASINI",
+      "instructions": "Fundza lenkondlo bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "text": "Bhala luhlobo lwesinongo lesivetwe emgceni we-3.",
+          "marks": 1,
+          "scenario": "DUMAZILE – MJ Masilela\n1 Ngitsite ngikubona\n2 Uvundlisa lutsi lwakho,\n3 Ukhets' emabala njengentfondvolo;\n4 Ngacela kubuta indlela,\n5 Indlela leya elutsandvweni.\n6 Ngekwetsembeka wangikhombisa indlela,\n7 Kepha lamuhla akusenjalo,\n8 Waye wangidvumata Dumazile.\n\n9 Ngitsite ngikubona uchakaza,\n10 Uchakaza njengembali etsafeni,\n11 Ukhanga tinyosi njengabhekilanga,\n12 Ngacela uhlobise emabala,\n13 Emabala emuti wababe.\n14 Ngekwetsembeka wahlobis' emabala,\n15 Kepha lamuhla akusenjalo,\n16 Wate wangidvumata, Dumazile.\n\n17 Ngitsite nginawe wangilondza,\n18 Ngisho ebusuku nasemini,\n19 Ungifak' ekhwapheni sincane sengelozi,\n20 Ngacela ube ngumlondvoloti,\n21 Umlondvoloti wemphilo yami,\n22 Ngekwetsembeka waba ngumlondvoloti,\n23 Kepha lamuhla akusenjalo,\n24 Wate wangidvumata Dumazile.\n\n25 Ngitsite ngikubona wabuphuma,\n26 Ungasacalati emuva nembili,\n27 Welula tinyawo njengadvoye,\n28 Ngakutjela kutsi limasekomatsatfu,\n29 Ngekungalaleli watsi alisiwo,\n30 Kepha lamuhla sekunjalo,\n31 Wate wangidvumata Dumazile.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "text": "Veta luhlobo lwebunkondlo lolwakhiwa nguletinhlavu letigcanyisiwe endzimeni ye-2.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "text": "Caphuna umugca loyimphindvwa kulenkondlo lengenhla.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "text": "Bunkondlo buni lobakhiwa ngumugca we-18 kulenkondlo lengenhla?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "text": "Lenkondlo lengenhla iyisathaya/inkondlogceka. Vumela nobe uphikise lesitatimende bese uyesekela.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.6",
+          "parent_id": "5",
+          "text": "Ucabanga kutsi sonkondlo ucondze kubatjelani bafundzi ngalemigca lelandzelako?\n'Ngitsite ngikubona wabuphuma,\nUngasacalati emuva nembili'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.7",
+          "parent_id": "5",
+          "text": "Phawula ngekubumbana kwalesihloko lesitsi 'Dumazile' nalenkondlo lengenhla.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "SIGABA B: INOVELI/TEMDZABU - LIPHUME NEBOVU (BB Malangwane)",
+      "instructions": "Phendvula umbuto ube MUNYE kulamanoveli langentasi.",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Ludvweshu lutfutfukisa indzaba ite ifike esiphetfweni. Bhala indzabambhalo ngetigameko teludvweshu letikulenoveli letibangwe kutiphatsa kwaLushawulo.",
+          "marks": 25,
+          "scenario": null,
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "SIGABA B: INOVELI/TEMDZABU - LIPHUME NEBOVU (BB Malangwane)",
+      "instructions": "Fundza letheksthi letsetfwe enovelini bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "7.1",
+          "parent_id": "7",
+          "text": "Bhala inkhulumo yaLushawulo lesekucaleni kwaletheksthi leveta umoya wekudvumala. Nika sizatfu sekutsi kungani ukhetse lenkhulumo.",
+          "marks": 2,
+          "scenario": "THEKSTHI A\n'Lushawulo watibuta nekutsi umbuka njani Tintfombi kuletiga labementele tona ngetulu kwalokumetsemba kangaka. Abengamcabangeli ngisho nakancane kutsi angase amjabhise kanjena.'\n'Tintfombi wate wangijabhisa-ke khona Maseko, kube mane kuligoya lelimnyama ngabe akunani.' Amutsi laphalati Tintfombi labesasefofololo lapha eceleni kwembhedze.\n'Ngiyetsemba awukabhalisi sibongo sakitsi lena esibhedlela ngobe uyise walomntfwana uyamati wena kutsi ngubani wakabani. Kungasuke kumangalise nje kutsi loKhumalo lonjena wakuliphi live. Ngisho bangavuka bonkhe bakitsi kute namunye lowase wayibona lemikhuba lebonwa ngimi.' Asukume antsake lamadze ematse akhombisa kutsi ucasuke ufile.\n'Awu waze wangijabhisa Tintfombi, impela basuke bacinisile nabatsi kuncono kwetsemba litje kunekutsi wetsembe umuntfu.' Ngalesikhatsi sewuyayaluka, wehla uyenyuka ngenca yekutfukutsela. 'Intfo yinye vo lengingakutjela yona, butsa konkhe kwalentfo yakho uhambe uyimikise lapho iyakhona. Mine ngifuna wena nje kuphela, lokunye cha ngiyacolisa.' Kuthule umoya endlini, ngisho nalokwebantfwanyana kwakhe kwase kubona kutsi kukhona lokungahambi kahle lapha kubonina neyise.\nTintfombi kwaba sengatsi utselwe ngemlotsa. Waphaphatseka waba mhlophe watsi hhu. Phela watsi wetama kuvula umlomo, asengakakhiphi ngisho linye ligama wamncandza Lushawulo.\n'Thula! Mgodvoyindzini, angifuni mlonyana wakho lapha. Uma ungeva utawuphuma ngesicwayi lapha endlini. Ukhumbule ngikufuna la lingakashoni.' Watisola kanyenti Tintfombi ngalesento sakhe kepha kwase kute emasito.\nNjengobe kwakusesekusenyana, wavele wabona kuncono kutsi angabe atibambelela. Waluphutsela luswane lwakhe waphuma asalengise nesikhwanyana lesasiphetse timphahla talowo mntfwana. Wayingena leyo ndlela leyayatiwa nguye kuphela kutsi iyawuphelelaphi.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2",
+          "parent_id": "7",
+          "text": "Luhlobo luni lweludvweshu loluvetwa nguLushawulo naTintfombi? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.3",
+          "parent_id": "7",
+          "text": "Bekacondze kutsini Lushawulo ngalenkhulumo lecindzetelwe kuletheksthi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.4",
+          "parent_id": "7",
+          "text": "Catsanisa tizatfu tekucoshwa kwaTintfombi kuletheksthi naloko lokwenteka esiphetfweni salenoveli.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.5",
+          "parent_id": "7",
+          "text": "Yini lekuletheksthi lengenta ungafisi kutsi Tintfombi abe ngudzadzewenu? Bhala KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.6",
+          "parent_id": "7",
+          "text": "Yini leveta kutsi Lushawulo akasati sendlalelomuva saTintfombi uma ufundza letheksthi? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.7",
+          "parent_id": "7",
+          "text": "Sihloko salenoveli sikhetseke kahle yini uma ufundza siphetfo sayo? Nika emaphuzu LAMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.8",
+          "parent_id": "7",
+          "text": "Ngekubona kwakho kwabangelwa yini kutsi Tintfombi angamikisi umntfwana lapho awakhona njengekusho kwaLushawulo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.9",
+          "parent_id": "7",
+          "text": "Nguyiphi indzima lebekufanele idlalwe nguLaHlophe njengamaketala ngalesikhatsi kufika Tintfombi kute kube nekuthula emndenini wakhe? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.10",
+          "parent_id": "7",
+          "text": "Ucabanga kutsi Tintfombi waba kusiphi simo semoya emva kwekushaywa emkhayeni? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.11",
+          "parent_id": "7",
+          "text": "Umbhali uyiphetse kahle lenoveli. Sekela lesitatimende ubhekise kuLaMagagula.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.12",
+          "parent_id": "7",
+          "text": "Uma kungatsiwa Lushawulo akacale kabusha emphilweni yini lekufanele ayente? Veta emaphuzu LAMATSATFU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 8",
+      "title": "SIGABA B: INOVELI/TEMDZABU - KUBAMBA LETINGELAKO (DE Nkosi)",
+      "instructions": "Bhala indzabambhalo ngetigameko teludvweshu letikulenoveli letibangwe kubuya kwaMphikeleli ekudzingisweni.",
+      "questions": [
+        {
+          "id": "8",
+          "parent_id": null,
+          "text": "Ludvweshu lutfutfukisa indzaba ite ifike esiphetfweni. Bhala indzabambhalo ngetigameko teludvweshu letikulenoveli letibangwe kubuya kwaMphikeleli ekudzingisweni.",
+          "marks": 25,
+          "scenario": null,
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 9",
+      "title": "SIGABA B: INOVELI/TEMDZABU - KUBAMBA LETINGELAKO (DE Nkosi)",
+      "instructions": "Fundza letheksthi letsetfwe enovelini bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "9.1",
+          "parent_id": "9",
+          "text": "Bhala inkhulumo yaMagumeni lesekucaleni kwaletheksthi leveta umoya wekusola. Nika sizatfu sekukhetsa lenkhulumo.",
+          "marks": 2,
+          "scenario": "ITHEKSTHI B\n'Nivumelani kutsi siphatfwe ngumchamuki kutsiwe yimeya lenkhulu yetfu?' Kubuta Magumeni kuShongwe akhombisa kungeneliswa kuphatfwa nguMphikeleli.\n'Ukhetfwe bantfu ngako-ke asinalo lilungelo lekuphikisana nevoti. Uma siphikisana naye kusho kutsi siphikisana nebantfu. Ungumsinsi wekutimilela kulendzawo,ngako-ke kuliphutsa lelikhulu kumbita ngemchamuki,' kusho Shongwe aphendvula Magumeni.\n'Kube liphutsa lelikhulu kukhetsa yena ngobe amange ahlale kulendzawo sikhatsi sakhe lesinyenti. Tsine sicale kumbona lapho afundza libanga lelishumi nambili nemfundvo yakhe yasenyuvesi,' kusho Magumeni.\n'Nitsini ngetinchubomgomo takhe letiphatselene nekwakhiwa kwetindlu, emanti, gezi, ematfuba emsebenti, temasiko nekukhibika, temvelo, tebulungiswa, temnotfo naletinye?' kubuta Magumeni.\n'Tinchubomgomo akusito temuntfu, kepha tahulumende. Yena sisebenti sebantfu labasikhetsile kutsi sibahole futsi sibasebentele ngendlela lefanele,' kuphendvula Shongwe.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.2",
+          "parent_id": "9",
+          "text": "Luhlobo luni lweludvweshu loluvetwa nguMagumeni naShongwe kuletheksthi? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.3",
+          "parent_id": "9",
+          "text": "Lamavi lagcanyiswe etheksthini lengenhla aveta Shongwe anguluphi luhlobo lwemlingisi uma ufundza inoveli yonkhe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.4",
+          "parent_id": "9",
+          "text": "Nika KUBILI lokukuletheksthi lokukhombisa sibekandzaba sesikhatsi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.5",
+          "parent_id": "9",
+          "text": "Yini lekuletheksthi lengenta ungafisi kutsi Magumeni abe ngumngani wakho? Bhala KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.6",
+          "parent_id": "9",
+          "text": "Uma ufundza letheksthi ungasho yini kutsi Shongwe uyasati sendlalelomuva saMphikeleli? Usho ngani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.7",
+          "parent_id": "9",
+          "text": "Letinkhulumo taShongwe naMagumeni tibiketelani ngelukhetfo lolutawuba khona? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.8",
+          "parent_id": "9",
+          "text": "Ngekubona kwakho sicakacaka sivetwe ngayiphi indlela kuletheksthi? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.9",
+          "parent_id": "9",
+          "text": "Ufundzani ngesento saLaDladla sekwekhuta umyeni wakhe Sikhulu Tsabetse?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.10",
+          "parent_id": "9",
+          "text": "Ucabanga kutsi baphilisana njani boMphikeleli naSikhulu Tsabetse ngemuva kwekutsi ehluleke kumcoshisa esikolweni? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.11",
+          "parent_id": "9",
+          "text": "Umbhali uyiphetse kahle lenoveli. Sekela lesitatimende ubhekise kuMphikeleli.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9.12",
+          "parent_id": "9",
+          "text": "Uma kungatsiwa Sikhulu Tsabetse akacale kabusha emphilweni yini lekufanele ayente? Veta emaphuzu LAMATSATFU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 10",
+      "title": "SIGABA B: INOVELI/TEMDZABU - TIBOPHO TELUTSANDVO (JJ Thwala)",
+      "instructions": "Bhala indzabambhalo ngetigameko teludvweshu letikulenoveli letibangwe kutsandzana kwaMlungisi naLomusa.",
+      "questions": [
+        {
+          "id": "10",
+          "parent_id": null,
+          "text": "Ludvweshu lutfutfukisa indzaba ite ifike esiphetfweni. Bhala indzabambhalo ngetigameko teludvweshu letikulenoveli letibangwe kutsandzana kwaMlungisi naLomusa.",
+          "marks": 25,
+          "scenario": null,
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 11",
+      "title": "SIGABA B: INOVELI/TEMDZABU - TIBOPHO TELUTSANDVO (JJ Thwala)",
+      "instructions": "Fundza letheksthi letsetfwe enovelini bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "11.1",
+          "parent_id": "11",
+          "text": "Bhala inkhulumo yaMlungisi lesekucaleni kwaletheksthi leveta umoya wekusola. Nika sizatfu sekutsi ukhetse lenkhulumo.",
+          "marks": 2,
+          "scenario": "ITHEKSTHI C\n'Emalobolo ahambe kahle, sesibuke umshado kutsi wona utawuchubeka njani. Ngibonga lusito lwakho Madvodza naSikhuni. Malume loyingati yami ukhombise kungilahla nine nangibutsa,' kusho Mlungisi.\n'Angeke umsole malume wakho wentiwa tinkhulumo telive letinyenti letifinyelela etindlebeni takhe bese tiyamdida,' kuphendvula Madvodza.\n'Kumele angilekelele ngakhe likhaya.'\n'Kunjalo mngani wami. Kukhalwa ngesimilo saLomusa.'\n'Lomusa aketi kubo ute kimi; utsandvwa ngimi ngalokuphelele. Bahlushwa kutifaka kakhulu etindzabeni letitsintsa mine bangene batsi shi kuto, kantsi ngabe bayangiyekela.'\n'Kufanele batifake ngobe kusasa kutawube kubutwa bona lapho tintfo setitsatsa lolunye lunyawo.'\n'Make untjintjile sewuhambisana nami. Malume akafuni lutfo utsi angeke atihluphe asondzelane natsi. Sikhuni nawe niyatihudvula nje kepha nani nikhombisa kungamemukeli Lomusa. Phendvula ngemphendvulo yinye kuleti letilandzelako: ngemanga noma liciniso; yebo noma cha.'\n'Ngiyakuva Mlungisi.'\n'Yimphendvulo yakho leyo?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.2",
+          "parent_id": "11",
+          "text": "Luhlobo luni lweludvweshu loluvetwa nguMadvodza naMlungisi? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.3",
+          "parent_id": "11",
+          "text": "Lamavi latsi, 'Make sewuntjintjile sewuhambisana nami', kuletheksthi lengenhla, aveta LaNdlovu anguluphi luhlobo lwemlingisi kulenoveli?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.4",
+          "parent_id": "11",
+          "text": "Catsanisa lenkhulumo yaMlungisi letsi, 'Nibokhumbula phela kutsi Lomusa uyintsandzane.' nalokwenteka eluvutfondzabeni lwalenoveli.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.5",
+          "parent_id": "11",
+          "text": "Yini lekuletheksthi lengenta ufise kutsi Madvodza abe ngumngani wakho? Bhala KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.6",
+          "parent_id": "11",
+          "text": "Ngekusho kwemlandzi walenoveli Mlungisi uyasati sendlalelomuva saSikhuni naMadvodza. Sekela lesitatimende.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.7",
+          "parent_id": "11",
+          "text": "Ucabanga kutsi sihloko salenoveli, Tibopho Telutsandvo, sikhetseke kahle yini uma ufundza letheksthi lengenhla? Nika emaphuzu LAMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.8",
+          "parent_id": "11",
+          "text": "Ngekubona kwakho sicakacaka sivetwe ngayiphi indlela kuletheksthi? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.9",
+          "parent_id": "11",
+          "text": "Yini leyenta boMadvodza naSikhuni bangabi nekuthula ngemuva kwekutsi bayewulobolela Mlungisi? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.10",
+          "parent_id": "11",
+          "text": "Utsini umbono wakho ngalenkhulumo lebhalwe yacindzetelwa endzimeni yekugcina yaletheksthi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.11",
+          "parent_id": "11",
+          "text": "Umbhali uyiphetse kahle lenoveli. Sekela lesitatimende ubhekise kuMlungisi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11.12",
+          "parent_id": "11",
+          "text": "Uma kungatsiwa Mlungisi akacale kabusha emphilweni, yini lokungalindzeleka kutsi akwente kute afeze tifiso takhe? Veta emaphuzu LAMATSATFU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 12",
+      "title": "SIGABA B: TEMDZABU - SILULU SEMASWATI (NC Mthethwa)",
+      "instructions": "Bhala indzabambhalo ngalobuciko bemlomo lobulandzelako ufakazele lesitatimende.",
+      "questions": [
+        {
+          "id": "12",
+          "parent_id": null,
+          "text": "Ekuhlalisaneni kwebantfu kuba nekungcubutana nekungatsandzani. Bhala indzabambhalo ngalobuciko bemlomo lobulandzelako ufakazele lesitatimende: 'Kudvungutela kwenkhosi', 'Tibongo tenkhosi Tobias Nkosi', Liphisi lenyatsi lidliwa yinyatsi- Umuntfu ufela emsebentini wakhe.",
+          "marks": 25,
+          "scenario": "TIBONGO TENKHOSI TOBIAS NKOSI\n1 Nawe,\n2 Yelovuk' emcubeni\n3 Lonjengankunzi\n4 Luphondvo lwenkunzi yakaNdlela\n5 Inhloko yenkunzi yaLomavovo\n6 Lomjikijelwa!\n7 Wajikijelwa ngemadvuna eFeni\n8 Batse bangakujikijela, base bayakufulatsela\n9 Njengesagila labangasitsandzi\n10 Lebangasifuni\n11 Bangasiboni lapho siyawuwela khona\n12 Lugelegele lwebhasi\n13 Naluya lushon' ePitoli\n14 Naluyawufun' uMshabalala.\n15 Kwabonakala ngalabadzala bogogo beFeni.\n16 Batsi bangabona Yena,\n17 Baphuma bonkhe batatatela.\n18 Wena matata lamakhulu\n19 Ekwendlula nekwendlala\n20 Awusheshi nekuyinika,\n21 Wena Vuk' emcubeni\n22 Unganjengankunzi.\n23 Nhloko yenkunzi yaLomabhoko\n24 Phondvo lwenkunzi yakaNdlela\n25 Mhlane lobanti\n26 Longadzinwa kwetfwala bantfu\n27 Ubetfwele kunye nebantfwababo.",
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 13",
+      "title": "SIGABA B: TEMDZABU - SILULU SEMASWATI (NC Mthethwa)",
+      "instructions": "Fundza letheksthi letsetfwe enganekwaneni bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "text": "Nika sizatfu lesente lendvodza yateka lomunye umfati.",
+          "marks": 2,
+          "scenario": "ITHEKSTHI D: INTSANDZANE NENHLANTI YEMLINGO\nBekukhona indvodza nemfati bahlala bobabili, banemntfwana munye wentfombatana leseyincane nje kakhulu. Kutsite basatihlalele kahle, washona unina. Wacindzeteleka lobabe kutsi ateke lomunye umfati latawuhlala naye abuye amkhulisele lomntfwanakhe. Nembala wamtfola. Lentfombatana lapha kunina lomusha beyehlulwa lunya lwalomake. Kwahamba kwahamba, lomfati lomusha naye watfola umntfwana wentfombatana. Labantfwana lababili bebangashiyani ekudzeni kakhulu ngemnyaka. Lentfombatana leyafelwa ngunina beyiyinhle kakhulu kulena yamake lomusha.\nKwadzingeka kutsi babe walapha ekhaya ahambe aye emsebentini. Wacala-ke make walapha ekhaya kuyihlupha lentfombatana. Bekuba ngiyo levuka ekuseni ngembulukusa, ngisho nasebusika, kantsi nasebusuku kungiyo lelala ekugcineni. Bekungiyo lelusa tinkhomo talapha ekhaya onkhe emalanga ingaphumuli. Bekwenteka futsi lomake angayiniki kudla.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "text": "Bhala tintfo LETIMBILI letisendzimeni ye-1 letikhomba kutsi akukahlaliswana kahle.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "text": "Lenkhulumo lecindzetelwe kuletheksthi iveta lomake anesimilo lesinjani? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "text": "Yonkhe lenhlupheko lekhungetse lentfombatana iveta umoya lonjani? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.5",
+          "parent_id": "13",
+          "text": "Khokha sigameko lesiveta bunganekwane.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.6",
+          "parent_id": "13",
+          "text": "Ngusiphi sigameko lesikulenganekwane lengenhla lesifakazela lenkhulumo letsi, 'Umntfwana uphila ncono uma kusenenina?'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.7",
+          "parent_id": "13",
+          "text": "Ngabe umbhali uyiphetse kahle yini lenganekwane? Sekela lesitatimende ubhekise kulentfombatana lebeyihlupheka. Nika KUTSATFU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.8",
+          "parent_id": "13",
+          "text": "Bhala luhlobo lwebunkondlo lolusemgceni we-2. Usho ngani?",
+          "marks": 2,
+          "scenario": "SIKHUNGO SASEMATSAMO\n1 Ulidvonsamehlo sikhungo setimangaliso,\n2 Kuwe kubonakala labadzala nalabancane,\n3 Kuwe kubonakala labamnyama nalabamhlophe,\n4 Sibona bomake ngetidziya netidvwaba,\n5 Sibon' ematjitji ngendlamu nemihelwane,\n6 Sibona tintfombi ngemahiya netimvandla,\n7 Sibon' emajaha ngengwe nenkhonyane,\n8 Sibon' emadvodza ngemajobo nemibhenso.\n9 Sibon' emachegu ngencincane nemibhodze.\n10 Ngawe sati inchoboza nencoshane,\n11 Ngawe sati indvuli nelikhwane.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.9",
+          "parent_id": "13",
+          "text": "Luhlobo luni lwebunkondlo lolusemgceni we-4 newe-5? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.10",
+          "parent_id": "13",
+          "text": "Phawula ngephethini yaletibongo letingenhla.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.11",
+          "parent_id": "13",
+          "text": "Kusetjentiselwani loku lokubalwe emgceni we-10? Bhala KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "13.12",
+          "parent_id": "13",
+          "text": "Uphumelele yini umbhali kuveta ingcikitsi yaletibongo letingenhla? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 14",
+      "title": "SIGABA C: UMDLALO - KUTAWUBA NJALO (SZ Simelane)",
+      "instructions": "Bhala indzabambhalo ngetimilo talabadlali labalandzelako letivetwa nguloko labakwenta emdlalweni.",
+      "questions": [
+        {
+          "id": "14",
+          "parent_id": null,
+          "text": "Umbhali wemdlalo uveta badlali banetimilo letitsite. Bhala indzabambhalo ngetimilo talabadlali labalandzelako letivetwa nguloko labakwenta emdlalweni: Mphotfo, Ncobile, LaMagagula.",
+          "marks": 25,
+          "scenario": null,
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 15",
+      "title": "SIGABA C: UMDLALO - KUTAWUBA NJALO (SZ Simelane)",
+      "instructions": "Fundza letheksthi letsetfwe emdlalweni bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "15.1",
+          "parent_id": "15",
+          "text": "Caphuna inkhulumo lesekucaleni kwaletheksthi leveta kutsi kukhona lokungahambi kahle emphilweni yaNcobile. Nika sizatfu salemphendvulo.",
+          "marks": 2,
+          "scenario": "ITHEKSTHI E\nLAHLETA: (Ahlala phasi) Philani phela mnaketfu!\nHLETA: (Asondzela) Siyaphila dzadzewetfu singavusela nine Bhambolunye!\nLAHLETA: Natsi siyaphila mnaketfu sibona kona kushisa kwelilanga, lomnyaka futsi sengatsi licondze kusifusa sibe mnyama khwishi khatsaloku vele sintima Mntimandze.\nHLETA: (Ahlalisisa) Ungasayisho leyo dzadzewetfu, sengatsi liwele khona lapha emhlabatsini. Ngita lapha ngitewukhuta umhlolo dzadze, ngitfole neliciniso nganangu umntfwana lobatjatwa nguwonkhe umuntfu kantsi nami bese vele ngicalile kusola ngaye kutsi yini lelengaka? Ncobile wazaca waphela sibukile kwentenjani naphela, udliwa yini kangaka? Bengisolo ngicabanga kutsi madlalwanemadlalwane, nani emehlo ahlaba phasi mntfwanamake!\nLAHLETA: (Aphefumulela etulu) MntfwanaHleta, impela ngicakekile nami ngalomntfwana. Nyalo sewunemkhuba lomubi wekutsi nakabuya esikolweni acondze entsangeni yakhe, efike aphonse tincwadzi budlabha angakakhulumisi muntfu, ageze, adle, alale kute kube ngakusasa. Atsi nakavuka atsanyele libala angakalinyenyeti nangemanti, ageze, adle angenele indlela. Nguye lowaya enyuka ngelukhalo acondze esikolweni, nakabuya nguleso futsi.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.2",
+          "parent_id": "15",
+          "text": "Ngusiphi sigameko lesiholele kutsi Ncobile abe kulesimo lakuso kuletheksthi? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.3",
+          "parent_id": "15",
+          "text": "Sigameko selichudze sekudla ummbila lowosiwe wabekwa etafuleni siveta luhlobo luni lwesibekandzaba semdlalo? Sekela imphendvulo yakho.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.4",
+          "parent_id": "15",
+          "text": "Saba namuphi umtselela kuNcobile lesento sebatali bakhe sekutsi bamcambele emanga ngaMphotfo? Usho ngani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.5",
+          "parent_id": "15",
+          "text": "Lenkhulumo lelandzelako iveta Hleta anguluphi luhlobo lwemdlali? 'Ngabe umtsele wabona tinkhanyeti letimnyama todvwa.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.6",
+          "parent_id": "15",
+          "text": "Nika TIMBILI timphawu letenta kutsi letheksthi ifaneleke kuba ngumdlalo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.7",
+          "parent_id": "15",
+          "text": "Ngukuphi lokungakwenta ulangatelele kuchubeka ufundze wonkhe lomdlalo ngemuva kwekufundza letheksthi? Bhala emaphuzu LAMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.8",
+          "parent_id": "15",
+          "text": "Chaza kutsi LaHleta uyiphumelelise ngayiphi indlela ingcikitsi yelutsandvo kulomdlalo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.9",
+          "parent_id": "15",
+          "text": "Silufundzisani lusha lwalomuhla lesimo lesikuletheksthi lesente Ncobile wazaca?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.10",
+          "parent_id": "15",
+          "text": "Lomdlalo, Kutawuba Njalo, utfumela miphi imilayeto kubatali ngekukhuliswa kwebantfwana? Nika KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.11",
+          "parent_id": "15",
+          "text": "Yaba liciniso kanganani lenkhulumo lecindzetelwe kuletheksthi lengenhla? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "15.12",
+          "parent_id": "15",
+          "text": "Ngemaphuzu LAMATSATFU fakazela kutsi LaHleta ungumake longenti kahle ngalesinye sikhatsi.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 16",
+      "title": "SIGABA C: UMDLALO - LAMI LISIPHETFO (JJ Thwala)",
+      "instructions": "Bhala indzabambhalo ngetimilo talabadlali labalandzelako letivetwa nguloko labakwenta emdlalweni.",
+      "questions": [
+        {
+          "id": "16",
+          "parent_id": null,
+          "text": "Umbhali wemdlalo uveta badlali banetimilo letitsite. Bhala indzabambhalo ngetimilo talabadlali labalandzelako letivetwa nguloko labakwenta emdlalweni: Inkhosi Somhlolo, Mahubhulu, Indvuna Nsibandze.",
+          "marks": 25,
+          "scenario": null,
+          "context": "Budze bemphendvulo yakho abube ngemagama la-340 kuya kula-390.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 17",
+      "title": "SIGABA C: UMDLALO - LAMI LISIPHETFO (JJ Thwala)",
+      "instructions": "Fundza letheksthi letsetfwe emdlalweni bese uphendvula imibuto lelandzelako.",
+      "questions": [
+        {
+          "id": "17.1",
+          "parent_id": "17",
+          "text": "Caphuna tinkhulumo LETIMBILI letiveta buhlobo lobukhona emkhatsini wenkhosi Somhlolo naSomnjalose.",
+          "marks": 2,
+          "scenario": "ITHEKSTHI F\nSOMHLOLO: Sonjubela! Mnenekati, Sivimba ngemabele Etibukweni. Nyoni leyasindvwa sisila Nangekusuka. Nabonkhosi!\nSOMNJALOSE: Ngiyajabula ndvodzana yami kutfola lelitfuba lekuhlala phasi nawe sicoce tebukhosi. Uyihlo Ndvungunya wakushiya kimi sisekaLobamba wekucala. Watilalela yena eMakhosini esifundzeni saseShiseweni.\nSOMHLOLO: Kujabula mine ngekukhuluma nawe make wesive.\nSOMNJALOSE: Umbuso wakho uwubona unjani ndvodzana? Ngifuna kuva ngawe, hhayi ngalomunye umuntfu.\nSOMHLOLO: Umbuso wami uyaceka make. Tintfo atihambi ngendlela lefanele. Noko sisusa saloko ngiyasati. Bantfu bami bahlalele eluvalweni Iwekutsi bangahle bahlaselwe nguZwide, inkhosi yakaNdwandwe. Bahlalele eluvalweni ngaMabhula lohlasela ngabomanyovu. Lamakhosi lamabili lawa enta simo sibe lukhuni kuleli laNdvungunya. Loko lesengikhulume ngako kwangaphandle.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.2",
+          "parent_id": "17",
+          "text": "Ngusiphi sigameko lesiholele kutsi Somhlolo abe nalengcoco naSomnjalose kuletheksthi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.3",
+          "parent_id": "17",
+          "text": "Lilawu liveta luphi luhlobo lwesibekandzaba kuletheksthi lengenhla? Usho ngani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.4",
+          "parent_id": "17",
+          "text": "Ngumuphi umtselela lowaletfwa ngulenchubo yenkhosi Somhlolo esiveni sakaNdvungunya? Chaza.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.5",
+          "parent_id": "17",
+          "text": "Lenkhulumo lelandzelako iveta Somnjalose anguluphi luhlobo lwemdlali? 'Uze ungisite ungambiti umuntfu ngesitsa ndvodzana.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.6",
+          "parent_id": "17",
+          "text": "Nika TIMBILI timphawu letenta kutsi letheksthi ifaneleke kuba ngumdlalo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.7",
+          "parent_id": "17",
+          "text": "Ngukuphi lokungakwenta ulangatelele kuchubeka ufundze wonkhe lomdlalo ngemuva kwekufundza letheksthi? Bhala KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.8",
+          "parent_id": "17",
+          "text": "Chaza kutsi Mahubhulu uyiphumelelise ngayiphi indlela ingcikitsi yembango webukhosi kulomdlalo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.9",
+          "parent_id": "17",
+          "text": "Lesento saSomhlolo sekuyewuvakashela Somnjalose sibafundzisani baholi balamuhla? Nika KUBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.10",
+          "parent_id": "17",
+          "text": "Ngemaphuzu LAMABILI veta kutsi indvuna Nsibandze itfumela miphi imilayeto kubaholi balamuhla.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.11",
+          "parent_id": "17",
+          "text": "Uyavumelana yini nalombono lotsi inkhosi Somhlolo beyidvonsa matima embusweni wayo? Sekela ngemaphuzu LAMABILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "17.12",
+          "parent_id": "17",
+          "text": "Somnjalose ungumake lonesimilo lesihle. Fakazela lesitatimende ngemaphuzu LAMATSATFU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 33343,
+    "cached_tokens_saved": 0
+  }
+}

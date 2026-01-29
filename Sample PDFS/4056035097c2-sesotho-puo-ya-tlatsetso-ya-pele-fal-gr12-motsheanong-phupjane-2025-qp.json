@@ -1,0 +1,1313 @@
+{
+  "subject": "Sesotho Puo ya Tlatsetso ya Pele (FAL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MOTSHEANONG/PHUPJANE",
+  "grade": "12",
+  "language": "Sesotho",
+  "total_marks": 70,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: PALE/NOBELE/NOVELE - MAHLALE A KOPANE LEKWA – DN Katsie",
+      "instructions": "Bala qotso ena ka tlhoko, o nto araba dipotso tse thehilweng paleng yohle.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Mohlala oo Sekgukguni a neng a o setse morao ke wa mang?",
+          "marks": 1,
+          "scenario": "Sekgukguni ha a le kaekae, a bona lebenkele pela tsela mona. A kena, mme a botsa hore na ekaba ha ho monna ya kileng a kena moo hoseng tjena na. Yare hoba karabo e re o ne a le teng, mme ha se kgale haholo a tsamaile, Sekgukguni a ntsha tjhelete mme a reka dieta tse ntjha. A di jara lehetleng, a tswa a tsamaya. Ho se neneng a boela a fumana mohlala wona ola oo a o setseng morao.\n\nMmila o bulehile, o batsi o leba leboya. Lehlabatheng mona mohlala wa dieta tsa Mananyetsa o bonahala hantle, ha ho potang hore nkeka o tseleng yona ena. Empa sebaka se ka etsang mmaele tse pedi ho tloha lebenkeleng mohlala wa nyamela, wa fela tu! Ha be ho le moru o teteaneng hona thoko ho tsela mona.\n\nSekgukguni a nna a qamaka, mme qetellong a re tjhe, ho ya kamoo mohlala ona o felang kateng, lebopong la tsela ka lehlakoreng la moru, monga mohlala o tshwanetse hore e be o kene hona morung mona. A qeta ka hore ho ke ke ha thusa letho ho kena morung ho batla monga mohlala.\n\nAo, monna ya merero e matswedintsweke, monna wa ho nahana ka pelenyana, a beha se seng sa dieta tseo a tswa di reka a se lahlela ka hodima lebopo la tsela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Ketso ya sekgukguni ya ho reka dieta tse ntjha e re bopela karaburetso ya mofuta ofe?",
+          "marks": 1,
+          "scenario": "Sekgukguni ha a le kaekae, a bona lebenkele pela tsela mona. A kena, mme a botsa hore na ekaba ha ho monna ya kileng a kena moo hoseng tjena na. Yare hoba karabo e re o ne a le teng, mme ha se kgale haholo a tsamaile, Sekgukguni a ntsha tjhelete mme a reka dieta tse ntjha. A di jara lehetleng, a tswa a tsamaya. Ho se neneng a boela a fumana mohlala wona ola oo a o setseng morao.\n\nMmila o bulehile, o batsi o leba leboya. Lehlabatheng mona mohlala wa dieta tsa Mananyetsa o bonahala hantle, ha ho potang hore nkeka o tseleng yona ena. Empa sebaka se ka etsang mmaele tse pedi ho tloha lebenkeleng mohlala wa nyamela, wa fela tu! Ha be ho le moru o teteaneng hona thoko ho tsela mona.\n\nSekgukguni a nna a qamaka, mme qetellong a re tjhe, ho ya kamoo mohlala ona o felang kateng, lebopong la tsela ka lehlakoreng la moru, monga mohlala o tshwanetse hore e be o kene hona morung mona. A qeta ka hore ho ke ke ha thusa letho ho kena morung ho batla monga mohlala.\n\nAo, monna ya merero e matswedintsweke, monna wa ho nahana ka pelenyana, a beha se seng sa dieta tseo a tswa di reka a se lahlela ka hodima lebopo la tsela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Ke eng e thusitseng Sekgukguni ho sala morao mohlala wa dieta tsa Mananyetsa?",
+          "marks": 1,
+          "scenario": "Sekgukguni ha a le kaekae, a bona lebenkele pela tsela mona. A kena, mme a botsa hore na ekaba ha ho monna ya kileng a kena moo hoseng tjena na. Yare hoba karabo e re o ne a le teng, mme ha se kgale haholo a tsamaile, Sekgukguni a ntsha tjhelete mme a reka dieta tse ntjha. A di jara lehetleng, a tswa a tsamaya. Ho se neneng a boela a fumana mohlala wona ola oo a o setseng morao.\n\nMmila o bulehile, o batsi o leba leboya. Lehlabatheng mona mohlala wa dieta tsa Mananyetsa o bonahala hantle, ha ho potang hore nkeka o tseleng yona ena. Empa sebaka se ka etsang mmaele tse pedi ho tloha lebenkeleng mohlala wa nyamela, wa fela tu! Ha be ho le moru o teteaneng hona thoko ho tsela mona.\n\nSekgukguni a nna a qamaka, mme qetellong a re tjhe, ho ya kamoo mohlala ona o felang kateng, lebopong la tsela ka lehlakoreng la moru, monga mohlala o tshwanetse hore e be o kene hona morung mona. A qeta ka hore ho ke ke ha thusa letho ho kena morung ho batla monga mohlala.\n\nAo, monna ya merero e matswedintsweke, monna wa ho nahana ka pelenyana, a beha se seng sa dieta tseo a tswa di reka a se lahlela ka hodima lebopo la tsela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Nehelana ka diketso TSE PEDI tsa Mananyetsa tse ileng tsa bontsha batho ba motseng wa habo hore efela bophelo ba hae bo se bo fetohile.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Hlalosa kamoo Mananyetsa a ileng a wela lerabeng la Sekgukguni kateng.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Bolela hore polelo e latelang ke NNETE kapa MAFOSI, o be o nehelane ka lebaka la karabo ya hao.\n\nKetsahalo eo ho yona Mananyetsa a balehang ka mokotla wa tjhelete e thusa ho ntshetsa kgohlano pele.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Ke mabaka afe A MABEDI a neng a lokela ho belaetsa mofumahadi le matona hore Mananyetsa efela e ne e le ngaka e neng e phekola morena Ramoroko?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Semelo sa Mmadieketseng se bile le seabo sefe kgodisong ya kgohlano?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.9",
+          "parent_id": null,
+          "text": "Lekgotsi le sebedisitsweng polelong ee le sebedisitswe ka sepheo sefe?\n\nEmpa sebaka se ka etsang mmaele tse pedi ho tloha lebenkeleng mohlala wa nyamela, wa fela tu!",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.10",
+          "parent_id": null,
+          "text": "Na lewa la tlholo dingolweng le fihlelletswe paleng ee? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.11",
+          "parent_id": null,
+          "text": "Mananyetsa o ne a o nkile hokae mokotla oo ho buang ka wona qotsong?",
+          "marks": 1,
+          "scenario": "Tjhe, qetellong a bona sehlotshwana sa bana ba ntseng ba tsoma le ho kga dishweshwe le monakaladi. A phallela ho bona a ntse a hweletsa: 'Heei bo …, hela lona bana ting, tlong le kwano … ha ke tlo le etsa letho, ke tlilo botsa!'\n\nHa bana ba atamela ho yena: 'Ke mang ho lona moo ya boneng mohlankana … ke re ya nkileng mokotlana mola moo ke o epetseng teng?' O bua ka bohale bo tshabehang. 'Buang nnete bo, mashodu ting … buang pele ke le etsa ntho e mpe hona jwale tjena …!!!'\n\nBana ka matswalo le ho tshoha: 'Ha re tsebe ntate, feela re bone ntate e mong wa lehlanya a dikella ka ngopeng lane …' Mananyetsa: 'O ne a tshwere eng, buang nnete balotsana ting … ke tloha ke … ke … ke le bolaya hona jwale! 'Ha re a bona hantle ntate.' E mong: 'Ke bone a tshwere seeta.' E mong yena: 'Nna ke bone ntho ekang mokotlana. Mmethe o mona o tshelang tswekere a o beile lehetleng!'\n\nYaka Mananyetsa a ke ke a utlwa tseo. Yaba ha a sa senya nako. A theosa ho leba ka lengopeng. A tsamaya a patile mohwasa, a nanya a sa etse lerata. Ho se ho kae a bona motho ke enwa tlasa sehlahla sa tshilabele hona ka lengopeng ka mona. A mo tadima, mme a bona hore ha a robala feela, empa o ile le sephume sa boroko.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.12",
+          "parent_id": null,
+          "text": "Bolela lebaka le ileng la etsa hore Sekgukguni a robale ka lengopeng.",
+          "marks": 1,
+          "scenario": "Tjhe, qetellong a bona sehlotshwana sa bana ba ntseng ba tsoma le ho kga dishweshwe le monakaladi. A phallela ho bona a ntse a hweletsa: 'Heei bo …, hela lona bana ting, tlong le kwano … ha ke tlo le etsa letho, ke tlilo botsa!'\n\nHa bana ba atamela ho yena: 'Ke mang ho lona moo ya boneng mohlankana … ke re ya nkileng mokotlana mola moo ke o epetseng teng?' O bua ka bohale bo tshabehang. 'Buang nnete bo, mashodu ting … buang pele ke le etsa ntho e mpe hona jwale tjena …!!!'\n\nBana ka matswalo le ho tshoha: 'Ha re tsebe ntate, feela re bone ntate e mong wa lehlanya a dikella ka ngopeng lane …' Mananyetsa: 'O ne a tshwere eng, buang nnete balotsana ting … ke tloha ke … ke … ke le bolaya hona jwale! 'Ha re a bona hantle ntate.' E mong: 'Ke bone a tshwere seeta.' E mong yena: 'Nna ke bone ntho ekang mokotlana. Mmethe o mona o tshelang tswekere a o beile lehetleng!'\n\nYaka Mananyetsa a ke ke a utlwa tseo. Yaba ha a sa senya nako. A theosa ho leba ka lengopeng. A tsamaya a patile mohwasa, a nanya a sa etse lerata. Ho se ho kae a bona motho ke enwa tlasa sehlahla sa tshilabele hona ka lengopeng ka mona. A mo tadima, mme a bona hore ha a robala feela, empa o ile le sephume sa boroko.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.13",
+          "parent_id": null,
+          "text": "Bolela dintho TSE PEDI qotsong tse bontshang hore sebaka sena ke sa mapolasing.",
+          "marks": 2,
+          "scenario": "Tjhe, qetellong a bona sehlotshwana sa bana ba ntseng ba tsoma le ho kga dishweshwe le monakaladi. A phallela ho bona a ntse a hweletsa: 'Heei bo …, hela lona bana ting, tlong le kwano … ha ke tlo le etsa letho, ke tlilo botsa!'\n\nHa bana ba atamela ho yena: 'Ke mang ho lona moo ya boneng mohlankana … ke re ya nkileng mokotlana mola moo ke o epetseng teng?' O bua ka bohale bo tshabehang. 'Buang nnete bo, mashodu ting … buang pele ke le etsa ntho e mpe hona jwale tjena …!!!'\n\nBana ka matswalo le ho tshoha: 'Ha re tsebe ntate, feela re bone ntate e mong wa lehlanya a dikella ka ngopeng lane …' Mananyetsa: 'O ne a tshwere eng, buang nnete balotsana ting … ke tloha ke … ke … ke le bolaya hona jwale! 'Ha re a bona hantle ntate.' E mong: 'Ke bone a tshwere seeta.' E mong yena: 'Nna ke bone ntho ekang mokotlana. Mmethe o mona o tshelang tswekere a o beile lehetleng!'\n\nYaka Mananyetsa a ke ke a utlwa tseo. Yaba ha a sa senya nako. A theosa ho leba ka lengopeng. A tsamaya a patile mohwasa, a nanya a sa etse lerata. Ho se ho kae a bona motho ke enwa tlasa sehlahla sa tshilabele hona ka lengopeng ka mona. A mo tadima, mme a bona hore ha a robala feela, empa o ile le sephume sa boroko.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.14",
+          "parent_id": null,
+          "text": "Hlalosa se bolelwang ke mongodi ka polelo e latelang.\n\nA tsamaya a patile mohwasa.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.15",
+          "parent_id": null,
+          "text": "Bolela hore polelo ena ke NNETE kapa MAFOSI, o be o nehelane ka lebaka la karabo ya hao.\n\nMokotla wa tjhelete oo ho buuang ka wona qotsong, ke sesosa sa kgohlano paleng ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.16",
+          "parent_id": null,
+          "text": "Ho hlokahala ha morena Ramoroko ho bile le bohlokwa bofe paleng ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.17",
+          "parent_id": null,
+          "text": "Tshehetsa polelo e latelang ka lebaka.\n\nMongodi o rehile pale ena lebitso le e tshwanelang.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.18",
+          "parent_id": null,
+          "text": "Kgetha karabo e nepahetseng ka masakaneng ho qetella polelo e latelang. \n\nDiketsahalo tse ileng tsa etsahala ka mora hore Mananyetsa a siye Sekgukguni ka lebitleng di re bopela … (tharahano, teketliso, phetelo). Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.19",
+          "parent_id": null,
+          "text": "Sekaseka karaburetso e puisanong ya Mananyetsa le bana ba qotsong.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA A: PALE/NOBELE/NOVELE - BOSWEU BA LEHLWA – Sello Moroe",
+      "instructions": "Bala qotso ena ka tlhoko, o nto araba dipotso tse thehilweng paleng yohle.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Ke mophetwa ofe qotsong eo Tshiu a reng ke sefelekwane?",
+          "marks": 1,
+          "scenario": "Ke ne ke ferekane ke sa tsebe hore ke etse eng, ha e mong wa barekisi a tla tla thiba, a bolella Tshiu hore o tla leleka bareki. 'Kgaohana le nna wena, mosebetsi wa hao ke ho rekisa mona, tlohela ho itshunya tabeng tse hole le wena.' Ke yena eo a ntse a ithutla. Hang boPuse ba kena. Ba kena moo ke neng ke phutha sefela le Bebele. 'Hlomi, ke eng ha o le moferefere tjee? Hempe yona e susubantswe keng?' Ke Puse eo a se a ntse a ntokisa. 'Ke kgolwa hore ke Tshiu monga taba tsena.' Ke Lerato eo ka lentswe le tletseng kgalefo a bile a swentse hanyenyane. 'O mona ha boHlomi ba ba hlotse.' A tswela pele.\n\n'Lerato o ne o batla ho reka eng? Kgaohana le kwala leo.' Ke Tshiu eo. Ka potlako Lerato a re: 'Lekwala ke wena! O lwantshanang le batho le ka Sontaha. Le hona ha ke tsebe hore o batlang pela ka, ha ke hloke thuso ya hao ke a leboha.' A tjhetjha pela hae. Ke ne ke thotse ke sa tsebe hore ke etseng. 'Oho, o phelekanyeditswe ke sefelekwane sena se hlolang ka bomenemene, hommeng nna Tshiu ke tla le bontsha hore ke mang, le tla ntlhompha kaofela ha lona; le hona ha ke tsebe hore le emetse eng, tswang!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Diketsahalo tsa qotso ee di totobatsa mofuta ofe wa kgohlano?",
+          "marks": 1,
+          "scenario": "Ke ne ke ferekane ke sa tsebe hore ke etse eng, ha e mong wa barekisi a tla tla thiba, a bolella Tshiu hore o tla leleka bareki. 'Kgaohana le nna wena, mosebetsi wa hao ke ho rekisa mona, tlohela ho itshunya tabeng tse hole le wena.' Ke yena eo a ntse a ithutla. Hang boPuse ba kena. Ba kena moo ke neng ke phutha sefela le Bebele. 'Hlomi, ke eng ha o le moferefere tjee? Hempe yona e susubantswe keng?' Ke Puse eo a se a ntse a ntokisa. 'Ke kgolwa hore ke Tshiu monga taba tsena.' Ke Lerato eo ka lentswe le tletseng kgalefo a bile a swentse hanyenyane. 'O mona ha boHlomi ba ba hlotse.' A tswela pele.\n\n'Lerato o ne o batla ho reka eng? Kgaohana le kwala leo.' Ke Tshiu eo. Ka potlako Lerato a re: 'Lekwala ke wena! O lwantshanang le batho le ka Sontaha. Le hona ha ke tsebe hore o batlang pela ka, ha ke hloke thuso ya hao ke a leboha.' A tjhetjha pela hae. Ke ne ke thotse ke sa tsebe hore ke etseng. 'Oho, o phelekanyeditswe ke sefelekwane sena se hlolang ka bomenemene, hommeng nna Tshiu ke tla le bontsha hore ke mang, le tla ntlhompha kaofela ha lona; le hona ha ke tsebe hore le emetse eng, tswang!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Qolla dipolelo TSE PEDI qotsong tse bontshang hore ntwa eo ho buuang ka yona, e etsahetse Hlomi a ya kerekeng.",
+          "marks": 2,
+          "scenario": "Ke ne ke ferekane ke sa tsebe hore ke etse eng, ha e mong wa barekisi a tla tla thiba, a bolella Tshiu hore o tla leleka bareki. 'Kgaohana le nna wena, mosebetsi wa hao ke ho rekisa mona, tlohela ho itshunya tabeng tse hole le wena.' Ke yena eo a ntse a ithutla. Hang boPuse ba kena. Ba kena moo ke neng ke phutha sefela le Bebele. 'Hlomi, ke eng ha o le moferefere tjee? Hempe yona e susubantswe keng?' Ke Puse eo a se a ntse a ntokisa. 'Ke kgolwa hore ke Tshiu monga taba tsena.' Ke Lerato eo ka lentswe le tletseng kgalefo a bile a swentse hanyenyane. 'O mona ha boHlomi ba ba hlotse.' A tswela pele.\n\n'Lerato o ne o batla ho reka eng? Kgaohana le kwala leo.' Ke Tshiu eo. Ka potlako Lerato a re: 'Lekwala ke wena! O lwantshanang le batho le ka Sontaha. Le hona ha ke tsebe hore o batlang pela ka, ha ke hloke thuso ya hao ke a leboha.' A tjhetjha pela hae. Ke ne ke thotse ke sa tsebe hore ke etseng. 'Oho, o phelekanyeditswe ke sefelekwane sena se hlolang ka bomenemene, hommeng nna Tshiu ke tla le bontsha hore ke mang, le tla ntlhompha kaofela ha lona; le hona ha ke tsebe hore le emetse eng, tswang!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Ke mantswe afe A MABEDI qotsong a bontshang hore Tshiu o tella Hlomi?",
+          "marks": 2,
+          "scenario": "Ke ne ke ferekane ke sa tsebe hore ke etse eng, ha e mong wa barekisi a tla tla thiba, a bolella Tshiu hore o tla leleka bareki. 'Kgaohana le nna wena, mosebetsi wa hao ke ho rekisa mona, tlohela ho itshunya tabeng tse hole le wena.' Ke yena eo a ntse a ithutla. Hang boPuse ba kena. Ba kena moo ke neng ke phutha sefela le Bebele. 'Hlomi, ke eng ha o le moferefere tjee? Hempe yona e susubantswe keng?' Ke Puse eo a se a ntse a ntokisa. 'Ke kgolwa hore ke Tshiu monga taba tsena.' Ke Lerato eo ka lentswe le tletseng kgalefo a bile a swentse hanyenyane. 'O mona ha boHlomi ba ba hlotse.' A tswela pele.\n\n'Lerato o ne o batla ho reka eng? Kgaohana le kwala leo.' Ke Tshiu eo. Ka potlako Lerato a re: 'Lekwala ke wena! O lwantshanang le batho le ka Sontaha. Le hona ha ke tsebe hore o batlang pela ka, ha ke hloke thuso ya hao ke a leboha.' A tjhetjha pela hae. Ke ne ke thotse ke sa tsebe hore ke etseng. 'Oho, o phelekanyeditswe ke sefelekwane sena se hlolang ka bomenemene, hommeng nna Tshiu ke tla le bontsha hore ke mang, le tla ntlhompha kaofela ha lona; le hona ha ke tsebe hore le emetse eng, tswang!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Polelo e latelang e totobatsa maikutlo afe a Tshiu?\n\nKgaohana le nna wena mosebetsi wa hao ke ho rekisa mona.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "Ho ya ka ditaba tsa qotso ee, Lerato o etsa mosebetsi wa mophetwa wa mofuta ofe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Ketsahalo eo ho yona Hlomi a ileng a ikgapela tlholo motjekong, e bile le bohlokwa bofe paleng ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.8",
+          "parent_id": null,
+          "text": "Bolela mawa A MABEDI ao mongodi a a sebedisitseng ho senola semelo sa baphetwa qotsong ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.9",
+          "parent_id": null,
+          "text": "Hlalosa kamoo maele ana a dumellanang kateng le ditaba tsa qotso.\n\nNonyana e otlellwa le sehlahla.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.10",
+          "parent_id": null,
+          "text": "Manolla tshebediso ya lebotsi mantsweng ana a Puse.\n\n'Hlomi, ke eng ha o le moferefere tjee?'",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.11",
+          "parent_id": null,
+          "text": "Hobaneng ha Hlomi a ne a sa qeaqee ho tsebisa mmae ka mokete oo ho buuang ka wona qotsong?",
+          "marks": 1,
+          "scenario": "Ka hora ya bosupa ka jwetsa mme ka tsa mokete mme a ntumella ho ya teng. Ke ile ka siya Thabo a iqoqela le Diau; ka bona a hlile a kgotsofetse haholo ho feta ha a ena le nna, ka bona le hore ke ba menahano e tshwanang mme ba utlwana haholo. Hoba ke ba sadise ka tsamaya ke se ke potlakile.\n\nKe ile ka fihla habo Lerato. E ne e le metsotso e mehlano pele ho hora ya borobedi; ka ha nako e ngata ke ile ka e qeta ke qoqa le Tshiu, ho bonahala hore o ne a eya kerekeng; ruri o ne a fetohile e le ka nnete, ka ba ka dumela ha ho thwe ntho di a ya di a fetoha. O ne a ntse a ntjwetsa ka tsa Modimo tse ileng tsa nkama, empa tsa kena ka ho e nngwe tsa tswa ka ho e nngwe. Ke ile ka ema nakwana ka ntle ka ha ke ne ke tswafa ho kena ke le mong.\n\nHo ne ho hlile ho dubehile e le ka nnete; batho ba le bangata; ba etswa ba kena ho bonahala hore ho tlile le ba neng ba sa mengwa. Ka pele ho ntlo ho eme koloi tse tharo le kombi tse pedi tsa 'E 20', ho bonahala hore ehlile baeti ba ne ba le bangata ruri.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.12",
+          "parent_id": null,
+          "text": "Hanana le polelo e latelang ka ho e tshehetsa ka lebaka.\n\nKetsahalo eo ho yona Lerato a ileng a dumela Hlomi e re bopelang sehlohlolo.",
+          "marks": 2,
+          "scenario": "Ka hora ya bosupa ka jwetsa mme ka tsa mokete mme a ntumella ho ya teng. Ke ile ka siya Thabo a iqoqela le Diau; ka bona a hlile a kgotsofetse haholo ho feta ha a ena le nna, ka bona le hore ke ba menahano e tshwanang mme ba utlwana haholo. Hoba ke ba sadise ka tsamaya ke se ke potlakile.\n\nKe ile ka fihla habo Lerato. E ne e le metsotso e mehlano pele ho hora ya borobedi; ka ha nako e ngata ke ile ka e qeta ke qoqa le Tshiu, ho bonahala hore o ne a eya kerekeng; ruri o ne a fetohile e le ka nnete, ka ba ka dumela ha ho thwe ntho di a ya di a fetoha. O ne a ntse a ntjwetsa ka tsa Modimo tse ileng tsa nkama, empa tsa kena ka ho e nngwe tsa tswa ka ho e nngwe. Ke ile ka ema nakwana ka ntle ka ha ke ne ke tswafa ho kena ke le mong.\n\nHo ne ho hlile ho dubehile e le ka nnete; batho ba le bangata; ba etswa ba kena ho bonahala hore ho tlile le ba neng ba sa mengwa. Ka pele ho ntlo ho eme koloi tse tharo le kombi tse pedi tsa 'E 20', ho bonahala hore ehlile baeti ba ne ba le bangata ruri.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.13",
+          "parent_id": null,
+          "text": "Nehelana ka matshwao a tlhekelo A MABEDI a teng qotsong ena.",
+          "marks": 2,
+          "scenario": "Ka hora ya bosupa ka jwetsa mme ka tsa mokete mme a ntumella ho ya teng. Ke ile ka siya Thabo a iqoqela le Diau; ka bona a hlile a kgotsofetse haholo ho feta ha a ena le nna, ka bona le hore ke ba menahano e tshwanang mme ba utlwana haholo. Hoba ke ba sadise ka tsamaya ke se ke potlakile.\n\nKe ile ka fihla habo Lerato. E ne e le metsotso e mehlano pele ho hora ya borobedi; ka ha nako e ngata ke ile ka e qeta ke qoqa le Tshiu, ho bonahala hore o ne a eya kerekeng; ruri o ne a fetohile e le ka nnete, ka ba ka dumela ha ho thwe ntho di a ya di a fetoha. O ne a ntse a ntjwetsa ka tsa Modimo tse ileng tsa nkama, empa tsa kena ka ho e nngwe tsa tswa ka ho e nngwe. Ke ile ka ema nakwana ka ntle ka ha ke ne ke tswafa ho kena ke le mong.\n\nHo ne ho hlile ho dubehile e le ka nnete; batho ba le bangata; ba etswa ba kena ho bonahala hore ho tlile le ba neng ba sa mengwa. Ka pele ho ntlo ho eme koloi tse tharo le kombi tse pedi tsa 'E 20', ho bonahala hore ehlile baeti ba ne ba le bangata ruri.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.14",
+          "parent_id": null,
+          "text": "Puisano ya Hlomi le Tshiu eo Hlomi a buang ka yona qotsong, e bile le bohlokwa bofe paleng ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.15",
+          "parent_id": null,
+          "text": "Ke ketsahalo efe paleng ena e re bopelang lewa la bongodi la ho hetla morao? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.16",
+          "parent_id": null,
+          "text": "Mongodi o sebedisitse karaburetso ya mofuta ofe seratswaneng sa ho qetela sa qotso ee?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.17",
+          "parent_id": null,
+          "text": "Hantlentle ke sefe seo Hlomi a se bolelang ka polelo e latelang?\n\nTsa kena ka ho e nngwe tsa tswa ka ho e nngwe.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.18",
+          "parent_id": null,
+          "text": "Ke thuto efe eo mongodi a re rutang yona ketsahalong eo ho yona metswalle ya Mokgifa, e ileng ya kopana le yena dilemo ka mora hore ba arohane le yena yunivesiting?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.19",
+          "parent_id": null,
+          "text": "Tshohla ntlhakemo ya mongodi ketsahalong eo ho yona Firi a kopang thuso ya Mmadito ditabeng tsa marato.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA A: PALE/NOBELE/NOVELE - SEHLEKEHLEKE SA DEIDRO – VT Masima",
+      "instructions": "Bala qotso ena ka tlhoko, o nto araba dipotso tse tla e latela tse thehilweng paleng yohle.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Puisano e qotsong ya Chikano le Ramaqiti e etsahalla naheng efe?",
+          "marks": 1,
+          "scenario": "Ka mora mona, bobedi ba bona ba tsamaya ho ya kena hoteleng. Chikano a ingodisa kapelenyana mme a ya phaposing ya hae a latelwa ke motshwari wa diphahlo.\n\nKa hora ya leshome hodima hlooho, Chikano a be a se a hata a kena kantorong ya Moborigadiri Ramaqiti. Ha ba se ba fapanyetsane ka ditumediso tse monatjana, Ramaqiti a phaka ho kena ditabeng.\n\n'Motswalle wa ka, Zero, o ntetseditse a ntsebisa hore o a tla. Banna! Ke ntho e mpe hakaakang ee ya ho nyamela ha Thakadi. Na ke nnete, Mokolonele, hore tlhapikepe e kaa ka Thakadi tjee e ka hla ya nyamela feela tjee moyeng kapa hona metsing moo mme e se ke ya bonahala le ha e se e batlwa le ka disatalaete?' 'Ke eo he e se e nyametse, morena,' ho araba Chikano.\n\n'Ebe ho teng monyetla wa ho e fumana?'\n\n'Monyetla wona o ka nna wa ba teng ha feela e sa ka ya qhibidiha ho fihlela e fetoha metsi.' Ramaqiti a sheba Chikano ka leihlo le ntjhotjho, ho bonahala hore o thuisa ka thata tseo Chikano a qetang ho mmolella tsona.\n\n'Ke a utlwa, Mokolonele. Empa e re ke o botse potso e nngwe: Na o kile wa utlwa ka mokgatlo o ipitsang 'Bana ba Phiri?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Nehelana ka dintho TSE PEDI tse ileng tsa makatsa Chikano haholo mohla a neng a qala ho fihla Sehlekehlekeng sa Tumelo.",
+          "marks": 2,
+          "scenario": "Ka mora mona, bobedi ba bona ba tsamaya ho ya kena hoteleng. Chikano a ingodisa kapelenyana mme a ya phaposing ya hae a latelwa ke motshwari wa diphahlo.\n\nKa hora ya leshome hodima hlooho, Chikano a be a se a hata a kena kantorong ya Moborigadiri Ramaqiti. Ha ba se ba fapanyetsane ka ditumediso tse monatjana, Ramaqiti a phaka ho kena ditabeng.\n\n'Motswalle wa ka, Zero, o ntetseditse a ntsebisa hore o a tla. Banna! Ke ntho e mpe hakaakang ee ya ho nyamela ha Thakadi. Na ke nnete, Mokolonele, hore tlhapikepe e kaa ka Thakadi tjee e ka hla ya nyamela feela tjee moyeng kapa hona metsing moo mme e se ke ya bonahala le ha e se e batlwa le ka disatalaete?' 'Ke eo he e se e nyametse, morena,' ho araba Chikano.\n\n'Ebe ho teng monyetla wa ho e fumana?'\n\n'Monyetla wona o ka nna wa ba teng ha feela e sa ka ya qhibidiha ho fihlela e fetoha metsi.' Ramaqiti a sheba Chikano ka leihlo le ntjhotjho, ho bonahala hore o thuisa ka thata tseo Chikano a qetang ho mmolella tsona.\n\n'Ke a utlwa, Mokolonele. Empa e re ke o botse potso e nngwe: Na o kile wa utlwa ka mokgatlo o ipitsang 'Bana ba Phiri?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Dikarabo tsa Chikano tse kgutshwane qotsong ee, di re tsebisa hore ke mophetwa wa semelo sefe? Bolela dintlha TSE PEDI.",
+          "marks": 2,
+          "scenario": "Ka mora mona, bobedi ba bona ba tsamaya ho ya kena hoteleng. Chikano a ingodisa kapelenyana mme a ya phaposing ya hae a latelwa ke motshwari wa diphahlo.\n\nKa hora ya leshome hodima hlooho, Chikano a be a se a hata a kena kantorong ya Moborigadiri Ramaqiti. Ha ba se ba fapanyetsane ka ditumediso tse monatjana, Ramaqiti a phaka ho kena ditabeng.\n\n'Motswalle wa ka, Zero, o ntetseditse a ntsebisa hore o a tla. Banna! Ke ntho e mpe hakaakang ee ya ho nyamela ha Thakadi. Na ke nnete, Mokolonele, hore tlhapikepe e kaa ka Thakadi tjee e ka hla ya nyamela feela tjee moyeng kapa hona metsing moo mme e se ke ya bonahala le ha e se e batlwa le ka disatalaete?' 'Ke eo he e se e nyametse, morena,' ho araba Chikano.\n\n'Ebe ho teng monyetla wa ho e fumana?'\n\n'Monyetla wona o ka nna wa ba teng ha feela e sa ka ya qhibidiha ho fihlela e fetoha metsi.' Ramaqiti a sheba Chikano ka leihlo le ntjhotjho, ho bonahala hore o thuisa ka thata tseo Chikano a qetang ho mmolella tsona.\n\n'Ke a utlwa, Mokolonele. Empa e re ke o botse potso e nngwe: Na o kile wa utlwa ka mokgatlo o ipitsang 'Bana ba Phiri?'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Lehlabaphiyo ke mophetwa ofe paleng ee? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Monamodi paleng ena ke … (Katriena, Chikano, Paliya). Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Paleho ya Chikano Namibia, e re totoballetsa kgohlano ya mofuta ofe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Bolela hore polelo e latelang ke NNETE kapa MAFOSI, o be o nehelane ka lebaka la karabo ya hao.\n\nMongodi o hlolehile ho reha mophetwa enwa, Ramaqiti, lebitso le dumellanang le seabo sa hae paleng ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.8",
+          "parent_id": null,
+          "text": "Hlalosa tomatso e totobalang qotsong ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.9",
+          "parent_id": null,
+          "text": "Tshohla mehla ya diketsahalo e qotsong ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.10",
+          "parent_id": null,
+          "text": "Diketsahalo tse qotsong di etsahala ka mora ketsahalo efe, eo ho yona Chikano a ileng a batla a bolawa?",
+          "marks": 1,
+          "scenario": "'Monghadi Chikano, ke Maremane Moramang enwa, motsamaisi wa hotele. Ho fihlile diofisiri tsa sepolesa mona mme di rata ho bua le wena. Ke ntse ke leka ho ba tshwarella empa ha ke kgolwe hore e tla ba nako e telele. Ke na le motswalle kwana Afrikania ya bitswang Makhanda. Maobane mona o ne a ntetseditse ho nkopa hore ke o thuse ha o le tsietsing. Jwale, o mamedisise hantle seo ke tlang ho o bolella sona, mme o etse kamoo ke tla o laela kateng. O ntse o mametse, monghadi Chikano?'\n\n'Ke mametse ka tsebe e lethwethwe, feela, nka re ho wena, ditaba tseo o seng o di buile ha jwale di nkopanya hlooho.'\n\n'Se kopane hlooho monghadi Chikano hobane hlooho eo ya hao, e tla tshwanela ho sebetsa haholo ho tloha ka wona motsotso ona. Mamela he … Ha o ka sututsa raka eo ya dibuka e leboteng la ntlo ya hao, ho tla hlaha lefiti e tla o theolela ka kitjhining. Ha o se o le ka moo ka kitjhining, o tla fumana monyako o tla o lebisa monyakong o mong o bulehelang ka morao ho moaho ona. Ha o fihla moo, o tla bona koloi ya Setsokotsane TY e dinomoropolata tse reng SE 550 BOTSW. Koloi eo ke ya ka monghadi Chikano, mme ke tla lebella hore o mpolelle moo ke tlang ho e fumana teng ha o se o pholohile. Jwale, kena tseleng hanghang!' Fono ya thola nyele!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.11",
+          "parent_id": null,
+          "text": "Ke ketsahalo efe e ka sehloohong e ileng ya thusa Chikano diphuputsong tsa hae hore a fumane Thakadi?",
+          "marks": 1,
+          "scenario": "'Monghadi Chikano, ke Maremane Moramang enwa, motsamaisi wa hotele. Ho fihlile diofisiri tsa sepolesa mona mme di rata ho bua le wena. Ke ntse ke leka ho ba tshwarella empa ha ke kgolwe hore e tla ba nako e telele. Ke na le motswalle kwana Afrikania ya bitswang Makhanda. Maobane mona o ne a ntetseditse ho nkopa hore ke o thuse ha o le tsietsing. Jwale, o mamedisise hantle seo ke tlang ho o bolella sona, mme o etse kamoo ke tla o laela kateng. O ntse o mametse, monghadi Chikano?'\n\n'Ke mametse ka tsebe e lethwethwe, feela, nka re ho wena, ditaba tseo o seng o di buile ha jwale di nkopanya hlooho.'\n\n'Se kopane hlooho monghadi Chikano hobane hlooho eo ya hao, e tla tshwanela ho sebetsa haholo ho tloha ka wona motsotso ona. Mamela he … Ha o ka sututsa raka eo ya dibuka e leboteng la ntlo ya hao, ho tla hlaha lefiti e tla o theolela ka kitjhining. Ha o se o le ka moo ka kitjhining, o tla fumana monyako o tla o lebisa monyakong o mong o bulehelang ka morao ho moaho ona. Ha o fihla moo, o tla bona koloi ya Setsokotsane TY e dinomoropolata tse reng SE 550 BOTSW. Koloi eo ke ya ka monghadi Chikano, mme ke tla lebella hore o mpolelle moo ke tlang ho e fumana teng ha o se o pholohile. Jwale, kena tseleng hanghang!' Fono ya thola nyele!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.12",
+          "parent_id": null,
+          "text": "Ke mophetwa ofe ya neng a na le Chikano nakong ya puisano e qotsong? Mophetwa eo o bile le molemo ofe ho Chikano tsatsing leo?",
+          "marks": 2,
+          "scenario": "'Monghadi Chikano, ke Maremane Moramang enwa, motsamaisi wa hotele. Ho fihlile diofisiri tsa sepolesa mona mme di rata ho bua le wena. Ke ntse ke leka ho ba tshwarella empa ha ke kgolwe hore e tla ba nako e telele. Ke na le motswalle kwana Afrikania ya bitswang Makhanda. Maobane mona o ne a ntetseditse ho nkopa hore ke o thuse ha o le tsietsing. Jwale, o mamedisise hantle seo ke tlang ho o bolella sona, mme o etse kamoo ke tla o laela kateng. O ntse o mametse, monghadi Chikano?'\n\n'Ke mametse ka tsebe e lethwethwe, feela, nka re ho wena, ditaba tseo o seng o di buile ha jwale di nkopanya hlooho.'\n\n'Se kopane hlooho monghadi Chikano hobane hlooho eo ya hao, e tla tshwanela ho sebetsa haholo ho tloha ka wona motsotso ona. Mamela he … Ha o ka sututsa raka eo ya dibuka e leboteng la ntlo ya hao, ho tla hlaha lefiti e tla o theolela ka kitjhining. Ha o se o le ka moo ka kitjhining, o tla fumana monyako o tla o lebisa monyakong o mong o bulehelang ka morao ho moaho ona. Ha o fihla moo, o tla bona koloi ya Setsokotsane TY e dinomoropolata tse reng SE 550 BOTSW. Koloi eo ke ya ka monghadi Chikano, mme ke tla lebella hore o mpolelle moo ke tlang ho e fumana teng ha o se o pholohile. Jwale, kena tseleng hanghang!' Fono ya thola nyele!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.13",
+          "parent_id": null,
+          "text": "Nehelana ka matshwao a tlhekelo A MABEDI a teng qotsong ena.",
+          "marks": 2,
+          "scenario": "'Monghadi Chikano, ke Maremane Moramang enwa, motsamaisi wa hotele. Ho fihlile diofisiri tsa sepolesa mona mme di rata ho bua le wena. Ke ntse ke leka ho ba tshwarella empa ha ke kgolwe hore e tla ba nako e telele. Ke na le motswalle kwana Afrikania ya bitswang Makhanda. Maobane mona o ne a ntetseditse ho nkopa hore ke o thuse ha o le tsietsing. Jwale, o mamedisise hantle seo ke tlang ho o bolella sona, mme o etse kamoo ke tla o laela kateng. O ntse o mametse, monghadi Chikano?'\n\n'Ke mametse ka tsebe e lethwethwe, feela, nka re ho wena, ditaba tseo o seng o di buile ha jwale di nkopanya hlooho.'\n\n'Se kopane hlooho monghadi Chikano hobane hlooho eo ya hao, e tla tshwanela ho sebetsa haholo ho tloha ka wona motsotso ona. Mamela he … Ha o ka sututsa raka eo ya dibuka e leboteng la ntlo ya hao, ho tla hlaha lefiti e tla o theolela ka kitjhining. Ha o se o le ka moo ka kitjhining, o tla fumana monyako o tla o lebisa monyakong o mong o bulehelang ka morao ho moaho ona. Ha o fihla moo, o tla bona koloi ya Setsokotsane TY e dinomoropolata tse reng SE 550 BOTSW. Koloi eo ke ya ka monghadi Chikano, mme ke tla lebella hore o mpolelle moo ke tlang ho e fumana teng ha o se o pholohile. Jwale, kena tseleng hanghang!' Fono ya thola nyele!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.14",
+          "parent_id": null,
+          "text": "Kgetha karabo e nepahetseng ho A–D, o be o nehelane ka lebaka la karabo ya hao. Ngola tlhaku e nepahetseng feela.\n\nDiketsahalo tse qotsong ke tse ding tsa …",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "tharahano."
+            },
+            {
+              "label": "B",
+              "text": "sehlohlolo."
+            },
+            {
+              "label": "C",
+              "text": "mothipoloho."
+            },
+            {
+              "label": "D",
+              "text": "phetelo."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.15",
+          "parent_id": null,
+          "text": "Ntle le ketsahalo e qotsong, bolela tse ding TSE PEDI tseo le tsona di bontshang hantle hore Ramaqiti o ne a behile mahlahana a hae ho disa metsamao ya Chikano.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.16",
+          "parent_id": null,
+          "text": "Karaburetso ya pono e qotsong ee, e o thusa jwang ho utlwisisa seo ho buuang ka sona?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.17",
+          "parent_id": null,
+          "text": "Ke mabaka afe A MABEDI a ileng ya etsa hore tonakgolo Monnafeela a kwetelwe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.18",
+          "parent_id": null,
+          "text": "Tshohla molaetsa wa mongodi paleng ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "KAROLO YA B: TSHWANTSHISO/TERAMA - SEFI – DJ Nkutha",
+      "instructions": "Bala qotso e latelang ka tlhoko, o nto araba dipotso tse thehilweng tshwantshisong yohle.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Sebapadi seo Mmatiisetso a se bitsang moleko o dikgobe qotsong ke mang?",
+          "marks": 1,
+          "scenario": "MOTAUNG: Tjhe, tjhe kgomohadi. Hoo ho ke ke ha loka ho ya kamoo e kupang kateng ka maleng, ho dubakane mme ekare Iraq e lwana ka mpeng ka mona.\nMMATIISETSO: Ke ne ke o fa leqheka le tla sebetsa ka ho potlaka. Ha re tswe ka mona etswe Tiisetso o batla ho fiela. Re tla be re mo tshwara matsoho ka ho etsa jwalo.\nMOTAUNG: Tjhe, wa tla wa ntlatsa ditsebe he kajeno. Ha re le be ka kitjhining. (A ema) Ha re ye, o sa duletseng, o nahanang?\nMMATIISETSO: Ka batla ke lebala ntate. Matsatsi a palamane ha ho eso be le morwerwe ka taba ya ho isa ngwanenwa sekolong. Nko ho hang ha e eso tswe lemina. O a e hopola qeto eo re e nkileng ya ho fa Tiisetso bokamoso bo kganyang bo tjhabileng?\nMOTAUNG: Tseo ha re di tlohele etswe ha se nako ya tsona ena. Hape, ha ho ntho eo nka e arabang ke kgathetse ka tsela ena.\nMMATIISETSO: Hakere o hana pheko e bobebe. O se leke wa re o ilo ntsha moleko ka moleko hobane o tlilo senya semate, ho thoba ha namane ke ho tlwaela. Kgotso eo re phelang ka yona o tla be o e qhadile ka panyo ya leihlo. Tlohela ho itihela kwetseng o ntse o shebile. O ferekangwa ke moleko oo o dikgobe o kang o qetetse ho hlatswa moriri ngwaholakola kwa.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Nehelana ka makgetha A MABEDI a teng qotsong ena, a tiisang hore sengolwa sena, Sefi, ke tshwantshiso.",
+          "marks": 2,
+          "scenario": "MOTAUNG: Tjhe, tjhe kgomohadi. Hoo ho ke ke ha loka ho ya kamoo e kupang kateng ka maleng, ho dubakane mme ekare Iraq e lwana ka mpeng ka mona.\nMMATIISETSO: Ke ne ke o fa leqheka le tla sebetsa ka ho potlaka. Ha re tswe ka mona etswe Tiisetso o batla ho fiela. Re tla be re mo tshwara matsoho ka ho etsa jwalo.\nMOTAUNG: Tjhe, wa tla wa ntlatsa ditsebe he kajeno. Ha re le be ka kitjhining. (A ema) Ha re ye, o sa duletseng, o nahanang?\nMMATIISETSO: Ka batla ke lebala ntate. Matsatsi a palamane ha ho eso be le morwerwe ka taba ya ho isa ngwanenwa sekolong. Nko ho hang ha e eso tswe lemina. O a e hopola qeto eo re e nkileng ya ho fa Tiisetso bokamoso bo kganyang bo tjhabileng?\nMOTAUNG: Tseo ha re di tlohele etswe ha se nako ya tsona ena. Hape, ha ho ntho eo nka e arabang ke kgathetse ka tsela ena.\nMMATIISETSO: Hakere o hana pheko e bobebe. O se leke wa re o ilo ntsha moleko ka moleko hobane o tlilo senya semate, ho thoba ha namane ke ho tlwaela. Kgotso eo re phelang ka yona o tla be o e qhadile ka panyo ya leihlo. Tlohela ho itihela kwetseng o ntse o shebile. O ferekangwa ke moleko oo o dikgobe o kang o qetetse ho hlatswa moriri ngwaholakola kwa.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Nehelana ka makgabane A MABEDI ao Motaung a neng a tsebahala ka ona pele a fetoha tshwantshisong ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Bolela mokgabisopuo o sebedisitsweng polelong e latelang, o be o nehelane ka lebaka la karabo ya hao.\n\nHo dubakane mme ekare Iraq e lwana ka mpeng ka mona.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Bolela mabaka A MABEDI a ileng a baka kgohlano pakeng tsa Motaung le Mmatshele.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Hlalosa leeme la bong le hlahang tshwantshisong ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7",
+          "parent_id": null,
+          "text": "Ke ketsahalo efe e re bopelang mothinya o sa lebellwang bophelong ba Tiisetso tshwantshisong ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.8",
+          "parent_id": null,
+          "text": "Ke dintho dife TSE PEDI tseo Motaung le Raboditse ba neng ba fapana ka tsona pele Motaung a fetoha?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.9",
+          "parent_id": null,
+          "text": "Tshohla bohlokwa ba ditoro tshwantshisong ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.10",
+          "parent_id": null,
+          "text": "Nehelana ka lewa leo mongodi a le sebedisitseng qotsong ena ho re senolela semelo sa Motaung.",
+          "marks": 1,
+          "scenario": "RABODITSE: Nna ke nahana hore re tlolele mane mose Phahameng ho ya ntsha mokgathala.\nMOTAUNG: Mose kae? O bolela tlasa sekolo see kapa o re kae weso, hona ke ha mang moo?\nRABODITSE: O boletse teng. O nepa ke eng eka o a kopitsa? Ke ha Mmatshele, tshela le tlale.\nMOTAUNG: Lebitso le se ntse le itlhalositse. Ke ye ke utlwe ka motho eo. Ke serathodi sa mosadi.\nRABODITSE: O nepile moo weso. O rekisa mefuta yohle ya jwala. Mefuta eo ya jwala e arotswe ka diphaposi. Le ba hlomphehang ba arohantswe jwalo ka thitelong. Nna ke a tsebisahala moo. O tla mo utlwa ha a mpona. O tsebe ke twala ya mosadi, o tshwana hantle le Gabariele eo o mmoledisang. Ka mohlomong o ka itela moo etswe o a shebahala weso.\nMOTAUNG: Ke a utlwa, feela ke na le mosadi, Mmatiisetso. Hape ho ya ka melao e meholo ke bofebe boo. Le yena o tla ntjheba jwang?\nRABODITSE: Ke tsebile. Ha o ahlamisa molomo ke melao, Modimo, mosadi. O monna kapa o mosadi wena? Ha o mo tshaba o mpolelle ke tla etsa hore mabele a ikise dinonyaneng, a dule hantle molomong wa tsona. O motle eo motho. Keresemese o hopole e tla hang selemong.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.11",
+          "parent_id": null,
+          "text": "Bolela ntho E LE NNGWE feela eo Raboditse a reng Motaung o tshabana le yona qotsong.",
+          "marks": 1,
+          "scenario": "RABODITSE: Nna ke nahana hore re tlolele mane mose Phahameng ho ya ntsha mokgathala.\nMOTAUNG: Mose kae? O bolela tlasa sekolo see kapa o re kae weso, hona ke ha mang moo?\nRABODITSE: O boletse teng. O nepa ke eng eka o a kopitsa? Ke ha Mmatshele, tshela le tlale.\nMOTAUNG: Lebitso le se ntse le itlhalositse. Ke ye ke utlwe ka motho eo. Ke serathodi sa mosadi.\nRABODITSE: O nepile moo weso. O rekisa mefuta yohle ya jwala. Mefuta eo ya jwala e arotswe ka diphaposi. Le ba hlomphehang ba arohantswe jwalo ka thitelong. Nna ke a tsebisahala moo. O tla mo utlwa ha a mpona. O tsebe ke twala ya mosadi, o tshwana hantle le Gabariele eo o mmoledisang. Ka mohlomong o ka itela moo etswe o a shebahala weso.\nMOTAUNG: Ke a utlwa, feela ke na le mosadi, Mmatiisetso. Hape ho ya ka melao e meholo ke bofebe boo. Le yena o tla ntjheba jwang?\nRABODITSE: Ke tsebile. Ha o ahlamisa molomo ke melao, Modimo, mosadi. O monna kapa o mosadi wena? Ha o mo tshaba o mpolelle ke tla etsa hore mabele a ikise dinonyaneng, a dule hantle molomong wa tsona. O motle eo motho. Keresemese o hopole e tla hang selemong.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.12",
+          "parent_id": null,
+          "text": "Ho dibapadi tse qotsong, ke sefe se neng se sebedisa mohatsa sona ho hodisa kgohlano tshwantshisong ee? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": "RABODITSE: Nna ke nahana hore re tlolele mane mose Phahameng ho ya ntsha mokgathala.\nMOTAUNG: Mose kae? O bolela tlasa sekolo see kapa o re kae weso, hona ke ha mang moo?\nRABODITSE: O boletse teng. O nepa ke eng eka o a kopitsa? Ke ha Mmatshele, tshela le tlale.\nMOTAUNG: Lebitso le se ntse le itlhalositse. Ke ye ke utlwe ka motho eo. Ke serathodi sa mosadi.\nRABODITSE: O nepile moo weso. O rekisa mefuta yohle ya jwala. Mefuta eo ya jwala e arotswe ka diphaposi. Le ba hlomphehang ba arohantswe jwalo ka thitelong. Nna ke a tsebisahala moo. O tla mo utlwa ha a mpona. O tsebe ke twala ya mosadi, o tshwana hantle le Gabariele eo o mmoledisang. Ka mohlomong o ka itela moo etswe o a shebahala weso.\nMOTAUNG: Ke a utlwa, feela ke na le mosadi, Mmatiisetso. Hape ho ya ka melao e meholo ke bofebe boo. Le yena o tla ntjheba jwang?\nRABODITSE: Ke tsebile. Ha o ahlamisa molomo ke melao, Modimo, mosadi. O monna kapa o mosadi wena? Ha o mo tshaba o mpolelle ke tla etsa hore mabele a ikise dinonyaneng, a dule hantle molomong wa tsona. O motle eo motho. Keresemese o hopole e tla hang selemong.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.13",
+          "parent_id": null,
+          "text": "Lewa leo o le boletseng ho 4.10 le senola Motaung e le sebapadi sa semelo sefe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.14",
+          "parent_id": null,
+          "text": "Bohlokwa ba anastrofi e sebedisitsweng mantsweng a latelang a Raboditse ke bofe?\n\n'O motle eo motho.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.15",
+          "parent_id": null,
+          "text": "Sepheo sa Raboditse ke sefe ka mantswe ana a hae?\n\n'Le ba hlomphehang ba arohantswe jwalo ka thitelong.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.16",
+          "parent_id": null,
+          "text": "Hlalosa tomatso e qotsong.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.17",
+          "parent_id": null,
+          "text": "Ntle le meaho bolela dintho TSE PEDI tse ka sitisang ho bapalwa sethaleng.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.18",
+          "parent_id": null,
+          "text": "Tshohla ntlhakemo ya mongodi malebana le ditlhare tshwantshisong ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "KAROLO YA C: DIPALEKGUTSHWE - 'PELO E JA SERATI' / 'HA E LALE'",
+      "instructions": "Araba POTSO ya 5.1 le POTSO ya 5.2. Bala maqotso ana ka tlhoko, o nto araba dipotso tse thehilweng palekgutshweng tsona tseo.",
+      "questions": [
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Ke lebaka lefe le neng le etse hore Mmamafotha a qetelle a dumetse ho nyalla mora wa hae Moipone?",
+          "marks": 1,
+          "scenario": "'Ke kgale ke kopa batswadi ba ka hore ke batla ho nyala. Ke a bona hore ntate ha a na bothata bo bokaalo, bothata ke mme. Ha a rate le ho utlwa feela, ka Moipone. Hommeng ke a mo rata hle, ke sa tla be ke mo nyale. Le ha ho ka thwe ke nwe madi bakeng sa metsi, ke tla a nwa. Butle Mokgethi ke yane moo a tlang le teng. Ke utlwile hore yena o se a ikuketse ya ratwang ke yena, e seng ya ratwang ke batswadi.' Ke Mafotha eo o bua a le mong.\n\n'Dumela monna, Mafotha. O shebahala o tebisitse maikutlo kajeno, molato keng?' 'Dumela weso, Mokgethi. Ke mpa ke tshwenngwa ke tabanyana tse ding tjena, tseo ke hopolang hore o ka ntlhaba malotsana ka tsona, mathata a fela. Wena o hopotse kae?' 'Ke habile ha Talatala, lebenkeleng. Kedibone o nkopile hore ke ilo mo rekela setlolo se mona sa bona, matamafose. O ka ntsamaisa tsela ha o sa tswafe.'\n\n'Nka tswafa jwang, Mokgethi, ke ntse ke o bolella hore ke na le ditaba le wena? Re tla hle re di fokotse ha re ya, le ha re kgutla.' Mafotha le Mokgethi ba tsamaisana tsela ho ya lebenkeleng ha Talatala. Mafotha o pipitletswe ke taba ena ya hore mmae a hane ha a nyala Moipone.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Ke letshwao lefe LE LE LENG le lokelang ho hlaha tlhekelong, le teng qotsong ee?",
+          "marks": 1,
+          "scenario": "'Ke kgale ke kopa batswadi ba ka hore ke batla ho nyala. Ke a bona hore ntate ha a na bothata bo bokaalo, bothata ke mme. Ha a rate le ho utlwa feela, ka Moipone. Hommeng ke a mo rata hle, ke sa tla be ke mo nyale. Le ha ho ka thwe ke nwe madi bakeng sa metsi, ke tla a nwa. Butle Mokgethi ke yane moo a tlang le teng. Ke utlwile hore yena o se a ikuketse ya ratwang ke yena, e seng ya ratwang ke batswadi.' Ke Mafotha eo o bua a le mong.\n\n'Dumela monna, Mafotha. O shebahala o tebisitse maikutlo kajeno, molato keng?' 'Dumela weso, Mokgethi. Ke mpa ke tshwenngwa ke tabanyana tse ding tjena, tseo ke hopolang hore o ka ntlhaba malotsana ka tsona, mathata a fela. Wena o hopotse kae?' 'Ke habile ha Talatala, lebenkeleng. Kedibone o nkopile hore ke ilo mo rekela setlolo se mona sa bona, matamafose. O ka ntsamaisa tsela ha o sa tswafe.'\n\n'Nka tswafa jwang, Mokgethi, ke ntse ke o bolella hore ke na le ditaba le wena? Re tla hle re di fokotse ha re ya, le ha re kgutla.' Mafotha le Mokgethi ba tsamaisana tsela ho ya lebenkeleng ha Talatala. Mafotha o pipitletswe ke taba ena ya hore mmae a hane ha a nyala Moipone.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "Qolla dipolelo TSE PEDI qotsong tse bontshang hore diketsahalo tsa palekgutshwe ke tsa mehleng ya pele ho tokoloho.",
+          "marks": 2,
+          "scenario": "'Ke kgale ke kopa batswadi ba ka hore ke batla ho nyala. Ke a bona hore ntate ha a na bothata bo bokaalo, bothata ke mme. Ha a rate le ho utlwa feela, ka Moipone. Hommeng ke a mo rata hle, ke sa tla be ke mo nyale. Le ha ho ka thwe ke nwe madi bakeng sa metsi, ke tla a nwa. Butle Mokgethi ke yane moo a tlang le teng. Ke utlwile hore yena o se a ikuketse ya ratwang ke yena, e seng ya ratwang ke batswadi.' Ke Mafotha eo o bua a le mong.\n\n'Dumela monna, Mafotha. O shebahala o tebisitse maikutlo kajeno, molato keng?' 'Dumela weso, Mokgethi. Ke mpa ke tshwenngwa ke tabanyana tse ding tjena, tseo ke hopolang hore o ka ntlhaba malotsana ka tsona, mathata a fela. Wena o hopotse kae?' 'Ke habile ha Talatala, lebenkeleng. Kedibone o nkopile hore ke ilo mo rekela setlolo se mona sa bona, matamafose. O ka ntsamaisa tsela ha o sa tswafe.'\n\n'Nka tswafa jwang, Mokgethi, ke ntse ke o bolella hore ke na le ditaba le wena? Re tla hle re di fokotse ha re ya, le ha re kgutla.' Mafotha le Mokgethi ba tsamaisana tsela ho ya lebenkeleng ha Talatala. Mafotha o pipitletswe ke taba ena ya hore mmae a hane ha a nyala Moipone.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Bolela mokgabisopuo o sebedisitsweng polelong e latelang, o be o nehelane ka lebaka la karabo ya hao. \n\n'Le ha ho ka thwe ke nwe madi bakeng sa metsi, ke tla a nwa.'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Dumellana kapa o hanane le polelo e latelang ka ho e tshehetsa ka lebaka. \n\nMafotha ke molwantshuwa palekgutshweng ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Bohlokwa ba boipuiso ke bofe qotsong ee?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Ke mawa afe A MABEDI ao mongodi a a sebedisitseng qotsong ho senola semelo sa Mokgethi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "text": "Ditaba tsa qoso ee, di bakela Mafotha kgohlano ya mofuta ofe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": "5.1",
+          "text": "Tshohla lewa la tlholo dingolweng palekgutshweng ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Qolla polelo e re totobaletsang semelo sa Makgisa qotsong.",
+          "marks": 1,
+          "scenario": "Kgwebo ya ditekesi e a tlokoma motseng ona, empa joo! Modumo oo wa sethunya, o ropoha hona teng boemelong ba ditekesi hobane dintwa tsa teng ke tse sa feleng. Borathepa ba a lwantshana ha ho sebaka. Bohloko ke hore jwale ho shwa le bapalami, batho ba se nang molato, bona bao kgwebo ena e tlokomang ka lebaka la bona.\n\nHoseng hona, tekesi e ne e palamisa bapalami ba yang mesebetsing ya bona ka ho fapana ha sethunya se tla kgabola ho tswa tekesing e nngwe e neng e feta e tatile haholo. E mong wa bapalami ke eo o rapaletse, moya o tswile nameng. Motho wa batho o shwetse seo a sa se tsebeng, le hona a ikela mosebetsing ho ya fatela bana bophelo. Ebe e tla lala, banna?\n\nMahaila ke modulasetulo wa mokgatlo wa ditekesi tsa moo Mantshonyana. O lekile ho bua le borathepa ka makgetlokgetlo hore ba lese boitshwaro bona ba bona ba dikgoka, empa ha ho phetoho. Hantlentle Makgisa ke yena ya lenyokonyane ka hara borathepa. O meharo, o dikgoka o bile o kgantsha hore yena ha a kgathalle ho tshetjwa, motho ha a le kgahlano le yena, o phakisa a mo qhala boko ka tholwana. Mahaila ke enwa kajeno, o batla ho mo haila.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "Sesosa sa kgohlano ke sefe ho ya ka ditaba tsa qotso?",
+          "marks": 1,
+          "scenario": "Kgwebo ya ditekesi e a tlokoma motseng ona, empa joo! Modumo oo wa sethunya, o ropoha hona teng boemelong ba ditekesi hobane dintwa tsa teng ke tse sa feleng. Borathepa ba a lwantshana ha ho sebaka. Bohloko ke hore jwale ho shwa le bapalami, batho ba se nang molato, bona bao kgwebo ena e tlokomang ka lebaka la bona.\n\nHoseng hona, tekesi e ne e palamisa bapalami ba yang mesebetsing ya bona ka ho fapana ha sethunya se tla kgabola ho tswa tekesing e nngwe e neng e feta e tatile haholo. E mong wa bapalami ke eo o rapaletse, moya o tswile nameng. Motho wa batho o shwetse seo a sa se tsebeng, le hona a ikela mosebetsing ho ya fatela bana bophelo. Ebe e tla lala, banna?\n\nMahaila ke modulasetulo wa mokgatlo wa ditekesi tsa moo Mantshonyana. O lekile ho bua le borathepa ka makgetlokgetlo hore ba lese boitshwaro bona ba bona ba dikgoka, empa ha ho phetoho. Hantlentle Makgisa ke yena ya lenyokonyane ka hara borathepa. O meharo, o dikgoka o bile o kgantsha hore yena ha a kgathalle ho tshetjwa, motho ha a le kgahlano le yena, o phakisa a mo qhala boko ka tholwana. Mahaila ke enwa kajeno, o batla ho mo haila.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Bolela mofuta wa karaburetso e sebedisitsweng seratswaneng sa 2.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "Nehelana ka matshwao A MABEDI a bontshang hore 'Ha e lale' ke palekgutshwe ha se pale.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": "5.2",
+          "text": "Ho ya ka ditaba tsa qotso ee, o ka re Makgisa ke mophetwa wa mofuta ofe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.6",
+          "parent_id": "5.2",
+          "text": "Ditaba tsa qotso ee di totobatsa mehla efe? Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.7",
+          "parent_id": "5.2",
+          "text": "Lebotsi le sebedisitsweng polelong e latelang le sebedisitswe ka sepheo sefe? \n\n'Ebe e tla lala, banna?'",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.8",
+          "parent_id": "5.2",
+          "text": "Ke ditlamorao dife tse bosula TSE PEDI tse ileng tsa fetola bophelo ba Makgisa ka mora kopano e qotsong?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.9",
+          "parent_id": "5.2",
+          "text": "Hlalosa kamoo lebitso la Mahaila le amanang kateng le seabo sa hae palekgutshweng ena.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.10",
+          "parent_id": "5.2",
+          "text": "Manolla tomatso e hlahang kopanong ya setjhaba sa Mantshonyana le borathepa.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "KAROLO YA D: DITHOTHOKISO - 'LEFU' / 'HO SE TSHEPAHALE'",
+      "instructions": "Araba POTSO ya 6.1 le POTSO ya 6.2. Bala dithothokiso tsena ka tlhoko, o nto araba dipotso tse tla di latela.",
+      "questions": [
+        {
+          "id": "6.1.1",
+          "parent_id": "6.1",
+          "text": "Ke lentswe lefe temanathothokisong ya 1, le re tsebisang hore phakwe e futuhela ditsuonyana e hlaha hodimo?",
+          "marks": 1,
+          "scenario": "LEFU – J Mokoena\n\n1 Ha ke bua ka lefu, ke re ke phakwe,\n2 Ha ke bua ka phakwe, ke re ke Ramautla.\n3 Phakwe e ubellang ditsuonyana di eso iphatele,\n4 Ramautla ya ketolang a siya dithako.\n\n5 Morwerwe wa lefu o hlotse bolepi ba kajeno,\n6 Le monkgo wa lona o thimodisitse mapaku,\n7 Ditsomi di epetswe ha tshelela kgateane,\n8 Ruri lefu le re nketse metswalle.\n\n9 Lefu, nna ha ke bua ka wena, ke tshedisa,\n10 Siba la ka nna jwale le tlala thothomelo,\n11 Meokgo e qhitsa e ntshulafaletsa bophelo,\n12 Le bokgelekeng nna ke tswella ho nyehlisa.\n\n13 Lefu ke lena ke mokgokakgwale,\n14 Lefu ke lena le thehile fika sa pale,\n15 Fatsheng lena re bana ba lebitla, \n16 Ho benya lerumo, ho kgabola kanono moela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.2",
+          "parent_id": "6.1",
+          "text": "Nehelana ka mantswe A MABEDI ao kgonyetso e sebedisitsweng ho ona temanathothokisong ya 4.",
+          "marks": 2,
+          "scenario": "LEFU – J Mokoena\n\n1 Ha ke bua ka lefu, ke re ke phakwe,\n2 Ha ke bua ka phakwe, ke re ke Ramautla.\n3 Phakwe e ubellang ditsuonyana di eso iphatele,\n4 Ramautla ya ketolang a siya dithako.\n\n5 Morwerwe wa lefu o hlotse bolepi ba kajeno,\n6 Le monkgo wa lona o thimodisitse mapaku,\n7 Ditsomi di epetswe ha tshelela kgateane,\n8 Ruri lefu le re nketse metswalle.\n\n9 Lefu, nna ha ke bua ka wena, ke tshedisa,\n10 Siba la ka nna jwale le tlala thothomelo,\n11 Meokgo e qhitsa e ntshulafaletsa bophelo,\n12 Le bokgelekeng nna ke tswella ho nyehlisa.\n\n13 Lefu ke lena ke mokgokakgwale,\n14 Lefu ke lena le thehile fika sa pale,\n15 Fatsheng lena re bana ba lebitla, \n16 Ho benya lerumo, ho kgabola kanono moela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.3",
+          "parent_id": "6.1",
+          "text": "Ke molathothokiso ofe temanathothokisong ya 4, o re tsebisang hore lefu le a tshwenya, le a tena?",
+          "marks": 1,
+          "scenario": "LEFU – J Mokoena\n\n1 Ha ke bua ka lefu, ke re ke phakwe,\n2 Ha ke bua ka phakwe, ke re ke Ramautla.\n3 Phakwe e ubellang ditsuonyana di eso iphatele,\n4 Ramautla ya ketolang a siya dithako.\n\n5 Morwerwe wa lefu o hlotse bolepi ba kajeno,\n6 Le monkgo wa lona o thimodisitse mapaku,\n7 Ditsomi di epetswe ha tshelela kgateane,\n8 Ruri lefu le re nketse metswalle.\n\n9 Lefu, nna ha ke bua ka wena, ke tshedisa,\n10 Siba la ka nna jwale le tlala thothomelo,\n11 Meokgo e qhitsa e ntshulafaletsa bophelo,\n12 Le bokgelekeng nna ke tswella ho nyehlisa.\n\n13 Lefu ke lena ke mokgokakgwale,\n14 Lefu ke lena le thehile fika sa pale,\n15 Fatsheng lena re bana ba lebitla, \n16 Ho benya lerumo, ho kgabola kanono moela.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.4",
+          "parent_id": "6.1",
+          "text": "Qolla melathothokiso e re bopelang phetapheto ya sebopeho temanathothokisong ya 1. Nehelana ka lebaka la karabo ya hao.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.5",
+          "parent_id": "6.1",
+          "text": "Bohlokwa ba karaburetso ya pono e temanathothokisong ya 3 ke bofe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.6",
+          "parent_id": "6.1",
+          "text": "Sepheo sa sethothokisi ke sefe ka tshebediso ya lentswe 'ruri' molathothokisong wa 8?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.7",
+          "parent_id": "6.1",
+          "text": "Neeletsano e sebedisitsweng molathothokisong wa 13 le ho wa 14, e sebedisitswe ka maikemisetso afe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.8",
+          "parent_id": "6.1",
+          "text": "Ke lentswe lefe temanathothokisong ya 3 le re tsebisang hore lefu le mothofaditswe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.9",
+          "parent_id": "6.1",
+          "text": "Molemo wa kgefutsohare e molathothokisong wa 16 ke ofe moo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.10",
+          "parent_id": "6.1",
+          "text": "Tshohla sehalo thothokisong ena.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.1",
+          "parent_id": "6.2",
+          "text": "Ke molathothokiso ofe temanathothokisong ya 2, o re tsebisang hore leqwatsiqwatsi le ile la baleha?",
+          "marks": 1,
+          "scenario": "HO SE TSHEPAHALE – RN Phume\n\n1 Ha se motho wa letho,\n2 Ke mopheme!\n3 Ha se motho wa letho,\n4 Ke phokojwe!\n5 Hei, Ha se motho leqwatsiqwatsi,\n6 Ke pere ya letebele!\n7 Helang bo! Leqwatsiqwatsi ha se motho,\n8 Ke lemenemene, ke Ramaqiti!\n\n9 Yare e le neng a itebetse,\n10 A qethohile a itjella tsa dithoto:\n11 Tlapu, sa pitla sefi,\n12 Sa mo re mohatla shoqo!\n13 A tshola tlhako morong;\n14 Mohatla wa sala sefing.\n\n15 Kgale le robokella nku le konyana,\n16 Le bjwabjwaretsa podi le potsanyane;\n17 Le qhekanyetsa ntate le mora\n18 Le swaswaila mme le moradi,\n19 Le jalletsa morena le mofo!\n\n20 Qenehela batho ke ba Morena\n21 Qenehela hle, dikgutsanyana tsa Morena!\n22 Fetola mawa o tshepahale,\n23 Disatsebaneng di a welana;\n24 Le a mang maqwatsiqwatsi le tla welana.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.2",
+          "parent_id": "6.2",
+          "text": "Nehelana ka mabitso A MABEDI ao sethothokisi se a rehileng leqwatsiqwatsi.",
+          "marks": 2,
+          "scenario": "HO SE TSHEPAHALE – RN Phume\n\n1 Ha se motho wa letho,\n2 Ke mopheme!\n3 Ha se motho wa letho,\n4 Ke phokojwe!\n5 Hei, Ha se motho leqwatsiqwatsi,\n6 Ke pere ya letebele!\n7 Helang bo! Leqwatsiqwatsi ha se motho,\n8 Ke lemenemene, ke Ramaqiti!\n\n9 Yare e le neng a itebetse,\n10 A qethohile a itjella tsa dithoto:\n11 Tlapu, sa pitla sefi,\n12 Sa mo re mohatla shoqo!\n13 A tshola tlhako morong;\n14 Mohatla wa sala sefing.\n\n15 Kgale le robokella nku le konyana,\n16 Le bjwabjwaretsa podi le potsanyane;\n17 Le qhekanyetsa ntate le mora\n18 Le swaswaila mme le moradi,\n19 Le jalletsa morena le mofo!\n\n20 Qenehela batho ke ba Morena\n21 Qenehela hle, dikgutsanyana tsa Morena!\n22 Fetola mawa o tshepahale,\n23 Disatsebaneng di a welana;\n24 Le a mang maqwatsiqwatsi le tla welana.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.3",
+          "parent_id": "6.2",
+          "text": "Qollang molathothokiso temanathothokisong ya 1, oo ho wona ho nang le lebitsa.",
+          "marks": 1,
+          "scenario": "HO SE TSHEPAHALE – RN Phume\n\n1 Ha se motho wa letho,\n2 Ke mopheme!\n3 Ha se motho wa letho,\n4 Ke phokojwe!\n5 Hei, Ha se motho leqwatsiqwatsi,\n6 Ke pere ya letebele!\n7 Helang bo! Leqwatsiqwatsi ha se motho,\n8 Ke lemenemene, ke Ramaqiti!\n\n9 Yare e le neng a itebetse,\n10 A qethohile a itjella tsa dithoto:\n11 Tlapu, sa pitla sefi,\n12 Sa mo re mohatla shoqo!\n13 A tshola tlhako morong;\n14 Mohatla wa sala sefing.\n\n15 Kgale le robokella nku le konyana,\n16 Le bjwabjwaretsa podi le potsanyane;\n17 Le qhekanyetsa ntate le mora\n18 Le swaswaila mme le moradi,\n19 Le jalletsa morena le mofo!\n\n20 Qenehela batho ke ba Morena\n21 Qenehela hle, dikgutsanyana tsa Morena!\n22 Fetola mawa o tshepahale,\n23 Disatsebaneng di a welana;\n24 Le a mang maqwatsiqwatsi le tla welana.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.4",
+          "parent_id": "6.2",
+          "text": "Nehelana ka mefuta E MMEDI ya phetapheto e hlahang temanathothokisong ya 1.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.5",
+          "parent_id": "6.2",
+          "text": "Bohlokwa ba mothipoloho o temanathothokisong ya 3 ke bofe moo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.6",
+          "parent_id": "6.2",
+          "text": "Hobaneng sethothokisi se sebedisitse lentswe, 'hle', molathothokisong wa 21?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.7",
+          "parent_id": "6.2",
+          "text": "Hlalosa se bolelwang ke molathothokiso wa 11.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.8",
+          "parent_id": "6.2",
+          "text": "Sethothokisi se sebedisitse lentswe lena, 'robokella' ka sepheo sefe molathothokisong wa 15?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2.9",
+          "parent_id": "6.2",
+          "text": "Sekaseka anastrofi e sebedisitsweng molathothokisong wa 25.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 36334,
+    "cached_tokens_saved": 0
+  }
+}

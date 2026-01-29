@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "subject": "IsiZulu Ulimi Lokuqala Lokwengeza (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "ISIQEPHU A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Umzuzu Owangifaka Ehlazweni Elikhulu",
+          "type": "Essay",
+          "model_answers": [
+            "Bhala ngenkathi edlule.",
+            "Kwakunini, kuphi?",
+            "Yini eyakufaka ehlazweni?",
+            "Kwagcina kwenzekeni?",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Ukuphila Impilo Yamanga",
+          "type": "Essay",
+          "model_answers": [
+            "Ungabhala ngenkathi exubile.",
+            "Chaza izinto ezikhombisa ukuthi umuntu uphila impilo yamanga.",
+            "Imithelela yokuphila impilo yamanga.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Iphutha Engalibalekela Yilo Elangifaka Enkingeni",
+          "type": "Essay",
+          "model_answers": [
+            "Bhala ngenkathi edlule.",
+            "Chaza kabanzi ngaleli phutha elakufaka enkingeni.",
+            "Isifundo owasithola ngokwenza leli phutha.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Indawo Okhulele Kuyo Inobuhle Nobubi Empilweni Yakho",
+          "type": "Essay",
+          "model_answers": {
+            "positives": [
+              "Amaphuzu awaveze ubuhle nobufakazi obesekelayo."
+            ],
+            "negatives": [
+              "Amaphuzu awaveze ububi nobufakazi obesekelayo."
+            ],
+            "other": [
+              "Ungabhala ngenkathi exubile.",
+              "Veza amaphuzu aqhathanisayo.",
+              "Indaba ayinamathele esihlokweni."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Akulula Ukungena Ezicathulweni Zomunye Umuntu",
+          "type": "Essay",
+          "model_answers": [
+            "Ungabhala ngenkathi exubile.",
+            "Isingeniso masiveze uhlangothi ohambisana nalo. (ukuvumelana noma ukuphikisana).",
+            "Yethula amaphuzu adaza inkani.",
+            "Isigaba nesigaba asigqamise iphuzu elihamba phambili bese wenaba ngalo.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Isithombe",
+          "type": "Visual Stimulus Essay",
+          "model_answers": [
+            "Nikeza indaba isihloko esiyifanele.",
+            "Ungabhala ngenkathi exubile.",
+            "Isihloko masihambisane nokuqukethwe isithombe.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Amaphuzu angehluka kuye ngesihloko esibhaliwe.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": "Isithombe",
+          "type": "Visual Stimulus Essay",
+          "model_answers": [
+            "Nikeza indaba isihloko esiyifanele.",
+            "Ungabhala ngenkathi exubile.",
+            "Isihloko masihambisane nokuqukethwe isithombe.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Amaphuzu angehluka kuye ngesihloko esibhaliwe.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": "Isithombe",
+          "type": "Visual Stimulus Essay",
+          "model_answers": [
+            "Nikeza indaba isihloko esiyifanele.",
+            "Ungabhala ngenkathi exubile.",
+            "Isihloko masihambisane nokuqukethwe isithombe.",
+            "Indaba ayinamathele esihlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Amaphuzu angehluka kuye ngesihloko esibhaliwe.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "INCWADI YAKOMKHULU/ESEMTHETHWENI",
+          "type": "Formal Letter",
+          "model_answers": [
+            "Ikheli lobhalayo alibe ngasesandleni sokudla lihambe nosuku olugcwele.",
+            "Ikheli lobhalelwayo alibe ngasesandleni sokunxele liqale ngesikhundla.",
+            "Obhalelwayo makabingelelwe ngesizotha.",
+            "Qala ngomusho oyisihloko, udwetshelwe noma ubhalwe ngosonhlamvukazi/ofeleba.",
+            "Esigabeni sokuqala ohlolwayo akabhale isizathu sokubhala incwadi.",
+            "Esigabeni sesibili ohlolwayo akanabe ngokusesigabeni sokuqala.",
+            "Isiphetho masibe sifishane.",
+            "Isivaleliso masikhombise isizotha: Yimina Ozithobayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "UMLANDO NGOMUFI",
+          "type": "Obituary",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Isihloko esigqamile esinamagama aphelele kamufi.",
+              "Isigaba Sokuqala: Usuku lokuzalwa nendawo azalelwe kuyona.",
+              "Amagama nezibongo zabazali.",
+              "Usuku ashone ngalo (indlela ashone ngayo kodwa ayiphoqelekile)."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Imininingwane yemfundo",
+                "points": [
+                  "Imininingwane yemfundo.",
+                  "Imiklomelo nezikhundla (uma kukhona).",
+                  "Imininingwane yemfundo ephakeme (uma ikhona)."
+                ]
+              },
+              {
+                "sub_topic": "Umsebenzi Nomphakathi",
+                "points": [
+                  "Imininingwane yomsebenzi/yokuzisebenza (okuhambisana nomyalelo).",
+                  "Ukuxhumana nabantu/izinto azizuzile/imisebenzi ayenzile emphakathini."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Umusho onemininingwane mayelana namalungu omndeni wakhe/wakubo awashiyile.",
+              "Isivaleliso: Umusho wokuvalelisa okungaba amazwi acashunwe emibhalweni ethile."
+            ]
+          }
+        },
+        {
+          "id": "2.3",
+          "text": "UKUBUYEKEZA/ISIBUYEKEZO",
+          "type": "Review",
+          "model_answers": [
+            "Uhlobo lomcimbi.",
+            "Abahleli bomcimbi.",
+            "Indawo, usuku nesikhathi.",
+            "Umcimbi ngamafuphi.",
+            "Umbono/Uvo/Izincomo (okuhle nokubi ngomcimbi)."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "INKULUMO ELUNGISELELWE",
+          "type": "Prepared Speech",
+          "model_answers": [
+            "Ukubingelela.",
+            "Isingeniso esiheha izethameli.",
+            "Ukwethula isihloko.",
+            "Ukuthuthuka kwenkulumo.",
+            "Izibonelo ezikholekayo ezihambisana nenkulumo.",
+            "Bhala ngemisho emifishane.",
+            "Isiphetho masisonge kahle inkulumo.",
+            "Ukubonga izethameli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "ISIKHANGISO",
+          "type": "Advertisement",
+          "model_answers": [
+            "Isihloko sokukhangiswayo masigqame.",
+            "Sebenzisa amakhono/imigomo yokukhangisa: ifonti ehlukile, ulimi olunxenxayo.",
+            "Imininingwane elindelekile: indawo esitholakala kuyo isitolo, izindlela zokuxhumana, izinhlobo zemibhede edayiswayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "UMYALEZO OMFISHANE (WhatsApp)",
+          "type": "WhatsApp Message",
+          "model_answers": [
+            "Bhala usuku, isikhathi kanye nelanga.",
+            "Bhala igama/inombolo yomuntu obhalela iqembu.",
+            "Bhala ngenkathi efanele.",
+            "Bhala njengomuntu wokuqala.",
+            "Sebenzisa ulimi oluzwakalayo noluhambisana nombhalo.",
+            "Okuqukethwe makunamathele emyalelweni (uphawula ngezinto ongazithandi eqenjini otadisha nalo)."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "IMIYALELO",
+          "type": "Instructions / Recipe",
+          "model_answers": [
+            "Bhala isihloko seresiphi ozoyinika umakhelwane.",
+            "Bhala izithako kanye nezikalo.",
+            "Bhala indlela yokwenza.",
+            "Bhala ngolimi oluhambisana nombhalo.",
+            "Kuyancomeka ukubhala umbono wokuthi inyama ingadliwa nani futhi abantu abangaki."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 11346,
+    "cached_tokens_saved": 0
+  }
+}

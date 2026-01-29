@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "subject": "Siswati Lulwimi Lwekucala Lwekwengeta (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "SIGABA A: INOVELI",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "KWASHA TIKHOTSA – LL Dlamini",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.1.1",
+              "value": "Ludvweshu lwangaphandle."
+            },
+            {
+              "sub_id": "1.1.2",
+              "value": "B/Kulala ungavuki."
+            },
+            {
+              "sub_id": "1.1.3",
+              "value": "Iyayichubekisa ngobe yenta boSomcuba babe nemandla ekuchubeka nemachinga ekulwa naMswati ngobe batibona batewuncoba."
+            },
+            {
+              "sub_id": "1.1.4",
+              "value": "Bekungakafaneli kutsi bangamfuni, sihlalo sebukhosi besisakhe Mswati njengobe bekatalwa yiNdlovukati Tsandzile."
+            },
+            {
+              "sub_id": "1.1.5",
+              "value": "Kungobe batitjela kutsi Mswati akayiboni yonkhe lemihlangano lebebayibamba ngasese yekucumba phasi bukhosi."
+            },
+            {
+              "sub_id": "1.1.6",
+              "value": "Bekubabikela ngengoti labangahle bahlangabetane nayo ngobe loko bekwenteka bekungumhlolo lucobo lwawo."
+            },
+            {
+              "sub_id": "1.1.7",
+              "value": "Simo sekwetfuka nekushuba kwetintfo ngobe kubonakala kutsi kulwa naMswati angeke kube malula njengoba bacabanga."
+            },
+            {
+              "sub_id": "1.1.8",
+              "value": "Ingcikitsi yembango webukhosi ngobe banakaboMswati bafuna kumbulala bese batsatsa sihlalo sebukhosi."
+            },
+            {
+              "sub_id": "1.1.9",
+              "value": "Ngingabacwayisa ngekutsi kuhle kuvikelana nisekelane nangabe nibemndeni munye kuvimbela kutsi nehlelwe ngemashwa."
+            },
+            {
+              "sub_id": "1.1.10",
+              "value": "Asihambisani ngobe kuletheksthi banakaboMswati batibona bancobile, Mswati angumuntfu lebatawuvele bacedze ngaye, kodvwa esiphetfweni kubonakala Mswati ancobile ababulele bonkhe labo lebebalwisana naye."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "1.1.3, 1.1.9, 1.1.10: Naleminye imibono lenembako yemukelekile",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "KWASHA TIKHOTSA – LL Dlamini (Cont.)",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.2.1",
+              "value": "C/Luvutfondzaba."
+            },
+            {
+              "sub_id": "1.2.2",
+              "value": "Yatfolana etulu kwaba ngumgici namgici, emabutfo aMtjekeni abulawa ngebunyenti."
+            },
+            {
+              "sub_id": "1.2.3",
+              "value": "Kukhombisa emandla labekanawo nekutsi besekaphelelwe sineke ngaloko bekwentiwa banakabo."
+            },
+            {
+              "sub_id": "1.2.4",
+              "value": "Ngalokutsi nangabe imphi yaMswati ibuye emphini incobile, sive saMswati besijatjuliswa ngekuhlatjelwa tinkhomo kuyiwe emphakatsi kuyodliwa bantfu batidlele labakutsandzako."
+            },
+            {
+              "sub_id": "1.2.5",
+              "value": "Imigadlela ngobe beyilwa ngelulaka lolukhulu, nangabe ihlasela beyenta siciniseko sekutsi iyancoba."
+            },
+            {
+              "sub_id": "1.2.6",
+              "value": "Yatsatsa sinyatselo sekubeka sikhulu lesisha, yabuye yaniketa bantfu tindzawo tekwakha, tekulima nekufuya."
+            },
+            {
+              "sub_id": "1.2.7",
+              "value": "Bekuyindlela yabo yekutivikela kutsi bangatfolakali malula ngobe besaba kubulawa ngemabutfo aMswati."
+            },
+            {
+              "sub_id": "1.2.8",
+              "value": "Belifuna kwenta siciniseko sekutsi alishiyi lutfo lokuphilako lokungaphindze kubabangele inkinga yekuphazamisa bukhosi ngekuhamba kwesikhatsi."
+            },
+            {
+              "sub_id": "1.2.9",
+              "value": "Kutifundzisa kutsi kulwela intfo longakanikwa yona kungakubulalisa njengobe sibona banakaboMswati babulawa ngemabutfo aMswati, emachinga lebebawenta angabasebenteli."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "1.2.8, 1.2.9: Naleminye imibono lenembako yemukelekile",
+          "topic": "KWASHA TIKHOTSA",
+          "essay_structure": null
+        },
+        {
+          "id": "2.1",
+          "text": "NGENCA YAKHO- JJ Ncongwane",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.1.1",
+              "value": "D/Wekukhatsalelana."
+            },
+            {
+              "sub_id": "2.1.2",
+              "value": "Inkinga yekushisa indlu yamkhulu wakhe ngeliphutsa."
+            },
+            {
+              "sub_id": "2.1.3",
+              "value": "Akazange amshaye nobe amcoshe ngalesikhatsi ashise indlu kepha wahamba naye kuyofuna indzawo yekulala."
+            },
+            {
+              "sub_id": "2.1.4",
+              "value": "Yebo aba yimphumelelo ngobe Mshumayeli wacedza kufundza phesheya wabuya wakhela gogo wakhe likhaya bahlala kamnandzi."
+            },
+            {
+              "sub_id": "2.1.5",
+              "value": "Kusitjela kutsi bebaphilisana kahle nebakaTsabetse ngobe akutange kubelukhuni kutsi babavumele bayewulala khona bangumndeni."
+            },
+            {
+              "sub_id": "2.1.6",
+              "value": "Mshumayeli uvakala ucela umsebenti wesikolo kuKhanyisile afuna kubhala noma simo sasekhaya simatima."
+            },
+            {
+              "sub_id": "2.1.7",
+              "value": "Sikhombisa kutisola nekuva buhlungu kutsi abasenakhaya ngenca yakhe."
+            },
+            {
+              "sub_id": "2.1.8",
+              "value": "Kuhlekwa ngulabanye bantfwana ngekutsi wadojwa emgcomeni/Kungayati imvelaphi yakhe/ Kungabati batali bakhe/ Kubukeka ehlukile kulabanye bantfwana/kungabi nemali yekuchuba tifundvo takhe njengobe mkhulu wakhe angasekho emhlabeni."
+            },
+            {
+              "sub_id": "2.1.9",
+              "value": "Khanyisile bekamtsandza ngekweliciniso Mshumayeli ngobe wakhona kumesekela ngalesikhatsi bashelwe likhaya wabuye wamlindza ngalesikhatsi ayofundza Phesheya lokuyimvelakancane emantfombataneni alomuhla."
+            },
+            {
+              "sub_id": "2.1.10",
+              "value": "Singafundza kutsi imfundvo iyaphumelelisana/Kuhlupheka akuhlali kukhona kuyaphela/Kuhlonipha batali bakho kuhle/Kungajahi tintfo nawusakhula kuyaphumelelisana emphilweni."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "2.1.8, 2.1.10: Kubili kwaloku. 2.1.9, 2.1.10: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "NGENCA YAKHO- JJ Ncongwane (Cont.)",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.2.1",
+              "value": "Sibukeka singasisihle sikhomba kucasuka/kutfukutsela/nekuphelelwa sineke."
+            },
+            {
+              "sub_id": "2.2.2",
+              "value": "Inhloso kusitjela kutsi kweswela angeke kwema endleleni yekuchubeka netifiso takho."
+            },
+            {
+              "sub_id": "2.2.3",
+              "value": "Bekubangelwa kutsi wala kuyobhala ebhodini ngako-ke, bekafuna kuyomatisa imbangela yekungasukumi kwakhe, angabonakali njengemfundzi lodzelelako."
+            },
+            {
+              "sub_id": "2.2.4",
+              "value": "Kugcugcutela kutsi bafundzi banetinkinga lebahlangabetana nato kubalulekile kukhulumisana nabothishela ngobe kwenta bothishela bavisise timo lebaphila ngaphasi kwato."
+            },
+            {
+              "sub_id": "2.2.5",
+              "value": "Lendzawo beyiphephile ngobe wakhona kukhuluma tonkhe tinkinga takhe akhululekile angesabi lutfo."
+            },
+            {
+              "sub_id": "2.2.6",
+              "value": "Umbhali usebentise lisu letembatfo ngobe tembatfo takhe tesikolo betidzabukile."
+            },
+            {
+              "sub_id": "2.2.7",
+              "value": "Bafakwa eluhlelweni lwesondlo setintsandzane/Bafundza mahhala ababhadali tindleko tesikolo/batfola imifundzate/Kunetinhlangano letibatsengela tembatfo tesikolo."
+            },
+            {
+              "sub_id": "2.2.8",
+              "value": "Samsita ngekutsi akhone kutfola emakheli etindzawo temifundzate, wakhona kufaka ticelo tekubhadalelwa tindleko tesikolo kuleto tindzawo kute achubeke nekufundza."
+            },
+            {
+              "sub_id": "2.2.9",
+              "value": "Imphilo yaMshumayeli yehluke kakhulu kunemphilo lebekayiphila asafundza sikolo ngobe ugcina afundzile, aphila kahle anelikhaya lelihle angesweli lutfo kantsi asafundza bekeswele kuhlekiswa ngaye."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "2.2.7: Kubili kwaloku. 2.2.8, 2.2.9: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA B: UMDLALO",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "LAHLOMA LADVUMA – Z MOTSA",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1.1",
+              "value": "Ngiko vele nami ngifuna kushiya phasi yonkhe lentfo le!"
+            },
+            {
+              "sub_id": "3.1.2",
+              "value": "Kubeketela umelane nesimo noma ngabe silukhuni kangakanani, ucinisele."
+            },
+            {
+              "sub_id": "3.1.3",
+              "value": "Badlali babili kuphela/bayacocisana/itheksthi yenteka endzaweni lococekile."
+            },
+            {
+              "sub_id": "3.1.4",
+              "value": "Kuyamfanela ngobe uvakala ayintfombatane lenesibindzi futsi lebuvikelako bukhosi beBatfwa kantsi uyawati nemsebenti lekumele awente njengeNdlovukati."
+            },
+            {
+              "sub_id": "3.1.5",
+              "value": "Kufuna kubona kutsi Tsembative uyogcinelaphi naKhetsiwe njengobe babonakala banebudlelwano kuletheksthi."
+            },
+            {
+              "sub_id": "3.1.6",
+              "value": "Ngulesekutsi ufuna Khetsiwe ametsembise kutsi utawuba yiNdlovukati lecotfo afukamele bukhosi beBatfwa nakungenteka yena afe."
+            },
+            {
+              "sub_id": "3.1.7",
+              "value": "Udlala indzima yekulwisana naye wonkhe umuntfu lokumele atsatse bukhosi ngobe afuna kutisikela incenye yakhe ebukhosini."
+            },
+            {
+              "sub_id": "3.1.8",
+              "value": "Kwabaphazamisa kutsi bangasakhulumi kahle ngekwenta emachinga ekuvikela sihlalo sebukhosi lobubukeka buzulelwa ngemangce."
+            },
+            {
+              "sub_id": "3.1.9",
+              "value": "Kubaluleke kakhulu ngobe umntfwana uvamise kulilandzela ligama lakhe. Nawubuka ligama laQedizizwe lisho umuntfu lohamba etiveni atiphazamisa. Umdlalo uwusekela ngekugcugcutela imphi nekwenta emachinga ekuvimba Vusa kuba sesibhimbini sebukhosi."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "3.1.3: Kubili kwaloku. 3.1.7: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "LAHLOMA LADVUMA – Z MOTSA (Cont.)",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.2.1",
+              "value": "C/Uyingoti."
+            },
+            {
+              "sub_id": "3.2.2",
+              "value": "Ungikhiphe egodzini."
+            },
+            {
+              "sub_id": "3.2.3",
+              "value": "Qedizizwe naTsembative bayalwa/Kunekukhulumisana kabi emkhatsini waQedizizwe naTsembative/Tsembative utsi ugwaze bacizisango lababili."
+            },
+            {
+              "sub_id": "3.2.4",
+              "value": "Kuphuma ngekushesha lokukhulu babalekele kubanjwa."
+            },
+            {
+              "sub_id": "3.2.5",
+              "value": "Kungobe kunemnyakato lomkhulu/kunekugwazana/kunembane lomanyatako/kunekudvuma kwelitulu."
+            },
+            {
+              "sub_id": "3.2.6",
+              "value": "Sento sekusindzisa Vusematfwa ekutfunjweni kwakhe ngobe bekangabulawa boQedizizwe kepha bekatimisele kulwa nabo."
+            },
+            {
+              "sub_id": "3.2.7",
+              "value": "Bekuluphawu lwesimo lesimatima nekushuba kwetintfo kanye nembango lokhona esiveni seBatfwa."
+            },
+            {
+              "sub_id": "3.2.8",
+              "value": "Tinkhulumo taQedizizwe timveta angumuntfu lodzelelako nalotetsemba kakhulu ngobe ukhuluma ngekutetsemba nekungababoni kutsi bayini boTsembative."
+            },
+            {
+              "sub_id": "3.2.9",
+              "value": "Kungobe bekatifundza kutsi akanalivi njengobe asihambi nje ebukhosini beBatfwa, kungenela tindzaba tebukhosi bekuyindlela yakhe yekutiphilisa ngetindlela letingasitinhle acabanga kutsi kungenteka atfole sikhundla lesisetulu."
+            },
+            {
+              "sub_id": "3.2.10",
+              "value": "Ngiyavuma ngobe Vusematfwa bekangumnakabo, kungako watsatsa lesincumo kute amphephise, lebekusincumo lebekangeke asente kunoma ngubani lekangakahlobananga naye."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "3.2.3, 3.2.5: Kubili kwaloku. 3.2.8, 3.2.9, 3.2.10: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA C: TINDZABA LETIMFISHA",
+      "questions": [
+        {
+          "id": "4.1",
+          "text": "'UMNGCWABO WEMCHAMUKI' – JJ Ncongwane",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1.1",
+              "value": "B/Babili."
+            },
+            {
+              "sub_id": "4.1.2",
+              "value": "Intfo nje kutsi lamadvodza lamanye lesisebenta nawo ahlushwa mabele, ahlola kakhulu eludziweni."
+            },
+            {
+              "sub_id": "4.1.3",
+              "value": "Lokungenta ngichubeke ngifundze lendzatjana kufuna kwati kutsi ingabe tihlobo taMasiphula tavela yini ngemuva kwekungcwatjwa kwakhe."
+            },
+            {
+              "sub_id": "4.1.4",
+              "value": "Puntju wafaka simemetelo sekwedlula kwemufi emhlabeni emsakatweni kutsi tihlobo tive bese tiyamlandza."
+            },
+            {
+              "sub_id": "4.1.5",
+              "value": "Senteka epulazini lemlumbi longuPuntju lapho lamadvodza bewasebenta khona."
+            },
+            {
+              "sub_id": "4.1.6",
+              "value": "Ngiyavuma, bekangenato ngobe akekho lowavela wate wangcwantjwa ngumlumbi lebekasebenta kuye kantsi nasekucaleni kwendzaba kuvelile kutsi ufa akashiyi ntsandzane namfelokati ngobe wefika angumfanyana lapha kaPuntju."
+            },
+            {
+              "sub_id": "4.1.7",
+              "value": "Tibaveta babantfu labaneluvelo nalabamkhatsalelako lomunye umuntfu ngobe bafuna umlingani wabo Masiphula angcwatjwe ngenhlonipho."
+            },
+            {
+              "sub_id": "4.1.8",
+              "value": "Labatsi kuliciniso batawusekela batsi: Bantfu labanatsa tjwala ababi nayo imali ngoba lebayiholako bayicedza yonkhe etjwaleni bangakhoni kondla imindeni yabo nobe bakhokhele tintfo letibalulekile etimphilweni tabo. Labatawutsi kungumbono batawusekela batsi: Akusibo bonkhe labanatsa tjwala labafelelako nobe labangondli imindeni yabo, labanye bayayitfumela imali emakhaya babuye bafundzise bantfwababo ngalokufanele."
+            },
+            {
+              "sub_id": "4.1.9",
+              "value": "Sekutsi atsatse imininingwane yabo bonkhe bantfu lakabacashako ayigcine kahle ngembi kwekutsi bamsebentele."
+            },
+            {
+              "sub_id": "4.1.10",
+              "value": "Ngumlayeto wekutsi caphela nawenta tintfo unatsile kute utikhandzi sewenta emaphutsa longeke usawalungisa ngobe lamadvodza anatsa tjwala, agcine angcwaba umuntfu lophilako lebekungeke kusalungiseka, bagcine bababulali."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "4.1.7, 4.1.8, 4.1.9, 4.1.10: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "'KANTSI BANTFU BANJE?'– JJ Ncongwane",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.2.1",
+              "value": "NguMagilogilo ngobe konkhe lokwenteka kulendzatjana kucondzene naye nguye lobekenta lemikhuba yekutsebula bantfu."
+            },
+            {
+              "sub_id": "4.2.2",
+              "value": "A/Sekutsakatsa."
+            },
+            {
+              "sub_id": "4.2.3",
+              "value": "Emashica nguloko lokusalako nakuhlutwa tjwala."
+            },
+            {
+              "sub_id": "4.2.4",
+              "value": "Ludvweshu lwangaphandle ngobe lemikhobo icasukile, ayifuni kusebenta, ilwa naMagilogilo ngobe angakayiniki kudla."
+            },
+            {
+              "sub_id": "4.2.5",
+              "value": "Lemikhobo beyingamvukela imshaye imlimate nemndeni wakhe njengobe ibonakala inemandla futsi seyikhombisa nekumlwisa."
+            },
+            {
+              "sub_id": "4.2.6",
+              "value": "Kwelulekwa ngekwengcondvo ngobe bona bebati kutsi tihlobo tabo tafa tangcwatjwa/bebangabasita bangcwabe letihlobo kabusha."
+            },
+            {
+              "sub_id": "4.2.7",
+              "value": "Kuyakholweka ngobe kukhona bantfu labagangako lababulala bantfu, labanye babacwiye netitfo temtimba kute emabhizinisi abo akhule."
+            },
+            {
+              "sub_id": "4.2.8",
+              "value": "Bewafuna kutfola bonkhe bufakazi ngaloko lokwentiwa nguMagilogilo kute batobusebentisa enkantolo bese uvalelwa sikhatsi lesidze ngemacala ekubulala ngebutsakatsi."
+            },
+            {
+              "sub_id": "4.2.9",
+              "value": "Bafundza kutsi akekho umuntfu longehlula bemtsetfo noma ungaba nemandla, ugange ubulale bantfu ngemitsi angeke kugcine wena, kuyogcina sandla semtsetfo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "4.2.6, 4.2.7, 4.2.9: Naleminye imibono lenembako yemukelekile.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA D: TINKONDLO",
+      "questions": [
+        {
+          "id": "5.1",
+          "text": "'LEYO NGOMA' – J J Ncongwane",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1.1",
+              "value": "A/Luchumanosigcino."
+            },
+            {
+              "sub_id": "5.1.2",
+              "value": "Isivetela kutsi sonkondlo bekasayitsandza lentfombi yakhe ngobe noma sekakulahle konkhe lokucondzene nayo usayikhumbula."
+            },
+            {
+              "sub_id": "5.1.3",
+              "value": "Ngumoya wenkhumbulo ngobe sonkondlo usitjela kutsi njalo nakeva lengoma ukhumbula sitsandvwa sakhe."
+            },
+            {
+              "sub_id": "5.1.4",
+              "value": "Lomugca usivetela kutsi sonkondlo useva buhlungu kakhulu ngalokushiywa ngulesitsandvwa sakhe."
+            },
+            {
+              "sub_id": "5.1.5",
+              "value": "Ingcikitsi yelutsandvo, sonkondlo ukhuluma ngelutsandvo lolungafuni kuphela lolumenta angakhoni kukhohlwa lesitsandvwa sakhe."
+            },
+            {
+              "sub_id": "5.1.6",
+              "value": "Bewungibuka ngawo ngibone / Likusasa lami lifanana neliZulu. (Umugca we-28 newe-29)"
+            },
+            {
+              "sub_id": "5.1.7",
+              "value": "Lamagama asetjentiselwe kukhomba kugcizelela. (Ayimphindvwa)"
+            },
+            {
+              "sub_id": "5.1.8",
+              "value": "Sihloko sibumbene nenkondlo ngobe sitsi, 'Leyo Ngoma' kantsi kusukela ekucaleni sonkondlo ukhuluma ngalengoma lemkhumbuta sitsandvwa sakhe lebebayidlala basatsandzana."
+            },
+            {
+              "sub_id": "5.1.9",
+              "value": "Sifundza kutsi sibomukela simo sinjengobe sinjalo/Ungabi sigcila selutsandvo/Ungatsandzi umuntfu ukhohlwe kutitsandza wena/ Akukho lokungapheli emhlabeni/Imphilo yakho ayingasimi kulomunye umuntfu."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "5.1.8, 5.1.9: Naleminye imibono lenembako yemukelekile. 5.1.9: Kutsatfu kwaloku.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "'MBULALAVE' – SL Sigudla",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.2.1",
+              "value": "Imvumelwanosicalo/Imvumelwanosicalo yabonkhamisa."
+            },
+            {
+              "sub_id": "5.2.2",
+              "value": "Isathaya/Inkondlogceka ngobe sonkondlo ugceka umbulalave ngemonakalo losewudalile esiveni kusukela wefika. Uncusa Mvelinchanti kutsi asale angenelela ngobe bona sebehlulekile."
+            },
+            {
+              "sub_id": "5.2.3",
+              "value": "Mbulalave sal' udzela."
+            },
+            {
+              "sub_id": "5.2.4",
+              "value": "Sifanangwaca ngobe onkhe lamagama lakulomugca anangwaca s-."
+            },
+            {
+              "sub_id": "5.2.5",
+              "value": "Luchumanomkhatsini lolwecako. Lamagama lacindzetelwe ayafanana emkhatsini wemigca lengalandzelani."
+            },
+            {
+              "sub_id": "5.2.6",
+              "value": "Lemigca ichaza kutsi umhlaba ugcwele emathuna ebantfu, lowutsi nawuwabuka emehlo agcwale lusizi netinyembeti."
+            },
+            {
+              "sub_id": "5.2.7",
+              "value": "Lemigca ayilingani, emagama asuka kulamabili aye kulamatsatfu."
+            },
+            {
+              "sub_id": "5.2.8",
+              "value": "Sidvonsamoya ngobe nawufundza lomugca uyaphumula emkhatsini wawo."
+            },
+            {
+              "sub_id": "5.2.9",
+              "value": "Lenkondlo ikhuluma ngesifo sengculazi lesingakhetsi lesibulala sonkhe sive/ Utsi sililo salesifo sesivakele yonkhe indzawo emisebentini, etikhungweni temfundvo nasemakhaya/Sonkondlo uyabuta kutsi live liyakuba ngulelinjani lelinganabo bantfu lasebakhulile, emantfombatana nemajaha/Ucela Mvelinchanti kutsi angenelele ngobe yonkhe imizamo yesive seyehlulekile, konkhe sekwetfulwa kuye."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "5.2.9: Kutsatfu kwaloku.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 19444,
+    "cached_tokens_saved": 0
+  }
+}

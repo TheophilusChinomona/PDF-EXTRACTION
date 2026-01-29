@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "subject": "IsiZulu Ulimi Lwasekhaya (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "NHLABA/NHLANGULANA",
+    "grade": 12,
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "ISIQEPHU A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Uma kuxabane amalungu omndeni abadala babamba umhlangano kubizwe amalungu omndeni axabene achaze, asho okubaphethe kabi bese kuyaxolelwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Izindaba zomndeni eziyichilo nezingxabano zigcina sezaziwa ngabantu bonke ngoba zisatshalaliswa yonke indawo, ezinkantolo, ezigcawini zamakhosi, emasontweni, ezinkundleni zokuxhumana nakomabonakude."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Singenze ngaqonda ukuthi abantu abalinganayo ngamandla abahlali ngokuthula endaweni eyodwa, omunye kufanele ahambe. Lesi simo sokukhuluma sihambelana kahle ngoba lapha kulesi sigaba kunezingane ezihlala ziphinde zizibekele imithetho endaweni yabazali okungesiyona eyazo esikhundleni sokuhamba ziyoziphembela eyazo imizi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lezi zigaba zombili zikhuluma ngosizo olufanayo olutholakala ngaphandle kwamalungu omndeni.",
+            "Esigabeni sesi-3 ilungu lomndeni lamukela usizo olulunikwa ngabangani okugcina kuxabanise umndeni",
+            "kanjalo nasesigabeni sesi-5 ilungu lomndeni elehluleka ukuxazulula izinkinga ligcina lihambe layothola usizo kubantu abahlolayo, abagcina bekhomba ukuthi leyo nkinga idalwa ngamanye amalungu omndeni bese umndeni uxabane, ungaphinde ungenelane."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.5",
+              "value": "D/Umfantu"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Zozimbili lezi zigaba ziqukethe umqondo ofanayo wenzondo.",
+            "Esigabeni sesi-6 kuba nelungu lomndeni elizonda omunye wakwabo lincame ukuthatha umuntu wangaphandle ngisho nalapho kuvela amathuba omsebenzi.",
+            "Esigabeni sesi-7 abazali abashadile baba nenzondo baxabane phambi kwezingane, bathukane ngisho naphambi kwabanye abantu kugcine kuphazamiseka impilo yezingane."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngicabanga ukuthi ukuxoxisana komndeni kungalekelela kakhulu ngokwazi ukuthi ukuthuthuka kwelungu lomndeni kuchaza ukuthi wonke umndeni uphumelele.",
+            "Umndeni wonke mawusizane, ophumelele makangababukeli phansi abanye kepha abatakule abasize uma kungenzeka badinga usizo lwakhe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umbhali uwasebenzise kahle la magama abhalwe ngokugqamile ngoba agqamisa ukuthi abangesiwona amalungu omndeni mabangagxambukeli ezindabeni zomndeni.",
+            "Ekugcineni abomndeni bayayixazulula inkinga abanayo inqobo nje uma bebikele abadala noma izihlobo zabo.",
+            "Uma futhi ibahlula indaba baye baxazululelwe ngabantu abakufundele okungoSonhlalakahle."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Uma ngingabhekana naleli hlazo lokungezwani komndeni wami ngingazama ukuxazulula ngokuthi labo abangezwani ngihlale nabo phansi, ngizame ukubabonisa ukuthi bayeke ukuxabana ukuze babone ubuhle bokuba ngumndeni.",
+            "Ngingazama nokubakhumbuza izimfundiso ezinhle esazithola kubazali bethu abangabe bengasekho emhlabeni kanye nesazithola kusontosikole."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.10",
+          "text": "UMBHALO B (OBUKWAYO)",
+          "type": null,
+          "model_answers": [
+            "Okwenzeka esithombeni sesi-2 ngibona incwadi ebhalwe ukuthi incwadi yefa futhi kukhona abantu ababili okubonakala sengathi bayaxabana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Okungumehluko okwenzeka esithombeni sokuqala ukuthi abantu abadala bayaphikisana phambi kwezingane endlini yokuphumula.",
+            "Kanti esithombeni sesithathu sibona abantu abadala abane, abathathu bamile bayakhombana oyedwa wesifazane ubheke phezulu eceleni akabanakile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umqondo oqukethwe yisigaba sesi-4 esikuMBHALO A kanye nokwenzeka esithombe sesi-2 esikuMBHALO B kuyafana. Isigaba sesi-4 esikuMBHALO A sikhuluma ngomsindo osuka uma uSokhaya esedlulile emhlabeni bese kuthi labo abasele baqale babange ifa.",
+            "Kuyafana nalokho okubonakala esithombeni sesi-2 esikuMBHALO B ngoba kukhona ipheshana elibhalwe ngabameli futhi kulo kubhalwe incwadi yefa, ngezansi kwalo kukhona abantu ababili owesifazane nowesilisa okubukeka sengathi bayaxabana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Esithombeni sesi-4 sibona kukhona umuntu wesilisa nowesifazane okubukeka sengathi banobudlelwano obuhle. Laba bantu bahleli phambi komuntu wesifazane obhala ephepheni elisoqwembeni, okusho ukuthi kuxoxwa ngomoya wokuzwana okukhulunywa ngakho lapha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "UKUFINGQA ISIQESHANA NGAMAGAMA AKHO",
+          "type": null,
+          "model_answers": [
+            "Batshele kuseyisikhathi abakumemile ukuthi uzophumelela noma awuzukuphumelela ukuze bakulungiselele ungatholakali usufika.",
+            "Yembatha ngendlela ocelwe ngayo ubonise ukuthi uyawuhlonipha umcimbi nezithombe ezithwetshulwayo zikhange.",
+            "Shiya izingane nabangani uma bengabizwanga noma ngabe bayazana nokumemile.",
+            "Khumbula ukuza nesipho akukhathalekile ukuthi singakanani.",
+            "Izimenywa maziphake kahle zibacabangele abanye, zingagcwalisi izitsha ngokweqile abanye abantu bengakaphaki.",
+            "Dlana uphuze iziphuzo futhi ungazithatheli uhambe nazo ungaphiwanga.",
+            "Yazi ukuthi uzofika kanjani emcimbini, ungahluphi okumemile ngokuhlala kuze kuhlwe ungahlelanga ukuthi uzobuyela kanjani ekhaya."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": "Ukwabiwa kwamamaki: Amamaki ayisi-7 awamaphuzu ayisi-7 (imaki elilodwa lihambisana nephuzu elilodwa). Amamaki ama-3 awolimi.",
+          "notes": "Inani lamagama = 70. Ukucozululwa kwamamaki olimi: 1–3 amaphuzu anembayo: nikeza imaki eli-1 olimini; 4–5 amaphuzu: amamaki ama-2; 6–7 amaphuzu: amamaki ama-3.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukuba yingxenye yalaba abancintisanayo kumele ugcwalise ifomu lokungenela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "La malogo asetshenziselwe ukuveza ukuthi lo mcimbi uxhaswe yi-SABC, Art&Culture neMedilution."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kulesi sikhangisi kusetshenziswe amawebhusayithi, www.Indoni.net ukwazisa ukuthi ungangena kule nkundla ukuze uthole kabanzi ngalo mncintiswano / www,webticket.co.za ukwazisa ukuthi ungalithola kuphi ithikithi lokuyobukela umncintiswano."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Inhloso yokusebenzisa lezi zithombe ukuzama ukunxenxa intsha ukuba ibone ukuthakasa kwezintombi namabhungu aziphethe kahle.",
+            "Lezi zithombe zisetshenziselwe ukubonisa amagugu / imvunulo eyahlukahlukene yabantu abamnyama bakuleli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ungathola elakho ithikithi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umkhangisi ulusebenzise kahle ulimi olunxenxayo, 'Phuthuma'/'Walala Wasala' ukugqugquzela abantu ukuba abathenge amathikithi ngokushesha bangasaleli emuva."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "UKUHUMUSHA IKHATHUNI",
+          "type": null,
+          "model_answers": [
+            "Laba balingiswa basendaweni yokuphumula endlini njengoba kunosofa nelambu elikhanyisayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.2",
+              "value": "D/uyacabanga"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umdwebi wale khathuni uzama ukufundisa/ukuxwayisa abantu abasha abazinikele kakhulu ophuzweni oludakayo ukuthi kunobungozi obungakanani. Ngakho-ke abazame ukugwema ukusebenzisa iziphuzo ezidakayo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nezinye izimpendulo ezinembayo ziyokwamukelwa.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Angazi uthuswa yini",
+            "Ngakutshela ukuthi ngangiyinja/"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukuma komzimba / inkulumomzimba kaSimangele ikhombisa ukuthi wethukile njengoba ebambelele etafuleni ngezandla zombili, wakhipha ngisho amehlo, wahlala sakuqhiyama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Inkulumo kaThemba kule khathuni ayihambisani nalokhu avele eyikho. Utshela uSimangele ukuthi wayeyinja kepha kule khathuni namanje usabonakala njengenja, okukhomba ukuthi uyamkhohlisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1",
+          "text": "IZAKHIWO NEZIMISO ZOKUSETSHENZISWA KOLIMI",
+          "type": null,
+          "model_answers": [
+            "Ukusebenza kanzima kunomvuzo omkhulu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Neminye imisho enembayo iyokwamukeleka",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lisetshenziselwe ukucacisa/ukugcizelela indlela asuke embheke ngayo/ umbheke kakhulu akasacwayizi nokucwayiza/amehlo asebheke kuye yedwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.3",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.3.1",
+              "value": "Abantu bayagconana."
+            },
+            {
+              "sub_id": "5.3.2",
+              "value": "Lapho amaqembu ebhola edlala enkundleni yezemidlalo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.4",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.4",
+              "value": "D/Iyachaza"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umvuzo wokungafundi uma kubhalwa isivivinyo kuba ukungaphumeleli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Neminye imisho enembayo iyokwamukeleka",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Babulawa yindlala / ngumphangazane / ngumashayandawonye ngenxa yokungabi nakudla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Neminye imisho enembayo iyokwamukeleka",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ngomlilo utshani obulele buyavuswa. / Ngomlilo buyavuswa utshani obulele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 10183,
+    "cached_tokens_saved": 0
+  }
+}

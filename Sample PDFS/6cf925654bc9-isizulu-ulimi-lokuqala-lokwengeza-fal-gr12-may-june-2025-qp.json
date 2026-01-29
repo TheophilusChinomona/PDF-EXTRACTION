@@ -1,0 +1,208 @@
+{
+  "subject": "IsiZulu Ulimi Lokuqala Lokwengeza (FAL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "IsiZulu",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "ISIQEPHU A: INDABA",
+      "instructions": "Khetha isihloko ESISODWA kwezilandelayo ubhale ngaso indaba ibe ngamagama ayi 190 kuya kwangama-240. QAPHELA: Bhala uhlaka lwendaba yakho lube sekhasini lwalo lodwa.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "text": "Umzuzu owangifaka ehlazweni elikhulu.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Ukuphila impilo yamanga.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Iphutha engalibalekela yilo elangifaka enkingeni.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Indawo okhulele kuyo inobuhle nobubi empilweni yakho.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "Akulula ukungena ezicathulweni zomunye umuntu.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Isithombe sendoda evale ubuso ngezandla kanti kuneminwe eminingi ekhomba yona.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Khetha isithombe ESISODWA kulezi ezilandelayo bese ubhala indaba. Bhala inombolo yombuzo (1.6, 1.7 NOMA 1.8) bese uyinika isihloko indaba yakho. QAPHELA: Indaba yakho mayihambisane nesithombe/nokwenzeka esithombeni.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "Isithombe somuntu ohlezi otshanini obheka phezulu lapho kunendiza endizayo khona.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Khetha isithombe ESISODWA kulezi ezilandelayo bese ubhala indaba. Bhala inombolo yombuzo (1.6, 1.7 NOMA 1.8) bese uyinika isihloko indaba yakho. QAPHELA: Indaba yakho mayihambisane nesithombe/nokwenzeka esithombeni.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "Isithombe sowesifazane ophethe imaski emoyizelayo eyibeke phambi kobuso bakhe kanti ubuso bakhe bangempela bukhombisa usizi nezinyembezi.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Khetha isithombe ESISODWA kulezi ezilandelayo bese ubhala indaba. Bhala inombolo yombuzo (1.6, 1.7 NOMA 1.8) bese uyinika isihloko indaba yakho. QAPHELA: Indaba yakho mayihambisane nesithombe/nokwenzeka esithombeni.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "ISIQEPHU B: IMIBHALO EMIDE EDLULISA IMIYALEZO",
+      "instructions": "Khetha isihloko ESISODWA kwezilandelayo ubhale ngaso kube ngamagama angama 80 kuya kwayi-100.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "Bhalela imenenja yerestorenti incwadi ukhononde ngalesi senzo sikaweta.",
+          "marks": 30,
+          "scenario": "Ubuzikhiphile nabangani bakho niyodla erestorenti. Uweta obenisiza uniphathe kabi.",
+          "context": "INCWADI YAKOMKHULU/ESEMTHETHWENI",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "Bhala umlando ngomufi.",
+          "marks": 30,
+          "scenario": "Umzala wakho ongumdlali kumabonakude uSipho Mabaso oneminyaka engama-35 ushone emveni kokugula isikhashana. Njengelungu lomndeni ucelwe ukuba ubhale umlando wakhe.",
+          "context": "UMLANDO NGOMUFI",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "Bhala ukubuyekeza/isibuyekezo ngalo/salo mcimbi.",
+          "marks": 30,
+          "scenario": "UMasipala wangakini ubehlele umcimbi osezingeni eliphezulu wokujabulisa abantu abadala.",
+          "context": "UKUBUYEKEZA/ISIBUYEKEZO",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Bhala inkulumo elungiselelwe ozoyethula kulo mphakathi.",
+          "marks": 30,
+          "scenario": "Umphakathi wangakini ukumeme ukuba uzokwethula inkulumo ekhuthaza intsha nabazali ngekhono lokubhala izinkondlo.",
+          "context": "INKULUMO ELUNGISELELWE",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "ISIQEPHU C: IMIBHALO EMIFISHANE EDLULISA IMIYALEZO",
+      "instructions": "Khetha isihloko ESISODWA ubhale ngaso kube ngamagama angama-60 kuya kwangama-80.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "Bhala isikhangiso ukuze abantu bazothenga.",
+          "marks": 20,
+          "scenario": "Uvule isitolo esidayisa izinhlobonhlobo zemibhede yokulala.",
+          "context": "ISIKHANGISO",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "Bhalela iqembu umyalezo (WhatsApp).",
+          "marks": 20,
+          "scenario": "Kunezinto ongazithandi ezenzeka eqenjini otadisha nalo njengoba nibhala izivivinyo. Phawula ngalezi zinto ku-WhatsApp waleli qembu lenu.",
+          "context": "UMYALEZO OMFISHANE (WhatsApp)",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "Bhala iresiphi ozoyinika umakhelwane wakho.",
+          "marks": 20,
+          "scenario": "Umakhelwane wakho ucele ukuba umuphe iresiphi azoyisebenzisa uma osa inyama.",
+          "context": "IMIYALELO: IRESIPHI",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9237,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "subject": "Sepedi Lelemetlaleletšo la Pele (FAL) P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sepedi",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: DITAODIŠO",
+      "instructions": "Kgetha E TEE go dihlogo tše seswai tše di latelago gomme o ngwale taodišo ya botelele bja mantšu a magareng ga 250 le 300.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Ya tla ya na letšatši leo!",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Mo ke gahlanago le yena, bjang bo ka se mele.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Ge ke ngwala lephephe la mathomo la tlhahlobo ya Mphato wa Marematlou.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Meepo ya dimenerale e tliša katlego ditšhabeng.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Go kgethelwa molekane go phala go nyalwa ke motho fela.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Dinaga tša Afrika!",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "Kgetha seswantšho SE TEE go tše di latelago gomme o ngwale taodišo ka sona. Ngwala potšišo (1.7 GOBA 1.8) gomme o fe taodišo hlogo ya maleba.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Seswantšho se bontšha mohlaka o mogolo wa diphanele tša mahlasedi a letšatši (solar panels) tše di emišitšwego tšhemong.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "Kgetha seswantšho SE TEE go tše di latelago gomme o ngwale taodišo ka sona. Ngwala potšišo (1.7 GOBA 1.8) gomme o fe taodišo hlogo ya maleba.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Seswantšho se bontšha monna a dula ka maoto a gama kgomo ka gare ga lešaka la dikgong.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITŠWELETŠWA TŠA TIRIŠANO TŠE DITELELE",
+      "instructions": "Araba potšišo E TEE go tše nne tše di latelago. Botelele bja karabo ya gago e be mantšu a magareng ga 120 le 150 (diteng fela). Setšweletšwa se rulaganywe ka lenaneo la go swana le la mmepe wa monagano goba lenaneo leo le ka go thušago go rulaganya le palobohlatse. O tla fiwa meputso ya go rulaganya.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "LENGWALO LA SEGWERA. Mogwera wa gago o bonagala mafelong ao a sego a swanelwa ka nako ya ditlhahlobo tša mafelelo a ngwaga. Bjale ka ge o sa kgotsofatšwe ke ditiro tše, mo ngwalele lengwalo o mmontšhe kotsi ya seo a se dirago o be o mo fe maele.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "TŠA BOPHELO BJA MOHU. Rakgadi'ago yo a hlohleleditšego setšhaba gore go agwe meago ye meswa ya sekolo o hlokofetše. Bjale ka ge o le yo mongwe wa bao ba lego kgauswi le yena, ba lapa ba go kgopetše go ba ngwalela tša bophelo bja mohu. Ngwala tša bophelo bja gagwe ka botlalo.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "DITSHWAYATSHWAYO. Motseng wa geno go butšwe lefelo le leswa la bojelo. O etetše lefelo leo bjalo ka moreki. Ngwala ditshwayatshwayo ka lefelo leo.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "POTŠIŠOTHERIŠANO. Morutwana Mokwele o thopile sefoka sa bongwadi bja direto tša Sepedi. Sewelewele wa SABC o mo etetše go boledišana ka katlego yeo ya gagwe. Ngwala potšišotherišano ya bona.",
+          "marks": 30,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DITŠWELETŠWA TŠA TIRIŠANO TŠE DIKOPANA",
+      "instructions": "Araba potšišo E TEE go tše tharo tše di latelago. Botelele bja karabo ya gago e be mantšu a magareng ga 80 le 100 (diteng fela). Setšweletšwa se rulaganywe ka lenaneo la go swana le la mmepe wa monagano goba lenaneo leo le ka go thušago go rulaganya le palobohlatse. O tla fiwa meputso ya go rulaganya.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "PAPATŠO. Malome wa gago o sa tšwa go bula lefelo la go beša dinama le go apea magobe motseng wa geno. Mo thalele papatšo ya kgwebo yeo.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "PUKUTŠATŠI. O etetše ga malome wa gago lebaka la matšatši a mahlano. Ngwala ditiragalo tša letšatši ka letšatši tša nako yeo o e feditšego moo.",
+          "marks": 20,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "DITŠHUPETŠO. Ge o fihla boemapese, o gahlane le mootledi wa sefatanaga yo a nyakelago ngwana sekgoba sekolong sa Sedibeng gomme a go botšiša tsela ya go ya gona. Mo fe ditšhupetšo tša go fihla sekolong o lebeletše meago, dilo tša tlhago, monabo go ya ka dikilometara, dimetara, maswao a tsela gotee le khutlonne.",
+          "marks": 20,
+          "scenario": "Mmapa o bontšha ditsela tše bohlokwa bjalo ka Mmila wa Kgopa, Mmila wa Phosa, Mmila wa Phuti, le Mmila wa Kupa. Mafelo a bohlokwa a akaretša Boemapese, Sekolo sa Sedibeng, Kliniking ya Bophelong, Lebenkele la diaparo, Lebenkele la bojelo, le Holo ya setšhaba.",
+          "context": "Go šomišwa mmapa o o tšweletšego go letlakala la 7 go laetša tsela ya go tloga Boemapese go ya Sekolong sa Sedibeng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9339,
+    "cached_tokens_saved": 0
+  }
+}

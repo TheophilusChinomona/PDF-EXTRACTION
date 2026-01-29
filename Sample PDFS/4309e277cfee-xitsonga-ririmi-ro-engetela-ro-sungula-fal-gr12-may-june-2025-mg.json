@@ -1,0 +1,1691 @@
+{
+  "meta": {
+    "subject": "Xitsonga Ririmi ro Engetela ro Sungula (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "XIYENGE XA A",
+      "questions": [
+        {
+          "id": "1",
+          "text": "NDZI NGO TINCIKI! – FA Thuketana",
+          "type": "Novhele",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Rixongile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a ku lovile Rice loyi a tlumbiwile hi movha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Rice a a lovile hikwalaho ka ku hlongoriwa hi tata wa yena Ntekele.",
+            "Eka siku leri Ntekele u bile Mpfuleni kutani N'wa-Xitlhelana a namba a pfukeriwa hi ku vabya.",
+            "Endzhaku ka ku tshweriwa hi mabazi u sindzisa Manayila ku tekiwa hi Muzayiwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nhlamulo yin'we ntsena.",
+          "notes": "Select one answer from the list.",
+          "topic": "Novhele",
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya kombisa ku hlundzuka, a tlhela a pfumala nhlonipho eka tata wa yena loyi a a va xanisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.5.1",
+              "value": "A hi swona, N'wa-Xitlhelana u tlhavekile a sungula ku vabya eka siku leri a va holova hi rona."
+            },
+            {
+              "sub_id": "1.5.2",
+              "value": "A hi swona Mpfuleni loko a heta ku holova no biwa hi Ntekele u fambile a ya tshama na Lefty."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Huwa, ku holova, ku va Mpfuleni a nga xiximi tata wa yena na ku va Ntekele a xanisa ndyangu wa yena na ku xavisa Manayila eka Muzayiwe swi kanetana na vutomi byo rhula lebyi Vakriste va languteriwaka ku byi hanya."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Manayila a a tlharihile hikuva a nga n'wi kombisi tata wa yena leswaku u na makungu yo baleka ekaya hi ku pfumela ku tekiwa hi Muzayiwe.",
+            "Papila leri Manayila a nga ri tsala ra ku hlamusela ku tihoxa ka yena ematini hi siku leri a ri ri ra nkhuvo wa yena na Muzayiwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na tin'wana tinhlamulo leti twalaka.",
+          "notes": "Accept any other logical answer.",
+          "topic": "Novhele",
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ntekele u vula leswaku, '... i mani a tsakelaka ku dya swa le thyakeni.' Leswi kombisaka ku tivona a antswa eka ndyangu wa ka Ridonga."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na tin'wana tinhlamulo leti twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Novhele",
+          "essay_structure": null
+        },
+        {
+          "id": "1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika mavonelo ya yena. Xik.: Muzayiwe a a teke xiboho xo pfuxela Ntekele bindzu ra mabazi loko ntsena Manayila o pfumela ku tekiwa etshengweni ra yena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan'wana mavonelo lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Novhele",
+          "essay_structure": null
+        },
+        {
+          "id": "1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hi leswi a ri na kungu ro baleka ekaya, ku ya lava murhandziwa wa yena Jamboti."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a punyarisiwile hi ku ka a nga etleli hikwalaho ka ku va Manayila a ala ku tekiwa hi Muzayiwe leswaku yena a ta pfuxeriwa bindzu ra Mabazi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.12",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.12",
+              "value": "C (hlundzuka)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Manayila a a tiyisela na ku hlonipha tata wa yena hambileswi a nga pfumelelani na yena eka timhaka ta ku va a tekiwa hi Muzayiwe kasi Mpfuleni a a nga hloniphi, a a hlamula tata wa yena hindlela yo pfumala xichavo na ku ka a nga tiyiseli xiyimo xo tika."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I Muzayiwe hikuva u vula leswaku u ta pfuxela Ntekele bindzu ra yena ra mabazi loko o n'wi nyika Manayila, Manayila yena a nga pfumelelani na ntwanano lowu, leswi endlaka leswaku ku nga vi na kurhula."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ntekele a tshamela ku vula vanhu lava nga yiki ekerekeni, na lava xavisaka na ku nwa byalwa vahedeni, kambe emakumu hi yena se a kumekaka a nwa byalwa na ku ka a nga ha yi ekerekeni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I mhaka ya ku va Ntekele a sindzisa Manayila ku tekiwa hi Muzayiwe leswaku a ta pfuxeriwa mabindzu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika nhlamulo ya yena. Xik.: Xiboho lexi Mpfuleni a nga xi teka a xi nga ri kahle hikuva u tsandzekile ku vona ku xaniseka loku nga ta va kona endyangwini wa ka vona endzhaku ka ku va xigangu xa yena Lefty xi hisile mabazi ya tata wa yena Ntekele.",
+            "KUMBE",
+            "Xiboho lexi Mpfuleni a nga xi teka xi kahle hikuva vuxaka exikarhi ka yena na Ntekele a byi onhakile naswona a lava ku papalata ku tshama a xaniseka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika vonelo ra yena. Xik.: Loko Ntekele a heleriwile hi rifuwo u tikume a hanya na 'vahedeni' lava a va sandza na ku va vula swisiwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan'wana mavonelo lama amukelaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Novhele",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "BYOKOTA MADLAYISANA – MM Marhanele",
+          "type": "Ntlangu",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A va ya khoma Mathebula."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a ambarile swiambalo swa nsati wa yena a tlhela a boha duku enhlokweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A ku ri tindhuna ta hosi.",
+            "Varhumiwa va hosi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Nhlamulo yin'we ntsena.",
+          "notes": "Select one answer from the list.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a chava Mathebula loyi a ri na xivumbeko xa miri lowukulu, naswona a ri munhu wa matimba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.5",
+              "value": "B (Rihisela)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya na ntikelo wo kombisa Mazibuko a ri munhu wo ka a nga chavi, wo pfumala vutoya."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hi swona. Hi vonile hilaha a nga hatliselangiki ku gweva Mathebula eka nandzu wa rifu ra ndhuna Maluleke, kambe a endla vulavisisi ku ya emahlweni ku kala a kuma ntiyiso wa mhaka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a etlele hikuva a karhele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A endlela leswaku nandzu wa rifu ra Gezani wu fambela ekule na yena, hikuva hi ntiyiso hi yena a dlayeke Gezani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "N'wa-Rimbelule a a tshembekile naswona a lava leswaku hosi yi ahlula nandzu wa Gezani hi ntiyiso, a nga ri na mhaka na leswaku nuna wa yena u ta dlayiwa hikuva a dlayile Gezani hi xiganama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na tin'wana tinhlamulo leti twalaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "2.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "eNtlhaveni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mavundza na Makhanana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U tisola ku va a vonile Mathebula nandzu lowu a wu nga ri wa yena na ku n'wi onha vito."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U nyikiwile nsimu leyikulu swinene na mbewu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vaakatiko a va tsakile ku va ku kumekile mudlayi wa Gezani na leswi hosi yi nga khensa lava pfuneke ku kuma mudlayi loyi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U kumile vumbhoni bya leswaku ehandle ka Gezani, Makhanana a a rhandzana na n'anga Mavundza, loyi a nga kumeka a ri na nandzu wo dlaya Gezani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a kombisa ku tisola eka ku va a lumbetile Mathebula ku dlaya Gezani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Makhanana a a nga tshembekangi eka vukati bya yena hikuva a ri na swigangu kasi N'wa-Rimbelule a a tshembekile evukatini naswona a nga ri na swigangu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.19",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika nhlamulo ya yena leyi twisisekaka. Xik.: I mhaka ya kahle hikuva u ponisile vutomi bya Makhanana hi ku va a yingiserile xirilo xa N'wa-Ridonga."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na tin'wana tinhlamulo leti twalaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "2.20",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika nhlamulo ya yena. Xik.: A wu amukeleki hikuva timfanelo ta ximunhu a ti pfumelelani na swona, swi nga endleka leswaku ku dlayiwa munhu loyi a nga riki na nandzu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3",
+          "text": "KU DYELA NYAMA EMATLUKENI – DJ Risenga",
+          "type": "Ntlangu",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 35,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Eka Siyandhana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "EKremetart."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a ri mabalana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A hi swona. A a nga tshembekangi eka Mzamani hikuva a nga n'wi tivisangi leswaku Vukosi a a bihile emirini ku kondza a fika eka xiyimo xo kuma n'wana.",
+            "U tumbeterile Mzamani leswaku u kumile mali ya phenxeni.",
+            "U xavile yindlu eKremetart a nga n’wi byelanga Mzanani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan’wana maveketelelo lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U n'wi lele hi ku n'wi tsalela xipapilana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya paluxa ku ka a nga xiximi Piet hileswi timhaka ta yena na Vukosi ti nga tisiwangiki ximfumo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hi leswi Vukosi a nga biha emirini ku kala ku fika nkaye wa tin'hweti Mzamani a nga swi tivi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U fambile na munghana wa yena Xilavi ku ya hlayisa Vukosi ku kondza a kuma n'wana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A ya amukeleki hikuva swi endla leswaku a nga xiximeki eka Ma'am Joyce loyi a lavaka ku teka n'wana wa yena Vukosi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika vonelo ra yena. Xik.: Vukati bya vona a byi kahle hikuva a va twanani, Ma'am Joyce u na swihundla, a a nga hloniphi naswona a ku na ku kanerisana exikarhi ka vona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan'wana mavonelo lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "3.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hlanganani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I wa ku hlanganisa ndyangu wa ka va Piet na wa ka va Vukosi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U vula leswaku yena a nga voni nchumu eka ku fana ka yena na n'wana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.14",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.14",
+              "value": "B (na yena.)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A va hambanisiwa hi ku va a va ri eku holoveni leswi a swi ta endla leswaku va hetelela va lwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya paluxa ku ntshuxeka emoyeni loko n'wana a velekiwile a ri kahle endzhaku ka loko Vukosi a ta va a susumetiwile a wa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.17",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I munhu wa xichavo na mahanyelo naswona u landzelela swa ndhavuko."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan'wana maveketelelo lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Ntlangu",
+          "essay_structure": null
+        },
+        {
+          "id": "3.18",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Leswaku u tlhelela eKremetart ku ya ya va pfuna ku hlayisa n'wana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.19",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U hlamarisiwile hi ku vona Ma'am Joyce a ambarile buruku ro n'wi manya na kepisi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.20",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika mavonelo ya yena. Xik.: Ya kombisa ku ka a nga ri na mavulavulelo ya kahle, na ku ka a nga xiximi nuna wa yena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA C",
+      "questions": [
+        {
+          "id": "4.1",
+          "text": "'MACHONISI' – SJ Malungana",
+          "type": "Swirungulwana/Swihungwana",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vana va xikolo xa Rivengo.",
+            "Rivengo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A hakerisile vadyondzi mali ya xikolofisi yo ringana R100 kambe a nga va nyiki tirhasiti.",
+            "A a dyile mali ya vadyondzi leyi a nga va hakerisa a nga va nyiki na tirhasiti."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "N'wana wa yena a hlongoleriwile xikolofisi exikolweni naswona yena a ri hava mali hi ku va muholo wa yena wu helela eka machonisi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Xiyimo xa ku hlakatiwa ka khixi ra Hakamela hi Dumazi a teka mapulanga ya yena endzhaku ka ku va Hakamela a tsandzekile ku n'wi hakela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A a nga holi mali yo ringana kambe nsati a a sindzisa leswaku vana va ntlhanu va nghena eka swikolo swa phurayivhete leswi yena a nga koti ku swi fikelela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.6",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1.6",
+              "value": "A (ba xilo ko tala.)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika nhlamulo ya yena. Xik.: Ku pfumela ku lawuriwa hi nsati a n'wi nghenisa eswikweletini.",
+            "Mayivelo ya yena ya mali ya xikolo hi ku hakerisa vana mali a nga va nyiki tirhasiti."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ra yelana. Vito ra Sorisa ri vula ku va swilo swi nga hetisekangi/amukeleki hi ku hetiseka, na laha ka xirungulwana maendlelo ya yena a ma hetisekangi/amukeleki, hikuva u xanisa nuna a n'wi nghenisa eswikweletini ku fikela laha a hetelelaka a hlakaleriwa hi swiambalo na movha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na man’wana mavonelo lama twisisekaka",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Swirungulwana",
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika matitwelo ya yena. Xik.: A ndzi n'wi tweli vusiwana hikuva hi yena a nga nghenisa nuna eswikweletini hi ku hanya vutomi byo encenyeta lava tikotaka.",
+            "KUMBE",
+            "Ndzi n'wi twela vusiwana hikuva khixi ra yena ri onhiwile naswona ntshungu lowu a wu ri eku teni wu n'wi chavise ngopfu ku fikela laha a tionhelaka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "'MASASEKA-FULARHA' – KA Khosa",
+          "type": "Swirungulwana/Swihungwana",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A kukula",
+            "A hlantswa",
+            "A sweka",
+            "A hungata n'wana na vandyangu loko va dzumbile"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tinhlamulo timbirhi ntsena.",
+          "notes": "Select two answers.",
+          "topic": "Swirungulwana",
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Dokodela Madambi a tirha esejarini ya yena n'wini kasi sister Bettie na yena a tirha etliliniki ya yena n'wini."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya vula ku huma mihloti hi ku va u ri eku rileni.",
+            "Ku tirilisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya kombisa leswaku a a ri munhu wa riphuntiso laha a tirhisa mihloti ku phuntisa nuna."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I munhu wo tsana no ka a nga swi koti ku yimela timhaka ta yena tanihi nhloko ya muti."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I Bettie hikuva a a ri kahle eka mutirhi wa yena Patricia kambe a a xanisa nuna wa yena Tommie."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ya kombisa leswaku Bettie a nga ha xi voni xilaveko xo thola mutirhi un'wana wo sweka.",
+            "Ya kombisa leswaku Bettie se a kunguhatile khale ku phuntisa nuna hi ku n'wi swekisa na ku n'wi hlantswisa wacheni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika mavonelo ya yena. Xik.: A yi amukeleki, hikuva hivumbirhi bya vona a va taleriwile hi mintirho naswona a va fanele va pfunana kumbe va thola mutirhi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na tin'wana tinhlamulo leti twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Swirungulwana",
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika nhlamulo ya yena. Xik.: Dyondzo a yi swi kotakangi ku va aka hikuva nsati u xanisa nuna hi ku n'wi swekisa, ku n'wi hlantswisa na ku n'wi rhuketela emahlweni ka vavabyi na vatirhi va le sejarini laha emakumu nuna a sungulaka ku dzaha mbangi na ku tshamela ku n'wi ba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na yan'wana mavonelo lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Swirungulwana",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA D",
+      "questions": [
+        {
+          "id": "5.1",
+          "text": "'NDZA SWI TIVA' – KG Baloyi",
+          "type": "Vutlhokovetseri",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Xitlhokovetselo lexi xi vulavula hi rifu tanihi nchumu lowu a kongomaneke na wona lowu a nga wu rhandziki naswona lowu a wu xiximaka, laha a kombelaka leswaku ri nga hatli ri n'wi teka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Xikwembu xa matilo lexi ku vuriwaka leswaku hi Xona Xi vumbeke swilo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Leswaku rifu a ri fanele ku herisiwa hikuva a ri laveki."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "I ku lemukisa vanhu leswaku rifu ri kona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.5",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1.5",
+              "value": "D (xanisa.)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ku tshikeleriwa mhaka ya leswaku rifu ri n'wi twela vusiwana ri nga hatli ri n'wi teka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Thoni yo xavelela leyi tikombaka hi xilandzi xa -nyana eka marito ya 'tshikenyana' na 'nkarhinyana.'"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "'A wu voni a ndzi na nomo eka wena,'",
+            "Ntila wa 8."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta andlala vonelo ra yena. Xik.: Yi kombisa ku hela ka xitlhokovetselo. Yi tlhela yi kombisa ku navela ka yena ka leswaku rifu ri hela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Amukela na maveketelelo man'wana lama twisisekaka.",
+          "notes": "Accept any other plausible answer.",
+          "topic": "Vutlhokovetseri",
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "'TSAKANI HI BYONA' – KG Baloyi",
+          "type": "Vutlhokovetseri",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Xitlhokovetselo xi vulavula hi vutomi tanihi nchumu lowu tengeke kambe lowu vanhu va tikeriwaka eka wona hikwalaho ka swiendlo swa vona laha va tsundzuxiwaka ku byi hanya hi vukheta."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "'A byi lavi ku humeseriwa ntshiva.'"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wu tshikelela mhaka ya ku hoxeka ka ku hanya vutomi hindlela yo kala yi nga lulamangi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vanhu van'wana lava va hanyaka na vona",
+            "swiyimo swo tika swa vutomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ri vula ku lova.",
+            "Ku hundza emisaveni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.6",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.2.6",
+              "value": "B (Swirha.)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta nyika dyondzo leyi a yi kumeke. Xik.: Munhu u fanele ku tiphina hi vutomi kambe a hanya hi vutihlamuleri."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta hlamusela leswi xi n'wi lemukisaka swona. Xik.: Xi ndzi lemukisa hi khombo ra ku hanya vutomi hindlela yo ka yi nga fanelangi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mukamberiwa u ta hlamusela ku titwa ka yena. Xik.: Ndzi titwa ndzi hlohlotelekile ku ya emahlweni na ku tiphina hi vutomi hindlela ya kahle, hikuva munhu u fanele ku tiphina hi vutomi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 16466,
+    "cached_tokens_saved": 0
+  }
+}

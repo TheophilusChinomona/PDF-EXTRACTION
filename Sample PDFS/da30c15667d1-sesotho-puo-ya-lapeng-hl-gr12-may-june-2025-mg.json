@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "subject": "Sesotho Puo ya Lapeng (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "May/June",
+    "grade": 12,
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1",
+          "text": "LE AHLOLWA KE MANG? - TM Lethota",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Thothokisong ena re tlo sekaseka tshebediso ya lebotsi ho hlakisa molaetsa wa ho se kgotsofale ha sethothokisi.",
+              "Sethothokisi se kgalema batho hore re tlohele ho ahlola batho ba bang hobane rona ha ho na motho ya re ahlolang.",
+              "Melathothokisong ya 3, 6, 9, 12 le 15 ho sebeditswe mabotsi.",
+              "Lebotsi ke potso e sa hlokeng karabo mme le sebedisitswe ka sepheo se bontshang tletlebo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Mmele",
+                "points": [
+                  "Thothokisong ena, sethothokisi se utulla maikutlo a fapaneng a kang a kgalefo, a ho teneha le ho utlwa bohloko.",
+                  "Molathothokisong wa 3 sethothokiso se halefiswa le ho tenwa ke batho ba bolayang ba bang jwalo ka ha eka bona ba na le tokelo ya ho bolaya.",
+                  "Molathothokisong wa 6 se halefiswa ke batho ba tshwarang batho ba nwang jwala empa le bona ba ntse ba bo nwa haholo.",
+                  "Molathothokisong wa 9 sethothokisi se tenwa ke batho ba ahlolang batho ba utswang empa le bona ba ntse ba ba utswa e le mashodu.",
+                  "Molathothokisong wa 12 sethothokisi se tenwa ke batho ba betang empa le bona e ntse e le bomabeta.",
+                  "Molathothokisong wa 15 sethothokisi se tenwa ke batho ba buang leshano empa ba kgesa batho ba buang nnete."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongodi o sebedisitse mabotsi ho utulla maikutlo a ho se kgotsofale ke batho ba bonang diphoso tsa ba bang empa le bona ba ntse ba na le diphoso.",
+              "Mongodi o sebedisitse mabotsi ho hlakisa hore pele o bona phoso ho wa heno, o lokela ho itekola diphoso tsa hao."
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "text": "BOKGOBA NTLOHELE - TM Lethota",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.1",
+              "value": "Phetapheto ya mantswe e diehileng."
+            },
+            {
+              "sub_id": "2.1",
+              "value": "Phetapheto ya moelelo."
+            },
+            {
+              "sub_id": "2.1",
+              "value": "Apostrofi."
+            },
+            {
+              "sub_id": "2.2",
+              "value": "Bohlabaphiyo"
+            },
+            {
+              "sub_id": "2.3",
+              "value": "Melathothokisong ya 1 le 5."
+            },
+            {
+              "sub_id": "2.3",
+              "value": "Melathothokisong ya 3 le 7."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 2.1 le 2.3.",
+          "notes": "Bakeng sa 2.6: Maikutlo a mohlahlobuwa a nepahetseng a ananelwe.",
+          "topic": "BOKGOBA NTLOHELE",
+          "essay_structure": null
+        },
+        {
+          "id": "3",
+          "text": "TSWALO LA KA LE A HANA - KPD Maphalla",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1",
+              "value": "Phetapheto ya moelelo."
+            },
+            {
+              "sub_id": "3.1",
+              "value": "Phetapheto ya mantswe e tsepameng."
+            },
+            {
+              "sub_id": "3.1",
+              "value": "Kgonyetso."
+            },
+            {
+              "sub_id": "3.2",
+              "value": "Ke melathothokiso ya 3, 7, 11 kapa 15. (Mela e mmedi feela)"
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 3.1.",
+          "notes": "Bakeng sa 3.4: Maikutlo a mohlahlobuwa a nepahetseng a ananelwe.",
+          "topic": "TSWALO LA KA LE A HANA",
+          "essay_structure": null
+        },
+        {
+          "id": "4",
+          "text": "THUTO - JM Nkutha",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1",
+              "value": "Phetapheto ya moelelo."
+            },
+            {
+              "sub_id": "4.1",
+              "value": "Karaburetso ya motsamao wa mmele."
+            },
+            {
+              "sub_id": "4.2",
+              "value": "Dikinela: le bolela hore maoto a ruruhile ebile a tabohile kaha a qhitsa madi."
+            },
+            {
+              "sub_id": "4.2",
+              "value": "Moqasa: le bolela moepa/ho nyolosetsa."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 4.2.",
+          "notes": "Batshwai ba badisise dikarabo tsa bahlohlobuwa bakeng sa 4.5.",
+          "topic": "THUTO",
+          "essay_structure": null
+        },
+        {
+          "id": "5",
+          "text": "KE TLA KGOTSOFALA - T Lekitlane",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1",
+              "value": "Kgonyetso/Phetapheto ya mantswe"
+            },
+            {
+              "sub_id": "5.2",
+              "value": "Tsetselela."
+            },
+            {
+              "sub_id": "5.4",
+              "value": "Phetapheto ya moelelo. E bopilwe ka mantswe dimpe le manyala."
+            },
+            {
+              "sub_id": "5.4",
+              "value": "Phetapheto ya moelelo. Lesitse le tlohetse"
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya mofuta wa phetapheto le sete e le nngwe ya mantswe bakeng sa 5.4. Tshwaya e le nngwe feela bakeng sa 5.5.",
+          "notes": "Batshwai ba badisise dikarabo tsa bahlohlobuwa bakeng sa 5.6 mme ba nepise dipolelo tse buang ka maikutlo a matle le dittshehetso tsa teng.",
+          "topic": "KE TLA KGOTSOFALA",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "6",
+          "text": "BOTSANG LEBITLA - KPD Maphalla",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Kaha moqoqo ona o lokela ho hlahisa lehlakore le le leng la kgang ya mohlahlobuwa, selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola taba ya hore Tseleng a thobise Tsietsi, e bakile tharahano paleng ena."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "Seratswana ka seng se be le mohopolo wa sehlooho o hodisang ntlhakemo.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa ntlhakemo ya hae."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala.",
+              "A bontshe kamoo leano la Tseleng la ho thobisa Tsietsi sepetlele le hodisitseng tharahano kateng.",
+              "A boele a bontshe le ditlamorao tsa seo."
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "text": "BOTSANG LEBITLA - KPD Maphalla",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "7.1",
+              "value": "Ke Tsietsi."
+            },
+            {
+              "sub_id": "7.2",
+              "value": "Ba ne ba batla ho ikutlwela hore na ho etsahetse eng."
+            },
+            {
+              "sub_id": "7.2",
+              "value": "O ne a tsebisahala haholo ka makgabane a hae setjhabeng."
+            },
+            {
+              "sub_id": "7.2",
+              "value": "Ba ne ba batla ho tla iponela ka mahlo hore ke nnete hore leloko lohle le hlokahetse."
+            },
+            {
+              "sub_id": "7.3",
+              "value": "Molelekeng yena o ne a sa patwe le ba ha Molakolako, o ne a tlo patwa ke ba habo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya tse PEDI feela bakeng sa 7.2. Tshwaya e le nngwe feela bakeng sa 7.4.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "8",
+          "text": "DIEPOLLO - T Seema",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola taba ya tharahano e bakilweng ke polao ya Kotsuwopo paleng ena."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "Seratswana ka seng se be le mohopolo wa sehlooho o hodisang ntlhakemo.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa kamoo polao ya Kotsuwopo e bakileng tharahano kateng."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala.",
+              "A bontshe kamoo polao ya Kotsuwopo e hodisitseng tharahano kateng kapa tjhe mme a hlakise ditlamorao."
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "text": "DIEPOLLO - T Seema",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "9.1",
+              "value": "O ne a bona Mmamolete a le makgatheng a ho shwa mme yena ho se thuso eo a ka fanang ka yona."
+            },
+            {
+              "sub_id": "9.2",
+              "value": "Mmamolete o thusitse Diepollo ka ho mmatlisa beng ba koranta e neng e na le leqetswana le neng le bua ka batswadi ba hae."
+            },
+            {
+              "sub_id": "9.4",
+              "value": "Tlhekelo: Dibakiso o thusa ka phaposing ya ngaka ya meno, Raitlhwana. Tharahano: Dibakiso o ratana le Raitlhwana mme o a senyeha. Sehlohlolo: Batswadi ba Dibakiso le Raitlhwana ba a hlolana. Phethelo: Dibakiso o ile a kgaohana le Raitlhwana."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 9.5 le 9.12.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "10",
+          "text": "MME - NP Maake",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola taba ya kgohlano ya maikutlo eo Dikeledi a bileng le yona."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa ntlhakemo ya hae mabapi le kgohlano ya maikutlo ya Dikeledi."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala.",
+              "A bontshe kamoo Dikeledi a bileng le kgohlano ya maikutlo kapa a sa kang a ba le yona kateng mme a hlakise ditlamorao."
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "text": "MME - NP Maake",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "11.1",
+              "value": "Ke ditaba tsa hore Dikeledi o nyalana le Tsekiso."
+            },
+            {
+              "sub_id": "11.5",
+              "value": "Tlhekelo: Rakgadi o hodisa Dikeledi ka mekgwa e lokileng. Tharahano: Dikeledi o thola sepatjhe se nang le tjhelete, mme o se patela Rakgadi. Sehlohlolo: Dikeledi o bolella Rakgadi nnete. Phethelo: Dikeledi o qetella a nyetswe ke Thollo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 11.10 le 11.11.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "12",
+          "text": "TUTUDU HA E PATWE - M Mahanke",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola taba ya hore boThabang ke bana ba ditlokotsebe mme ba ne ba rata morusu."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "Seratswana ka seng se be le mohopolo wa sehlooho o hodisang ntlhakemo.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa kamoo ketsahalo ya bana ba morusu e utullang kgohlano kateng."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala.",
+              "A bontshe kamoo mantswe a qotsitsweng a utullang kgohlano kateng kapa tjhe."
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "text": "TUTUDU HA E PATWE - M Mahanke",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "13.1",
+              "value": "O tlo ba todisa metsing a batang nakong ya mariha."
+            },
+            {
+              "sub_id": "13.2",
+              "value": "Mmatselapedi o fihlile a halefile haholo ka lebaka la ditaba tse buuwang ka Tutudu tseo a di utlwileng ha a tswa mokgatlong wa diphallelo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 13.1, 13.3, 13.6, 13.12. Tshwaya tse pedi feela bakeng sa 13.4, 13.5.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "14",
+          "text": "KE QATI E A LOMISANWA - SJ Mamashela",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "'Moiketsi ha a llelwe'; Ana ke maele a Basotho a hlalosang hore motho ya ikentseng tsietsing a ntse a shebile, ha a qenehelwe.",
+              "Sena se a hlahella tshomong ya 'Obe' ka tsela ya hore matsale o ne a batla ho ruta ngwetsi ya hae boloi a bile a sa mo rerisa."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Mohlahlobuwa a ka hlalosa maele ana ka ho bontsha hore motho ya ikentseng tsietsing ka boyena ke moiketsi.",
+                  "A ka bontsha kamoo maele ana a iponahatsang kateng tshomong ya 'Obe'.",
+                  "Bothata bo hlahile ka tsela ya hore matsale a batle ho ruta ngwetsi ya hae boloi."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya moqoqo wa hae ka ho phethahala.",
+              "A hlakise ka ho phethahala kamoo boloi bo senyetsang batho maphelo kateng kapa tjhe le kamoo batho ba sa rateng ditsela tsa boloi kateng."
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "text": "KE QATI E A LOMISANWA - SJ Mamashela",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "15.1",
+              "value": "Lentswe lena le bolela dipere tsa seemo se sekgutshwanyane jwale seroki se le sebedisitse ho hlalosa dinone tseo ba neng ba di palame kaha di le kgutshwanyane."
+            },
+            {
+              "sub_id": "15.2",
+              "value": "Bereng o ile a hlokahala."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 15.7.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "16",
+          "text": "'BOHLOKO BA KA' - AM Mabote",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola puokeletsi e reng: ho molemo ho ithuta motho pele o kena dikamanong tse tlhokolosi tsa bophelo le yena."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa ntlhakemo ya hae e le ho bontsha kamoo ho ithuta botho ba motho pele o kena dikamanong ho leng molemo kateng."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala."
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "text": "SEYALEMOYA - RH Moeketsi",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "17.1",
+              "value": "Ke basebetsimmoho."
+            },
+            {
+              "sub_id": "17.2",
+              "value": "Moelelo o otlolohileng o bolela hore Moremi le Sefako ba a qoqa/buisana."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "18",
+          "text": "HAESO MAFOTHOLENG - CJ Teleki",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha mohlahlobuwa a lekola puokeletsi e reng: ho molemo ho ithuta motho pele o kena dikamanong tse hlokolosi tsa bophelo le yena."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "Seratswana ka seng se be le mohopolo wa sehlooho o hodisang ntlhakemo.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa ntlhakemo ya hae."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala."
+            ]
+          }
+        },
+        {
+          "id": "19",
+          "text": "HAESO MAFOTHOLENG - CJ Teleki",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "19.1",
+              "value": "O kile wa bona kae motho ya ahang ntho e ka kenyang diphoofolo tsa lefatshe lee kaofela ha tsona."
+            },
+            {
+              "sub_id": "19.2",
+              "value": "Le bitswa phoqo. Hobane Mapetla o iketsa eka o thabela bophelo bo botle ba lelapa la Pitso, athe o a phoqa."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 19.1, 19.10. Tshwaya tse pedi feela bakeng sa 19.6, 19.13.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "20",
+          "text": "LEJWE LA KGOPISO - T Letshaba",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Selelekela se fe moqoqo tsepamo le motjha oo o lokelang ho o nka ha ha mohlahlobuwa a lekola puokeletsi e reng: ho molemo ho ithuta motho pele o kena dikamanong tse tlhokolosi tsa bophelo le yena."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Karabo e ka lebellwang",
+                "points": [
+                  "Moqoqong wa kgang, mongodi a ka dumellana kapa a hanane le mohopolo ka dintlha tse tshehetsang sehlooho.",
+                  "Seratswana ka seng se be le mohopolo wa sehlooho o hodisang ntlhakemo.",
+                  "A ntshetse pele moqoqo ka ho bontsha ka mehlala e tswang bukeng ho totobatsa ntlhakemo ya hae."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo ya hae e lokela ho tlamahanya kgang ya hae ka ho phethahala."
+            ]
+          }
+        },
+        {
+          "id": "21",
+          "text": "LEJWE LA KGOPISO - T Letshaba",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "21.1",
+              "value": "Mohlouwa o itse Pheleu a hlokomele hore basebetsi ba se ke ba etsa seteraeke."
+            },
+            {
+              "sub_id": "21.2",
+              "value": "Pheleu o ne a utlwa ditaba di mo otla botsekeng hobane ke yena ya bileng le seabo ho lelekweng ha Tsietsi mosebetsing."
+            }
+          ],
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Tshwaya e le nngwe feela bakeng sa 21.8, 21.13.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 20319,
+    "cached_tokens_saved": 0
+  }
+}

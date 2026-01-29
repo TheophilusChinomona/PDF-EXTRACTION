@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "subject": "South African Sign Language Home Language P1",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "Grade 12",
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Which President introduced the banning of elephant hunting?",
+          "type": null,
+          "model_answers": [
+            "Former President of Botswana, Ian Khama."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "What was the reason for the ban against the hunting of elephants on public land?",
+          "type": null,
+          "model_answers": [
+            "There was a decline in the number of elephants in Botswana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Name the Act that monitored hunting in private game ranches.",
+          "type": null,
+          "model_answers": [
+            "Wildlife Conservation and National Parks Act."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Full name of Act is required in the answer. Signing or fingerspelling even if incorrect, is accepted provided that the meaning is not changed.",
+          "topic": "Wildlife Conservation and National Parks Act",
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Refer to chunk 2. Give the 3 main points of the Committee's Report.",
+          "type": null,
+          "model_answers": [
+            "Hunting would boost tourism.",
+            "Culling would control the national elephant population.",
+            "Meat from culled animals could be canned for animal food."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "How long did the ban on hunting elephants last, before the review?",
+          "type": null,
+          "model_answers": [
+            "4 Years",
+            "From 2014 to 2018"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Accept any ONE of the above.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "What are Botswana's two largest sources of foreign income?",
+          "type": null,
+          "model_answers": [
+            "Diamond mining",
+            "Tourism"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7.1",
+          "text": "Refer to chunk 3. Compare the attitudes of the rural citizens and the wildlife conservationists towards hunting of elephants.",
+          "type": null,
+          "model_answers": [
+            "The wildlife conservationists wanted to protect the elephants / did not want the elephants to be killed.",
+            "The rural citizens supported hunting / killing of elephants."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7.2",
+          "text": "Refer to chunk 4. Explain the reason for the attitude of the rural citizens towards the hunting of elephants. Give two reasons.",
+          "type": null,
+          "model_answers": [
+            "The elephants destroyed crops and there was less food for families.",
+            "The elephants destroyed crops, leaving no crops to sell. The elephants killed people while they protected their farms.",
+            "The elephants destroyed the farmers’ homes."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8.1",
+          "text": "Is this statement an opinion or a fact?",
+          "type": null,
+          "model_answers": [
+            "Opinion"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8.2",
+          "text": "Give a reason for this.",
+          "type": null,
+          "model_answers": [
+            "The number of elephants is an approximate number.",
+            "The number of elephants is guessed.",
+            "The number of elephants is not specific / accurate."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Accept any ONE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.9",
+          "text": "In what way have international tourists disadvantaged Botswana?",
+          "type": null,
+          "model_answers": [
+            "The tourists come to Botswana to hunt wildlife and have reduced the wildlife population."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.10",
+          "text": "'The number of elephants in Botswana is estimated to be about 130,000 which is overloading the ecosystem.' What does this mean?",
+          "type": null,
+          "model_answers": [
+            "B: Ecosystem is unstable."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.11",
+          "text": "Do you think lifting the ban will be good for Botswana? Refer to the text and give three reasons for your answer.",
+          "type": null,
+          "model_answers": {
+            "positives": [
+              "Lifting of the hunting ban will result in safari companies being available for tourists to visit Botswana to hunt.",
+              "The unemployed hunters will have job opportunities in safari companies.",
+              "Botswana will receive more foreign income from tourists.",
+              "The crops of rural communities will be safe."
+            ],
+            "negatives": [
+              "Animal wildlife populations will decline.",
+              "Animal wildlife conservationists will lose their jobs.",
+              "Animal lovers won't visit Botswana as their tourist destination."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.12",
+          "text": "Why does the president need to make a fair, final decision on removing or retaining the ban?",
+          "type": null,
+          "model_answers": [
+            "He has to ensure that the local rural communities are happy and safe.",
+            "He has to ensure that tourism in Botswana continues to grow.",
+            "He has to consider that elephants do not become extinct.",
+            "He has to ensure that the elephants are protected."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.13",
+          "text": "Refer to Text B and chunk 4 in Text A. In what other ways could the government assist the rural citizens?",
+          "type": null,
+          "model_answers": [
+            "The government could provide food.",
+            "The government could build stronger / good houses.",
+            "The government could build fences / walls around the properties.",
+            "The government could provide seeds / crops for farming.",
+            "The government could ensure that properties are patrolled."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.14",
+          "text": "Refer to Text B and chunk 4 in Text A. Critically evaluate whether Text B is a true reflection of what is being signed in chunk 4.",
+          "type": null,
+          "model_answers": {
+            "positives": [
+              "Text B shows the elephant trampling over and destroying valuable crops.",
+              "Text B shows that the elephant has destroyed the source of food and the livelihood of the community.",
+              "Text B shows the elephant approaching the homes of the community."
+            ],
+            "negatives": [
+              "Text B shows the elephant walking through a previously harvested crop.",
+              "Text B does not show the elephant attacking people.",
+              "Text B does not show the elephant eating the vegetation.",
+              "Text B shows the elephant walking in its natural habitat."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.15",
+          "text": "Refer to Text B. Do you think that elephants should be hunted as a sport? Give two reasons.",
+          "type": null,
+          "model_answers": {
+            "positives": [
+              "Elephants would no longer cause the destruction of crops and people will have food to eat.",
+              "The livelihood of people will be maintained, as they will have crops to sell.",
+              "Attacks on people will be minimised."
+            ],
+            "negatives": [
+              "Hunting of the elephants would lead to extinction.",
+              "This is cruel / unkind / inhumane.",
+              "Baby elephants would be left to fend for themselves.",
+              "This is contradictory to preservation of life.",
+              "Elephants are not aware that they are being destructive."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "SUMMARISING IN YOUR OWN WORDS",
+          "type": "Summary",
+          "model_answers": [
+            "As exams come closer stress increases but there are ways to overcome this.",
+            "Know when the exams are and manage your time well so that there is enough time to study.",
+            "It is important to take breaks while studying by going out for a walk with your pet or have a cup of tea outside.",
+            "Drink healthy drinks like water and green tea instead of excessive amounts high energy drinks like Red Bull.",
+            "It would be better to eat an apple to sustain energy levels rather than chocolate with high sugar.",
+            "Keep your phone off to avoid being distracted by social media and chat groups and you will pass.",
+            "Use old exam papers to test yourself and to see if you finish papers in prescribed time.",
+            "Working hard over the years and you will be mentally and physically prepared to pass the exams.",
+            "Ask for help if this is needed for you to understand your work and for you to pass the exams."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 7,
+          "marker_instruction": "Any SEVEN valid points in paragraph-form are to be credited. Mark allocation: 7 marks for 7 points (1 mark per main point), 3 marks for language.",
+          "notes": "Distribution of language marks: 1–3 points: 1 mark; 4–5 points: 2 marks; 6–7 points: 3 marks. If quoted verbatim: 6-7 quotes: 0 marks; 1-5 quotes: 1 mark.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "What is being advertised?",
+          "type": null,
+          "model_answers": [
+            "iPad Air 2."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": "Do not accept 'TABLET'.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "Is the iPad equally useful to males and females? How do you know?",
+          "type": null,
+          "model_answers": [
+            "Yes. The advert shows both males and females using the product. Examples of how males and females use the product differently."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "Which careers can benefit from the use of this product?",
+          "type": null,
+          "model_answers": [
+            "Architecture",
+            "Technology for vehicles",
+            "Farming",
+            "Baking",
+            "Music",
+            "Graphic design",
+            "Fashion designer"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any TWO of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": "What benefits can the iPad add to a Deaf person's life?",
+          "type": null,
+          "model_answers": [
+            "Communication",
+            "Research",
+            "Making learning more visual"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": "Explain the effect of the downsizing of the screen.",
+          "type": null,
+          "model_answers": [
+            "The downsizing from full screen to the thinness of the iPad shows the variety of ideas that can be compacted into a thin, small device.",
+            "Technology is changing/advancing."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any similar response.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": "The advert focuses on younger people. Why do you think older people are excluded?",
+          "type": null,
+          "model_answers": [
+            "They are not familiar with technology.",
+            "Not many older people will buy the product.",
+            "Older people are slower to learn about new technology.",
+            "The technology is not needed by older people."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "Refer to Frame 2. What is the setting?",
+          "type": null,
+          "model_answers": [
+            "The picture is a burger which shows that the scene is a restaurant / take-away / fast-food outlet / McDonalds."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "Refer to Frames 3 and 4. Give reasons for the differences in the facial expressions of the man in the red shirt.",
+          "type": null,
+          "model_answers": [
+            "In Frame 3, the man expresses surprise and shock as he is being put under a spell / he is confused about what is happening to him.",
+            "In Frame 4, the man is happy and excited that he is able to communicate in Sign Language / he is pleased at what has happened to him."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": "Refer to Frame 4. What do the short sketch lines around the hand convey?",
+          "type": null,
+          "model_answers": [
+            "The sketch lines show that there is movement of the hands and this is because the man is signing.",
+            "The sketch lines show the direction of the movement of the signing hands."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Accept any ONE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": "Explain the humour in the cartoon.",
+          "type": null,
+          "model_answers": [
+            "In his dream, the Deaf man wishes that he could cast a spell on the waiter for him to be able to communicate in sign language. The humour is that in reality this cannot happen."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": "Give three figurative reasons to substantiate that this cartoon depicts a dream.",
+          "type": null,
+          "model_answers": [
+            "In reality it is not possible to wave a wand and make a person sign.",
+            "Sign Language must be learnt over time, it is not instant.",
+            "Magic only happens in movies and stories and not in real life.",
+            "He is dreaming because he hopes for this to happen."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept any THREE of the above or similar responses.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1",
+          "text": "Identify the lexicalised fingerspelled sign.",
+          "type": null,
+          "model_answers": [
+            "OK"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "What type of classifier is indicated in this clip? Sign the same concept using a different classifier.",
+          "type": null,
+          "model_answers": [
+            "Bodypart classifier (BPCL)",
+            "Different classifier: Both hands V-hand shape, Palm down, Move swiftly to the left."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.3",
+          "text": "Select ONE incorrect sentence from the clip provided. Edit the sentence using the correct SASL structure.",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "Incorrect",
+              "value": "MUST INFORM DADDY"
+            },
+            {
+              "sub_id": "Correct",
+              "value": "DADDY INFORM MUST"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.4",
+          "text": "View the clip. Correct the verb to fit the context.",
+          "type": null,
+          "model_answers": [
+            "The sign for animal chewing: A-handshape on both hands. Palms facing each other. Horizontal symmetry. Dominant hand in circular motion."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.5",
+          "text": "Is this an example of synecdoche or metonymy? Give a reason for your answer.",
+          "type": null,
+          "model_answers": [
+            "Synecdoche. The ears signed represent the dog's body."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.6",
+          "text": "View the two clips. Identify and compare the adverbs.",
+          "type": null,
+          "model_answers": [
+            "(Adverb of manner.)",
+            "The adverb in the first clip shows running at a normal/slower pace.",
+            "The adverb in the second clip shows running faster."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 13722,
+    "cached_tokens_saved": 0
+  }
+}

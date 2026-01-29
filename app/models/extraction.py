@@ -128,6 +128,38 @@ class FullExamPaper(GeminiCompatibleModel):
         description="Metadata about processing method, quality scores, etc."
     )
 
+    def build_canonical_filename(self, document_id: str, suffix: str = "qp") -> str:
+        """Build a canonical filename from extracted metadata and document ID.
+
+        Format: {document_id}_{subject}-gr{grade}-{session}-{year}-{suffix}
+        Example: a1b2c3d4_business-studies-p1-gr12-may-june-2025-qp
+
+        Args:
+            document_id: UUID or unique identifier for this document.
+            suffix: File suffix label (default: "qp" for question paper).
+
+        Returns:
+            Canonical filename stem (no extension).
+        """
+        import re
+
+        def _slug(text: str) -> str:
+            text = text.lower()
+            text = re.sub(r'[/\\]+', '-', text)
+            text = re.sub(r'[^a-z0-9\-]+', '-', text)
+            text = re.sub(r'-+', '-', text)
+            return text.strip('-')
+
+        parts = [
+            document_id,
+            _slug(self.subject),
+            f"gr{_slug(self.grade)}",
+            _slug(self.session),
+            str(self.year),
+            suffix,
+        ]
+        return "-".join(parts)
+
 
 # =============================================================================
 # ACADEMIC PAPER MODELS (Legacy - kept for backward compatibility)

@@ -12,6 +12,7 @@ from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
 
+from app.models.extraction import DocumentStructure
 from app.models.memo_extraction import MarkingGuideline
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.services.pdf_extractor import _remove_additional_properties, _estimate_token_count
@@ -287,7 +288,8 @@ async def extract_memo_data_hybrid(
     client: genai.Client,
     file_path: str,
     model: str = "gemini-3-flash-preview",
-    raise_on_partial: bool = False
+    raise_on_partial: bool = False,
+    doc_structure: Optional[DocumentStructure] = None,
 ) -> MarkingGuideline:
     """
     Extract memo PDF using hybrid pipeline (OpenDataLoader + Gemini).
@@ -324,7 +326,9 @@ async def extract_memo_data_hybrid(
         >>> print(result.processing_metadata["method"])  # "hybrid"
     """
     # Step 1: Extract PDF structure using OpenDataLoader (local, fast, free)
-    doc_structure = extract_pdf_structure(file_path)
+    # Re-use pre-computed structure if provided (avoids duplicate work during classification)
+    if doc_structure is None:
+        doc_structure = extract_pdf_structure(file_path)
 
     # Step 2: Route based on quality score
     if doc_structure.quality_score < 0.7:
@@ -521,7 +525,16 @@ if __name__ == "__main__":
 
     # Run extraction
     try:
+        import hashlib
+
         result = asyncio.run(extract_memo_data_hybrid(client, file_path))
+
+        # Derive document ID from file content hash (deterministic, deduplication-safe)
+        with open(file_path, 'rb') as fh:
+            document_id = hashlib.sha256(fh.read()).hexdigest()[:12]
+
+        # Build canonical filename from extracted metadata
+        canonical_stem = result.build_canonical_filename(document_id)
 
         # Convert to JSON
         result_json = result.model_dump()
@@ -530,16 +543,18 @@ if __name__ == "__main__":
         # Print to stdout
         print(json_str)
 
-        # Auto-save alongside input PDF
-        input_dir = os.path.dirname(file_path)
-        input_basename = os.path.basename(file_path)
-        input_name = os.path.splitext(input_basename)[0]
-        output_path = os.path.join(input_dir, f"{input_name}_memo_result.json")
-
-        with open(output_path, 'w', encoding='utf-8') as f:
+        # Save JSON with canonical name alongside input PDF
+        input_dir = os.path.dirname(file_path) or "."
+        json_path = os.path.join(input_dir, f"{canonical_stem}.json")
+        with open(json_path, 'w', encoding='utf-8') as f:
             f.write(json_str)
 
-        print(f"\n[Saved to: {output_path}]", file=sys.stderr)
+        # Rename the input PDF to canonical name
+        pdf_path = os.path.join(input_dir, f"{canonical_stem}.pdf")
+        os.rename(file_path, pdf_path)
+
+        print(f"\n[PDF renamed to: {pdf_path}]", file=sys.stderr)
+        print(f"[JSON saved to:  {json_path}]", file=sys.stderr)
 
     except PartialMemoExtractionError as e:
         print(f"Error: Partial extraction - {e}", file=sys.stderr)

@@ -1,0 +1,662 @@
+{
+  "meta": {
+    "subject": "Tshivenda Luambo lwa u Engedza lwa u Thoma (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "SHUNDUNTHULE/FULWI",
+    "grade": "SC/NSC",
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "KHETHEKANYO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhararu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhavhili vha mbeu ya tshinnani na muthihi wa mbeu ya tshisadzini."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vho vha vha tshi thusa nga u rengisa tshiphazani tsha vhabebi vhavho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Masheleni o vha a tshi shuma u renga thoµea dza muµini."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ro vha ri tshi kapula mapfura nga lebula."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vho vha vha tshi khou ¾oµou vhona uri tshelede i khou tswiwa nga nnyi.",
+            "Vho vha vha tshi khou ¾oµou fara mbava."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ndi u shanduka ha vhuµifari hawe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Hai, ngauri ndi dzone dzo mu funzaho u shumisa zwidzidzivhadzi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "U ¾oµou u fa/u lovha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhabebi vhawe vho mu pandela hayani musi a tshi bva sibadela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.11",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Masiandaitwa o vha a u onda."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.12",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "B/tshiphaza."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.13",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ndo vha ndi tshi µo mu eletshedza ndeme ya u ¾honifha vhabebi na u nanga khonani dzavhuμi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Na dzi¿we phindulo dzi pfalaho",
+          "topic": "U eletshedza ndeme ya u thonifha vhabebi",
+          "essay_structure": null
+        },
+        {
+          "id": "1.14",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mapholisa.",
+            "Vhagudi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.15",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bodo ya u ¿wala khayo.",
+            "Dzidesike."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.16",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Mulaedza ndi wa uri zwikoloni kha hu khwa¾hisedzwe tsireledzo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Na dzi¿we phindulo dzi pfalaho",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KHETHEKANYO YA B",
+      "questions": [
+        {
+          "id": "2",
+          "text": "MANWELEDZO/SAMARI (TSHIBVELEDZWA TSHA C)",
+          "type": "Summary",
+          "model_answers": [
+            "U remekanywa ha miri zwi a tshikafhadza mupo.",
+            "Mupo u a tshikafhadzwa nga u fhiswa ha maµaka.",
+            "U la¾ekanywa ha mabammbiri na mapu¼asi¾iki zwi a tshikafhadza mupo.",
+            "Mupo u a tshikafhadzwa nga u la¾ekanywa ha maphamphasi maµakani na milamboni.",
+            "Mupo u a tshikafhadzwa nga u sa kulumaga hune vhathu vha dzula hone.",
+            "Musi muthu mu¿we na mu¿we a tshi shumisa tshiendedzi tshawe u ya mushumoni zwi bvisa gese i no tshikafhadza mupo.",
+            "Mupo u a tshikafhala musi vhathu vha sa shumisi mabini u la¾a mashika ngomu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": 10,
+          "marker_instruction": "Kuavhelwe kwa maraga: Maraga dza 7 kha mbuno dza 7 (maraga 1 kha mbuno nthihi.); Maraga 3 dza luambo. Thanganyelo ya maraga: 10.",
+          "notes": "Tshivhalo tsha maipfi: Vha¾oli/Vhamaki vha tea u sedzulusa tshivhalo tsha maipfi o shumiswaho. Arali tshivhalo tsha maipfi tsho pfukiswa, kha vha vhale u swika kha mutala wa maipfi o teaho.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KHETHEKANYO YA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "TSHIBVELEDZWA TSHA D: KHUNGEDZELO",
+          "type": null,
+          "model_answers": [
+            "U kunga vharengi kana vhathu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhathu vho¾he ngauri i fha¾a muvhili na u pandela malwadze sa zwine zwa ¾o»ea kha muthu mu¿we na mu¿we."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "A vha tsha μo lwala lwa u ya sibadela vhutshilo havho ho¾he."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "O shumisa fonto ¾hukhu kha: arali vha renga mabogisi ma¾anu u ya n¾ha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vha μo dzula vhe na mitakalo ya ma¾hakheni.",
+            "Sibadela vha nga si tsha kanda."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": "TSHIBVELEDZWA TSHA E: KHATHUNI",
+          "type": null,
+          "model_answers": [
+            "Ndi Pfarelo.",
+            "Wa vhudededzi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lu bvisela khagala uri o takala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Inwi Pfarelo ni khou rwa luvhondo nga ¼one dakalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ndi mukundi./ndi ene o kundaho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Yo µowelea kha muthu ane o vha a songo humbula uri a nga wana mushumo kana hu kale a tshi khou u ¾oµa a sa u wani. Kana a yo ngo µowelea ngauri a si vhathu vho¾he vhane vha rwa luvhondo musi vho takala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.1",
+          "text": "TSHIBVELEDZWA TSHA F: PHUROSA",
+          "type": null,
+          "model_answers": [
+            "Henefha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhaswa.",
+            "Vhaswa vha Khubvi vha ¾wa mahafheni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Holo.",
+            "Luisimane/English."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kushumo.",
+            "Kushumo kune Muofhe a khou shuma kwone a ku lemeli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "·awe.",
+            "·inngo ¼awe ¼o tswiwa nga Takalani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "·iiti na dzina."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "B/¼i¾anganyi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vho ¼a zwi¼iwa zwa sala/Zwa vha balela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.1",
+          "text": "TSHIBVELEDZWA TSHA G: TSHIFANYISO",
+          "type": null,
+          "model_answers": [
+            "ha.",
+            "Maemu o ya u dala ha Mashudu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Tshifhinga a si tsha ndeme."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Vhaswa a vha koni u shumisa tshifhinga zwavhuµi ngauri kha vhutshilo ha vhukuma a si vhaswa fhedzi vha sa koni u shumisa tshifhinga zwavhuµi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9529,
+    "cached_tokens_saved": 0
+  }
+}

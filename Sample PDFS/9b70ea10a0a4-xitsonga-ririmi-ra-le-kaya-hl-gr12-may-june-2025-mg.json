@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "subject": "Xitsonga Ririmi ra le Kaya (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "XIYENGE XA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Ku yingisa swi ndzi pfunile!",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta rungula hilaha a pfunekeke hakona hikokwalaho ko va a yingisile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Eka tinhlamulo ta switsalwana hinkwaswo thoni, rhejisitara, xitayili na ntivomarito leswi faneleke swi fanele ku humelerisiwa.",
+          "notes": "Xitsalwana xa ndzungulo, nhlamuselo, mianakanyo/miehleketo, nkanelo kumbe mavonelo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Hi yena xin'wana na xin'wana eka mina.",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta hlamusela hindlela leyi munhu loyi a vulavulaka hi yena a n'wi pfunaka hayona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xitsalwana xa nhlamuselo kumbe ndzungulo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Ndyangu lowu ndzi navelaka ku va na wona evuton'wini bya mina.",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta humesela mianakanyo/miehleketo ya yena hi muxaka wa ndyangu lowu a navelaka ku va na wona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xitsalwana xa mianakanyo/miehleketo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Ku humesiwa ka vabohiwa ekhotsweni nkarhi wa vona wu nga si hela swi kahle swi tlhela swi onha.",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta nyika nkanelo wa yena a kongomisa eka ku pfuna na ku onha loku vangiwaka hi ku humesiwa ka vabohiwa ekhotsweni nkarhi wa vona wu nga si hela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xitsalwana xa nkanelo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Vumundzuku bya munhu a byi lawuriwi hi ku fuma kumbe vusiwana bya vatswari va yena. Pfumela kumbe u kaneta.",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta hlawula tlhelo rin'we a aneka vonelo ra yena ra hilaha vumundzuku bya munhu byi nga lawuriwiki hi xiyimo xa ku fuma kumbe vusiwana bya vatswari va yena hakona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xitsalwana xa mavonelo/nkanelo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Visual Stimulus: (Reference to images 1.6 - 1.8)",
+          "type": "Essay",
+          "model_answers": [
+            "Mukamberiwa u ta hlawula xifaniso eka leswi a nyikiweke swona kutani a tsala xitsalwana hi xona, a aneka mhaka leyi xi n'wi tiselaka yona emiehleketweni.",
+            "U ta nyika xitsalwana xa yena nhlokomhaka leyi faneleke."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Ku fanele ku va na ku yelana eka hungu ra xitsalwana na xifaniso lexi hlawuriweke.",
+          "notes": "Xi nga va xitsalwana xa ndzungulo, nhlamuselo, mianakanyo/miehleketo, nkanelo kumbe mavonelo.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "PAPILA RA XIKAYA",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta khensa vatswari va yena ku va va n'wi xaverile movha wa manyunyu hi ku va a hetile malembe ya makumembirhin'we a tihlayisile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Vuxokoxoko lebyi hlamulaka xivutiso byi fanele ku humelerisiwa.",
+          "notes": "Xivumbeko: Adirese ya mutsari leyi sikuhatiweke evokweni ra xinene (a ku funghiwi endzhaku ka ku sikuhata). Ku tlula ntila laha swi faneleke, xiloso (a ku funghiwi). Vundzeni (manghenelo, miri na mahetelelo). Nsariso (vito ra mutsari, xivongo a xi tsariwi naswona a ku funghiwi).",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "IMEYILI",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta tsala imeyili yo kombela ntirho wo hlaya vanhu lowu nga kona emugangeni wa ka vona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xivumbeko: Adirese ya imeyili ya mutsari na ya mutsaleriwa, van'wana lava faneleke ku yi kuma, nhlokomhaka, xiloso, vundzeni lebyi katsaka manghenelo, miri na mahetelelo. Nsariso lowu katsaka vito na xivongo xa yena (a ku funghiwi).",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "NHLUTO",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta tsala nhluto wa ndhawu ya vuhungaselo bya vantshwa leyi mfumo wu va endleleke yona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xivumbeko: Nhlokomhaka, vito ra ndhawu ya vuhungaselo, swihungasi leswi nga kona, nkarhi wo pfula na wo pfala, maambalelo na matikhomelo, swibumabumelo na swisolo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "ATIKILI YA PHEPHAHUNGU",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta tsala atikili ya phephahungu mayelana na ntirho lowu veke kona wa ku vekiwa ka hosi exitulwini exifundzenintsongo xa le ka vona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xivumbeko: Vito ra phephahungu, siku, n'hweti na lembe, nhlokomhaka, vito ra mutsari wa atikili, vundzeni na vuxokoxoko bya vutihlanganisi.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "MBULAVULO",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta tsala mbulavulo lowu a nga ta wu nyika hi siku ro khensisa vatswari va yena ku va va hlanganisile malembe ya makumemune (40) va tekanile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xivumbeko: Nhlokomhaka, ku xeweta vanhu ku ya hi swiyimo swa vona, ku titivisa, ku khensa ku nyikiwa nkarhi, vundzeni, ku khensa ku yingiseriwa na ku gimeta mbulavulo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "INTHAVHIYU",
+          "type": "Longer Transactional Text",
+          "model_answers": [
+            "Mukamberiwa u ta tsala inthavhiyu exikarhi ka mufambisi wa tliliniki na murhangeri wa muganga mayelana na ku va vaakatiko va karhele ku yima nkarhi wo leha loko va lava ku pfuniwa etliliniki ya ka vona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Xivumbeko: Nhlokomhaka, mbangu, ku thya swimunhuhatwa mavito lama tsariweke hi maletere lamakulu evokweni ra ximatsi ya landzeriwa hi hikombirhi, ku xewetana, swiendlo swa swimunhuhatwa endzeni ka swiangi, vundzeni na ku gimeta/ku lelana.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8415,
+    "cached_tokens_saved": 0
+  }
+}

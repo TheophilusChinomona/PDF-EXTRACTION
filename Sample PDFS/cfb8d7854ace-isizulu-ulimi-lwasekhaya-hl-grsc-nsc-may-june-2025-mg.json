@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "subject": "IsiZulu Ulimi Lwasekhaya (HL)",
+    "type": "Umhlahlandlela Wokumaka (Marking Guideline)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "SC/NSC",
+    "paper": "3",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "ISIQEPHU A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Indaba: Isihloko esiphathelene nokuhlangana nomuntu okokuqala.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makakhombise ukuthi uyasiqonda isihloko.",
+            "Isb. Makaveze isigameko esenza wathatheka uma eqala ukubonana nalowo muntu.",
+            "Kungaba yindlela enza ngayo izinto, kungaba ukumfundisa izinto ezintsha empilweni, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Siyaheha, sinamandla, siyisigaba esisodwa, singenisa indikimba."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ukuthuthukiswa kwendaba",
+                "points": [
+                  "Izigaba zinemiqondo ezwakalayo nenikezelanayo.",
+                  "Zihleleke kahle: Isigaba siqala ngomusho oyinhloko bese siba nemisho esekelayo.",
+                  "Umbhalo nombhalo uhambelana nenkathi okumele ubhalwe ngayo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Siyisigaba esisodwa.",
+              "Makuvele ukuthi umbhalo usuyagoqwa noma uyasongwa.",
+              "Selungavela uvo lombhali ngalokho abhala ngakho (ukuxwayisa/ukweluleka/ukuxolisa)."
+            ]
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Indaba: Onontandakubukwa.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makakhombise ukuthi uyasiqonda isihloko.",
+            "Isb. Angachaza ukuthi yimuphi unontandakubukwa amaziyo wangakubo, yiziphi izinto azenzayo ezimenza ukuthi abizwe ngonontandakubukwa, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Indaba: Isaga - Ayikho impunga yezela omunye.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makakhombise ukuthi uyasiqonda lesi saga esichaza ukuthi noma ungekho izinto zizohamba kahle.",
+            "Isb. Ungaqhubeka ufunde noma abazali bengasekho, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Indaba: Izikhuthazamzimba emidlalweni.",
+          "type": "Essay",
+          "model_answers": {
+            "positives": [
+              "Ubuhle: ukulekelela noma ukunika abadlali bemidlalo amandla abawadingayo."
+            ],
+            "negatives": [
+              "Ubungozi: zigcina sezilimaza amaphaphu kanye nomqondo ngoba uzobe usuthembele kuzo."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Makaveze izinhlangothi ezimbili ngokufanayo. Angaphetha ngokubeka uvo lwakhe ngesihloko.",
+          "notes": "Ohlolwayo makakhombise ukuthi uyasiqonda isihloko.",
+          "topic": "Izikhuthazamzimba emidlalweni: ubuhle nobungozi",
+          "essay_structure": {
+            "introduction": [
+              "Ukungenisa indikimba yezikhuthazamzimba emidlalweni."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ubuhle bezikhuthazamzimba",
+                "points": [
+                  "Ukunika amandla abadlali."
+                ]
+              },
+              {
+                "sub_topic": "Ubungozi bezikhuthazamzimba",
+                "points": [
+                  "Ukulimala kwamaphaphu.",
+                  "Ukulimala komqondo/ukuthembela kuzo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Ukubeka uvo lwakhe nokuqoqa amaphuzu."
+            ]
+          }
+        },
+        {
+          "id": "1.5",
+          "text": "Indaba: Ukudla esikudlayo yikona okusigulisayo.",
+          "type": "Essay",
+          "model_answers": {
+            "positives": [
+              "Ukuvumelana: izibonelo ngokudla okungadala izifo emzimbeni njengokudla okusheshayo okungenawo umsoco."
+            ],
+            "negatives": [
+              "Ukungavumelani: izibonelo zokuthi akukhona ukudla okungadala izifo kepha izindlela zokuphila njengokungazivocavoci nokuhlala kakhulu ubukela umabonakude."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Makakhethe uhlangothi olulodwa oluzofakazela ukuvumelana noma ukuphikisana nesihloko.",
+          "notes": null,
+          "topic": "Ukudla esikudlayo yikona okusigulisayo",
+          "essay_structure": {
+            "introduction": [
+              "Ukwethula uvo lwakhe ngesihloko."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Ukuvumelana",
+                "points": [
+                  "Ukudla okusheshayo (fast food).",
+                  "Ukudla okungenawo umsoco."
+                ]
+              },
+              {
+                "sub_topic": "Ukungavumelani",
+                "points": [
+                  "Izindlela zokuphila (lifestyle choices).",
+                  "Ukungazivocavoci.",
+                  "Ukuhlala isikhathi eside ubukela umabonakude."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Ukuqinisekisa uvo lwakhe nokuqoqa indaba."
+            ]
+          }
+        },
+        {
+          "id": "1.6",
+          "text": "Indaba: Isithombe - Ubudlelwane nezingane.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makabukisise kahle isithombe bese enika indaba yakhe isihloko esihambisana nesithombe.",
+            "Makungachazwa isithombe.",
+            "Isibonelo sesihloko: Ubudlelwane Obuhle Nezingane Zakho, Chitha Isikhathi Nezingane Zakho, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": "Indaba: Isithombe - Imali / Umnotho.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makabukisise kahle isithombe bese enika indaba yakhe isihloko esihambisana nesithombe.",
+            "Makungachazwa isithombe.",
+            "Isibonelo sesihloko: Izinkinga Ezidalwa Ukwehla Kwamandla Emali, Ukuphela Kombuso Wokuba Nemali, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": "Indaba: Isithombe - Umuntu ozibuka esibukweni / Ukuzazi.",
+          "type": "Essay",
+          "model_answers": [
+            "Ohlolwayo makabukisise kahle isithombe bese enika indaba yakhe isihloko esihambisana nesithombe.",
+            "Makungachazwa isithombe.",
+            "Isibonelo sesihloko: Kubalulekile Ukuba Uzibheke Wena Kuqala, Ukuba Incwadi Efundekayo, njl."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "INCWADI YOBUNGANI",
+          "type": "Transactional",
+          "model_answers": [
+            "Ikheli elilodwa lobhalayo.",
+            "Ikheli lobhalayo lihamba nosuku (Isb. 14 Mfumfu 2024).",
+            "Obhalelwayo makabingelelwe sakukhuluma (Mkhululi).",
+            "Isigaba sokuqala: Isandulela nokuphathelene nengqikithi.",
+            "Isigaba sesibili: Ingqikithi yencwadi (ukuhalalisela ukayise ngokufuna ukuyeka izidakamizwa).",
+            "Isigaba sesithathu: Ukuphetha incwadi.",
+            "Ulimi olwamukelekile/irejista efanele.",
+            "Valelisa: Yimina udadewenu/umfowenu uNomandla/uMandla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "I-AJENDA NAMAMINITHI OMHLANGANO",
+          "type": "Transactional",
+          "model_answers": [
+            "I-Ajenda Yomhlangano wesigungu sentsha.",
+            "Usuku: 19 Ndasa 2024; Indawo: eMayibuye Stadium; Isikhathi: 9 ekuseni.",
+            "Izihloko ze-ajenda: 1. Ukuvula nokwamukela, 2. Amazwi okwamukela, 3. Abakhona nezixoliso, 4. Ukufundwa kwamaminithi odlule, 5. Ezivuka emaminithini, 6. Ezosuku (Idili lomculo), 7. Iziphakamiso Nezinqumo, 8. Ezixubile, 9. Usuku lomhlangano olandelayo, 10. Ukuvala.",
+            "Mabhale amaminithi ngenkathi edlule.",
+            "Alandele i-ajenda.",
+            "Abhale amaphuzu abalulekile ashiwo yizikhulumi.",
+            "Abhale iziphakamiso kanye nezinqumo.",
+            "Ukusayinwa nguNobhala kanye noSihlalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "UMBIKO ONGABEKELWE MIGOMO",
+          "type": "Transactional",
+          "model_answers": [
+            "Indikimba: Ukuqolwa kwabantu amakhadi nemali.",
+            "Isihloko neningeniso (Isb. Umbiko Wokuqolwa Kwezaguga Imali).",
+            "Umzimba: Obani? Kungani? Nini? Yini? Kanjani?",
+            "Isiphetho: Ukusonga umbiko.",
+            "Inkathi edlule.",
+            "Ulimi olufanele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "INKULUMO",
+          "type": "Transactional",
+          "model_answers": [
+            "Isihloko/Isandulelankulumo: Ngubani, imayelana nani, kuphi, kungani, nini?",
+            "Isingeniso: Ukubonga ithuba, ukubingelela izethameli ngokwezikhundla.",
+            "Umzimba: Ukuhalalisela abasha ngokuthola ama-laptop, inselelo yokuzikhandla.",
+            "Isiphetho: Ukubonga ithuba kumphathi wohlelo nezethameli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "INKULUMO MPENDULWANO/INGXOXO",
+          "type": "Transactional",
+          "model_answers": [
+            "Isihloko senkulumompendulwano.",
+            "Isandulela: Abalingiswa, indawo, isikhathi.",
+            "Amagama ezikhulumi ngasesandleni sobunxele.",
+            "Umugqa omusha kwisikhulumi ngasinye.",
+            "Ingqikithi: Ukucacisa ingqikithi ngezikhulumi.",
+            "Isakhiwo: Isingeniso, umzimba, isiphetho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "IKHARIKHULAMU VITHAYE NENCWADI YOKUZICHAZA",
+          "type": "Transactional",
+          "model_answers": [
+            "CV Sections: 1.1 Imininingwane yobhalayo, 1.2 Imininingwane yemfundo, 1.3 Isipiliyoni somsebenzi, 1.4 Ukuzijabulisa, 1.5 Abantu ongaxhumana nabo.",
+            "Incwadi Yokuzichaza: Amakheli amabili.",
+            "Ikheli lobhalayo nosuku.",
+            "Ikheli lesibili (isikhundla somphathi).",
+            "Isibingelelo: Mnumzane/Nkosikazi/Nkosazana.",
+            "Isihloko: Incwadi Yokuzichaza.",
+            "Isingeniso: Ukuzethula nesizathu sokubhala.",
+            "Umzimba: Ulwazi olucacile, ukufaneleka kulo msebenzi, amakhono.",
+            "Isiphetho: Ibhulangu/ithuba le-inthavyu, ukuzithoba.",
+            "Isibonelo sokuvalelisa: Yimina ozithobayo, uL.B. Zungu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Q = 15, L = 10",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 11208,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "subject": "Setswana Puotlaleletso ya Ntlha (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2024,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Maaka ga a na lebelo.",
+          "type": "Tlhamo ya Kanelo",
+          "model_answers": [
+            "Motlhatlhojwa a bue ka tiragalo e e tlhodileng maaka.",
+            "A ka tlhagisa maikutlo a gagwe.",
+            "A ka bua ka ditlamorago tsa go bua maaka.",
+            "A ka bua maitemogelo a gagwe ka go bua maaka.",
+            "A ka bua ka se a se ithutileng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Ditiragalo di tshwanetse go latelana sentle. Tlhamo e, e kwalwe ka paka e e fetileng. Matseno e nne a a ngokang. Kanelo go le gantsi e tlhagisa ntlha e e rileng. Kanelo e tshwanetse go ngoka mmuisi go tloga kwa tshimologong go fitlha kwa bokhutlong. Setaele, puo le ditiragalo di tshwanetse go itumedisa babuisi. Go tshwanetswe go elwe tlhoko gore mofuta o wa tlhamo o a anela. Bokhutlo e nne jo bo kgodisang.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Bothata jo bo ka tlholwang ke tlhotlhwa e e kwa godimo ya peterole.",
+          "type": "Tlhamo ya Tlhaloso",
+          "model_answers": [
+            "Motlhatlhojwa a tlhalose mosola wa peterole.",
+            "A tlhalose bothata jo bo ka tlholwang ke tlhotlhwa e e kwa godimo ya peterole.",
+            "A tlhalose maikutlo a gagwe ka tlhotlhwa e e kwa godimo ya peterole.",
+            "A tlhalose gore tlhotlhwa e e kwa godimo ya peterole e ama badirisi jang.",
+            "A tlhalose maitemogelo a gagwe ka tlhotlhwa e e kwa godimo ya peterole."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Motlhatlhojwa o tshwanetse go bopa setshwantsho ka mafoko a a a filweng. A bontshe fa a na le maitemogelo ka setlhogo se. Tlhopho ya mafoko e nne e e senolang maikutlo ka kelotlhoko go gorosa molaetsa sentle. Puo ya botshwantshi e dirisiwe ka boitshimololedi. Bokhutlo e nne jo bo kgodisang.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Fa nka busetsa letsatsi leo kwa morago ...",
+          "type": "Tlhamo ya Maitlhomo",
+          "model_answers": [
+            "Motlhatlhojwa a tlhagise letlha le letsatsi le a batlang go le busetsa kwa morago.",
+            "A tlhagise maitlhomo a gore goreng a batla go busetsa letsatsi leo kwa morago.",
+            "A tlhagise ditiragalo tse di dirang gore a eletse go busetsa letsatsi kwa morago.",
+            "A tlhagise mosola wa go batla go busetsa letsatsi kwa morago.",
+            "A tlhagise maitemogelo a gagwe mabapi le letsatsi leo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Tlhamo ya maitlhomo e tseye letlhakore. Maikutlo a tsaya karolo e e botlhokwa. Karolo e kgolo mo tlhamong ke go tlhalosa. Ditlhaloso di tshwanetse go bonala, maikaelelo e le go tlhagisa gape maikutlo a nako e e fetileng. Dikakanyo/megopolo/maikutlo di tshwanetse go senola boammaaruri le maitemogelo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Go kgaolwa ga motlakase nako le nako go ama matshelo a rona.",
+          "type": "Tlhamo e e sa tseyeng letlhakore",
+          "model_answers": [
+            "Motlhatlhojwa a tlhagise ka moo dinako tsa kgaogo le tsa fa go se na kgaogo di amang matshelo ka teng.",
+            "A tlhagise maikutlo a gagwe fa motlakase o le teng le fa o se teng.",
+            "A ka bua ka mosola wa go nna teng ga motlakase le ditlamorago tsa go sa nneng teng ga ona.",
+            "A ka digela ka go tlhagisa ntlhakemo ya gagwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Matseno e nne a a tlhabosang. A kgone go bopa setshwantsho ka mafoko a a a filweng. Maitemogelo ka setlhogo se se neilweng a tshwanetse go bonala sentle. Tlhopho ya mafoko e nne e e senolang maikutlo ka kelotlhoko go gorosa molaetsa sentle. Puo ya botshwantshi e dirisiwe ka boitshimololedi.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Lenaane la go fepiwa ga barutwana kwa dikolong ga le na molemo ope.",
+          "type": "Tlhamo ya Ngangisano",
+          "model_answers": [
+            "Motlhatlhojwa a tlhagise ntlhakemo ya gagwe.",
+            "A tlhagise dikgwetlho tse di leng teng mo thebolong ya go fepiwa ga barutwana mo dikolong.",
+            "A tlhagise gore barutwana ba ungwelwa jang go tswa mo go fepiweng.",
+            "A tlhagise dintlha tse di supang go sa nneng mosola ga go fepiwa ga barutwana.",
+            "A dibele ntlhakemo ya gagwe ka bokhutlo jo bo utlwalang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Tlhamo ya maitlhomo e tseye letlhakore. Maikutlo a tsaya karolo e e botlhokwa. Karolo e kgolo mo tlhamong ke go tlhalosa. Ditlhaloso di tshwanetse go bonala, maikaelelo e le go tlhagisa maikutlo a nako e e fetileng. Dikakanyo/megopolo/maikutlo di tshwanetse go senola boammaaruri le maitemogelo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Dikgakololo tse a nneetseng tsona di nkagile e le ruri.",
+          "type": "Tlhamo ya Kanelo",
+          "model_answers": [
+            "A tlhagise gore ke mang yo o mo neetseng dikgakololo.",
+            "A tlhagise dikgakololo tse a di neetseng gore ke dife.",
+            "A tlhagise gore dikgakololo di mo thusitse jang.",
+            "A tlhagise maikutlo a gagwe tebang le dikgakololo tse.",
+            "A tlhagise thotloetso e a ka e nayang batho tebang le dikgakololo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": "Ditiragalo di tshwanetse go latelana sentle. Tlhamo e, e kwalwe ka paka e e fetileng. Matseno e nne a a ngokang. Kanelo go le gantsi e tlhagisa ntlha e e rileng. Kanelo e tshwanetse go ngoka mmuisi go tloga kwa tshimologong go fitlha kwa bokhutlong. Setaele, puo le ditiragalo di tshwanetse go itumedisa babuisi. Go tshwanetse go elwe tlhoko gore mofuta o wa tlhamo o a anela. Bokhutlo e nne jo bo kgodisang.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "Lekwalo la botsalano (Advice to a friend to improve results)",
+          "type": "Lekwalo la botsalano",
+          "model_answers": [
+            "Motlhatlhojwa a tlhalose mabaka a a mo pateleditseng go kwala lekwalo le.",
+            "A mo eletse go dira lenaane la go ithuta le le tsenyeletsang Setswana.",
+            "A mo lemose botlhokwa jwa tiriso ya makwalopotso a a fetileng.",
+            "A mo rotloetse go buisa dikwalo tse di tlhaotsweng ka tsenelelo.",
+            "A tsenele dithuto tsa nakwana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": "Aterese le letlha di kwalwe ka botlalo. Ditumediso di supe gore ke lekwalo la botsalano. Diteng di bontshe boitlhamedi. Kwa bofelong a ka tlhagisa mafoko a a latelang: Ke nna. A tlhagise leina la gagwe. Bokhutlo e nne jo bo kgodisang.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "Lekwalo la semmuso (To the Minister of Transport regarding taxi driver violence)",
+          "type": "Lekwalo la semmuso",
+          "model_answers": [
+            "Motlhatlhojwa a tlhalose mabaka a a mo pateleditseng go kwala lekwalo le.",
+            "A tlhagise ditiragalo tse di diragetseng magareng ga bakgweetsi.",
+            "A tlhagise maikutlo a gagwe ka dintwa magareng ga bakgweetsi.",
+            "A tlhagise dikatlanegiso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": "Diaterese di le pedi le letlha di kwalwe ka botlalo. Ditumediso di supe gore ke lekwalo la semmuso. Setlhogo se tlhagelele go thusa go tlhaloganya diteng tsa lekwalo. Dinomoro tsa mogala tsa mokwadi di tlhagelele. Diteng di bontshe ngongorego. Kwa bofelong a ka tlhagisa mafoko a a latelang: Weno. A tlhagise leina la gagwe, sefane le mogala wa letheka, mme a saene. Bokhutlo e nne jo bo kgodisang.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "Puo (Speech at church about increasing funds)",
+          "type": "Puo",
+          "model_answers": [
+            "Motlhatlhojwa a tlhagise gore matlole a kereke a dirisetswa eng.",
+            "A tlhagise bothata jo bo ka tlholwang ke tlhokego ya matlole mo kerekeng.",
+            "A thadise ditsela tse di farologaneng tsa go kokoanya matlole.",
+            "A rotloetse phuthego go sala morago ditsela tse ba ka oketsang matlole ka teng mo kerekeng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": "Ditumediso di tlhagelele sentle kwa tshimologong ya puo. Puo e tsamaelane le mofuta wa kopano. Dipolelo di nne dikhutshwane. Dikakanyo di nne maleba. Tiriso ya puo e bontshe kgolo. Kwa bokhutlong, bareetsi ba lebogiwe.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "Mmuisano (Dialogue with Mayor about waste collection)",
+          "type": "Mmuisano",
+          "model_answers": [
+            "Motlhatlhojwa a thale pono pele mmuisano o simolola.",
+            "A bontshe kgangkgolo ya mmuisano.",
+            "A tlhagise mathata a a tlholwang ke go sa tsewe ga matlakala.",
+            "A dirise dikhutlwana ka fa morago ga leina la sebui.",
+            "A dirise mola o mošwa go supa sebui se sešwa.",
+            "A dirise masakana go neela dikaelo/go gakolola babuisi.",
+            "A emele ntlha nngwe le nngwe ka botshepegi.",
+            "A bontshe ka moo a khutlisang mmuisano wa gagwe ka teng.",
+            "A tlhagise dikatlanegiso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": "Dibui di nne pedi. Setlhogo se go buisanwang ka sona se kwalwe. Dipolelo di nne dikhutshwane. Diteng tsa motlhatlhojwa di supe boitlhamedi, kelelo ya dintlha le go tsamaelana ga ditiragalo. Maina a dibui a tshwanetse go tlhagelela sentle. Matseno, mmele le bokhutlo di dirisiwe sentle. Kgang ya motlhatlhojwa e bontshe tshimologo, setlhoa le tharabololo. Puo le moono di tsamaelane le ditiragalo.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "Pampitshana ya tshedimosetso (Leaflet about food for the elderly)",
+          "type": "Pampitshana ya tshedimosetso",
+          "model_answers": [
+            "Motlhatlhojwa a latele sebopego sa go tlhagisa setlhangwa se ka tlhomamo.",
+            "A tlhagise leina la setlamo se se tlileng go aba dijo.",
+            "A kwale nako, letsatsi le lefelo le batsofe ba tla fiwang dijo ka lona.",
+            "A tlhagise lenaane le le tla salwang morago.",
+            "A tlhagise ditlhokego tse batsofe ba tshwanetseng go tla ka tsona.",
+            "A dirise puo e e maleba e bile e tshwanela motho yo o lalediwang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": "Tshedimosetso e rulaganngwe ka fa tlase ga ditlhogo kgotsa sekaditlhogo. Ditemana di nne dikhutswane. Go kwalwe dipolelo tse di bonolo. Ditshwantsho di dirisiwe di nyalane le mafoko. Puo ya tshedimosetso e nne le dintlha ka segalo se se siameng. Fa maikaelelo e le go tlhotlheletsa mmuisi, a puo e e tlhagisang maikutlo e dirisiwe. Tshedimosetso ya megala le leina la yo go ka ikgolaganngwang le ena, le tlhagisiwe.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "Molaetsakhutswe (SMS to a friend)",
+          "type": "Molaetsakhutswe (sms)",
+          "model_answers": [
+            "Motlhatlhojwa a kwale setlhogo ka ga se molaetsa o leng ka ga sona.",
+            "A tlhagise ditiragalo go ya ka setshwantsho.",
+            "A kwale molaetsa ka botlalo, mme o nne mokhutshwane.",
+            "A khutlise ka go kwala leina la gagwe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": "Molaetsa o tlhamalale le go neelana ka tshedimosetso e ntsi. Leina kgotsa nomoro ya moamogedi kwa godimo mo setlhagisong. Tiriso ya dikhutshwafatso, dialefabete, dinomoro le tlogelo ya ditumanosi e letleletswe fela fa go kwalwa molaetsakhutshwe o o sa tlhomamang. Letlha le nako e molaetsa o amogetsweng ka tsona. Puo e e dirisiwang e nne bonolo e bile e ikaege ka botsalano jwa mokwadi le moamogedi.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "Dikaelo (Directions for nurses bringing medicine)",
+          "type": "Dikaelo",
+          "model_answers": [
+            "Motlhatlhojwa a tlhagise matshwao a tsela.",
+            "A ka bua ka dikago tse baoki ba tla kopanang le tsona fa ba ya kwa gaabo.",
+            "A ka tlhagisa maina a mebila e ba tlileng go e feta.",
+            "A ka fopholetsa dikilometara go naya baoki setshwantsho sa sekgala se ba tlileng go se tsamaya.",
+            "A bontshe dinomoro tsa mogala le aterese e melemo e isiwang kwa go yona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": "Molaetsa o tlhamalale mo go se o se kopang. Go kwalwe dipolelo tse di bonolo, di nne dikhutshwane le go tlhaloganyega. Maitlhomo a tlhagelele sentle.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14843,
+    "cached_tokens_saved": 0
+  }
+}

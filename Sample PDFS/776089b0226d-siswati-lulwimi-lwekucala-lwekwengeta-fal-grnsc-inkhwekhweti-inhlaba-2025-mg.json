@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "subject": "Siswati Lulwimi Lwekucala Lwekwengeta (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "INKHWEKHWETI/INHLABA",
+    "grade": "NSC",
+    "paper": 3,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "SIGABA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Ngasala ngimangele.",
+          "type": "INDZABA LELANDZISAKO/LECHAZAKO/LENHLANGOTSIMBILI",
+          "model_answers": [
+            "Indzaba ayibe nesingeniso, umtimba nesiphetfo.",
+            "Akuvele kutsi ngusiphi lesigameko.",
+            "Akuvele lusuku lwekwenteka kwesigameko.",
+            "Imbangela yekwenteka kwaso.",
+            "Simo lowatitfola ubhekene naso.",
+            "Akuvele loko lokwakumangalisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono yebahlolwa yemukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Timayini letingekho emtsetfweni.",
+          "type": "INDZABA LECHAZAKO/ LELANDZISAKO/ LEHLANGOTSILUNYE",
+          "model_answers": [
+            "Indzaba ayibe nesingeniso, umtimba nesiphetfo.",
+            "Akuvele imbangela yekuba netimayini letingekho emtsetfweni.",
+            "Akuvele kutsi tiwuhlukumeta ngayiphi indlela ummango.",
+            "Akuvele bungoti bato.",
+            "Akuvele tindlela letingasetjentiswa kuncandza kwandza kwato."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono yebahlolwa yemukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Lengikutsandzako ngemphilo.",
+          "type": "INDZABA LEVETA LIMUVA LEMBHALI/ LELANDZISAKO/LECHAZAKO",
+          "model_answers": [
+            "Indzaba ayibe nesingeniso, umtimba nesiphetfo.",
+            "Akuvele kutsi nguyiphi lemphilo layitsandzako.",
+            "Sizatfu sekuyitsandza.",
+            "Akuvele tincumo langatitsatsa kute aphumelele kuyiphila."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono yebahlolwa yemukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Lukhetfo lwemnyaka we-2024.",
+          "type": "INDZABA LENHLANGOTSIMBILI/LEHLANGOTSILUNYE/LECHAZAKO",
+          "model_answers": [
+            "Indzaba ayibe nesingeniso, umtimba nesiphetfo.",
+            "Akuvele kutsi luyini lukhetfo.",
+            "Akuvele kutsi lwabakhona ngayiphi inyanga.",
+            "Akuvele lokwenteka ngalolukhetfo.",
+            "Akuvele imiphumela yalolukhetfo.",
+            "Akuvele buhle nebubi balolukhetfo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono yebahlolwa yemukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Kuphepha etikolweni.",
+          "type": "INDZABA LEHLANGOTSILUNYE/LENHLANGOTSIMBILI/LECHAZAKO",
+          "model_answers": {
+            "positives": [
+              "Labavumelana nekutsi kuphepha kukhona: batawesekela ngemaphuzu lahambisana naloko",
+              "Lafaka ekhatsi kubiyelwa kwetikolo",
+              "Bologadzi labahlala emagedeni etikolo",
+              "Kuseshwa kwawonkhe umuntfu longena emabaleni esikolo",
+              "Kuvalwa kwemagede nakufundvwa"
+            ],
+            "negatives": [
+              "Labaphikisako batawuveta tizatfu letenta baphikise."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono lenembako yebahlolwa yemukelekile.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6-1.8",
+          "text": "Tindzaba tetitfombe",
+          "type": "Visual Stimuli",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Bahlolwa batawunika tihloko letihambelana netitfombe bangagudluki kuto.",
+          "notes": "Letindzaba tetitfombe tingatsatsa nobe nguluphi luhlobo lwetindzaba kuleti: lelandzisako/lechazako/lehlangotsilunye/lenhlangotsimbili/leveta limuva lembhali.",
+          "topic": "Indzaba yetitfombe",
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "INCWADZI YEBUHLOBO",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIDZE",
+          "model_answers": [
+            "Ayibe nesingeniso, umtimba nesiphetfo.",
+            "Ayibe nelikheli linye lemhlolwa lelinelusuku esandleni sekudla.",
+            "Akweciwe umugca emva kwelikheli.",
+            "Akube nesibingelelo lesihambisana neluhlobo lwencwadzi esandleni sesancele.",
+            "Akweciwe umugca emva kwesibingelelo.",
+            "Akube nemapharagrafu/tigaba/tindzima.",
+            "Akweciwe umugca emkhatsini wetindzima.",
+            "Kuvalelisa lokufanele.",
+            "Akube neligama (lelingenasibongo) ekugcineni kwencwadzi, esandleni sesancele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "INCWADZI YEMTSETFO",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIDZE",
+          "model_answers": [
+            "Ayibe nesingeniso, umtimba nesiphetfo.",
+            "Emakheli aba mabili langakafakwa timphawu tekubhala.",
+            "Likheli lesibili lifakwa sikhundla salobhalelwako.",
+            "Kweciwa umugca embikwesibingelelo.",
+            "Sibingelelo sencwadzi kufanele sivete bulili balobhalelwako (sib. Mnumzane/Nkhosatana).",
+            "Sihloko sendzaba lokukhulunywa ngayo.",
+            "Singeniso lesetfula loko lekutawucocwa ngako.",
+            "Kweciwa umugca emva kwaleyo naleyo ndzima.",
+            "Tindzima letinemicondvo lebumbene.",
+            "Kweciwa umugca embikwesiphetfo.",
+            "Siphetfo lesisonga loko lebekucocwa ngako emtimbeni wencwadzi.",
+            "Kweciwa umugca embikwekuvalelisa.",
+            "Kuvalelisa lokutitfobako lokuhambelana nesibingelelo (sib. Ngimi lotitfobako).",
+            "Sibongo siyafakwa.",
+            "Kusetjentiswa irejista lefanele.",
+            "Kucikelelwa kusetjentiswa kwelulwimi ngalokujulile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "UMBIKO",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIDZE",
+          "model_answers": [
+            "Awube nesingeniso, umtimba nesiphetfo.",
+            "Akube neligama lalowo loya kuye.",
+            "Akube neligama lalowo lobuya kuye.",
+            "Akuvele lusuku lobhalwe ngalo.",
+            "Akuvele sihloko saloko lokubhalwa ngako, imbangela yekutibandzakanya kwelusha ekusebentiseni tidzakamiva.",
+            "Akubekhona umongo wembiko.",
+            "Akubekhona emavi ekubonga.",
+            "Lobhalile akasayine ekugcineni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "INKHULUMO LEHLELEKILE",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIDZE",
+          "model_answers": [
+            "Ayibe nesingeniso, umtimba nesiphetfo.",
+            "Kubingelela nekutetfula kwesikhulumi (ligama lesikhulumi nendzawo lesisuka kuyo).",
+            "Akuvele sihloko senkhulumo.",
+            "Emaphuzu laphatselene nekufundvisa ngekubaluleka kwelwati lwendzabuko nekulondvolotwa kwemagugu esive njll.",
+            "Ekugcineni akuvele emavi ekubonga.",
+            "Umoya nerejista yetiphakamiso kube ngulemukelekile, lengenaludlame nenhlamba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "SIGABA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "IPHOSTA",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIFISHA",
+          "model_answers": [
+            "Ayihehe emehlo etetsamelilwati.",
+            "Akusetjentiswe ifonti lebonakalako naletinhlobonhlobo.",
+            "Akusetjentiswe imibala legcamile.",
+            "Umlayeto wayo awucondze ngco.",
+            "Akuvetwe injongo yalomcimbi, kufundvisa bomake ngekutivulela emabhizinisi emsebenti wetandla.",
+            "Akuvele lusuku nendzawo lapho umcimbi uyobanjelwa khona.",
+            "Ayivete sikhatsi lotawucala ngaso lomcimbi.",
+            "Ayivete tikhulumi letitawukhuluma ngalelo langa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "UMBIKO LOMFISHA/ WHATSAPP",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIFISHA",
+          "model_answers": [
+            "Lucingo lolunenombolo leneluphawu lweWhatsapp.",
+            "Inombolo yeselula yemuntfu lotawumtfumelela lomlayeto.",
+            "Akusetjentiswe inkhulumongco.",
+            "Umbiko awungabi mudze kakhulu kodvwa uvakale."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Naleminye imibono lehambisana nesihloko seWhatsapp.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "TICONDZISO (Kunakekela tinwele)",
+          "type": "EMATHEKSTHI EMIBHALOMBIKO LEMIFISHA",
+          "model_answers": [
+            "Kudla kudla lokunemavithamini, emaprotheyni nemaminerali, njengetitselo netibhidvo.",
+            "Kusebentisa emashampu lanetitsako letimalula nawutigeza tinwele takho.",
+            "Kumasaja inhloko yakho kwentela kuhamba kwengati lokutawenta tinwele tikhule kahle.",
+            "Kugcobisa emafutsa latawugcina tinwele takho titsambile.",
+            "Kungenti titayela letisebentisa kakhulu lokushisako.",
+            "Kusebentisa emafutsa lavikela kushisa nawutosebentisa emathulusi lashisako kwenta sitayela enhloko.",
+            "Kungenti titayela letidvonsa tinwele ngaso sonkhe sikhatsi.",
+            "Nakunemoya ungabopha liduku noma ufake sigcoko kuvimbela koma kwetinwele.",
+            "Geza tinwele takho njalo kuvimbela kugcwala kwemafutsa lokungatenta tigcine tephuka.",
+            "Nawubhukusha faka sigcoko lesivimbela kungena kwemanti lanemakhemikhali enhloko."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": "Atibe lishumi.",
+          "notes": "Naleminye imibono lehambisana nekunakekela tinwele kutsi tingaphuki.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 11780,
+    "cached_tokens_saved": 0
+  }
+}

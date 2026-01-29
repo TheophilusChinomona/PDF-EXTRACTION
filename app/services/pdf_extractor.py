@@ -12,7 +12,7 @@ from typing import Optional, Any, Dict
 from google import genai
 from google.genai import types
 
-from app.models.extraction import ExtractionResult, ExtractedTable, FullExamPaper
+from app.models.extraction import DocumentStructure, ExtractionResult, ExtractedTable, FullExamPaper
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.utils.retry import retry_with_backoff
 
@@ -360,7 +360,8 @@ async def extract_pdf_data_hybrid(
     client: genai.Client,
     file_path: str,
     model: str = "gemini-3-flash-preview",
-    raise_on_partial: bool = False
+    raise_on_partial: bool = False,
+    doc_structure: Optional[DocumentStructure] = None,
 ) -> FullExamPaper:
     """
     Extract exam paper PDF using hybrid pipeline (OpenDataLoader + Gemini).
@@ -397,7 +398,9 @@ async def extract_pdf_data_hybrid(
         >>> print(result.processing_metadata["method"])  # "hybrid"
     """
     # Step 1: Extract PDF structure using OpenDataLoader (local, fast, free)
-    doc_structure = extract_pdf_structure(file_path)
+    # Re-use pre-computed structure if provided (avoids duplicate work during classification)
+    if doc_structure is None:
+        doc_structure = extract_pdf_structure(file_path)
 
     # Step 2: Route based on quality score
     if doc_structure.quality_score < 0.7:

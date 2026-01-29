@@ -102,9 +102,10 @@ class TestExtractEndpoint:
         mock_create_extraction.return_value = "extraction-uuid-123"
         mock_exists.return_value = True
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_201_CREATED
@@ -212,9 +213,10 @@ class TestExtractEndpoint:
         }
         mock_get_extraction.return_value = existing_result
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions - should return 200 (not 201) with existing result
         assert response.status_code == status.HTTP_200_OK
@@ -255,9 +257,10 @@ class TestExtractEndpoint:
         # Mock extraction failure
         mock_extract_hybrid.side_effect = Exception("Gemini API timeout")
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
@@ -297,9 +300,10 @@ class TestExtractEndpoint:
             [{"type": "missing", "loc": ("confidence_score",), "msg": "Field required"}],
         )
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_422_UNPROCESSABLE_ENTITY
@@ -338,9 +342,10 @@ class TestExtractEndpoint:
         # Mock database error
         mock_create_extraction.side_effect = Exception("Database connection timeout")
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
@@ -382,9 +387,9 @@ class TestExtractEndpoint:
         mock_create_extraction.return_value = "uuid-with-webhook"
         mock_exists.return_value = True
 
-        # Make request with webhook_url
+        # Make request with webhook_url (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        data = {"webhook_url": "https://example.com/webhook"}
+        data = {"webhook_url": "https://example.com/webhook", "doc_type": "question_paper"}
         response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
@@ -433,9 +438,10 @@ class TestExtractEndpoint:
         mock_create_extraction.return_value = "uuid-123"
         mock_exists.return_value = True
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_201_CREATED
@@ -478,9 +484,10 @@ class TestExtractEndpoint:
         mock_extract_hybrid.side_effect = Exception("API failure")
         mock_exists.return_value = True
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_500_INTERNAL_SERVER_ERROR
@@ -528,9 +535,10 @@ class TestExtractEndpoint:
         # Mock cleanup error
         mock_remove.side_effect = PermissionError("File in use")
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions - should still succeed
         assert response.status_code == status.HTTP_201_CREATED
@@ -1235,9 +1243,10 @@ class TestPartialExtractionAndRetry:
 
         mock_create_extraction.return_value = "partial-uuid-123"
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_206_PARTIAL_CONTENT
@@ -1290,9 +1299,10 @@ class TestPartialExtractionAndRetry:
         mock_extract_hybrid.return_value = sample_extraction_result
         mock_exists.return_value = True
 
-        # Make request (retry)
+        # Make request (retry, explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_201_CREATED  # Now completed
@@ -1332,9 +1342,10 @@ class TestPartialExtractionAndRetry:
             "metadata": {"title": "Test Paper"},
         }
 
-        # Make request
+        # Make request (explicit doc_type skips auto-classification)
         files = {"file": ("test.pdf", BytesIO(sample_pdf_content), "application/pdf")}
-        response = client.post("/api/extract", files=files)
+        data = {"doc_type": "question_paper"}
+        response = client.post("/api/extract", files=files, data=data)
 
         # Assertions
         assert response.status_code == status.HTTP_200_OK  # Not 201

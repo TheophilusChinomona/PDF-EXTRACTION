@@ -1,0 +1,662 @@
+{
+  "meta": {
+    "subject": "Sepedi Leleme la Gae (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "12",
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A: THETO",
+      "questions": [
+        {
+          "id": "1",
+          "text": "'O MMAGOBANAKE' – PM Mashilo",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Moko wa sereto",
+          "essay_structure": {
+            "introduction": [
+              "Moko ke tabataba yeo moreti a ratago go e tšweletša seretong sa gagwe."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Moreti o bolela ka mokgwa wo a ratago mosadi wa gagwe ka gona."
+                ]
+              },
+              {
+                "sub_topic": "Tematheto ya 1",
+                "points": [
+                  "Moreti o tšweletša ka fao a kopanego le mmagobana ba gagwe ka gona.",
+                  "O re o mo kgethile gare ga makgarebe a tletše ka ge e le yo mobotse."
+                ]
+              },
+              {
+                "sub_topic": "Tematheto ya 2",
+                "points": [
+                  "Moreti o re o leboga Modimo ge a mo file mosadi yo e lego mpho ye bohlokwa bophelong bja gagwe."
+                ]
+              },
+              {
+                "sub_topic": "Tematheto ya 3",
+                "points": [
+                  "Moreti o re mosadi wa gagwe o mo dirile gore a iketle a hwetše lethabo leo a le nyakago.",
+                  "Lapeng la bona go rena lerato le khutšo."
+                ]
+              },
+              {
+                "sub_topic": "Tematheto ya 4",
+                "points": [
+                  "Moreti o ipiletša go mosadi wa gagwe gore a se ke a mo fetogela ka lebaka la tšeo di diregago mo lefaseng.",
+                  "A se theeletše se se bolelwago ke batho ba bangwe."
+                ]
+              },
+              {
+                "sub_topic": "Tematheto ya 5",
+                "points": [
+                  "Moreti o kgopela mosadi wa gagwe gore ba se dire dilo tše di diregago ka ntle tše di tla tlago di dubaganya lethabo lapeng la bona."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "2",
+          "text": "'THEKA LE A THUNYA' – M Mamabolo",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.1.1",
+              "value": "Poeletšothomi: 'Ke …'"
+            },
+            {
+              "sub_id": "2.1.2",
+              "value": "Poeletšogare: '… ra ...' / '…ya…' / '…ke…' (E TEE fela.)"
+            },
+            {
+              "sub_id": "2.2",
+              "value": "Mothalotheto wa 5 – Lehono o lwala la go hwa; Mothalotheto wa 6 – Tše a bego a di direla sephiring di tšwetše nyanyeng."
+            },
+            {
+              "sub_id": "2.3",
+              "value": "Mothalothetong wa 13 temanathetong ya 3 moreti o mothofaditše bolwetši ka ge a re bo tennwe ke dihlare tša ngaka; Mothalothetong wa 15 temanathetong ya 3 moreti o mothofaditše lerato ka ge a re ga le nyake go bona ge motho a rata batho ba bantši."
+            },
+            {
+              "sub_id": "2.4",
+              "value": "Sereto se se na le ditemanatheto tše 3; Temanatheto ye nngwe le ye nngwe e na le methalotheto ye 6."
+            },
+            {
+              "sub_id": "2.5",
+              "value": "Moya wa boitsholo: Ga se a botegela molekani wa gagwe bjale o kgopela gore a mo swarele."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3",
+          "text": "'NTLEMOLLENG' – PM Mashilo",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1",
+              "value": "... latela, ... mameno, ... golela, ... leno"
+            },
+            {
+              "sub_id": "3.2",
+              "value": "Se šomišitše tshwantšhanyo ... 'bokatlou' (Sereti se gatelela kgopolo ya gore se gotše ya ba senatla); Se šomišitše kgetho le tirišo ya mantšu …'thari ya kgokong' (Sereti se gatelela kgopolo ya go laetša kgodišo le tlhokomelo ye kgolo ya batswadi); Se šomišitše kgetho le tirišo ya mantšu …'dirotholana.' (Sereti se šomišitše ‘dirotholana’ go tšweletša gore ke yo mongwe wa bana.) (E TEE fela.)"
+            },
+            {
+              "sub_id": "3.3",
+              "value": "Kelelothalo temanathetong go tšweletša go se ipshine ka lenyalo ga sona; Poeletšo ya sekafoko: …ka yona; Poeletšophetši: …bophelo. (TŠE PEDI fela.)"
+            },
+            {
+              "sub_id": "3.4",
+              "value": "Sereti se dirišitše 'dirotholana' go laetša bana; Sereti se dirišitše 'majaditala' go laetša gore o phela e ke o a ipshina mola a le ka gare ga mohlako."
+            },
+            {
+              "sub_id": "3.5",
+              "value": "Maikutlo a manyami/tenega: Sereti se nyamišwa/tenwa ke bophelo bjo se lego ka gare ga bjona bja go gapeletšwa lenyalo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4",
+          "text": "'LE IKGOBOŠETŠANG?' – MJ Tauatsoala",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1",
+              "value": "Le ikgobošetšang kgobošo ya bogoboga makgarebe methepa? /Le ipoulelang bapoulegi la fetoga bona nyanyeng? (Sereti se gatelela ka mo makgarebe ba itshegišago ka batho ka gona.)"
+            },
+            {
+              "sub_id": "4.2",
+              "value": "… masogana a bogela / Masogana a bogela … (Mohola wa gona ke go tlemaganya dikgopolo tša gore masogana a lebelela dirope tša makgarebe ka kganyogo.)"
+            },
+            {
+              "sub_id": "4.3",
+              "value": "Sereti se dirišitše mothofatšo go gatelela kgopolo ya go se apare gabotse ga makgarebe/Go apara diaparo tše nnyane ga makgarebe ka gore dirope di tamiša mofetakatsela mola di sa bolele."
+            },
+            {
+              "sub_id": "4.4",
+              "value": "Sereto se na le ditemanatheto tše 2; Temanatheto ye nngwe le ye nngwe e bopilwe ka methalotheto ye 7."
+            },
+            {
+              "sub_id": "4.5",
+              "value": "Maikutlo a manyami: Ke nyamišwa ke gore makgarebe ga a apare ka tsela ye e amogelegago."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5",
+          "text": "'GO KWENA' – OK Matsepe",
+          "type": "Short Answer",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1",
+              "value": "-ng a, -se b, -ng a, -se b"
+            },
+            {
+              "sub_id": "5.2",
+              "value": "Kwena e tlaiša dihlapi; Lewatle le rwele dilo tše di sa tsebjego."
+            },
+            {
+              "sub_id": "5.3",
+              "value": "Tshwantšho: Kwena e phediša diphoofolo tše dingwe boima ka go di šitiša go nwa meetse; Tirišo: Bothata bo rarologa ge sereti se re tšatši le lengwe kwena e tlo hwa ka tlala le lenyora ka ge meetse a tla be a pšhele."
+            },
+            {
+              "sub_id": "5.4",
+              "value": "Sonete: Methalotheto ke ye 14, patrone ya morumokwano ya go ikgetha, dikwatreine tše tharo le khapholete; Thetotsholo: Go solwa bopelompe bja kwena bja go tlaiša diphoofolo tše dingwe. (E TEE fela.)"
+            },
+            {
+              "sub_id": "5.5",
+              "value": "Batho e se be bomphenyašilo; Kwena e tlaiša diphoofolo tše dingwe e lebala gore tšatši le lengwe ngwedi o tla apogelwa ke maru, meetse a gopa."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B: PADI/DINGWALOTŠHABA",
+      "questions": [
+        {
+          "id": "6",
+          "text": "BADIMO BA BOLETŠE – MJ Mpepele",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Tikologo ya Badimo ba Boletše",
+          "essay_structure": {
+            "introduction": [
+              "Tikologo ya sengwalo ke lefelo la ditiragalo tša baanegwa ka nako ye e rilego.",
+              "Tikologo ya sengwalo e lebane le nako le felo.",
+              "Nako le lefelo di lemogwa ka diteng tša sengwalo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Tikologo ya 'Badimo ba boletše' ke ya segologolo.",
+                  "Baanegwa le ditiro ke tša segologolo mola le bophelo go phelwa bja segologolo."
+                ]
+              },
+              {
+                "sub_topic": "Nako",
+                "points": [
+                  "Tatelano ya bogoši - Kgoši ge e hlokofetše bogoši bo fiwa ngwana wa pele ka lapeng. Ditau o swanetše go tšea bogoši bja Tatagwe.",
+                  "Dinaga di bušwa ke magoši - Mohu Kgoši Tsweke (Bakone) mola Kgoši Manamela (Bahlaloga).",
+                  "Melato e sekwa mošate – Mothofela o ahlolwa ka go kgokelelwa mohlareng bošego ka moka.",
+                  "Go sepelwa ka maoto ge go tšewa maeto – Barongwa ba sepela dikgala tše telele go fihliša melaetša.",
+                  "Go tshepilwe dingaka tša setšo – Ditau o išwa go Ngaka Ngwetšana go hlapišwa."
+                ]
+              },
+              {
+                "sub_topic": "Lefelo",
+                "points": [
+                  "Motse/Mošate wa Kgoši Tsweke – Ke fao go rerwago ditaba tša Ditau.",
+                  "Motse/Mošate wa Kgoši Pilošamadiba – Barongwa ba Kgoši Manamela ba tlile go kgopela sego sa meetse.",
+                  "Motse/Mošate wa Kgoši Manamela – Go ntšhwa banna go ya go loma Kgoši Ntobe tsebe.",
+                  "Motseng wa Kgoši Ntobe – Banna ba Kgoši Manamela ba tsena mo motseng wo.",
+                  "Motse wa Ngaka Ngwetšana – Ditau o išitšwe gona go alafša."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongwadi o atlegile go tšweletša tikologo ya padi ye ka ge nako le mafelo di sepelelana le tikologo ya segologolo."
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "text": "BADIMO BA BOLETŠE – MJ Mpepele",
+          "type": "Short Answer",
+          "model_answers": [
+            "7.1 Mahlephiša ke motlabo wa mosadi wa Mabote.",
+            "7.2 Ga se a loka. E be e re ge letšatši le sobela a tšwe ka lesoro; O betha mosadi wa gagwe.",
+            "7.3 Mabote o bethile mosadi wa gagwe yo a imišitšwego ke Mahlephiša.",
+            "7.4 E tšweletša maikutlo a pefelo a Kgoši Manamela; E utolla semelo sa go hlompha sa Mabote (o bitša Kgoši ‘mong’aka’.).",
+            "7.5 Leina la padi ke 'Badimo ba boletše' mola diteng tša padi ye di le mabapi le taelo ya mohu Kgoši Tsweke ya go re Ditau a nyale Thabišo.",
+            "7.6 Maikutlo a manyami: Ke nyamišwa ke gore Mabote o betha mosadi wa gagwe; Mabote ga a hlokomele mosadi wa gagwe.",
+            "7.7 Molwantšhwa – Ditau, Molwantšhi – Kgokolo.",
+            "7.8 Thulanontle: Kgokolo le Ngwetšana ba ka fetša ba hlabelana mašata; Ngwetšana a ka foša Kgokolo ka moleko.",
+            "7.9 Mongwadi o šomišitše poledišano go hlaloša maemo a badimo; O šomišitše motho wa boraro 'o' go hlaloša ka mo Kgokolo a fihlilego gae.",
+            "7.10 Ditau a ka raka malomeagwe; Ditau a ka bega malomeagwe kgorong; Ditau a ka lefiša malomeagwe.",
+            "7.11 Mantšu a Komanyi a gore Ditau o tlo nyala Thabišo a tšweletša thekniki ya tekolapejana; Se se netefaditšwe ke ge Ditau a nyala Thabišo.",
+            "7.12 Lentšu la mohu ga le tshelwe: Ditau o thomile a sa kwane le taelo ya tatagwe eupša o feleleditše a nyetše Thabišo gomme bophelo bja gagwe bja sepela gabotse."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "8",
+          "text": "KGALAGALO TŠA SETU – MS Machitela",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Tikologo ya Kgalagalo tša setu",
+          "essay_structure": {
+            "introduction": [
+              "Tikologo ya sengwalo ke lefelo la ditiragalo tša baanegwa ka nako ye e rilego.",
+              "Go na le tikologo ya sebjalebjale le ya segologolo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Tikologo ya 'Kgalagalo tša setu' ke ya sebjalebjale.",
+                  "Baanegwa le ditiro ke tša sebjalebjale mola le bophelo go phelwa bja sebjalebjale."
+                ]
+              },
+              {
+                "sub_topic": "Nako",
+                "points": [
+                  "Ditiragalo di kgatlampana mafelong a sebjalebjale (Polokwane).",
+                  "Melaetša e fihlišwa ka potlako ka difouno (iPhone).",
+                  "Apara dipokathe tša maina (Guess, Polo, Daniel Hetcher, Kurt Geiger, Timberland).",
+                  "Go bogelwa dithelebišene.",
+                  "Go iwa dikerekeng go baruti.",
+                  "Go rekwa mabenkeleng a ka toropong (Tzaneen, troli)."
+                ]
+              },
+              {
+                "sub_topic": "Lefelo",
+                "points": [
+                  "Ka phapošeng ya boapeelo ka ga boFiona.",
+                  "Ka phapošeng ya boapeelo ka ga Mojagobedi.",
+                  "Bookelong bja Kgapane.",
+                  "Toropong ya Polokwane (Tshedimošo ya Theknolotši).",
+                  "Polokwane ga Ngaka Devendranath (diteko tša kankere ya molomo wa popelo).",
+                  "Torotswana ya Tebele (Duiwelskloof)/Modjadjieskloof."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongwadi o atlegile go tšweletša tikologo ya padi ye ka ge nako le mafelo di sepelelana le tikologo ya sebjalebjale."
+            ]
+          }
+        },
+        {
+          "id": "9",
+          "text": "KGALAGALO TŠA SETU – MS Machitela",
+          "type": "Short Answer",
+          "model_answers": [
+            "9.1 Molatelo ke mogadibo wa Mmakoma.",
+            "9.2 Ga a na nnete. O nyaka go tšwa ka gae ntle le go fa Mojagobedi lebaka; O phara dikgaetšedi tša Mojagobedi ka molato wa maaka.",
+            "9.3 Molatelo o utolla gore o na le bolwetši bja kankere ya molomo wa popelo.",
+            "9.4 E tšweletša moya/maikutlo a kgakanego (Mojagobedi o gakantšhwa ke polelo ya Molatelo); Go utolla semelo sa Molatelo sa go hloka nnete. (E TEE fela.)",
+            "9.5 Leina la padi ke 'Kgalagalo tša setu' mola diteng di le mabapi le setu se se galagalago ka lebaka la sephiri sa bolwetši.",
+            "9.6 Maikutlo a manyami: Ke nyamišwa ke gore Molatelo ga a botše monna wa gagwe go re o a lwala; O tshepa bagwera go feta monna wa gagwe.",
+            "9.7 Molwantšhwa – Molatelo, Molwantšhi – Mojagobedi.",
+            "9.8 Thulano ya ka ntle: Mojagobedi o thulana le Mphapantšhi ka dipolelo, Mphapantšhi o nyaka go robala le yena.",
+            "9.9 Mongwadi o šomišitše poledišano go tšweletša thulano; O šomišitše motho wa boraro 'o' go hlaloša go sepetšwa ga Mphapantšhi ka kgang.",
+            "9.10 Mojagobedi a ka botša Molatelo; Molatelo a ka kwa taba ye ka pudi ya tsela; Mphapantšhi a ka botša Molatelo; Mphapantšhi a ka swariša Mojagobedi. (TŠE THARO fela.)",
+            "9.11 Mantšu a Mojagobedi 'Go na le se sengwe se se diragalago ka mosadi yola' a tšweletša thekniki ya tekolapejana; Se se netefaditšwe ke go utolla kankere ya Molatelo.",
+            "9.12 Setu/sephiri se ka thuba lapa: Molatelo o utetše monna wa gagwe ka bolwetši gomme Mojagobedi a thoma go ratana le Fiona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "10",
+          "text": "TODI YA BATLOGOLO – M Makgopa, BMT Makobe le AP Nkadimeng",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Sebopego sa dingwalotšhaba",
+          "essay_structure": {
+            "introduction": [
+              "Sebopego ke mokgwa wo sengwalo/kanegelo e tšweleditšwego ka gona.",
+              "Go lebelelwa matseno, mmele le mafetšo."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Sebopego sa Nonwane",
+                "points": [
+                  "Matseno: 'Nonwane, nonwane!', 'Nkano, nkano!', 'E rile e le nonwane'.",
+                  "Mmele: Baanegwa (batho, diphoofolo, dinonyana, madimo). Diteng di lebane le bohlokwa bja tlhago (alafa malwetši).",
+                  "Mafetšo: 'Se seo sa mosela' seripa!', 'Mpho! Sa mosela senkota!'."
+                ]
+              },
+              {
+                "sub_topic": "Sebopego sa seretotumišo sa magoši",
+                "points": [
+                  "Matseno: Mokgolokwane, boitsebišo (setlogo). Mohlala: Ke Mohananwa wa Mmatšhwene a Lebula.",
+                  "Mmele: Baanegwa (Ba gaMaleboho). Diteng (Setlogo sa lešika, Ngwato a' Mphela).",
+                  "Mafetšo: 'Ke tšhaba mediti/baditi/Selepe gomela'. Sereto sa bagaMaleboho ga se na mafetšo."
+                ]
+              },
+              {
+                "sub_topic": "Sebopego sa koša",
+                "points": [
+                  "Matseno: Thongwa ke mohlabeledi a opela.",
+                  "Mmele: Baanegwa (Mohlabeledi le baopedi). Diteng di bopša ke poeletšo ya mantšwana a koša.",
+                  "Mafetšo: Koša e fetšwa ka go telefatša senoko sa mafelelo (Mmalo…!)."
+                ]
+              }
+            ],
+            "conclusion": []
+          }
+        },
+        {
+          "id": "11",
+          "text": "TODI YA BATLOGOLO",
+          "type": "Short Answer",
+          "model_answers": [
+            "11.1 Nonwane ya selehono/Nonwane ya kgogamašego.",
+            "11.2 Go bolelwa ka lekheišene la Soweto; Go bolelwa ka dipulo tša maswika.",
+            "11.3 Rahodu a ka swarwa ke maphodisa; Setšhaba se ka raka Rahodu/sa mo tsogela maatla.",
+            "11.4 Tšweletšo ya bothata: Rahodu o utswa dikgomo a rekišetša batho, a gobatšwa ke kgomo; Tharollo: Rahodu o rwalwa ke kgomo ye e tsogilego bahung.",
+            "11.5 Leina la nonwane: Kgomo e tsogile bahung. Diteng di mabapi le Rahodu yo a bego a utswa leruo a rekiša.",
+            "11.6 Bohodu bo tsentšha moreki le morekiši mathateng: Mosadi o tsene mathateng ka lebaka la go reka kgomo ye e utswitšwego ye e gannego go butšwa ya ba ya tsoga ya tšhaba.",
+            "11.7 Poeletšo ya sekafoko: Re …, Re swere …",
+            "11.8 Bohlabatšatši; SebušaBakaranga.",
+            "11.9 Šikatee – Moloko o tee wa Balobedu, Bavenda le Baphalaborwa; Hubakela – Masogana a se kitimele go ya Borwa; Meetsetlhweka – Go hloka ditšhila ga meetse a noka ya Molototsi.",
+            "11.10 Kelelathalo: Kgopolo ya go hlomphwa ga bogoši bja Balobedu go ba bohwa bja naga ya Afrika-Borwa.",
+            "11.11 Maikutlo a boikgantšho/lethabo: Sereti se ikgantšha ka go neša pula; Se thabišwa ke ka mo bogoši bja Balobedu bo hlomphilwego. (E TEE fela.)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C: PAPADI/TERAMA/TIRAGATŠO",
+      "questions": [
+        {
+          "id": "12",
+          "text": "O IPHIHLETŠENG? – LT Maphoso",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Morero wa papadi",
+          "essay_structure": {
+            "introduction": [
+              "Morero ke kgopolokgolo ye mongwadi a ratago go e tšweletša ka sengwalo sa gagwe."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Morero wa 'O iphihletšeng?' o lebane le go re go phegelela bophelong go tliša katlego/ Kgotlelelo e tswala katlego.",
+                  "Rebone o hwetša dipoelo tša gagwe tša marematlou a tšweletše.",
+                  "O rata go ithutela tša dijo (Dietician) eupša tatagwe o gana go mo lefela.",
+                  "Rebone o re thuto pele banna morago.",
+                  "Morutišigadi Kgoroši le Moruti Shai ba mo thuša ka mašeleng.",
+                  "Rebone o atlega dithutong tša gagwe ka Unisa a le gae."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongwadi o atlegile go tšweletša morero wa papadi ye wa go re go phegelela bophelong go tliša katlego."
+            ]
+          }
+        },
+        {
+          "id": "13",
+          "text": "O IPHIHLETŠENG? – LT Maphoso",
+          "type": "Short Answer",
+          "model_answers": [
+            "13.1 'O tagilwe bjang?'; 'A ke re nka be o mmona mo?'",
+            "13.2 Benjamene o utswitše dikgomo tša tatagwe a di rekiša.",
+            "13.3 Di hlahla mmadi ka: go goroga ga Benjamene/go kokota ga Benjamene.",
+            "13.4 Mminoratho ke mmino o moteletšana wo o aroganyago ditemana (e.g. tiragalo ya bošego sethokgweng); Mminorathwana ke mmino o mokopana.",
+            "13.5 Sarinki o ipolela gore ke yena a utswitšego tšhelete ya Mahunela; Sarinki o swarelwa; Benjamene o swarelwa.",
+            "13.6 Maikutlo a manyami/pefelo: Ke nyamišwa ke gore Sarinki o ratana le Benjamene le tatagwe; Ke nyamišwa ke gore Sarinki o utswetša Mahunela tšhelete.",
+            "13.7.1 Jemina ke mmane wa Rebone.",
+            "13.7.2 Hlogi ke mogwera wa Rebone.",
+            "13.8 Rebone: Ditiragalo di dikologa godimo ga gagwe, o thoma le papadi a be a fetša le yona, morero o theilwe godimo ga gagwe. (TŠE PEDI fela.)",
+            "13.9 Mohola ke go lemoša batheeletši gore kgaolo e a thoma goba e a fela.",
+            "13.10 Mahunela o gana go lefela morwedi tšhelete ya dithuto; O gana go ya bookelong ka lebaka la go se nyake go ntšha tšhelete; O gana go lefa Ngaka Thokgola; O laela Rebone go kga dikota tša morogo wa leroto sebakeng sa go reka sešebo. (TŠE THARO fela.)",
+            "13.11 Batheeletši ba be ba sa letela gore Mahunela a hlokofale a se a bona bohlokwa bja thuto; Ba be ba se ba letela gore Rebone a se swarele Sarinki. (TŠE PEDI fela.)",
+            "13.12 E tšweletša semelo sa Mahunela sa bopelompe; E tšweletša maikutlo a pefelo; E thuša go tšwetša pele tiragalo. (TŠE PEDI fela.)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "14",
+          "text": "NAGA GA DI ETELANE – MS Serudu",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Morero wa Naga ga di etelane",
+          "essay_structure": {
+            "introduction": [
+              "Morero ke kgopolokgolo ye mongwadi a ratago go e tšweletša ka sengwalo sa gagwe."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Morero wa Naga ga di etelane ke go re ga bomotho ga go na bosehlana.",
+                  "Mphaka o thulanago le tshepedišo ya mmušo wa gabo (thuto le dipolitiki).",
+                  "Mphaka o tšwela Takone a gopola khutšo eupša o kopana le tshwarompe.",
+                  "Mphaka le lapa la gagwe ba hlorišwa ka ge e le matšwantle.",
+                  "Ba fetela Letsheng la Mogadisho eupša bothata bja go ba motšwantle bo tšwela pele.",
+                  "Mafelelong Mphaka le lapa la gagwe ba gomela gae Bonwatau ka morago ga go falala."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongwadi o atlegile go tšweletša morero wa papadi ye wa go re ga gabomotho ga go na bosehlana."
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "text": "NAGA GA DI ETELANE – MS Serudu",
+          "type": "Short Answer",
+          "model_answers": [
+            "15.1 '… ditlatla tenang'; 'Ke disoso dilo tše!'",
+            "15.2 Mphaka ga se a ya kerekeng ka lebaka la toro ya mmagwe.",
+            "15.3 Di hlahla babadi ka go thoma go tagwa ga Mphaka; Go utolla semelo sa Mphaka sa go fela pelo. (E TEE fela.)",
+            "15.4 Thulanontle: Mphaka o thulana le Rola le Kala ka taba ya gore mang o ithutile kae.",
+            "15.5 Lekgotla la Yunibesithi le hlola poso; Mphaka o fiwa lengwalo la go mo lebogiša mošomo; Mphaka o tšea sephetho sa go boela gae.",
+            "15.6 Maikutlo a manyami: Ke nyamišwa ke gore batho ba kgethologanya bafaladi; Batho ba nagana gore bafaladi ba tšeela maemo.",
+            "15.7.1 Ke bagwera.",
+            "15.7.2 Ke banyalani/Ke monna le mosadi.",
+            "15.8 Mphaka: Ditiragalo di dikologa godimo ga gagwe, o thoma le papadi a be a fetša le yona, morero o theilwe godimo ga gagwe. (TŠE PEDI fela.)",
+            "15.9 Batho ba swanetše go lebelela bokgoni bja motho e sego gore o tšwa kae.",
+            "15.10 O fotlela Rola le Kala; Ga a tšhabe go ba botša gore ke ditlaela; O ikanne gore a ka se boele Bonwatau.",
+            "15.11 Mmadi o be a se a letela gore Lekgotlataolo le lebogiše Mphaka; Mmadi o be a se a letela gore Mphaka a boele gae.",
+            "15.12 E tšweletša semelo sa Mphaka sa bofšega; E tšweletša maikutlo a letšhogo; E tšweletša thulano ya ka gare. (TŠE PEDI fela.)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "16",
+          "text": "LEHUFA – P Mothupi",
+          "type": "Essay",
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": "Morero wa Lehufa",
+          "essay_structure": {
+            "introduction": [
+              "Morero ke kgopolokgolo yeo mongwadi a ratago go e tšweletša ka sengwalo sa gagwe."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Tirišo",
+                "points": [
+                  "Morero wa Lehufa ke go re lemoša go re lehufa ga le age lapa.",
+                  "Ntlogeleng o befedišwa ke go hwetša dinomoro tša Lerato ka potleng ya Ntshepe.",
+                  "Ntlogeleng o thoma go hlapaola Ntshepe le go latelela Lerato mošomong.",
+                  "Ntlogeleng o ya go Mešunkwane go nyakela Ntshepe dihlare tša lehufa.",
+                  "Pheletšong Ntlogeleng o a iphega o a hlokofala.",
+                  "Radithekisi o gana go fa Lerato koloi, o nyaka badiši go mo diša.",
+                  "Radithekisi o nyakela Ntshepe babolayi.",
+                  "Lerato o hlala Radithekisi ka lebaka la lehufa.",
+                  "Radithekisi o fetša a ithuntšhitše eupša ga a hlokofale."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Mongwadi o atlegile go tšweletša morero wa papadi ye wa go re lehufa ga le age lapa."
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "text": "LEHUFA – P Mothupi",
+          "type": "Short Answer",
+          "model_answers": [
+            "17.1 'Hei, wena Ntshepe!'; 'Ga o na dihlong, monna tena!'",
+            "17.2 Lerato o file Ntshepe dinomoro tša mogala gore a mo leletše ge a nyaka tšeo lebenkeleng.",
+            "17.3 Di hlahla babadi mabapi le go bala kuranta ga Ntshepe; Go hlaloša tiragalo ya Ntlogeleng ya go tšwa ka phapošing; Di hlaloša semelo sa Ntshepe sa boleta. (E TEE fela.)",
+            "17.4 Thulano ya ka ntle: Ntlogeleng o thulana le Ntshepe ka lebaka la dinomoro tša mogala.",
+            "17.5 Lerato o hlala Radithekisi; Ntshepe le Lerato ba a nyalana; Radithekisi o kgopela tshwarelo.",
+            "17.6 Maikutlo a manyami: Ke nyamišwa ke go bona Ntlogeleng a nyatša monna; Ntlogeleng ga a itshepe; Ntlogeleng o sepelela monna dingaka. (TŠE PEDI fela.)",
+            "17.7.1 Ke bagwera/Bašomimmogo.",
+            "17.7.2 Ke monna le mosadi/banyalani.",
+            "17.8 Radithekisi: Ditiragalo di dikologa godimo ga gagwe, o thoma le papadi a be a fetša le yona, morero o theilwe godimo ga gagwe. (TŠE PEDI fela.)",
+            "17.9 Mosadisadi o kgotlelela mathata a lenyalo la gagwe.",
+            "17.10 O roga Lerato pele ga mmagwe; O bitša mosadi mosatšana; O nyatša kereke o re ke kerekana. (TŠE THARO fela.)",
+            "17.11 Mmadi o be a sa letela gore Radithekisi a kgopele tshwarelo; Mmadi o be a se a letela gore Lerato le Ntshepe ba mo swarele.",
+            "17.12 E tšweletša semelo sa Ntlogeleng sa go se itshepe; E tšweletša maikutlo a letšhogo; E tšweletša semelo sa lenyatšo. (TŠE PEDI fela.)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 26468,
+    "cached_tokens_saved": 0
+  }
+}

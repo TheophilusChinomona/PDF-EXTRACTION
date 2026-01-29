@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "subject": "Sesotho Puo ya Tlatsetso ya Pele (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "Grade 12 (SC/NSC)",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Le kajeno ke sa ipotsa hore ke fetile jwang bothateng boo!",
+          "type": "Essay",
+          "model_answers": [
+            "Di hlakise ketsahalo kapa diketsahalo tsa mohlang oo, tse neng di le boima tse etsang hore mongodi a nne a ipotse hore o ne a fete jwang bothateng boo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": {
+            "introduction": [
+              "Sehlooho",
+              "Selelekela"
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Mmele",
+                "points": [
+                  "Moralo wa mantlha o hatellang hodima ditsela tse itseng tsa ho etsa dintho le tsa phetelo tse itshetlehileng hodima tlhahlamano ya diketsahalo ho latela nako.",
+                  "Polelo ya mohopolo wa sehlooho",
+                  "Dipolelo tsa tlatsetso ho bontsha tlhahlamano ya diketsahalo."
+                ]
+              }
+            ],
+            "conclusion": [
+              "Phethelo"
+            ]
+          }
+        },
+        {
+          "id": "1.2",
+          "text": "Ruri mehla e fetohile!",
+          "type": "Essay",
+          "model_answers": [
+            "Di hlakise kamoo mehla e seng e fetohile kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Eo thuto e tla dula pelong ya ka ho ya ho ile.",
+          "type": "Essay",
+          "model_answers": [
+            "Di hlakise thuto eo mongodi a buang ka yona le kamoo a tla dula a e hopola kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Thekenoloji ya Phetoho ya Bone ya Diindasteri (4th Industrial Revolution) e nketse batho mesebetsi. Na o a dumela?",
+          "type": "Essay",
+          "model_answers": [
+            "Di totobatse kamoo Thekenoloji ya Phetoho ya Bone ya Diindasteri e nketseng batho mesebetsi kateng.",
+            "KAPA",
+            "Di totobatse kamoo Thekenoloji ya Phetoho ya Bone ya Diindasteri e sa nkelang batho mesebetsi kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Botle le bobe ba dithuto tsa tlatsetso tsa mafelo a beke baithuti ba Kereiti ya 12.",
+          "type": "Essay",
+          "model_answers": [
+            "Dikahare tsa moqoqo di tshehetse mahlakore a mabedi, lehlakore la botle le la bobe ba dithuto tsa tlatsetso ho baithuti nakong ya mafelo a beke."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "6-8",
+          "text": "Ditshwantsho (Visual Stimuli)",
+          "type": "Essay",
+          "model_answers": [
+            "Moqoqong ona mohlahlobuwa o sheba setshwantsho mme a qoqe ka seo se se qholotsang maikutlong a hae.",
+            "Moqoqo wa hae o tshwanetse ho dumella mmadi ho itemohela sehlooho seo ho qoqwang ka sona ka tsela e hlakileng.",
+            "Moqoqo o ka ngolwa ho tswa lehlakoreng lefe kapa lefe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "LENGOLO LA SEMMUSO",
+          "type": "Long Transactional",
+          "model_answers": [
+            "Diaterese di pedi. Aterese ya mongodi, letsatsi, kgwedi le selemo.",
+            "Aterese ya ya ngollwang (moamohedi) ka letsohong le letshehadi.",
+            "Tumediso (monghadi, mofumahadi kapa mofumahatsana/mohlomphehi).",
+            "Mola wa sehlooho o akaretsang dikahare tsa lengolo.",
+            "Seratswana sa selelekela seo e leng ntshetsopele ya ditaba.",
+            "Qetelo ya puo ya semmuso ('Ka botshepehi', 'Ka boikokobetso').",
+            "Lebitso le be ka hodimo ho tshaeno.",
+            "Mohlahlobuwa a hlakise sepheo sa lengolo sehloohong sa lona.",
+            "Ho totobale hore ralebenkele o lebohelwa ho fana ka tshwaro e ntle ho bareki.",
+            "Sehalo sa lengolo lena se bontshe tlhompho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "TEKOLOKAKARETSO",
+          "type": "Long Transactional",
+          "model_answers": [
+            "E ngole ho hlaha ntlhakemong ya hao (molekodi/mongodi) ka ho sebedisa maemedi a motho wa pele.",
+            "Sebedisa dipolelo tse ho lekgathe lejwale, makgethi le mantswe a utullang puo ya maikutlo.",
+            "Tshehetsa ntlhakemo o itshetlehile ka dintlha kapa mehlodi e tshepahalang.",
+            "Pheletsong ho hlahiswe maikutlo a ahlolang hodima seo ho ngolwang ka sona, le dikgothalletso.",
+            "Molekodi/mongodi a hlahise mahlakore ka bobedi, tse ntle le tse mpe tsa filimi.",
+            "Sehalo e be sa ho beha leseding le ho thabisa baamohedi ba ditaba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "RAPOROTO",
+          "type": "Long Transactional",
+          "model_answers": [
+            "Motho kapa batho bao raporoto e lebisitsweng ho bona.",
+            "Sehlooho sa raporoto se matla se hohelang mmadi.",
+            "Ditaba kapa dintlha tseo ho tlalehwang mabapi le tsona (thomo).",
+            "Mokgwa wa tshebetso.",
+            "Diphumano, Diqeto le Ditlhahiso/Ditshisinyo.",
+            "Mohla le sikenetjhara.",
+            "Lebitso la sebaka seo ketsahalo e etsahalletseng ho sona.",
+            "E ngolwa ka mora tse ileng tsa etsahala, tse bonweng ka mahlo.",
+            "E hlahise dintlha tsa bohlokwa feela.",
+            "Sehalo e be se loketseng bongodi ba semmuso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "PUISANO",
+          "type": "Long Transactional",
+          "model_answers": [
+            "Matshwao a di-a-bulwa-di-a kwalwa ha a sebediswe ntle feela ha o qotsa mantswe a sebui.",
+            "Lebitso la sebui le ngolwe ka letsohong le letshehadi le latelwe ke letshwao la kgutlopedi.",
+            "Tlhaloso ya tlatsetso (stage directions) e ngolwa ka masakaneng.",
+            "Polelo e nngwe le e nngwe e be karabelo ya puo e sa tswa buuwa.",
+            "Sehalo le rejisetara di itshetlehe kamanong ya dibui tse buisanang.",
+            "Puisano e be dipakeng tsa sebohodi sa radiyo le e mong wa baholo ba motse.",
+            "Ka mehla e ngolwe e le ho puommui."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "KARETE YA MEMO",
+          "type": "Short Transactional",
+          "model_answers": [
+            "Karete ha e na sebaka se sekaalo sa ho ngolla.",
+            "Letsatsi, nako le sebaka di lokela ho totobatswa.",
+            "Mongolo o sebediswe ka tsela e kgabisang karete (e tshekaletseng, motswako wa mongolo o moholo le o monyenyane).",
+            "Sebedisa mekgabo ya botaki le bonono.",
+            "Ho hlahiswe ditaba tse loketseng ka bokgutshwane.",
+            "Hlakise sepheo sa memo (ho memela motswalle moketeng).",
+            "Puo e batlang e arohile dikoto; dipolelwana tse sa fellang hantle empa molaetsa o utlwahala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "MOLAETSA WA WHATSAPP",
+          "type": "Short Transactional",
+          "model_answers": [
+            "Lebitso kapa nomoro ya moamohedi e hlaha hodimodimo.",
+            "Letsatsi leo molaetsa o romelwang ka lona le totobale.",
+            "Sebaka sa ho ngola molaetsa se totobale.",
+            "Letshwao la ho hokela setshwantsho/senepe/tokomane.",
+            "Letshwao le tobetswang ha ho romelwa molaetsa le lona le hlake.",
+            "Sepheo sa molaetsa se hlake mme ho be le selelekela sa tumediso.",
+            "Puo e ka ba ya semmuso kapa eo e seng ya semmuso ho ya ka dikamano.",
+            "Molaetsa o hlake, o tobe kamoo mosebetsi wa hae o lokelang ho etswa kateng.",
+            "Ditlhaku, dinomoro, dikgutsufatso tsa mantswe di sebediswe feela ha molaetsa e se wa semmuso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "DITSHUPISO",
+          "type": "Short Transactional",
+          "model_answers": [
+            "Ditshupiso di lokela ho ngolwa di le ho sekaotaelo.",
+            "Tatellano e nepahetseng ke ya bohlokwa.",
+            "Mabitso a dibaka tsohle tse tla fetwa a bolelwe.",
+            "Hlalose hore na o thinyetsa ka letsohong lefe.",
+            "Bolela moo o palamang kapa o kenang ka hara ntho e itseng.",
+            "Lekanye bolelele ba tsela (dimitara kapa kilometara).",
+            "Puo e hlakileng, e otlolohile le sehalo se tsamaellanang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 13316,
+    "cached_tokens_saved": 0
+  }
+}

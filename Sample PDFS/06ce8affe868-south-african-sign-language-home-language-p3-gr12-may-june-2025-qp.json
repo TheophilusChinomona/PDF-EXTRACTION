@@ -1,0 +1,201 @@
+{
+  "subject": "South African Sign Language Home Language P3",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A: ESSAY",
+      "instructions": "Sign an essay of 4–6 minutes on ONE of the following topics. Sign the NUMBER and TITLE/HEADING of your essay. The NUMBER and TITLE/HEADING of your essay must match.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "THAT THAT DISASTER BAD-VERY \n\nIt was a complete disaster!",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "PERSON THAT-THAT ME KNOW-NOT ME HELP \nLIFE MY CHANGE\n\nHelping a stranger changed my life forever.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "DECISION THIS MINE\nDO \n\nIf it was my decision, I would ...",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "HOME STUDY WORK\nTECHNOLOGY WOW SUPPORT \n\nTechnology has supported studying and working from home.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "WIFI W-I-F-I \nSTUDENT UNIVERSITY SCHOOL CHILDREN BOTH PAY MUST \n\nShould Wi-Fi be free for learners and students?",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "The pictures on the screen may evoke a particular reaction or feeling. Look at the three pictures that follow and select ONE picture. Think about the picture, then plan and sign an essay in response. Sign the question number of your choice and give your essay a title.\n\nNOTE: There must be a clear link between the essay and the picture that you have chosen.\n\nPICTURE BELOW OWN SIGN\nPICTURE THREE BELOW\nYOU ONE CHOOSE SIGN\nYOU BRAINSTORM STRUCTURE PLAN MUST\nTOPIC SIGN NUMBER SIGN\nPICTURE ESSAY MATCH MUST",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.1",
+          "parent_id": "1.6",
+          "text": "A silhouette of one person reaching down from a higher rocky ledge to help pull another person up the slope.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt for essay writing.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.2",
+          "parent_id": "1.6",
+          "text": "A close-up photograph of a hummingbird and several bees gathered around a small water source.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt for essay writing.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6.3",
+          "parent_id": "1.6",
+          "text": "A photograph of a small green plant sprout emerging through a large crack in dry, parched earth.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Visual prompt for essay writing.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION B: TRANSACTIONAL TEXTS",
+      "instructions": "Select TWO of the following topics. The length of your presentation should be 2–3 minutes. Sign the NUMBER and TITLE of the text you have chosen. The NUMBER and TITLE of the text you have chosen must match. Pay careful attention to the following: Audience and register, Language structure and fluency",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "INFORMAL PRESENTATION \n\nLUNCH GATHERING \nDEPARTMENT SPORTS ART CULTURE AUDIENCE\nYOU SIGN WHAT\nDEAF INCLUDE\n\nThe Department of Sports, Arts and Culture is hosting a lunchtime imbizo. Prepare a presentation on Deaf inclusion.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "VOTE OF THANKS\n\nCOMMUNITY YOUR\nPEOPLE PENSION HERE\nHOME THEIR\nDOCTOR GO-TO GO-TO HELP-THEM \nYOU SIGN THANK YOU\n\nA doctor in your community is visiting pensioners at their homes. Sign a thank-you note addressed to the doctor.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "FORMAL REPORT\n\nPLACE TOWN YOURS BEFORE DANGEROUS\nBUSINESS OPPORTUNITY NO\nNOW CHANGE\nYOU CONTACT EXPLAIN HOW CHANGE \nMONEY GIVE-TOWN\n\nAn area in your town is not receiving business opportunities due to being a high-risk area. Sign a formal report to a group of investors explaining the transformation that has taken place.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "REQUEST\n\nCOMPANY YOU WORK THERE\nYOU BURSARY WANT WHY UNIVERSITY GO \nMOTIVATE BURSARY-GIVE-YOU \n\nYou are working for a company that sponsors university students. Sign a request to motivate why you should be the recipient.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "CONGRATULATORY MESSAGE\n\nSOUTH AFRICA DEAF STUDENT TOP\nYOU SIGN CONGRATULATION \n\nSign a congratulatory message to the top Deaf student in South Africa.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "NEWS ITEM\n\nTOWN YOURS PERSON VERY-IMPORTANT DIE\nYOU TV SIGN TRIBUTE \n\nA prominent member of your town has passed away. Prepare a tribute for TV news.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 8308,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "subject": "Sesotho Puo ya Lapeng (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Phephetso eo ke e hlotseng ka katleho.",
+          "type": "Moqoqo o hlalosang/Phetelo",
+          "model_answers": [
+            "Moqoqong ona mohlahlobuwa a ka qoqa ka phephetso eo a kopaneng le yona.",
+            "A ka hlalosa maikutlo a hae ka se ileng sa mo hlahela.",
+            "A ka pheta kamoo a ileng a atleha ho hlola phephetso eo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Feberu ya dikgoho e tlisitse mathata maphelong a rona le naha ka bophara.",
+          "type": "Moqoqo o hlalosang",
+          "model_answers": [
+            "Mohlahlobuwa a ka hlalosa kamoo bophelo bo thatafetseng kateng ka baka la feberu ya dikgoho;",
+            "A ka hlalosa sesosa sa feberu eo;",
+            "A ka fana ka keletso hodima qaka ena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Na matsatsing a kajeno ho nyala sethepu ke ntho e nepahetseng?",
+          "type": "Moqoqo wa ngangisano",
+          "model_answers": [
+            "Mohlahlobuwa ha a dumellana le sehlooho, a hlakise kamoo sethepu se nepahetseng kateng;",
+            "Mohlahlobuwa ha a hanana le sehlooho, a hlakise kamoo sethepu se sa nepahalang kateng.",
+            "A be a fane ka ntlhakemo ya hae hodima seo a se kgethileng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Dikgwebo tsa melata di a thusa hape di senyetsa setjhaba.",
+          "type": "Moqoqo o sa nkeng lehlakore (Discursive)",
+          "model_answers": [
+            "Mohlahlobuwa a tshehetse mahlakore a mabedi a taba ena ka ho fana ka dintle le dimpe tse bakwang ke dikgwebo tsa mofuta oo;",
+            "A seholle tshebetso ya dikgwebo tsa melata;",
+            "A thoholetse tse ntle tse tliswang ke dikgwebo tseo;",
+            "Mohlahlobuwa a hlahise ntlhakemo ya hae."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Ke ithutile hore matsoho a a hlatswana.",
+          "type": "Moqoqo wa maikutlo (Reflective)",
+          "model_answers": [
+            "Mohlahlobuwa a ka qoqa kamoo ho leng molemo kateng hore batho ba thusane.",
+            "A ka hlakisa bohlokwa ba ho ananela thuso ho tswa ho ba bang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6-1.8",
+          "text": "Setshwantsho sa 1.6, 1.7 le 1.8",
+          "type": "Moqoqo o iqapetsweng ho tswa setshwantshong",
+          "model_answers": [
+            "Moqoqo ona o ka ngolwa ho tswa lehlakoreng lefe kapa lefe, ho latela moelelo oo a o fumanang ka setshwantsho."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "RAPOROTO YA SEMMUSO",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa a ka tlaleha kamoo basebeletsi ba sa sebetseng ka botshepehi kateng;",
+            "Mohlahlobuwa o ngola raporoto e yang ho molaodi wa kantoro ya tlhahlobo ya makoloi e le ho pepesa bobodu bo etswang ke basebetsi ba pasisang dikoloi tse seng maemong a matle;",
+            "A ka hlakisa le moo manyofonyofo ana a etsahallang teng;",
+            "A ka hlalosa hape mokgwa oo ba ka thibelang manyofonyofo ana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Sebopeho: Molaodi, Sehlooho, Ditaba, Diphumano, Diqeto, Ditlhahiso, Mohla le tshaeno.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "LENGOLO LA SEMMUSO",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa a ka bua ka mathata ao a tobaneng le ona ka dieta tseo a di rekileng marangranng;",
+            "A ka hlalosa maemo a dieta tseo ka botlalo.",
+            "A ka fana ka tharollo ya hore ho etsahale eng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Sebopeho: Diaterese di pedi; Tumediso; Mola wa sehlooho; Seratswana sa selelekela; Mmele; Qetelo; Tshaeno le lebitso.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "ATIKELE E YANG KORANTENG",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa a ka qala pele ka sepheo sa atikele e leng moaparo o swabisang o tenwang mehleng ena;",
+            "A hlalose hore moaparo o swabisang ke o jwang;",
+            "A fane ka dikeletso moo a eletsang batho ka moaparo o nepahetseng o ka aparwang mehleng ena."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Ha mohlahlobuwa a sa ngola atikele ka mokgwa wa dikholomo/boloko, a se fuwe kotlo.",
+          "notes": "Sebopeho: Sehlooho; Lebitso la moqolotsi le sebaka; Dikholomo; Phiramiti e fetoletsweng hodimo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "INTHAVIU",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa a ngole inthaviu eo a tlang ho ba le seabo ho yona, e dipakeng tsa hae le mosuwehlooho wa sekolo sa habo, moo a hlalosang tsa boitokisetso ba hae ha a ne a hlotse dingangisano tsa dikolo tsa puo e hlophisitsweng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Sebopeho: Lebitso la sebui le latelwa ke letshwao la kgutlopedi; Selelekela sa tlhahisoleseding; Mmele (dipotso le dikarabo); Sehalo sa semmuso.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "LENGOLO LA SETSWALLE",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa o ngola lengolo ho leboha rakgadi ha a ne a mo etetse.",
+            "A hlahise le kamoo a thabetseng tsohle kateng."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Sebopeho: Aterese e le nngwe; Tumediso; Selelekela se sekgutshwane; Mmele; Qetelo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "TSA BOPHELO BA MOFU",
+          "type": "Tema ya kgokahano",
+          "model_answers": [
+            "Mohlahlobuwa a hlahise mabitso a mofu le a batswadi, tlhaho jj",
+            "A bue ka tsa thuto, mosebetsi, lenyalo, jj",
+            "A bue ka sesosa sa lefu le letsatsi la lefu, maballo le seboko."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 11094,
+    "cached_tokens_saved": 0
+  }
+}

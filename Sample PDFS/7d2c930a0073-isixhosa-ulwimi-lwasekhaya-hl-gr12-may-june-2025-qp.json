@@ -1,0 +1,190 @@
+{
+  "subject": "IsiXhosa Ulwimi Lwasekhaya (HL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "IsiXhosa",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "ICANDELO A: IZINCOKO",
+      "instructions": "Khetha isihloko sibesiNYE kwezi zilandelayo ubhale ngaso. Bhala amagama angama-340–390.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Lade lazaliseka ithemba",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Wayeyincutshe ke loo mcuphi",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Isiphumo sihambelana nesenzo hayi iminqweno yodwa",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Wandipheka endophula",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Akukho lula ukukhetha phakathi kwabazali",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "Bafana twatse ngezenzo, makangazithetheleli",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "[Umfanekiso webhokisi yesipho ebotshelelwe ngeribhoni]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Qwalasela uze ukhethe ubemNYE kwimifanekiso engezantsi wandule ukubhala isincoko esinesihloko esifanelekileyo. Nombola impendulo yakho ngolu hlobo (1.7 OKANYE 1.8).",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "[Umfanekiso wentloko nesikere sesilwanyana kwintlango enomileyo]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Qwalasela uze ukhethe ubemNYE kwimifanekiso engezantsi wandule ukubhala isincoko esinesihloko esifanelekileyo. Nombola impendulo yakho ngolu hlobo (1.7 OKANYE 1.8).",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "ICANDELO B: IMIHLATHI",
+      "instructions": "Khetha imihlathi ibeMIBINI kule ilandelayo uze ubhale ngayo. Bhala amagama ali-100–120 (umxholo kuphela).",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "ILETA YOBUHLOBO: Bhala ileta eya kumhlobo wakho ucele indawo yokuhlala ngethuba usafuna umsebenzi kwidolophu ahlala kuyo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "INTETHO ESESIKWENI: Bhala intetho yokukhuthaza nokomeleza abafundi bebanga le-12.",
+          "marks": 25,
+          "scenario": "Isikolo esikwingingqi yakho siza kubanenkonzo yokukhuthaza nokomeleza abafundi abaza kuhlalela iimviwo. Uchongiwe njengesithethi esimele abafundi.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "I-OBHITSHUWARI: Bhala i-obhitshuwari yalo.",
+          "marks": 25,
+          "scenario": "Ulilungu leforam yokugcina ucwangco kwingingqi yakho, kusweleke ipolisa ebelizinikele emsebenzini walo kule foram.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "ILETA EYA KUMHLELI: Bhala ileta eya kumhleli uphalaze izimvo zakho ngendlela exazalala ekulahlwa ngayo inkunkuma kwiindawo ezingafanelekanga.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "IRIVYU: Bhala irivyu yefilim okanye umdlalo weqonga utyhile izinto ezinokuzuzwa nezinokususwa ukuze ikulungele ukufundisa.",
+          "marks": 25,
+          "scenario": "Uceliwe ngumpapashi ukuba uphawule ngefilim okanye ngomdlalo weqonga ekulungiselelwa ukuba uyokudlalwa ezikolweni.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "INQAKU LEPHEPHANDABA: Bhala inqaku lephephandaba uncoma izakhono zolutsha zokukhetha imixholo, ukukhula kwetalente nobuchule bokusebenzisa ulwimi kwezi jenre.",
+          "marks": 25,
+          "scenario": "Ungumgwebi kukhuphiswano lokubhala iijenre ezahlukileyo; njengamabali amafutshane, isihobe, iinoveli needrama.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 7096,
+    "cached_tokens_saved": 0
+  }
+}

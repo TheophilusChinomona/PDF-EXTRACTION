@@ -1,0 +1,704 @@
+{
+  "subject": "MATHEMATICS P1",
+  "syllabus": "NSC",
+  "year": 2017,
+  "session": "FEBRUARY/MARCH",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 150,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SOLVING EQUATIONS AND EXPRESSIONS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Solve for x:",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "(x-3)(x+1) = 0",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "\\sqrt{x^3} = 512",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "x(x-4) < 0",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Given: f(x) = x^2 - 5x + 2",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "Solve for x if f(x) = 0",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "For what values of c will f(x) = c have no real roots?",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Solve for x and y:\nx = 2y + 2\nx^2 - 2xy + 3y^2 = 4",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Calculate the maximum value of S if S = 6 / (x^2 + 2)",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "GEOMETRIC SEQUENCES",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Calculate the possible values of b.",
+          "marks": 3,
+          "scenario": "Given the geometric sequence: -1/4 ; b ; -1 ; ......",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "If b = 1/2, calculate the 19th term (T_19) of the sequence.",
+          "marks": 3,
+          "scenario": "Given the geometric sequence: -1/4 ; b ; -1 ; ......",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "If b = 1/2, write the sum of the first 20 positive terms of the sequence in sigma notation.",
+          "marks": 4,
+          "scenario": "Given the geometric sequence: -1/4 ; b ; -1 ; ......",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Is the geometric series formed in QUESTION 2.3 convergent? Give reasons for your answer.",
+          "marks": 2,
+          "scenario": "Given the geometric sequence: -1/4 ; b ; -1 ; ......",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "PATTERNS AND SEQUENCES",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "6 ; 6 ; 9 ; 15 ; ... are the first four terms of a quadratic number pattern.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "Write down the value of the fifth term (T_5) of the pattern.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "Determine a formula to represent the general term of the pattern.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "text": "Which term of the pattern has a value of 3 249?",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Determine the value(s) of x in the interval x in [0°; 90°] for which the sequence -1 ; 2sin3x ; 5 ; ..... will be arithmetic.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "FUNCTIONS AND GRAPHS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Write down the coordinates of U.",
+          "marks": 1,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Write down the equations of the asymptotes of g.",
+          "marks": 2,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Determine the coordinates of T.",
+          "marks": 2,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Write down the equation of h, the reflection of f in the line y = x, in the form y = ...",
+          "marks": 2,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Write down the equation of the asymptote of h(x-3).",
+          "marks": 1,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Calculate the coordinates of V.",
+          "marks": 4,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7",
+          "parent_id": null,
+          "text": "Determine the coordinates of T' the point which is symmetrical to T about the point R.",
+          "marks": 2,
+          "scenario": null,
+          "context": "The sketch below shows the graphs of f(x) = log_5 x and g(x) = 2/(x-1) + 1. T and U are the x-intercepts of g and f respectively. The line y = x intersects the asymptotes of g at R, and the graph of g at V.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "FUNCTIONS AND GRAPHS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "The sketch below shows the graphs of f(x) = x^2 - 2x - 3 and g(x) = x - 3. A and B are the x-intercepts of f. The graphs of f and g intersect at C and B. D is the turning point of f.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Determine the coordinates of C.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Calculate the length of AB.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "Determine the coordinates of D.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Calculate the average gradient of f between C and D.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Calculate the size of OC^B",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "Determine the values of k for which f(x) = k will have two unequal positive real roots.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "For which values of x will f'(x).f''(x) > 0?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "The graph of a parabola f has x-intercepts at x = 1 and x = 5. g(x) = 4 is a tangent to f at P, the turning point of f. Sketch the graph of f, clearly showing the intercepts with the axes and the coordinates of the turning point.",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "FINANCIAL MATHEMATICS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "6.1",
+          "parent_id": null,
+          "text": "On the 2nd day of January 2015 a company bought a new printer for R150 000. \n• The value of the printer decreases by 20% annually on the reducing-balance method. \n• When the book value of the printer is R49 152, the company will replace the printer.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.1",
+          "parent_id": "6.1",
+          "text": "Calculate the book value of the printer on the 2nd day of January 2017.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.2",
+          "parent_id": "6.1",
+          "text": "At the beginning of which year will the company have to replace the printer? Show ALL calculations.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1.3",
+          "parent_id": "6.1",
+          "text": "The cost of a similar printer will be R280 000 at the beginning of 2020. The company will use the R49 152 that it will receive from the sale of the old printer to cover some of the costs of replacing the printer. The company set up a sinking fund to cover the balance. The fund pays interest at 8,5% per annum, compounded quarterly. The first deposit was made on 2 April 2015 and every three months thereafter until 2 January 2020. Calculate the amount that should be deposited every three months to have enough money to replace the printer on 2 January 2020.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2",
+          "parent_id": null,
+          "text": "Lerato wishes to apply for a home loan. The bank charges interest at 11% per annum, compounded monthly. She can afford a monthly instalment of R9 000 and wants to repay the loan over a period of 15 years. She will make the first monthly repayment one month after the loan is granted. Calculate, to the nearest thousand rand, the maximum amount that Lerato can borrow from the bank.",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 7",
+      "title": "DIFFERENTIAL CALCULUS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "7.1",
+          "parent_id": null,
+          "text": "Determine f'(x) from first principles if f(x) = x^2 - 5.",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.2",
+          "parent_id": null,
+          "text": "Determine the derivative of: g(x) = 5x^2 - 2x/x^3",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.3",
+          "parent_id": null,
+          "text": "Given: h(x) = ax^2, x > 0.\nDetermine the value of a if it is given that h^-1(8) = h'(4).",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 8",
+      "title": "DIFFERENTIAL CALCULUS (CUBIC FUNCTIONS)",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "8.1",
+          "parent_id": null,
+          "text": "Calculate the coordinates of the turning points of the graph of f.",
+          "marks": 5,
+          "scenario": "Given: f(x) = 2x^3 - 5x^2 + 4x",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.2",
+          "parent_id": null,
+          "text": "Prove that the equation 2x^3 - 5x^2 + 4x = 0 has only one real root.",
+          "marks": 3,
+          "scenario": "Given: f(x) = 2x^3 - 5x^2 + 4x",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.3",
+          "parent_id": null,
+          "text": "Sketch the graph of f, clearly indicating the intercepts with the axes and the turning points.",
+          "marks": 3,
+          "scenario": "Given: f(x) = 2x^3 - 5x^2 + 4x",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.4",
+          "parent_id": null,
+          "text": "For which values of x will the graph of f be concave up?",
+          "marks": 3,
+          "scenario": "Given: f(x) = 2x^3 - 5x^2 + 4x",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 9",
+      "title": "OPTIMIZATION (MAXIMA AND MINIMA)",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "9",
+          "parent_id": null,
+          "text": "Calculate the value of x for which the sum of the areas enclosed by the wire will be a maximum.",
+          "marks": 7,
+          "scenario": null,
+          "context": "A piece of wire 6 metres long is cut into two pieces. One piece, x metres long, is bent to form a square ABCD. The other piece is bent into a U-shape so that it forms a rectangle BEFC when placed next to the square, as shown in the diagram below.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 10",
+      "title": "PROBABILITY AND COUNTING PRINCIPLES",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "10.1",
+          "parent_id": null,
+          "text": "The events S and T are independent.\n• P(S and T) = 1/6\n• P(S) = 1/4",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.1.1",
+          "parent_id": "10.1",
+          "text": "Calculate P(T).",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.1.2",
+          "parent_id": "10.1",
+          "text": "Hence, calculate P(S or T).",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.2",
+          "parent_id": null,
+          "text": "A FIVE-digit code is created from the digits 2 ; 3 ; 5 ; 7 ; 9.\nHow many different codes can be created if:",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.2.1",
+          "parent_id": "10.2",
+          "text": "Repetition of digits is NOT allowed in the code",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.2.2",
+          "parent_id": "10.2",
+          "text": "Repetition of digits IS allowed in the code",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10.3",
+          "parent_id": null,
+          "text": "A group of 3 South Africans, 2 Australians and 2 Englishmen are staying at the same hotel while on holiday. Each person has his/her own room and the rooms are next to each other in a straight corridor.\nIf the rooms are allocated at random, determine the probability that the 2 Australians will have adjacent rooms and the 2 Englishmen will also have adjacent rooms.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 11",
+      "title": "PROBABILITY (TREE DIAGRAMS)",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "11",
+          "parent_id": null,
+          "text": "Based on fitness alone, calculate the probability that the Fana soccer team will win the next match.",
+          "marks": 5,
+          "scenario": "The success rate of the Fana soccer team depends on a number of factors. The fitness of the players is one of the factors that influence the outcome of a match.\n• The probability that all the players are fit for the next match is 70%\n• If all the players are fit to play the next match, the probability of winning the next match is 85%\n• If there are players that are not fit to play the next match, the probability of winning the match is 55%",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14630,
+    "cached_tokens_saved": 0
+  }
+}

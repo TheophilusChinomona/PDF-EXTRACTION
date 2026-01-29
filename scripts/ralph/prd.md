@@ -16,7 +16,7 @@ The PDF Extraction service currently extracts **question papers** into structure
 
 ## User Stories
 
-### US-029: Create Memo Pydantic Models
+### US-001: Create Memo Pydantic Models
 **Priority:** 1
 
 Create `app/models/memo_extraction.py` with models extending `GeminiCompatibleModel`:
@@ -27,7 +27,7 @@ Create `app/models/memo_extraction.py` with models extending `GeminiCompatibleMo
 - All optional fields default to None
 - Must validate against `Sample PDFS/outputs/Sample output-marking guideline.json`
 
-### US-030: Create Memo Extraction Service
+### US-002: Create Memo Extraction Service
 **Priority:** 2
 
 Create `app/services/memo_extractor.py` mirroring pdf_extractor.py:
@@ -39,7 +39,7 @@ Create `app/services/memo_extractor.py` mirroring pdf_extractor.py:
 - Import (not copy) `_remove_additional_properties()` and `_estimate_token_count()` from pdf_extractor.py
 - System prompt rules: extract ALL valid answers, capture marker instructions, skip preamble
 
-### US-031: Add CLI Entry Point for Memo Extraction
+### US-003: Add CLI Entry Point for Memo Extraction
 **Priority:** 3
 
 Add `if __name__ == "__main__"` block to memo_extractor.py:
@@ -48,7 +48,7 @@ Add `if __name__ == "__main__"` block to memo_extractor.py:
 - Auto-saves to `{input_filename}_memo_result.json` alongside input PDF
 - Handles missing args and errors gracefully
 
-### US-032: Create Memo Database Functions
+### US-004: Create Memo Database Functions
 **Priority:** 4
 
 Create `app/db/memo_extractions.py` mirroring `app/db/extractions.py`:
@@ -59,7 +59,7 @@ Create `app/db/memo_extractions.py` mirroring `app/db/extractions.py`:
 - `list_memo_extractions()` -- paginated list with status filter
 - `update_memo_extraction()` -- full update for retries
 
-### US-033: Add doc_type Routing to API
+### US-005: Add doc_type Routing to API
 **Priority:** 5
 
 Modify `POST /api/extract` to accept `doc_type` parameter:
@@ -69,7 +69,7 @@ Modify `POST /api/extract` to accept `doc_type` parameter:
 - Memo results stored in `memo_extractions` table
 - Existing behavior unchanged when doc_type omitted
 
-### US-034: Create Supabase memo_extractions Table Schema
+### US-006: Create Supabase memo_extractions Table Schema
 **Priority:** 6
 
 SQL migration `migrations/004_create_memo_extractions_table.sql`:

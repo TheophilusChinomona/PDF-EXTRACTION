@@ -1,0 +1,1258 @@
+{
+  "subject": "Tshivenda Luambo lwa u Engedza lwa u Thoma (FAL) P2",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Tshivenda",
+  "total_marks": 70,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KHETHEKANYO YA A: NGANEA (U TSHILA NDI U VHONA – RN Maμadzhe)",
+      "instructions": "Fhindulani mbudziso dzo¾he dzo μisendekaho kha nganea ye na guda.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA A",
+          "marks": null,
+          "scenario": "Nn»u ya Mashudu i vhonala i kha »i vha yo fungwa mavhone. Hone ho vha hu sa vhonali thavhithavhi ya vhathu vhunga Mashudu o vha a tshi dzula e e¾he. Dzwaini a mbo »i khokhonya kha vothi.\r\n'Ndi nnyi ane a khou tou nkhokhonyela vhusiku vhungafha?' 'Kha vha mpfarele arali ndo vha thithisa Vho Mashudu. Ndi n½e Maemu, mu»uhulu wavho. Ndi uri ndo wana lu¿walo lwa malume anga, nda ri ndi a lu »isa naho ¼o kovhela.'\r\n'Afho no shuma mu»uhulu.'\r\nMashudu u ralo a tshi khou vula vothi. Zwezwi Mashudu a tshi tou ri vothi phamu, avha vha¾hannga vhavhili vho mbo »i ri nga ngomu n»uni khilikhithi!\r\nVho¾he vho mbo »i bvisa zwigidi. Mashudu nga ngeno a mbo »i dzhenwa nga phepho ya tshilimo. Tshifha¾uwo tshawe tsho vha tshi tshi tou sisima nga biko. Milomo yone i tshi vhonala i tshi khou tshinatshina. Ma½o one o vha a tshi pfala musi a tshi rwana. Milenzhe i tshi tou vha vhungwendengwende.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "Ndi nn»u ya nnyi yo fungwaho mavhone?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "Ndi vhonnyi vho bvisaho zwigidi afho mafhungoni?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "U ya nga mafhungo a re afho n¾ha, ni nga ri mini nga vhu»ipfi ha Mashudu? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "Mafhungo a re afho n¾ha a bvukulula mudzedze ufhio wa tshifhinga? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "U funana ha Phophi na Mashudu zwo vha na masiandaitwa afhio kha nganea iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.6",
+          "parent_id": "1.1",
+          "text": "Nangani phindulo yo teaho kha mutevhe wo nekedzwaho. Kha nganea iyi khotsi a Phophi ndi ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Vho Dzebu."
+            },
+            {
+              "label": "B",
+              "text": "Vho Ravhutsi."
+            },
+            {
+              "label": "C",
+              "text": "Vho Maano."
+            },
+            {
+              "label": "D",
+              "text": "Vho ·iedza."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.7",
+          "parent_id": "1.1",
+          "text": "Kha iyi bugu muanewa mulu¾anyi ndi nnyi? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.8",
+          "parent_id": "1.1",
+          "text": "Ndi zwifhio ZWIVHILI zwe Phophi a itela Mpho hu u sumbedza lufuno lwawe khae.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.9",
+          "parent_id": "1.1",
+          "text": "Ndi mulaedza ufhio une mu¿wali a tama u u bvisela khagala nga kutshilele kwa Dzwaini na Dugudzha?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.10",
+          "parent_id": "1.1",
+          "text": "Arali no vha ni khonani ya Mpho no vha ni tshi »o mueletshedza zwifhio no sedza vhu»ifari hawe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA B",
+          "marks": null,
+          "scenario": "¶uvha i¼o wo vha u tshi muthu wa lifha vhengeleni ¼a halwa i¼i ¼a Vuvha. Mpho o ri u swika afha fhethu, a mbo »i thoma u ¾o»a Mashudu. Musi a tshi vho ¾o»a, ma¾o awe kha ri hashanyana nga fha¼a khoneni, henefho ndi hone he a wana ho dzula Mashudu e e¾he. Mpho a mbo »i vhanyuludza a tshi ya henengei khae. U swika khae, a ho ngo vha na u imaima, Mpho o mbo »i ri thetshela u zwi pfe henefha kha lu¾aha; Mashudu a tsha »i ri kanikani, vha mu dovha henefho fhethu huthihi.\r\n'Ni khou nthwela mini?'\r\n'Ni a zwi »ivha.'\r\n'A thi zwi »ivhi.' Zwenezwo Mashudu a tshi tou fhedza u amba ipfi i¼i, vha mu dovha vho mu tsikeledza na ¾afula. 'Ni khou tou vhona ndo kambiwa?'\r\nMuambi ndi Mashudu. 'N½e ¼ia »uvha no nnditsha nga u vhona ndo kambiwa?'\r\n'A zwo ngo luga hezwi zwithu vhanna. Vhathu vho no vhinga, fhedzi vha dovha vha dzhiela na ri½e vhasadzi ri sa athu u vhinga.'\r\n'Hezwo zwine na khou amba zwone ndi maloto fhedzi.' Mpho u ralo o fara Mashudu nga n»evhe dza hemmbe. Vhathu vhe vha vha vha tshi khou nwa halwa vho vha vho no »a, vho kuvhangana. Vha¿we vho vha vha tshi pfala nga u ri: 'Vha songo vhulaha muthu vhodokotela,' nga ngeno vha¿we vha tshi ri: 'Kha vha mu la¾ise hoyu mutukana, ha pfi!'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "Bulani fhethuvhupo ha mafhungo a re afho n¾ha.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Ndi nnyi a no pfi o kambiwa mafhungoni a re afho n¾ha?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.3",
+          "parent_id": "1.2",
+          "text": "Ndi tshifhio tshipi»a tsha puloto tshi ¾aniwaho nga mafhungo a re afho n¾ha? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.4",
+          "parent_id": "1.2",
+          "text": "Khu»ano i re afho mafhungoni i khou vhangwa nga mini?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.5",
+          "parent_id": "1.2",
+          "text": "Ndi tshini tshi no khou ita uri Mpho a tou vhanyuludza a tshi ya kha Mashudu?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.6",
+          "parent_id": "1.2",
+          "text": "Ndi tshini tsho vhangaho uri Mpho a vhulahise Mashudu kha nganea iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.7",
+          "parent_id": "1.2",
+          "text": "Kha¾hulo yo ½ewaho Mpho ngei khothe yo tea? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.8",
+          "parent_id": "1.2",
+          "text": "Tshelede i na malu¾a. Inwi khwa¾hisani fhungo i¼o nga u sumbedza he tshelede ya lu¾anya vhathu kha nganea iyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.9",
+          "parent_id": "1.2",
+          "text": "Arali no vha ni shaka ¼a Phophi no vha ni tshi »o mukho»a kha zwifhio malugana na lufuno lwawe na Mpho.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KHETHEKANYO YA A: NGANEA (HO DINA ONE – S Mbedzi)",
+      "instructions": "Fhindulani mbudziso dzo¾he dzo μisendekaho kha nganea ye na guda.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA C",
+          "marks": null,
+          "scenario": "'Vha¼a vha¾hannga vhavhili vha mbo »i tsa goloini fha¼a. A tshi sedza u wana uri ndi Musuku na Osbon. Mu¾hannga a pfa o tou pwa¾a! A sea khole a tshi vho amba u swika khavho. Zwi ndi vhoramabindu vha network?' U khou ralo Ngeletshedzo o no swika tsini na Musuku.\r\n'Hu si na na zwi¿we.' Musuku u khou ralo a tshi khou isa tshan»a vha kha»ana. Osbon na ene a vha a tshi khou tsa. U tsa a vha a tshi khou sendela tsini na avha vhavhili.\r\n'Ni ri mini Osbon?' U khou ralo Ngeletshedzo a tshi khou isa tshan»a uri vha kha»ane.\r\n'Hai, mafhungo a »alesa hu anza na mazwifhi. Ndi sa »ivhi uri Vho Gwede maramani ho khubwa maladzashango naa?' Osbon u khou ralo vha tshi khou kha»ana.\r\nN½e na inwi ri tou fana Osbon. A ni vhoni na lwayo ndo ¾hukhulela ngei kule. Ndi Ngeletshedzo we a ralo.\r\n'N½e ndi na manzhi vhukuma vhanna vha hashu. Khao ndi »o nanga a ndeme fhedzi.'\r\n'Khoyo Musuku u na mafhungo.'",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.1",
+          "parent_id": "2.1",
+          "text": "Bulani tshiendedzi tsho shumiswaho afho mafhungoni.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.2",
+          "parent_id": "2.1",
+          "text": "Vhoramabindu afho mafhungoni hu khou ambiwa vhonnyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.3",
+          "parent_id": "2.1",
+          "text": "U ya nga mafhungo a re afho nṱha, ni nga ri mini nga vhu»ipfi ha Ngeletshedzo? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.4",
+          "parent_id": "2.1",
+          "text": "Mafhungo a re afho n¾ha a bvukulula mudzedze wa tshifhinga tshifhio? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.5",
+          "parent_id": "2.1",
+          "text": "U funana ha Ngeletshedzo na Veronica zwo vha na masiandaitwa afhio nganeani iyi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.6",
+          "parent_id": "2.1",
+          "text": "Nangani phindulo yo teaho kha mutevhe wo nekedzwaho. Kha nganea iyi murathu wa Veronica ndi ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Ruth."
+            },
+            {
+              "label": "B",
+              "text": "Sibongile."
+            },
+            {
+              "label": "C",
+              "text": "Ntombie."
+            },
+            {
+              "label": "D",
+              "text": "Olga."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.7",
+          "parent_id": "2.1",
+          "text": "Kha bugu iyi tshi no khou lu¾anya dendele na mupikisi ndi mini? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.8",
+          "parent_id": "2.1",
+          "text": "Ndi zwifhio ZWIVHILI zwe Ngeletshedzo a itela Veronica hu u sumbedza lufuno lwawe khae?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.9",
+          "parent_id": "2.1",
+          "text": "Ndi mulaedza ufhio une mu¿wali a tama u u bvisela khagala nga kutshilele kwa Musuku na Osbon.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1.10",
+          "parent_id": "2.1",
+          "text": "No sedza nganea yoṱhe, ni vhona hu zwifhio ZWIVHILI zwo kundisaho Ngeletshedzo u langa mabindu e a sielwa nga vhabebi vhawe?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA D",
+          "marks": null,
+          "scenario": "U swika getheni a ¼i khiulula e kati na u tetemela. Khii dzo wa luraru a tshi khou lwisa u khiulula. O vha a sa sedzwi luvhili nga muthu u ¾o»a u vhona nangoho uri o dinalea. O ri u vula gethe a swika a ima tsinitsini na Veronica o »alelwa vhukuma mu¾hannga. U ¾angana u fhira Veronica nga u lapfa, o vha o ima a kotamisa mutsinga uri a sedze Veronica zwavhu»i.\r\n'Ndi hone no takala zwino no zwi kona u dzhia tshelede yanga yo¾he! No takala a thi ri?' U khou ralo Ngeletshedzo a tshi nga a sa ku»a Veronica nga ¾hoho.\r\n'Nda vha wa u takala nda humbela goloi ya u »a fhano? Ngeletshedzo we.'\r\n'Ei ei ei, ma¾amvu eneo a thi khou ¾o»a na u a pfa! Ni na tshi¾uhu tshi no nga tsha Faraho wa Egipita ½owa ndi inwi. Hone kha n½e no guma. Tshelede yanga ndi khou i ¾o»a zwino!' Musi a tshi khou ralo Ngeletshedzo o vha a tshi khou ku»a Vero nga khana. Musidzana a pepeleka a tsetsa nga tsha murahu.\r\n'Ndi khou humbela uri ni mphe n»evhe Ngeletshedzo uri ri thusane kha u wana n»ila ya u wana tshelede murahu kana goloi.'\r\nO ri u ralo Veronica e hasha kha Ngeletshedzo.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.1",
+          "parent_id": "2.2",
+          "text": "Ndi nnyi a no pfi u na tshi¾uhu tshi no nga tsha Faraho afho mafhungoni?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.2",
+          "parent_id": "2.2",
+          "text": "Bulani fhethuvhupo ha mafhungo a re afho n¾ha.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.3",
+          "parent_id": "2.2",
+          "text": "Ndi tshifhio tshipi»a tsha puloto tshi ¾aniwaho nga mafhungo a re afho n¾ha? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.4",
+          "parent_id": "2.2",
+          "text": "Khuḓano i re afho mafhungoni ndi ya lushaka lufhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.5",
+          "parent_id": "2.2",
+          "text": "Ndi tshini tshi no khou ita uri Ngeletshedzo a ambe a tshi khou tetemela afho mafhungoni?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.6",
+          "parent_id": "2.2",
+          "text": "Kha nganea iyi ndi ngani Ngeletshedzo a songo ¾anganedza thuso ye a ½ewa nga khonani dzawe Musuku na Osbon?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.7",
+          "parent_id": "2.2",
+          "text": "Zwa u »ifanyisa ha Ngeletshedzo na lwanzhe zwo vha zwo tea? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.8",
+          "parent_id": "2.2",
+          "text": "Tshelede i na malu¾a. Inwi khwa¾hisani i¼o fhungo nga u sumbedza he tshelede ya lu¾anya vhathu kha iyi nganea.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2.9",
+          "parent_id": "2.2",
+          "text": "Nga murahu ha u vhala nganea iyi, ndi zwifhio ZWIRARU zwine na nga eletshedza vhathu vha na kutshilele ku no fana na kwa Ngeletshedzo uri vha si ¾angane na zwe a ¾angana nazwo vhutshiloni?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KHETHEKANYO YA B: ¶IRAMA (FINDINKODO – TT Mudau)",
+      "instructions": "Fhindulani mbudziso DZO¹HE kha idzo dzi re afho fhasi dzo µisendekaho kha µirama ye na guda.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA E",
+          "marks": null,
+          "scenario": "MUTHUMUKHULU: Ro dzhena kha khabinethe ya muvhuso u fha¾a pfano na vhuthihi. Hu na mimuya ya madyelathungo ine ra fanela u i kaidza.\r\nMURA¶O 1: Mimuya ya madyelathungo?\r\nMUTHUMUKHULU: Tshete! (U a ho¾ola) Vho De Wit vho nkwama vho khukhulisea. Vha ntsumbedza u khukhulisea havho nga ¿wambo wa vhathu vhane vha sa kaidze ndimi dzavho. (Ha pfala phosho) Hu na zwine vhathu vhe nn»a vha sokou lopola ngeno zwi sa anani na ndayotewa ya dzangano ¼ashu. Ndi na bammbiri ¼a muvhigo ¼i khwa¾hisaho vhu¾udze¾udze ha minista Skosana. Ndo vhudza Vho-De Wit nda ri ri½e sa khabinethe, ri½e hafhu sa dzangano, a ri »i kwakwanyi na nyito dza minista Skosana. (Ha pfala phosho)\r\nMURA¶O 1: Aya o no vha ma¿we ngoho.\r\nMUTHUMUKHULU: Tshete! A thi athu u fhedza u amba.\r\nMURA¶O 2: Muhulisei, na ri½e kha ri tendelwe ri pose maipfinyana.\r\nMUTHUMUKHULU: Ii, kha ri pfe. (Hu takuwa mura»o 2)\r\nMURA¶O 2: U rulwa mushumo ha minister Skosana ri½e ri a hu sola.\r\nMUTHUMUKHULU: Ngani minista? Ri ¾u¾uwedza vhukhakhi ho raliho?\r\nMURA¶O 2: Muhulisei, vhutshinyi ri a vhu vhona, naa muthu a tshinya ha farelwi naa?\r\nMUTHUMUKHULU: Vhathu vha a farelwa, ngazwo ndi tshi khou rula minista Skosana mushumo, uri u farelana ha ri½e vharema na vhatshena hu vhonale na kha zwine ra zwi amba.\r\nMURA¶O 2: (U a sea) Muhulisei, ri½e ri khou amba nga u fareliwa ha minista Skosana.\r\nMUTHUMUKHULU: U rulwa hawe mushumo ndi pfarelo khulu, ngauri khufha a kha »i vha mura»o wa dzangano ¼a Madimokirati.\r\nMURA¶O 2: Ndi humbela uri ene minista a »ifhindulele.\r\nMUTHUMUKHULU: Zwo »i luga. (Hu takuwa Skosana)\r\nSKOSANA: Ndi livhuwa u ½ewa tshifhinga hetshi. Muhulisei, na vhathu vho¾he, n½e zwi a mmangadza. (ºo tshifhinganyana)\r\nMURA¶O 2: Bula!\r\nSKOSANA: N½e zwi a mmangadza ngauri hu na vha¿we vhathu hafha kha khabinethe yavho. Muhulisei vha tou zwi »ivha zwavhu»ivhu»i zwauri hu na vhathu vhane vha tou ima vha ¾u¾uwedza vhathu uri vha fare zwi¾angu na mafumo vhaye u vhulaha. Vhathu vhenevho vha kha khabinethe yeneyi. ¶uvha ¼i¿we na ¼i¿we vhathu avho vha vhudzedza mulilo wa malofha, hune na ½amusi a vhaathu u ribwa. (Hu pfala phosho)\r\nMURA¶O 2: Bulai zwo¾he!",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "text": "Bulani dzina ¼a ¼ihoro ¼i re mafhungoni e na vhala?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "text": "Muhulisei mafhungoni aya hu khou ambiwa nnyi?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "text": "Ndivho ya u dzhena ha Muthumukhulu kha muvhuso yo vha i ifhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.4",
+          "parent_id": "3.1",
+          "text": "Mafhungo e na vhala o bvelela kha tshifhinga tshifhio? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.5",
+          "parent_id": "3.1",
+          "text": "¹alutshedzani zwo vhangaho u pandelwa ha Skosana kha vhuimo hawe sa minisita?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.6",
+          "parent_id": "3.1",
+          "text": "Muthimukhulu buguni iyi o olwa sa muanewa»e? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.7",
+          "parent_id": "3.1",
+          "text": "Muvhuso wa apartheid/tshi¾alula wo vhaisa vhathu vharema? Khwa¾hisani ¼ikumedzwa i¼i nga mbuno MBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.8",
+          "parent_id": "3.1",
+          "text": "Arali no vha ni kha zwa polotiki no vha ni tshi µo eletshedza madzangano zwifhio u fha¾a shango.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1.9",
+          "parent_id": "3.1",
+          "text": "Nga kuvhonele kwa½u ndi ngani shangoni hu tshi tea u vha na ndayotewa. Fhindulani nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "TSHIBVELEDZWA TSHA F",
+          "marks": null,
+          "scenario": "(Ofisini dza muvhuso. Ndi nga masiari. Hu vhonala mira»o ya Madimokirati yo fara mu¾angano.)\r\nMUTHUMUKHULU: Vho-De Wit vho vhuya vha nnduma n»evhe nga mafhungo a u »o litsha u shumisana na ri½e kha muvhuso wa mbuelano ya lushaka.\r\nSKOSANA: Mulandu?\r\nMUTHUMUKHULU: Vha ri a vha vhoni vha tshi nga ½ekana tshan»a na ri½e ngauri vha pfa vha sa vhofholowi. Tshi¿we hafhu, vha ri vha ¾o»a u fha¾a ¼ihoro ¼a Lushaka vhe nn»a ha khoro dza phalamennde.\r\nDUMA: Aya ndi maswa.\r\nSKOSANA: N½e a thi vha vhoni mulandu havha vhanna, nga maan»a arali polotiki yavho i ya u fha¾a hu si ya u thutha. Arali polotiki yavho ya nga ya Kapa Vhukovhela, ine ya vha ya phurophaganda ya swaart gevaar afho a ri nga an»ani.\r\nDUMA: Vhanna, ri fanela uri ri thanye ri vule ma¾o. Havha vhanna vha vhona u nga vha nga ¾anzwa nguvho dzavho dzo donaho.\r\nMUTHUMUKHULU: N½e a thi na ndavha na zwinzhi, tenda vharema vha dzula vho vhofholowa, vhe na pfanelo dzo¾he dzo vha teaho.\r\nDUMA: Vha¿we vhathu vha vhona vho tshinya avho madzina buguni dza »ivhazwakale, zwino vha vho ¾o»a u penndulula vhua»a he vha ita nga pennde ntswa.\r\nSKOSANA: Ndi vhone vho »aho na 'apartheid'. Ro liga ri tshi tambula, ri si na ndaka, ri si na shango, ri si na mulomo. A ambaambaho vha fhedza vhe mulomo nga phula shate-shate. N»ila ya hone i yeneyi nthihi ya u panga vhathu dzhele tshi¾angadzimeni hangei.\r\nDUMA: Hu tou nga vho vha vho humbula uri vharangaphan»a vhashu vha »o hangwiwa vha fhedza vho fela dzhele.\r\nMUTHUMUKHULU: Kha ri hangwe nga zwa kale ri sedze mushumo wo ri livhanaho.\r\nSKOSANA: Muhulisei!\r\nMUTHUMUKHULU: Ri fanela u shuma. Swina ndi ¼ene¼i ¼ine ¼a vha a ¼i tsha kokodza gariki ya muvhuso wa mbuelano ya lushaka.\r\nSKOSANA: N½e a thi vhoni swina, ndi vhona khonani. Ndi vhu»ifhinduleli hashu ro¾he u shuma i¾oni ¼a mvelaphanda. Hedzi khonani dzashu ri nga dzi vala mulomo nga u ita zwi tevhelwaho.\r\nSKOSANA: Kha vha bule muhulisei.\r\nMUTHUMUKHULU: N»ala kha i kudzwe »ale»aleni, nahone i si tsha sendela tsini na luhura lwa vhathu vhashu.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "text": "Mafhungo e na vhala a khou bvelela ngafhi?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "text": "Vhathu vho kuvhanganaho afho mafhungoni ndi mira»o ya ¼ihoro ¼ifhio?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "text": "U ya nga Muthumukhulu, ndi tshanduko dzifhio dzine dza »o vha hone kha muvhuso?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.4",
+          "parent_id": "3.2",
+          "text": "Ndi ngani Muthumukhulu a tshi ri a ri hangwe zwa kale ri sedze mushumo we ra livhana nawo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.5",
+          "parent_id": "3.2",
+          "text": "Bulani zwithu ZWIRARU zwine Skosana a ri vho liga vha tshi tambula vha si nazwo.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.6",
+          "parent_id": "3.2",
+          "text": "Muanewa dendele kha bugu iyi ndi nnyi? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.7",
+          "parent_id": "3.2",
+          "text": "Nangani phindulo yo teaho kha mutevhe wo ½ekedzwaho. Demokirasi ndi mini?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Muvhuso wa khombetshedzo."
+            },
+            {
+              "label": "B",
+              "text": "Muvhuso wa u khethiwa nga vhathu."
+            },
+            {
+              "label": "C",
+              "text": "Muvhuso u shengedzaho."
+            },
+            {
+              "label": "D",
+              "text": "Muvhuso u sa khethiwi nga vhathu."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.8",
+          "parent_id": "3.2",
+          "text": "¹alutshedzani zwo bvelelaho ma¾hakheni a »irama iyi.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.9",
+          "parent_id": "3.2",
+          "text": "Kuhumbulele kwa Muthumukhulu na De Wit ku fhambana hani malugana na kuvhusele?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2.10",
+          "parent_id": "3.2",
+          "text": "Vhagudi vha vharema a vha dzuli murunzi muthihi na vhagudi vha vhatshena. Inwi ni vhona tshivhangi hu mini?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "KHETHEKANYO YA C: NGANEAPFUFHI",
+      "instructions": "Vhalani mafhungo a tevhelaho a bvaho kha nganeapfufhi MBILI dze na guda uri ni kone u fhindula mbudziso dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "'VULANI MUFUNWA WANGA' – NA Milubi: TSHIBVELEDZWA TSHA G",
+          "marks": null,
+          "scenario": "Afha hune La¾ani a vha hone ndi kha rumu ya i¿we ya zwifha¾o zwilapfulapfu henefha Yunivesithi ya Henefhano. Tshifha¾o itshi tsho fha¾wa lwa vhudele lune musi muthu e ngomu a kona u vhona zwo¾he zwi re fhasi. Musi muthu e rumuni iyi u tou vhona zwavhu»ivhu»i zwiendedzi zwo¾he zwi no dzhena na u bva vhuimazwiendedzi ha tshifha¾o itshi.\r\nNamusi Vho-Dinani vha tshi khou imisa tshiendedzi tshavho afha fhasi ha tshifha¾o itshi, La¾ani u khou »i vha vhona zwawe.\r\nA tshi posa ma¾o a vhona vha tshi khou vula buthu, vha bvisa zwine vha bvisa vha tshi vhea fhasi. Vho no fhedza vha pu¾edza tshi¿we tshithu tshe vha vha vho fara. Musi vho no tshi pu¾edza, tsha lidza muludzi, we wari u lila mavhone a taidza. U ralo zwa amba uri tshiendedzi tsho »ilo»ela nga tshone tshine.\r\nU fhedza Vho-Dinani vha doba mihwalo yavho, vha mbo »i livha mu½angoni wa tshifha¾o tshenetshi. La¾ani a tshi vhona vho livha mu½angoni, a mbo »i »ivha zwauri ndi hone vhe n»ilani ya u »a henefha hune a vha hone. Khathihi fhedzi a pfa mbilu yo ya mu¾anani. A vula fasi¾ere, a humbula u fhufha. A tshi kala a wana fhasi hu si fhano tsini. A fhufha hu »o vha na u fhufhela lufuni. Ndi henefha hune a »o devhekana dethele vhuluvhi wa wana ho hasekana.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.1",
+          "parent_id": "4.1",
+          "text": "Bulani Yunivesithi ye La¾ani a vha a tshi dzhena khayo?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.2",
+          "parent_id": "4.1",
+          "text": "Zwifha¾o zwa Yunivesithi zwo vha zwi zwifha¾o »e? Fhindulani nga mbuno MBILI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.3",
+          "parent_id": "4.1",
+          "text": "Mafhungo e na vhala a khou bvelela nga tshifhinga tshifhio? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.4",
+          "parent_id": "4.1",
+          "text": "¹alutshedzani vhuµipfi ha ¸eani musi a tshi vhona munna wawe Vho Dinani ni dovhe ni tikedze phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.5",
+          "parent_id": "4.1",
+          "text": "¸eani phambano vhukati ha Vho Dinani na mufumakadzi wavho ¸eani malugana na vhuµifari.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.6",
+          "parent_id": "4.1",
+          "text": "Mafhungo e na vhala a ¾ana tshipi»a tshifhio tsha puloto, Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.7",
+          "parent_id": "4.1",
+          "text": "U ya nga nganeapfufhi iyi ¾alutshedzani zwe La¾ani a ita hu u lingedza u dzumbama Vho Dinani?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.8",
+          "parent_id": "4.1",
+          "text": "Thasululo ya nganeapfufhi iyi ni vhona yo bveledzwa zwavhuµi naa? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1.9",
+          "parent_id": "4.1",
+          "text": "Ni vhona zwe zwa bvelela kha nganeapfufhi iyi zwi tshi itea vhutshiloni naa? Tikedzani phindulo ya½u nga mbuno THARU.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "'NDI A PU¹EDZA HA ITEA ¶EMBE' – NA Milubi: TSHIBVELEDZWA TSHA F",
+          "marks": null,
+          "scenario": "Zwo¾he zwo thoma sa madze. Havha Vho-Gideon Dimbalala vho »o vhudza mufumakadzi Vho-Narina zwauri vhone vha khou ya mi¾anganoni ngeyo-ngeyo.\r\nVhari arali hu u vhuya vha »o vhuya nga Swondaha. Mufumakadzi ndi u vhalongela zwo¾he zwo fanelaho. Nangoho vha¼a vha dzhena goloini vha »i¾utshela.\r\nVho-Gideon Dimbalala vho vha vho no nwa maitele a no nga ha fushi kha hoyu mufumakadzi wavho. I¾ali muthu arali o no vha na peta a sa hangi na luthihi. Narina o »o dina u ita zwa u »ikonanya na u¼a mufumakadzi Nora we avha a sa fhiri muthu. Ho¾he na hu sa iwi ene o vha a tshi ya. ¸owa dzo¾he dzi re na vhuhali na dze dza vha dzi si na dzo vha dzi tshi »ihwa ngae. Mulenzhe wa Nora avha Vho-Narina vho vha vho tou doba tsho¾he. Mulilo wa mbava i¾ali u sa orwi.\r\nVho-Gideon Dimbalala vho ri u ¾uwa sa zwe vha ambisa zwone, vha swika ngei lonzhi Siawovhea vha vhidzisa zwiko¾iko¾i zwavho. Vha endela u nwa dinani ya muthu vha sa vhuyi vha i vhona. Vha ri u fhedza zwe vha vha vho vhea phan»a havho vha mbo »i vhidzisa zwi¿we. Ha ri ho no swa na »uvha ¼o no swifhala, vha humbela mu½e wa lonzhi zwauri vha sie goloi yavho hanefho. Vha ri vha »o »a vha i dzhia nga ¼i tevhelaho.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.1",
+          "parent_id": "4.2",
+          "text": "Bulani he Vho-Dimbalala vha vha vha tshi khou ya hone?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.2",
+          "parent_id": "4.2",
+          "text": "¸eani dzina ¼a mufumakadzi wa Vho-Dimbalala.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.3",
+          "parent_id": "4.2",
+          "text": "Ndi zwifhio zwi sumbedzaho uri mufumakadzi wavho o vha ¾hogomela?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.4",
+          "parent_id": "4.2",
+          "text": "Mafhungo e na vhala a ¾ana vhu»ipfi vhufhio ha Vho-Dimbalala? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.5",
+          "parent_id": "4.2",
+          "text": "Nora o shela mulenzhe nga ½dila ifhio kha vhu»ifari ha mufumakadzi wa Vho-Dimbalala?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.6",
+          "parent_id": "4.2",
+          "text": "Ndi maitele afhio e Vho-Dimbalala vha vha vho no a guda nga mufumakadzi wavho?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.7",
+          "parent_id": "4.2",
+          "text": "Mu¿wali o kona naa u bveledza ¾hoho ya mafhungo? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.8",
+          "parent_id": "4.2",
+          "text": "Thero ya nganeapfufhi iyi ndi ifhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.9",
+          "parent_id": "4.2",
+          "text": "Arali no vha ni na shaka ¼a re na vhu»ifari vhu no nga ha Vho Narina, no vha ni tshi »o ¼i eletshedza zwifhio no sedza vhu»ifari ha¼o.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "KHETHEKANYO YA D: VHURENDI",
+      "instructions": "Vhalani TSHIRENDO tshi tevhelaho nga vhusedzi uri ni kone u fhindula mbudziso dzo vhudziswaho.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "NDUNI DZA RDP – TN Pholi",
+          "marks": null,
+          "scenario": "1 Ma¾o o vhona ndi kule nda kungea,\r\n2 Tsini-tsini nda sendela,\r\n3 Muhumbulo wo pika u fushea,\r\n4 Nda sendelesa nda ¾ovhowa.\r\n5 Nn»u dzavhu»i mafasi¾ere mabuli,\r\n6 Mbondo dzo kunaho dzo dona kavhili,\r\n7 Mivhala i kungaho i ½engisa u sedza,\r\n8 ¹hanga dzo fulelwaho, fhasi malege o awela.\r\n9 Zwi¾ara¾a zwo shanduka mabunga,\r\n10 Milambwana i elaho wa nwa u a golola,\r\n11 Dzo faho mmbwa haya hadzo ndi henefho,\r\n12 Vhadzadze a vhana mashika vha posa.\r\n13 Nn»u dza RDP vhadzuli vhadzo,\r\n14 Namusi ndi vhano, matshelo ndi avho,\r\n15 N»evhe u dzinga ho »ala,\r\n16 Zwilidzo u »ala, miungo phosho zwo hudza.\r\n17 Vhana na vhokhotsi vha gekhana khoroni,\r\n18 Vha¿we vha tshi dzhena, vha¿we vha tshi bva,\r\n19 Zwi½engisaho zwo¾he fhano ndi hone haya,\r\n20 Vhathu vho shanduka zwipuka nga husili.\r\n21 Vhahashu, nn»u dze na ½ewa,\r\n22 Tondani, kunakisani ni fushe vhafhi,\r\n23 Shandukani, vhuthu na vhudele zwi vhe zwa½u\r\n24 Nµuni dza RDP fha¼a.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Bulani dzina ¼a figara ya muambo i re kha mutaladzi wa 3.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Kha ndima 2 ndi zwifhio ZWIRARU zwine murendi a ri a zwo ngo dzula zwavhu»i n»uni dza RDP?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "ºwalani zwithu ZWIVHILI zwi no poswa milambwanani i no wanala n»uni dza RDP.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "¸eani tshikimu tsha raimi tsha ndima ya 1.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Mutaladzi 9 u bvisela zwifhio khagala tshirendoni itshi?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "U ya nga ndima ya 3, vhadzuli vha n»uni dza RDP vha na mvumbo»e?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Muhumbulo muhulwane wa itshi tshirendo ndi ufhio?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "text": "Tshirendo itshi ndi tsha lushaka lufhio? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": "5.1",
+          "text": "Inwi ni nga takalela u dzula nḓuni dzi no khou ambiwa tshirendoni itshi? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "THINGOTHENDELEKI – TN Pholi",
+          "marks": null,
+          "scenario": "1 Ndi vhangana we wa vha leludzela vha takala?\r\n2 Ndi hungana he wa hu leludzela ra pembela?\r\n3 U fha¾a hafha, wa thutha hafho.\r\n4 U ¾avhanya sa lupenyo vhai!\r\n5 Tshilengo a si tshau,\r\n6 Tshikolo ndo kundiswa nga iwe,\r\n7 Mushumoni ndo thathiswa nga iwe,\r\n8 Mbingano yanga yo pfuvhiswa nga iwe,\r\n9 ¹hingothendeleki, iwe mutendeleki.\r\n10 Mi¾odzi yanga namusi khei,\r\n11 A u i sedzi, u dzula wo fulela,\r\n12 U khou »i thutha ha thuthea.\r\n13 U khou »i fha¾a ha fha¾ea,\r\n14 ¹hingothendeleki, vhabebi vhau vha ngafhi?\r\n15 Mmbudze, ndi vha vhudze vha tevhele ¿wana wavho.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Topolani tshiga tsho imelaho u ṱavhanya afho tshirendoni.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "U ya nga tshirendo itshi, hu na he luṱingothendeleki lwa thithisa murendi hone. Lwo mu thithisa kha zwifhio ZWIRARU?",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Murendi u ambani nga mutaladzi wa 5?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "Kha tshirendo itshi murendi o lila? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.5",
+          "parent_id": "5.2",
+          "text": "Mitaladzi ya 12 na 13 i bvisela zwifhio khagala?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.6",
+          "parent_id": "5.2",
+          "text": "Kha mutaladzi wa 14 murendi o shumisa mbudziso ya rithoriki. Inwi ½eani mushumo wayo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.7",
+          "parent_id": "5.2",
+          "text": "Nangani phindulo yo teaho kha mutevhe wo ½ekedzwaho. Ipfi 'vhabebi' kha itshi tshirendo ¼o imela …",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "mme na khotsi vha ¾hingothendeleki."
+            },
+            {
+              "label": "B",
+              "text": "vha rengisaho ¾hingothendeleki."
+            },
+            {
+              "label": "C",
+              "text": "vho sikaho ¾hingothendeleki."
+            },
+            {
+              "label": "D",
+              "text": "vho rengaho ¾hingothendeleki."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.8",
+          "parent_id": "5.2",
+          "text": "Mutevhetsindo wa itshi tshirendo u ¾u¾uwedza vhu»ipfi vhufhio kha murendi? Ndi ngani ni tshi ralo?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.9",
+          "parent_id": "5.2",
+          "text": "Inwi ni a tikedza muhumbulo wa uri ṱhingothendeleki dzi humiselwe ha vhabebi vhadzo? Tikedzani phindulo ya½u.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 25333,
+    "cached_tokens_saved": 0
+  }
+}

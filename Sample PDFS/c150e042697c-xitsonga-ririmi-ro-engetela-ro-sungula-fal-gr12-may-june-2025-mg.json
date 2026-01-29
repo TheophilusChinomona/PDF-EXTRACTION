@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "subject": "Xitsonga: Ririmi ro Engetela ro Sungula (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "XIYENGE XA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Buku yo tsakisa leyi ndzi yi hlayeke.",
+          "type": "Xitsalwana xa ndzungulo",
+          "model_answers": [
+            "Xivumbeko xa xitsalwana lexi nga na tindzimana leti nga na nkhulukelano.",
+            "Manghenelo lamanene lama kombisaka ku twisisa nhlokomhaka.",
+            "Ku rungula leswi humeleleke hi ku tirhisa nkarhi lowu nga hundza.",
+            "Vundzeni lebyi khomeke vuxokoxoko lebyi kombisaka swihlawulekiso swa buku, mutsari, kungu na swin'wana na swin'wana.",
+            "Masongelo lamanene."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Nhlawulo wa mani na mani wa nkarhi na nkarhi.",
+          "type": "Xitsalwana xa nhlamuselo",
+          "model_answers": [
+            "Xivumbeko xa xitsalwana lexi nga na tindzimana leti nga na nkhulukelano.",
+            "Manghenelo lamanene lama kombisaka ku twisisa nhlokomhaka.",
+            "Vundzeni lebyi khomeke vuxokoxoko lebyi kombisaka migingiriko ya nhlawulo wa mani na mani wa nkarhi na nkarhi.",
+            "Masongelo lamanene."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Loko ndzo tshuka ndzi winile mamiliyoni ya tirhandi.",
+          "type": "Xitsalwana xa mianakanyo",
+          "model_answers": [
+            "Xivumbeko xa xitsalwana lexi nga na tindzimana leti nga na nkhulukelano.",
+            "Manghenelo lamanene lama kombisaka ku twisisa nhlokomhaka.",
+            "Vundzeni lebyi khomeke vuxokoxoko bya ku wina ka yena na leswi a nga ta swi endla hi mamiliyoni ya tirhandi.",
+            "Masongelo lamanene."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Ku ya ehansi ka vukorhokeri eswibedhlele swa mani na mani swi vangiwa hi mafambiselo ya vurhangeri bya tiko. Pfumela kumbe u kaneta mhaka leyi.",
+          "type": "Xitsalwana xa mavonelo",
+          "model_answers": [
+            "Xivumbeko xa xitsalwana lexi nga na tindzimana leti nga na nkhulukelano.",
+            "Manghenelo yo kombisa ku twisisa nhlokomhaka.",
+            "Tlhelo leri mukamberiwa a welaka eka rona.",
+            "Vundzeni lebyi khomeke vuxokoxoko lebyi kombisaka ku twisisa timhaka ta vukorhokeri eswibedhlele na xiyimo xa byona xa khale na xa sweswi.",
+            "Masongelo lamanene."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Vurimi byi fanele ku rhangisiwa emahlweni laha tikweni.",
+          "type": "Xitsalwana xa nkanelo",
+          "model_answers": [
+            "Xivumbeko xa xitsalwana lexi nga na tindzimana leti nga na nkhulukelano.",
+            "Manghenelo lamanene lama kombisaka ku twisisa nhlokomhaka.",
+            "Vundzeni lebyi khomeke vuxokoxoko bya ku va vurimi byi fanele ku rhangisiwa emahlweni laha tikweni.",
+            "Masongelo lamanene."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6-1.8",
+          "text": "Xitsalwana xa swifaniso",
+          "type": "Xitsalwana",
+          "model_answers": [
+            "Eka swivutiso swa 1.6–1.8 mukamberiwa u ta xiyaxiya swifaniso leswi a nyikiweke swona kutani a tsala xitsalwana hi xin'we xa swona, a aneka mhaka leyi xi n'wi tiselaka yona emiehleketweni na ku twisisa mongo wa xifaniso.",
+            "U ta nyika xitsalwana xa yena nhlokomhaka leyi faneleke."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "PAPILA RA MAFUNDZA",
+          "type": "Long transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa papila ra mafundza.",
+            "Vutivi bya swihlawulekiso swa papila ra mafundza.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi tsundzuxaka nhloko ya xikolo hi vuhlayiseki na vusirheleri lebyi faneleke ku endliwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "IMEYILI",
+          "type": "Long transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa imeyili.",
+            "Vutivi bya swihlawulekiso swa imeyili.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka ku khensa muakelani wa yena ku va a n'wi pfunile ku kuma ntirho wa nkarhinyana eka khamphani ya vona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "XIVIKO",
+          "type": "Long transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa xiviko.",
+            "Vutivi bya swihlawulekiso swa xiviko.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka vulavisisi mayelana na ku andza ka matirhiselo ya swidzidziharisi hi vantshwa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "N'WANGULANO",
+          "type": "Long transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa n'wangulano.",
+            "Vutivi bya swihlawulekiso swa n'wangulano.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka mbhurisano lowu kongomisiweke eka nhlokomhaka."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 30,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "XIYENGE XA C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "XINAVETISO",
+          "type": "Short transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa xinavetiso.",
+            "Vutivi bya swihlawulekiso swa xinavetiso.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka vukorhokeri bya ku tsema byanyi na ku hunguta minsinya."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "HUNGU RA SMS",
+          "type": "Short transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa hungu ra SMS.",
+            "Vutivi bya swihlawulekiso swa hungu ra SMS.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka vanghana vambirhi va vulavulaka hi timhaka to tilulamisela ku tsala xikambelo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": "SWILETELO",
+          "type": "Short transactional text",
+          "model_answers": [
+            "Xivumbeko lexi faneleke xa swiletelo.",
+            "Vutivi bya swihlawulekiso swa swiletelo.",
+            "Vundzeni lebyi byi nga na voxokoxoko lebyi kombaka swiletelo ku suka exitichini xa mathekisi ku ya fika esinema ya kona."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 20,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 11614,
+    "cached_tokens_saved": 0
+  }
+}

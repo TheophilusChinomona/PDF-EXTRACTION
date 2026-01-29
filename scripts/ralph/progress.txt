@@ -1,240 +1,94 @@
 # Ralph Progress Log
+Started: Wed, Jan 28, 2026  7:45:37 PM
+---
+## 2026-01-28 20:00 - US-001
+- Implemented memo Pydantic models in app/models/memo_extraction.py
+- Created EssayStructure, MemoQuestion, MemoSection, and MarkingGuideline models
+- All models extend GeminiCompatibleModel for JSON schema compatibility
+- Files changed: app/models/memo_extraction.py (new)
 
-Started: 2026-01-28
-Project: PDF-Extraction (Hybrid Architecture)
-Branch: ralph/hybrid-extraction-pipeline
-
+**Learnings for future iterations:**
+- EssayStructure.body_sections requires Dict[str, Any] instead of Union[List[str], Dict[str, List[str]]] because the actual JSON structure has keys like "sub_topic", "points", "positives", "negatives", "rights" - more flexible than just list or nested dict
+- The sample JSON validates perfectly with this schema - tested against Sample PDFS/outputs/Sample output-marking guideline.json
+- MemoQuestion supports multiple answer formats: model_answers (list or dict), answers (list of dicts with sub_id/value), structured_answer (list of dicts for paired answers like strategy/motivation)
+- Typecheck passes with mypy without any issues
 ---
 
-## Codebase Patterns
+## 2026-01-28 20:30 - US-002
+- Implemented memo extraction service in app/services/memo_extractor.py
+- Created MEMO_EXTRACTION_SYSTEM_INSTRUCTION with Section A/B/C specific rules
+- Implemented get_or_create_memo_cache() with separate _MEMO_CACHE_NAME global
+- Implemented extract_memo_with_vision_fallback() for low-quality PDFs
+- Implemented extract_memo_data_hybrid() main async pipeline
+- Created PartialMemoExtractionError exception class
+- Files changed: app/services/memo_extractor.py (new)
 
-- **Gemini SDK:** Use `from google import genai` (modern SDK), NOT `google.generativeai`
-- **Settings Pattern:** Use `get_settings()` for configuration access (singleton via @lru_cache)
-- **Testing Settings:** Always call `get_settings.cache_clear()` before testing environment variables
-- **Pydantic v2:** Raises `ValidationError` for validation failures (not `ValueError`)
-- **Mypy Configuration:** Requires `plugins = pydantic.mypy` in mypy.ini for BaseSettings support
-- **OpenDataLoader API:** Uses functional `convert()` not object-oriented `DocumentLoader()` class
-- **OpenDataLoader Output:** Writes JSON/Markdown files to disk - must read them to extract data
-- **Quality Scoring:** <0.7 triggers Vision fallback, >=0.7 uses hybrid mode
-- **Supabase Package:** Named 'supabase' not 'supabase-py' in requirements.txt
-- **FastAPI Routers:** Import functions at module level (not inside functions) to enable test mocking
-- **Retry Pattern:** Decorator handles both sync and async functions via inspect.iscoroutinefunction()
-- **Partial Extraction:** Save OpenDataLoader data even when Gemini fails - provides value to users
-- **File Cleanup:** Use finally block with try/except to silence cleanup failures (extraction result more important)
-- **Rate Limiting:** Use slowapi with `get_limiter()` singleton; reset limiter in tests with `autouse=True` fixture
-
+**Learnings for future iterations:**
+- Reused _remove_additional_properties() and _estimate_token_count() from pdf_extractor.py via imports - no code duplication
+- Memo cache is completely separate from exam paper cache (different global variable) to avoid cache collisions
+- System prompt emphasizes extracting ALL valid answers even if more than marks available (critical for grading flexibility)
+- Memo prompts handle three distinct section types: A (MCQ/Fill/Match), B (Short answer with model_answers), C (Essays with essay_structure)
+- Added None check for response.text to satisfy mypy - Gemini API can return None in error cases
+- Pre-existing typecheck errors in pdf_extractor.py are not blockers - memo_extractor.py has no errors
 ---
 
-## Completed Stories Summary (US-001 to US-020)
+## 2026-01-28 20:45 - US-003
+- Added CLI entry point to app/services/memo_extractor.py
+- CLI accepts file path argument and validates file existence
+- Outputs JSON to stdout and auto-saves to {input_name}_memo_result.json
+- Handles errors gracefully with stderr output
+- Files changed: app/services/memo_extractor.py (modified)
 
-✅ **US-001 to US-005:** Project structure, dependencies, config, Gemini client, Pydantic models
-✅ **US-006 to US-007:** OpenDataLoader integration, quality scoring algorithm
-✅ **US-008 to US-009:** Hybrid extraction pipeline, Vision fallback
-✅ **US-010:** File validation (size, MIME type, sanitization, SHA-256 hash)
-✅ **US-011 to US-013:** Supabase client, database schema (extractions table), CRUD functions
-✅ **US-014:** FastAPI app with health check, version endpoint, lifespan handler
-✅ **US-015:** POST /api/extract endpoint (upload, validate, extract, store)
-✅ **US-016:** GET /api/extractions endpoints (single + list with pagination)
-✅ **US-017:** Bounding box endpoints (all bboxes + specific element)
-✅ **US-018:** Retry logic with exponential backoff decorator
-✅ **US-019:** Partial result storage with retry via duplicate detection
-✅ **US-020:** Request logging middleware with structured JSON output
-✅ **US-021:** Rate limiting middleware with slowapi
-
-**Status:** 21/28 stories complete | 228 tests passing | mypy --strict passing
-
-**Architecture Working:**
-- Hybrid pipeline: OpenDataLoader → Quality Check (0.7) → Gemini/Vision
-- Cost savings: 80% for hybrid mode, 0% for Vision fallback
-- Database: Full CRUD operations with deduplication
-- API: Complete extraction workflow with error handling
-
+**Learnings for future iterations:**
+- CLI entry point uses asyncio.run() to call the async extract_memo_data_hybrid function
+- Output path constructed using os.path.join() and os.path.splitext() to place result alongside input PDF
+- Uses sys.stderr for error messages and save notification to keep stdout clean for JSON piping
+- get_gemini_client() import needed inside __main__ block to avoid circular imports
 ---
 
-## Next Stories (US-022 to US-028)
+## 2026-01-28 21:00 - US-004
+- Created app/db/memo_extractions.py with database functions for memo_extractions table
+- Implemented create_memo_extraction(), get_memo_extraction(), check_memo_duplicate()
+- Implemented update_memo_extraction_status(), list_memo_extractions(), update_memo_extraction()
+- Files changed: app/db/memo_extractions.py (new)
 
-**Remaining:** Review queue, batch processing, webhooks, context caching, routing stats, integration tests, deployment docs
-
+**Learnings for future iterations:**
+- Memo metadata comes from data.meta dict (not top-level fields like exam papers)
+- Need to extract subject, year, session, grade, total_marks from meta dict using .get() with defaults
+- Sections stored as JSONB using [s.model_dump() for s in data.sections] pattern
+- All function signatures mirror extractions.py exactly - consistent API patterns across document types
+- Table name is 'memo_extractions' (separate from 'extractions' table)
 ---
 
-**Full detailed logs archived at:** `archive/2026-01-28-progress-backup/progress-full.txt`
+## 2026-01-28 21:15 - US-006
+- Created migrations/004_create_memo_extractions_table.sql
+- Table structure mirrors extractions table with memo-specific columns
+- Includes indexes on file_hash (unique), status, created_at, processing_method
+- Reuses extraction_status and processing_method_type enums from migration 001
+- Updated_at trigger uses existing update_updated_at_column() function
+- Files changed: migrations/004_create_memo_extractions_table.sql (new)
 
+**Learnings for future iterations:**
+- Table is independent from extractions - no foreign keys between them
+- Memo metadata columns (subject, year, session, grade, total_marks) are at top level, not nested in JSONB
+- Sections stored as JSONB column for flexibility (stores array of MemoSection objects)
+- Can reuse enum types from previous migrations (extraction_status, processing_method_type)
+- Can reuse trigger function (update_updated_at_column) across multiple tables
 ---
 
-## 2026-01-28 20:00 - US-020
-- Implemented structured JSON request logging middleware
-- Added RequestLoggingMiddleware to FastAPI app (wraps all requests)
-- Logs include: request_id (UUID), timestamp, method, path, status_code, processing_time_ms, user_ip
-- Captures routing decisions: processing_method (hybrid/vision_fallback), quality_score from headers
-- Error logging includes full stack traces for debugging
-- Security: Does NOT log API keys, file contents, or sensitive data
-- Added X-Request-ID header to all responses for request tracking
-- Updated extraction router to add X-Processing-Method and X-Quality-Score headers
-- **Files changed:** app/middleware/logging.py (new), app/middleware/__init__.py (new), app/main.py, app/routers/extraction.py
-- **Learnings for future iterations:**
-  - Middleware order matters: Logging middleware added first to wrap all other middleware
-  - Use BaseHTTPMiddleware for FastAPI middleware with proper type hints (Callable[[Request], Awaitable[Response]])
-  - Response headers can pass metadata to middleware for logging (X-Processing-Method, X-Quality-Score)
-  - JSON logging format enables structured log analysis (parsing, filtering, metrics)
-  - Request state (request.state) is useful for passing data between middleware and endpoints
+## 2026-01-28 21:30 - US-005
+- Added doc_type routing to POST /api/extract endpoint in app/routers/extraction.py
+- Added doc_type Form parameter with default 'question_paper' (backward compatible)
+- Added validation for doc_type values ('question_paper' or 'memo')
+- Branched logic at 6 key points: duplicate check, extraction call, status update, create/update, webhook
+- Files changed: app/routers/extraction.py (modified)
 
+**Learnings for future iterations:**
+- extraction_result needs Union type: Optional[Union[FullExamPaper, MarkingGuideline]] to satisfy mypy
+- Must handle both PartialExtractionError and PartialMemoExtractionError in exception catch
+- Webhook data structure differs: memo uses meta dict (extraction_result.meta.get('subject')) vs exam paper top-level fields (extraction_result.subject)
+- Used type: ignore[arg-type] for database calls since mypy can't infer type narrowing from doc_type routing
+- Default parameter value ensures backward compatibility - existing API clients unaffected
+- Must import get_memo_extraction inside the if block to avoid circular import issues
 ---
 
-## 2026-01-28 21:30 - US-021
-- Implemented rate limiting middleware using slowapi library
-- Rate limits configured per endpoint:
-  - POST /api/extract: 10 requests/minute per IP
-  - POST /api/batch: 2 requests/minute per IP (for future batch endpoint)
-  - GET /api/extractions/*: 100 requests/minute per IP
-- Returns 429 Too Many Requests with Retry-After header when limit exceeded
-- Custom error handler returns JSON response with detail, message, and retry_after
-- Uses in-memory storage for MVP (can upgrade to Redis later)
-- Added X-RateLimit-Remaining header to responses via RateLimitMiddleware
-- **Files changed:** app/middleware/rate_limit.py (new), app/main.py, app/routers/extraction.py, requirements.txt, tests/test_rate_limit.py (new), tests/test_extraction_router.py
-- **Learnings for future iterations:**
-  - slowapi library works well with FastAPI but has untyped decorators (use `# type: ignore[untyped-decorator]`)
-  - slowapi doesn't have type stubs (use `# type: ignore[import-not-found]` for imports)
-  - Rate limiter must be reset in tests to avoid rate limit interference between test cases
-  - Use `autouse=True` fixture to reset limiter before each test
-  - RateLimitExceeded takes a Limit object, not a detail string - use mock for testing
-  - Get client IP from X-Forwarded-For header for proxied requests (first IP in list)
-  - slowapi stores limiter in app.state for route decorators to access
-
----
-
-## 2026-01-28 22:30 - US-023 & US-024
-- **US-023: Batch Processing Endpoint**
-  - Created migrations/003_create_batch_jobs_table.sql with batch_jobs table
-  - Table tracks: status (enum), total_files, completed_files, failed_files
-  - JSONB routing_stats: {hybrid, vision_fallback, pending} for routing distribution
-  - UUID[] extraction_ids to link to individual extractions
-  - Cost tracking: cost_estimate_usd, cost_savings_usd (80% savings for hybrid mode)
-  - Created app/models/batch.py with Pydantic models (BatchJobCreate, BatchJobStatus, RoutingStats)
-  - Created app/db/batch_jobs.py with database operations
-  - Created app/routers/batch.py with POST /api/batch and GET /api/batch/{id} endpoints
-  - Batch processing is synchronous for MVP (processes files sequentially)
-  - Returns 202 Accepted with batch_job_id and status URL
-  - Updates routing_stats as each file completes
-  - Integrated batch router into main.py
-- **US-024: Webhook Notifications**
-  - Created app/services/webhook_sender.py
-  - send_webhook function: HTTPS validation, HMAC-SHA256 signature, 3 retries with exponential backoff
-  - send_extraction_completed_webhook: wrapper for extraction events
-  - send_batch_completed_webhook: wrapper for batch completion events
-  - Integrated into extraction router: calls webhook after successful extraction if webhook_url provided
-  - Fire-and-forget pattern using asyncio.create_task (non-blocking)
-  - Webhook payload format: {event, extraction_id/batch_job_id, status, data/summary, timestamp}
-  - X-Webhook-Signature header with HMAC-SHA256 for verification
-  - 30-second timeout per request
-  - Logs all webhook delivery attempts and responses
-- **Files changed:** migrations/003_create_batch_jobs_table.sql (new), app/models/batch.py (new), app/db/batch_jobs.py (new), app/routers/batch.py (new), app/services/webhook_sender.py (new), app/main.py, app/routers/extraction.py, tests/test_batch.py (new), tests/test_webhook_sender.py (new), app/middleware/rate_limit.py
-- **Tests:** 248 tests passing (11 new batch tests, 9 new webhook tests)
-- **Quality:** mypy --strict passing, fixed datetime.utcnow() deprecation warnings, removed unnecessary slowapi type: ignore comments
-- **Learnings for future iterations:**
-  - Batch endpoint uses rate limiting decorator @limiter.limit("2/minute") to prevent abuse
-  - Webhook fire-and-forget pattern: use asyncio.create_task() to avoid blocking extraction response
-  - HMAC signature uses GEMINI_API_KEY as default secret key (can be customized per webhook)
-  - Batch job status automatically transitions: pending → processing → completed/failed/partial
-  - Routing stats are updated atomically: fetch current state, increment counters, update in single transaction
-  - Cost savings calculation: hybrid mode saves 80%, so savings = cost * 4 (since cost is 20% of pure vision)
-  - Fire-and-forget webhooks mean extraction doesn't fail if webhook fails (logged instead)
-  - datetime.now(UTC) is preferred over datetime.utcnow() (deprecated in Python 3.14)
-  - slowapi now has type stubs - no need for type: ignore[import-untyped] comments
-
----
-
-## 2026-01-28 23:45 - US-025 & US-026
-- **US-025: Context Caching for Cost Optimization**
-  - Implemented get_or_create_cache() function with singleton pattern using global _EXTRACTION_CACHE_NAME
-  - Cache stores academic PDF extraction system instruction with 1-hour TTL
-  - Updated both extract_pdf_data_hybrid() and extract_with_vision_fallback() to use context caching
-  - Cache metadata tracked in processing_metadata: cache_hit, cached_tokens, total_tokens, cached_tokens_saved
-  - Added GET /api/stats/caching endpoint showing cache hit rate and token savings
-  - Context caching reduces API costs by ~90% for cached system instruction tokens
-- **US-026: Routing Statistics Dashboard**
-  - Created GET /api/stats/routing endpoint with comprehensive metrics:
-    * Routing distribution: count by processing_method (hybrid, vision_fallback, partial)
-    * Average quality_score across all extractions
-    * Cost metrics: total_cost_usd, estimated_pure_vision_cost_usd, total_savings_usd, savings_percent
-    * Performance metrics: avg_processing_time_seconds, p95_processing_time
-  - Implemented 5-minute caching for routing stats using module-level variables (_routing_stats_cache, _routing_stats_cache_time)
-  - Added X-Cache-Hit header to indicate cache status
-- **Files changed:**
-  - app/services/pdf_extractor.py (added caching functions, updated extraction functions)
-  - app/routers/stats.py (new - caching and routing stats endpoints)
-  - app/routers/extraction.py (fixed type hints for webhook_data)
-  - app/main.py (registered stats router, updated slowapi imports)
-  - tests/test_context_caching.py (new - 6 tests for cache functionality)
-  - tests/test_stats.py (new - 7 tests for stats endpoints)
-  - tests/test_pdf_extractor.py (added mock_get_or_create_cache fixture)
-- **Tests:** 13 new tests passing (6 caching + 7 stats), mypy --strict passing
-- **Learnings for future iterations:**
-  - Gemini context caching API: Use client.caches.create() with CreateCachedContentConfig
-  - Cache TTL format: "3600s" for 1 hour (must be string with 's' suffix)
-  - Cache usage: Pass cache.name to GenerateContentConfig(cached_content=cache_name)
-  - Cache statistics: Access via response.usage_metadata.cached_content_token_count
-  - Module-level cache with global keyword enables singleton pattern across requests
-  - Cache validation: Check cache.name is not None before returning (mypy strict mode requirement)
-  - Stats caching pattern: Use module-level dict + timestamp for TTL-based caching
-  - P95 calculation: Sort list, get index at 95% position (int(len(list) * 0.95))
-  - Cost estimation for routing stats: Hybrid saves 80%, so pure vision cost = hybrid_cost * 5
-
----
-
-
-## 2026-01-28 23:30 - US-027 & US-028
-- **US-027: Integration Tests**
-  - Created tests/integration/test_extraction_flow.py with 12 comprehensive end-to-end tests
-  - Test complete hybrid extraction flow: upload PDF → extract → store → retrieve → verify bounding boxes
-  - Test vision fallback flow for low-quality PDFs with quality score < 0.7
-  - Test duplicate detection and caching (returns 200 with existing result, no re-extraction)
-  - Test invalid file handling: 400 (invalid type), 413 (too large), 422 (corrupted PDF)
-  - Test batch processing with 3 PDFs: verify all complete, routing stats, cost estimates
-  - Test webhook delivery after extraction completes (fire-and-forget pattern)
-  - Test pagination and listing extractions with status filters
-  - Test health check endpoint (mocked services) and version endpoint
-  - All 12 integration tests passing
-  - Total test suite: 273 tests (12 integration + 261 unit/integration tests)
-- **US-028: Deployment Documentation**
-  - Created Dockerfile with Python 3.11-slim base image
-  - Install system dependencies (libmagic1) and Python packages from requirements.txt
-  - WORKDIR /app, copy app/ and migrations/, expose port 8000
-  - Health check: requests.get('http://localhost:8000/health') every 30s
-  - CMD: uvicorn app.main:app --host 0.0.0.0 --port 8000
-  - Created docker-compose.yml for local development
-  - Environment variable configuration for Gemini API, Supabase, hybrid mode, file limits
-  - Volume mounts for code hot reload during development
-  - Health check and restart policy (unless-stopped)
-  - Created comprehensive DEPLOYMENT.md (500+ lines)
-  - Prerequisites: Docker 20.10+, Python 3.11+, Supabase account, Google Cloud account
-  - Environment setup: .env configuration with all required variables
-  - Supabase setup: Complete SQL migrations (001_extractions, 002_review_queue, 003_batch_jobs)
-  - Gemini API setup: Get API key from Google AI Studio, enable Generative Language API
-  - Docker deployment: Build image, run with docker-compose, verify health endpoint
-  - Local development: venv setup, install dependencies, run dev server, run tests
-  - Health checks: /health endpoint (200 or 503), /version endpoint, Docker health status
-  - Troubleshooting: 503 errors, file upload failures, slow extraction, migration errors, Docker build failures
-  - Production recommendations: secrets management, HTTPS, auth, CORS, rate limiting, scaling, monitoring, backup
-- **Files changed:**
-  - tests/integration/__init__.py (new)
-  - tests/integration/test_extraction_flow.py (new - 700+ lines, 12 test classes)
-  - Dockerfile (new - production-ready container)
-  - docker-compose.yml (new - local dev environment)
-  - DEPLOYMENT.md (new - comprehensive deployment guide)
-  - scripts/ralph/prd.json (updated - US-027 and US-028 marked as passes: true)
-- **Tests:** 12 new integration tests passing, all 273 tests in suite passing (1 pre-existing failure from US-025)
-- **Quality:** mypy --strict passing, no new type errors
-- **Learnings for future iterations:**
-  - Integration tests should use valid UUIDs for batch jobs and extraction IDs (Pydantic validation)
-  - ExtractedReference model requires dict format, not plain string (citation_text, authors, year, title fields)
-  - Duplicate detection response returns dict as string representation (use response.text, not response.json())
-  - Health check endpoint returns 503 when services unhealthy - mock all services in tests
-  - Version endpoint returns {version, commit_hash} - no "environment" field
-  - Batch job status requires created_at and updated_at fields for Pydantic validation
-  - Webhook sender test needs to mock get_settings() to avoid validation errors
-  - Integration tests should focus on end-to-end flows, not internal implementation details
-  - Docker health check requires `requests` library or use `curl` command instead
-  - DEPLOYMENT.md should include troubleshooting for common errors (503, file upload, performance, migrations)
-  - All 28 user stories complete - MVP ready for deployment! 🎉
-
----

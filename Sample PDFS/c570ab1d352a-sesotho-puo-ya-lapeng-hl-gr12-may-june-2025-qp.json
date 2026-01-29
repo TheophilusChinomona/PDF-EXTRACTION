@@ -1,0 +1,190 @@
+{
+  "subject": "Sesotho Puo ya Lapeng (HL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sesotho",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: MOQOQO",
+      "instructions": "Kgetha sehlooho kapa setshwantsho SE LE SENG ebe o ngola moqoqo wa bolelele ba mantswe a 400 ho isa ho a 450 (dikahare feela). Se lebale ho etsa moralo, o boele o lekole tema ya hao botjha ka ho e hlaola diphoso.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Phephetso eo ke e hlotseng ka katleho.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Feberu ya dikgoho e tlisitse mathata maphelong a rona le naha ka bophara.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Na matsatsing a kajeno ho nyala sethepu ke ntho e nepahetseng?",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Dikgwebo tsa melata di a thusa hape di senyetsa setjhaba.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": null,
+          "text": "Ke ithutile hore matsoho a a hlatswana.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": null,
+          "text": "[Setshwantsho sa bana ba mathang lewatleng kapa lebopong la metsi]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka seo sehlooho se se tlisang kelellong ya hao. Nomora potso ya hao (1.6, 1.7 KAPA 1.8). O nehe moqoqo wa hao sehlooho se loketseng. ELA TLHOKO: Ho tlamehile ho ba le kgokahano dipakeng tsa moqoqo wa hao le setshwantsho seo o se kgethileng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": null,
+          "text": "[Setshwantsho sa tshupanako]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka seo sehlooho se se tlisang kelellong ya hao. Nomora potso ya hao (1.6, 1.7 KAPA 1.8). O nehe moqoqo wa hao sehlooho se loketseng. ELA TLHOKO: Ho tlamehile ho ba le kgokahano dipakeng tsa moqoqo wa hao le setshwantsho seo o se kgethileng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": null,
+          "text": "[Setshwantsho sa ntlo kapa mekhukhu e belang ke mollo]",
+          "marks": 50,
+          "scenario": null,
+          "context": "Kgetha setshwantsho SE LE SENG ho tse latelang, o ntano ngola moqoqo ka seo sehlooho se se tlisang kelellong ya hao. Nomora potso ya hao (1.6, 1.7 KAPA 1.8). O nehe moqoqo wa hao sehlooho se loketseng. ELA TLHOKO: Ho tlamehile ho ba le kgokahano dipakeng tsa moqoqo wa hao le setshwantsho seo o se kgethileng.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITEMA TSA KGOKAHANO",
+      "instructions": "Kgetha mme o ngole ditema TSE PEDI tsa bolelele ba mantswe a 180 ho isa ho a 200 (dikahare feela) temeng ka nngwe. Se lebale ho etsa moralo, o boele o lekole tema ya hao botjha ka ho e hlaola diphoso.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "RAPOROTO YA SEMMUSO\n\nNgolla molaodi wa kantoro ya tlhahlobo ya makoloi ya Tutuboloha, o mo tlalehele ka manyofonyofo a etswang ke basebetsi ba pasisang makoloi a seng maemong a matle.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "LENGOLO LA SEMMUSO\n\nNgola lengolo la tletlebo le yang ho Mahomedys Factory Warehouse, 520 South Coast Rd, Clairwood, moo o neng o reke dieta teng ka marangrang mme ya re ha di fihla tsa ba le mathata.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "ATIKELE E YANG KORANTENG\n\nNgola atikele e yang koranteng mabapi le moaparo o swabisang o aparwang mehleng ena.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "INTHAVIU\n\nNgola inthaviu e dipakeng tsa hao le mosuwehlooho wa sekolo sa heno, moo o hlalosang ka tsa boitokisetso ba hao ha o ne o hlotse dingangisanong tsa dikolo tsa puo e hlophisitsweng.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "LENGOLO LA SETSWALLE\n\nNgolla rakgadiao lengolo o mo lebohe ka tsohle tseo a o etseditseng tsona nakong eo o neng o mo etetse ka matsatsi a phomolo ya mariha.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "TSA BOPHELO BA MOFU\n\nNgola tsa bophelo ba malomao ya hlokahetseng kamora ho kula nako e telele.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 7222,
+    "cached_tokens_saved": 0
+  }
+}

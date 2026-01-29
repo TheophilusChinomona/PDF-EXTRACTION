@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "subject": "TSHIVENᄒA LUAMBO LWA U ENGEDZA LWA U THOMA (FAL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": 12,
+    "total_marks": 70
+  },
+  "sections": [
+    {
+      "section_id": "KHETHEKANYO YA A: NGANEA",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "U TSHILA NDI U VHONA – RN Maᄒadzhe",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.1.1",
+              "value": "Mashudu."
+            },
+            {
+              "sub_id": "1.1.2",
+              "value": "Dzwaini na Dugudzha."
+            },
+            {
+              "sub_id": "1.1.3",
+              "value": "Mashudu o tshuwa ngauri o bviselwa zwigidi."
+            },
+            {
+              "sub_id": "1.1.4",
+              "value": "Wa musalauno/tshifhinga tsha zwino ngauri hu khou ambiwa nga u fungwa mavhone na u bviswa ha zwigidi zwine zwi wanala musalauno/tshifhinga tsha zwino."
+            },
+            {
+              "sub_id": "1.1.5",
+              "value": "Vho wanedzwa muᄒini wa Mpho, Phophi a ᄑuwa vhuhadzi a dovha a vhuya."
+            },
+            {
+              "sub_id": "1.1.6",
+              "value": "D/Vho ᄰiedza."
+            },
+            {
+              "sub_id": "1.1.7",
+              "value": "Ndi Maria ngauri ndi ene a no khou luᄑanya Mpho na Mashudu."
+            },
+            {
+              "sub_id": "1.1.8",
+              "value": "- O humbela Vho Ravhutsi uri vha ye vha humbelele Mpho beiᄰi musi o farwa. \n- O mu isela zwiᄰiwa musi e dzhele.\n- O mu tikedza musi mulandu wawe u khou sengiwa.",
+              "marker_instruction": "Zwivhili fhedzi"
+            },
+            {
+              "sub_id": "1.1.9",
+              "value": "U funesa tshelede a zwo ngo luga ngauri zwo ita uri Dzwani na Dugudzha vha vhe magevhenga."
+            },
+            {
+              "sub_id": "1.1.10",
+              "value": "- U sa nwa musi e mushumoni.\n- U tea u fara vhalwadze zwavhuᄑi.\n- U tea u ᄑibvisa kha vhufarekano mushumoni.",
+              "notes": "Na dziᅇwe phindulo dzi no pfala"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "1.2.1",
+              "value": "Vhengeleni ᄰa halwa/Vuvha."
+            },
+            {
+              "sub_id": "1.2.2",
+              "value": "Ndi Mashudu."
+            },
+            {
+              "sub_id": "1.2.3",
+              "value": "Tsha u bveledza mafhungo ngauri ri khou vhona khuᄑano i tshi khou hulela/u engedzea."
+            },
+            {
+              "sub_id": "1.2.4",
+              "value": "Yo vhangwa nga u rwiwa ha Mpho na u kwashelwa goloi nga Mashudu/Ndi mulifhedzano vhukati ha Mashudu na Mpho. Yo vhangwa nga u dzhielana vhafunani"
+            },
+            {
+              "sub_id": "1.2.5",
+              "value": "Ndi u ᄑalesa ha vhathu."
+            },
+            {
+              "sub_id": "1.2.6",
+              "value": "O vha a khou itela u sa tsha bvisa tshelede ye a pfi a bvise ᅇwedzi muᅇwe na muᅇwe nga Mashudu na uri a sale zwavhuᄑi na Maria."
+            },
+            {
+              "sub_id": "1.2.7",
+              "value": "Yo tea ngauri muhaᄑuli ha ngo mu vhona mulandu nga u shaea ha vhuᄑanzi ha uri Mpho ndi ene o rengaho Dzwaini na Dugudzha uri vha vhulahe Mashudu./Yo vha i songo tea ngauri ndi ene o vhangaho uri Mashudu a vhulahwe."
+            },
+            {
+              "sub_id": "1.2.8",
+              "value": "Kha nganea iyi tshelede yo luᄑanya Phophi na Mpho nge Mpho vha na tshidzumbe kha Phophi./ Ya dovha ya luᄑanya Dzwaini na Dugudzha nge vha sa kovhane tshelede zwavhuᄑi."
+            },
+            {
+              "sub_id": "1.2.9",
+              "value": "- U funesa Mpho naho e mathadani.\n- U sumbedza thikhedzo ya Mpho nge a mu ᄑoᄑela maᄰoyara.\n- O ita zwavhuᄑi nga u konᄑelela naho nyimele yo vha i tshi konᄑa vhuhadzi."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.1",
+          "text": "HO DINA ONE – Sharon Mbedzi",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.1.1",
+              "value": "Goloi."
+            },
+            {
+              "sub_id": "2.1.2",
+              "value": "Osbon na Musuku."
+            },
+            {
+              "sub_id": "2.1.3",
+              "value": "O dinalea/u sinyuwa ngauri a ho ngo ᄑa muthu we a vha a khou lavhelela ene."
+            },
+            {
+              "sub_id": "2.1.4",
+              "value": "Tsha musalauno/tshifhinga tsha zwino ngauri hu khou ambiwa nga vhoramabindu vha network zwithu zwi no wanala musalauno/tshifhinga tsha zwino."
+            },
+            {
+              "sub_id": "2.1.5",
+              "value": "Ngeletshedzo u fhurwa tshelede i si na vhukono nge a rengiselwa goloi i si na mabammbiri a vhukuma."
+            },
+            {
+              "sub_id": "2.1.6",
+              "value": "A/Ruth."
+            },
+            {
+              "sub_id": "2.1.7",
+              "value": "Ndi ifa ᄰe Ngeletshedzo a sielwa nga vhabebi vhawe ngauri ndi ᄰone ᄰi no khou luᄑanya Ngeletshedzo na Veronica."
+            },
+            {
+              "sub_id": "2.1.8",
+              "value": "- O mu rengela zwiambaro zwa u ᄑura.\n- O mu fhulufhela a tenda a tshi tshimbidza mabindu na u ᄑoᄑelwa goloi."
+            },
+            {
+              "sub_id": "2.1.9",
+              "value": "Mulaedza ndi wa uri ri tea u thusa khonani dzashu musi dzo wela khomboni sa zwe vha ita kha khonani yavho Ngeletshedzo."
+            },
+            {
+              "sub_id": "2.1.10",
+              "value": "- U sa dzhena tshikolo.\n- U shaya nᄑivho ya zwa mabindu.\n- U sa thetshelesa mme awe khathihi na khonani dzawe vha tshi mu eletshedza.",
+              "marker_instruction": "Zwivhili fhedzi",
+              "notes": "Na dziᅇwe phindulo dzi pfalaho"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "2.2.1",
+              "value": "Ndi Veronica."
+            },
+            {
+              "sub_id": "2.2.2",
+              "value": "Getheni ᄰa muᄒi wa Ngeletshedzo."
+            },
+            {
+              "sub_id": "2.2.3",
+              "value": "Ndi maᄑhakheni ngauri ndi hone he Ngeletshedzo sa muanewa dendele zwa mu vhifhela."
+            },
+            {
+              "sub_id": "2.2.4",
+              "value": "Ndi ya nᄒda ngauri ri khou pfa Ngeltshedzo a tshi kho semana."
+            },
+            {
+              "sub_id": "2.2.5",
+              "value": "Ndi u dinalea hawe./ Sinyuwa."
+            },
+            {
+              "sub_id": "2.2.6",
+              "value": "Ho ngo ᄑanganedza thuso ngauri o vha a na ᄑhoni na u ᄑihudza vhunga o vha a si tshe na tshithu siani ᄰa mabindu."
+            },
+            {
+              "sub_id": "2.2.7",
+              "value": "Zwo vha zwo tea ngauri o vha e na tshelede nnzhi u fana na lwanzhe lu na maᄑi manzhi/Zwo vha zwi songo tea ngauri tshelede yawe yo fhela ngeno maᄑi a lwanzhe a songo fhela."
+            },
+            {
+              "sub_id": "2.2.8",
+              "value": "Tshelede yo luᄑanya Veronica na Ngeletshedzo nge Veronica a mu rengisela goloi i si na mabammbiri a vhukuma."
+            },
+            {
+              "sub_id": "2.2.9",
+              "value": "- U sa ita zwa maᄑikiᄑa.\n- U thetshelesa tsivhudzo.\n- U dzhena tshikolo."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KHETHEKANYO YA B: ᄑIRAMA",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "FINDINKODO – TT Mudau",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1.1",
+              "value": "ᄰihoro Madimokirati."
+            },
+            {
+              "sub_id": "3.1.2",
+              "value": "Muthumukhulu."
+            },
+            {
+              "sub_id": "3.1.3",
+              "value": "U fhaᄑa, pfano na vhuthihi."
+            },
+            {
+              "sub_id": "3.1.4",
+              "value": "Mafhungo a khou bvelela musalauno ngauri ri pfa nga dziminisiᄑa na mahoro."
+            },
+            {
+              "sub_id": "3.1.5",
+              "value": "O pandelwa ngauri o vha a tshi kokodzela thungo."
+            },
+            {
+              "sub_id": "3.1.6",
+              "value": "O olwa sa murangaphanᄑa a re na vhukoni ha u langa shango/O olwa sa mukonanyi wa vharema na vhatshena.",
+              "notes": "Na dziᅇwe phindulo"
+            },
+            {
+              "sub_id": "3.1.7",
+              "value": "Wo vha tsikeledza. / U khethulula nga lukanda.",
+              "notes": "Na dziᅇwe phindulo dzo teaho"
+            },
+            {
+              "sub_id": "3.1.8",
+              "value": "Madzangano a tea u shumisana na u ᄑhonifhana.",
+              "notes": "Na dziᅇwe phindulo dzo teaho"
+            },
+            {
+              "sub_id": "3.1.9",
+              "value": "Ndayotewa i thusa kha u langa shango. / I na milayo ya shango. / I ᄑisa vhudziki shangoni.",
+              "notes": "Na dziᅇwe phindulo dzi pfalaho"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 16,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.2.1",
+              "value": "Ofisini dza muvhuso."
+            },
+            {
+              "sub_id": "3.2.2",
+              "value": "ᄰa Madimokirati."
+            },
+            {
+              "sub_id": "3.2.3",
+              "value": "U vhofholowa ha vharema na u vha na pfanelo dzo fhelelaho."
+            },
+            {
+              "sub_id": "3.2.4",
+              "value": "Ndi ngauri u khou eletshedza uri hu vhe na u farela vhatshena kha zwe vha ri pfisa vhuᄑungu na u shumesa u lugisa shango."
+            },
+            {
+              "sub_id": "3.2.5",
+              "value": "U sa vha na ndaka, shango na mulomo."
+            },
+            {
+              "sub_id": "3.2.6",
+              "value": "Ndi Muthumukhulu ngauri mafhungo oᄑhe a kwama ene."
+            },
+            {
+              "sub_id": "3.2.7",
+              "value": "B/muvhuso wa u khethiwa nga vhathu."
+            },
+            {
+              "sub_id": "3.2.8",
+              "value": "Ndi musi ᄰihoro ᄰa madimokirati hu ᄰone ᄰo fhedzaho nga u vhusa shango."
+            },
+            {
+              "sub_id": "3.2.9",
+              "value": "Muthumukhulu u ima na ᄰa uri hu vhe na muphuresidennde muthihi na vhathusa phuresidennde vhavhili ngeno De Wit a tshi ima na ᄰa muphuresidennde muthihi na muthusa phuresidennde muthihi."
+            },
+            {
+              "sub_id": "3.2.10",
+              "value": "Vhatshena a vha ᄑanganedzi tshanduko dza uri vha vho lingana na vharema."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 19,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KHETHEKANYO YA C: NGANEAPFUFHI",
+      "questions": [
+        {
+          "id": "4.1",
+          "text": "'VULANI MUFUNWA WANGA' – NA Milubi",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.1.1",
+              "value": "Henefhano."
+            },
+            {
+              "sub_id": "4.1.2",
+              "value": "Zwilapfulapfu zwo fhaᄑwaho nga vhudele."
+            },
+            {
+              "sub_id": "4.1.3",
+              "value": "Tsha musalauno. Ri pfa nga ha Yunivesithi, vhafumakadzi vha no dzhena tshikolo na u tshimbila nga goloi.",
+              "marker_instruction": "Zwivhili fhedzi"
+            },
+            {
+              "sub_id": "4.1.4",
+              "value": "Ndi ha u sa takala ngauri o vha o valela mufarekano wawe rumuni zwino u khou ofha uri munna wawe u ᄑo mu wanedza."
+            },
+            {
+              "sub_id": "4.1.5",
+              "value": "Vho Dinani ndi munna wa lufuno ngazwo vho ya u dalela mufumakadzi wavho tshikoloni ngeno ᅈeani e mufumakadzi a sa funi munna muthihi."
+            },
+            {
+              "sub_id": "4.1.6",
+              "value": "Tsha u bveledza mafhungo ngauri ndi hune mafhungo a aluwa hone."
+            },
+            {
+              "sub_id": "4.1.7",
+              "value": "O sera fhasi ha mmbete, o lingedza u vula vothi na u ᄑoᄑou ᄑiposelela nnᄑa nga fasiᄑere.",
+              "marker_instruction": "Zwivhili fhedzi"
+            },
+            {
+              "sub_id": "4.1.8",
+              "value": "Ee yo bveledzwa zwavhuᄑi ngauri ro sala muyani, a rongo tsha pfa uri ᅈeani o vula muᅇango naa."
+            },
+            {
+              "sub_id": "4.1.9",
+              "value": "- Hu na vhafumakadzi vha no ita zwa vhufarekano ngeno vho maliwa.\n- Hu na vhafumakadzi vha si na lufuno.\n- Hu na vhanna vha re na lufuno lwa vhukuma vha tikedza vhafumakadzi vhavho sa Vho Dinani.",
+              "notes": "Na dziᅇwe phindulo dzo teaho"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": "'NDI A PUᄑEDZA HA ITEA ᄑEMBE' – NA Milubi",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "4.2.1",
+              "value": "Muᄑanganoni."
+            },
+            {
+              "sub_id": "4.2.2",
+              "value": "Narina."
+            },
+            {
+              "sub_id": "4.2.3",
+              "value": "O vha longela zwoᄑhe zwo fanelaho."
+            },
+            {
+              "sub_id": "4.2.4",
+              "value": "Ndi ha u dinalea. Vho sinyuswa nga vhupombwe ha mufumakadzi wavho."
+            },
+            {
+              "sub_id": "4.2.5",
+              "value": "O mufunᄑedza maitele a sa fushi a u funana na vhaᅇwe vhanna."
+            },
+            {
+              "sub_id": "4.2.6",
+              "value": "Ndi a u sa ᄑifara zwavhuᄑi/u sa fhulufhedzea."
+            },
+            {
+              "sub_id": "4.2.7",
+              "value": "O kona ngauri ᄑhoho i a tshimbilelana na mafhungo ngauri Vho Dimbalala vho ᄑoᄑou huvhadza mufumakadzi wavho nga tshigidi."
+            },
+            {
+              "sub_id": "4.2.8",
+              "value": "Thero ndi ya u kaidza vhafumakadzi uri vha tea u fhulufhedzea kha vhanna vhavho/u ᄑifara zwavhuᄑi siani ᄰa lufuno."
+            },
+            {
+              "sub_id": "4.2.9",
+              "value": "- Ndo vha ndi tshi ᄑo dzula navho fhasi ra amba nga ha masiandaitwa azwo.\n- Ndo vha ndi tshi ᄑo mu eletshedza uri a wane vhahulwane a dzudzanye mafhungo nga u ᄑisola.\n- Uri a wane vhafunzi vha mu khuthadze a kone u pfesesa uri mufumakadzi wa ndeme kana vhukuma u hani.",
+              "notes": "Na dziᅇwe phindulo dzi pfalaho."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KHETHEKANYO YA D: VHURENDI",
+      "questions": [
+        {
+          "id": "5.1",
+          "text": "'NᄑUNI DZA RDP' – TN Pholi",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.1.1",
+              "value": "ᄰiedzamuthu/ᄰifanyamuthu/ᄰimuthufhadzi."
+            },
+            {
+              "sub_id": "5.1.2",
+              "value": "- Mafasiᄑere o kwashea.\n- Mbondo dzo dona/dzi na mashika.\n- ᄑhanga dzo fuᄑuluwa/Mazennge o wela fhasi."
+            },
+            {
+              "sub_id": "5.1.3",
+              "value": "- Mmbwa dzo faho.\n- Mashika a vhana."
+            },
+            {
+              "sub_id": "5.1.4",
+              "value": "aaaa."
+            },
+            {
+              "sub_id": "5.1.5",
+              "value": "U khou bvisela khagala uri vhadzuli vha nᄑuni dza RDP vha ᄑambulutshela zwiᄑaraᄑani/Vhaᄑithusela henefho zwiᄑaraᄑani."
+            },
+            {
+              "sub_id": "5.1.6",
+              "value": "Ndi vhathu vha na vhuaᄑa."
+            },
+            {
+              "sub_id": "5.1.7",
+              "value": "Ndi wa u sumbedza u sa farwa zwavhuᄑi ha nnᄑu dza RDP nga vhadzuli vhadzo."
+            },
+            {
+              "sub_id": "5.1.8",
+              "value": "Ndi sathaya ngauri murendi u khou sasaladza kutshilele kwa vhathu vha no dzula nᄑuni dza RDP."
+            },
+            {
+              "sub_id": "5.1.9",
+              "value": "Ndi nga si takalele u dzula khadzo ngauri nnᄑu dza hone a si dzavhuᄑi na vhadzuli vhadzo vha na vhuaᄑa khathihi na kutshilele ku si kwavhuᄑi./ Ndi a takalela u dzula ngauri ndi nnᄑu dza mahala nahone dza khwiᅇe.",
+              "notes": "Na dziᅇwe phindulo dzi pfalaho."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 18,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2",
+          "text": "'ᄑHINGOTHENDELEKI' – TN Pholi",
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "5.2.1",
+              "value": "Lupenyo."
+            },
+            {
+              "sub_id": "5.2.2",
+              "value": "- Pfunzo.\n- Mushumo.\n- Mbingano."
+            },
+            {
+              "sub_id": "5.2.3",
+              "value": "U amba uri ᄑhingothendeleki a dzi lengi."
+            },
+            {
+              "sub_id": "5.2.4",
+              "value": "O lila ngauri ri pfa kha mutaladzi wa 10 a tshi ri: 'Miᄑodzi yanga namusi khei.'"
+            },
+            {
+              "sub_id": "5.2.5",
+              "value": "Dzi bvisela khagala uri ᄑhingothendeleki dzi na zwivhuya na zwivhi/ Thingothendeleki dzi a thusa dza dovha dza tshinya."
+            },
+            {
+              "sub_id": "5.2.6",
+              "value": "U ombedzela/u khwaᄑhisedza/u dodombedza."
+            },
+            {
+              "sub_id": "5.2.7",
+              "value": "C/vho sikaho ᄑhingothendeleki."
+            },
+            {
+              "sub_id": "5.2.8",
+              "value": "Vhuᄑipfi ha u sinyuwa/u dinalea ngauri ndi wa u ongolowa."
+            },
+            {
+              "sub_id": "5.2.9",
+              "value": "Ndi a tikedza ngauri dzi na vhuvhi/vhutshinyi vhunzhi./ A thi tikedzi ngauri dzi a leludza siani ᄰa zwa vhudavhidzani/dzi na zwivhuya zwinzhi siani ᄰa zwa vhudavhidzani."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 17,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 16504,
+    "cached_tokens_saved": 0
+  }
+}

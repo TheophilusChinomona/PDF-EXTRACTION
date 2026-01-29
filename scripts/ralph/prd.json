@@ -8,7 +8,7 @@
       "id": "US-001",
       "title": "Create Memo Pydantic Models",
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "Create app/models/memo_extraction.py with models extending GeminiCompatibleModel",
         "EssayStructure model: introduction (List[str]), body_sections (List[Dict[str, Union[List[str], Dict[str, List[str]]]]]), conclusion (List[str])",
@@ -25,7 +25,7 @@
       "id": "US-002",
       "title": "Create Memo Extraction Service",
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "Create app/services/memo_extractor.py",
         "MEMO_EXTRACTION_SYSTEM_INSTRUCTION constant adapted from Sample PDFS/outputs/memo sample system prompt.md",
@@ -43,7 +43,7 @@
       "id": "US-003",
       "title": "Add CLI Entry Point for Memo Extraction",
       "priority": 3,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "app/services/memo_extractor.py has if __name__ == '__main__' block",
         "Accepts file path as CLI argument: python -m app.services.memo_extractor path/to/memo.pdf",
@@ -58,7 +58,7 @@
       "id": "US-004",
       "title": "Create Memo Database Functions",
       "priority": 4,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "Create app/db/memo_extractions.py",
         "create_memo_extraction() - inserts MarkingGuideline into memo_extractions table",
@@ -76,7 +76,7 @@
       "id": "US-005",
       "title": "Add doc_type Routing to API",
       "priority": 5,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "POST /api/extract accepts doc_type: str = Form('question_paper') parameter",
         "Validates doc_type is 'question_paper' or 'memo' (returns 400 otherwise)",
@@ -94,7 +94,7 @@
       "id": "US-006",
       "title": "Create Supabase memo_extractions Table Schema",
       "priority": 6,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "SQL migration file for memo_extractions table at migrations/004_create_memo_extractions_table.sql",
         "Columns: id (UUID PK default gen_random_uuid()), file_name, file_size_bytes, file_hash (indexed, unique), status, processing_method, quality_score, subject, year (int), session, grade, total_marks (int), sections (JSONB), processing_metadata (JSONB), processing_time_seconds, cost_estimate_usd, webhook_url, retry_count (default 0), error_message, created_at (timestamptz default now()), updated_at (timestamptz default now())",

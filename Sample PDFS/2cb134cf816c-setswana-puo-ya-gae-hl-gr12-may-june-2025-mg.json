@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "subject": "Setswana Puo ya Gae (HL)",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "May/June",
+    "grade": "12",
+    "total_marks": 100
+  },
+  "sections": [
+    {
+      "section_id": "KAROLO YA A",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Tlhamo ya kanelo: Nkabo ke ngwana wa morago",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise se a ikwatlhaelang sona.",
+            "A tlhagise botlhokwa jwa go baakanyetsa kwa pele/go dira selo se se rileng ka nako e e siametseng selo seo.",
+            "A tlhagise botlhokwa jwa nako ya ipaakanyo.",
+            "A tlhagise ditlamorago tsa go se baakanyetse kwa pele/ go se dire sengwe se o neng o se akantse ka nako e e rileng.",
+            "Tlhagiso ya tharabololo le maikutlo a gagwe ka botlhokwa jwa ipaakanyo.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Ditiragalo di tshwanetse go latelana sentle. Tlhamo e kwalwe ka paka e e fetileng.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Tlhamo ya kanelo: Ga nkitla ke lebala tiragalo eo",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "Tlhagiso ya tiragalo eo.",
+            "Tlhagiso ya letlha, lefelo le nako ya tiragalo eo.",
+            "Tlhagiso ya dintlha le ditiragalo tse di bakileng gore a se lebale tiragalo eo.",
+            "Tlhagiso ya ditlamorago tsa tiragaolo eo.",
+            "Tshobokanyo ya dintlha le go supa maikutlo a gagwe.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Kanelo e tshwanetse go ngoka mmuisi go tloga kwa tshimologong go fitlha kwa bofelong.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.3",
+          "text": "Tlhamo ya tlhaloso: Phetogo ya maemo a loapi",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise mabaka a a tlholang phetogo ya loapi.",
+            "A tlhagise ditiragalo tse di supang phetogo ya loapi.",
+            "A tlhagise ditlamorago tse di tliswang ke phetogo ya loapi.",
+            "Tshobokanyo ya dintlha le go supa maikutlo a gagwe.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Motlhatlhojwa o tshwanetse go bopa setshwantsho ka mafoko. Go dirisiwe ditshwantsho tsa pono, modumo, kutlo.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.4",
+          "text": "Tlhamo ya maitlhomo: Fa e ka re ke tsoga ka iphitlhela ke humile ...",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise se a humileng ka sona.",
+            "A tlhagise se a ka se dirang fa a lemoga gore o humile.",
+            "A tlhagise ditsela kgotsa mekgwa e a tlaa e bolokang le go tsweletsa khumo eo.",
+            "A tlhagise tokafatso le diphetogo tse a ka di tlisang mo botshelong ba gagwe le ba ga bona.",
+            "A tlhagise maikutlo a gagwe mabapi le go huma.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Tlhamo ya maitlhomo e tseye letlhakore. Maikutlo a nne le seabe sa botlhokwa.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.5",
+          "text": "Tlhamo e e sa tseyeng letlhakore: A go botlhokwa go isa bagodi kwa legaeng la tlhokomelo ya bagodi?",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise seemo sa bagodi mo malapeng.",
+            "A tlhagise mabaka a a susumetsang gore bagodi ba isiwe kwa tlhokomelong.",
+            "A tlhagise ditlamorago tsa go isa bagodi kwa setheong sa bagodi.",
+            "A tlhagise mabaka a susumetsang bangwe go se ise bagodi kwa tlhokomelong.",
+            "A tlhagise ditlamorago tsa go isa le go se ise bagodi kwa setheong sa bagodi.",
+            "A supe maikutlo le ntlhakemo ya gagwe kwa bokhutlong.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Tlhamo e itshupe ka go lekalekana, e se tseye letlhakore. E tlhagise matlhakore a mabedi.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.6",
+          "text": "Tlhamo ya ngangisano: Lorato lwa madi le dithoto lo gakaditse bosenyi. Dumela kgotsa o ganetse",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "Tlhamo e tseye ntlhakemo ya go dumela kgotsa go ganetsa.",
+            "A tlhagise le go dibela ka bosupi jo bo rileng.",
+            "A tlhagise molemo le ditlamorago tsa ntlhakemo ya gagwe.",
+            "A tlhagise dintlha tsa ngangisano tse di tshegetsang ntlhakemo ya gagwe kwa bokhutlong.",
+            "A tlhagise tshikinyo ya se se ka dirwang go rotloetsa ntlhakemo ya gagwe.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Tlhamo e tlhagise letlhakore le le lengwe mme motlhatlhojwa a leke go pateletsa mmuisi go leba ditiragalo ka leitlho la gagwe.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.7",
+          "text": "Potso ya setshwantsho (Tlhamo ya kanelo, tlhaloso, maitlhomo kgotsa ya ngangisano)",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se se nyalanang le setshwantsho se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise mabaka a a tlholang ditiragalo tse di amanang le se se tlhagelelang mo setshwantshong.",
+            "A tlhagise ditlamorago tsa maemo a a tlhagelelang mo setshwantshong.",
+            "A tlhagise thotloetso go tila kgotsa go diragatsa se se tlhagelelang mo setshwantshong.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Tshedimosetso e e latelang e dirisiwe go tshwaya potso ya setshwantsho e bong, 1.7 le 1.8",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.8",
+          "text": "Potso ya setshwantsho (Tlhamo ya kanelo, tlhaloso, maitlhomo kgotsa ya ngangisano)",
+          "type": "Essay",
+          "model_answers": [
+            "Setlhogo se se nyalanang le setshwantsho se a itlhophetseng sona.",
+            "Tlhaloso ya setlhogo.",
+            "A tlhagise se se mo gapileng maikutlo ka se se diragalang mo setshwantshong.",
+            "A tlhagise gore a ka rotloetsa jang ba ba nang le kgatlhego tebang le se se mo setshwantshong.",
+            "A tlhagise mabaka a a ka tlholang ditiragalo tse di amanang le se se tlhagelelang mo setshwantshong.",
+            "A tlhagise ditlamorago tse di tlholwang ke maemo a a tlhagelelang mo setshwantshong.",
+            "A tlhagise gore tiragalo e e mo setshwantshong e ka ama jang botshelo jwa gagwe, balelapa le morafe.",
+            "A tlhagise gore a ka dira eng go tila kgotsa go siamisa se se tlhagelelang mo setshwantshong.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 50,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "KAROLO YA B",
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "LEKWALO LA BOTSALANO",
+          "type": "Short Answer",
+          "model_answers": [
+            "Aterese e le nngwe (ya mokwadi)",
+            "A tlhagise maitlhomo a lekwalo.",
+            "A mo lebogise mo phenyong e a e boneng.",
+            "A mo kope maitemogelo a gagwe tebang le dikgaisano.",
+            "A mo kope maele le tshedimosetso mabapi le mofuta o wa kgaisano.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko a lona e nne 180–200 diteng fela.",
+          "notes": "Motlhatlhojwa a se kwale sefane sa gagwe.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "IMEILE/LEKWALO LA MARANYANE",
+          "type": "Short Answer",
+          "model_answers": [
+            "Aterese ya imeile ya mokwadi le ya moamogedi/baamogedi.",
+            "Setlhogo sa imeile le ditumediso di kwalwe.",
+            "A tlhagise tumelano ya mmangwaneagwe le rralebenkele tebang le theko ya bolao.",
+            "A tlhagise maitemogelo le kopo ya mmangwaneagwe.",
+            "A thadise ka ga go tlhoka tirisano ga mong wa lebenkele.",
+            "A kope tharabololo ya bothata jo.",
+            "A tlhagise ditumediso tsa tlotlo tse di laelang mokwalelwa.",
+            "Tlhagiso ya leina/ditlhakaina le sefane.",
+            "Setlhogo sa ditlankana/ditokomane tse di gokeletsweng/mametleletsweng le molaetsa fa di le gona.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko e nne 180–200 diteng fela.",
+          "notes": "Imeile e arogantswe ka dikarolwana tse pedi: Karolo ya A (Headers) le Karolo ya B (Body).",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "PEGELO",
+          "type": "Short Answer",
+          "model_answers": [
+            "Setlhogo se kwalwe.",
+            "Motlhatlhojwa a tlhagise tshedimosetso ya lefelo le letlha la tiragalo.",
+            "A tlhagise taelo ya dipatlisiso tsa pegelo e a begang ka ga yona.",
+            "A tlhagise tshedimosetso mabapi le ditlhogo tse di latelang: dintlha tsa tebo, tsamaiso, diphitlhelelo, dikatlenegiso le bokhutlo.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko a yona e nne 180–200 diteng fela.",
+          "notes": "E kwalwa ka pakapheti.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4",
+          "text": "THADISO",
+          "type": "Short Answer",
+          "model_answers": [
+            "Tlhagiso ya setlhogo sa setshwantsho.",
+            "Tlhagiso ya leina la mokwadi, motlhagisi, setlamo sa baphasalatsi ba setshwantsho, tshikinyo ya gore se ka lebelelwa ke bana ba dingwaga dife, dinako le matlha a malatsi a beke.",
+            "Tlhagiso ya terama e e thadisitsweng.",
+            "Tlhagiso ya morero le ditiragalokgolo.",
+            "Thadiso e nne nnete e bile e se gobelele.",
+            "Mothadisi a tseye tshwetso le go naya maikutlo a gagwe.",
+            "Thadiso e nne le kgogedi.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko 180–200 diteng fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "LENANEOTEMA LE METSOTSO YA KOPANO",
+          "type": "Short Answer",
+          "model_answers": [
+            "A tlhagise kitsiso ya kopano e e akaretsang leina la setlamo, letlha, lefelo, nako e kopano e tlileng go tshwarwa ka yona.",
+            "Thulaganyo ya dintlha tse go tla buiwang ka tsona kwa kopanong go ya ka botlhokwa jwa tsona.",
+            "A tseketletse/saene lenaneotema.",
+            "Mo metsotsong, a tlhagise leina la setlamo, letlha, nako le lefelo le kopano e neng e tshwerwe ka lona.",
+            "A tlhagise leina la setlamo sa bona sa go ipolokela madi.",
+            "A tlhagise dintlha tse di tšhotlhilweng kwa kopanong mabapi le go simolola setlamo seo.",
+            "A tlhagise se se solofetsweng go tswa mo malokong a setlamo seo.",
+            "A thadise ditshwetso tse di tserweng ka nako ya kopano.",
+            "Tshobokanyo ya se se tshikintsweng le se go dumelanweng ka ga sona.",
+            "A tlhagise letlha la kopano e e latelang.",
+            "Bokhutlo e nne jo bo kgodisang"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko e nne 180–200 diteng fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.6",
+          "text": "PUO",
+          "type": "Short Answer",
+          "model_answers": [
+            "Setlhogo sa puo.",
+            "Ditumediso go diopedi le batlamoletlong.",
+            "Tshimologo e nne maatla, e ngoke theetso. E ka nna motlae kgotsa nopolo.",
+            "Tlhagiso ya puo e e thadisang katlego ya moletlo.",
+            "Tlhagiso ya dikeletso tsa go tsweletsa dithuto mo isagong.",
+            "Tlhagiso ya mafoko a tebogo le kakgolo.",
+            "Bokhutlo e nne jo bo kgodisang."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 25,
+          "max_marks": null,
+          "marker_instruction": "Palo ya mafoko a yona ke 180–200 diteng fela.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 15571,
+    "cached_tokens_saved": 0
+  }
+}

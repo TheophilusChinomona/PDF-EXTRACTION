@@ -133,3 +133,41 @@ class MarkingGuideline(GeminiCompatibleModel):
         default_factory=dict,
         description="Metadata about processing method, quality scores, cost savings, cache stats"
     )
+
+    def build_canonical_filename(self, document_id: str, suffix: str = "mg") -> str:
+        """Build a canonical filename from extracted metadata and document ID.
+
+        Format: {document_id}_{subject}-gr{grade}-{session}-{year}-{suffix}
+        Example: a1b2c3d4_business-studies-p1-gr12-may-june-2025-mg
+
+        Args:
+            document_id: UUID or unique identifier for this document.
+            suffix: File suffix label (default: "mg" for marking guideline).
+
+        Returns:
+            Canonical filename stem (no extension).
+        """
+        import re
+
+        subject = str(self.meta.get("subject") or "unknown").strip()
+        grade = str(self.meta.get("grade") or "0").strip().lower().replace("grade ", "")
+        year = str(self.meta.get("year") or "0").strip()
+        session = str(self.meta.get("session") or "unknown").strip()
+
+        # Normalise: lowercase, replace spaces/slashes with hyphens, strip non-alnum
+        def _slug(text: str) -> str:
+            text = text.lower()
+            text = re.sub(r'[/\\]+', '-', text)
+            text = re.sub(r'[^a-z0-9\-]+', '-', text)
+            text = re.sub(r'-+', '-', text)
+            return text.strip('-')
+
+        parts = [
+            document_id,
+            _slug(subject),
+            f"gr{_slug(grade)}",
+            _slug(session),
+            year,
+            suffix,
+        ]
+        return "-".join(parts)

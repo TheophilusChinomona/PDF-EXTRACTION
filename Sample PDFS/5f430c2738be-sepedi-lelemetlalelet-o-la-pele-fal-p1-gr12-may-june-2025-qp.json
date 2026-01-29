@@ -1,0 +1,719 @@
+{
+  "subject": "Sepedi Lelemetlaleletšo la Pele (FAL) P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "Sepedi",
+  "total_marks": 80,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: TEKAKWEŠIŠO",
+      "instructions": "Araba dipotšišo KA MOKA.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Badišiša temana ya tekakwešišo ye e latelago gore o tle o kgone go araba dipotšišo ka yona.",
+          "marks": null,
+          "scenario": "SETŠWELETŠWA SA A\n\nSEHLARE SA MUŠI KE GO O TLOGELA\n\n1 Mekgolokwane e be e galagala ka lapeng la Morena le Mohumagadi Bapela ge leitšibolo la bona Kelapile a nyalwa ke Ntshwarele Masenya. E be e le semphetekegofete, go iwa tlase le tletlolo ge go sa emetšwe gore senoinoi sa ga Bapela se tšwe ka ngwakong. Ge e le batswadi ba monyadiwa ba be ba swere dipelo ka diatla ka ge ba be ba sa tsebe gore letšatši leo le ba swaretše tše bjang. \n\n2 Ka morago ga iri monyadiwa o ile a tšwa ka ngwakong ba leba kerekeng. Ba ile ba nyadišwa ke Moruti Selepe. Ka morago ga fao ba ile ba leba ka tenteng fao ba ilego ba amogelwa ke mekgolokwane ya mašabašaba. Nako ya go laya monyadiwa ya fihla, rakgadi wa Kelapile o ile a mmotša gore a kgotlelele tša bogadi ka ge lebitla la mosadi le le bogadi. Mmagwe yena o ile ge a emelela a re: 'Ngwanaka, re go godišitše ka tlhompho le lerato eupša seo ga se re gore o swanetše go swa kgotelele o itebeletše. Ge tša bogadi di sa go sepelele gabotse o gopole gore sehlare sa muši ke go o tlogela.' \n\n3 Go fetile mengwaga ye meraro Kelapile le Ntshwarele ba nyalane, ba dula ka ngwakong wa bona wa kgoparara Silver Lakes. Ka lapeng la ga Masenya go be go rena lethabo le khutšo. Sa manyami e be e le gore Kelapile le Ntshwarele ba lekile ka mešogofela go oketša lapa la ga Masenya eupša gwa pala. Ba ile ba emaema ba nyakana le thušo mafelong a go fapafapana eupša ba se atlege. Mmatswale wa Kelapile o ile a botša morwa wa gagwe gore a nyale mosadi yo mongwe ka ge go se na le nko ye e tšwago lemina. Bomogala Ntshwarele ke banna bale ba go se kgone go ikemela ba go theeletša bommagobona le ge ba sa bolele tša go agiša.\n\n4 Ntshwarele o ile a thoma go boa gae ka masa, a robala a tsoga ka madila ebile a gerema le makgarebe a go fapafapana. Kelapile o rile ge a bona seo a begela ba bogadi ka seo morwa wa bona a se dirago. TatagoNtshwarele o boletše gore morwa o swanetše a bitšwe a kgalwe eupša mmagwe a ganelela gore yena o nyaka ditlogolo. Ke ge a tiiša gore ge Kelapile a palelwa ke go godiša lapa la bona morwa wa gagwe o swanetše go tšwela ka ntle. Se se ile sa kweša Kelapile bohloko ka ge a be a gopotše gore ba bogadi ke batho ba maleba bao ba ka mo thušago go rarolla mathata a gagwe.\n\n5 Kelapile o ile a no fogohleletša seropeng, a gopola gore mohlomongwe monna wa gagwe o tla fetoga. Dilo di ile di tla senyegela pele ya ba ge Ntshwarele a thoma go mo iša seatla. Moo gona Kelapile o ile a gana nnang ya basadi a re, le ge ba re lebitla la mosadi le bogadi yena a ka se dumele go tlaišwa ke Ntshwarele. O ile a begela batswadi ba gagwe ka mathata a gagwe. Mmagwe o ile a mo gopotša mantšu a gagwe a tšatši la lenyalo, a mmotša gore sehlare sa muši ke go o tlogela. Kelapile o ile a lala a phuthile mankgeretlana a gagwe gomme ka mahube a basadi a leba gagabo. Letšatši leo Ntshwarele o be a se a robala gae. O rile ge a goroga gae ka iri ya lesome mesong a hwetša borwa bo fokile. \n\n6 Seo ga se sa ka sa mo tshwenya, o ile a tšwela pele ka bophelo bja gagwe bja bogwaragwara go fihlela ge a ekwa mmele o sa iketle. O ile ge a eya ngakeng a botšwa gore o tsenwe ke malwetši a thobalano. Motho wa mathomo yoo a ilego a mo gopola e bile Kelapile. O ile a ya go mo kgopela tshwarelo eupša Kelapile a mmotša gore ya boela pitšeng e a swa. Ntshwarele o ile a itshola kudu gomme ge a fihla gae a šorofalela mmagwe a mmotša gore o mo lahleditše, ya ba ga go sa thuša selo. Meetse ge a tšhologile o ka se a olele. Seo se hlotše go šešerekana ga lenyalo la Ntshwarele le Kelapile.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "Tsopola mantšu ao a hlalošago tše di latelago go tšwa TEMANENG YA 1.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1(a)",
+          "parent_id": "1.1.1",
+          "text": "Ngwana wa mathomo.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1(b)",
+          "parent_id": "1.1.1",
+          "text": "Mosadi yo mmotse.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "Go ya ka TEMANA YA 2 ke eng seo banyalani ba ilego ba amogelwa ka sona?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "Ke mekgwa efe YE MEBEDI yeo Kelapile a godišitšwego ka yona go ya ka TEMANA YA 2?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "Go ya ka TEMANA YA 3 efa lefelo leo Kelapile le Ntshwarele ba bego ba dula go lona.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "Ke eng seo se rakilego khutšo ka lapeng la Kelapile le Ntshwarele go ya ka TEMANA YA 3?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.6",
+          "parent_id": "1.1",
+          "text": "Go ya ka TEMANA YA 4 bontšha maitshwaro a go se loke a Ntshwarele ka dintlha TŠE THARO.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.7",
+          "parent_id": "1.1",
+          "text": "Hlaloša diema tše di latelago go ya ka tirišo ya tšona TEMANENG YA 5:",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.7(a)",
+          "parent_id": "1.1.7",
+          "text": "'lebitla la mosadi le bogadi'",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.7(b)",
+          "parent_id": "1.1.7",
+          "text": "'sehlare sa muši ke go o tlogela'",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.8",
+          "parent_id": "1.1",
+          "text": "Hlatholla seo se dirilego gore kgotlelelo ya Kelapile e fele go ya ka TEMANA YA 5.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.9",
+          "parent_id": "1.1",
+          "text": "Bapetša karolo ye e kgathilwego ke dikeletšo tša mmagoKelapile le mmagoNtshwarele go lenyalo la bana ba bona.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.10",
+          "parent_id": "1.1",
+          "text": "Na o bona Kelapile a etše hloko seema sa 'lebitla la mosadi le bogadi' go ya ka TEMANA YA 2?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.11",
+          "parent_id": "1.1",
+          "text": "Ka dintlha TŠE PEDI hlaloša ditlamorago tša maitshwaro a Ntshwarele.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.12",
+          "parent_id": "1.1",
+          "text": "Ke kgato efe ya maleba yeo Kelapile a bego a swanetše go e tšea pele a botša batswadi ba Ntshwarele mathata a gagwe? Fahlela karabo ya gago.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.13",
+          "parent_id": "1.1",
+          "text": "Go ya ka kgopolo ya mmagoNtshwarele, go hloka thari ga Kelapile le Ntshwarele go hlolwa ke Kelapile. Naa o kwana le kgopolo ya gagwe? Fahlela ka dintlha TŠE PEDI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.14",
+          "parent_id": "1.1",
+          "text": "Tša etwa ke ya tshadi pele di wela ka lewa. Ahlaahla seema se o lebeletše diteng tša tekakwešišo ye ka dintlha TŠE PEDI.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Lebeledišiša seswantšho se se latelago gore o tle o kgone go araba dipotšišo ka sona.",
+          "marks": null,
+          "scenario": "SETŠWELETŠWA SA B\n\nDIPALOPALO TŠA BARUTWANA BA KREITI YA 12 TŠA SEPEDI TŠA LELEMETLALELETŠO LA PELE.\n[A bar graph showing percentages for years 2020, 2021, 2022, and 2023. X = Basetsana (Girls), Y = Bašemane (Boys).]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "Kgetha karabo ya maleba. Go ya ka diperesente tšeo di filwego, ke neng mo palo ya barutwana e bilego fase kudu?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "2020"
+            },
+            {
+              "label": "B",
+              "text": "2021"
+            },
+            {
+              "label": "C",
+              "text": "2022"
+            },
+            {
+              "label": "D",
+              "text": "2023"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "Ke ngwaga ofe wo go bilego le palo ya godimo ya basetsana ba Kreiti ya 12? Fahlela karabo ya gago.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.3",
+          "parent_id": "1.2",
+          "text": "Na maikemišetšo a mothadi wa kerafo ke afe?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.4",
+          "parent_id": "1.2",
+          "text": "Bapetša dipalopalo tša bašemane ba Sepedi ba Kreiti ya 12 bao ba ithutilego Sepedi ka ngwaga wa 2021 le 2023.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: KAKARETŠO",
+      "instructions": "Bala temana ye e latelago ka šedi gore o kgone go ngwala kakaretšo ya dintlha TŠE ŠUPA ka mathata ao a hlolwago ke phetogo ya leratadima.\n\nDITAELO\n1. Kakaretšo e ngwalwe ka mokgwa wa dintlha tše šupa.\n2. Kakaretšo e be mantšu a magareng ga 60 le 70.\n3. Nomora mafoko a gago go thoma go 1–7.\n4. Šomiša mantšu A GAGO.\n5. Ngwala ntlha ye nngwe le ye nngwe mothalading wa yona.\n6. Laetša palomoka ya mantšu ka mašakaneng mafelelong a kakaretšo.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Bala temana ye e latelago ka šedi gore o kgone go ngwala kakaretšo ya dintlha TŠE ŠUPA ka mathata ao a hlolwago ke phetogo ya leratadima.",
+          "marks": 10,
+          "scenario": "SETŠWELETŠWA SA C\n\nDITLAMORAGO TŠA PHETOGO YA LERATADIMA\n\nPhetogo ya leratadima ke ditlamorago tša go sesefala ga Ozone layer ye e jewago tšatši ka tšatši e fetšwa ke dilo tša tlhabologo go swana le dinkgišabose le dikhemikhale tšeo di šomišwago ka malapeng le difemeng. Se se hlola gore go be le phišo ye e tseneletšego, ya tliša komelelo ya masetlapelo go diphedi ka bophara. Komelelo e hlola mello ya hlaga ya go se laolege. Se se hlola tobo ya dimela, diphedi le madulo a tšona. Phišo ye e ka tliša dipula tša maatlakadibe, kudu mafaseng ao a ipatilego le mabopo a mawatle.\n\nDipula tše di a hlobaetša gobane di tla le meetsefula ao a hlolago tshenyo malapeng a mantši gomme batho ba hloka moo ba dulago. Ge phišo ye e golela godimo ka lebaka la go jega ga Ozone layer, letšatši le tsenelela matlalong a batho gomme la hlola malwetši a go fapana go swana le kankere ya letlalo.\n\nDitsunami le tšona di thoma go ipha maatla ka lebaka la phetogo ya leratadima. Phetogo ya leratadima ga e hlole diphišo fela. E hlola le go tonya mo go tseneletsego marapong. Lehlwa le lona le wa bonolo ka lebaka la go tonya moo. Lehlwa leo le dira gore batho ba bangwe ba ikhwetše ba le ka gare ga malwetši a go fapana go swana le nyumonia. Tshenyo yeo e tlišwago ke phetogo ya leratadima e hlola bohloki setšhabeng.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "KAROLO YA C: DIBOPEGO LE MELAO YA TŠHOMIŠO YA POLELO - PAPATŠO",
+      "instructions": "Lebeledišiša papatšo ye gomme o arabe dipotšišo tša go e latela.",
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Efa seo se bapatšwago papatšong ye.",
+          "marks": 1,
+          "scenario": "SETŠWELETŠWA SA D\n[Visual: A man applying Vaseline to his face. Text: VASELINE Sephadimisha letlalo. Se diretšwe banna fela. Letlalo le relela bjalo ka la leseana. Vaseline. E netefaditšwe ke ngaka ya letlalo. Pateroleamo ye e hwekilego ya 100%. SEŠIRELETŠI SA LETLALO.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Kgetha karabo ya maleba. Na papatšo ye e lebišitšwe go bomang?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Banna fela"
+            },
+            {
+              "label": "B",
+              "text": "Bana fela"
+            },
+            {
+              "label": "C",
+              "text": "Batho fela"
+            },
+            {
+              "label": "D",
+              "text": "Basadi fela"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Ngwala dilo TŠE PEDI tšeo di tlogetšwego papatšong ye.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Mmapatši o hlohleletša bareki bjang papatšong ye?",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Bontšha kgethologanyo yeo e tšweleditšwego papatšong ye.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Sefahlego sa motho wa papatšo ye se hlagiša maikutlo a mohuta mang? Fahlela.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Tšweletša maadingwa a dilo tše PEDI tše di bonalago go sebapatšwa se.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "KAROLO YA C: DIBOPEGO LE MELAO YA TŠHOMIŠO YA POLELO - KHATHUNE",
+      "instructions": "Lebeledišiša khathune ye le mantšu a yona gomme o arabe dipotšišo tša go latela.",
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Efa dilo TŠE PEDI khathuneng ye tšeo di laetšago gore mosadi wa pudula ya 2 o kwa bohloko.",
+          "marks": 2,
+          "scenario": "SETŠWELETŠWA SA E\n[Visual: A man and woman sitting on a couch. The man has a solid heart on his chest and speech bubble 1. The woman has a broken heart on her chest and speech bubble 2.]\n1. Ke a go rata.\n2. O ka re o nthata wa ntlaiša?",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Kgetha karabo ya maleba go tšwa khathuneng ye. Fahlela karabo ya gago. Khathune ye e laetša:",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Monna o kgopišitše mosadi"
+            },
+            {
+              "label": "B",
+              "text": "Mosadi o kgopišitše monna"
+            },
+            {
+              "label": "C",
+              "text": "Monna le mosadi ba kgopišane"
+            },
+            {
+              "label": "D",
+              "text": "Monna le mosadi ba a ratana"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Bapetša tirišo ya maswao a pelo ya mosadi le ya monna.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Bapetša tirišo ya pudula ya 1 le ya 2.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "'Nthata' ke lediri la mohuta mang? Fahlela karabo ya gago.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "KAROLO YA C: DIBOPEGO LE MELAO YA TŠHOMIŠO YA POLELO - SENGWALWA",
+      "instructions": "Araba dipotšišo tša go latela tšeo di theilwego godimo ga ditemana tše di filwego.",
+      "questions": [
+        {
+          "id": "5.1",
+          "parent_id": null,
+          "text": "Bala sengwalwa sa ka tlase ka šedi gore o kgone go araba dipotšišo tša go latela.",
+          "marks": null,
+          "scenario": "SETŠWELETŠWA SA F\n\nGO BA MOTSOMI …!\n\nGe kgogo e lla, ke ge Rasefate a ragela maswiswi ntlong, go yo tsoma. Bjalo ka mehleng a phumola mahlo, a topa molamo le selepe a bitša dimpša. Di be di tseba gore molodi woo o bolela eng go tšona. Šole! O lebile sekhutlong seo a tsebago gore di a mo tsogela. Ka nakwana mmutla wa re kgabo! Ya ba tša maphefo di o bone. Sa gagwe ya ba go topa a lahlela mokotleng.\n\nGe a sepela a bona ka dimpša go duta mesela go laetša gore di boifa lefelo leo. Tlalelo ya mo aparela. A tsinkela ka šedi, a bona go šišinyega mabjang go laetša gore go befile. Mo kgakanegong yeo ge a re gadi! a bona tau. A kwešiša gabotse gore o lebane le lehu eupša a ipotša gore se se kgaogago se ka no kgaoga.\n\nMaano ke eng, gatee fela ke ge monna yola a namela mohlare wo motelele, dimpša tša šala di le kgakanegong. Tau yela ya tabogela ye nngwe ya dimpša ya e kgeretlanya mola ye nngwe yona e iphile lešoka. Ge e le Rasefate yena o godimo ga mohlare o tšhogile la go neša pula ya go hloka maru gobane a sa tsebe gore ge tau e fetša ka mpša ya gagwe e tlo dira eng ka yena.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "text": "Tsopola lešalašupi lefokong la boraro o be o le fetolele go kgato ya boraro.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "text": "Efa lelatodi la lentšu le le thaletšwego o be o le diriše lefokong la go kwagala. [Note: word 'maphefo' is bolded/underlined in text paragraph 1]",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "text": "'Tlalelo ya mo aparela.' Ngwala lefoko le ka:",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3(a)",
+          "parent_id": "5.1.3",
+          "text": "Tirwa",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.3(b)",
+          "parent_id": "5.1.3",
+          "text": "Kganetšo",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "text": "Tšweletša modirišo wo o šomišitšwego lefokong la bobedi temaneng ya 1. Fahlela karabo ya gago.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "text": "Bontšha leekiši temaneng ya 2 o be o laetše gore le bopilwe ka seripa sefe sa polelo.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "text": "'O lebile sekhutlong seo a tsebago gore di a mo tsogela.'",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6(a)",
+          "parent_id": "5.1.6",
+          "text": "Hlokola lehlathi go tšwa lefokong le.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.6(b)",
+          "parent_id": "5.1.6",
+          "text": "Efa mošomo wa lona.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "text": "Bapetša dikafoko tše di kotofaditšwego. [wo motelele, ya gagwe]",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "text": "Lebelela seswantšho se le mantšu a sona gomme o arabe dipotšišo tša go latela.",
+          "marks": null,
+          "scenario": "SETŠWELETŠWA SA G\n[Visual: A group of cricket players in white uniforms celebrating with a trophy.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "text": "Kgetha karabo ya maleba. Seswantšho se se mabapi le dibapadi tša:",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Thenese"
+            },
+            {
+              "label": "B",
+              "text": "Hoki"
+            },
+            {
+              "label": "C",
+              "text": "Rugby"
+            },
+            {
+              "label": "D",
+              "text": "Khrikhete"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "text": "Efa leadingwa la seo dibapadi di se rwelego maotong o be o bolele gore le wela legorong lefe la maina.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "text": "Efa lešala la selo seo se tlišago lethabo go dibapadi tša seswantšho o be o le šomiše lefokong.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "text": "Utolla lediri leo le hlalošwago ke difahlego tša dibapadi seswantšhong.",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 14314,
+    "cached_tokens_saved": 0
+  }
+}

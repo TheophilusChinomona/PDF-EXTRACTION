@@ -66,3 +66,6 @@ tmp/
 uploads/
 Sample PDFS/outputs/*  # Test extraction results
 !Sample PDFS/outputs/.gitkeep  # But keep folder structure
+
+# PDF files
+*.pdf

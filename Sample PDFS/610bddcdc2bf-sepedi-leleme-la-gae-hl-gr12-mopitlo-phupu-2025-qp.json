@@ -1,0 +1,190 @@
+{
+  "subject": "Sepedi Leleme la Gae (HL)",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MOPITLO/PHUPU",
+  "grade": "12",
+  "language": "Sepedi",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "KAROLO YA A: DITAODIŠO",
+      "instructions": "Kgetha E TEE ya dihlogo tše di latelago gomme o ngwale taodišo ya botelele bja mantšu a 400–450 (diteng fela). Taodišo e rulaganywe ka lenaneo la go swana le la mmepe wa monagano. O tla fiwa meputso ya diteng le peakanyo, polelo, mongwalelo, palobohlatse gammogo le sebopego.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "text": "... ruri e bile mohlohleletši wa mmakgonthe",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "text": "Bohlale bo tšwa lebading",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "text": "Dipolao ka Afrika-Borwa ke tlhobaboroko",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "text": "Tiragalo ye e fetošitšego bophelo bja ka",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.5",
+          "parent_id": "1",
+          "text": "Mekgwanakgwana ya go iphediša e thiba letšatši.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.6",
+          "parent_id": "1",
+          "text": "Go oketšwa ga ditheko tša madila go ka fokotša tšhomišompe ya ona. Dumela goba o ganetše.",
+          "marks": 50,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.7",
+          "parent_id": "1",
+          "text": "Seswantšho sa sebaka sa go boloka tšhelete (piggy bank) seo se lego ka tlase ga pompi ya meetse yeo e nelago thothi ya meetse ka gare ga sona.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Lekodišiša diswantšho tše tša ka tlase (1.7 le 1.8) ka kelohloko gomme o kgethe SE TEE sa tšona o ngwale taodišo ka sona. Efa taodišo ya gago hlogo ya maleba. ELA HLOKO: Dikgopolo tša gago di nyalelane le tše di tšwelelago seswantšhong.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.8",
+          "parent_id": "1",
+          "text": "Seswantšho sa batho ba babedi ba lego kgauswi le morako. Yo mongwe o eme godimo ga mokgobo wa dipuku gore a kgone go bona ka mošola wa morako, mola yo mongwe a eme fase.",
+          "marks": 50,
+          "scenario": null,
+          "context": "Lekodišiša diswantšho tše tša ka tlase (1.7 le 1.8) ka kelohloko gomme o kgethe SE TEE sa tšona o ngwale taodišo ka sona. Efa taodišo ya gago hlogo ya maleba. ELA HLOKO: Dikgopolo tša gago di nyalelane le tše di tšwelelago seswantšhong.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "KAROLO YA B: DITŠWELETŠWA TŠA TIRIŠANO",
+      "instructions": "Araba dipotšišo TŠE PEDI go tše tshela tše di latelago. Botelele bja karabo ya gago e be mantšu a 180–200 (diteng fela). Setšweletšwa se rulaganywe ka lenaneo la go swana le la mmepe wa monagano. O tla fiwa meputso ya diteng le peakanyo, polelo, mongwalelo, palobohlatse gammogo le sebopego.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "LENGWALO LA SEMMUŠO\n\nBatswadi ba gago ga ba phedišane gabotse ka lapeng. Taba ye e go hlokiša khutšo. Ngwalela moruti wa kereke ya geno lengwalo o mo kgopele go tlo tsena taba ye ka bogare.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "EMEILE\n\nO lemogile boima bjo bo rwelwego ke bana bao ba dulago ba nnoši ka baka la go hlokofalelwa ke batswadi. Bjalo ka mongwaledi wa bafsa, ngwalela modirelaleago wa selete sa geno emeile o mo lemoše ka bothata bjo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "TŠA BOPHELO BJA MOHU\n\nMothuši wa ka geno o hlokofetše ka morago ga go lwala nakwana. Thuša ba lapa la gabo go ngwala tša bophelo bja mohu yo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "POLELO\n\nTona ya Mohlagase e tla go thakgola protšeke ye mpsha ya mohlagase motseng wa geno. Bjalo ka moetapele wa bafsa kgoši o go kgopetše go fa polelo mabapi le taba ye. Ngwala polelo ya gago.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "ATHIKELE YA KGATIŠOBAKA\n\nMotseng wa geno go atile ditiragalo tša go utswiwa ga bana ba basetsana. Bjalo ka mongwaledi wa kgatišobaka ya Lebone ngwala athikele yeo ka yona o lemošago setšhaba le go kgala ditiro tše bjalo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": "2",
+          "text": "PEGO\n\nSekolong sa geno go be go swerwe diphadišano tša kgwele ya maoto tša sedikothuto mo sehlopha sa lena se ilego sa thopa sefoka. Ngwala pego ka ditiragalo tša letšatši leo.",
+          "marks": 25,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 7928,
+    "cached_tokens_saved": 0
+  }
+}

@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "subject": "IsiZulu Ulimi Lokuqala Lokwengeza (FAL)",
+    "type": "Umhlahlandlela Wokumaka (Memorandum)",
+    "year": 2025,
+    "session": "Nhlaba/Nhlangulana",
+    "grade": "12",
+    "total_marks": 80
+  },
+  "sections": [
+    {
+      "section_id": "ISIQEPHU A",
+      "questions": [
+        {
+          "id": "1.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Elokudlala unobhutshuzwayo.",
+            "Elokudlala ibhola lezinyawo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kulesi sikole kwakukhuthazwa izingane kwezemidlalo.",
+            "Wayezoqala uhambo lwephupho lakhe kwezemidlalo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wakhethwa emidlalweni yokuhlungela iqembu elalizodlalela isikole."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wabizwa ngoBullet ngenxa yamashodi ayewashaya uma efaka amagoli."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Umdlavuza wamathambo",
+            "i-osteosarcoma"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Wayevakashela uMafika esibhedlela.",
+            "Wayekhuthaza nomndeni ukuba usethembe isinqumo sodokotela."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.7",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": [
+            "A/Ukungabi nandaba."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Odokotela babedidekile bengayitholi inkinga edala ubuhlungu obungaka ngoba kwakungekho thambo elaliphukile."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "a",
+              "value": "Ngokushesha okukhulu."
+            },
+            {
+              "sub_id": "b",
+              "value": "Alubanga khona ushintsho/Kwazifanela/Akwenzekanga lutho."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.10",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Waqhubeka nesikole waze waphothula ibanga le-12.",
+            "Wathathwa umdanso kaBobo emcimbini wase ecela ukuthi amfundise naye ukudansa.",
+            "Wajoyina iqembu lomdanso waze wangenela umncintiswano athola kuwona indondo yegolide."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Nokunye okunembayo okuyoshiwo umfundi.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.11",
+          "text": "Critical thinking / Interpretation",
+          "type": null,
+          "model_answers": [
+            "Kubalulekile ukusebenzisa amathuba avelayo nokuthuthukisa amanye amakhono onawo noma ngabe ukusiphi isimo."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Izimpendulo ziyokwehluka.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.1.12",
+          "text": "Support/Oppose Opinion",
+          "type": null,
+          "model_answers": {
+            "Abathi banalo": [
+              "Abanye bavele balahle ithemba bangakuboni okunye okungabasiza uma behlangabezana nesimo esinzima empilweni."
+            ],
+            "Abathi abanalo": [
+              "Abanye abalitholi ithuba lokuba nabantu abazobasiza ukuze baphumelele."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": "Izimpendulo ziyokwehluka.",
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark OKUBILI (the first TWO) only.",
+          "notes": null,
+          "topic": "Text B Visual Analysis",
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Banakekela abantwana",
+            "bayapheka",
+            "baya-ayina",
+            "bahlanza indlu"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukuvula amehlo kakhulu.",
+            "Ukuneka izandla."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2.3",
+          "text": "Agreement / Disagreement",
+          "type": null,
+          "model_answers": {
+            "Abavumayo": [
+              "Yebo, ngoba banamandla amakhulu bakwazi ukwenza izinto eziningi ngesikhathi esisodwa."
+            ],
+            "Abangavumi": [
+              "Cha, ngoba zikhona ezinye izinto abahlulekayo ukuzenza ezidinga ukwenziwa abantu besilisa."
+            ]
+          },
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU B",
+      "questions": [
+        {
+          "id": "UMBUZO 2",
+          "text": "UKUFINGQA (SUMMARY)",
+          "type": "Summary",
+          "model_answers": [
+            "Kukhona imithi namaphilisi enza abantu bangalali futhi bagule.",
+            "Izinkinga zemali zenza ukuthi ubuthongo buphele noma bungafiki.",
+            "Ukudla neziphuzo ezinoshukela kakhulu zinika umdlandla owenza kuze kuse umuntu engalele.",
+            "Ukulala emini kuphazamisa ukusebenza komzimba bese ubuthongo buyaphela ebusuku.",
+            "Ukuba khona komsindo nokunyakaza okuthile okwenzeka ngesikhathi kulelwe kuyaphazamisa kuqede ubuthongo.",
+            "Izifo ezifana nengcindezi nokhwantalala zenza umuntu anqanyukelwe ubuthongo.",
+            "Ukuvakashela ezweni elinesikhathi esingafani neselakho kwenza ungalali ngesikhathi esifanele."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 10,
+          "max_marks": null,
+          "marker_instruction": "Mark for facts (7 marks) and language (3 marks) according to the specified scales based on paraphrasing vs verbatim quoting. Check word count.",
+          "notes": "Award 1 mark per point up to 7 points.",
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "ISIQEPHU C",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isinkwa Isutha.",
+            "Isinkwa.",
+            "Isutha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO only.",
+          "notes": null,
+          "topic": "Benefits of the bread",
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sikugcina unamandla usuku lonke.",
+            "Sikunika impilo.",
+            "Senza abantwana bakhule behlakaniphile.",
+            "Siyakusuthisa."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": [
+            "C/Wokujabula."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "a",
+              "value": "Izingcezu."
+            },
+            {
+              "sub_id": "b",
+              "value": "Abampofu."
+            }
+          ],
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Thenga isinkwa esisodwa uthole esinye mahhala.",
+            "Ungaphuthelwa!",
+            "Sutha ngesutha namhlanje."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Abathengi bayakwazi ukubona uhlobo lwesinkwa olukhangiswayo.",
+            "Abangakwazi ukufunda izinhlamvu ezibhaliwe bayakwazi nabo ukuthola umyalezo oqukethwe isikhangiso."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ubeke inkomishi/isitsha sokufaka imali phambi kwakhe."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Kuyabanda./kumakhaza.",
+            "Ngoba, bagqoke izimpahla ezifudumalayo (izigqoko ezifudumalayo, izikhafu, amajazi nejakhethi)."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.3",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": [
+            "B/Onomusa kwabanye."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark ONE only.",
+          "notes": null,
+          "topic": "Reasons for homelessness/begging",
+          "essay_structure": null
+        },
+        {
+          "id": "4.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukudla kakhulu izidakamizwa.",
+            "Izinkinga eziba semindenini.",
+            "Ukungasebenzi/ukungawutholi umsebenzi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Sekuzoba ngcono.",
+            "Sekuzolunga."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": null,
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": null,
+          "marks": null,
+          "max_marks": null,
+          "marker_instruction": "Mark the first TWO only.",
+          "notes": null,
+          "topic": "Solutions for social issues",
+          "essay_structure": null
+        },
+        {
+          "id": "4.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ukwakha amathuba emisebenzi.",
+            "Ukulwa nokusatshalaliswa kwezidakamizwa notshwala.",
+            "Ukuvula izindawo ezisiza abantu abanokhwantalala."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Bayalithenga.",
+            "Basalithenga."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Lona.",
+            "Lona lidlalwa abafana kakhulu."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.3",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ekhaya",
+            "kwaXulu"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isabizwana sokubala/senani."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.5",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Aziwathandi.",
+            "Azithandi."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.6",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Anezikhunjana."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.7",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Isiqu senani",
+            "Isiqu"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.8",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Abantu bayasaba ukugqoka amawashi abizayo ngoba izigebengu ziyawathatha."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.1.9",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "zona",
+            "aziwafaki"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.1",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "E (Ebony)"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.2",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Uwashiyisise."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.3",
+          "text": null,
+          "type": "Multiple Choice",
+          "model_answers": [
+            "D/Isenzasasilwane."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "5.2.4",
+          "text": null,
+          "type": null,
+          "model_answers": [
+            "Ihhashi elithandwa/elifakelwa kakhulu emjahweni."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 10644,
+    "cached_tokens_saved": 0
+  }
+}
