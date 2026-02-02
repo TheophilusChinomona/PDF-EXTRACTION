@@ -28,6 +28,14 @@ MIN_CACHE_TOKENS = 1024
 _memo_cache_lock = asyncio.Lock()
 _MEMO_CACHE_NAME: Optional[str] = None
 
+
+def _is_cache_expired_error(e: Exception) -> bool:
+    """True if exception indicates cache not found/expired (Gap 9.4, 3.2)."""
+    msg = str(e).lower()
+    return "cache" in msg and (
+        "not found" in msg or "expired" in msg or "invalid" in msg or "not exist" in msg
+    )
+
 # System instruction for memo extraction (adapted from sample system prompt)
 MEMO_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Chief Examiner and Archivist. Your task is to extract the **Marking Guideline (Memorandum)** for an exam paper into structured JSON.
 
@@ -236,11 +244,24 @@ Extract ALL content without skipping any questions or answers."""
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=contents_list,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents_list,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _MEMO_CACHE_NAME
+                _MEMO_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=contents_list,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response
         response_text = response.text
@@ -399,11 +420,24 @@ IMPORTANT: Extract ALL questions from ALL sections without skipping any."""
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _MEMO_CACHE_NAME
+                _MEMO_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response
         response_text = response.text

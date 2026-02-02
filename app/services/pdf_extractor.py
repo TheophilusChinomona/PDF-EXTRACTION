@@ -75,6 +75,14 @@ MIN_CACHE_TOKENS = 1024
 _extraction_cache_lock = asyncio.Lock()
 _EXTRACTION_CACHE_NAME: Optional[str] = None
 
+
+def _is_cache_expired_error(e: Exception) -> bool:
+    """True if exception indicates cache not found/expired (Gap 9.4, 3.2)."""
+    msg = str(e).lower()
+    return "cache" in msg and (
+        "not found" in msg or "expired" in msg or "invalid" in msg or "not exist" in msg
+    )
+
 # System instruction for exam paper extraction (cached to reduce costs)
 EXAM_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Academic Document Intelligence AI. Your role is to convert exam papers into strict, hierarchical JSON format.
 
@@ -310,11 +318,24 @@ CRITICAL RULES:
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=contents_list,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents_list,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _EXTRACTION_CACHE_NAME
+                _EXTRACTION_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=contents_list,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response - manually parse JSON since we used dict schema
         response_text = response.text
@@ -475,11 +496,24 @@ CRITICAL:
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _EXTRACTION_CACHE_NAME
+                _EXTRACTION_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response - manually parse JSON since we used dict schema
         response_text = response.text

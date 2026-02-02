@@ -1,4 +1,10 @@
-"""Rate limiting middleware using slowapi for abuse prevention."""
+"""Rate limiting middleware using slowapi for abuse prevention.
+
+Limitation: Uses in-memory storage by default. Counts are per-process and do not
+persist across restarts or scale to multiple instances.
+TODO: For production with multiple workers/instances, use a Redis backend
+(e.g. slowapi with storage_uri="redis://...") so rate limits are shared.
+"""
 
 from typing import Any, Callable
 
@@ -47,8 +53,9 @@ def get_client_ip(request: Request) -> str:
     return direct_ip
 
 
-# Create the limiter with in-memory storage (MVP)
-# Uses client IP as the key for rate limiting
+# Create the limiter with in-memory storage (MVP).
+# Uses client IP as the key for rate limiting.
+# TODO: Production: use Redis backend for shared limits across instances.
 limiter = Limiter(key_func=get_client_ip, default_limits=["200/minute"])
 
 
