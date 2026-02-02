@@ -1,0 +1,620 @@
+{
+  "meta": {
+    "subject": "Accounting P1",
+    "type": "Marking Guideline (Memorandum)",
+    "year": 2025,
+    "session": "MAY/JUNE",
+    "grade": "NSC",
+    "total_marks": 150
+  },
+  "sections": [
+    {
+      "section_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Statement of Comprehensive Income for the year ended 28 February 2025",
+          "type": "Financial Statement",
+          "model_answers": [
+            "Sales (12 171 200 - 31 200) = 12 140 000",
+            "Cost of sales: sales / 1,6 OR sales x 100/160 = (7 587 500)",
+            "Gross profit: Sales - CofS = 4 552 500",
+            "Other income: 225 250",
+            "Service fee income: 174 580",
+            "Provision for bad debts adjustment: 2 030",
+            "Rent income [6 080 x 4] OR [72 960 x 4/12] OR (72 960 - 24 320) = 48 640",
+            "Gross operating income: GP + OI = 4 777 750",
+            "Operating expenses: (3 307 800)",
+            "Salaries and wages: 763 000",
+            "Depreciation: 285 860",
+            "Audit fees (75 168 + 18 792) = 93 960",
+            "Directors fees: 49 500 + 49 500 + 44 055 OR (1 595 385 - 143 055) = 1 452 330",
+            "Trading stock deficit [31 200 x 100/160] OR (22 150 - 19 500) = 2 650",
+            "Sundry expenses: 710 000",
+            "Operating profit: GOI - OE = 1 469 950",
+            "Interest income: 59 450 (balancing figure)",
+            "Profit before interest expense: NPBT + Int. exp = 1 529 400",
+            "Interest expense: (330 000 - 126 600) OR (27 500 - 10 550) x 12 = (203 400)",
+            "Net profit before tax: NPAT + IT = 1 326 000",
+            "Income tax: (397 800)",
+            "Net profit after tax: [397 800 x 70/30] = 928 200"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 34,
+          "max_marks": null,
+          "marker_instruction": "-1 foreign items (max -2) i.e SFP items; -1 presentation (max -1). Prov. for bd adjust must be shown as an income. Trading stock deficit could be shown as an income, mark as per principle 11. If trading stock deficit is shown as an income with correct workings, -1 for answer. #two m marks will be awarded only if the candidate has used the sales figure calculated above. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "1.2",
+          "text": "Statement of Financial Position on 28 February 2025",
+          "type": "Financial Statement",
+          "model_answers": [
+            "ORDINARY SHAREHOLDERS' EQUITY (TE&L - TL): 3 041 500",
+            "Ordinary share capital: 2 480 000",
+            "Retained income: 561 500 (balancing figure)",
+            "NON-CURRENT LIABILITIES [5 214 000 / 2,4] OR (2 172 500 - 972 000) = 1 200 500",
+            "Loan: Oracle Bank: 1 200 500",
+            "CURRENT LIABILITIES: 972 000",
+            "Trade and other payables (420 358 + 18 792 + 24 320 - 22 750) = 440 720",
+            "SARS Income tax (397 800 - 363 100) = 34 700",
+            "Shareholders for dividends (1 550 000 x 19/100) = 294 500",
+            "Bank overdraft: 75 480 (balancing figure)",
+            "Current portion of loan: 126 600",
+            "TOTAL EQUITY AND LIABILITIES: 5 214 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 16,
+          "max_marks": null,
+          "marker_instruction": "-1 foreign items (max -2); presentation -1 (max -1). Inspect: SARS:IT and SFD may be included in T&OP. Note principle 11 when awarding method marks; Operation as per candidate's operation, unless otherwise specified. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2.1 (i)",
+          "text": "Calculate: Carrying value of buildings on 1 March 2024",
+          "type": null,
+          "model_answers": [
+            "15 479 600 - 7 909 600 = 7 570 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.1 (ii)",
+          "text": "Calculate: Disposal of vehicle at carrying value",
+          "type": null,
+          "model_answers": [
+            "510 000 - 330 000 - (180 000 x [20% x 7/12]) = 159 000",
+            "OR 510 000 - 330 000 - 21 000 = 159 000",
+            "OR 510 000 - 351 000 = 159 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Accept ledger format.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.1 (iii)",
+          "text": "Calculate: Total depreciation on equipment",
+          "type": null,
+          "model_answers": [
+            "New: 320 000 x [15% x 3/12] = 12 000",
+            "Old: 2 630 000 x [15% x 12/12] = 394 500",
+            "Total: 406 500"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "Do not award marks for any operations done to stand-alone figures. e.g. no tick if anything else is added to R320 000 or R2 630 000. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2",
+          "text": "Calculate: Taxation paid",
+          "type": null,
+          "model_answers": [
+            "148 000 + 1 736 000 + 220 000 = 2 104 000",
+            "OR -148 000 - 1 736 000 - 220 000 = 2 104 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Accept ledger format or use of brackets as workings. Be aware of signs reversed; Ensure that only one option is marked consistently. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.2.1",
+          "text": "Calculate: Dividends paid",
+          "type": null,
+          "model_answers": [
+            "840 000 + (4 050 000 x 0,32) = 2 136 000",
+            "OR 840 000 + 1 296 000 = 2 136 000",
+            "OR 840 000 + [2 696 000 - 1 400 000] = 2 136 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Accept ledger format or use of brackets as workings. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.3",
+          "text": "Cash effects from financing activities in the Cash Flow Statement for the year ended 28 February 2025",
+          "type": null,
+          "model_answers": [
+            "Issuing of shares: 6 300 000",
+            "Shares repurchased: (50 000 x R8,50) OR (175 000 + 250 000) = (425 000)",
+            "Change in loan: 3 733 500",
+            "Cash effects from financing activities: 9 608 500"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 8,
+          "max_marks": null,
+          "marker_instruction": "-1P if no details (max -1). Shares repurchased must be in brackets. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4 (i)",
+          "text": "Calculate: % operating expenses on sales",
+          "type": null,
+          "model_answers": [
+            "(4 667 600 / 26 480 000) x 100 = 17,6%"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "*one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4 (ii)",
+          "text": "Calculate: % return on average shareholders' equity",
+          "type": null,
+          "model_answers": [
+            "(4 464 000 / ½ (22 556 000 + 14 913 000)) x 100 = 23,8%"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "*one part correct if average SHE (x ½) is used.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.4 (iii)",
+          "text": "Calculate: Dividends per share",
+          "type": null,
+          "model_answers": [
+            "[1 296 000/4 050 000] + [1 400 000 / 4 000 000] = 67cents",
+            "OR 32 + 35 = 67cents",
+            "OR 0,32 + 0,35 = 0,67"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Ensure that only one option is marked consistently. Do not accept 67,4. *one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "2.5",
+          "text": "Sources of funding and negative effect on cash flow",
+          "type": null,
+          "model_answers": null,
+          "answers": null,
+          "structured_answer": [
+            {
+              "source": "SOURCE 1: Shares issued, R6 300 000",
+              "negative_effect": "Expectations of shareholders to receive regular dividends in the future"
+            },
+            {
+              "source": "SOURCE 2: Change in loan, R3 733 500",
+              "negative_effect": "Loan has to be repaid with interest."
+            }
+          ],
+          "marks": 6,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "Complete the terminology",
+          "type": "Complete the statements",
+          "model_answers": null,
+          "answers": [
+            {
+              "sub_id": "3.1.1",
+              "value": "Profitability"
+            },
+            {
+              "sub_id": "3.1.2",
+              "value": "Limited"
+            },
+            {
+              "sub_id": "3.1.3",
+              "value": "Solvency"
+            }
+          ],
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "No abbreviations",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.2",
+          "text": "Liquidity: Quote TWO financial indicators with figures",
+          "type": null,
+          "model_answers": [
+            "Current ratio improved/increased (from 0,3 :1) to 1,6:1 / by 1,3 : 1.",
+            "Acid test ratio improved/increased (from 0,1 :1) to 0,8:1 / by 0,7 : 1",
+            "Debtors collection period improved/decreased (from 43 days) to 36 days / by 7 days"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Do not accept creditors payment period.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3 (i)",
+          "text": "Calculate the dividend pay-out rate for the year ended 28 February 2025.",
+          "type": null,
+          "model_answers": [
+            "(55 / 51) x 100 = 107,8%"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Do not accept 1,07",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.3 (ii)",
+          "text": "Explain why the directors decided to change the policy. Give ONE reason.",
+          "type": null,
+          "model_answers": [
+            "The company wants to keep shareholders happy/increase shareholder satisfaction.",
+            "They are trying to influence the market price of shares by increasing dividends.",
+            "Equalising dividends over several years.",
+            "Not planning for future expansions.",
+            "The company had sufficient reserves from previous years."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4 (i)",
+          "text": "Calculate the number of new shares that Denzel purchased on 31 July 2024.",
+          "type": null,
+          "model_answers": [
+            "494 000 - [900 000 x 45%] = 89 000",
+            "OR 494 000 - 405 000 = 89 000",
+            "OR 495 000 - 456 000 + 50 000 = 89 000"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "*one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4 (ii)",
+          "text": "Calculate Denzel's % shareholding on 28 February 2025.",
+          "type": null,
+          "model_answers": [
+            "(494 000 / 950 000) x 100 = 52%"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 3,
+          "max_marks": null,
+          "marker_instruction": "*one part correct.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.4 (iii)",
+          "text": "Why should the independent auditor be concerned about the share repurchase?",
+          "type": null,
+          "model_answers": [
+            "Unethical, as Denzel is taking advantage as the majority shareholder/This creates potential conflict of interest.",
+            "Nepotism, as Denzel has favoured his relative's estate by paying R12 per share.",
+            "This is not procedural; one person cannot determine buy-back prices.",
+            "Shareholders may lodge a dispute, as this action could be a breach of the company's policies.",
+            "The decision was not fair and transparent."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5 (i)",
+          "text": "Gearing and risk: Explain why you recommend not borrowing more money. Quote TWO indicators.",
+          "type": null,
+          "model_answers": [
+            "Debt/equity ratio increased (from 0,5 : 1) to 0,8 : 1 / by 0,3 : 1. The financial risk has increased / The company is more reliant on debt to finance its operations.",
+            "The % return on average capital employed (ROTCE) decreased (from 9,5%) to 8,2% / by 1,3% points / by 13,7%. The company is negatively geared / ROTCE is lower than the (12%) interest rate/using loans ineffectively."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 6,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.5 (ii)",
+          "text": "Explain how issuing more shares will benefit the company. Provide TWO points.",
+          "type": null,
+          "model_answers": [
+            "The capital raised does not have to be repaid to the shareholders.",
+            "Improvement in the debt-equity ratio.",
+            "Dividends will only be declared if the company can afford to do so.",
+            "No interest is paid; this will improve profits."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.6",
+          "text": "Share value analysis: Why shareholders should not be satisfied. Quote TWO indicators.",
+          "type": null,
+          "model_answers": [
+            "Net asset value per share decreased (from 1 060 cents) to 1 025 cents / by 35 cents / by 3,3%.",
+            "Market price per share decreased (from 1 030 cents) to 1 000 cents / by 30 cents / by 2,9%.",
+            "Market price per share of 1 000 cents is lower than the Net asset value per share of 1 025 cents"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.7 (i)",
+          "text": "Reason to appoint a suitably qualified CFO.",
+          "type": null,
+          "model_answers": [
+            "Develop sound financial strategies aligned with company long term goals.",
+            "Ensure that the company complies with financial regulations and standards.",
+            "Instil confidence in the company performance and growth.",
+            "CFO's are instrumental in identifying financial risks.",
+            "He / She must have the relevant knowledge (experience/skill) as the CFO makes final decisions concerning all the aspects of the company's finances.",
+            "Must be informed of all policies relevant to the effective handling of the company's finances.",
+            "To prevent fraud and mismanagement of funds."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "3.7 (ii)",
+          "text": "Two financial indicators why Denzel's contract should not be renewed.",
+          "type": null,
+          "model_answers": [
+            "Earnings per share decreased (from 58 cents) to 51 cents / by 7 cents / by 12%.",
+            "Return on average shareholders' equity decreased from (from 6,2%) to 4,5% / by 1,7% points / by 27,4%.",
+            "Solvency ratio decreased (from 2,6 : 1) to 2,2 : 1 / by 0,4 : 1."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "Note: Do not accept % operating expenses on sales. Be aware of relevant indicators not used in Q3.2 - Q3.6 excluding positive trends. e.g liquidity.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    },
+    {
+      "section_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4.1.1",
+          "text": "Identify the type of audit report that Yungs Ltd received.",
+          "type": null,
+          "model_answers": [
+            "Unqualified",
+            "Accept 'clean' report"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 1,
+          "max_marks": null,
+          "marker_instruction": null,
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.2",
+          "text": "Name TWO reliable types of audit evidence.",
+          "type": null,
+          "model_answers": [
+            "source documents (e.g. invoices /receipts)",
+            "journals",
+            "ledgers",
+            "(signed) contracts",
+            "(signed) payrolls",
+            "debtors' statements",
+            "creditors' statements",
+            "bank statements",
+            "EFT voucher (proof of payment)",
+            "asset registers",
+            "physical inspections",
+            "Deeds/registration documents"
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 2,
+          "max_marks": null,
+          "marker_instruction": "Any TWO valid and different types. Be aware of other valid examples that are related to financial records.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.1.3",
+          "text": "Positive influence of this audit report. Provide TWO points.",
+          "type": null,
+          "model_answers": [
+            "Shareholders have confidence in the management of the company and would want to retain their shares.",
+            "It would attract potential shareholders.",
+            "It will make it viable for the company to raise more capital in the future.",
+            "The company may find it easier to secure financing from financial institutions/It will improve the company's image and result in an increased credit rating.",
+            "Reassures shareholders that company's financials are trustworthy, reducing perceived risk.",
+            "It may increase the share price of the company on the JSE."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.1",
+          "text": "Action Vintage Ltd would have taken against directors who appeared in court. Provide TWO points.",
+          "type": null,
+          "model_answers": [
+            "They could have been suspended while investigations/court case are taking place.",
+            "Directors' fees and/or directors' benefits may not have been paid out while court case is taking place.",
+            "Dismissed or declared delinquent directors, if they are found guilty in court.",
+            "They may have been required to pay back the bribes to the company, if found guilty.",
+            "Vintage Ltd could claim back any directors' fees or benefits earned during the period that the offence occurred."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        },
+        {
+          "id": "4.2.2",
+          "text": "Two consequences Josh, the external auditor, may face.",
+          "type": null,
+          "model_answers": [
+            "Disciplinary action by his employer/lose his licence from professional body, e.g. SAICA.",
+            "Other auditing reports he signed off, may be investigated. He may lose creditability in his workplace.",
+            "VC Auditors (employer) may sue him for loss of future income / other auditing contracts due to their damaged reputation.",
+            "Vintage Ltd (client) could sue him in his personal capacity to repay the total bribe money he received/he may lose his personal possessions.",
+            "If he is also charged for fraud, he may face jail time / not be able to practice as an auditor in future."
+          ],
+          "answers": null,
+          "structured_answer": null,
+          "marks": 4,
+          "max_marks": null,
+          "marker_instruction": "part marks for incomplete / partial / unclear responses. Do not accept: Lose qualification; blacklisted; fired.",
+          "notes": null,
+          "topic": null,
+          "essay_structure": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 15490,
+    "cached_tokens_saved": 0
+  }
+}

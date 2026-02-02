@@ -22,12 +22,16 @@ from app.db.batch_jobs import (
     add_extraction_to_batch,
     list_batch_jobs,
 )
-from app.db.extractions import create_extraction, check_duplicate, get_extraction
+from app.db.extractions import check_duplicate_any, create_extraction, get_extraction
+from app.db.memo_extractions import create_memo_extraction, get_memo_extraction
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
 from app.models.batch import BatchJobCreate, BatchJobStatus, RoutingStats
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
+from app.services.document_classifier import classify_document
+from app.services.memo_extractor import extract_memo_data_hybrid, PartialMemoExtractionError
+from app.services.opendataloader_extractor import extract_pdf_structure
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 from app.services.webhook_sender import send_batch_completed_webhook
 
@@ -121,11 +125,15 @@ async def create_batch_extraction(
                     )
                     continue
 
-                # Check for duplicate
-                existing_id = await check_duplicate(supabase_client, file_hash)
-                if existing_id:
-                    # Use existing extraction
-                    existing_result = await get_extraction(supabase_client, existing_id)
+                # Check for duplicate across both tables
+                existing_any = await check_duplicate_any(supabase_client, file_hash)
+                if existing_any:
+                    table_name, existing_id = existing_any
+                    # Fetch from whichever table matched
+                    if table_name == "extractions":
+                        existing_result = await get_extraction(supabase_client, existing_id)
+                    else:
+                        existing_result = await get_memo_extraction(supabase_client, existing_id)
                     if existing_result and existing_result.get("status") == "completed":
                         # Add existing extraction to batch
                         proc_method = existing_result.get("processing_method", "hybrid")
@@ -155,17 +163,34 @@ async def create_batch_extraction(
                     tmp.write(content)
                     temp_file_path = tmp.name
 
-                # Extract PDF data
+                # Classify document type
+                doc_structure = extract_pdf_structure(temp_file_path)
+                classification = classify_document(
+                    filename=sanitized_filename,
+                    markdown_text=doc_structure.markdown,
+                    gemini_client=gemini_client,
+                )
+                doc_type = classification.doc_type
+
+                # Extract PDF data (route by doc_type)
                 extraction_result = None
                 extraction_status = 'completed'
                 error_message = None
 
                 try:
-                    extraction_result = await extract_pdf_data_hybrid(
-                        client=gemini_client,
-                        file_path=temp_file_path,
-                    )
-                except PartialExtractionError as e:
+                    if doc_type == 'memo':
+                        extraction_result = await extract_memo_data_hybrid(
+                            client=gemini_client,
+                            file_path=temp_file_path,
+                            doc_structure=doc_structure,
+                        )
+                    else:
+                        extraction_result = await extract_pdf_data_hybrid(
+                            client=gemini_client,
+                            file_path=temp_file_path,
+                            doc_structure=doc_structure,
+                        )
+                except (PartialExtractionError, PartialMemoExtractionError) as e:
                     extraction_result = e.partial_result
                     extraction_status = 'partial'
                     error_message = str(e.original_exception)
@@ -184,12 +209,20 @@ async def create_batch_extraction(
                         "retry_count": 0,
                     }
 
-                    extraction_id = await create_extraction(
-                        supabase_client,
-                        extraction_result,
-                        file_info,
-                        status=extraction_status
-                    )
+                    if doc_type == 'memo':
+                        extraction_id = await create_memo_extraction(
+                            supabase_client,
+                            extraction_result,
+                            file_info,
+                            status=extraction_status
+                        )
+                    else:
+                        extraction_id = await create_extraction(
+                            supabase_client,
+                            extraction_result,
+                            file_info,
+                            status=extraction_status
+                        )
 
                     # Calculate cost and savings
                     proc_meta = extraction_result.processing_metadata

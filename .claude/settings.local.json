@@ -1,10 +1,12 @@
 {
-  "enabledPlugins": {
-    "supabase@claude-plugins-official": true
-  },
   "permissions": {
     "allow": [
-      "Bash(.venv/Scripts/python.exe:*)"
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(venv/Scripts/python -m uvicorn:*)",
+      "Bash(venv/Scripts/pip install:*)"
     ]
+  },
+  "enabledPlugins": {
+    "supabase@claude-plugins-official": true
   }
 }
