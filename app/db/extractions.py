@@ -5,7 +5,7 @@ including insertion, retrieval, deduplication, and status updates.
 """
 
 import asyncio
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Tuple
 from uuid import UUID
 from supabase import Client
 
@@ -88,10 +88,34 @@ async def create_extraction(
             lambda: client.table('extractions').insert(record).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception("Insert returned no data")
+            raise RuntimeError("Insert returned no data")
         return str(response.data[0]['id'])
     except Exception as e:
-        raise Exception(f"Failed to insert extraction: {str(e)}")
+        # ON CONFLICT: unique partial index (file_hash WHERE status IN completed/pending)
+        err_msg = str(e).lower()
+        if "23505" in err_msg or "unique" in err_msg or "duplicate" in err_msg:
+            existing = await _get_id_by_file_hash(client, file_info['file_hash'])
+            if existing:
+                return existing
+        raise RuntimeError(f"Failed to insert extraction: {str(e)}") from e
+
+
+async def _get_id_by_file_hash(client: Client, file_hash: str) -> Optional[str]:
+    """Return extraction id for file_hash where status in ('completed','pending'), or None."""
+    try:
+        response = await asyncio.to_thread(
+            lambda: client.table('extractions')
+            .select('id')
+            .eq('file_hash', file_hash)
+            .in_('status', ['completed', 'pending'])
+            .limit(1)
+            .execute()
+        )
+        if not response.data or len(response.data) == 0:
+            return None
+        return str(response.data[0]['id'])
+    except Exception:
+        return None
 
 
 async def get_extraction(
@@ -134,7 +158,7 @@ async def check_duplicate(
     client: Client,
     file_hash: str
 ) -> Optional[str]:
-    """Check if a PDF with the same hash has already been processed.
+    """Check if a PDF with the same hash has already been processed (completed or pending).
 
     Args:
         client: Supabase client instance
@@ -144,17 +168,31 @@ async def check_duplicate(
         Optional[str]: UUID of existing extraction if found, None otherwise
 
     Raises:
-        Exception: If database query fails
+        RuntimeError: If database query fails
     """
     try:
-        response = await asyncio.to_thread(
-            lambda: client.table('extractions').select('id').eq('file_hash', file_hash).execute()
-        )
-        if not response.data or len(response.data) == 0:
-            return None
-        return str(response.data[0]['id'])
+        return await _get_id_by_file_hash(client, file_hash)
     except Exception as e:
-        raise Exception(f"Failed to check duplicate: {str(e)}")
+        raise RuntimeError(f"Failed to check duplicate: {str(e)}") from e
+
+
+async def check_duplicate_any(
+    client: Client,
+    file_hash: str
+) -> Optional[Tuple[str, str]]:
+    """Check both extractions and memo_extractions for an existing completed/pending record.
+
+    Returns:
+        ('extractions', id) or ('memo_extractions', id) if found, None otherwise.
+    """
+    from app.db import memo_extractions
+    ex_id = await check_duplicate(client, file_hash)
+    if ex_id:
+        return ("extractions", ex_id)
+    memo_id = await memo_extractions.check_memo_duplicate(client, file_hash)
+    if memo_id:
+        return ("memo_extractions", memo_id)
+    return None
 
 
 async def update_extraction_status(
@@ -196,9 +234,9 @@ async def update_extraction_status(
             lambda: client.table('extractions').update(update_data).eq('id', extraction_id).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception(f"No extraction found with id {extraction_id}")
+            raise RuntimeError(f"No extraction found with id {extraction_id}")
     except Exception as e:
-        raise Exception(f"Failed to update extraction status: {str(e)}")
+        raise RuntimeError(f"Failed to update extraction status: {str(e)}") from e
 
 
 async def list_extractions(
@@ -309,6 +347,6 @@ async def update_extraction(
             lambda: client.table('extractions').update(update_data).eq('id', extraction_id).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception(f"No extraction found with id {extraction_id}")
+            raise RuntimeError(f"No extraction found with id {extraction_id}")
     except Exception as e:
-        raise Exception(f"Failed to update extraction: {str(e)}")
+        raise RuntimeError(f"Failed to update extraction: {str(e)}") from e

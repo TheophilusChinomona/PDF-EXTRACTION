@@ -15,6 +15,7 @@ from pydantic import ValidationError
 
 from app.db.extractions import (
     check_duplicate,
+    check_duplicate_any,
     create_extraction,
     get_extraction,
     list_extractions,
@@ -24,6 +25,7 @@ from app.db.extractions import (
 from app.db.memo_extractions import (
     check_memo_duplicate,
     create_memo_extraction,
+    get_memo_extraction,
     update_memo_extraction_status,
     update_memo_extraction,
 )
@@ -103,6 +105,23 @@ async def extract_pdf(
                 detail=f"Corrupted or invalid PDF: {str(e)}"
             )
 
+        # Step 1a: Cross-table duplicate check (both extractions and memo_extractions)
+        supabase_client = get_supabase_client()
+        existing_any = await check_duplicate_any(supabase_client, file_hash)
+        if existing_any:
+            table_name, existing_id = existing_any
+            if table_name == "extractions":
+                existing_result = await get_extraction(supabase_client, existing_id)
+            else:
+                existing_result = await get_memo_extraction(supabase_client, existing_id)
+            if existing_result and existing_result.get("status") == "completed":
+                return Response(
+                    content=json.dumps(existing_result),
+                    media_type="application/json",
+                    status_code=status.HTTP_200_OK,
+                    headers={"X-Extraction-ID": existing_id},
+                )
+
         # Step 1b: Auto-classify if doc_type not provided
         if doc_type is None:
             # Write temp file early so we can run OpenDataLoader for classification
@@ -126,9 +145,7 @@ async def extract_pdf(
             doc_type = classification.doc_type
             classification_method = classification.method
 
-        # Step 2: Check for duplicate (route based on doc_type)
-        supabase_client = get_supabase_client()
-
+        # Step 2: Check for duplicate in target table (route based on doc_type)
         if doc_type == 'memo':
             existing_id = await check_memo_duplicate(supabase_client, file_hash)
         else:
@@ -140,7 +157,6 @@ async def extract_pdf(
         if existing_id:
             # Check if existing extraction is partial/failed - if so, retry it
             if doc_type == 'memo':
-                from app.db.memo_extractions import get_memo_extraction
                 existing_result = await get_memo_extraction(supabase_client, existing_id)
             else:
                 existing_result = await get_extraction(supabase_client, existing_id)
