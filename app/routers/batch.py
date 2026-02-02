@@ -279,7 +279,6 @@ async def create_batch_extraction(
                 'cost_savings_usd': batch_job.get('cost_savings_usd')
             }
             # Fire and forget - don't wait for webhook
-            import asyncio
             asyncio.create_task(
                 send_batch_completed_webhook(webhook_url, batch_job_id, batch_status, summary)
             )
