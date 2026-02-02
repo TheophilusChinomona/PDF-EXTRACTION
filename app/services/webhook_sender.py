@@ -1,18 +1,33 @@
 """Webhook notification service for extraction events.
 
 This module provides webhook delivery with HMAC-SHA256 signatures,
-HTTPS validation, and retry logic for reliable notification delivery.
+HTTPS validation, SSRF protection, and retry logic for reliable notification delivery.
 """
 
+import asyncio
 import hmac
 import hashlib
+import ipaddress
 import json
 import logging
-from typing import Dict, Any, Optional
+import socket
 from datetime import datetime, UTC
-import asyncio
+from typing import Dict, Any, Optional
+from urllib.parse import urlparse
 
 import httpx
+
+# URL length limit to prevent abuse
+MAX_WEBHOOK_URL_LENGTH = 2048
+
+# Private/internal IP ranges to block (SSRF protection)
+_SSRF_BLOCKED_NETWORKS = [
+    ipaddress.ip_network("127.0.0.0/8"),    # Loopback
+    ipaddress.ip_network("10.0.0.0/8"),      # Private
+    ipaddress.ip_network("172.16.0.0/12"),  # Private
+    ipaddress.ip_network("192.168.0.0/16"), # Private
+    ipaddress.ip_network("169.254.0.0/16"), # Link-local
+]
 
 from app.config import get_settings
 
@@ -45,6 +60,34 @@ async def send_webhook(
     # Validate HTTPS
     if not webhook_url.startswith('https://'):
         raise ValueError(f"Webhook URL must use HTTPS, got: {webhook_url}")
+
+    # URL length limit
+    if len(webhook_url) > MAX_WEBHOOK_URL_LENGTH:
+        raise ValueError(
+            f"Webhook URL exceeds maximum length ({MAX_WEBHOOK_URL_LENGTH} characters)"
+        )
+
+    # SSRF: block private/internal IPs
+    parsed = urlparse(webhook_url)
+    host = parsed.hostname
+    if host:
+        try:
+            for res in socket.getaddrinfo(host, None):
+                sockaddr = res[4]
+                ip_str = sockaddr[0] if isinstance(sockaddr, (tuple, list)) else None
+                if not ip_str:
+                    continue
+                try:
+                    ip = ipaddress.ip_address(ip_str)
+                except ValueError:
+                    continue
+                for net in _SSRF_BLOCKED_NETWORKS:
+                    if ip in net:
+                        raise ValueError(
+                            f"Webhook URL host resolves to blocked private/internal IP: {ip}"
+                        )
+        except socket.gaierror as e:
+            raise ValueError(f"Webhook URL host could not be resolved: {e}") from e
 
     # Use GEMINI_API_KEY as default signature key
     if signature_key is None:
