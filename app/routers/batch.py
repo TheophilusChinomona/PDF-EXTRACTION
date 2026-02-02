@@ -5,6 +5,7 @@ Provides endpoints for batch file uploads and job status tracking.
 """
 
 import asyncio
+import json
 import logging
 import os
 import tempfile
@@ -46,6 +47,7 @@ async def create_batch_extraction(
     request: Request,
     files: List[UploadFile] = File(..., description="PDF files to extract (max 100)"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
+    source_ids: Optional[str] = Form(None, description="JSON array of scraped_file_id UUIDs, one per file"),
 ) -> dict[str, object]:
     """
     Create a batch job for processing multiple PDF files.
@@ -93,6 +95,22 @@ async def create_batch_extraction(
             detail="Webhook URL must use HTTPS"
         )
 
+    # Parse and validate source_ids if provided
+    parsed_source_ids: Optional[List[str]] = None
+    if source_ids:
+        try:
+            parsed_source_ids = json.loads(source_ids)
+        except (json.JSONDecodeError, TypeError):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="source_ids must be a valid JSON array of UUID strings"
+            )
+        if not isinstance(parsed_source_ids, list) or len(parsed_source_ids) != len(files):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"source_ids length ({len(parsed_source_ids) if isinstance(parsed_source_ids, list) else 0}) must match files length ({len(files)})"
+            )
+
     # Create batch job
     supabase_client = get_supabase_client()
     batch_job_id = await create_batch_job(
@@ -105,7 +123,7 @@ async def create_batch_extraction(
     gemini_client = get_gemini_client()
 
     async def _process_batch_files() -> None:
-        for file in files:
+        for file_idx, file in enumerate(files):
             temp_file_path: Optional[str] = None
 
             try:
@@ -135,6 +153,20 @@ async def create_batch_extraction(
                     else:
                         existing_result = await get_memo_extraction(supabase_client, existing_id)
                     if existing_result and existing_result.get("status") == "completed":
+                        # Backfill scraped_file_id on deduped record if missing
+                        if parsed_source_ids and not existing_result.get("scraped_file_id"):
+                            sfid = parsed_source_ids[file_idx]
+                            try:
+                                await asyncio.to_thread(
+                                    lambda t=table_name, eid=existing_id, sid=sfid: (
+                                        supabase_client.table(t)
+                                        .update({"scraped_file_id": sid})
+                                        .eq("id", eid)
+                                        .execute()
+                                    )
+                                )
+                            except Exception as e:
+                                logger.warning("Failed to backfill scraped_file_id on %s %s: %s", table_name, existing_id, e)
                         # Add existing extraction to batch
                         proc_method = existing_result.get("processing_method", "hybrid")
                         cost_est = existing_result.get("cost_estimate_usd", 0.0)
@@ -208,6 +240,10 @@ async def create_batch_extraction(
                         "error_message": error_message,
                         "retry_count": 0,
                     }
+
+                    # Thread scraped_file_id if provided
+                    if parsed_source_ids:
+                        file_info["scraped_file_id"] = parsed_source_ids[file_idx]
 
                     if doc_type == 'memo':
                         extraction_id = await create_memo_extraction(

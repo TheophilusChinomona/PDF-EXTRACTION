@@ -91,6 +91,10 @@ async def create_memo_extraction(
         'error_message': file_info.get('error_message')
     }
 
+    # Optional: link back to scraped_files for end-to-end traceability
+    if file_info.get('scraped_file_id'):
+        record['scraped_file_id'] = file_info['scraped_file_id']
+
     try:
         response = await asyncio.to_thread(
             lambda: client.table('memo_extractions').insert(record).execute()

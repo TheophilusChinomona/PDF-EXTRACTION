@@ -163,6 +163,21 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+### Python Interpreter (IMPORTANT)
+The `.venv` virtual environment does **not** have all runtime dependencies installed (e.g. missing `uvicorn`, `supabase`). The system Python at `C:\Python314\python.exe` has the full set of packages.
+
+- **Start the server:** `"C:\Python314\python.exe" -m uvicorn app.main:app --host 0.0.0.0 --port 8000`
+- **Run scripts (supabase, firebase, etc.):** `"C:\Python314\python.exe" scripts/<script>.py`
+- **Syntax checks / pure-stdlib tasks:** `.venv` Python works fine
+
+Always use the system Python for anything that imports `supabase`, `firebase_admin`, or `uvicorn`.
+
+### Applying SQL Migrations
+There is no `psql` or Supabase CLI on this machine. To run DDL migrations:
+1. Open the Supabase dashboard SQL Editor: `https://supabase.com/dashboard/project/aqxgnvjqabitfvcnboah`
+2. Paste the SQL from the migration file
+3. Click **Run**
+
 ---
 
 ## Development Workflow
@@ -330,4 +345,4 @@ def calculate_quality_score(doc) -> float:
 
 ---
 
-**Last Updated:** 2026-01-28 (Updated for Hybrid Architecture with OpenDataLoader)
+**Last Updated:** 2026-02-02 (Added Python interpreter and migration notes)
