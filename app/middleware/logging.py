@@ -43,10 +43,8 @@ class RequestLoggingMiddleware(BaseHTTPMiddleware):
 
     async def dispatch(self, request: Request, call_next: Callable[[Request], Awaitable[Response]]) -> Response:
         """Process request and log structured information."""
-        # Generate unique request ID
-        request_id = str(uuid.uuid4())
-
-        # Store request ID in request state for access by endpoints
+        # Use request ID from RequestIDMiddleware if present, otherwise generate
+        request_id = getattr(request.state, "request_id", None) or str(uuid.uuid4())
         request.state.request_id = request_id
 
         # Record start time
@@ -65,7 +63,7 @@ class RequestLoggingMiddleware(BaseHTTPMiddleware):
         try:
             response = await call_next(request)
         except Exception as e:
-            # Log error with full stack trace
+            # Log error with full stack trace and contextual message
             processing_time_ms = (time.time() - start_time) * 1000
             error_log = {
                 **log_data,
@@ -73,6 +71,7 @@ class RequestLoggingMiddleware(BaseHTTPMiddleware):
                 "processing_time_ms": round(processing_time_ms, 2),
                 "error": str(e),
                 "error_type": type(e).__name__,
+                "message": f"Request failed: {request.method} {request.url.path}",
             }
             logger.error(json.dumps(error_log), exc_info=True)
             raise
@@ -86,10 +85,11 @@ class RequestLoggingMiddleware(BaseHTTPMiddleware):
             "processing_time_ms": round(processing_time_ms, 2),
         })
 
-        # Extract routing information from response headers (if present)
-        # These are set by the extraction endpoint when processing PDFs
+        # Extract routing/context from response headers (if present)
         if "X-Processing-Method" in response.headers:
             log_data["processing_method"] = response.headers["X-Processing-Method"]
+        if "X-Doc-Type" in response.headers:
+            log_data["doc_type"] = response.headers["X-Doc-Type"]
 
         if "X-Quality-Score" in response.headers:
             try:
