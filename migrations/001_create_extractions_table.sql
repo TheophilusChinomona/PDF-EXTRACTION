@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS extractions (
     sections JSONB,
     figures JSONB,
     tables JSONB,
-    references JSONB,
+    "references" JSONB,
     bounding_boxes JSONB,
 
     -- Text content
@@ -100,7 +100,7 @@ COMMENT ON COLUMN extractions.metadata IS 'Extracted bibliographic metadata (tit
 COMMENT ON COLUMN extractions.sections IS 'Extracted document sections with headings and content';
 COMMENT ON COLUMN extractions.figures IS 'Extracted figures with captions and bounding boxes';
 COMMENT ON COLUMN extractions.tables IS 'Extracted tables with captions and data';
-COMMENT ON COLUMN extractions.references IS 'Extracted citations and references';
+COMMENT ON COLUMN extractions."references" IS 'Extracted citations and references';
 COMMENT ON COLUMN extractions.bounding_boxes IS 'Element bounding boxes for citation features (x1, y1, x2, y2, page)';
 COMMENT ON COLUMN extractions.abstract IS 'Extracted abstract text';
 COMMENT ON COLUMN extractions.error_message IS 'Error details if extraction failed';
