@@ -179,6 +179,16 @@ async def extract_pdf(
                     is_retry = True
                     retry_count = existing_result.get("retry_count", 0) + 1
 
+        # Reject before attempting extraction if max retries already exceeded (Gap 5.2, 8.3)
+        if is_retry and retry_count >= 5:
+            raise HTTPException(
+                status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+                detail=(
+                    "Maximum retries (5) exceeded for this file. "
+                    "Extraction has been queued for review. Please try again later or contact support."
+                ),
+            )
+
         # Step 3: Save file temporarily to disk (skip if already written during classification)
         if temp_file_path is None:
             with tempfile.NamedTemporaryFile(

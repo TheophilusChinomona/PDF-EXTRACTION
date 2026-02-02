@@ -10,8 +10,16 @@ Provides security checks including:
 
 import hashlib
 import re
+import unicodedata
 from pathlib import Path
 from typing import Tuple
+
+# Windows reserved device names (case-insensitive)
+_WINDOWS_RESERVED_NAMES = frozenset(
+    {"con", "prn", "aux", "nul"}
+    | {f"com{i}" for i in range(1, 10)}
+    | {f"lpt{i}" for i in range(1, 10)}
+)
 
 import magic
 from fastapi import HTTPException, UploadFile
@@ -84,14 +92,23 @@ def sanitize_filename(filename: str) -> str:
         Sanitized filename safe for storage
 
     Security:
+        - Unicode NFKD normalization
+        - Removes control characters
         - Removes directory separators (/, \\)
         - Removes parent directory references (..)
         - Removes null bytes
+        - Rejects Windows reserved names (CON, PRN, AUX, NUL, COM1-9, LPT1-9)
         - Limits to alphanumeric, dash, underscore, dot
         - Ensures .pdf extension
     """
     # Get base filename (remove any path components)
     filename = Path(filename).name
+
+    # Unicode normalization (NFKD) to avoid homograph/confusable issues
+    filename = unicodedata.normalize("NFKD", filename)
+
+    # Remove control characters (U+0000..U+001F, U+007F)
+    filename = "".join(c for c in filename if (ord(c) >= 32 and ord(c) != 127))
 
     # Remove any path traversal attempts
     filename = filename.replace("..", "").replace("/", "").replace("\\", "")
@@ -104,6 +121,11 @@ def sanitize_filename(filename: str) -> str:
 
     # Ensure filename is not empty after sanitization
     if not filename or filename == ".pdf":
+        filename = "upload.pdf"
+
+    # Reject Windows reserved device names (stem only, case-insensitive)
+    stem = Path(filename).stem.lower()
+    if stem in _WINDOWS_RESERVED_NAMES:
         filename = "upload.pdf"
 
     # Ensure .pdf extension
