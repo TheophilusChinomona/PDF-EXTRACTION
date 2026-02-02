@@ -244,14 +244,6 @@ async def create_batch_extraction(
                 if temp_file_path and os.path.exists(temp_file_path):
                     try:
                         os.remove(temp_file_path)
-                    except Exception:
-                        pass  # Ignore cleanup errors
-
-            finally:
-                # Cleanup temp file
-                if temp_file_path and os.path.exists(temp_file_path):
-                    try:
-                        os.remove(temp_file_path)
                     except OSError as e:
                         logger.warning(
                             "Failed to remove temp file %s: %s",
