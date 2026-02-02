@@ -91,15 +91,42 @@ async def create_memo_extraction(
         'error_message': file_info.get('error_message')
     }
 
+    # Optional: link back to scraped_files for end-to-end traceability
+    if file_info.get('scraped_file_id'):
+        record['scraped_file_id'] = file_info['scraped_file_id']
+
     try:
         response = await asyncio.to_thread(
             lambda: client.table('memo_extractions').insert(record).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception("Insert returned no data")
+            raise RuntimeError("Insert returned no data")
         return str(response.data[0]['id'])
     except Exception as e:
-        raise Exception(f"Failed to insert memo extraction: {str(e)}")
+        err_msg = str(e).lower()
+        if "23505" in err_msg or "unique" in err_msg or "duplicate" in err_msg:
+            existing = await _get_memo_id_by_file_hash(client, file_info['file_hash'])
+            if existing:
+                return existing
+        raise RuntimeError(f"Failed to insert memo extraction: {str(e)}") from e
+
+
+async def _get_memo_id_by_file_hash(client: Client, file_hash: str) -> Optional[str]:
+    """Return memo extraction id for file_hash where status in ('completed','pending'), or None."""
+    try:
+        response = await asyncio.to_thread(
+            lambda: client.table('memo_extractions')
+            .select('id')
+            .eq('file_hash', file_hash)
+            .in_('status', ['completed', 'pending'])
+            .limit(1)
+            .execute()
+        )
+        if not response.data or len(response.data) == 0:
+            return None
+        return str(response.data[0]['id'])
+    except Exception:
+        return None
 
 
 async def get_memo_extraction(
@@ -135,14 +162,14 @@ async def get_memo_extraction(
         result: Dict[str, Any] = response.data[0]
         return result
     except Exception as e:
-        raise Exception(f"Failed to retrieve memo extraction: {str(e)}")
+        raise RuntimeError(f"Failed to retrieve memo extraction: {str(e)}") from e
 
 
 async def check_memo_duplicate(
     client: Client,
     file_hash: str
 ) -> Optional[str]:
-    """Check if a memo PDF with the same hash has already been processed.
+    """Check if a memo PDF with the same hash has already been processed (completed or pending).
 
     Args:
         client: Supabase client instance
@@ -152,17 +179,12 @@ async def check_memo_duplicate(
         Optional[str]: UUID of existing memo extraction if found, None otherwise
 
     Raises:
-        Exception: If database query fails
+        RuntimeError: If database query fails
     """
     try:
-        response = await asyncio.to_thread(
-            lambda: client.table('memo_extractions').select('id').eq('file_hash', file_hash).execute()
-        )
-        if not response.data or len(response.data) == 0:
-            return None
-        return str(response.data[0]['id'])
+        return await _get_memo_id_by_file_hash(client, file_hash)
     except Exception as e:
-        raise Exception(f"Failed to check memo duplicate: {str(e)}")
+        raise RuntimeError(f"Failed to check memo duplicate: {str(e)}") from e
 
 
 async def update_memo_extraction_status(
@@ -204,9 +226,9 @@ async def update_memo_extraction_status(
             lambda: client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception(f"No memo extraction found with id {extraction_id}")
+            raise RuntimeError(f"No memo extraction found with id {extraction_id}")
     except Exception as e:
-        raise Exception(f"Failed to update memo extraction status: {str(e)}")
+        raise RuntimeError(f"Failed to update memo extraction status: {str(e)}") from e
 
 
 async def list_memo_extractions(
@@ -249,7 +271,7 @@ async def list_memo_extractions(
         response = await asyncio.to_thread(lambda: query.execute())
         return response.data if response.data else []
     except Exception as e:
-        raise Exception(f"Failed to list memo extractions: {str(e)}")
+        raise RuntimeError(f"Failed to list memo extractions: {str(e)}") from e
 
 
 async def update_memo_extraction(
@@ -324,6 +346,6 @@ async def update_memo_extraction(
             lambda: client.table('memo_extractions').update(update_data).eq('id', extraction_id).execute()
         )
         if not response.data or len(response.data) == 0:
-            raise Exception(f"No memo extraction found with id {extraction_id}")
+            raise RuntimeError(f"No memo extraction found with id {extraction_id}")
     except Exception as e:
-        raise Exception(f"Failed to update memo extraction: {str(e)}")
+        raise RuntimeError(f"Failed to update memo extraction: {str(e)}") from e

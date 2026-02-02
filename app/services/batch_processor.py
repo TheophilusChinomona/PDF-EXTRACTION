@@ -10,6 +10,7 @@ import glob
 import hashlib
 import json
 import os
+import shutil
 import time
 import traceback
 from typing import List, Optional
@@ -90,11 +91,15 @@ async def process_single_pdf(
         with open(json_path, "w", encoding="utf-8") as f:
             f.write(json_str)
 
-        # Rename PDF to canonical name
-        os.rename(file_path, pdf_path)
+        # Move PDF to canonical name (shutil.move works across filesystems; check target exists)
+        if os.path.exists(pdf_path) and os.path.abspath(file_path) != os.path.abspath(pdf_path):
+            # Target already exists and is different file; skip move to avoid overwriting
+            info["pdf"] = os.path.basename(file_path)
+        else:
+            shutil.move(file_path, pdf_path)
+            info["pdf"] = os.path.basename(pdf_path)
 
         info["canonical"] = canonical_stem
-        info["pdf"] = os.path.basename(pdf_path)
         info["json"] = os.path.basename(json_path)
 
     except Exception as e:

@@ -5,6 +5,7 @@ Provides endpoints for uploading PDFs and retrieving extraction results.
 """
 
 import json
+import logging
 import os
 import tempfile
 import uuid
@@ -15,6 +16,7 @@ from pydantic import ValidationError
 
 from app.db.extractions import (
     check_duplicate,
+    check_duplicate_any,
     create_extraction,
     get_extraction,
     list_extractions,
@@ -24,6 +26,7 @@ from app.db.extractions import (
 from app.db.memo_extractions import (
     check_memo_duplicate,
     create_memo_extraction,
+    get_memo_extraction,
     update_memo_extraction_status,
     update_memo_extraction,
 )
@@ -42,6 +45,7 @@ from app.services.webhook_sender import send_extraction_completed_webhook
 
 router = APIRouter(prefix="/api", tags=["extraction"])
 limiter = get_limiter()
+logger = logging.getLogger(__name__)
 
 
 @router.post("/extract", status_code=status.HTTP_201_CREATED)
@@ -103,15 +107,31 @@ async def extract_pdf(
                 detail=f"Corrupted or invalid PDF: {str(e)}"
             )
 
+        # Step 1a: Cross-table duplicate check (both extractions and memo_extractions)
+        supabase_client = get_supabase_client()
+        existing_any = await check_duplicate_any(supabase_client, file_hash)
+        if existing_any:
+            table_name, existing_id = existing_any
+            if table_name == "extractions":
+                existing_result = await get_extraction(supabase_client, existing_id)
+            else:
+                existing_result = await get_memo_extraction(supabase_client, existing_id)
+            if existing_result and existing_result.get("status") == "completed":
+                return Response(
+                    content=json.dumps(existing_result),
+                    media_type="application/json",
+                    status_code=status.HTTP_200_OK,
+                    headers={"X-Extraction-ID": existing_id},
+                )
+
         # Step 1b: Auto-classify if doc_type not provided
         if doc_type is None:
             # Write temp file early so we can run OpenDataLoader for classification
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+            with tempfile.NamedTemporaryFile(
+                prefix="pdf_extraction_", delete=False, suffix=".pdf"
+            ) as tmp:
+                tmp.write(content)
+                temp_file_path = tmp.name
 
             # Extract structure (reused later to avoid duplicate work)
             precomputed_doc_structure = extract_pdf_structure(temp_file_path)
@@ -126,9 +146,7 @@ async def extract_pdf(
             doc_type = classification.doc_type
             classification_method = classification.method
 
-        # Step 2: Check for duplicate (route based on doc_type)
-        supabase_client = get_supabase_client()
-
+        # Step 2: Check for duplicate in target table (route based on doc_type)
         if doc_type == 'memo':
             existing_id = await check_memo_duplicate(supabase_client, file_hash)
         else:
@@ -140,7 +158,6 @@ async def extract_pdf(
         if existing_id:
             # Check if existing extraction is partial/failed - if so, retry it
             if doc_type == 'memo':
-                from app.db.memo_extractions import get_memo_extraction
                 existing_result = await get_memo_extraction(supabase_client, existing_id)
             else:
                 existing_result = await get_extraction(supabase_client, existing_id)
@@ -162,14 +179,23 @@ async def extract_pdf(
                     is_retry = True
                     retry_count = existing_result.get("retry_count", 0) + 1
 
+        # Reject before attempting extraction if max retries already exceeded (Gap 5.2, 8.3)
+        if is_retry and retry_count >= 5:
+            raise HTTPException(
+                status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+                detail=(
+                    "Maximum retries (5) exceeded for this file. "
+                    "Extraction has been queued for review. Please try again later or contact support."
+                ),
+            )
+
         # Step 3: Save file temporarily to disk (skip if already written during classification)
         if temp_file_path is None:
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+            with tempfile.NamedTemporaryFile(
+                prefix="pdf_extraction_", delete=False, suffix=".pdf"
+            ) as tmp:
+                tmp.write(content)
+                temp_file_path = tmp.name
 
         # Step 4: Extract PDF data using hybrid pipeline (route based on doc_type)
         # get_gemini_client() returns a singleton, so this is cheap even if called twice
@@ -424,9 +450,13 @@ async def extract_pdf(
         if temp_file_path and os.path.exists(temp_file_path):
             try:
                 os.remove(temp_file_path)
-            except Exception:
-                # Silently ignore cleanup errors
-                pass
+            except OSError as e:
+                logger.warning(
+                    "Failed to remove temp file %s: %s",
+                    temp_file_path,
+                    e,
+                    exc_info=True,
+                )
 
 
 @router.get("/extractions/{extraction_id}", status_code=status.HTTP_200_OK)

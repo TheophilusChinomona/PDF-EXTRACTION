@@ -154,6 +154,15 @@ def retry_with_backoff(
     return decorator
 
 
+def _is_quota_exhaustion(exception: Exception) -> bool:
+    """Detect quota exhaustion (do not retry)."""
+    msg = str(exception).lower()
+    return any(
+        phrase in msg
+        for phrase in ("quota exceeded", "billing", "insufficient quota", "resource exhausted")
+    )
+
+
 def _should_retry_exception(
     exception: Exception, retryable_exceptions: tuple[Type[Exception], ...]
 ) -> bool:
@@ -166,6 +175,10 @@ def _should_retry_exception(
     Returns:
         True if the exception should trigger retry, False otherwise
     """
+    # Do not retry on quota exhaustion (429 with quota/billing message)
+    if _is_quota_exhaustion(exception):
+        return False
+
     # Check for HTTP status code in exception message or attributes
     status_code = _extract_status_code(exception)
 

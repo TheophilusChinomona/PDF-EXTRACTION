@@ -1,0 +1,683 @@
+{
+  "subject": "Business Studies P1",
+  "syllabus": "SC/NSC",
+  "year": 2025,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 150,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A (COMPULSORY)",
+      "instructions": "Answer ALL the questions in this section.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Various options are provided as possible answers to the following questions. Choose the answer and write only the letter (A–D) next to the question numbers (1.1.1 to 1.1.5) in the ANSWER BOOK, e.g. 1.1.6 D.",
+          "marks": 10,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "This Act encourages businesses to invest in the education and training of the South African workforce:",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "Employment Equity Act (EEA), 1998 (Act 55 of 1998)"
+            },
+            {
+              "label": "B",
+              "text": "Skills Development Act (SDA), 1998 (Act 97 of 1998)"
+            },
+            {
+              "label": "C",
+              "text": "Basic Conditions of Employment Act (BCEA), 1997 (Act 75 of 1997)"
+            },
+            {
+              "label": "D",
+              "text": "Labour Relations Act (LRA), 1995 (Act 66 of 1995)"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "Jericho Carpets opened a new branch in another province to distribute their carpets. This type of intensive strategy is known as …",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "product development."
+            },
+            {
+              "label": "B",
+              "text": "product modification."
+            },
+            {
+              "label": "C",
+              "text": "market penetration."
+            },
+            {
+              "label": "D",
+              "text": "market development."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "Amandla Distributors has no control over challenges posed by the … environment.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "macro"
+            },
+            {
+              "label": "B",
+              "text": "micro"
+            },
+            {
+              "label": "C",
+              "text": "market"
+            },
+            {
+              "label": "D",
+              "text": "micro and market"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "The purpose of an interview is to …",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "book and prepare the venue."
+            },
+            {
+              "label": "B",
+              "text": "invite possible candidates to apply for the vacancy."
+            },
+            {
+              "label": "C",
+              "text": "determine a candidate's suitability for the job."
+            },
+            {
+              "label": "D",
+              "text": "prepare responses for possible questions."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "Aziza Manufacturing Ltd uses … to reduce the cost of redundancy in the long run.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "quality performance"
+            },
+            {
+              "label": "B",
+              "text": "quality management systems"
+            },
+            {
+              "label": "C",
+              "text": "quality management"
+            },
+            {
+              "label": "D",
+              "text": "quality circles"
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Complete the following statements by using the word(s) provided in the list below. Write only the word(s) next to the question numbers (1.2.1 to 1.2.5) in the ANSWER BOOK.",
+          "marks": 10,
+          "scenario": "backward; Employment Equity; opportunity; parental; quality control; family responsibility; quality assurance; strength; forward; Labour Relations",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": [
+            {
+              "1.2.1": "An employee is entitled to ten consecutive days of … leave after the birth of his or her child."
+            },
+            {
+              "1.2.2": "Ranzo Furniture applied the … vertical integration strategy when they took over Green Timber, their wood supplier."
+            },
+            {
+              "1.2.3": "The productivity of Lukas Engineering has improved due to the employment of qualified engineers. This is a/an … in compiling a SWOT analysis."
+            },
+            {
+              "1.2.4": "The … Act has implications for the human resources function as it ensures that affirmative action measures are correctly implemented."
+            },
+            {
+              "1.2.5": "Greywater Systems implements … to ensure that the required standards are met at every stage of the production process."
+            }
+          ]
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Choose a description from COLUMN B that matches a term in COLUMN A. Write only the letter (A–J) next to the question numbers (1.3.1 to 1.3.5) in the ANSWER BOOK, e.g. 1.3.6 K.",
+          "marks": 10,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": {
+            "column_a_title": "COLUMN A",
+            "column_b_title": "COLUMN B",
+            "column_a_items": [
+              {
+                "label": "1.3.1",
+                "text": "National Credit Act"
+              },
+              {
+                "label": "1.3.2",
+                "text": "PESTLE analysis"
+              },
+              {
+                "label": "1.3.3",
+                "text": "Placement procedure"
+              },
+              {
+                "label": "1.3.4",
+                "text": "Unemployment Insurance Fund"
+              },
+              {
+                "label": "1.3.5",
+                "text": "Total client/customer satisfaction"
+              }
+            ],
+            "column_b_items": [
+              {
+                "label": "A",
+                "text": "large businesses conduct research on the latest developments to ensure planning is updated"
+              },
+              {
+                "label": "B",
+                "text": "compulsory benefit that provides financial assistance to workers who lose their jobs due to illnesses"
+              },
+              {
+                "label": "C",
+                "text": "protects both lenders and borrowers from negligent lending practices"
+              },
+              {
+                "label": "D",
+                "text": "tool used to evaluate challenges posed by the market environment"
+              },
+              {
+                "label": "E",
+                "text": "linking the expectations of a position and the competencies of a new employee"
+              },
+              {
+                "label": "F",
+                "text": "compulsory benefit that provides financial assistance to workers who have retired"
+              },
+              {
+                "label": "G",
+                "text": "tool used to evaluate the challenges posed by the macro environment"
+              },
+              {
+                "label": "H",
+                "text": "linking the expectations of a position and the remuneration paid to a new employee"
+              },
+              {
+                "label": "I",
+                "text": "large businesses conduct market research to evaluate the needs of buyers"
+              },
+              {
+                "label": "J",
+                "text": "protects businesses from unfair labour practices"
+              }
+            ]
+          },
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION B: BUSINESS ENVIRONMENTS",
+      "instructions": "Answer ANY TWO questions in this section.",
+      "questions": [
+        {
+          "id": "2.1",
+          "parent_id": null,
+          "text": "Name any FOUR pillars of the Broad-Based Black Economic Empowerment Act (BBBEE), 2003 (Act 53 of 2003).",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": null,
+          "text": "Outline the advantages of intensive strategies.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": null,
+          "text": "Identify TWO types of diversification strategies implemented by PF. Motivate your answer by quoting from the scenario above.\nUse the table below as a GUIDE to answer QUESTION 2.3.",
+          "marks": 6,
+          "scenario": "PETRA FARMING (PF)\nPetra Farming supplies fresh milk to local customers. They added homemade cheese to their product range to increase sales to new customers. PF also opened a petrol station to attract new customers.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": null,
+          "text": "Discuss the rights of employers in terms of the Labour Relations Act (LRA), 1995 (Act 66 of 1995).",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": null,
+          "text": "Describe any TWO types of defensive strategies.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": null,
+          "text": "Read the scenario below and answer the questions that follow.",
+          "marks": null,
+          "scenario": "BUHLE ARCHITECTURE (BA)\nBuhle Architecture pays monthly contributions to a common fund to protect workers in the event of workplace accidents. BA is also able to access other advantages when making these contributions.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.1",
+          "parent_id": "2.6",
+          "text": "Name the Act applicable to BA in the scenario above.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6.2",
+          "parent_id": "2.6",
+          "text": "Explain other advantages of the Act identified in QUESTION 2.6.1 for businesses.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.7",
+          "parent_id": null,
+          "text": "Advise businesses on the strategic management process.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SECTION B: BUSINESS OPERATIONS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "3.1",
+          "parent_id": null,
+          "text": "Name the TWO components of job analysis.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": null,
+          "text": "Elaborate on the meaning of piecemeal as a salary determination method.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": null,
+          "text": "Read the scenario below and answer the questions that follow.",
+          "marks": null,
+          "scenario": "SHAHEEM TECHNOLOGIES (ST)\nShaheem Technologies gave Mark, a newly appointed employee, a tour of the premises, a competitive salary and an overview of the business. ST are reaping the benefits of induction in their business operations.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "text": "Name TWO aspects that ST included in their induction programme.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "text": "Explain the benefits of induction for businesses.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": null,
+          "text": "Discuss the selection procedure as a human resources activity.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": null,
+          "text": "Outline the benefits of a good quality management system.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": null,
+          "text": "Identify TWO business functions that contribute to the success of BE. Motivate your answer by quoting from the scenario above.\nUse the table below as a GUIDE to answer QUESTION 3.6.",
+          "marks": 6,
+          "scenario": "BLOEM ENTERPRISES (BE)\nBloem Enterprises render transport services across the country. The Chief Executive Officer (CEO) effectively communicates the shared vision and mission of the business with employees. BE also provide regular press releases to all stakeholders.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.7",
+          "parent_id": null,
+          "text": "Explain how businesses can apply the act step of the PDCA model to improve the quality of products.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.8",
+          "parent_id": null,
+          "text": "Evaluate the impact of adequate financing and capacity as a total quality management (TQM) element on large businesses.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "SECTION B: MISCELLANEOUS TOPICS",
+      "instructions": null,
+      "questions": [
+        {
+          "id": "4.1",
+          "parent_id": null,
+          "text": "Name any FOUR forces of Porter's Five Forces model.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": null,
+          "text": "Identify the business sector applicable to EACH statement below.",
+          "marks": null,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.1",
+          "parent_id": "4.2",
+          "text": "Lerato Manufacturers specialise in the production of various sports equipment.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2.2",
+          "parent_id": "4.2",
+          "text": "Mountain Traders sell sports equipment to different sports outlets.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": null,
+          "text": "Discuss the penalties for non-compliance with the Employment Equity Act (EEA), 1998 (Act 55 of 1998).",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.4",
+          "parent_id": null,
+          "text": "Advise businesses on the steps in strategy evaluation.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.5",
+          "parent_id": null,
+          "text": "Outline the legal requirements of an employment contract.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.6",
+          "parent_id": null,
+          "text": "Explain the impact of fringe benefits on businesses.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7",
+          "parent_id": null,
+          "text": "Read the scenario below and answer the questions that follow.",
+          "marks": null,
+          "scenario": "KIMOL MANUFACTURER (KM)\nKimol Manufacturer implements total quality management (TQM) to reduce the cost of quality. The production manager works closely with suppliers to improve the standards of raw materials. KM monitors their maintenance programmes on a regular basis to prevent the breakdown of equipment. They also provide annual bonuses to employees who meet their sales targets.",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7.1",
+          "parent_id": "4.7",
+          "text": "Quote TWO ways in which total quality management (TQM) reduces the cost of quality at KM from the scenario above.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.7.2",
+          "parent_id": "4.7",
+          "text": "Discuss other ways in which total quality management (TQM) can reduce the cost of quality.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.8",
+          "parent_id": null,
+          "text": "Advise businesses on how the quality of performance of the administration function can contribute to the success of the business.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "SECTION C: BUSINESS ENVIRONMENTS (LEGISLATION)",
+      "instructions": "Answer ANY ONE question in this section.",
+      "questions": [
+        {
+          "id": "5",
+          "parent_id": null,
+          "text": "Write an essay on the Consumer Protection Act in which you include the following aspects:\n• Outline the purpose of the Consumer Protection Act.\n• Discuss the impact of the Consumer Protection Act on businesses.\n• Explain any THREE consumer rights in terms of the CPA.\n• Suggest ways in which businesses can comply with the CPA.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Businesses are required to have a sound knowledge of the Consumer Protection Act (CPA), 2008 (Act 68 of 2008). The implementation of this Act directly impacts on business operations. Businesses must observe the consumer rights as outlined in the CPA and also comply with this Act.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "SECTION C: BUSINESS OPERATIONS (HUMAN RESOURCES FUNCTION)",
+      "instructions": "Answer ANY ONE question in this section.",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Write an essay on the human resources function in which you include the following aspects:\n• Outline the recruitment procedure as a human resources activity.\n• Explain the impact of external recruitment on businesses.\n• Discuss the role of the interviewer during the interview.\n• Advise businesses on reasons for the termination of an employment contract.",
+          "marks": 40,
+          "scenario": null,
+          "context": "Businesses apply the recruitment procedure when advertising vacant positions and they are required to understand the impact of external recruitment. Interviewers need to be aware of their role while conducting interviews. Businesses and employees must familiarise themselves with the reasons for the termination of employment contracts.",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 9391,
+    "cached_tokens_saved": 0
+  }
+}

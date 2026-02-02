@@ -4,10 +4,15 @@ Batch PDF processing API endpoints.
 Provides endpoints for batch file uploads and job status tracking.
 """
 
+import asyncio
+import json
+import logging
 import os
 import tempfile
 import uuid
 from typing import List, Optional
+
+BATCH_TIMEOUT_SECONDS = 3600  # 1 hour max for entire batch
 
 from fastapi import APIRouter, File, Form, HTTPException, Request, UploadFile, status
 from pydantic import ValidationError
@@ -18,17 +23,22 @@ from app.db.batch_jobs import (
     add_extraction_to_batch,
     list_batch_jobs,
 )
-from app.db.extractions import create_extraction, check_duplicate, get_extraction
+from app.db.extractions import check_duplicate_any, create_extraction, get_extraction
+from app.db.memo_extractions import create_memo_extraction, get_memo_extraction
 from app.db.supabase_client import get_supabase_client
 from app.middleware.rate_limit import get_limiter
 from app.models.batch import BatchJobCreate, BatchJobStatus, RoutingStats
 from app.services.file_validator import validate_pdf
 from app.services.gemini_client import get_gemini_client
+from app.services.document_classifier import classify_document
+from app.services.memo_extractor import extract_memo_data_hybrid, PartialMemoExtractionError
+from app.services.opendataloader_extractor import extract_pdf_structure
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 from app.services.webhook_sender import send_batch_completed_webhook
 
 router = APIRouter(prefix="/api/batch", tags=["batch"])
 limiter = get_limiter()
+logger = logging.getLogger(__name__)
 
 
 @router.post("", status_code=status.HTTP_202_ACCEPTED)
@@ -37,6 +47,7 @@ async def create_batch_extraction(
     request: Request,
     files: List[UploadFile] = File(..., description="PDF files to extract (max 100)"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
+    source_ids: Optional[str] = Form(None, description="JSON array of scraped_file_id UUIDs, one per file"),
 ) -> dict[str, object]:
     """
     Create a batch job for processing multiple PDF files.
@@ -84,6 +95,22 @@ async def create_batch_extraction(
             detail="Webhook URL must use HTTPS"
         )
 
+    # Parse and validate source_ids if provided
+    parsed_source_ids: Optional[List[str]] = None
+    if source_ids:
+        try:
+            parsed_source_ids = json.loads(source_ids)
+        except (json.JSONDecodeError, TypeError):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="source_ids must be a valid JSON array of UUID strings"
+            )
+        if not isinstance(parsed_source_ids, list) or len(parsed_source_ids) != len(files):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"source_ids length ({len(parsed_source_ids) if isinstance(parsed_source_ids, list) else 0}) must match files length ({len(files)})"
+            )
+
     # Create batch job
     supabase_client = get_supabase_client()
     batch_job_id = await create_batch_job(
@@ -92,123 +119,184 @@ async def create_batch_extraction(
         webhook_url=webhook_url
     )
 
-    # Process each file (synchronous for MVP)
+    # Process each file with overall timeout (Gap 7.1)
     gemini_client = get_gemini_client()
 
-    for file in files:
-        temp_file_path: Optional[str] = None
+    async def _process_batch_files() -> None:
+        for file_idx, file in enumerate(files):
+            temp_file_path: Optional[str] = None
 
-        try:
-            # Validate PDF file
             try:
-                content, file_hash, sanitized_filename = await validate_pdf(file)
-            except HTTPException as e:
-                # Skip invalid files, mark as failed
-                await add_extraction_to_batch(
-                    supabase_client,
-                    batch_job_id,
-                    extraction_id=str(uuid.uuid4()),  # Placeholder ID
-                    processing_method='hybrid',
-                    status='failed',
-                    cost_estimate_usd=0.0,
-                    cost_savings_usd=0.0
-                )
-                continue
-
-            # Check for duplicate
-            existing_id = await check_duplicate(supabase_client, file_hash)
-            if existing_id:
-                # Use existing extraction
-                existing_result = await get_extraction(supabase_client, existing_id)
-                if existing_result and existing_result.get("status") == "completed":
-                    # Add existing extraction to batch
-                    proc_method = existing_result.get("processing_method", "hybrid")
-                    cost_est = existing_result.get("cost_estimate_usd", 0.0)
-
-                    # Calculate savings (80% for hybrid, 0% for vision fallback)
-                    if proc_method == 'hybrid':
-                        cost_savings = cost_est * 4.0  # Saved 80% = cost is 20%, so savings = cost * 4
-                    else:
-                        cost_savings = 0.0
-
+                # Validate PDF file
+                try:
+                    content, file_hash, sanitized_filename = await validate_pdf(file)
+                except HTTPException as e:
+                    # Skip invalid files, mark as failed
                     await add_extraction_to_batch(
                         supabase_client,
                         batch_job_id,
-                        extraction_id=existing_id,
-                        processing_method=proc_method,
-                        status='completed',
-                        cost_estimate_usd=cost_est,
-                        cost_savings_usd=cost_savings
+                        extraction_id=str(uuid.uuid4()),  # Placeholder ID
+                        processing_method='hybrid',
+                        status='failed',
+                        cost_estimate_usd=0.0,
+                        cost_savings_usd=0.0
                     )
                     continue
 
-            # Save file to temp location
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"batch_{batch_job_id}_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
+                # Check for duplicate across both tables
+                existing_any = await check_duplicate_any(supabase_client, file_hash)
+                if existing_any:
+                    table_name, existing_id = existing_any
+                    # Fetch from whichever table matched
+                    if table_name == "extractions":
+                        existing_result = await get_extraction(supabase_client, existing_id)
+                    else:
+                        existing_result = await get_memo_extraction(supabase_client, existing_id)
+                    if existing_result and existing_result.get("status") == "completed":
+                        # Backfill scraped_file_id on deduped record if missing
+                        if parsed_source_ids and not existing_result.get("scraped_file_id"):
+                            sfid = parsed_source_ids[file_idx]
+                            try:
+                                await asyncio.to_thread(
+                                    lambda t=table_name, eid=existing_id, sid=sfid: (
+                                        supabase_client.table(t)
+                                        .update({"scraped_file_id": sid})
+                                        .eq("id", eid)
+                                        .execute()
+                                    )
+                                )
+                            except Exception as e:
+                                logger.warning("Failed to backfill scraped_file_id on %s %s: %s", table_name, existing_id, e)
+                        # Add existing extraction to batch
+                        proc_method = existing_result.get("processing_method", "hybrid")
+                        cost_est = existing_result.get("cost_estimate_usd", 0.0)
 
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+                        # Calculate savings (80% for hybrid, 0% for vision fallback)
+                        if proc_method == 'hybrid':
+                            cost_savings = cost_est * 4.0  # Saved 80% = cost is 20%, so savings = cost * 4
+                        else:
+                            cost_savings = 0.0
 
-            # Extract PDF data
-            extraction_result = None
-            extraction_status = 'completed'
-            error_message = None
+                        await add_extraction_to_batch(
+                            supabase_client,
+                            batch_job_id,
+                            extraction_id=existing_id,
+                            processing_method=proc_method,
+                            status='completed',
+                            cost_estimate_usd=cost_est,
+                            cost_savings_usd=cost_savings
+                        )
+                        continue
 
-            try:
-                extraction_result = await extract_pdf_data_hybrid(
-                    client=gemini_client,
-                    file_path=temp_file_path,
+                # Save file to temp location (prefix for easy identification of orphaned files)
+                with tempfile.NamedTemporaryFile(
+                    prefix="pdf_extraction_", delete=False, suffix=".pdf"
+                ) as tmp:
+                    tmp.write(content)
+                    temp_file_path = tmp.name
+
+                # Classify document type
+                doc_structure = extract_pdf_structure(temp_file_path)
+                classification = classify_document(
+                    filename=sanitized_filename,
+                    markdown_text=doc_structure.markdown,
+                    gemini_client=gemini_client,
                 )
-            except PartialExtractionError as e:
-                extraction_result = e.partial_result
-                extraction_status = 'partial'
-                error_message = str(e.original_exception)
-            except Exception as e:
-                extraction_status = 'failed'
-                error_message = str(e)
+                doc_type = classification.doc_type
 
-            # Store extraction result
-            if extraction_result is not None:
-                file_info = {
-                    "file_name": sanitized_filename,
-                    "file_size_bytes": len(content),
-                    "file_hash": file_hash,
-                    "webhook_url": None,  # Batch-level webhook, not per-file
-                    "error_message": error_message,
-                    "retry_count": 0,
-                }
+                # Extract PDF data (route by doc_type)
+                extraction_result = None
+                extraction_status = 'completed'
+                error_message = None
 
-                extraction_id = await create_extraction(
-                    supabase_client,
-                    extraction_result,
-                    file_info,
-                    status=extraction_status
-                )
+                try:
+                    if doc_type == 'memo':
+                        extraction_result = await extract_memo_data_hybrid(
+                            client=gemini_client,
+                            file_path=temp_file_path,
+                            doc_structure=doc_structure,
+                        )
+                    else:
+                        extraction_result = await extract_pdf_data_hybrid(
+                            client=gemini_client,
+                            file_path=temp_file_path,
+                            doc_structure=doc_structure,
+                        )
+                except (PartialExtractionError, PartialMemoExtractionError) as e:
+                    extraction_result = e.partial_result
+                    extraction_status = 'partial'
+                    error_message = str(e.original_exception)
+                except Exception as e:
+                    extraction_status = 'failed'
+                    error_message = str(e)
 
-                # Calculate cost and savings
-                proc_meta = extraction_result.processing_metadata
-                processing_method = proc_meta.get('method', 'hybrid')
-                cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
+                # Store extraction result
+                if extraction_result is not None:
+                    file_info = {
+                        "file_name": sanitized_filename,
+                        "file_size_bytes": len(content),
+                        "file_hash": file_hash,
+                        "webhook_url": None,  # Batch-level webhook, not per-file
+                        "error_message": error_message,
+                        "retry_count": 0,
+                    }
 
-                if processing_method == 'hybrid':
-                    cost_savings = cost_estimate * 4.0
+                    # Thread scraped_file_id if provided
+                    if parsed_source_ids:
+                        file_info["scraped_file_id"] = parsed_source_ids[file_idx]
+
+                    if doc_type == 'memo':
+                        extraction_id = await create_memo_extraction(
+                            supabase_client,
+                            extraction_result,
+                            file_info,
+                            status=extraction_status
+                        )
+                    else:
+                        extraction_id = await create_extraction(
+                            supabase_client,
+                            extraction_result,
+                            file_info,
+                            status=extraction_status
+                        )
+
+                    # Calculate cost and savings
+                    proc_meta = extraction_result.processing_metadata
+                    processing_method = proc_meta.get('method', 'hybrid')
+                    cost_estimate = proc_meta.get('cost_estimate_usd', 0.0)
+
+                    if processing_method == 'hybrid':
+                        cost_savings = cost_estimate * 4.0
+                    else:
+                        cost_savings = 0.0
+
+                    # Update batch job
+                    await add_extraction_to_batch(
+                        supabase_client,
+                        batch_job_id,
+                        extraction_id=extraction_id,
+                        processing_method=processing_method,
+                        status=extraction_status,
+                        cost_estimate_usd=cost_estimate,
+                        cost_savings_usd=cost_savings
+                    )
                 else:
-                    cost_savings = 0.0
+                    # Complete failure - add placeholder
+                    placeholder_id = str(uuid.uuid4())
+                    await add_extraction_to_batch(
+                        supabase_client,
+                        batch_job_id,
+                        extraction_id=placeholder_id,
+                        processing_method='hybrid',
+                        status='failed',
+                        cost_estimate_usd=0.0,
+                        cost_savings_usd=0.0
+                    )
 
-                # Update batch job
-                await add_extraction_to_batch(
-                    supabase_client,
-                    batch_job_id,
-                    extraction_id=extraction_id,
-                    processing_method=processing_method,
-                    status=extraction_status,
-                    cost_estimate_usd=cost_estimate,
-                    cost_savings_usd=cost_savings
-                )
-            else:
-                # Complete failure - add placeholder
+            except Exception as e:
+                # Log error and continue with next file
+                print(f"Error processing file in batch: {str(e)}")
+                # Mark as failed
                 placeholder_id = str(uuid.uuid4())
                 await add_extraction_to_batch(
                     supabase_client,
@@ -220,28 +308,29 @@ async def create_batch_extraction(
                     cost_savings_usd=0.0
                 )
 
-        except Exception as e:
-            # Log error and continue with next file
-            print(f"Error processing file in batch: {str(e)}")
-            # Mark as failed
-            placeholder_id = str(uuid.uuid4())
-            await add_extraction_to_batch(
-                supabase_client,
-                batch_job_id,
-                extraction_id=placeholder_id,
-                processing_method='hybrid',
-                status='failed',
-                cost_estimate_usd=0.0,
-                cost_savings_usd=0.0
-            )
+            finally:
+                # Cleanup temp file
+                if temp_file_path and os.path.exists(temp_file_path):
+                    try:
+                        os.remove(temp_file_path)
+                    except OSError as e:
+                        logger.warning(
+                            "Failed to remove temp file %s: %s",
+                            temp_file_path,
+                            e,
+                            exc_info=True,
+                        )
 
-        finally:
-            # Cleanup temp file
-            if temp_file_path and os.path.exists(temp_file_path):
-                try:
-                    os.remove(temp_file_path)
-                except Exception:
-                    pass  # Ignore cleanup errors
+    try:
+        await asyncio.wait_for(_process_batch_files(), timeout=BATCH_TIMEOUT_SECONDS)
+    except asyncio.TimeoutError:
+        # Mark batch as partial and return completed extractions (Gap 7.1)
+        await asyncio.to_thread(
+            lambda: supabase_client.table("batch_jobs")
+            .update({"status": "partial"})
+            .eq("id", batch_job_id)
+            .execute()
+        )
 
     # Get final batch job status
     batch_job = await get_batch_job(supabase_client, batch_job_id)
@@ -259,7 +348,6 @@ async def create_batch_extraction(
                 'cost_savings_usd': batch_job.get('cost_savings_usd')
             }
             # Fire and forget - don't wait for webhook
-            import asyncio
             asyncio.create_task(
                 send_batch_completed_webhook(webhook_url, batch_job_id, batch_status, summary)
             )

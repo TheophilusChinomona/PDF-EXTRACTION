@@ -10,7 +10,9 @@ Reuses core infrastructure from pdf_extractor.py with memo-specific prompts.
 
 import asyncio
 import json
+import logging
 from typing import Optional, Any, Dict
+from pydantic import ValidationError
 from google import genai
 from google.genai import types
 
@@ -27,6 +29,14 @@ MIN_CACHE_TOKENS = 1024
 # Global memo cache name (separate from exam paper cache) with thread-safe lock
 _memo_cache_lock = asyncio.Lock()
 _MEMO_CACHE_NAME: Optional[str] = None
+
+
+def _is_cache_expired_error(e: Exception) -> bool:
+    """True if exception indicates cache not found/expired (Gap 9.4, 3.2)."""
+    msg = str(e).lower()
+    return "cache" in msg and (
+        "not found" in msg or "expired" in msg or "invalid" in msg or "not exist" in msg
+    )
 
 # System instruction for memo extraction (adapted from sample system prompt)
 MEMO_EXTRACTION_SYSTEM_INSTRUCTION = """You are an expert Chief Examiner and Archivist. Your task is to extract the **Marking Guideline (Memorandum)** for an exam paper into structured JSON.
@@ -236,18 +246,47 @@ Extract ALL content without skipping any questions or answers."""
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=contents_list,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=contents_list,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _MEMO_CACHE_NAME
+                _MEMO_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=contents_list,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")
-        response_data = json.loads(response_text)
-        result: MarkingGuideline = MarkingGuideline.model_validate(response_data)
+        try:
+            response_data = json.loads(response_text)
+        except json.JSONDecodeError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response JSON decode failed: %s; response snippet: %s",
+                e,
+                (response_text[:500] if response_text else "") + "...",
+            )
+            raise ValueError(f"Invalid JSON in Gemini response: {e}") from e
+        try:
+            result = MarkingGuideline.model_validate(response_data)
+        except ValidationError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response schema validation failed: %s; data keys: %s",
+                e,
+                list(response_data.keys()) if isinstance(response_data, dict) else type(response_data).__name__,
+            )
+            raise
 
         # Extract cache statistics from usage metadata
         cache_hit = False
@@ -399,18 +438,47 @@ IMPORTANT: Extract ALL questions from ALL sections without skipping any."""
         if cache_name is not None:
             config_dict['cached_content'] = cache_name
 
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-            config=types.GenerateContentConfig(**config_dict)
-        )
+        try:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config=types.GenerateContentConfig(**config_dict)
+            )
+        except Exception as e:
+            if cache_name is not None and _is_cache_expired_error(e):
+                global _MEMO_CACHE_NAME
+                _MEMO_CACHE_NAME = None
+                config_dict = {k: v for k, v in config_dict.items() if k != 'cached_content'}
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(**config_dict)
+                )
+            else:
+                raise
 
         # Parse structured response
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")
-        response_data = json.loads(response_text)
-        result: MarkingGuideline = MarkingGuideline.model_validate(response_data)
+        try:
+            response_data = json.loads(response_text)
+        except json.JSONDecodeError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response JSON decode failed: %s; response snippet: %s",
+                e,
+                (response_text[:500] if response_text else "") + "...",
+            )
+            raise ValueError(f"Invalid JSON in Gemini response: {e}") from e
+        try:
+            result = MarkingGuideline.model_validate(response_data)
+        except ValidationError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response schema validation failed: %s; data keys: %s",
+                e,
+                list(response_data.keys()) if isinstance(response_data, dict) else type(response_data).__name__,
+            )
+            raise
 
         # Step 6: Extract cache statistics from usage metadata
         cache_hit = False

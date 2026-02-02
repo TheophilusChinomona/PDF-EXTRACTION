@@ -1,5 +1,6 @@
 """FastAPI application for PDF extraction service."""
 
+import shutil
 from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import Any, AsyncIterator, Dict, Union
@@ -12,6 +13,7 @@ from slowapi.errors import RateLimitExceeded
 from app.config import get_settings
 from app.db.supabase_client import get_supabase_client
 from app.middleware.logging import RequestLoggingMiddleware
+from app.middleware.request_id import RequestIDMiddleware
 from app.middleware.rate_limit import (
     get_limiter,
     rate_limit_exceeded_handler,
@@ -64,7 +66,9 @@ app.state.limiter = limiter
 # Register custom rate limit exceeded handler
 app.add_exception_handler(RateLimitExceeded, rate_limit_exceeded_handler)  # type: ignore[arg-type]
 
-# Add logging middleware (first, so it wraps all other middleware)
+# Add request ID middleware (outermost so every request gets an ID)
+app.add_middleware(RequestIDMiddleware)
+# Add logging middleware (so it wraps all other middleware)
 app.add_middleware(RequestLoggingMiddleware)
 
 # Add rate limit middleware for adding X-RateLimit-Remaining header
@@ -101,6 +105,22 @@ async def health_check() -> Union[Dict[str, Any], Response]:
     timestamp = datetime.utcnow().isoformat()
     services: Dict[str, str] = {}
     overall_healthy = True
+
+    # Check disk space (root on Unix, current drive on Windows)
+    import os
+    _disk_path = "/" if os.name != "nt" else os.path.abspath(".")
+    try:
+        usage = shutil.disk_usage(_disk_path)
+        free_gb = usage.free / (1024**3)
+        total_gb = usage.total / (1024**3)
+        if free_gb < 1.0:
+            services["disk"] = f"degraded: {free_gb:.2f}GB free of {total_gb:.2f}GB"
+            overall_healthy = False
+        else:
+            services["disk"] = f"healthy: {free_gb:.2f}GB free of {total_gb:.2f}GB"
+    except OSError as e:
+        services["disk"] = f"unhealthy: {e}"
+        overall_healthy = False
 
     # Check OpenDataLoader
     try:
@@ -142,14 +162,19 @@ async def health_check() -> Union[Dict[str, Any], Response]:
         "services": services,
     }
 
+    # Build X-Health-Detail header with degraded/unhealthy components
+    degraded = [k for k, v in services.items() if v != "healthy" and not v.startswith("healthy:")]
+    health_detail = "; ".join(f"{k}={v}" for k, v in services.items() if k in degraded) if degraded else ""
+
     # FastAPI doesn't allow setting status_code in the return directly,
-    # so we'll use Response object for 503
+    # so we'll use Response object for 503 with X-Health-Detail header
     if not overall_healthy:
         import json
         return Response(
             content=json.dumps(response_data),
             status_code=503,
             media_type="application/json",
+            headers={"X-Health-Detail": health_detail} if health_detail else {},
         )
 
     return response_data

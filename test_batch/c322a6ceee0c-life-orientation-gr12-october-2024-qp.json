@@ -1,0 +1,633 @@
+{
+  "subject": "Life Orientation",
+  "syllabus": "NSC",
+  "year": 2024,
+  "session": "OCTOBER",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 100,
+  "groups": [
+    {
+      "group_id": "QUESTION 1",
+      "title": "SECTION A (COMPULSORY)",
+      "instructions": "Answer ALL the questions in this section.",
+      "questions": [
+        {
+          "id": "1.1",
+          "parent_id": null,
+          "text": "Various options are provided as possible answers to the following questions. Choose the answer and write only the letter (A–D) next to the question numbers (1.1.1 to 1.1.5) in the ANSWER BOOK, e.g. 1.1.6 D.",
+          "marks": 5,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "text": "The term agility, as a physical fitness skill, is best described as the ability to ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "speedily change the direction of the body."
+            },
+            {
+              "label": "B",
+              "text": "use all parts of the body in one swift action."
+            },
+            {
+              "label": "C",
+              "text": "balance the body during quick movements."
+            },
+            {
+              "label": "D",
+              "text": "move the body freely through a range of motions."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "text": "A common tax obligation for a small business owner is on ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "salaries."
+            },
+            {
+              "label": "B",
+              "text": "income."
+            },
+            {
+              "label": "C",
+              "text": "property."
+            },
+            {
+              "label": "D",
+              "text": "expenses."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.3",
+          "parent_id": "1.1",
+          "text": "The most effective way to express your views and feelings is to ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "use strong body language to highlight your opinion."
+            },
+            {
+              "label": "B",
+              "text": "emphasise your opinion so that others can agree with you."
+            },
+            {
+              "label": "C",
+              "text": "openly present your opinion in a confident manner."
+            },
+            {
+              "label": "D",
+              "text": "use strong emotions to persuade others of your opinion."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.4",
+          "parent_id": "1.1",
+          "text": "In the workplace, the Employment Equity Act (EEA), 1998 (Act 55 of 1998) aims to promote ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "professional growth and best labour practices."
+            },
+            {
+              "label": "B",
+              "text": "fair treatment and balanced opportunities."
+            },
+            {
+              "label": "C",
+              "text": "negotiation of practices and effective standards."
+            },
+            {
+              "label": "D",
+              "text": "the rights of employers and equal opportunities."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.1.5",
+          "parent_id": "1.1",
+          "text": "A municipality can implement by-laws related to ...",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": [
+            {
+              "label": "A",
+              "text": "farming practices, housing regulations and street vendors."
+            },
+            {
+              "label": "B",
+              "text": "street vendors, traffic regulations and emergency response."
+            },
+            {
+              "label": "C",
+              "text": "water management, farming practices and traffic control."
+            },
+            {
+              "label": "D",
+              "text": "emergency response, street vendors and water supply."
+            }
+          ],
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2",
+          "parent_id": null,
+          "text": "Give ONE word/term for EACH of the following descriptions. Write only the word/term next to the question numbers (1.2.1 to 1.2.3) in the ANSWER BOOK.",
+          "marks": 3,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.1",
+          "parent_id": "1.2",
+          "text": "A recreational sport that involves using a map, navigation skills and time management to complete the activity",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.2",
+          "parent_id": "1.2",
+          "text": "A detailed list of steps outlining specific tasks, deadlines and responsibilities required to achieve a defined goal",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.2.3",
+          "parent_id": "1.2",
+          "text": "A basic principle of democracy which ensures government's obligation to openly share matters of public interest",
+          "marks": 1,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3",
+          "parent_id": null,
+          "text": "Answer the following questions by writing the answer next to the question numbers (1.3.1 to 1.3.3) in the ANSWER BOOK. Write your answers in full sentences.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.1",
+          "parent_id": "1.3",
+          "text": "Describe how you could use mnemonics to study effectively.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.2",
+          "parent_id": "1.3",
+          "text": "Discuss ONE way in which the Basic Conditions of Employment Act (BCEA), 1997 (Act 75 of 1997) protects the right to safety of workers in the workplace.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.3.3",
+          "parent_id": "1.3",
+          "text": "Explain the term coping mechanisms in relation to stress.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4",
+          "parent_id": null,
+          "text": "Read the extract below and answer the questions that follow. Write your answers in full sentences.",
+          "marks": null,
+          "scenario": "E-BUSINESSES ARE BOOMING IN SOUTH AFRICA\nDespite challenges, e-businesses in South Africa are thriving, as 30% of internet users shop online from credible businesses. 70% of internet users are potential online shoppers, hence, e-businesses should strive to make an impression on a growing market. Gaining the trust of customers is essential, thus, companies should concentrate on developing techniques to retain online shoppers. [Adapted from www.mybroadband.co.za. Accessed on 22 August 2024.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.1",
+          "parent_id": "1.4",
+          "text": "State TWO possible challenges that e-businesses could face in South Africa.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.2",
+          "parent_id": "1.4",
+          "text": "Explain ONE way in which an e-business could stand out from competitors in a marketplace.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1.4.3",
+          "parent_id": "1.4",
+          "text": "Suggest ONE strategy that an e-business could use to gain the trust of customers in an online shopping environment.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 2",
+      "title": "SECTION B (COMPULSORY)",
+      "instructions": "Answer ALL the questions in this section. Write your answers in full sentences.",
+      "questions": [
+        {
+          "id": "2",
+          "parent_id": null,
+          "text": "Read the extract below and answer the questions that follow.",
+          "marks": null,
+          "scenario": "SKILLS FOR FINAL ACTION RESEARCH ON STUDY OPPORTUNITIES\nIn today's fast-changing job market, understanding a niche in the job market, staying informed about trends and engaging in continuous learning are crucial for career success. In South Africa, many graduates face a skills mismatch, leaving them underprepared for available jobs. Societal expectations and peer influences could also play a significant role in the skills mismatch.\nOnline resources used in job searching offer new opportunities for graduates to navigate these challenges and adapt their skills set accordingly. Understanding job market trends may also help learners to make informed career choices by focusing on sectors with better employment prospects. Learnerships have become a practical solution to addressing the skills gap in South Africa, creating a bridge between education and industry needs. Searching for a job could be quite a stressful experience as more and more graduates flood the South African job market annually. [Adapted from www.gfoundry.com. Accessed on 13 August 2024.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "text": "Define the term niche in the job market.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "text": "Describe how graduates could more easily secure employment opportunities through the use of online resources.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "text": "How may societal expectations influence your decision when selecting a career?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.4",
+          "parent_id": "2",
+          "text": "Discuss how understanding the trends in the job market could help you to make a better career choice.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.5",
+          "parent_id": "2",
+          "text": "Suggest TWO strategies that could be used to manage emotional stress during job searching.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.6",
+          "parent_id": "2",
+          "text": "Assess the effectiveness of learnerships in addressing the skills gap among graduates. In EACH response, also indicate how these programmes can enhance employability.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 3",
+      "title": "SECTION B (COMPULSORY)",
+      "instructions": "Answer ALL the questions in this section. Write your answers in full sentences.",
+      "questions": [
+        {
+          "id": "3",
+          "parent_id": null,
+          "text": "Read the extract below and answer the questions that follow.",
+          "marks": null,
+          "scenario": "ADAPTING TO GROWTH AND CHANGE TRANSITION BETWEEN SCHOOL AND POST-SCHOOL DESTINATION\nAdapting to growth and change is an essential part of life, such as moving from school to post-school destinations. These transitions often involve changes in circumstances that can be personal or social/work-related. The new job demands of these transitions may negatively impact on your new social environment. Researching and locating suitable accommodation and travel arrangements are crucial steps in this transition.\nWhile change can bring about uncertainty, it also offers opportunities for personal and professional growth. To manage the negative aspects of change, you need to build a supportive social network with friends, and also be able to manage intrapersonal conflict effectively so that it does not impact on your professional life. Understanding both the positive and negative aspects of change can help individuals navigate their transition more effectively, fostering flexibility and adaptability in the face of new circumstances. [Adapted from www.modernrecoveryservices.com. Accessed on 14 August 2024.]",
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "text": "Explain the term post-school destination.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "text": "Describe ONE way in which the demands of a new job could negatively affect your transition into a new social environment.",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "text": "Why is researching accommodation important in managing post-school transition?",
+          "marks": 2,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "text": "How could developing a good support network with friends assist you in making a successful transition to post-school destinations?",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.5",
+          "parent_id": "3",
+          "text": "Discuss TWO ways in which individuals could develop flexibility to manage the negative aspects of change in life.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.6",
+          "parent_id": "3",
+          "text": "Assess TWO strategies for managing intrapersonal conflict during post-school transition. In EACH response, also indicate how it may positively impact an individual's professional life.",
+          "marks": 6,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 4",
+      "title": "SECTION C",
+      "instructions": "Answer any TWO questions in this section. Your responses must consist of paragraphs. Marks will ONLY be allocated for responses written in full sentences.",
+      "questions": [
+        {
+          "id": "4",
+          "parent_id": null,
+          "text": "Read the extract below and answer the questions that follow. Write paragraphs on impact studies that address social issues in communities. Use the following as a guideline:",
+          "marks": null,
+          "scenario": "IMPACT STUDIES BARS/TAVERNS NEAR SCHOOLS: SOCIAL ISSUE\nBars/Taverns that are located close to schools remain a huge social issue, especially in rural areas. As part of an intervention project to address these concerns, impact studies were conducted on the establishment of bars/taverns near schools in these areas. The studies revealed that public awareness and public participation were crucial in addressing the impact of this social issue in communities. Awareness by schools on the other hand could create a positive impact on learning. [Adapted from www.sabcnews.com. Accessed on 13 August 2024.]",
+          "context": "Write paragraphs on impact studies that address social issues in communities. Use the following as a guideline:",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "text": "Briefly state FOUR objectives of an impact study on social issues in communities.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "text": "Discuss in detail how public participation could contribute to impact studies on the establishment of bars/taverns near schools.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "text": "Examine TWO ways in which schools could create greater awareness about social issues in communities.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 5",
+      "title": "SECTION C",
+      "instructions": "Answer any TWO questions in this section. Your responses must consist of paragraphs. Marks will ONLY be allocated for responses written in full sentences.",
+      "questions": [
+        {
+          "id": "5",
+          "parent_id": null,
+          "text": "Study the extract below and answer the questions that follow. Write paragraphs on campaigns that address human rights violations. Use the following as a guideline:",
+          "marks": null,
+          "scenario": "HUMAN RIGHTS VIOLATIONS AWARENESS OF CAMPAIGNS\nCampaigns on human rights violations are increasing worldwide as many people lack education on human rights violations in society. An annual global campaign, called 16 Days of Activism for 'No Violence Against Women and Children', starts on 25 November and ends on 10 December. During this time, campaigns are launched to educate the public on gender-based violence (GBV), also making them aware of the impact GBV could have on the mental well-being of survivors over time. In South Africa, young people are encouraged to actively contribute to these campaigns. [Adapted from www.parliament.gov.za. Accessed on 13 August 2024.]",
+          "context": "Write paragraphs on campaigns that address human rights violations. Use the following as a guideline:",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "text": "Briefly state FOUR ways in which a lack of education could increase human rights violations in society.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "text": "Discuss in detail TWO long-term effects of gender-based violence (GBV) on the mental well-being of survivors.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "text": "Examine TWO effective ways in which young people could actively contribute to campaigns aimed at addressing GBV in South Africa.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    },
+    {
+      "group_id": "QUESTION 6",
+      "title": "SECTION C",
+      "instructions": "Answer any TWO questions in this section. Your responses must consist of paragraphs. Marks will ONLY be allocated for responses written in full sentences.",
+      "questions": [
+        {
+          "id": "6",
+          "parent_id": null,
+          "text": "Read the extract below and answer the questions that follow. Write paragraphs on the rights and obligations of workers. Use the following as a guideline:",
+          "marks": null,
+          "scenario": "THE JOB CONTRACT REMOTE WORKERS' RIGHTS AND OBLIGATIONS\nThe shift towards remote working has transformed the way we approach work, and job contracts for remote workers¹ have come under the spotlight. While some argue that working remotely offers flexibility and autonomy, others say that it impacts on effective communication skills between the employer and the workers, as well as diminishes accountability in the workplace. As the shift to working remotely continues, job contracts play a vital role in safeguarding workers' rights.\nGlossary:\n¹remote workers: workers who perform their jobs/work duties from home or outside a formal office space. [Adapted from www.sajhrm.co.za. Accessed on 13 August 2024.]",
+          "context": "Write paragraphs on the rights and obligations of workers. Use the following as a guideline:",
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "text": "Briefly state FOUR ways in which a job contract could help to protect the rights of those who work remotely.",
+          "marks": 4,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "text": "Discuss in detail the importance of effective communication skills between an employer and a worker within a remote working environment.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "text": "Examine TWO strategies that employers could use to hold their workers accountable in a remote working environment.",
+          "marks": 8,
+          "scenario": null,
+          "context": null,
+          "options": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ]
+    }
+  ],
+  "processing_metadata": {
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cost_savings_percent": 0,
+    "model": "gemini-3-flash-preview",
+    "cache_eligible": false,
+    "cache_hit": false,
+    "cached_tokens": 0,
+    "total_tokens": 12578,
+    "cached_tokens_saved": 0
+  }
+}
