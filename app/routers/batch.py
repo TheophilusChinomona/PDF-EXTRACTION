@@ -4,6 +4,7 @@ Batch PDF processing API endpoints.
 Provides endpoints for batch file uploads and job status tracking.
 """
 
+import logging
 import os
 import tempfile
 import uuid
@@ -29,6 +30,7 @@ from app.services.webhook_sender import send_batch_completed_webhook
 
 router = APIRouter(prefix="/api/batch", tags=["batch"])
 limiter = get_limiter()
+logger = logging.getLogger(__name__)
 
 
 @router.post("", status_code=status.HTTP_202_ACCEPTED)
@@ -142,14 +144,12 @@ async def create_batch_extraction(
                     )
                     continue
 
-            # Save file to temp location
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"batch_{batch_job_id}_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
-
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+            # Save file to temp location (prefix for easy identification of orphaned files)
+            with tempfile.NamedTemporaryFile(
+                prefix="pdf_extraction_", delete=False, suffix=".pdf"
+            ) as tmp:
+                tmp.write(content)
+                temp_file_path = tmp.name
 
             # Extract PDF data
             extraction_result = None
@@ -240,8 +240,13 @@ async def create_batch_extraction(
             if temp_file_path and os.path.exists(temp_file_path):
                 try:
                     os.remove(temp_file_path)
-                except Exception:
-                    pass  # Ignore cleanup errors
+                except OSError as e:
+                    logger.warning(
+                        "Failed to remove temp file %s: %s",
+                        temp_file_path,
+                        e,
+                        exc_info=True,
+                    )
 
     # Get final batch job status
     batch_job = await get_batch_job(supabase_client, batch_job_id)

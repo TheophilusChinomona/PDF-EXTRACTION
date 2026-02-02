@@ -5,6 +5,7 @@ Provides endpoints for uploading PDFs and retrieving extraction results.
 """
 
 import json
+import logging
 import os
 import tempfile
 import uuid
@@ -44,6 +45,7 @@ from app.services.webhook_sender import send_extraction_completed_webhook
 
 router = APIRouter(prefix="/api", tags=["extraction"])
 limiter = get_limiter()
+logger = logging.getLogger(__name__)
 
 
 @router.post("/extract", status_code=status.HTTP_201_CREATED)
@@ -125,12 +127,11 @@ async def extract_pdf(
         # Step 1b: Auto-classify if doc_type not provided
         if doc_type is None:
             # Write temp file early so we can run OpenDataLoader for classification
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+            with tempfile.NamedTemporaryFile(
+                prefix="pdf_extraction_", delete=False, suffix=".pdf"
+            ) as tmp:
+                tmp.write(content)
+                temp_file_path = tmp.name
 
             # Extract structure (reused later to avoid duplicate work)
             precomputed_doc_structure = extract_pdf_structure(temp_file_path)
@@ -180,12 +181,11 @@ async def extract_pdf(
 
         # Step 3: Save file temporarily to disk (skip if already written during classification)
         if temp_file_path is None:
-            temp_file_path = os.path.join(
-                tempfile.gettempdir(),
-                f"pdf_extraction_{uuid.uuid4().hex}_{sanitized_filename}"
-            )
-            with open(temp_file_path, "wb") as f:
-                f.write(content)
+            with tempfile.NamedTemporaryFile(
+                prefix="pdf_extraction_", delete=False, suffix=".pdf"
+            ) as tmp:
+                tmp.write(content)
+                temp_file_path = tmp.name
 
         # Step 4: Extract PDF data using hybrid pipeline (route based on doc_type)
         # get_gemini_client() returns a singleton, so this is cheap even if called twice
@@ -440,9 +440,13 @@ async def extract_pdf(
         if temp_file_path and os.path.exists(temp_file_path):
             try:
                 os.remove(temp_file_path)
-            except Exception:
-                # Silently ignore cleanup errors
-                pass
+            except OSError as e:
+                logger.warning(
+                    "Failed to remove temp file %s: %s",
+                    temp_file_path,
+                    e,
+                    exc_info=True,
+                )
 
 
 @router.get("/extractions/{extraction_id}", status_code=status.HTTP_200_OK)

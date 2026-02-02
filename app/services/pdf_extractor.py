@@ -10,7 +10,9 @@ Uses context caching to reduce API costs by ~90% for repeated system instruction
 
 import asyncio
 import json
+import logging
 from typing import Optional, Any, Dict
+from pydantic import ValidationError
 from google import genai
 from google.genai import types
 
@@ -320,8 +322,24 @@ CRITICAL RULES:
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")
-        response_data = json.loads(response_text)
-        result: FullExamPaper = FullExamPaper.model_validate(response_data)
+        try:
+            response_data = json.loads(response_text)
+        except json.JSONDecodeError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response JSON decode failed: %s; response snippet: %s",
+                e,
+                (response_text[:500] if response_text else "") + "...",
+            )
+            raise ValueError(f"Invalid JSON in Gemini response: {e}") from e
+        try:
+            result = FullExamPaper.model_validate(response_data)
+        except ValidationError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response schema validation failed: %s; data keys: %s",
+                e,
+                list(response_data.keys()) if isinstance(response_data, dict) else type(response_data).__name__,
+            )
+            raise
 
         # Extract cache statistics from usage metadata
         cache_hit = False
@@ -485,8 +503,24 @@ CRITICAL:
         response_text = response.text
         if response_text is None:
             raise ValueError("Gemini API returned empty response")
-        response_data = json.loads(response_text)
-        result: FullExamPaper = FullExamPaper.model_validate(response_data)
+        try:
+            response_data = json.loads(response_text)
+        except json.JSONDecodeError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response JSON decode failed: %s; response snippet: %s",
+                e,
+                (response_text[:500] if response_text else "") + "...",
+            )
+            raise ValueError(f"Invalid JSON in Gemini response: {e}") from e
+        try:
+            result = FullExamPaper.model_validate(response_data)
+        except ValidationError as e:
+            logging.getLogger(__name__).warning(
+                "Gemini response schema validation failed: %s; data keys: %s",
+                e,
+                list(response_data.keys()) if isinstance(response_data, dict) else type(response_data).__name__,
+            )
+            raise
 
         # Step 6: Extract cache statistics from usage metadata
         cache_hit = False
