@@ -11,14 +11,14 @@ Designed to integrate with your main backend and frontend applications, this ser
 
 ---
 
-## 📖 Overview
+## Overview
 
 ### Problem Solved
 Traditional OCR fails on complex academic documents with multi-column layouts, mathematical formulas, tables, and diagrams. This microservice provides intelligent extraction with:
 
 - **Automatic document classification** (exam paper vs memo/marking guideline)
 - **Structured JSON output** with bounding boxes for frontend highlighting
-- **Hybrid processing** (local → AI fallback) for optimal cost/quality
+- **Hybrid processing** (local + AI fallback) for optimal cost/quality
 - **Batch processing** for bulk uploads via CLI
 - **RESTful API** for easy integration with any backend/frontend
 
@@ -39,7 +39,7 @@ Frontend App → Your Backend → PDF Extraction Service → Supabase
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -56,23 +56,23 @@ git clone https://github.com/yourusername/PDF-Extraction.git
 cd PDF-Extraction
 ```
 
-#### 2. Create Virtual Environment
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
+#### 2. Install Dependencies
 
-# Linux/macOS
-python3 -m venv venv
-source venv/bin/activate
-```
-
-#### 3. Install Dependencies
+**Option A: System Python (Recommended for this project)**
 ```bash
+# Install to system Python
 pip install -r requirements.txt
 ```
 
-#### 4. Configure Environment
+**Option B: Virtual Environment**
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+#### 3. Configure Environment
+
 Create a `.env` file in the project root:
 
 ```env
@@ -96,26 +96,16 @@ BATCH_API_LIMIT=3                    # CLI: Max concurrent API calls
 
 > **Security Note**: For production, set `ALLOWED_ORIGINS` to your frontend domain(s) and configure `TRUSTED_PROXIES` if behind a load balancer.
 
-#### 5. Setup Database (Supabase)
+#### 4. Setup Database (Supabase)
 
-**Apply database migrations to create required tables:**
+Apply database migrations to create required tables:
 
 ```bash
-# Option 1: Supabase Dashboard (Easiest)
+# Option 1: Supabase Dashboard (Recommended)
 # 1. Go to https://app.supabase.com → Your Project → SQL Editor
-# 2. Run each migration file in migrations/ folder in order (001-005)
-# See MIGRATIONS_SETUP.md for detailed instructions
+# 2. Run each migration file in migrations/ folder in order
 
-# Option 2: Automated Script (Windows)
-cd migrations
-apply_migrations.bat
-
-# Option 3: Automated Script (Linux/macOS)
-cd migrations
-chmod +x apply_migrations.sh
-./apply_migrations.sh
-
-# Option 4: Verify schema with Python
+# Option 2: Verify schema with Python
 python migrations/verify_schema.py
 ```
 
@@ -125,22 +115,18 @@ python migrations/verify_schema.py
 - `batch_jobs` - Batch processing jobs
 - `review_queue` - Manual review queue for failed extractions
 
-📖 **Full migration guide:** [MIGRATIONS_SETUP.md](./MIGRATIONS_SETUP.md)
-
 ---
 
-## 🔧 Running the Service
+## Running the Service
 
-### Option 1: Development Server (Local Testing)
-
-Start the FastAPI server for development:
+### Development Server
 
 ```bash
-# Method 1: Using uvicorn directly
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-
-# Method 2: Using Python module
+# Using system Python
 python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+# Or if using virtual environment
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 The API will be available at:
@@ -148,23 +134,7 @@ The API will be available at:
 - **Swagger Docs**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
-### Option 2: Production Server (Gunicorn + Uvicorn)
-
-For production deployments:
-
-```bash
-# Install gunicorn
-pip install gunicorn
-
-# Run with multiple workers
-gunicorn app.main:app \
-  --workers 4 \
-  --worker-class uvicorn.workers.UvicornWorker \
-  --bind 0.0.0.0:8000 \
-  --timeout 300
-```
-
-### Option 3: Docker (Recommended for Production)
+### Production Server (Docker)
 
 ```bash
 # Build image
@@ -180,34 +150,21 @@ docker run -d \
 
 ---
 
-## 💻 CLI Usage (Batch Processing)
+## CLI Usage (Batch Processing)
 
 Process local PDF files directly without going through the API.
 
 ### Basic Commands
 
 ```bash
-# Process all PDFs matching pattern in default directory
+# Process all PDFs in default directory
 python -m app.cli batch-process
 
 # Process specific directory
-python -m app.cli batch-process --directory "C:\Users\theoc\Documents\Exams"
+python -m app.cli batch-process --directory "path/to/pdfs"
 
-# Process with custom pattern
-python -m app.cli batch-process --pattern "*.pdf"
-
-# Parallel processing (5 PDFs at once)
-python -m app.cli batch-process --workers 5
-
-# Limit API concurrency (prevent rate limits)
-python -m app.cli batch-process --workers 10 --api-limit 3
-
-# Full example
-python -m app.cli batch-process \
-  --directory "Sample PDFS" \
-  --pattern "document_*.pdf" \
-  --workers 5 \
-  --api-limit 3
+# Parallel processing
+python -m app.cli batch-process --workers 5 --api-limit 3
 ```
 
 ### CLI Options
@@ -215,157 +172,13 @@ python -m app.cli batch-process \
 | Option | Short | Description | Default |
 |--------|-------|-------------|---------|
 | `--directory` | `-d` | Directory containing PDFs | `Sample PDFS/` |
-| `--pattern` | `-p` | Glob pattern for files | `document_*.pdf` |
-| `--workers` | `-w` | Parallel PDF processing | `1` (from env) |
-| `--api-limit` | `-a` | Max concurrent API calls | `3` (from env) |
-
-### Output
-
-The CLI tool:
-1. **Processes each PDF** using the hybrid pipeline
-2. **Classifies document type** (question paper or memo)
-3. **Renames files** to canonical format:
-   - Example: `business-studies-p1-gr12-may-june-2023-qp.pdf`
-   - Example: `mathematics-p2-gr11-nov-2024-mg.pdf`
-4. **Saves JSON results** alongside each PDF
-5. **Generates summary** in `_batch_summary.json`
-
-**Performance:**
-- Sequential (`--workers 1`): ~60-90s per PDF
-- Parallel (`--workers 5`): ~4-5x faster for batches
-- API limiting prevents quota exhaustion
+| `--pattern` | `-p` | Glob pattern for files | `*.pdf` |
+| `--workers` | `-w` | Parallel PDF processing | `1` |
+| `--api-limit` | `-a` | Max concurrent API calls | `3` |
 
 ---
 
-## 📡 API Integration
-
-### Quick Test
-
-```bash
-# Health check
-curl http://localhost:8000/health
-
-# Upload single PDF
-curl -X POST http://localhost:8000/api/extract \
-  -F "file=@path/to/exam_paper.pdf"
-```
-
-### Integration with Your Backend
-
-#### Example: Node.js/Express Backend
-
-```javascript
-const FormData = require('form-data');
-const axios = require('axios');
-const fs = require('fs');
-
-async function extractPDF(filePath) {
-  const form = new FormData();
-  form.append('file', fs.createReadStream(filePath));
-
-  const response = await axios.post(
-    'http://localhost:8000/api/extract',
-    form,
-    { headers: form.getHeaders() }
-  );
-
-  return response.data;
-}
-
-// Use in your route
-app.post('/upload-exam', async (req, res) => {
-  try {
-    const result = await extractPDF(req.file.path);
-
-    // Save to your database
-    await db.exams.create({
-      extractionId: result.id,
-      subject: result.subject,
-      grade: result.grade,
-      questions: result.groups
-    });
-
-    res.json({ success: true, data: result });
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
-```
-
-#### Example: Python/FastAPI Backend
-
-```python
-import httpx
-from fastapi import UploadFile
-
-async def extract_pdf(file: UploadFile):
-    async with httpx.AsyncClient() as client:
-        files = {"file": (file.filename, await file.read(), file.content_type)}
-        response = await client.post(
-            "http://localhost:8000/api/extract",
-            files=files,
-            timeout=300.0
-        )
-        response.raise_for_status()
-        return response.json()
-
-# Use in your endpoint
-@app.post("/process-exam")
-async def process_exam(file: UploadFile):
-    result = await extract_pdf(file)
-
-    # Store in your database
-    exam_id = await db.save_exam(
-        extraction_id=result["id"],
-        subject=result["subject"],
-        data=result
-    )
-
-    return {"exam_id": exam_id, "extraction": result}
-```
-
-### Frontend Integration
-
-#### Example: React Frontend
-
-```typescript
-async function uploadExamPaper(file: File) {
-  const formData = new FormData();
-  formData.append('file', file);
-
-  const response = await fetch('YOUR_BACKEND_URL/upload-exam', {
-    method: 'POST',
-    body: formData
-  });
-
-  if (!response.ok) throw new Error('Upload failed');
-
-  const data = await response.json();
-
-  // Display extracted questions
-  renderQuestions(data.extraction.groups);
-}
-
-// Display with bounding boxes
-function renderQuestions(groups: QuestionGroup[]) {
-  return groups.map(group => (
-    <div key={group.group_id}>
-      <h2>{group.title}</h2>
-      {group.questions.map(q => (
-        <QuestionCard
-          key={q.id}
-          question={q}
-          onHighlight={() => highlightInPDF(q.bbox)}
-        />
-      ))}
-    </div>
-  ));
-}
-```
-
----
-
-## 📊 API Endpoints
+## API Endpoints
 
 Full API documentation: [api-documentation.md](./api-documentation.md)
 
@@ -384,9 +197,20 @@ Full API documentation: [api-documentation.md](./api-documentation.md)
 | `GET` | `/api/review-queue` | List failed extractions | 100/min |
 | `GET` | `/api/stats/caching` | Cache hit statistics | 100/min |
 
+### Quick Test
+
+```bash
+# Health check
+curl http://localhost:8000/health
+
+# Upload single PDF
+curl -X POST http://localhost:8000/api/extract \
+  -F "file=@path/to/exam_paper.pdf"
+```
+
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 PDF-Extraction/
@@ -395,33 +219,22 @@ PDF-Extraction/
 │   ├── cli.py                  # CLI commands (batch processing)
 │   ├── config.py               # Environment configuration
 │   ├── routers/                # API endpoints
-│   │   ├── extraction.py       # Main extraction endpoints
-│   │   ├── batch.py            # Batch processing API
-│   │   ├── review_queue.py     # Manual review workflow
-│   │   └── stats.py            # Analytics endpoints
 │   ├── services/               # Business logic
-│   │   ├── pdf_extractor.py    # Exam paper extraction
-│   │   ├── memo_extractor.py   # Memo extraction
-│   │   ├── document_classifier.py  # Auto-classification
-│   │   ├── batch_processor.py  # CLI batch processing
-│   │   └── opendataloader_extractor.py  # Local PDF parsing
 │   ├── models/                 # Pydantic schemas
-│   │   ├── extraction.py       # Exam paper models
-│   │   ├── memo_extraction.py  # Memo models
-│   │   └── classification.py   # Document type models
 │   ├── db/                     # Database layer
-│   │   ├── extractions.py      # Exam paper DB operations
-│   │   ├── memo_extractions.py # Memo DB operations
-│   │   └── supabase_client.py  # Supabase connection
 │   ├── middleware/             # HTTP middleware
-│   │   ├── rate_limit.py       # Rate limiting
-│   │   └── logging.py          # Request logging
 │   └── utils/                  # Utilities
-│       └── retry.py            # Retry with backoff
-├── tests/                      # Test suite (273 tests)
+├── tests/                      # Test suite
+├── migrations/                 # Database migrations
+├── scripts/                    # Utility scripts
+├── docs/                       # Documentation
+│   └── archive/                # Historical reports
 ├── Sample PDFS/                # Test PDF files
+├── .claude/                    # Agent instructions
 ├── .env.example                # Environment template
 ├── requirements.txt            # Python dependencies
+├── Dockerfile                  # Container build
+├── docker-compose.yml          # Container orchestration
 ├── api-documentation.md        # Full API reference
 ├── DEPLOYMENT.md               # Deployment guide
 └── README.md                   # This file
@@ -429,43 +242,26 @@ PDF-Extraction/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run Test Suite
 
 ```bash
 # All tests
-pytest tests/ -v
+python -m pytest tests/ -v
 
 # With coverage report
-pytest tests/ --cov=app --cov-report=html
+python -m pytest tests/ --cov=app --cov-report=html
 
 # Specific test file
-pytest tests/test_extraction_router.py -v
-
-# Verify fixes
-python verify_fixes.py
-```
-
-### Manual Testing
-
-```bash
-# Test health endpoint
-curl http://localhost:8000/health
-
-# Test extraction (replace with your PDF path)
-curl -X POST http://localhost:8000/api/extract \
-  -F "file=@Sample PDFS/document_62.pdf"
-
-# Test batch CLI
-python -m app.cli batch-process --workers 2
+python -m pytest tests/test_extraction_router.py -v
 ```
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
-✅ **Implemented:**
+**Implemented:**
 - CORS origin validation (environment-based)
 - Rate limiting per IP address
 - X-Forwarded-For spoofing prevention
@@ -473,7 +269,7 @@ python -m app.cli batch-process --workers 2
 - PDF validation and sanitization
 - Null safety for API responses
 
-⚠️ **Production Recommendations:**
+**Production Recommendations:**
 1. Set `ALLOWED_ORIGINS` to specific domains
 2. Configure `TRUSTED_PROXIES` if behind load balancer
 3. Use HTTPS in production
@@ -482,7 +278,7 @@ python -m app.cli batch-process --workers 2
 
 ---
 
-## 📈 Performance Optimization
+## Performance
 
 ### Hybrid Architecture Benefits
 - **80% cost reduction** (local processing + smart AI fallback)
@@ -492,15 +288,8 @@ python -m app.cli batch-process --workers 2
 
 ### Scaling Recommendations
 
-**Vertical Scaling:**
+**Docker Scaling:**
 ```bash
-# Increase workers for CPU-bound tasks
-gunicorn app.main:app --workers 8 --worker-class uvicorn.workers.UvicornWorker
-```
-
-**Horizontal Scaling:**
-```bash
-# Deploy multiple instances behind load balancer
 docker-compose up --scale pdf-extraction=3
 ```
 
@@ -511,15 +300,12 @@ docker-compose up --scale pdf-extraction=3
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
 **1. Import Errors**
 ```bash
-# Ensure virtual environment is activated
-which python  # Should show venv/bin/python
-
 # Reinstall dependencies
 pip install -r requirements.txt --force-reinstall
 ```
@@ -535,15 +321,12 @@ curl https://generativelanguage.googleapis.com/v1beta/models \
 ```
 
 **3. Supabase Connection Fails**
-```bash
-# Verify URL and key in .env
-# Check Supabase project status
-# Ensure service role key (not anon key) for full access
-```
+- Verify URL and key in `.env`
+- Check Supabase project status
+- Ensure service role key (not anon key) for full access
 
 **4. Port Already in Use**
 ```bash
-# Kill existing process
 # Windows
 netstat -ano | findstr :8000
 taskkill /PID <PID> /F
@@ -554,16 +337,14 @@ lsof -ti:8000 | xargs kill -9
 
 ---
 
-## 📚 Additional Documentation
+## Documentation
 
 - **[API Documentation](./api-documentation.md)** - Complete API reference
 - **[Deployment Guide](./DEPLOYMENT.md)** - Production deployment
-- **[Code Review Report](./CODE_REVIEW.md)** - Security & code quality
-- **[Fixes Verification](./FIXES_VERIFICATION_REPORT.md)** - Recent improvements
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -584,21 +365,13 @@ refactor: Code refactoring
 
 ---
 
-## 📝 License
+## License
 
 MIT License - see [LICENSE](./LICENSE) file for details.
 
 ---
 
-## 🙋 Support
-
-**Questions or Issues?**
-- Open an issue: [GitHub Issues](https://github.com/yourusername/PDF-Extraction/issues)
-- Email: your.email@example.com
-
----
-
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] Support for more document types (essays, assignments)
 - [ ] Diagram/image extraction with descriptions
@@ -609,4 +382,4 @@ MIT License - see [LICENSE](./LICENSE) file for details.
 
 ---
 
-**Built with ❤️ using FastAPI, OpenDataLoader, and Google Gemini 3**
+**Built with FastAPI, OpenDataLoader, and Google Gemini 3**
