@@ -52,7 +52,7 @@ Frontend App → Your Backend → PDF Extraction Service → Supabase
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/PDF-Extraction.git
+git clone https://github.com/TheophilusChinomona/PDF-EXTRACTION.git
 cd PDF-Extraction
 ```
 

@@ -3,7 +3,22 @@
     "allow": [
       "Bash(.venv/Scripts/python.exe:*)",
       "Bash(venv/Scripts/python -m uvicorn:*)",
-      "Bash(venv/Scripts/pip install:*)"
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(\"venv/Scripts/python.exe\":*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -c \"from supabase import create_client; print\\(''ok''\\)\")",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/export_extractions_md.py)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -c \"\nimport os, json\nfrom dotenv import load_dotenv; load_dotenv\\(\\)\nfrom supabase import create_client\n\ns = create_client\\(os.environ[''SUPABASE_URL''], os.environ[''SUPABASE_KEY'']\\)\nr = s.table\\(''memo_extractions''\\).select\\(''*''\\).eq\\(''id'', ''b6f4fbb1-e35d-4620-9028-012e23a4eb13''\\).execute\\(\\)\nif r.data:\n    print\\(list\\(r.data[0].keys\\(\\)\\)\\)\n    d = r.data[0]\n    # Print non-list/dict fields\n    for k, v in d.items\\(\\):\n        if isinstance\\(v, \\(str, int, float, type\\(None\\), bool\\)\\):\n            print\\(f''  {k}: {v}''\\)\n        elif isinstance\\(v, \\(list, dict\\)\\):\n            print\\(f''  {k}: \\({type\\(v\\).__name__}, len={len\\(v\\) if hasattr\\(v, \"\"__len__\"\"\\) else \"\"?\"\"}\\) {json.dumps\\(v, default=str\\)[:200]}''\\)\n\")",
+      "Bash(.venvScriptspython.exe:*)",
+      "Bash(\"C:\\\\Users\\\\theoc\\\\Desktop\\\\Work\\\\PDF-Extraction\\\\.venv\\\\Scripts\\\\pip.exe\" list)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -c \"\nfrom dotenv import load_dotenv; load_dotenv\\(\\)\nimport os\nfrom supabase import create_client\n\nurl = os.environ[''SUPABASE_URL'']\nkey = os.environ[''SUPABASE_KEY'']\nclient = create_client\\(url, key\\)\n\nstatements = [\n    ''ALTER TABLE extractions ADD COLUMN scraped_file_id UUID REFERENCES scraped_files\\(id\\)'',\n    ''CREATE INDEX idx_extractions_scraped_file_id ON extractions\\(scraped_file_id\\)'',\n    ''ALTER TABLE memo_extractions ADD COLUMN scraped_file_id UUID REFERENCES scraped_files\\(id\\)'',\n    ''CREATE INDEX idx_memo_extractions_scraped_file_id ON memo_extractions\\(scraped_file_id\\)'',\n]\n\n# Supabase client doesn''t have raw SQL - need to use the management API or psql\n# Let''s try using rpc if there''s a function, otherwise we need the DB connection string\n# Check if there''s a DATABASE_URL or similar\ndb_url = os.environ.get\\(''DATABASE_URL'', ''''\\)\nprint\\(f''DATABASE_URL set: {bool\\(db_url\\)}''\\)\n\n# Try service_role key for management API\nservice_key = os.environ.get\\(''SUPABASE_SERVICE_ROLE_KEY'', ''''\\)\nprint\\(f''SERVICE_ROLE_KEY set: {bool\\(service_key\\)}''\\)\nprint\\(f''SUPABASE_URL: {url}''\\)\n\n# Extract project ref from URL\nimport re\nmatch = re.search\\(r''https://\\([^.]+\\)\\\\.supabase\\\\.co'', url\\)\nif match:\n    print\\(f''Project ref: {match.group\\(1\\)}''\\)\n\")",
+      "Bash(where:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/test_batch_10.py)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -c:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -c \"import httpx; r = httpx.get\\(''http://localhost:8000/health'', timeout=5\\); print\\(f''Health: {r.status_code}''\\)\")",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh auth:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)"
     ]
   },
   "enabledPlugins": {
