@@ -40,6 +40,10 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         print(f"Hybrid mode: {settings.enable_hybrid_mode}")
         print("Environment validation: OK")
 
+        # PGMQ connection pool (optional; no-op if pgmq_database_url unset)
+        from app.services.pgmq_client import init_pgmq_pool
+        await init_pgmq_pool()
+
     except Exception as e:
         print(f"Startup validation failed: {e}")
         raise
@@ -47,6 +51,8 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     yield
 
     # Shutdown: cleanup if needed
+    from app.services.pgmq_client import close_pgmq_pool
+    await close_pgmq_pool()
     print("Shutting down PDF Extraction API")
 
 
@@ -209,3 +215,11 @@ app.include_router(batch.router)
 # Include statistics router
 from app.routers import stats
 app.include_router(stats.router)
+
+# Include validation router (batch, job status, progress, result, review-queue, resolve)
+from app.routers import validation
+app.include_router(validation.router)
+
+# Include storage extraction router (POST /api/extract/from-storage)
+from app.routers import storage_extraction
+app.include_router(storage_extraction.router)

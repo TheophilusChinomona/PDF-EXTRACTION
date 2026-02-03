@@ -80,6 +80,40 @@ class Settings(BaseSettings):
         description="Max concurrent Gemini API calls (prevents rate limits)"
     )
 
+    # PGMQ (Postgres Message Queue) - optional; used for validation/extraction queues
+    pgmq_database_url: Optional[str] = Field(
+        default=None,
+        description="Postgres connection URL for PGMQ (default: derived from Supabase if not set)"
+    )
+    pgmq_validation_queue: str = Field(
+        default="validation_queue",
+        description="PGMQ queue name for validation jobs"
+    )
+    pgmq_extraction_queue: str = Field(
+        default="extraction_queue",
+        description="PGMQ queue name for extraction jobs"
+    )
+    pgmq_dead_letter_queue: str = Field(
+        default="validation_dead_letter",
+        description="PGMQ dead letter queue for failed messages"
+    )
+    pgmq_visibility_timeout_seconds: int = Field(
+        default=30,
+        ge=1,
+        le=86400,
+        description="Visibility timeout in seconds for message locking"
+    )
+
+    # Firebase Storage - optional; used for /api/extract/from-storage
+    firebase_service_account_json: Optional[str] = Field(
+        default=None,
+        description="Firebase service account JSON string (or path to JSON file)"
+    )
+    firebase_storage_bucket: Optional[str] = Field(
+        default=None,
+        description="Firebase Storage bucket name (e.g. your-app.firebasestorage.app)"
+    )
+
     # Model configuration
     model_config = SettingsConfigDict(
         env_file=".env",
