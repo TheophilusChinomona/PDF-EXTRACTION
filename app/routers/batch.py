@@ -23,6 +23,7 @@ from app.db.batch_jobs import (
     add_extraction_to_batch,
     list_batch_jobs,
 )
+from app.db.gemini_batch_jobs import get_gemini_batch_job_by_source_job_id
 from app.db.extractions import check_duplicate_any, create_extraction, get_extraction
 from app.db.memo_extractions import create_memo_extraction, get_memo_extraction
 from app.db.supabase_client import get_supabase_client
@@ -48,6 +49,7 @@ async def create_batch_extraction(
     files: List[UploadFile] = File(..., description="PDF files to extract (max 100)"),
     webhook_url: Optional[str] = Form(None, description="Optional webhook URL for completion notification"),
     source_ids: Optional[str] = Form(None, description="JSON array of scraped_file_id UUIDs, one per file"),
+    use_batch_api: bool = Form(False, description="Use async Gemini Batch API (50% cost savings, ~24h turnaround)"),
 ) -> dict[str, object]:
     """
     Create a batch job for processing multiple PDF files.
@@ -119,7 +121,80 @@ async def create_batch_extraction(
         webhook_url=webhook_url
     )
 
-    # Process each file with overall timeout (Gap 7.1)
+    # Batch API path: submit to Gemini Batch API when use_batch_api and count >= threshold
+    from app.config import get_settings
+    from app.services.extraction_batch import submit_extraction_batch
+
+    settings = get_settings()
+    batch_api_threshold = getattr(settings, "batch_api_threshold", 100)
+    if use_batch_api and len(files) >= batch_api_threshold:
+        batch_files: List[tuple[bytes, str, str]] = []
+        for file_idx, file in enumerate(files):
+            temp_path: Optional[str] = None
+            try:
+                content, _file_hash, sanitized_filename = await validate_pdf(file)
+            except HTTPException:
+                continue
+            existing_any = await check_duplicate_any(supabase_client, _file_hash)
+            if existing_any and existing_any[1]:
+                continue
+            with tempfile.NamedTemporaryFile(prefix="pdf_batch_", delete=False, suffix=".pdf") as tmp:
+                tmp.write(content)
+                temp_path = tmp.name
+            try:
+                doc_structure = extract_pdf_structure(temp_path)
+                classification = classify_document(
+                    filename=sanitized_filename,
+                    markdown_text=doc_structure.markdown,
+                    gemini_client=get_gemini_client(),
+                )
+                doc_type = classification.doc_type
+                batch_files.append((content, sanitized_filename, doc_type))
+            except Exception:
+                pass
+            finally:
+                if temp_path and os.path.exists(temp_path):
+                    try:
+                        os.remove(temp_path)
+                    except OSError:
+                        pass
+        if batch_files:
+            try:
+                gemini_batch_job_id = await submit_extraction_batch(
+                    batch_files,
+                    batch_job_id,
+                    source_ids=parsed_source_ids,
+                )
+                return {
+                    "batch_job_id": batch_job_id,
+                    "status_url": f"/api/batch/{batch_job_id}",
+                    "total_files": len(files),
+                    "status": "batch_submitted",
+                    "gemini_batch_job_id": gemini_batch_job_id,
+                }
+            except Exception as e:
+                logger.exception("Batch API submit failed: %s", e)
+                return {
+                    "batch_job_id": batch_job_id,
+                    "status_url": f"/api/batch/{batch_job_id}",
+                    "total_files": len(files),
+                    "status": "batch_submitted_failed",
+                    "detail": str(e),
+                }
+        return {
+            "batch_job_id": batch_job_id,
+            "status_url": f"/api/batch/{batch_job_id}",
+            "total_files": len(files),
+            "status": "batch_submitted",
+            "detail": "No valid files collected for batch (validation failed or duplicates)",
+        }
+    if use_batch_api and len(files) < batch_api_threshold:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"use_batch_api requires at least {batch_api_threshold} files (got {len(files)}). Use synchronous processing for smaller batches.",
+        )
+
+    # Synchronous processing path
     gemini_client = get_gemini_client()
 
     async def _process_batch_files() -> None:
@@ -406,7 +481,12 @@ async def get_batch_status(
         pending=routing_stats_dict.get('pending', 0)
     )
 
-    # Build response
+    # Optional: link to Gemini Batch API job when this batch was submitted via batch API
+    gemini_batch_row = await get_gemini_batch_job_by_source_job_id(
+        supabase_client, batch_job_id, job_type="extraction"
+    )
+    gemini_batch_job_id = UUID(gemini_batch_row["id"]) if gemini_batch_row else None
+
     return BatchJobStatus(
         id=batch_job['id'],
         status=batch_job['status'],
@@ -420,5 +500,6 @@ async def get_batch_status(
         created_at=batch_job['created_at'],
         updated_at=batch_job['updated_at'],
         estimated_completion=batch_job.get('estimated_completion'),
-        webhook_url=batch_job.get('webhook_url')
+        webhook_url=batch_job.get('webhook_url'),
+        gemini_batch_job_id=gemini_batch_job_id,
     )

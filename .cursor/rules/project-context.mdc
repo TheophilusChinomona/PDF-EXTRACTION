@@ -1,0 +1,77 @@
+# PDF-Extraction Service - Project Context
+
+## What This Project Does
+A FastAPI microservice that extracts structured data from South African academic exam papers and marking guidelines (memos). Uses hybrid AI pipeline: OpenDataLoader for local PDF parsing + Google Gemini for semantic analysis.
+
+## Current Implementation Status (Feb 2026)
+
+### Gemini Batch API (IMPLEMENTED)
+The service supports both **online** (real-time) and **batch** (async, 50% cheaper) processing:
+
+**Batch API Files:**
+- `app/services/gemini_batch.py` - Core batch operations
+- `app/services/validation_batch.py` - Batch validation
+- `app/services/extraction_batch.py` - Batch extraction  
+- `app/services/batch_job_poller.py` - Polls pending jobs
+- `app/db/gemini_batch_jobs.py` - Database CRUD
+- `migrations/018_gemini_batch_jobs.sql` - Tracking table
+
+**Key Commands:**
+```bash
+# Poll Gemini batch jobs for completion
+python -m app.cli poll-batch-jobs --once
+python -m app.cli poll-batch-jobs --interval 120
+
+# Test batch extraction on validated files
+python scripts/run_extraction_batch_from_validated.py --dry-run
+python scripts/run_extraction_batch_from_validated.py
+```
+
+### Environment Variables
+```env
+GEMINI_API_KEY=...                     # Gemini API key
+SUPABASE_URL=...                       # Supabase project URL
+SUPABASE_KEY=...                       # Anon key for API calls
+SUPABASE_SERVICE_ROLE_KEY=...          # Service role for scripts (bypasses RLS)
+FIREBASE_CREDENTIALS_PATH=...          # Or FIREBASE_SERVICE_ACCOUNT_JSON
+```
+
+### Database Tables
+- `gemini_batch_jobs` - Tracks Gemini Batch API jobs
+- `batch_jobs` - Internal batch tracking (linked via source_job_id)
+- `validation_results` - Validation per scraped_file_id (status: correct/rejected/review_required)
+- `extractions` / `memo_extractions` - Extraction results with scraped_file_id
+- `scraped_files` - Source PDFs (storage_bucket, storage_path)
+- `exam_sets` - Matched question paper + memo pairs
+
+### API Endpoints
+- `POST /api/extract` - Single PDF extraction
+- `POST /api/batch` - Batch upload (add `use_batch_api=true` for async)
+- `POST /api/validation/batch` - Auto-uses Batch API for 100+ files
+- `POST /api/extract/from-storage` - Extract from GCS URL
+
+### File Structure
+```
+app/
+├── routers/          # FastAPI endpoints
+├── services/         # Business logic (gemini_batch, extraction_batch, etc.)
+├── models/           # Pydantic schemas
+├── db/               # Supabase CRUD operations
+└── cli.py            # CLI commands
+scripts/
+├── run_extraction_batch_from_validated.py  # Batch test script
+└── check_revalidate_progress.py
+```
+
+## When Working on This Project
+
+1. **No local venv** - Use system Python at `C:\Python314\python.exe`
+2. **Supabase RLS** - Scripts need `SUPABASE_SERVICE_ROLE_KEY` to bypass RLS
+3. **Firebase/GCS** - PDFs stored in GCS, use `download_as_bytes(gs://bucket/path)`
+4. **Batch API SLO** - 24 hours, but often faster; use poller to check status
+
+## Key Documentation
+- `.claude/CLAUDE.md` - Quick reference and current state
+- `.claude/instructions/architecture.md` - Full architecture details
+- `api-documentation.md` - Complete API reference
+- `DEPLOYMENT.md` - Deployment and migration guide

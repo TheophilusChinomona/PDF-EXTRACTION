@@ -58,6 +58,31 @@ def create_parser() -> argparse.ArgumentParser:
         help="Max concurrent Gemini API calls (default: from env or 3)"
     )
 
+    # Poll Gemini Batch API jobs
+    poll_parser = subparsers.add_parser(
+        "poll-batch-jobs",
+        help="Poll pending Gemini Batch API jobs and process results when complete"
+    )
+    poll_parser.add_argument(
+        "--once",
+        action="store_true",
+        help="Poll once and exit (default: run in a loop)",
+    )
+    poll_parser.add_argument(
+        "--interval",
+        "-i",
+        type=int,
+        default=60,
+        help="Poll interval in seconds (default: 60)",
+    )
+    poll_parser.add_argument(
+        "--job-type",
+        type=str,
+        choices=["validation", "extraction"],
+        default=None,
+        help="Only poll jobs of this type (default: all)",
+    )
+
     return parser
 
 
@@ -134,6 +159,40 @@ async def batch_process_command(args: argparse.Namespace) -> int:
         return 1
 
 
+async def poll_batch_jobs_command(args: argparse.Namespace) -> int:
+    """
+    Poll pending Gemini Batch API jobs and process results.
+
+    Returns:
+        int: Exit code (0 for success, 1 for error)
+    """
+    from app.services.batch_job_poller import poll_pending_batch_jobs
+
+    try:
+        if args.once:
+            results = await poll_pending_batch_jobs(job_type=args.job_type)
+            for r in results:
+                print(r)
+            return 0
+        # Loop
+        interval = max(1, args.interval)
+        print(f"Polling every {interval}s (Ctrl+C to stop)")
+        while True:
+            results = await poll_pending_batch_jobs(job_type=args.job_type)
+            if results:
+                for r in results:
+                    print(r)
+            await asyncio.sleep(interval)
+    except KeyboardInterrupt:
+        print("\nStopped")
+        return 0
+    except Exception as e:
+        print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
+        return 1
+
+
 def main() -> int:
     """Main CLI entry point."""
     parser = create_parser()
@@ -146,9 +205,10 @@ def main() -> int:
     # Route to command handler
     if args.command == "batch-process":
         return asyncio.run(batch_process_command(args))
-    else:
-        print(f"Unknown command: {args.command}")
-        return 1
+    if args.command == "poll-batch-jobs":
+        return asyncio.run(poll_batch_jobs_command(args))
+    print(f"Unknown command: {args.command}")
+    return 1
 
 
 if __name__ == "__main__":

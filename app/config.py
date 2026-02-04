@@ -8,7 +8,7 @@ errors early.
 from functools import lru_cache
 from typing import Optional
 
-from pydantic import Field, field_validator
+from pydantic import Field, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -80,6 +80,23 @@ class Settings(BaseSettings):
         description="Max concurrent Gemini API calls (prevents rate limits)"
     )
 
+    # Gemini Batch API (50% cost, ~24h turnaround)
+    batch_api_threshold: int = Field(
+        default=100,
+        ge=1,
+        description="Min number of files to use Gemini Batch API (validation or extraction)"
+    )
+    batch_api_poll_interval: int = Field(
+        default=60,
+        ge=10,
+        le=3600,
+        description="Seconds between polls when checking batch job status"
+    )
+    batch_api_model: str = Field(
+        default="models/gemini-2.5-flash",
+        description="Gemini model for Batch API jobs"
+    )
+
     # PGMQ (Postgres Message Queue) - optional; used for validation/extraction queues
     pgmq_database_url: Optional[str] = Field(
         default=None,
@@ -105,9 +122,15 @@ class Settings(BaseSettings):
     )
 
     # Firebase Storage - optional; used for /api/extract/from-storage
+    # Supports both FIREBASE_SERVICE_ACCOUNT_JSON and legacy FIREBASE_CREDENTIALS_PATH
     firebase_service_account_json: Optional[str] = Field(
         default=None,
-        description="Firebase service account JSON string (or path to JSON file)"
+        description="Firebase service account JSON string (or path to JSON file)",
+        validation_alias="FIREBASE_SERVICE_ACCOUNT_JSON",
+    )
+    firebase_credentials_path: Optional[str] = Field(
+        default=None,
+        description="Legacy alias for firebase_service_account_json (path to JSON file)"
     )
     firebase_storage_bucket: Optional[str] = Field(
         default=None,
@@ -156,6 +179,13 @@ class Settings(BaseSettings):
         if not v or not v.strip():
             raise ValueError("SUPABASE_KEY must be set in environment variables")
         return v.strip()
+
+    @model_validator(mode="after")
+    def use_firebase_credentials_path_fallback(self) -> "Settings":
+        """Use FIREBASE_CREDENTIALS_PATH as fallback for firebase_service_account_json."""
+        if not self.firebase_service_account_json and self.firebase_credentials_path:
+            self.firebase_service_account_json = self.firebase_credentials_path
+        return self
 
 
 @lru_cache

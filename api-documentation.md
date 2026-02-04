@@ -15,6 +15,8 @@
    - [System Endpoints](#41-system-endpoints)
    - [Extraction Endpoints](#42-extraction-endpoints)
    - [Batch Processing](#43-batch-processing)
+   - [Gemini Batch API](#43a-gemini-batch-api)
+   - [Validation API](#43b-validation-api)
    - [Review Queue](#44-review-queue)
    - [Statistics](#45-statistics)
 5. [Data Models](#5-data-models)
@@ -36,6 +38,7 @@ The PDF Extraction Service provides a RESTful API for extracting structured data
 - **Bounding Boxes**: PDF coordinates for frontend highlighting
 - **Batch Processing**: Async processing for multiple files
 - **Cost Optimization**: 80% savings through intelligent routing
+- **Gemini Batch API**: For large batches (100+ files), validation and extraction can use the async Gemini Batch API (50% cost, ~24h target turnaround); a poller processes results when jobs complete
 
 ### Architecture
 
@@ -475,7 +478,11 @@ files: [PDF 1]
 files: [PDF 2]
 files: [PDF 3]
 webhook_url: https://your-backend.com/webhook (optional)
+source_ids: ["uuid1","uuid2",...] (optional, one scraped_file_id per file)
+use_batch_api: true | false (optional, default false)
 ```
+
+When `use_batch_api=true` and the number of files is at least the configured threshold (default 100), the service submits a **Gemini Batch API** job instead of processing synchronously. Response status is `batch_submitted` and includes `gemini_batch_job_id`. Results are applied when a poller processes the completed job (see [Gemini Batch API](#43a-gemini-batch-api)).
 
 **cURL Example:**
 ```bash
@@ -485,14 +492,24 @@ curl -X POST http://localhost:8000/api/batch \
   -F "webhook_url=https://example.com/callback"
 ```
 
-**Response: 202 Accepted**
+**Response: 202 Accepted (synchronous processing)**
 ```json
 {
   "batch_job_id": "770e8400-e29b-41d4-a716-446655440000",
   "status_url": "/api/batch/770e8400-e29b-41d4-a716-446655440000",
   "total_files": 2,
-  "status": "processing",
-  "message": "Batch job created successfully. Processing 2 files."
+  "status": "processing"
+}
+```
+
+**Response: 202 Accepted (Gemini Batch API path, when use_batch_api=true and files >= threshold)**
+```json
+{
+  "batch_job_id": "770e8400-e29b-41d4-a716-446655440000",
+  "status_url": "/api/batch/770e8400-e29b-41d4-a716-446655440000",
+  "total_files": 100,
+  "status": "batch_submitted",
+  "gemini_batch_job_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
 }
 ```
 
@@ -502,6 +519,13 @@ curl -X POST http://localhost:8000/api/batch \
 ```json
 {
   "detail": "Maximum 100 files allowed per batch"
+}
+```
+
+**400 Bad Request** - use_batch_api with too few files
+```json
+{
+  "detail": "use_batch_api requires at least 100 files (got 50). Use synchronous processing for smaller batches."
 }
 ```
 
@@ -551,6 +575,8 @@ GET /api/batch/770e8400-e29b-41d4-a716-446655440000
 - `partial`: Some files failed
 - `failed`: All files failed
 
+When the batch was submitted via Gemini Batch API, the response includes `gemini_batch_job_id` (UUID of the tracking record in `gemini_batch_jobs`). Use the poller (see [4.3a. Gemini Batch API](#43a-gemini-batch-api)) to process results when the Gemini job completes.
+
 ---
 
 #### List Batch Jobs
@@ -581,6 +607,94 @@ List all batch jobs with pagination.
   }
 }
 ```
+
+---
+
+### 4.3a. Gemini Batch API
+
+For large batches (100+ files), validation and extraction can use the **Gemini Batch API** (50% cost vs standard, target ~24h turnaround). Jobs are submitted asynchronously; a separate **poller** checks job status and applies results when complete.
+
+**Validation:** When `POST /api/validation/batch` is called with at least `BATCH_API_THRESHOLD` (default 100) `scraped_file_ids`, the service submits a Gemini Batch API job and returns `status: "batch_submitted"` and `gemini_batch_job_id`.
+
+**Extraction:** When `POST /api/batch` is called with `use_batch_api=true` and at least the threshold number of files, the service classifies each file then submits one Gemini Batch API job and returns `status: "batch_submitted"` and `gemini_batch_job_id`.
+
+**Processing results:** Run the poller so completed jobs are processed and DB updated:
+
+```bash
+# Poll once and exit
+python -m app.cli poll-batch-jobs --once
+
+# Poll every 60 seconds (default)
+python -m app.cli poll-batch-jobs --interval 60
+
+# Only validation or only extraction jobs
+python -m app.cli poll-batch-jobs --job-type validation --once
+```
+
+**Configuration (environment):**
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `BATCH_API_THRESHOLD` | 100 | Min files to use Batch API for validation or extraction |
+| `BATCH_API_POLL_INTERVAL` | 60 | Seconds between polls when checking job status |
+| `BATCH_API_MODEL` | models/gemini-2.5-flash | Gemini model for batch jobs |
+
+**Database:** Completed and pending batch jobs are tracked in `gemini_batch_jobs` (migration 018).
+
+---
+
+### 4.3b. Validation API
+
+#### Trigger Batch Validation
+
+**`POST /api/validation/batch`**
+
+Trigger batch validation for the given `scraped_file_ids`. When the number of IDs is at least the Batch API threshold (default 100), the service submits a Gemini Batch API job and returns `batch_submitted` with `gemini_batch_job_id`; otherwise it returns `queued` for online processing.
+
+**Request:**
+```http
+POST /api/validation/batch
+Content-Type: application/json
+
+{
+  "scraped_file_ids": ["uuid1", "uuid2", ...]
+}
+```
+
+**Response: 202 Accepted**
+```json
+{
+  "job_id": "uuid",
+  "status": "queued",
+  "total_files": 50
+}
+```
+
+**Response: 202 Accepted (Batch API path, when scraped_file_ids.length >= threshold)**
+```json
+{
+  "job_id": "uuid",
+  "status": "batch_submitted",
+  "total_files": 100,
+  "gemini_batch_job_id": "uuid"
+}
+```
+
+#### Get Validation Job Status
+
+**`GET /api/validation/{job_id}`**
+
+**Get Validation Job Progress**
+
+**`GET /api/validation/{job_id}/progress`**
+
+**Get Validation Result for Document**
+
+**`GET /api/validation/result/{scraped_file_id}`**
+
+**Review Queue and Resolve**
+
+**`GET /api/validation/review-queue`** · **`POST /api/validation/review/{scraped_file_id}/resolve`**
 
 ---
 
@@ -849,6 +963,7 @@ interface BatchJobStatus {
   created_at: string;                 // ISO 8601
   completed_at?: string;              // ISO 8601
   webhook_url?: string;
+  gemini_batch_job_id?: string;      // UUID when batch was submitted via Gemini Batch API
 }
 ```
 

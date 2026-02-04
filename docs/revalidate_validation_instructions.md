@@ -85,3 +85,24 @@ python revalidate_missing_metadata.py --dry-run 2>&1 | tee revalidate_dry_run.lo
 ## Runtime
 
 A full run over 5000+ rows can take several hours (download + Gemini per row, with concurrency). Use a long-lived terminal, or run under `tmux` / `screen`, or redirect output to a file as above.
+
+## Check progress (query the database)
+
+To see how many rows still need revalidation vs how many now have grade set, run this in **Supabase Dashboard → SQL Editor** (same project as ValidationAgent):
+
+```sql
+SELECT
+  COUNT(*) FILTER (WHERE grade IS NULL)   AS still_to_do,
+  COUNT(*) FILTER (WHERE grade IS NOT NULL) AS have_grade,
+  COUNT(*)                                AS total_eligible
+FROM validation_results
+WHERE status = 'correct'
+  AND scraped_file_id IS NOT NULL;
+```
+
+Or from the PDF-Extraction repo (only if its `.env` uses the same Supabase project as ValidationAgent):
+
+```bash
+cd "C:\Users\theoc\Desktop\Work\PDF-Extraction"
+python scripts/check_revalidate_progress.py
+```

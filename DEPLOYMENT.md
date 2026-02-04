@@ -69,6 +69,11 @@ MAX_FILE_SIZE_MB=200
 
 # Context Caching (Optional - for 95% cost savings)
 ENABLE_CONTEXT_CACHING=true
+
+# Gemini Batch API (Optional - 50% cost for large batches, ~24h turnaround)
+BATCH_API_THRESHOLD=100
+BATCH_API_POLL_INTERVAL=60
+BATCH_API_MODEL=models/gemini-2.5-flash
 ```
 
 ---
@@ -174,6 +179,33 @@ CREATE TABLE IF NOT EXISTS batch_jobs (
 
 CREATE INDEX idx_batch_jobs_status ON batch_jobs(status);
 CREATE INDEX idx_batch_jobs_created_at ON batch_jobs(created_at DESC);
+```
+
+#### Migration 018: Gemini Batch Jobs Table
+
+For Gemini Batch API (validation and extraction at 50% cost for large batches), run:
+
+```sql
+-- Run: migrations/018_gemini_batch_jobs.sql
+CREATE TABLE IF NOT EXISTS gemini_batch_jobs (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    gemini_job_name TEXT NOT NULL UNIQUE,
+    job_type TEXT NOT NULL CHECK (job_type IN ('validation', 'extraction')),
+    status TEXT NOT NULL DEFAULT 'pending',
+    total_requests INT NOT NULL,
+    completed_requests INT DEFAULT 0,
+    failed_requests INT DEFAULT 0,
+    source_job_id UUID,
+    request_metadata JSONB,
+    result_file_name TEXT,
+    error_message TEXT,
+    submitted_at TIMESTAMPTZ DEFAULT NOW(),
+    completed_at TIMESTAMPTZ,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_gemini_batch_jobs_status ON gemini_batch_jobs(status);
+CREATE INDEX IF NOT EXISTS idx_gemini_batch_jobs_source_job_id ON gemini_batch_jobs(source_job_id);
 ```
 
 ### 4. Verify Database Setup
@@ -300,7 +332,22 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 uvicorn app.main:app --env-file .env.development --reload
 ```
 
-### 4. Run Tests
+### 4. Run Gemini Batch API Poller (Optional)
+
+When using the Gemini Batch API for validation or extraction (100+ files), run the poller so completed batch jobs are processed and results written to the database:
+
+```bash
+# Poll once and exit (e.g. from cron)
+python -m app.cli poll-batch-jobs --once
+
+# Poll every 60 seconds (long-running process)
+python -m app.cli poll-batch-jobs --interval 60
+
+# Only process validation or extraction jobs
+python -m app.cli poll-batch-jobs --job-type validation --once
+```
+
+### 5. Run Tests
 
 ```bash
 # Run all tests
@@ -316,7 +363,7 @@ pytest tests/integration/ -v
 pytest tests/test_pdf_extractor.py -v
 ```
 
-### 5. Code Quality Checks
+### 6. Code Quality Checks
 
 ```bash
 # Type checking with mypy

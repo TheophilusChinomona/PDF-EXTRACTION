@@ -39,10 +39,26 @@ logger = logging.getLogger(__name__)
 @router.post("/batch", status_code=status.HTTP_202_ACCEPTED)
 async def validation_batch(body: ValidationBatchRequest) -> ValidationBatchResponse:
     """Trigger batch validation for the given scraped_file_ids. Returns job_id and status."""
+    from app.config import get_settings
+    from app.services.validation_batch import submit_validation_batch
+
     client = get_supabase_client()
     job_id = await create_validation_job(client, total_files=len(body.scraped_file_ids), status="queued")
-    # In a full implementation we would enqueue messages to PGMQ validation_queue here.
-    # For now we return the job and leave worker integration for Academy Scrapper.
+    scraped_file_id_strs = [str(sid) for sid in body.scraped_file_ids]
+    settings = get_settings()
+    threshold = getattr(settings, "batch_api_threshold", 100)
+    if len(scraped_file_id_strs) >= threshold:
+        try:
+            gemini_batch_job_id = await submit_validation_batch(scraped_file_id_strs, job_id)
+            return ValidationBatchResponse(
+                job_id=UUID(job_id),
+                status="batch_submitted",
+                total_files=len(body.scraped_file_ids),
+                gemini_batch_job_id=UUID(gemini_batch_job_id),
+            )
+        except Exception as e:
+            logger.exception("Batch API submit failed: %s", e)
+            # Fall through to queued (online path when worker runs)
     return ValidationBatchResponse(
         job_id=UUID(job_id),
         status="queued",

@@ -37,6 +37,7 @@ class BatchJobStatus(BaseModel):
     updated_at: datetime = Field(description="Timestamp of last update")
     estimated_completion: Optional[datetime] = Field(default=None, description="Estimated completion time")
     webhook_url: Optional[str] = Field(default=None, description="Webhook URL if configured")
+    gemini_batch_job_id: Optional[UUID] = Field(default=None, description="Gemini Batch API job ID when using batch path")
 
 
 class BatchJobSummary(BaseModel):

@@ -32,8 +32,9 @@ This plan unifies two codebases:
 | Document Classification | Gemini + heuristics | - |
 | Hybrid Extraction | OpenDataLoader + Gemini 3 Flash | extractions, memo_extractions |
 | Batch Processing | FastAPI async | batch_jobs |
+| **Gemini Batch API** | Validation + extraction for 100+ files (50% cost, ~24h) | gemini_batch_jobs |
 | Review Queue | Manual review | review_queue |
-| Database | Supabase PostgreSQL | 8 migrations |
+| Database | Supabase PostgreSQL | migrations including 018 (gemini_batch_jobs) |
 
 ### Critical ID Mismatch Issue
 ```
@@ -1235,6 +1236,15 @@ Response 202:
     "status": "queued",
     "total_files": 50
 }
+
+When scraped_file_ids.length >= BATCH_API_THRESHOLD (default 100), the service submits a Gemini Batch API job and returns:
+{
+    "job_id": "uuid",
+    "status": "batch_submitted",
+    "total_files": 100,
+    "gemini_batch_job_id": "uuid"
+}
+Results are applied when the poller processes the completed job (python -m app.cli poll-batch-jobs).
 ```
 
 #### Get Validation Job Status
@@ -1534,6 +1544,7 @@ ALTER TABLE extraction_jobs RENAME TO extraction_jobs_deprecated;
 - `memo_extractions` - Marking guideline results
 - `review_queue` - Manual review items
 - `batch_jobs` - Batch processing jobs
+- `gemini_batch_jobs` - Gemini Batch API job tracking (validation + extraction, migration 018)
 
 ### Academy Scrapper Tables
 - `scraped_files` - Core PDF metadata (shared)

@@ -283,6 +283,8 @@ CREATE INDEX idx_document_sections_type ON document_sections(section_type);
 - Immediately attempt to match with existing exam_sets
 - If match found → link; if not → create new incomplete exam_set
 
+**Note:** Validation can run via the **Gemini Batch API** for large batches (100+ files); the poller applies results when the batch job completes. Matching logic runs after validation results are written (whether from online or batch path).
+
 ### 4.2 Matching Logic
 ```python
 async def match_document_to_exam_set(
@@ -468,6 +470,7 @@ Return JSON with structure:
 | `app/db/exam_sets.py` | NEW - CRUD for exam_sets table |
 | `app/db/document_sections.py` | NEW - CRUD for document_sections |
 | `ValidationAgent/validate_worker.py` | Add exam set matching after validation |
+| `app/services/batch_job_poller.py` | When processing validation batch results, apply matching per result (Gemini Batch API path) |
 
 ---
 

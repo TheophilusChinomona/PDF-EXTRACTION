@@ -115,7 +115,7 @@ async def add_extraction_to_batch(
         raise ValueError(f"Invalid UUID: {str(e)}")
 
     # Validate processing_method
-    valid_methods = ['hybrid', 'vision_fallback']
+    valid_methods = ['hybrid', 'vision_fallback', 'batch_api']
     if processing_method not in valid_methods:
         raise ValueError(f"Invalid processing_method '{processing_method}'. Must be one of: {', '.join(valid_methods)}")
 

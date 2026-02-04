@@ -67,6 +67,7 @@ class ValidationBatchResponse(BaseModel):
     job_id: UUID = Field(description="Validation job ID")
     status: str = Field(default="queued", description="Initial status")
     total_files: int = Field(description="Number of files in batch")
+    gemini_batch_job_id: Optional[UUID] = Field(default=None, description="Gemini Batch API job ID when using batch path")
 
 
 # ---------------------------------------------------------------------------
