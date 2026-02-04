@@ -95,9 +95,9 @@ BEGIN
 
   meta := jsonb_build_object(
     'subject', COALESCE(NEW.subject, s.subject),
-    'grade', COALESCE(NEW.grade, s.grade),
-    'year', COALESCE(NEW.year, s.year),
-    'session', COALESCE(NEW.session, s.session),
+    'grade', COALESCE(NEW.grade::text, s.grade::text),
+    'year', COALESCE(NEW.year, s.year::text),
+    'session', s.session,
     'syllabus', COALESCE(NEW.syllabus, s.syllabus)
   );
 

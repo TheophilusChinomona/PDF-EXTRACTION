@@ -35,6 +35,7 @@ from app.db.memo_extractions import (
     update_memo_extraction,
 )
 from app.db.supabase_client import get_supabase_client
+from app.db.validation_results import get_validation_result
 from app.models.extraction import DocumentStructure, FullExamPaper
 from app.models.memo_extraction import MarkingGuideline
 from app.services.document_classifier import classify_document
@@ -44,6 +45,8 @@ from app.services.gemini_client import get_gemini_client
 from app.services.opendataloader_extractor import extract_pdf_structure
 from app.services.pdf_extractor import extract_pdf_data_hybrid, PartialExtractionError
 from app.services.memo_extractor import extract_memo_data_hybrid, PartialMemoExtractionError
+from app.services.section_extractor import extract_and_store_sections
+from app.services.exam_matcher import match_document_to_exam_set
 from app.services.webhook_sender import send_extraction_completed_webhook
 
 router = APIRouter(prefix="/api", tags=["extraction"])
@@ -157,6 +160,15 @@ async def _run_extraction_from_storage(
     sanitized_filename = sanitize_filename(raw_name)
 
     supabase_client = get_supabase_client()
+    scraped_file_uuid = UUID(scraped_file_id)
+
+    # Match to exam set after validation (if validation result exists)
+    try:
+        validation_result = await get_validation_result(supabase_client, scraped_file_uuid)
+        if validation_result:
+            await match_document_to_exam_set(supabase_client, scraped_file_uuid, validation_result)
+    except Exception as match_err:
+        logger.warning("Exam set matching failed (continuing): %s", match_err)
     existing_any = await check_duplicate_any(supabase_client, file_hash)
     if existing_any:
         table_name, existing_id = existing_any
@@ -219,9 +231,20 @@ async def _run_extraction_from_storage(
         "file_size_bytes": len(content),
         "file_hash": file_hash,
         "webhook_url": webhook_url,
-        "scraped_file_id": scraped_file_id,
+        "scraped_file_id": str(scraped_file_id),
         "retry_count": retry_count,
     }
+
+    # Section extraction (cover, instructions, marker notes, information sheet) before questions/answers
+    try:
+        await extract_and_store_sections(
+            scraped_file_uuid,
+            temp_file_path,
+            is_question_paper=(doc_type != "memo"),
+            supabase_client=supabase_client,
+        )
+    except Exception as sec_err:
+        logger.warning("Section extraction failed (continuing with question extraction): %s", sec_err)
 
     gemini_client = get_gemini_client()
     extraction_result: Optional[FullExamPaper | MarkingGuideline] = None

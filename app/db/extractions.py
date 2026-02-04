@@ -122,6 +122,26 @@ async def _get_id_by_file_hash(client: Client, file_hash: str) -> Optional[str]:
         return None
 
 
+async def get_extraction_by_scraped_file_id(
+    client: Client,
+    scraped_file_id: UUID,
+) -> Optional[Dict[str, Any]]:
+    """Get extraction by scraped_file_id. Returns first match or None."""
+    try:
+        response = await asyncio.to_thread(
+            lambda: client.table("extractions")
+            .select("*")
+            .eq("scraped_file_id", str(scraped_file_id))
+            .limit(1)
+            .execute()
+        )
+        if not response.data or len(response.data) == 0:
+            return None
+        return response.data[0]
+    except Exception:
+        return None
+
+
 async def get_extraction(
     client: Client,
     extraction_id: str

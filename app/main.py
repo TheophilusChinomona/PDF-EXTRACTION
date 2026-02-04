@@ -223,3 +223,11 @@ app.include_router(validation.router)
 # Include storage extraction router (POST /api/extract/from-storage)
 from app.routers import storage_extraction
 app.include_router(storage_extraction.router)
+
+# Paper matching: exam sets, reconstruction, document sections (include reconstruction first for path specificity)
+from app.routers import reconstruction
+app.include_router(reconstruction.router)
+from app.routers import exam_sets
+app.include_router(exam_sets.router)
+from app.routers import document_sections as doc_sections_router
+app.include_router(doc_sections_router.router)
