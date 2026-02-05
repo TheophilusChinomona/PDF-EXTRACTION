@@ -368,7 +368,7 @@ def transform_scraped_file(doc_id: str, doc_data: Dict[str, Any]) -> Dict[str, A
         "user_id": clean_string(doc_data.get("userId") or doc_data.get("user_id")),
         "user_email": clean_string(doc_data.get("userEmail") or doc_data.get("user_email")),
         "job_id": clean_string(doc_data.get("jobId") or doc_data.get("job_id")),
-        "firestore_doc_id": doc_id,
+        # firestore_doc_id column removed (migration 019); Supabase is sole source of truth
     }
 
     # Timestamps
@@ -647,7 +647,7 @@ def verify_migration(collection: str = "scraped_files") -> None:
 
     # Count records with new fields populated
     field_checks = {}
-    for field in ["storage_path", "document_type", "year", "user_id", "firestore_doc_id"]:
+    for field in ["storage_path", "document_type", "year", "user_id"]:
         resp = supabase.table(table).select("id", count="exact").not_.is_(field, "null").execute()
         field_checks[field] = resp.count or 0
 
@@ -665,7 +665,6 @@ def verify_migration(collection: str = "scraped_files") -> None:
             "filename": filename,
             "file_id": file_id,
             "found": found,
-            "has_firestore_doc_id": result.data[0].get("firestore_doc_id") is not None if found else False,
         })
 
     # Report
@@ -696,8 +695,7 @@ def verify_migration(collection: str = "scraped_files") -> None:
     all_ok = True
     for check in spot_checks:
         mark = "[OK]" if check["found"] else "[MISSING]"
-        extra = " (has firestore_doc_id)" if check["has_firestore_doc_id"] else ""
-        print(f"  {mark} {check['filename'][:50]}{extra}")
+        print(f"  {mark} {check['filename'][:50]}")
         if not check["found"]:
             all_ok = False
 

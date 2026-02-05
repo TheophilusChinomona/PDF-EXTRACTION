@@ -1,0 +1,36 @@
+{
+  "code_review_feedback": [
+    {
+      "file_path": "app/routers/extraction.py",
+      "area": "Scalability and Responsiveness of POST /api/extract",
+      "current_state": "The `POST /api/extract` endpoint performs a complex sequence of operations (PDF validation, duplicate checks, document classification, hybrid extraction, database persistence, and webhook notification) entirely synchronously within the request-response cycle. This design has several implications:
+1. **Limited Scalability:** Long-running extraction tasks tie up FastAPI worker processes, limiting the number of concurrent requests the API can handle.
+2. **Increased Latency:** Clients must wait for the entire extraction process to complete, leading to high response times for individual requests.
+3. **Resilience Issues:** If the server crashes or the request times out during processing, the client has no easy way to track the job's progress or retry without re-uploading.",
+      "proposed_improvement": "Refactor the `POST /api/extract` endpoint to an asynchronous, job-based processing model. This would leverage the existing `PGMQ` (Postgres Message Queue) setup and align with the scalable batch processing architecture already present in the application.",
+      "specific_recommendations": [
+        "**Decouple Extraction from Request:**
+   * When a `POST /api/extract` request is received, perform only initial, lightweight validation (e.g., file size, basic PDF format check, file hash calculation, and duplicate check).
+   * If the file is new or needs retrying, create a new entry in the database (e.g., in a `pending` state) and then publish a message to a PGMQ queue (e.g., `pgmq_extraction_queue`) containing the `extraction_id` and file details (e.g., a path to the uploaded file in a temporary storage, or a reference to its location if it's already in permanent storage).
+   * Immediately return a `202 Accepted` response to the client, along with the `extraction_id`. The client can then use this ID to poll a new `GET /api/extractions/{extraction_id}/status` endpoint (or the existing `GET /api/extractions/{extraction_id}`) to check the status and retrieve the final result.",
+        "**Implement an Asynchronous Worker:**
+   * Create a dedicated worker process (either a separate Python script or a FastAPI background task managed by `app.main.lifespan` for simpler deployments) that constantly consumes messages from the `pgmq_extraction_queue`.
+   * Each worker would be responsible for:
+     * Retrieving the PDF file.
+     * Performing the full document classification.
+     * Executing the hybrid extraction (`extract_pdf_data_hybrid` / `extract_memo_data_hybrid`).
+     * Updating the extraction record in the database with the result, status (`completed`, `partial`, `failed`), and any errors.
+     * Sending the webhook notification upon completion.",
+        "**Enhance Status Polling:**
+   * Ensure the `GET /api/extractions/{extraction_id}` endpoint provides clear status updates (e.g., 'pending', 'processing', 'completed', 'partial', 'failed') while the background worker is active."
+      ],
+      "benefits": [
+        "**Improved User Experience:** Clients receive an immediate response, indicating their request has been accepted, and can monitor progress.",
+        "**Enhanced Scalability:** FastAPI workers are freed up quickly, allowing the API to handle a much higher volume of incoming requests. Extraction tasks can be scaled independently by adding more worker processes.",
+        "**Increased Resilience:** If a worker fails, the message can be re-queued and processed by another worker. The system becomes more robust against transient errors and timeouts.",
+        "**Consistency:** Aligns the single-file extraction process with the existing asynchronous batch processing workflow, promoting a more unified architectural pattern.",
+        "**Reduced Memory Footprint:** The web server no longer holds large PDF file contents in memory for extended periods during processing."
+      ]
+    }
+  ]
+}

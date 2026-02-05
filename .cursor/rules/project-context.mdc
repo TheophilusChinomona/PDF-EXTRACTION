@@ -27,6 +27,15 @@ python scripts/run_extraction_batch_from_validated.py --dry-run
 python scripts/run_extraction_batch_from_validated.py
 ```
 
+**Paper matching (QP–Memo / exam_sets)** – Scripts live in **AcademyScrapper-Unified** `services/extraction-service/`. Run from that directory; `.env` must include `SUPABASE_SERVICE_ROLE_KEY`.
+```bash
+cd C:\Users\theoc\Desktop\Work\AcademyScrapper-Unified\services\extraction-service
+python scripts/diagnose_matching_state.py              # Pre-flight (read-only)
+python scripts/run_batch_matcher.py --dry-run --all    # Dry run
+python scripts/run_batch_matcher.py --all              # Run matching
+python scripts/verify_matching_results.py              # Verify counts
+```
+
 ### Environment Variables
 ```env
 GEMINI_API_KEY=...                     # Gemini API key
@@ -36,13 +45,53 @@ SUPABASE_SERVICE_ROLE_KEY=...          # Service role for scripts (bypasses RLS)
 FIREBASE_CREDENTIALS_PATH=...          # Or FIREBASE_SERVICE_ACCOUNT_JSON
 ```
 
-### Database Tables
-- `gemini_batch_jobs` - Tracks Gemini Batch API jobs
-- `batch_jobs` - Internal batch tracking (linked via source_job_id)
-- `validation_results` - Validation per scraped_file_id (status: correct/rejected/review_required)
-- `extractions` / `memo_extractions` - Extraction results with scraped_file_id
-- `scraped_files` - Source PDFs (storage_bucket, storage_path)
-- `exam_sets` - Matched question paper + memo pairs
+### Database Tables (as of Feb 2026)
+
+Full snapshot: **docs/database-summary.md** (table counts, status breakdowns, top subjects, migrations, coverage).
+
+| Table | Records | Status Breakdown |
+|-------|---------|------------------|
+| `scraped_files` | 36,017 | validated: 10,312 / unvalidated: 25,390 / rejected: 264 / review_required: 51 |
+| `validation_results` | 10,554 | correct: 10,239 / rejected: 264 / review_required: 51 |
+| `extractions` | 70 | all completed; all linked (scraped_file_id) |
+| `memo_extractions` | 62 | all completed; all linked (scraped_file_id) |
+| `file_registry` | 2,841 | all validated |
+| `batch_jobs` | 11 | completed: 7 / pending: 3 / partial: 1 |
+| `gemini_batch_jobs` | 2 | both extraction, both succeeded |
+| `exam_sets` | 0 | QP+memo pairs |
+| `extraction_jobs` | 0 | Job tracking |
+| `validation_jobs` | 0 | Job tracking |
+
+**Document Types:** Question Paper (3,051), Memorandum (2,911), Other (198)
+
+**Top Subjects:** Mathematics (1,283), Chemistry (487), Physics (450), Biology (362), History (349)
+
+**Grades:** Grade 12 (2,635), Grade 10 (1,056), Grade 11 (789)
+
+**Exam Levels:** Grade 12 (5,996), GCSE (4,380), A Level (2,619), AS Level (1,235)
+
+**Syllabuses:** Other (2,400), NSC (1,720), IEB (1,227)
+
+**Key columns:**
+- `scraped_files`: id, file_id, filename, subject, grade, storage_path, storage_bucket, document_type, year, session, validation_status
+- `extractions`: id, file_name, file_hash, status, subject, year, session, grade, language, total_marks, groups (questions JSON)
+- `memo_extractions`: id, file_name, file_hash, status, subject, year, session, grade, total_marks, sections (answers JSON)
+
+**Extraction Coverage Gap:**
+- Validated Question Papers: 2,829 available, only 70 extracted (2.5%)
+- Validated Memos: 2,674 available, only 62 extracted (2.3%)
+
+**scraped_file_id linkage:** Extractions and memo_extractions must link to scraped_files via `scraped_file_id` for storage paths and consistent IDs. All 70 extractions and 62 memo_extractions are currently linked. For future orphans: use `scripts/backfill_scraped_file_ids.py` to match to **existing** scraped_files; use `scripts/register_and_link_extractions.py` to **create** scraped_files from Firebase Storage (list blobs, match by filename/metadata, then link). `scripts/upload_local_extractions.py` looks up scraped_file_id on upload.
+
+**Other public tables:** document_sections, document_versions, review_queue, extraction_documents, extraction_pages, extraction_elements, extraction_spatial_links, preprocessed_images, layout_maps, extracted_elements, question_groups, questions, question_options, question_answers, question_media, parsed_questions. **PGMQ:** a_validation_queue, a_validation_queue_high, a_extraction_queue, a_validation_dead_letter.
+
+### Cross-Project Architecture
+
+Same Supabase DB is shared by:
+- **Academy Scrapper** (C# SAPdfScraper + Python ValidationAgent + React FE): scrapes PDFs to Firebase, writes scraped_files and validation_results; uses PGMQ queues.
+- **PDF-Extraction** (this project): reads PDFs from Firebase (paths from scraped_files), writes extractions and memo_extractions.
+
+Firebase is used only for storage; scraped_files.storage_path and storage_bucket are the source of truth.
 
 ### API Endpoints
 - `POST /api/extract` - Single PDF extraction
@@ -60,7 +109,15 @@ app/
 └── cli.py            # CLI commands
 scripts/
 ├── run_extraction_batch_from_validated.py  # Batch test script
+├── backfill_scraped_file_ids.py            # Link orphans to existing scraped_files
+├── register_and_link_extractions.py       # Create scraped_files from Firebase + link orphans
+├── upload_local_extractions.py            # Upload local JSON (with scraped_file_id lookup)
 └── check_revalidate_progress.py
+
+Paper matching (exam_sets) – in AcademyScrapper-Unified/services/extraction-service/scripts/:
+├── diagnose_matching_state.py   # Pre-flight: validation_results + exam_sets counts
+├── run_batch_matcher.py         # Match QP–Memo (--dry-run, --all, --status-filter)
+└── verify_matching_results.py   # Post-run: exam_sets stats and sample pairs
 ```
 
 ## When Working on This Project
@@ -69,8 +126,10 @@ scripts/
 2. **Supabase RLS** - Scripts need `SUPABASE_SERVICE_ROLE_KEY` to bypass RLS
 3. **Firebase/GCS** - PDFs stored in GCS, use `download_as_bytes(gs://bucket/path)`
 4. **Batch API SLO** - 24 hours, but often faster; use poller to check status
+5. **Scripts** - When creating or editing anything in `scripts/`, follow **.cursor/rules/scripts.mdc** (run from repo root, use `--dry-run` for writes, document usage, handle env and duplicates).
 
 ## Key Documentation
+- **docs/database-summary.md** - Full database snapshot (table counts, status breakdowns, top subjects, coverage)
 - `.claude/CLAUDE.md` - Quick reference and current state
 - `.claude/instructions/architecture.md` - Full architecture details
 - `api-documentation.md` - Complete API reference

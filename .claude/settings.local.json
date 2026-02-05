@@ -18,7 +18,24 @@
       "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
       "Bash(gh auth:*)",
       "Bash(git checkout:*)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -m ruff check:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -m mypy:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/diagnose_storage_paths.py --validated-only)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/fix_storage_paths.py --dry-run --validated-only)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/fix_storage_paths.py --run)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/run_extraction_local_api.py --dry-run --limit 5)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\":*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -m ruff check scripts/run_extraction_local_api.py scripts/export_extractions_md.py)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -m mypy scripts/run_extraction_local_api.py scripts/export_extractions_md.py)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" -m bandit -r scripts/run_extraction_local_api.py scripts/export_extractions_md.py)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/run_extraction_local_api.py:*)",
+      "Bash(\"C:\\\\Python314\\\\python.exe\" scripts/run_extraction_local_api.py --batch-size 50)",
+      "WebFetch(domain:ai.google.dev)",
+      "WebFetch(domain:googleapis.github.io)",
+      "WebFetch(domain:colab.research.google.com)",
+      "Bash(grep:*)",
+      "WebFetch(domain:docs.cloud.google.com)"
     ]
   },
   "enabledPlugins": {

@@ -8,8 +8,12 @@ and submits via submit_extraction_batch. Run from project root:
 
   python scripts/run_extraction_batch_from_validated.py
   python scripts/run_extraction_batch_from_validated.py --dry-run
+  python scripts/run_extraction_batch_from_validated.py --min-files 10
+  python scripts/run_extraction_batch_from_validated.py --force
 
 Use --dry-run to only count/list eligible files without creating a job or calling Gemini.
+Use --min-files N to require at least N successful downloads before submitting (default: 1).
+Use --force to proceed even if 0 files downloaded (not useful, but disables the min-files check).
 After running, poll for results: python -m app.cli poll-batch-jobs --once (or --interval 120).
 
 NOTE: Requires SUPABASE_SERVICE_ROLE_KEY in .env (or SUPABASE_KEY set to service_role key)
@@ -123,7 +127,7 @@ async def _get_scraped_files_batch(client: Any, scraped_file_ids: list[str]) -> 
     return list(data) if isinstance(data, list) else [data]
 
 
-async def run(dry_run: bool) -> None:
+async def run(dry_run: bool, min_files: int = 1, force: bool = False) -> None:
     client = _get_service_role_client()
 
     # 1. Validation results with status='correct' (limit 200 to have buffer after filter)
@@ -159,10 +163,16 @@ async def run(dry_run: bool) -> None:
     # 4. Download PDFs and build (bytes, filename, doc_type), source_ids
     files: list[tuple[bytes, str, str]] = []
     source_ids: list[str] = []
-    for sid in scraped_ids:
+    total_to_download = len(scraped_ids)
+    succeeded = 0
+    failed = 0
+    failed_ids: list[str] = []
+    for i, sid in enumerate(scraped_ids, 1):
         row = id_to_row.get(sid)
         if not row:
-            logger.warning("scraped_files row not found for %s", sid)
+            logger.warning("[%d/%d] scraped_files row not found for %s", i, total_to_download, sid)
+            failed += 1
+            failed_ids.append(sid)
             continue
         vrow = id_to_validation.get(sid) or {}
         doc_type = _doc_type_from_validation_row(vrow)
@@ -170,14 +180,34 @@ async def run(dry_run: bool) -> None:
             url = _build_storage_url(row)
             pdf_bytes = await asyncio.to_thread(download_as_bytes, url)
         except Exception as e:
-            logger.warning("Failed to download %s: %s", sid, e)
+            logger.warning("[%d/%d] Failed to download %s (url=%s): %s", i, total_to_download, sid, _build_storage_url(row), e)
+            failed += 1
+            failed_ids.append(sid)
             continue
+        succeeded += 1
+        if i % 10 == 0 or i == 1:
+            logger.info("[%d/%d] Downloaded: %d succeeded, %d failed", i, total_to_download, succeeded, failed)
         filename = (row.get("filename") or "document.pdf").strip() or "document.pdf"
         files.append((pdf_bytes, filename, doc_type))
         source_ids.append(sid)
 
-    if not files:
-        logger.error("No PDFs could be downloaded. Exiting.")
+    # Download summary
+    logger.info("Download complete: %d succeeded, %d failed out of %d", succeeded, failed, total_to_download)
+
+    if not files or (len(files) < min_files and not force):
+        logger.error(
+            "Only %d PDFs downloaded (minimum required: %d). %d failed.",
+            len(files), min_files, failed,
+        )
+        if failed == total_to_download:
+            logger.error(
+                "ALL downloads failed. This usually means storage_path values in scraped_files "
+                "don't match actual blob names in Firebase Storage."
+            )
+            logger.error("Run: python scripts/diagnose_storage_paths.py --validated-only")
+            logger.error("Then: python scripts/fix_storage_paths.py --dry-run")
+        elif not force:
+            logger.error("Use --force to proceed anyway, or --min-files %d to lower the threshold.", len(files))
         return
 
     # Cap at 100 for create_batch_job
@@ -205,8 +235,10 @@ async def run(dry_run: bool) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Submit Gemini Batch extraction for validated-not-extracted files.")
     parser.add_argument("--dry-run", action="store_true", help="Only count/list eligible files; do not create job or call Gemini.")
+    parser.add_argument("--min-files", type=int, default=1, help="Minimum successful downloads required to proceed (default: 1).")
+    parser.add_argument("--force", action="store_true", help="Proceed even if fewer than --min-files were downloaded.")
     args = parser.parse_args()
-    asyncio.run(run(dry_run=args.dry_run))
+    asyncio.run(run(dry_run=args.dry_run, min_files=args.min_files, force=args.force))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,64 @@
+# Scripts Rule – Always Follow When Working With Scripts
+
+## Description
+This rule MUST be followed whenever you create, modify, or run any script in `scripts/`. It ensures scripts are safe, consistent, and documented.
+
+## Trigger Conditions
+This rule applies when:
+- Creating or editing any file under `scripts/*.py`
+- Adding or changing CLI entrypoints that run scripts
+- Suggesting or running commands that execute `scripts/*.py`
+
+## Required Practices
+
+### 1. Run From Repository Root
+Scripts assume the project root is the current working directory so `app` imports resolve.
+
+- **Do:** `python scripts/<name>.py` or `cd <repo_root> && python scripts/<name>.py`
+- **Do not:** Run from inside `scripts/` or another directory without ensuring the project root is on `sys.path`
+
+Existing scripts use:
+```python
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+```
+Keep this pattern for any new script that imports from `app.*`.
+
+### 2. Dry-Run Before Writes
+For any script that **writes** to the database, Supabase, Firebase, external APIs, or the filesystem (other than logs):
+
+- **Implement** a `--dry-run` (or equivalent) flag that reports what would be done without performing writes.
+- **Document** in the script docstring: "Use `--dry-run` to report only / preview without changes."
+- **Run dry-run first** when testing or when the user asks to run the script, unless they explicitly request a live run.
+
+Examples: `backfill_scraped_file_ids.py`, `register_and_link_extractions.py`, `upload_local_extractions.py`, `run_extraction_batch_from_validated.py`, `migrate_firestore_to_supabase.py`.
+
+### 3. Document Purpose and Usage
+Every script must have:
+
+- A **module docstring** with: one-line purpose, and a **Usage** section showing example commands (including `--dry-run` if applicable).
+- **argparse** (or equivalent) for CLI scripts, with `description` and help text for each flag (e.g. `--dry-run`, `--bucket`).
+
+### 4. Environment and Dependencies
+- Scripts that touch Supabase may need **SUPABASE_SERVICE_ROLE_KEY** to bypass RLS; document this in the script or in AGENTS.md/project-context.
+- Scripts that touch Firebase Storage need **FIREBASE_CREDENTIALS_PATH** or **FIREBASE_SERVICE_ACCOUNT_JSON**; fail early with a clear error if missing.
+- Do not hardcode secrets; use `app.config.get_settings()` or env vars.
+
+### 5. Async and Threading
+- If a script uses `asyncio.to_thread` (or similar) with lambdas that capture loop variables, **capture by default argument** to avoid closure bugs:
+  - **Wrong:** `lambda: client.table("x").eq("id", eid).execute()` (eid can be wrong after loop).
+  - **Right:** `lambda eid=eid: client.table("x").eq("id", eid).execute()`.
+
+### 6. Idempotency and Duplicates
+- Scripts that insert into the database should handle **unique constraint violations** (e.g. duplicate `file_id`) by reusing the existing row or skipping, and still completing the rest of the work where possible.
+
+## Checklist Before Adding or Changing a Script
+- [ ] Runs from repo root; `sys.path` set if using `app` imports.
+- [ ] If it writes anywhere: has `--dry-run` and docstring documents it.
+- [ ] Docstring includes purpose and Usage examples.
+- [ ] CLI uses argparse with helpful descriptions.
+- [ ] No hardcoded secrets; uses config/env.
+- [ ] If using asyncio.to_thread with loop variables, lambdas capture by default args.
+- [ ] Insert logic handles duplicate-key errors where applicable.
+
+## Reference
+- Script list and usage: see **AGENTS.md** (Database Query Scripts, Script Details) and **.cursor/rules/project-context.mdc** (File Structure).

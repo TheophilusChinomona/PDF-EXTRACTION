@@ -1,6 +1,6 @@
 # Current Project Status
 
-Last updated: 2026-02-04
+Last updated: 2026-02-05
 
 ## Active Batch Jobs
 
@@ -22,6 +22,14 @@ LIMIT 5;
 ```
 
 ## Recent Changes
+
+### 2026-02-05: Storage Path Fix & Extraction Resilience
+
+- Added `scripts/diagnose_storage_paths.py` - Diagnose storage_path vs Firebase blob mismatches
+- Added `scripts/fix_storage_paths.py` - Fix mismatched storage_path values (`--dry-run` / `--run`)
+- Updated `scripts/run_extraction_batch_from_validated.py` - Added `--min-files`, `--force` flags, download progress logging, and actionable error messages when all downloads fail
+- Added `docs/CONTRIB.md` - Contributing guide with scripts reference and environment setup
+- Added `docs/RUNBOOK.md` - Operational runbook with deployment, monitoring, troubleshooting, and rollback
 
 ### 2026-02-04: Gemini Batch API Implementation
 
@@ -50,7 +58,8 @@ As of 2026-02-04:
 
 ## Next Steps
 
-1. Wait for current batch job to complete (check with poll-batch-jobs)
-2. Verify extraction results are correctly stored
-3. Run additional batches to process remaining validated files
-4. Consider adding parallel PDF downloads for faster submission
+1. Run `python scripts/diagnose_storage_paths.py --validated-only` to identify storage path mismatches
+2. Run `python scripts/fix_storage_paths.py --dry-run` then `--run` to fix paths
+3. Re-run extraction batch: `python scripts/run_extraction_batch_from_validated.py`
+4. Poll for results: `python -m app.cli poll-batch-jobs --once`
+5. Run additional batches to process remaining ~9,700 validated files

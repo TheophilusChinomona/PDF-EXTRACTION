@@ -271,12 +271,14 @@ async def build_validation_request(
     try:
         uploaded = await asyncio.to_thread(client.files.upload, file=path)
         name = uploaded.name if hasattr(uploaded, "name") else str(uploaded)
+        # Use full URI for Batch API (not just the file name)
+        file_uri = uploaded.uri if hasattr(uploaded, "uri") else name
         # Request: one user content with file + text parts; config = response_schema
         request = {
             "contents": [
                 {
                     "parts": [
-                        {"file_data": {"file_uri": name}},
+                        {"file_data": {"file_uri": file_uri}},
                         {"text": user_prompt},
                     ],
                     "role": "user",
@@ -317,11 +319,13 @@ async def build_extraction_request(
     try:
         uploaded = await asyncio.to_thread(client.files.upload, file=path)
         name = uploaded.name if hasattr(uploaded, "name") else str(uploaded)
+        # Use full URI for Batch API (not just the file name)
+        file_uri = uploaded.uri if hasattr(uploaded, "uri") else name
         request = {
             "contents": [
                 {
                     "parts": [
-                        {"file_data": {"file_uri": name}},
+                        {"file_data": {"file_uri": file_uri}},
                         {"text": user_prompt},
                     ],
                     "role": "user",

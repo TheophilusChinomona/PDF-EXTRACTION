@@ -118,3 +118,20 @@ def blob_exists(storage_url: str) -> bool:
         return blob.exists()
     except Exception:
         return False
+
+
+def list_blobs(bucket_name: str, prefix: str = "") -> list[str]:
+    """
+    List blob names (storage paths) in a bucket under the given prefix.
+
+    Args:
+        bucket_name: GCS/Firebase Storage bucket name (e.g. scrapperdb-f854d.firebasestorage.app).
+        prefix: Optional prefix (e.g. "pdfs/"). Only blobs whose names start with this are returned.
+
+    Returns:
+        List of blob names (paths within the bucket).
+    """
+    client = _get_client()
+    bucket = client.bucket(bucket_name)
+    blobs = bucket.list_blobs(prefix=prefix)
+    return [blob.name for blob in blobs]

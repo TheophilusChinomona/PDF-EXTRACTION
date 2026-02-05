@@ -8,13 +8,18 @@ Filename convention matches the repo standard:
   {short_id}-{subject-slug}-gr{grade}-{session-slug}-{year}-{qp|mg}.md
 
 Usage:
-    python scripts/export_extractions_md.py
+    python scripts/export_extractions_md.py                  # hardcoded IDs
+    python scripts/export_extractions_md.py --all            # all completed
+    python scripts/export_extractions_md.py --all --limit 50
+    python scripts/export_extractions_md.py --all --since 2026-02-01
 """
 
+import argparse
 import json
 import os
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import httpx
@@ -425,58 +430,146 @@ def memo_to_markdown(data: dict, meta: dict, eid: str) -> str:
     return "\n".join(lines)
 
 
+def _fetch_all_completed(supabase, limit: int | None, since: str | None) -> list[tuple[dict, str]]:
+    """Fetch all completed extractions from both tables.
+
+    Returns list of (row_dict, doc_type) tuples where doc_type is 'qp' or 'memo'.
+    """
+    results: list[tuple[dict, str]] = []
+
+    # Use service role key if available for RLS bypass
+    service_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    if service_key:
+        sb = create_client(SUPABASE_URL, service_key)
+    else:
+        sb = supabase
+
+    # Fetch from both tables (apply limit to each, then merge and trim)
+    fetch_limit = limit if limit else 1000
+
+    q = sb.table("extractions").select("*").eq("status", "completed")
+    if since:
+        q = q.gte("created_at", since)
+    q = q.order("created_at", desc=True).limit(fetch_limit)
+    try:
+        resp = q.execute()
+        for row in resp.data or []:
+            results.append((row, "qp"))
+    except Exception as e:
+        print(f"  WARNING: Failed to fetch extractions: {e}")
+
+    q2 = sb.table("memo_extractions").select("*").eq("status", "completed")
+    if since:
+        q2 = q2.gte("created_at", since)
+    q2 = q2.order("created_at", desc=True).limit(fetch_limit)
+    try:
+        resp2 = q2.execute()
+        for row in resp2.data or []:
+            results.append((row, "memo"))
+    except Exception as e:
+        print(f"  WARNING: Failed to fetch memo_extractions: {e}")
+
+    # Sort combined results by created_at descending, then trim to limit
+    results.sort(key=lambda x: x[0].get("created_at", ""), reverse=True)
+    if limit:
+        results = results[:limit]
+
+    return results
+
+
+def _export_record(data: dict, doc_type: str, supabase, index: int, total: int) -> str | None:
+    """Export a single extraction record to markdown. Returns output filename or None."""
+    eid = str(data.get("id", "unknown"))
+
+    if doc_type == "memo":
+        meta = get_memo_meta(data)
+    else:
+        meta = get_qp_meta(data)
+
+    suffix = "mg" if doc_type == "memo" else "qp"
+    scraped_file_id = data.get("scraped_file_id")
+    name_id = scraped_file_id if scraped_file_id else eid
+    canonical = build_canonical_name(
+        name_id, meta["subject"], meta["grade"],
+        meta["session"], meta["year"], suffix,
+    )
+
+    if doc_type == "memo":
+        md = memo_to_markdown(data, meta, eid)
+    else:
+        md = qp_to_markdown(data, meta, eid)
+
+    out_name = f"{canonical}.md"
+    out_path = OUTPUT_DIR / out_name
+    out_path.write_text(md, encoding="utf-8")
+
+    subj = meta["subject"] or "N/A"
+    lang = meta["language"] or "N/A"
+    status = data.get("status", "?")
+    print(f"  [{index}/{total}] {out_name}")
+    print(f"          subject={subj}  language={lang}  type={doc_type}  status={status}")
+    return out_name
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Export extraction results to Markdown files.",
+    )
+    parser.add_argument(
+        "--all", action="store_true",
+        help="Export all completed extractions from both tables.",
+    )
+    parser.add_argument(
+        "--limit", type=int, default=None,
+        help="Max records to export.",
+    )
+    parser.add_argument(
+        "--since", type=str, default=None,
+        help="Only records created after this date (YYYY-MM-DD).",
+    )
+    args = parser.parse_args()
+
+    # Validate --since format
+    if args.since:
+        try:
+            datetime.strptime(args.since, "%Y-%m-%d")
+        except ValueError:
+            parser.error("--since must be in YYYY-MM-DD format")
+
     OUTPUT_DIR.mkdir(exist_ok=True)
     supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-    print(f"Exporting {len(EXTRACTION_IDS)} extractions to {OUTPUT_DIR}/\n")
+    if args.all:
+        records = _fetch_all_completed(supabase, limit=args.limit, since=args.since)
+        total = len(records)
+        print(f"Exporting {total} completed extraction(s) to {OUTPUT_DIR}/\n")
+        exported = 0
+        for i, (data, doc_type) in enumerate(records, 1):
+            result = _export_record(data, doc_type, supabase, i, total)
+            if result:
+                exported += 1
+        print(f"\nDone. {exported} Markdown files saved to: {OUTPUT_DIR}")
+    else:
+        # Legacy: hardcoded EXTRACTION_IDS
+        ids = EXTRACTION_IDS
+        total = len(ids)
+        print(f"Exporting {total} extractions to {OUTPUT_DIR}/\n")
 
-    for i, eid in enumerate(EXTRACTION_IDS, 1):
-        # Try extractions table via API first
-        data = fetch_from_api(eid)
-        doc_type = "qp"
+        for i, eid in enumerate(ids, 1):
+            data = fetch_from_api(eid)
+            doc_type = "qp"
 
-        if data is None:
-            # Try memo_extractions table
-            data = fetch_from_supabase_memo(supabase, eid)
-            doc_type = "memo"
+            if data is None:
+                data = fetch_from_supabase_memo(supabase, eid)
+                doc_type = "memo"
 
-        if data is None:
-            print(f"  [{i}/10] {eid} -- NOT FOUND in either table")
-            continue
+            if data is None:
+                print(f"  [{i}/{total}] {eid} -- NOT FOUND in either table")
+                continue
 
-        # Extract metadata from the appropriate location
-        if doc_type == "memo":
-            meta = get_memo_meta(data)
-        else:
-            meta = get_qp_meta(data)
+            _export_record(data, doc_type, supabase, i, total)
 
-        suffix = "mg" if doc_type == "memo" else "qp"
-        # Prefer scraped_file_id for canonical naming (end-to-end traceability)
-        scraped_file_id = data.get("scraped_file_id")
-        name_id = scraped_file_id if scraped_file_id else eid
-        canonical = build_canonical_name(
-            name_id, meta["subject"], meta["grade"],
-            meta["session"], meta["year"], suffix
-        )
-
-        # Build markdown
-        if doc_type == "memo":
-            md = memo_to_markdown(data, meta, eid)
-        else:
-            md = qp_to_markdown(data, meta, eid)
-
-        out_name = f"{canonical}.md"
-        out_path = OUTPUT_DIR / out_name
-        out_path.write_text(md, encoding="utf-8")
-
-        lang = meta["language"] or "N/A"
-        subj = meta["subject"] or "N/A"
-        status = data.get("status", "?")
-        print(f"  [{i}/10] {out_name}")
-        print(f"          subject={subj}  language={lang}  type={doc_type}  status={status}")
-
-    print(f"\nDone. Markdown files saved to: {OUTPUT_DIR}")
+        print(f"\nDone. Markdown files saved to: {OUTPUT_DIR}")
 
 
 if __name__ == "__main__":

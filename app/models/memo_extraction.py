@@ -61,13 +61,13 @@ class MemoQuestion(GeminiCompatibleModel):
         default=None,
         description="List of ALL valid facts listed in the memo. For questions with positive/negative aspects, use dict with 'positives'/'negatives' keys"
     )
-    answers: Optional[List[Dict[str, str]]] = Field(
+    answers: Optional[List[Dict[str, Union[str, int, None]]]] = Field(
         default=None,
-        description="For sub-questions like 1.2.1, 1.2.2. Format: [{'sub_id': '1.2.1', 'value': 'Answer'}]"
+        description="For sub-questions like 1.2.1, 1.2.2. Format: [{'sub_id': '1.2.1', 'value': 'Answer', 'marks': 2}]"
     )
-    structured_answer: Optional[List[Dict[str, str]]] = Field(
+    structured_answer: Optional[List[Dict[str, Any]]] = Field(
         default=None,
-        description="For questions requiring paired answers. Format: [{'strategy': '...', 'motivation': '...'}] or [{'function': '...', 'motivation': '...'}]"
+        description="For questions requiring paired answers. Format: [{'strategy': '...', 'motivation': '...', 'mark': 2}] or [{'function': '...', 'motivation': '...', 'points': [...]}]"
     )
 
     # Grading information
@@ -122,8 +122,8 @@ class MarkingGuideline(GeminiCompatibleModel):
     This is the primary output model for memo extraction, containing all
     correct answers and marking instructions for an examination paper.
     """
-    meta: Dict[str, Union[str, int]] = Field(
-        description="Document metadata: subject, type, year, session, grade, total_marks"
+    meta: Dict[str, Any] = Field(
+        description="Document metadata: subject, type, year, session, grade, total_marks, general_marker_instructions"
     )
     sections: List[MemoSection] = Field(
         default_factory=list,

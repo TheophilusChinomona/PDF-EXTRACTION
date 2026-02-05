@@ -1,0 +1,102 @@
+# Supabase Schema Check Rule
+
+## Description
+ALWAYS query the Supabase database before making ANY changes to database schemas, migrations, or database-related code.
+
+## Trigger Conditions
+This rule applies when:
+- Creating or modifying SQL migration files (`migrations/*.sql`)
+- Editing database CRUD files (`app/db/*.py`)
+- Modifying Pydantic models that map to database tables (`app/models/*.py`)
+- Adding/removing columns or tables
+- Creating indexes, constraints, or RLS policies
+- Any file containing `CREATE TABLE`, `ALTER TABLE`, `DROP`, or schema modifications
+
+## Required Actions
+
+### Before ANY Schema Change
+
+1. **Query current table structure:**
+```
+Use the Supabase MCP tool: user-supabase-list_tables
+Parameters: {"schemas": ["public"]}
+```
+
+2. **Check existing data counts:**
+```sql
+-- Run via user-supabase-execute_sql
+SELECT 
+  'table_name' as table_name,
+  COUNT(*) as total_records
+FROM table_name;
+```
+
+3. **Verify foreign key relationships:**
+```sql
+-- Check what references the table you're modifying
+SELECT
+  tc.table_name, 
+  kcu.column_name,
+  ccu.table_name AS foreign_table_name,
+  ccu.column_name AS foreign_column_name
+FROM information_schema.table_constraints AS tc
+JOIN information_schema.key_column_usage AS kcu
+  ON tc.constraint_name = kcu.constraint_name
+JOIN information_schema.constraint_column_usage AS ccu
+  ON ccu.constraint_name = tc.constraint_name
+WHERE tc.constraint_type = 'FOREIGN KEY'
+  AND (tc.table_name = 'target_table' OR ccu.table_name = 'target_table');
+```
+
+### Before Dropping/Modifying Columns
+
+1. **Check if column has data:**
+```sql
+SELECT COUNT(*) FROM table_name WHERE column_name IS NOT NULL;
+```
+
+2. **Check for dependent views/functions:**
+```sql
+SELECT routine_name, routine_type 
+FROM information_schema.routines 
+WHERE routine_definition LIKE '%column_name%';
+```
+
+### Key Tables Reference (Feb 5, 2026)
+
+| Table | Records | Critical Columns |
+|-------|---------|------------------|
+| `scraped_files` | 35,944 | validation_status, document_type, storage_path |
+| `validation_results` | 10,554 | status, scraped_file_id (FK) |
+| `extractions` | 70 | file_hash, scraped_file_id (FK) |
+| `memo_extractions` | 62 | file_hash, scraped_file_id (FK) |
+| `gemini_batch_jobs` | 2 | gemini_job_name, status |
+| `batch_jobs` | 11 | status, total_files |
+| `file_registry` | 2,841 | validation_status |
+
+### Migration Best Practices
+
+1. **Never DROP columns with data** without explicit user confirmation
+2. **Use `IF EXISTS` / `IF NOT EXISTS`** in migrations for idempotency
+3. **Add indexes CONCURRENTLY** to avoid locking on large tables
+4. **Test migrations on a branch first** using `user-supabase-create_branch`
+
+### Example Pre-Check Workflow
+
+Before modifying `extractions` table:
+
+```
+1. List tables: user-supabase-list_tables({"schemas": ["public"]})
+2. Check record count: SELECT COUNT(*) FROM extractions;  -- Currently: 70
+3. Check foreign keys referencing this table
+4. Check if any RLS policies exist
+5. ONLY THEN proceed with migration
+```
+
+## Warning Signs
+
+Stop and ask user for confirmation if:
+- Table has > 0 records and you're about to DROP it
+- Column has non-null data and you're removing it
+- Foreign keys depend on the column/table
+- Migration would break existing application code
