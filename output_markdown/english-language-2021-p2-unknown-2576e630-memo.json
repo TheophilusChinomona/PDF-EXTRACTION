@@ -1,0 +1,192 @@
+{
+  "id": "5dba1f3e-dfc0-45ff-8b12-496c9413d4e5",
+  "file_name": "OCR-A-Level-English-Language-Paper-2-November-2021-Mark-Scheme.pdf",
+  "file_size_bytes": 303833,
+  "file_hash": "3b1221e973373a67489e92beea0520a1ce603e83c1ca2e28cde9e582a68393fa",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "subject": "English Language",
+  "year": 2021,
+  "session": "Autumn",
+  "grade": "Advanced GCE",
+  "total_marks": 80,
+  "sections": [
+    {
+      "questions": [
+        {
+          "id": "1",
+          "text": "Child Language Development Analysis - Text A",
+          "type": "Application Analysis",
+          "marks": 20,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Beth uses labelling correctly 'froggie', albeit in a diminutive form.",
+            "Natasha responds to Danielle’s suggestions and builds on them. Charlie copies her.",
+            "Both children seem to enjoy playing with language and sound within the context of sending a message while wearing frog masks.",
+            "Element of performance.",
+            "Phonology: There is gliding/substitution from Charlie ‘/fw ɒg/’.",
+            "Phonology: Rhyming and repetition of ‘frog’ with a range of words/sounds initiated by Natasha and copied by Charlie.",
+            "Phonology: Natasha uses largely standard pronunciation; Charlie follows her lead and copies.",
+            "Grammar: Natasha uses subject and object pronouns correctly ‘do you miss me’; Charlie copies her.",
+            "Grammar: Syntactic parallelism used by Natasha: first person pronoun + verb, e.g. ‘I like froggie’.",
+            "Grammar: All of the children’s utterances are in the present tense.",
+            "Grammar: Use of concrete nouns – ‘froggie’, ‘logger’ [log], – reflecting topic/activity.",
+            "Grammar: Natasha sometimes omits auxiliary verbs ‘I little froggie cola’, but not always ‘I’m a little froggie’.",
+            "Grammar: Natasha uses standard syntax (e.g. subject-verb-object) appropriately ‘I like going on a loggy’.",
+            "Grammar: Natasha makes use of an interrogative, ‘do you miss me’, and declaratives, ‘I’m a little frog’.",
+            "Grammar: Use of ‘froggie’ as an adjective (‘froggie things’) as well as a noun.",
+            "Concepts: The mother’s interaction provides scaffolding (Bruner) and modelling (Skinner).",
+            "Concepts: Natasha creates neologisms, for example, ‘froggagola’.",
+            "Concepts: Mother uses imperative and interrogative functions to provide scaffolding.",
+            "Concepts: Naming words represent 60% of children's early word production (Nelson).",
+            "Concepts: Capacity for imaginative play suggests cognitive development (Piaget) and imaginative function of language (Halliday).",
+            "Concepts: Mention of Vygotsky’s ZPD – Danielle encouraging children to extend/adapt speech to message format."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "Decide on a mark for AO1 out of 10, and then a separate mark for AO2 out of 10. Add the two marks together to reach a total out of 20 marks. Allocate the mark according to the level of competency demonstrated for each AO individually."
+        },
+        {
+          "id": "2",
+          "text": "Language, Power and Gender Analysis - Text B",
+          "type": "Application Analysis",
+          "marks": 24,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Accompanying image of seven female students reflects the topic and suggests positive body language.",
+            "Interrogative headline ‘Are sexist attitudes still to blame…’ aligns writer with anti-sexist stance.",
+            "Goodman – informalisation features in the online article context.",
+            "Representation of (female) professor as successful disarms gender stereotypes (Pilkington).",
+            "Cameron – assumptions in education regarding females better suited to biology/medicine over physics.",
+            "Graphological features typical of genre (e.g., social media links).",
+            "Lexical fields of science and study: ‘heat-resistance experiment’, ‘A-level’, ‘experimental physics’.",
+            "Latinate/sophisticated lexical choices reflect broadsheet context (The Guardian).",
+            "Use of proper nouns/names to establish credibility/influential power (Fairclough), e.g., Athene Donald.",
+            "Use of numbers/statistics connotes instrumental power of auditing organisations.",
+            "Metaphor ‘champion’ for female physics professor suggests context of an ongoing battle.",
+            "Noun phrases in apposition for naming participants: ‘Alice, a sixth-former at Lampton School’.",
+            "Pragmatics: Positioning in relation to clichéd expectations (Twilight, boy bands) is unclear/ironic.",
+            "Pragmatics: Focus on asymmetry in subject choices and encouraging females into science.",
+            "Pragmatics: Idiomatic reference to ‘a bit of stick’ as a euphemism for resistance girls face in physics.",
+            "Pragmatics: Use of Lampton School as a specific example to address asymmetry.",
+            "Semantic field of deterioration: ‘risk’, ‘slip’, ‘problem’."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "Decide on a mark for AO2 out of 12, and then a separate mark for AO3 out of 12. Add the two marks together to reach a total out of 24 marks."
+        }
+      ],
+      "section_id": "SECTION B"
+    },
+    {
+      "questions": [
+        {
+          "id": "3",
+          "text": null,
+          "type": null,
+          "marks": null,
+          "notes": null,
+          "topic": "Language Change: 19th vs 21st Century Volcano Reports (Text C and Text D)",
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Comparison of the sense of individual writer (Text C) vs neutral historical view (Text D).",
+              "Analysis of how language has varied over time from 1868 to 2018 in terms of complexity and formality."
+            ],
+            "introduction": [
+              "Text C: Letter to the editor of a local newspaper (1868) describing volcanic activity in South Hawaii; focus on impact on surroundings; precise but personal tone.",
+              "Text D: Online article from Hawaii Volcano Observatory (2018) informing readers about the 1868 eruption; historical view; neutral and impersonal."
+            ],
+            "body_sections": [
+              {
+                "sub_topic": "Lexis and Semantics",
+                "text_c_points": [
+                  "Lends itself to multiple concrete nouns (crater, fissures, stream) known to local readership.",
+                  "Archaic usage of 'rent'.",
+                  "Formal register: 'Sir' convention, 'hasten', 'let me state'.",
+                  "Latinate language: 'convulsions', 'descended', 'extensive'.",
+                  "Lexical field of communication: 'statement', 'correspondents', 'communicated'.",
+                  "Emotive verb choices: 'rent by', 'thrown down', 'lost'."
+                ],
+                "text_d_points": [
+                  "Concrete nouns (mountain, lava) and specialist lexis (décollement) with glossing.",
+                  "Lexical field of conflict (damage, destroyed) and volcanoes.",
+                  "Use of dramatic journalese: 'most deadly', 'destruction', 'volcanic crisis'.",
+                  "Use of dates and numbers for specificity and measurement (magnitude 7.8).",
+                  "Lexical field of change: 'moved', 'subsided', 'shaking'."
+                ]
+              },
+              {
+                "sub_topic": "Grammar and Morphology",
+                "text_c_points": [
+                  "Clause-laden sentences characteristic of the period.",
+                  "Relative clauses used to provide additional information.",
+                  "Active sentences foreground the writer’s role ('I descended'); passive voice used for volcanic impact.",
+                  "Largely declarative, complex/compound sentences.",
+                  "Fronted adverbials: 'Of Hilo I have little to say' (archaic/quaint).",
+                  "Intensifiers ('very') and superlatives ('most active') for precision."
+                ],
+                "text_d_points": [
+                  "Complex sentences with embedded clauses but less complexity than Text C.",
+                  "Dynamic verbs: 'bounced', 'destroyed'.",
+                  "Conditional 'If it happened today' to provide temporal context.",
+                  "Modal auxiliary 'would' used for comparison with other events.",
+                  "Proper nouns used throughout to reflect geographic focus.",
+                  "Repetition of superlatives ('strongest', 'most deadly')."
+                ]
+              },
+              {
+                "sub_topic": "Discourse and Pragmatics",
+                "text_c_points": [
+                  "Cohesion provided by letter format and chronological paragraphs.",
+                  "Explicit engagement with the reader at the beginning.",
+                  "Framed in terms of urgency ('I hasten') and status (referencing the local clergyman).",
+                  "Passive voice represents the landscape at the mercy of the volcano."
+                ],
+                "text_d_points": [
+                  "Informative style with chronological structure and temporal discourse markers.",
+                  "Short paragraphs characteristic of online articles.",
+                  "Ending acts as summary and hook into subsequent articles.",
+                  "Framing in relation to other historical earthquakes (1906 San Francisco) for context.",
+                  "Use of jargon/glossing to meet informative purpose.",
+                  "Juxtaposition of factual content with figurative language ('bounced like balls')."
+                ]
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        }
+      ],
+      "section_id": "SECTION C"
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 16648,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T06:58:49.758479+00:00",
+  "updated_at": "2026-02-06T06:58:49.758479+00:00",
+  "webhook_url": null,
+  "scraped_file_id": "04cc16c2-cfeb-4c52-9d9e-18f1989b54a2"
+}

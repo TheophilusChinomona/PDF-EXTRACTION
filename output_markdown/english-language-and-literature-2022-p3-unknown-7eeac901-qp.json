@@ -1,0 +1,110 @@
+{
+  "id": "a51b0e25-335e-408d-8e48-912a7e4dfccc",
+  "file_name": "OCR-A-Level-English-Language-and-Literature-Paper-3-June-2022-QP.pdf",
+  "file_size_bytes": 153544,
+  "file_hash": "b24d3161438d5a19edceb01379d5875f393222403848e9680a30b9190a6d70da",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T07:13:35.700726+00:00",
+  "updated_at": "2026-02-06T07:13:35.700726+00:00",
+  "webhook_url": null,
+  "subject": "English Language and Literature (EMC)",
+  "syllabus": "OCR",
+  "year": 2022,
+  "session": "MAY/JUNE",
+  "grade": "A Level",
+  "language": "English",
+  "total_marks": 64,
+  "groups": [
+    {
+      "title": "Section A – Reading as a writer",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1",
+          "text": "In what ways does the opening of the novel set the narrative in motion? You should range across the text to explore how features such as character, setting and viewpoint are introduced during the early stages of the novel, the function the opening plays in the novel as a whole, and the broader generic context.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "Charlotte Brontë: Jane Eyre\nF Scott Fitzgerald: The Great Gatsby\nChinua Achebe: Things Fall Apart\nArundhati Roy: The God of Small Things\nIan McEwan: Atonement\nJhumpa Lahiri: The Namesake",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Choose one of the following two questions and answer in relation to the text that you have studied. You should spend about 1 hour on this section. Either"
+    },
+    {
+      "title": "Section A – Reading as a writer",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2",
+          "text": "In what ways does the writer of your text use symbols and motifs? You should range across the text to explore how symbols and motifs are used, the function they play in the novel as a whole, and the broader generic context.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Or"
+    },
+    {
+      "title": "Section B – Writing as a reader",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3",
+          "text": "Choose one of the storylines below to develop as the opening of a narrative. Write your narrative, making your own choices and the story’s starting point and linguistic techniques. You are writing the opening to a narrative, and can use any one of the bullet points as the beginning of your story. You are not expected to write the full story and you are not required to use all six bullet points. You should write approximately 500 words.",
+          "marks": 18,
+          "context": null,
+          "options": null,
+          "scenario": "Either\nStoryline 1\n• The dinghy beached at low-tide.\n• English summer days are long, so we knew we had plenty of time to get ashore, including all the children.\n• Fifteen of us got out, splashing on the shingle.\n• As I had suspected, the Coastguard were waiting: three burly figures in high-viz jackets.\n• I had come a long way, parted with a lot of money, and spoke very good English.\n• I was ready with my answer when one of them asked me, ‘What are you doing in England?’\n\nOr\nStoryline 2\n• All day long the old woman struggles with her house and the objects in it.\n• The doors will not shut.\n• The plaster walls dampen with rain.\n• She finds dead insects everywhere.\n• In desperation she exhausts herself sweeping, dusting, mending.\n• At night she sinks into bed. The house has a life of its own.\n[Lydia Davis, Collected Stories (2011), p. 709, abridged.]",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer Question 3 and Question 4 in this section. You have a choice of task in Question 3. It is recommended that you spend about 40 minutes on Question 3 and 20 minutes on Question 4."
+    },
+    {
+      "title": "Section B – Writing as a reader",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4",
+          "text": "Outline the key narrative and linguistic techniques you have used in your writing for Question 3. You should write approximately 250 words.",
+          "marks": 14,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 8436,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "23aefecd-4b77-4f36-937a-08887f13966b"
+}

@@ -1,0 +1,320 @@
+{
+  "id": "1578813f-10e4-4adb-a48f-ac5d0b2d52a9",
+  "file_name": "OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf",
+  "file_size_bytes": 189254,
+  "file_hash": "f25827c09e798c9b99431408639315bbdb81d8d4709d4acb33bce06dedd0938c",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T07:11:47.330197+00:00",
+  "updated_at": "2026-02-06T07:11:47.330197+00:00",
+  "webhook_url": null,
+  "subject": "A Level English Literature",
+  "syllabus": "OCR A Level",
+  "year": 2022,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 60,
+  "groups": [
+    {
+      "title": "Section 1 – Shakespeare: Coriolanus",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1(a)",
+          "text": "Discuss the following passage from Act 1 Scene 1, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Rome. A street. \nEnter a company of mutinous Citizens, with staves, clubs, and other weapons. \n1 CITIZEN Before we proceed any further, hear me speak. \nALL Speak, speak. \n1 CITIZEN You are all resolv’d rather to die than to famish? \nALL Resolv’d, resolv’d. \n1 CITIZEN First, you know Caius Marcius is chief enemy to the people. \nALL We know’t, we know’t. \n1 CITIZEN Let us kill him, and we’ll have corn at our own price. Is’t a verdict? \nALL No more talking on’t; let it be done. Away, away! \n2 CITIZEN One word, good citizens. \n1 CITIZEN We are accounted poor citizens, the patricians good. What authority surfeits on would relieve us; if they would yield us but the superfluity while it were wholesome, we might guess they relieved us humanely; but they think we are too dear. The leanness that afflicts us, the object of our misery, is as an inventory to particularize their abundance; our sufferance is a gain to them. Let us revenge this with our pikes ere we become rakes; for the gods know I speak this in hunger for bread, not in thirst for revenge. \n2 CITIZEN Would you proceed especially against Caius Marcius? \n1 CITIZEN Against him first; he’s a very dog to the commonalty.\n2 CITIZEN Consider you what services he has done for his country? \n1 CITIZEN Very well, and could be content to give him good report for’t but that he pays himself with being proud. \n2 CITIZEN Nay, but speak not maliciously. \n1 CITIZEN I say unto you, what he hath done famously he did it to that end; though soft-conscienc’d men can be content to say it was for his country, he did it to please his mother and to be partly proud, which he is, even to the altitude of his virtue. \n2 CITIZEN What he cannot help in his nature you account a vice in him. You must in no way say he is covetous. \n1 CITIZEN If I must not, I need not be barren of accusations; he hath faults, with surplus, to tire in repetition. [Shouts within] What shouts are these? The other side o’ th’ city is risen. Why stay we prating here? To th’ Capitol! \nALL Come, come. \n1 CITIZEN Soft! who comes here? \nEnter MENENIUS AGRIPPA. \n2 CITIZEN Worthy Menenius Agrippa; one that hath always lov’d the people. \n1 CITIZEN He’s one honest enough; would all the rest were so! \nMENENIUS What work’s, my countrymen, in hand? Where go you \nWith bats and clubs? The matter? Speak, I pray you. \n1 CITIZEN Our business is not unknown to th’ Senate; they have had inkling this fortnight what we intend to do, which now we’ll show ’em in deeds. They say poor suitors have strong breaths; they shall know we have strong arms too. \nMENENIUS Why, masters, my good friends, mine honest neighbours, \nWill you undo yourselves?",
+          "parent_id": "1",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1(b)",
+          "text": "‘Rigid social structures control the events of the play.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of the play Coriolanus. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "1",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question, both parts (a) and (b), from this section. You should spend about 1 hour and 15 minutes on this section. Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Hamlet",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2(a)",
+          "text": "Discuss the following passage from Act 1 Scene 3, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter POLONIUS. \nLAERTES I stay too long. But here my father comes. \nA double blessing is a double grace; \nOccasion smiles upon a second leave. \nPOLONIUS Yet here, Laertes! Aboard, aboard, for shame! \nThe wind sits in the shoulder of your sail, \nAnd you are stay’d for. There – my blessing with thee! \nAnd these few precepts in thy memory \nLook thou character. Give thy thoughts no tongue, \nNor any unproportion’d thought his act. \nBe thou familiar, but by no means vulgar. \nThose friends thou hast, and their adoption tried, \nGrapple them to thy soul with hoops of steel; \nBut do not dull thy palm with entertainment \nOf each new-hatch’d, unfledg’d courage. Beware \nOf entrance to a quarrel; but, being in, \nBear’t that th’ opposed may beware of thee. \nGive every man thy ear, but few thy voice; \nTake each man’s censure, but reserve thy judgment. \nCostly thy habit as thy purse can buy, \nBut not express’d in fancy; rich, not gaudy; \nFor the apparel oft proclaims the man; \nAnd they in France of the best rank and station \nAre of a most select and generous choice in that. \nNeither a borrower nor a lender be; \nFor loan oft loses both itself and friend, \nAnd borrowing dulls the edge of husbandry. \nThis above all – to thine own self be true, \nAnd it must follow, as the night the day, \nThou canst not then be false to any man. \nFarewell; my blessing season this in thee! \nLAERTES Most humbly do I take my leave, my lord. \nPOLONIUS The time invites you; go, your servants tend. \nLAERTES Farewell, Ophelia; and remember well \nWhat I have said to you. \nOPHELIA ’Tis in my memory lock’d, \nAnd you yourself shall keep the key of it. \nLAERTES Farewell. [Exit. \nPOLONIUS What is’t, Ophelia, he hath said to you? \nOPHELIA So please you, something touching the Lord Hamlet. \nPOLONIUS Marry, well bethought! \n’Tis told me he hath very oft of late \nGiven private time to you; and you yourself \nHave of your audience been most free and bounteous. \nIf it be so – as so ’tis put on me, \nAnd that in way of caution – I must tell you \nYou do not understand yourself so clearly \nAs it behoves my daughter and your honour. \nWhat is between you? Give me up the truth. \nOPHELIA He hath, my lord, of late made many tenders \nOf his affection to me. \nPOLONIUS Affection! Pooh! You speak like a green girl, \nUnsifted in such perilous circumstance. \nDo you believe his tenders, as you call them? \nOPHELIA I do not know, my lord, what I should think. \nPOLONIUS Marry, I will teach you: think yourself a baby \nThat you have ta’en these tenders for true pay \nWhich are not sterling. Tender yourself more dearly; \nOr – not to crack the wind of the poor phrase, \nRunning it thus – you’ll tender me a fool. \nOPHELIA My lord, he hath importun’d me with love \nIn honourable fashion. \nPOLONIUS Ay, fashion you may call it; go to, go to. \nOPHELIA And hath given countenance to his speech, my lord, \nWith almost all the holy vows of heaven.",
+          "parent_id": "2",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2(b)",
+          "text": "‘The play Hamlet demonstrates many ways in which parents seek to control their children.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of the play Hamlet. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "2",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Measure for Measure",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3(a)",
+          "text": "Discuss the following passage from Act 3 Scene 2, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "LUCIO What news, friar, of the Duke? \nDUKE I know none. Can you tell me of any? \nLUCIO Some say he is with the Emperor of Russia; other some, he is in Rome; but where is he, think you? \nDUKE I know not where; but wheresoever, I wish him well. \nLUCIO It was a mad fantastical trick of him to steal from the state and usurp the beggary he was never born to. Lord Angelo dukes it well in his absence; he puts transgression to’t. \nDUKE He does well in’t. \nLUCIO A little more lenity to lechery would do no harm in him. Something too crabbed that way, friar. \nDUKE It is too general a vice, and severity must cure it. \nLUCIO Yes, in good sooth, the vice is of a great kindred; it is well allied; but it is impossible to extirp it quite, friar, till eating and drinking be put down. They say this Angelo was not made by man and woman after this downright way of creation. Is it true, think you? \nDUKE How should he be made, then? \nLUCIO Some report a sea-maid spawn’d him; some, that he was begot between two stock-fishes. But it is certain that when he makes water his urine is congeal’d ice; that I know to be true. And he is a motion generative; that’s infallible. \nDUKE You are pleasant, sir, and speak apace. \nLUCIO Why, what a ruthless thing is this in him, for the rebellion of a codpiece to take away the life of a man! Would the Duke that is absent have done this? Ere he would have hang’d a man for the getting a hundred bastards, he would have paid for the nursing a thousand. He had some feeling of the sport; he knew the service, and that instructed him to mercy. \nDUKE I never heard the absent Duke much detected for women; he was not inclin’d that way. \nLUCIO O, sir, you are deceiv’d. \nDUKE ’Tis not possible. \nLUCIO Who – not the Duke? Yes, your beggar of fifty; and his use was to put a ducat in her clack-dish. The Duke had crotchets in him. He would be drunk too; that let me inform you. \nDUKE You do him wrong, surely. \nLUCIO Sir, I was an inward of his. A shy fellow was the Duke; and I believe I know the cause of his withdrawing. \nDUKE What, I prithee, might be the cause? \nLUCIO No, pardon; ’tis a secret must be lock’d within the teeth and the lips; but this I can let you understand: the greater file of the subject held the Duke to be wise. \nDUKE Wise? Why, no question but he was. \nLUCIO A very superficial, ignorant, unweighing fellow. \nDUKE Either this is envy in you, folly, or mistaking; the very stream of his life, and the business he hath helmed, must, upon a warranted need, give him a better proclamation. Let him be but testimonied in his own bringings-forth, and he shall appear to the envious a scholar, a statesman, and a soldier. Therefore you speak unskilfully; or, if your knowledge be more, it is much dark’ned in your malice. \nLUCIO Sir, I know him, and I love him.",
+          "parent_id": "3",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3(b)",
+          "text": "‘The play deals with many kinds of dishonesty.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of Measure for Measure. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "3",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Richard III",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4(a)",
+          "text": "Discuss the following passage from Act 3 Scene 7, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter GLOUCESTER aloft, between two Bishops. CATESBY returns. \nMAYOR See where his Grace stands ’tween two clergymen! \nBUCKINGHAM Two props of virtue for a Christian prince, \nTo stay him from the fall of vanity; \nAnd, see, a book of prayer in his hand, \nTrue ornaments to know a holy man. \nFamous Plantagenet, most gracious Prince, \nLend favourable ear to our requests, \nAnd pardon us the interruption \nOf thy devotion and right Christian zeal. \nGLOUCESTER My lord, there needs no such apology: \nI do beseech your Grace to pardon me, \nWho, earnest in the service of my God, \nDeferr’d the visitation of my friends. \nBut, leaving this, what is your Grace’s pleasure? \nBUCKINGHAM Even that, I hope, which pleaseth God above, \nAnd all good men of this ungovern’d isle. \nGLOUCESTER I do suspect I have done some offence \nThat seems disgracious in the city’s eye, \nAnd that you come to reprehend my ignorance. \nBUCKINGHAM You have, my lord. Would it might please your Grace, \nOn our entreaties, to amend your fault! \nGLOUCESTER Else wherefore breathe I in a Christian land? \nBUCKINGHAM Know then, it is your fault that you resign \nThe supreme seat, the throne majestical, \nThe scept’red office of your ancestors, \nYour state of fortune and your due of birth, \nThe lineal glory of your royal house, \nTo the corruption of a blemish’d stock; \nWhiles in the mildness of your sleepy thoughts, \nWhich here we waken to our country’s good, \nThe noble isle doth want her proper limbs; \nHer face defac’d with scars of infamy, \nHer royal stock graft with ignoble plants, \nAnd almost should’red in the swallowing gulf \nOf dark forgetfulness and deep oblivion. \nWhich to recure, we heartily solicit \nYour gracious self to take on you the charge \nAnd kingly government of this your land – \nNot as protector, steward, substitute, \nOr lowly factor for another’s gain; \nBut as successively, from blood to blood, \nYour right of birth, your empery, your own. \nFor this, consorted with the citizens, \nYour very worshipful and loving friends, \nAnd by their vehement instigation, \nIn this just cause come I to move your Grace. \nGLOUCESTER I cannot tell if to depart in silence \nOr bitterly to speak in your reproof \nBest fitteth my degree or your condition. \nIf not to answer, you might haply think \nTongue-tied ambition, not replying, yielded \nTo bear the golden yoke of sovereignty, \nWhich fondly you would here impose on me; \nIf to reprove you for this suit of yours, \nSo season’d with your faithful love to me, \nThen, on the other side, I check’d my friends. \nTherefore – to speak, and to avoid the first, \nAnd then, in speaking, not to incur the last – \nDefinitively thus I answer you: \nYour love deserves my thanks, but my desert \nUnmeritable shuns your high request.",
+          "parent_id": "4",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4(b)",
+          "text": "‘The office of kingship is continually devalued in this play.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of the play Richard III. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "4",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: The Tempest",
+      "group_id": "QUESTION 5",
+      "questions": [
+        {
+          "id": "5(a)",
+          "text": "Discuss the following passage from Act 1 Scene 2, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "PROSPERO This King of Naples, being an enemy \nTo me inveterate, hearkens my brother’s suit; \nWhich was, that he, in lieu o’ th’ premises. \nOf homage, and I know not how much tribute. \nShould presently extirpate me and mine \nOut of the dukedom, and confer fair Milan \nWith all the honours on my brother. Whereon, \nA treacherous army levied, one midnight \nFated to th’ purpose, did Antonio open \nThe gates of Milan; and, i’ th’ dead of darkness, \nThe ministers for th’ purpose hurried thence \nMe and thy crying self. \nMIRANDA Alack, for pity! \nI, not rememb’ring how I cried out then. \nWill cry it o’er again; it is a hint \nThat wrings mine eyes to’t. \nPROSPERO Hear a little further, \nAnd then I’ll bring thee to the present business \nWhich now’s upon ’s: without the which this story \nWere most impertinent. \nMIRANDA Wherefore did they not \nThat hour destroy us? \nPROSPERO Well demanded, wench! \nMy tale provokes that question. Dear, they durst not, \nSo dear the love my people bore me; nor set \nA mark so bloody on the business; but \nWith colours fairer painted their foul ends. \nIn few, they hurried us aboard a bark; \nBore us some leagues to sea, where they prepared \nA rotten carcass of a butt, not rigg’d, \nNor tackle, sail, nor mast; the very rats \nInstinctively have quit it. There they hoist us. \nTo cry to th’ sea, that roar’d to us; to sigh \nTo th’ winds, whose pity, sighing back again, \nDid us but loving wrong. \nMIRANDA Alack, what trouble \nWas I then to you! \nPROSPERO O, a cherubin \nThou wast that did preserve me! Thou didst smile. \nInfused with a fortitude from heaven, \nWhen I have deck’d the sea with drops full salt, \nUnder my burden groan’d; which rais’d in me \nAn undergoing stomach, to bear up \nAgainst what should ensue. \nMIRANDA How came we ashore? \nPROSPERO By Providence divine. \nSome food we had and some fresh water that \nA noble Neapolitan, Gonzalo, \nOut of his charity, who being then appointed \nMaster of this design, did give us, with \nRich garments, linens, stuffs, and necessaries. \nWhich since have steaded much; so, of his gentleness. \nKnowing I lov’d my books, he furnish’d me \nFrom mine own library with volumes that \nI prize above my dukedom. \nMIRANDA Would I might \nBut ever see that man! \nPROSPERO Now I arise. \n[Puts on his mantle. \nSit still, and hear the last of our sea-sorrow. \nHere in this island we arriv’d; and here \nHave I, thy schoolmaster, made thee more profit \nThan other princess’ can, that have more time \nFor vainer hours, and tutors not so careful. \nMIRANDA Heavens thank you for’t! And now, I pray you, sir, \nFor still ’tis beating in my mind, your reason \nFor raising this sea-storm? \nPROSPERO Know thus far forth: \nBy accident most strange, bountiful Fortune, \nNow my dear lady, hath mine enemies \nBrought to this shore; and by my prescience \nI find my zenith doth depend upon \nA most auspicious star, whose influence \nIf now I court not, but omit, my fortunes \nWill ever after droop.",
+          "parent_id": "5",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5(b)",
+          "text": "‘The Tempest shows a fascination with the effects of cruelty and ruthlessness.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of The Tempest. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "5",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Twelfth Night",
+      "group_id": "QUESTION 6",
+      "questions": [
+        {
+          "id": "6(a)",
+          "text": "Discuss the following passage from Act 3 Scene 4, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter Officers. \nFABIAN O good Sir Toby, hold! Here come the officers. \nSIR TOBY [To Antonio] I’ll be with you anon. \nVIOLA Pray, sir, put your sword up, if you please. \nSIR ANDREW Marry, will I, sir; and for that I promis’d you, I’ll be as good as my word. He will bear you easily and reins well. \n1 OFFICER This is the man; do thy office. \n2 OFFICER Antonio, I arrest thee at the suit \nOf Count Orsino. \nANTONIO You do mistake me, sir. \n1 OFFICER No, sir, no jot; I know your favour well, \nThough now you have no sea-cap on your head. \nTake him away; he knows I know him well. \nANTONIO I must obey. [To Viola] This comes with seeking you; \nBut there’s no remedy; I shall answer it. \nWhat will you do, now my necessity \nMakes me to ask you for my purse? It grieves me \nMuch more for what I cannot do for you \nThan what befalls myself. You stand amaz’d; \nBut be of comfort. \n2 OFFICER Come, sir, away. \nANTONIO I must entreat of you some of that money. \nVIOLA What money, sir? \nFor the fair kindness you have show’d me here, \nAnd part being prompted by your present trouble, \nOut of my lean and low ability \nI’ll lend you something. My having is not much; \nI’ll make division of my present with you; \nHold, there’s half my coffer. \nANTONIO Will you deny me now? \nIs’t possible that my deserts to you \nCan lack persuasion? Do not tempt my misery, \nLest that it make me so unsound a man \nAs to upbraid you with those kindnesses \nThat I have done for you. \nVIOLA I know of none, \nNor know I you by voice or any feature. \nI hate ingratitude more in a man \nThan lying, vainness, babbling drunkenness, \nOr any taint of vice whose strong corruption \nInhabits our frail blood. \nANTONIO O heavens themselves! \n2 OFFICER Come, sir, I pray you go. \nANTONIO Let me speak a little. This youth that you see here \nI snatch’d one half out of the jaws of death, \nReliev’d him with such sanctity of love, \nAnd to his image, which methought did promise \nMost venerable worth, did I devotion. \n1 OFFICER What’s that to us? The time goes by; away. \nANTONIO But, O, how vile an idol proves this god! \nThou hast, Sebastian, done good feature shame. \nIn nature there’s no blemish but the mind: \nNone can be call’d deform’d but the unkind. \nVirtue is beauty; but the beauteous evil \nAre empty trunks, o’erflourish’d by the devil. \n1 OFFICER The man grows mad. Away with him. \nCome, come, sir. \nANTONIO Lead me on. [Exit with Officers.",
+          "parent_id": "6",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6(b)",
+          "text": "‘Mistaken identity in Twelfth Night is a source of both humour and suffering.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of Twelfth Night. Remember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "6",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 7",
+      "questions": [
+        {
+          "id": "7",
+          "text": "‘Literature shows that the cleverest people do not always make the wisest choices.’\nIn the light of this view, consider ways in which writers explore the relationship between characters’ intellect and their judgement. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about 1 hour and 15 minutes on this section. In your answer, you should refer to one drama text and one poetry text from the following lists: \nDrama: \n- Christopher Marlowe: Edward II \n- John Webster: The Duchess of Malfi \n- Oliver Goldsmith: She Stoops to Conquer \n- Henrik Ibsen: A Doll’s House \n- Oscar Wilde: An Ideal Husband \nPoetry: \n- Geoffrey Chaucer: The Merchant’s Prologue and Tale \n- John Milton: Paradise Lost Books 9 & 10 \n- Samuel Taylor Coleridge: Selected Poems \n- Alfred, Lord Tennyson: Maud \n- Christina Rossetti: Selected Poems"
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 8",
+      "questions": [
+        {
+          "id": "8",
+          "text": "‘Literature has more to say about social structures than about the natural world.’\nIn the light of this view, consider ways in which writers explore the relationship between the natural environment and human societies. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "(Same instructions as Question 7)"
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 9",
+      "questions": [
+        {
+          "id": "9",
+          "text": "‘Powerful emotions are often the excuse for unacceptable behaviour.’\nIn the light of this view, consider ways in which writers explore the connection between intense thoughts and bad deeds. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "(Same instructions as Question 7)"
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 10",
+      "questions": [
+        {
+          "id": "10",
+          "text": "‘Literature suggests that discipline is most effective not when it is imposed on us by others, but when it comes from within.’\nIn the light of this view, consider ways in which writers explore issues of discipline and self-discipline. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "(Same instructions as Question 7)"
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 11",
+      "questions": [
+        {
+          "id": "11",
+          "text": "‘Characters in literature often behave in unexpectedly generous ways.’\nIn the light of this view, consider how writers use the quality of generosity in surprising ways. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "(Same instructions as Question 7)"
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 12",
+      "questions": [
+        {
+          "id": "12",
+          "text": "‘Religion is a key element in human motivation.’\nIn the light of this view, consider ways in which writers depict religious belief and associated behaviour. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "(Same instructions as Question 7)"
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 20295,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "79cd9dfb-6ae0-45ba-8c4f-de5fd02ee5b1"
+}

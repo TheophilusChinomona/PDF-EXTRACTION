@@ -1,0 +1,285 @@
+{
+  "id": "393abd7c-e582-4297-8ddc-948bc93eb96f",
+  "file_name": "OCR-A-Level-English-Literature-Paper-1-QP.pdf",
+  "file_size_bytes": 4313052,
+  "file_hash": "73f4bcf46eff87fe5a91e8e59c22436e3b6d7b5b95be3889aed2e883e92c5e9c",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T07:07:42.790039+00:00",
+  "updated_at": "2026-02-06T07:07:42.790039+00:00",
+  "webhook_url": null,
+  "subject": "A Level English Literature",
+  "syllabus": "H472/01",
+  "year": 2019,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 60,
+  "groups": [
+    {
+      "title": "Section 1 – Shakespeare: Coriolanus",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1(a)",
+          "text": "Discuss the following passage from Act 4 Scene 5 exploring Shakespeare’s use of language and dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter AUFIDIUS with the second Servant.\nAUFIDIUS Where is this fellow?\n2 SERVANT Here, sir; I’d have beaten him like a dog, but for disturbing the lords within.\nAUFIDIUS Whence com’st thou? What wouldst thou? Thy name?\nWhy speak’st not? Speak, man. What’s thy name?\nCORIOLANUS [Unmuffling] If, Tullus,\nNot yet thou know’st me, and, seeing me, dost not\nThink me for the man I am, necessity\nCommands me name myself.\nAUFIDIUS What is thy name?\nCORIOLANUS A name unmusical to the Volscians’ ears,\nAnd harsh in sound to thine.\nAUFIDIUS Say, what’s thy name?\nThou hast a grim appearance, and thy face\nBears a command in’t; though thy tackle’s torn,\nThou show’st a noble vessel. What’s thy name?\nCORIOLANUS Prepare thy brow to frown – know’st thou me yet?\nAUFIDIUS I know thee not. Thy name?\nCORIOLANUS My name is Caius Marcius, who hath done\nTo thee particularly, and to all the Volsces,\nGreat hurt and mischief; thereto witness may\nMy surname, Coriolanus. The painful service,\nThe extreme dangers, and the drops of blood\nShed for my thankless country, are requited\nBut with that surname – a good memory\nAnd witness of the malice and displeasure\nWhich thou shouldst bear me. Only that name remains;\nThe cruelty and envy of the people,\nPermitted by our dastard nobles, who\nHave all forsook me, hath devour’d the rest,\nAnd suffer’d me by th’ voice of slaves to be\nWhoop’d out of Rome. Now this extremity\nHath brought me to thy hearth; not out of hope,\nMistake me not, to save my life; for if\nI had fear’d death, of all the men i’ th’ world\nI would have ’voided thee; but in mere spite,\nTo be full quit of those my banishers,\nStand I before thee here. Then if thou hast\nA heart of wreak in thee, that wilt revenge\nThine own particular wrongs and stop those maims\nOf shame seen through thy country, speed thee straight\nAnd make my misery serve thy turn. So use it\nThat my revengeful services may prove\nAs benefits to thee; for I will fight\nAgainst my cank’red country with the spleen\nOf all the under fiends. But if so be\nThou dar’st not this, and that to prove more fortunes\nTh’art tir’d, then, in a word, I also am\nLonger to live most weary, and present\nMy throat to thee and to thy ancient malice;\nWhich not to cut would show thee but a fool,\nSince I have ever followed thee with hate,\nDrawn tuns of blood out of thy country’s breast,\nAnd cannot live but to thy shame, unless\nIt be to do thee service.\nAUFIDIUS O Marcius, Marcius!\nEach word thou hast spoke hath weeded from my heart\nA root of ancient envy.",
+          "parent_id": "1",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "1(b)",
+          "text": "‘The conflicts presented in the play are rarely straightforward.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of the play Coriolanus.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "1",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question, both parts (a) and (b), from this section. You should spend about 1 hour and 15 minutes on this section.\nAnswer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Hamlet",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2(a)",
+          "text": "Discuss the following passage from Act 5 Scene 1, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "1 CLOWN What is he that builds stronger than either the mason, the shipwright, or the carpenter?\n2 CLOWN The gallows-maker; for that frame outlives a thousand tenants.\n1 CLOWN I like thy wit well; in good faith the gallows does well; but how does it well? It does well to those that do ill. Now thou dost ill to say the gallows is built stronger than the church; argal, the gallows may do well to thee. To ’t again, come.\n2 CLOWN Who builds stronger than a mason, a shipwright, or a carpenter?\n1 CLOWN Ay, tell me that, and unyoke.\n2 CLOWN Marry, now I can tell.\n1 CLOWN To ’t.\n2 CLOWN Mass, I cannot tell.\nEnter HAMLET and HORATIO, afar off.\n1 CLOWN Cudgel thy brains no more about it, for your dull ass will not mend his pace with beating; and when you are ask’d this question next, say ‘a grave-maker’: the houses he makes lasts till doomsday. Go, get thee to Yaughan; fetch me a stoup of liquor. [Exit Second Clown.\n[Digs and sings] In youth, when I did love, did love,\nMethought it was very sweet,\nTo contract-o-the time for-a my behove,\nO, methought there-a-was nothing-a meet.\nHAMLET Has this fellow no feeling of his business, that ’a sings in grave-making?\nHORATIO Custom hath made it in him a property of easiness.\nHAMLET ’Tis e’en so; the hand of little employment hath the daintier sense.\n1 CLOWN [Sings] But age, with his stealing steps,\nHath clawed me in his clutch,\nAnd hath shipped me intil the land,\nAs if I had never been such.\n[Throws up a skull.\nHAMLET That skull had a tongue in it, and could sing once. How the knave jowls it to the ground, as if ’twere Cain’s jawbone, that did the first murder! This might be the pate of a politician, which this ass now o’erreaches; one that would circumvent God, might it not?\nHORATIO It might, my lord.\nHAMLET Or of a courtier; which could say ‘Good morrow, sweet lord! How dost thou, sweet lord?’ This might be my Lord Such-a-one, that praised my Lord Such-a-one’s horse, when ’a meant to beg it ‒ might it not?\nHORATIO Ay, my lord.\nHAMLET Why, e’en so; and now my Lady Worm’s, chapless, and knock’d about the mazard with a sexton’s spade. Here’s fine revolution, an we had the trick to see’t. Did these bones cost no more the breeding but to play at loggats with them? Mine ache to think on’t.",
+          "parent_id": "2",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2(b)",
+          "text": "‘In the play Hamlet the comedy always makes serious points.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of the play Hamlet.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "2",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Measure for Measure",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3(a)",
+          "text": "Discuss the following passage from Act 3 Scene 1, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter ISABELLA.\nISABELLA My business is a word or two with Claudio.\nPROVOST And very welcome. Look, signior, here’s your sister.\nDUKE Provost, a word with you.\nPROVOST As many as you please.\nDUKE Bring me to hear them speak, where I may be conceal’d.\n[Exeunt Duke and Provost.\nCLAUDIO Now, sister, what’s the comfort?\nISABELLA Why,\nAs all comforts are; most good, most good, indeed.\nLord Angelo, having affairs to heaven,\nIntends you for his swift ambassador,\nWhere you shall be an everlasting leiger.\nTherefore, your best appointment make with speed;\nTo-morrow you set on.\nCLAUDIO Is there no remedy?\nISABELLA None, but such remedy as, to save a head,\nTo cleave a heart in twain.\nCLAUDIO But is there any?\nISABELLA Yes, brother, you may live:\nThere is a devilish mercy in the judge,\nIf you’ll implore it, that will free your life,\nBut fetter you till death.\nCLAUDIO Perpetual durance?\nISABELLA Ay, just; perpetual durance, a restraint,\nThough all the world’s vastidity you had,\nTo a determin’d scope.\nCLAUDIO But in what nature?\nISABELLA In such a one as, you consenting to’t,\nWould bark your honour from that trunk you bear,\nAnd leave you naked.\nCLAUDIO Let me know the point.\nISABELLA O, I do fear thee, Claudio; and I quake,\nLest thou a feverous life shouldst entertain,\nAnd six or seven winters more respect\nThan a perpetual honour. Dar’st thou die?\nThe sense of death is most in apprehension;\nAnd the poor beetle that we tread upon\nIn corporal sufferance finds a pang as great\nAs when a giant dies.\nCLAUDIO Why give you me this shame?\nThink you I can a resolution fetch\nFrom flow’ry tenderness? If I must die,\nI will encounter darkness as a bride\nAnd hug it in mine arms.\nISABELLA There spake my brother; there my father’s grave\nDid utter forth a voice. Yes, thou must die:\nThou art too noble to conserve a life\nIn base appliances. This outward-sainted deputy,\nWhose settled visage and deliberate word\nNips youth i’ th’ head, and follies doth enew\nAs falcon doth the fowl, is yet a devil;\nHis filth within being cast, he would appear\nA pond as deep as hell.\nCLAUDIO The precise Angelo!\nISABELLA O, ’tis the cunning livery of hell\nThe damned’st body to invest and cover\nIn precise guards! Dost thou think, Claudio,\nIf I would yield him my virginity\nThou mightst be freed?\nCLAUDIO O heavens! it cannot be.\nISABELLA Yes, he would give’t thee, from this rank offence,\nSo to offend him still. This night’s the time\nThat I should do what I abhor to name,\nOr else thou diest to-morrow.\nCLAUDIO Thou shalt not do’t.\nISABELLA O, were it but my life!\nI’d throw it down for your deliverance\nAs frankly as a pin.\nCLAUDIO Thanks, dear Isabel.",
+          "parent_id": "3",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3(b)",
+          "text": "‘For a play that ends happily Measure for Measure has a lot to say about death.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of Measure for Measure.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "3",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Richard III",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4(a)",
+          "text": "Discuss the following passage from Act 5 Scene 3, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "Enter the Ghost of HASTINGS.\nGHOST [To Richard] Bloody and guilty, guiltily awake,\nAnd in a bloody battle end thy days!\nThink on Lord Hastings. Despair and die.\n[To Richmond] Quiet untroubled soul, awake, awake!\nArm, fight, and conquer, for fair England’s sake!\nEnter the Ghosts of the two young Princes.\nGHOSTS [To Richard] Dream on thy cousins smothered in the Tower.\nLet us be lead within thy bosom, Richard,\nAnd weigh thee down to ruin, shame, and death!\nThy nephews’ souls bid thee despair and die.\n[To Richmond] Sleep, Richmond, sleep in peace, and wake in joy;\nGood angels guard thee from the boar’s annoy!\nLive, and beget a happy race of kings!\nEdward’s unhappy sons do bid thee flourish.\nEnter the Ghost of LADY ANNE, his wife.\nGHOST [To Richard] Richard, thy wife, that wretched Anne thy wife\nThat never slept a quiet hour with thee\nNow fills thy sleep with perturbations.\nTo-morrow in the battle think on me,\nAnd fall thy edgeless sword. Despair and die.\n[To Richmond] Thou quiet soul, sleep thou a quiet sleep;\nDream of success and happy victory.\nThy adversary’s wife doth pray for thee.\nEnter the Ghost of BUCKINGHAM.\nGHOST [To Richard] The first was I that help’d thee to the crown;\nThe last was I that felt thy tyranny.\nO, in the battle think on Buckingham,\nAnd die in terror of thy guiltiness!\nDream on, dream on of bloody deeds and death;\nFainting, despair; despairing, yield thy breath!\n[To Richmond] I died for hope ere I could lend thee aid;\nBut cheer thy heart and be thou not dismay’d:\nGod and good angels fight on Richmond’s side;\nAnd Richard falls in height of all his pride.\n[The Ghosts vanish. Richard starts out of his dream.\nKING RICHARD Give me another horse. Bind up my wounds.\nHave mercy, Jesu! Soft! I did but dream.\nO coward conscience, how dost thou afflict me!\nThe lights burn blue. It is now dead midnight.\nCold fearful drops stand on my trembling flesh.\nWhat do I fear? Myself? There’s none else by.\nRichard loves Richard; that is, I am I.\nIs there a murderer here? No ‒ yes, I am.\nThen fly. What, from myself? Great reason why ‒\nLest I revenge. What, myself upon myself!\nAlack, I love myself. Wherefore? For any good.\nThat I myself have done unto myself?\nO, no! Alas, I rather hate myself\nFor hateful deeds committed by myself!\nI am a villain; yet I lie, I am not.\nFool, of thyself speak well. Fool, do not flatter.\nMy conscience hath a thousand several tongues,\nAnd every tongue brings in a several tale,\nAnd every tale condemns me for a villain.\nPerjury, perjury, in the high’st degree;\nMurder, stern murder, in the dir’st degree;\nAll several sins, all us’d in each degree,\nThrong to the bar, crying all ‘Guilty! guilty!’\nI shall despair. There is no creature loves me;\nAnd if I die no soul will pity me:\nAnd wherefore should they, since that I myself\nFind myself no pity to myself?\nMethought the souls of all that I had murder’d\nCame to my tent, and every one did threat\nTo-morrow’s vengeance on the head of Richard.",
+          "parent_id": "4",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4(b)",
+          "text": "‘The play Richard III dramatises the conflict between good and evil.’\nUsing your knowledge of the play as a whole, show how far you agree with this view.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "4",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: The Tempest",
+      "group_id": "QUESTION 5",
+      "questions": [
+        {
+          "id": "5(a)",
+          "text": "Discuss the following passage from Act 2 Scene 1, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "SEBASTIAN Sir, you may thank yourself for this great loss,\nThat would not bless our Europe with your daughter,\nBut rather lose her to an African;\nWhere she, at least, is banish’d from your eye,\nWho hath cause to wet the grief on’t.\nALONSO Prithee, peace.\nSEBASTIAN You were kneel’d to, and importun’d otherwise\nBy all of us; and the fair soul herself\nWeigh’d between loathness and obedience at\nWhich end o’ th’ beam should bow. We have lost your son,\nI fear, for ever. Milan and Naples have\nMoe widows in them of this business’ making,\nThan we bring men to comfort them;\nThe fault’s your own.\nALONSO So is the dear’st o’ th’ loss.\nGONZALO My lord Sebastian,\nThe truth you speak doth lack some gentleness,\nAnd time to speak it in; you rub the sore,\nWhen you should bring the plaster.\nSEBASTIAN Very well.\nANTONIO And most chirurgeonly.\nGONZALO It is foul weather in us all, good sir,\nWhen you are cloudy.\nSEBASTIAN Fowl weather?\nANTONIO Very foul.\nGONZALO Had I plantation of this isle, my lord –\nANTONIO He’d sow ’t with nettle-seed.\nSEBASTIAN Or docks, or mallows.\nGONZALO And were the king on’t, what would I do?\nSEBASTIAN Scape being drunk for want of wine.\nGONZALO I’ th’ commonwealth I would by contraries\nExecute all things; for no kind of traffic\nWould I admit; no name of magistrate;\nLetters should not be known; riches, poverty,\nAnd use of service, none; contract, succession,\nBourn, bound of land, tilth, vineyard, none;\nNo use of metal, corn, or wine, or oil;\nNo occupation; all men idle, all;\nAnd women too, but innocent and pure;\nNo sovereignty –\nSEBASTIAN Yet he would be king on’t.\nANTONIO The latter end of his commonwealth forgets the beginning.\nGONZALO All things in common nature should produce\nWithout sweat or endeavour. Treason, felony,\nSword, pike, knife, gun, or need of any engine,\nWould I not have; but nature should bring forth,\nOf it own kind, all foison, all abundance,\nTo feed my innocent people.\nSEBASTIAN No marrying ’mong his subjects?\nANTONIO None, man; all idle; whores and knaves.\nGONZALO I would with such perfection govern, sir,\nT’ excel the golden age.\nSEBASTIAN Save his Majesty!\nANTONIO Long live Gonzalo!",
+          "parent_id": "5",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5(b)",
+          "text": "‘The play encourages us to admire idealistic values such as those of Gonzalo.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of The Tempest.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "5",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 1 – Shakespeare: Twelfth Night",
+      "group_id": "QUESTION 6",
+      "questions": [
+        {
+          "id": "6(a)",
+          "text": "Discuss the following passage from Act 1 Scene 4, exploring Shakespeare’s use of language and its dramatic effects.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": "The Duke’s palace.\nEnter VALENTINE, and VIOLA in a man’s attire.\nVALENTINE If the Duke continue these favours towards you, Cesario, you are like to be much advanc’d; he hath known you but three days, and already you are no stranger.\nVIOLA You either fear his humour or my negligence, that you call in question the continuance of his love. Is he inconstant, sir, in his favours?\nVALENTINE No, believe me.\nEnter DUKE, CURIO, and Attendants.\nVIOLA I thank you. Here comes the Count.\nDUKE Who saw Cesario, ho?\nVIOLA On your attendance, my lord, here.\nDUKE Stand you awhile aloof. Cesario,\nThou know’st no less but all; I have unclasp’d\nTo thee the book even of my secret soul.\nTherefore, good youth, address thy gait unto her;\nBe not denied access, stand at her doors,\nAnd tell them there thy fixed foot shall grow\nTill thou have audience.\nVIOLA Sure, my noble lord,\nIf she be so abandon’d to her sorrow\nAs it is spoke, she never will admit me.\nDUKE Be clamorous and leap all civil bounds,\nRather than make unprofited return.\nVIOLA Say I do speak with her, my lord, what then?\nDUKE O, then unfold the passion of my love,\nSurprise her with discourse of my dear faith! It shall become thee well to act my woes: She will attend it better in thy youth Than in a nuncio’s of more grave aspect.\nVIOLA I think not so, my lord.\nDUKE Dear lad, believe it;\nFor they shall yet belie thy happy years\nThat say thou art a man; Diana’s lip\nIs not more smooth and rubious; thy small pipe\nIs as the maiden’s organ, shrill and sound,\nAnd all is semblative a woman’s part.\nI know thy constellation is right apt\nFor this affair. Some four or five attend him ‒\nAll, if you will, for I myself am best\nWhen least in company. Prosper well in this,\nAnd thou shalt live as freely as thy lord\nTo call his fortunes thine.\nVIOLA I’ll do my best\nTo woo your lady. [Aside] Yet, a barful strife!\nWhoe’er I woo, myself would be his wife.",
+          "parent_id": "6",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6(b)",
+          "text": "‘The play’s notions of gender are very complex.’\nUsing your knowledge of the play as a whole, show how far you agree with this view of Twelfth Night.\nRemember to support your answer with reference to different interpretations.",
+          "marks": 15,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "6",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer both parts (a) and (b)."
+    },
+    {
+      "title": "Section 2 – Drama and Poetry pre-1900",
+      "group_id": "QUESTION 7",
+      "questions": [
+        {
+          "id": "7",
+          "text": "‘Literature often celebrates the strong bonds between human beings.’\nIn the light of this view, consider ways in which writers explore the strength of human relationships. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8",
+          "text": "‘Stereotypes about gender are as inappropriate in literature as they are in life.’\nIn the light of this view, consider ways in which writers explore gender roles. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "9",
+          "text": "‘Literature too often undervalues qualities of kindness and compassion.’\nIn the light of this view, consider ways in which writers explore kind and compassionate behaviour. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "10",
+          "text": "‘Literary works often explore the consequences of human error.’\nIn the light of this view, consider ways in which writers explore poor decisions. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "11",
+          "text": "‘The instinct to control others is natural in humanity.’\nIn the light of this view, consider ways in which writers explore control and authority. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "12",
+          "text": "‘Happiness is difficult to find and difficult to keep.’\nIn the light of this view, consider ways in which writers explore happiness. In your answer, compare one drama text and one poetry text from the above lists.",
+          "marks": 30,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about 1 hour and 15 minutes on this section.\nIn your answer, you should refer to one drama text and one poetry text from the following lists:\nDrama:\nChristopher Marlowe: Edward II\nJohn Webster: The Duchess of Malfi\nOliver Goldsmith: She Stoops to Conquer\nHenrik Ibsen: A Doll’s House\nOscar Wilde: An Ideal Husband\n\nPoetry:\nGeoffrey Chaucer: The Merchant’s Prologue and Tale\nJohn Milton: Paradise Lost Books 9 & 10\nSamuel Taylor Coleridge: Selected Poems\nAlfred, Lord Tennyson: Maud\nChristina Rossetti: Selected Poems"
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 17276,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "3f430901-630c-4a3d-9c10-40186818bf7d"
+}

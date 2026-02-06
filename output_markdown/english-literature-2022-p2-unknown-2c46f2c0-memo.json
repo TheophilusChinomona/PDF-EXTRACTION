@@ -1,0 +1,763 @@
+{
+  "id": "369dcac0-e1b3-4ac0-aac2-3e00ae7fa033",
+  "file_name": "OCR-A-Level-English-Literature-Paper-2-June-2022-MS.pdf",
+  "file_size_bytes": 481574,
+  "file_hash": "e99953f6fc27f2e7927141b7167953e9de43c23b286e45136c62ac1c23b412b9",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "subject": "English Literature",
+  "year": 2022,
+  "session": "June",
+  "grade": "A Level",
+  "total_marks": 60,
+  "sections": [
+    {
+      "questions": [
+        {
+          "id": "1",
+          "text": "Critical appreciation of the passage relating to American Literature 1880–1940",
+          "type": "Close reading",
+          "marks": 30,
+          "notes": "This indicative content is not prescriptive nor exclusive; reward original but well-focused answers.",
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Passage is written in the first person; narrator is one of the assembled men.",
+            "Osgood’s characterisation: pale, balding man who seems out of place in the Wild West.",
+            "Osgood as a figure of fun: high voice, ‘pathetic’ manner, afraid, desperate to exert control.",
+            "Anxiety for authority: wishes to involve the sheriff and judge; offers little authority himself despite being a Baptist minister.",
+            "Speech styles: Osgood’s ‘orating’ vs. the men’s simpler, direct address (‘To hell with that.’).",
+            "Context: Wild West in the 1880s; 1940 date of composition provides distance/perspective.",
+            "Social issues: Osgood’s denigration of ‘Indians’ as ‘savages’ is racist.",
+            "Tone: Anger and desire for action are in the ascendancy; trouble is likely to ensue.",
+            "Links: The Grapes of Wrath, Adventures of Huckleberry Finn (lawlessness and challenge to authority)."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "The dominant assessment objective is AO2 (Analyse ways in which meanings are shaped in literary texts). AO1 and AO3 are also assessed. Use the Level Descriptors for Critical appreciation of an unseen passage."
+        },
+        {
+          "id": "3",
+          "text": "Critical appreciation of the passage relating to the Gothic",
+          "type": "Close reading",
+          "marks": 30,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Setting: Opulence and antique style suggests an ancestral home (common Gothic trope).",
+            "Historical air: Story set some hundred years before the date of composition.",
+            "Atmosphere: Moonlight adds to the ghostly atmosphere created by the corpse of the young man.",
+            "Tone: Morbid nature of the scene in a chamber of death; sensational tone via question marks and exclamations.",
+            "Characters: Contrast between two young women—Edith (‘soft and fragile’) vs. the other woman (‘proud and stately’).",
+            "Convention: The two women may exemplify the Gothic convention of the doppelganger.",
+            "Dialogue: Archaic and dramatic qualities (‘Well hast thou spoken…’).",
+            "Plot: Strange bargain reminiscent of traditional tales; provides suspense for a future follow-up meeting.",
+            "Links: The Bloody Chamber (traditional settings/tales), The Picture of Dorian Gray (doppelganger)."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "The dominant assessment objective is AO2. Use the Level Descriptors for Critical appreciation of an unseen passage."
+        },
+        {
+          "id": "5",
+          "text": "Critical appreciation of the passage relating to dystopian literature",
+          "type": "Close reading",
+          "marks": 30,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Point of View: Written in third person but from the perspective of female character, Prisoner 730004.",
+            "Tense: Historic present gives a sense of immediacy to events.",
+            "Language: Depersonalisation of prisoners (referred to by number rather than name).",
+            "Scientific imagery: Frequent use of scientific language; authority figures called ‘Protection Scientists’ using gene therapy.",
+            "Naming: City name 'Darwin C' suggests systematic administration and devotion to evolutionary improvement (Charles Darwin).",
+            "Euphemisms: ‘processed and conveyed elsewhere’ and ‘Institute for the Improvement of Reason’ have a sinister ring.",
+            "Comparison: The ‘Institute’ may be likened to Orwell’s ‘Ministry of Love’.",
+            "Links: The Handmaid’s Tale (older men seeking to control women’s reproductive lives)."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "The dominant assessment objective is AO2. Use the Level Descriptors for Critical appreciation of an unseen passage."
+        },
+        {
+          "id": "7",
+          "text": "Critical appreciation of the passage relating to Women in Literature",
+          "type": "Close reading",
+          "marks": 30,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Character Contrast: Mother (Sarah) works vigorously (‘scrubbed a dish fiercely’); daughter (Nanny) is quieter/gentler (‘slowly and dreamily’).",
+            "Assertiveness: Nanny is more indignant about accommodation; Sarah’s assertiveness is used to squash Nanny’s objections rather than stand up to her husband.",
+            "Gender roles: Sarah’s notion that women ‘need to reckon men-folks in with Providence’ (like weather/conditions of life).",
+            "Domesticity: Expression of domestic life as art—‘[Sarah] was like an artist so perfect that he has apparently no art’.",
+            "Language: Comment on inclusive ‘he’ for hypothetical artist as grammatical convention or sexist implication.",
+            "Theme: Formidable but not (yet) rebellious nature of the mother; story title ‘The Revolt of “Mother”’.",
+            "Links: Sense and Sensibility (defined roles), Jane Eyre (female rebellion)."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "The dominant assessment objective is AO2. Use the Level Descriptors for Critical appreciation of an unseen passage."
+        },
+        {
+          "id": "9",
+          "text": "Critical appreciation of the passage relating to the Immigrant Experience",
+          "type": "Close reading",
+          "marks": 30,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": [
+            "Emotion: Aunty Uju’s strong emotions upon qualifying; signifies the importance of a new life in America.",
+            "Language: Dual use of language (Igbo words in conversation) suggests dual existence in two different cultures.",
+            "Imagery: Memories of Nigeria vs. Uju’s warm embrace; can of Coke acts as a symbol of the new home.",
+            "Prejudice: Discussion of appropriate hairstyles for interviews (‘braids... will think you are unprofessional’); expectation of prejudice in employment.",
+            "Perspective: Obinze’s sophisticated/confident judgments vs. lack of direct experience (still in Nigeria).",
+            "Setting: Vivid description of Brooklyn neighborhood (sights, sounds, smells of summer).",
+            "Themes: Mixture of fear and excitement; seeking to ‘begin a life in which she alone determine[s] the margins’.",
+            "Links: Small Island, The Secret River (trepidation at the start of new life)."
+          ],
+          "essay_structure": null,
+          "structured_answer": null,
+          "marker_instruction": "The dominant assessment objective is AO2. Use the Level Descriptors for Critical appreciation of an unseen passage."
+        }
+      ],
+      "section_id": "CLOSE READING (UNSEEN)"
+    },
+    {
+      "questions": [
+        {
+          "id": "2(a)",
+          "text": "F Scott Fitzgerald: The Great Gatsby - success worshipped for its own sake",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Sister Carrie (journey to success), The Age of Innocence (old vs. new money)."
+            ],
+            "introduction": [
+              "Offer a working definition of ‘success’.",
+              "Dominant assessment objective is AO3 (Context)."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "The ‘roaring twenties’ context implies success is understood in terms of material wealth.",
+                  "The ‘rags to riches’ story of James Gatz/Jay Gatsby.",
+                  "Glamorous rise hints at mystery and corruption (Prohibition/liquor sales)."
+                ],
+                "sub_topic": "Material Success and the Roaring Twenties"
+              },
+              {
+                "points": [
+                  "Gatsby embodies the American Dream through his success and dubious means.",
+                  "People who flock to his parties admire wealth for its own sake without concern for sources.",
+                  "Material success is key to Nick Carraway’s fascination with Gatsby."
+                ],
+                "sub_topic": "The American Dream and Perception"
+              },
+              {
+                "points": [
+                  "Gatsby himself may not worship success for its own sake; it is a means to achieve his romantic dream (Daisy).",
+                  "Success leaves him outside 'old money' circles (Tom and Daisy); material success is not enough here."
+                ],
+                "sub_topic": "Gatsby as an Exception"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "2(b)",
+          "text": "John Steinbeck: The Grapes of Wrath - people better off in groups than as individuals",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Native Son (disadvantaged groups), The Great Gatsby (contrast via individual focus)."
+            ],
+            "introduction": [
+              "Contrast The Grapes of Wrath with novels foregrounding individual complexities.",
+              "Identify the focus on a whole class of disadvantaged people."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Condemnation of capitalist interests (Chapter 14: 'I' vs. 'we').",
+                  "Context of Great Depression; Steinbeck criticized for ‘communist propaganda’.",
+                  "The group is consistently preferred to the individual in this novel."
+                ],
+                "sub_topic": "Moral and Social Energy"
+              },
+              {
+                "points": [
+                  "Joad family members work to provide for and protect the weaker members.",
+                  "Symbolism of the conclusion: Rose of Sharon offering her breast to a starving stranger."
+                ],
+                "sub_topic": "The Joad Family"
+              },
+              {
+                "points": [
+                  "Characters are simply drawn to represent thousands of poverty-stricken families.",
+                  "Jim Casy: former preacher becoming a political activist for the people."
+                ],
+                "sub_topic": "Characters as Representatives"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "2(c)",
+          "text": "Suffering is often undeserved in American literature",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: My Ántonia (Mr Shimerda's suicide), Native Son (struggles of Bigger Thomas)."
+            ],
+            "introduction": [
+              "Compare at least two texts to discuss the nature of suffering."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Gatsby's suffering despite his ‘extraordinary gift for hope’.",
+                  "Myrtle and George Wilson: limited opportunities and disproportionate suffering in attempts to escape.",
+                  "Blame on the Buchanans: ‘careless people’ who retreat into money.",
+                  "American society offers little respite to the vulnerable; only the privileged are insulated."
+                ],
+                "sub_topic": "The Great Gatsby"
+              },
+              {
+                "points": [
+                  "Deprivation and misery of the Joads and thousands of others fleeing environmental/economic disaster.",
+                  "Deaths of the Joad grandparents and the stillbirth of Rose of Sharon’s baby.",
+                  "The weak are exploited rather than supported."
+                ],
+                "sub_topic": "The Grapes of Wrath"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "4(a)",
+          "text": "Bram Stoker: Dracula - no escape from the past",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Italian (historical setting), Beloved (haunting of personal/communal past)."
+            ],
+            "introduction": [
+              "Attachment to the past and historical settings are common Gothic features."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Harker stepping into ‘medieval Transylvania’ vs. late Victorian England.",
+                  "Primitive superstitions: landlady at Bistritz (rosary), crowd at inn (evil eye).",
+                  "Dracula’s family history: remote, ancient, and mysterious (references to ‘Arabian Nights’ and ‘Hamlet’s father’)."
+                ],
+                "sub_topic": "Historical Settings vs. Victorian Modernity"
+              },
+              {
+                "points": [
+                  "Forward-looking Victorian society (telegraph, typewriter) vs. ancient world (crosses, garlic, stakes).",
+                  "The ‘Crew of Light’ uses ancient methods to fight an ancient evil; they cannot escape the past."
+                ],
+                "sub_topic": "Conflict of Eras"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "4(b)",
+          "text": "Angela Carter: The Bloody Chamber and Other Stories - primitive forces beneath civilised life",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Dracula (superstition in modern life), The Picture of Dorian Gray (indulgence beneath beauty)."
+            ],
+            "introduction": [
+              "Focus on stories exhibiting instinctive or uncontrolled behavior beneath a civilised veneer."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Title story: Paris setting (champagne, opera) vs. the Marquis’ violent/murderous treatment of wives.",
+                  "Primitive urges vs. decadent result of super-civilised existence."
+                ],
+                "sub_topic": "Civilization vs. Urge"
+              },
+              {
+                "points": [
+                  "‘The Werewolf’: ‘harsh, brief, poor lives’ of the northern country.",
+                  "The girl exploits superstition to murder her grandmother; primitive energy of the stoning villagers."
+                ],
+                "sub_topic": "The Werewolf and Superstition"
+              },
+              {
+                "points": [
+                  "‘The Tiger’s Bride’: revealed beast in the woman as a celebration of primitive sexual energy."
+                ],
+                "sub_topic": "Sexual Energy"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "4(c)",
+          "text": "Gothic literature explores the fascination for what is forbidden",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Wasp Factory (death/decay), Frankenstein (overreaching research)."
+            ],
+            "introduction": [
+              "Must include discussion of either Dracula and/or The Bloody Chamber and Other Stories."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Sexual transgression: homosexual undertones with Harker, Lucy Westenra’s ‘unsuitable’ appetite.",
+                  "Encounter with seductive sisters: ‘burning desire’.",
+                  "Forbidden religion: dangers of straying from Protestantism into ancient evil.",
+                  "Transgression depicted as more exciting/attractive than the orderly alternative."
+                ],
+                "sub_topic": "Victorian Morality in Dracula"
+              },
+              {
+                "points": [
+                  "The locked room in the title story (Bluebeard).",
+                  "Female sexual appetite as positive (The Tiger’s Bride).",
+                  "Male sexual fantasy and forbidden desires (The Snow Child)."
+                ],
+                "sub_topic": "The Forbidden in The Bloody Chamber"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "6(a)",
+          "text": "George Orwell: Nineteen Eighty-Four - little respect for the truth",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Handmaid’s Tale (selective use of Old Testament), Brave New World (indoctrination via pleasure cult)."
+            ],
+            "introduction": [
+              "Discuss the Party’s control of information."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Slogan: ‘Who controls the past controls the future: who controls the present controls the past.’",
+                  "Winston’s work in the Records Department: negating records and creating ‘unpersons’."
+                ],
+                "sub_topic": "Manipulation of the Past"
+              },
+              {
+                "points": [
+                  "‘Doublethink’: truth exists vs. what is done cannot be undone.",
+                  "Totalitarian philosophy climax: Winston forced to believe 2 + 2 = 5.",
+                  "Threat to independence of mind."
+                ],
+                "sub_topic": "The Loss of Reality"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "6(b)",
+          "text": "Margaret Atwood: The Handmaid’s Tale - shock of losing freedoms",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Nineteen Eighty-Four (thinking of past as rebellion), Fahrenheit 451 (absorption in media vs. freedoms)."
+            ],
+            "introduction": [
+              "Focus on the formation of Gilead following the overthrow of the US government."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Women no longer allowed to read, write, own property, or handle money.",
+                  "Deprivation of control over reproductive functions."
+                ],
+                "sub_topic": "Specific Lost Freedoms"
+              },
+              {
+                "points": [
+                  "Flashback scenes: Offred’s ordinary life (marriage, child, office job).",
+                  "Loss of mundane freedoms challenges the equal basis of her marriage (Luke’s patronizing attitude).",
+                  "Offred’s loss of her own name."
+                ],
+                "sub_topic": "Contrast with the Ordinary Past"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "6(c)",
+          "text": "Disaster vs. Hope in dystopian literature",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Drowned World, The Road."
+            ],
+            "introduction": [
+              "Must include Nineteen Eighty-Four and/or The Handmaid’s Tale."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "O’Brien’s vision: ‘a boot stamping on a human face – forever.’",
+                  "Grim hope for Winston: ‘cured’ then shot.",
+                  "The Appendix (‘The Principles of Newspeak’) written in ‘Oldspeak’ implies the Party failed and was overthrown."
+                ],
+                "sub_topic": "Orwell: The Crushing of Hope"
+              },
+              {
+                "points": [
+                  "Hard-won freedoms for women abruptly removed.",
+                  "Room for hope: small resistances (butter as cosmetic), large resistances (Mayday movement).",
+                  "Indeterminate ending (darkness vs. light); Historical Notes suggest the regime ultimately failed."
+                ],
+                "sub_topic": "Atwood: Resilience and Ambiguity"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "8(a)",
+          "text": "Jane Austen: Sense and Sensibility - lives shaped by romance",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Jane Eyre (heartfelt romance), Tess of the D’Urbervilles (tragic misadventures)."
+            ],
+            "introduction": [
+              "Focus on the Dashwood sisters, Elinor and Marianne."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Elinor’s discreet devotion to Edward shapes her private thoughts; leads to happy ending.",
+                  "Marianne’s open passion for Willoughby leads to social embarrassment and serious illness upon betrayal.",
+                  "Marianne's lesson: discovering the falsehood of her opinions (discovery of ‘extraordinary fate’)."
+                ],
+                "sub_topic": "Elinor and Marianne's Experiences"
+              },
+              {
+                "points": [
+                  "Colonel Brandon's romantic devotion to Marianne.",
+                  "Characters choosing for advantage rather than romance (Lucy Steele)."
+                ],
+                "sub_topic": "Romance vs. Advantage"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "8(b)",
+          "text": "Virginia Woolf: Mrs Dalloway - women in control of the social world",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Bell Jar (raucous social life), Jane Eyre (governess at social gatherings)."
+            ],
+            "introduction": [
+              "Reference the opening declaration: Clarissa will buy the flowers herself."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Clarissa's involvement in tasks (choosing flowers, mending dress).",
+                  "Possibility that tasks are trivial compared to Septimus’ mental illness.",
+                  "Privilege and luxury of her home used to create social status."
+                ],
+                "sub_topic": "Practical Control vs. Meaning"
+              },
+              {
+                "points": [
+                  "Party planning as essential to husband’s (MP) political success.",
+                  "Clarissa’s greeting ‘How delightful to see you!’ judged as ‘effusive, insincere’.",
+                  "Social gatherings as ritualised and superficial."
+                ],
+                "sub_topic": "The Purpose of the Social World"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "8(c)",
+          "text": "Female figures settle for what life offers them",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Mill on the Floss (temptation to rebel), Their Eyes Were Watching God (navigating relationships)."
+            ],
+            "introduction": [
+              "Compare Sense and Sensibility and/or Mrs Dalloway."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Mrs Dashwood and daughters lose their home due to inheritance law.",
+                  "Finding a congenial home at Barton Cottage as ‘settling’.",
+                  "Marriages: Elinor rewarded with what she wanted; opinions on Marianne ‘settling’ for Brandon."
+                ],
+                "sub_topic": "Sense and Sensibility: Settlement through Law"
+              },
+              {
+                "points": [
+                  "Surveying past opportunities at Bourton vs. comfortable life as a politician’s wife.",
+                  "Conclusion (‘For there she was’) shows her settling for the life chosen.",
+                  "Elizabeth Dalloway as a modern female less likely to make conventional choices."
+                ],
+                "sub_topic": "Mrs Dalloway: Choosing a Staid Existence"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "10(a)",
+          "text": "Henry Roth: Call It Sleep - importance of a sense of community",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: Sour Sweet (sticking together), Small Island (relationships with local people)."
+            ],
+            "introduction": [
+              "Focus on David and his responsiveness to experiences."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Vivid recreations of childhood experiences on the East Side.",
+                  "Communication between diverse children (phonetic English vs. Yiddish in conventional English).",
+                  "Dependency on support systems (Irish American police helping David)."
+                ],
+                "sub_topic": "East Side New York Immigrant Life"
+              },
+              {
+                "points": [
+                  "Community tensions centered on David's violent father, Albert.",
+                  "Holding on to the past via religious customs (Hebrew lessons at the cheder)."
+                ],
+                "sub_topic": "Tensions and Traditions"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "10(b)",
+          "text": "Mohsin Hamid: The Reluctant Fundamentalist - hostility towards the host nation",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Secret River (never feeling settled), Goodbye, Columbus (wrestling with assimilation)."
+            ],
+            "introduction": [
+              "Focus on Changez’ account of his progress in America."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Initial success at Underwood Samson governed by capitalist rules.",
+                  "Attachment to America represented by failed relationship with Erica."
+                ],
+                "sub_topic": "Mutual Exploitation"
+              },
+              {
+                "points": [
+                  "Response to 9/11 attacks: ‘remarkably pleased’.",
+                  "‘Affronts were everywhere’; anger as ready and constant fuel.",
+                  "Experiences lead to understanding of true emotional attachments."
+                ],
+                "sub_topic": "The Development of Hostility"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        },
+        {
+          "id": "10(c)",
+          "text": "Immigration literature reflects the point of view of the outsider",
+          "type": "Comparative Essay",
+          "marks": null,
+          "notes": null,
+          "topic": null,
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Links to other texts: The Jungle, The Namesake."
+            ],
+            "introduction": [
+              "Include Call It Sleep and/or The Reluctant Fundamentalist."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Child David's POV; naivety prevents him from always feeling like an outsider.",
+                  "Fascination with the unfamiliar.",
+                  "Albert (the father) as the potential true outsider in the family."
+                ],
+                "sub_topic": "Call It Sleep: The Naive Outsider"
+              },
+              {
+                "points": [
+                  "Changez as a thoughtful and intelligent analyst of his own situation.",
+                  "Detachment contributes to sense of being an outsider.",
+                  "Intense competition in business fosters fellow-feeling without belonging.",
+                  "Distance in relationship with Erica due to her grief.",
+                  "Outsider status remains even after returning to Pakistan."
+                ],
+                "sub_topic": "The Reluctant Fundamentalist: The Detached Analyst"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": null
+        }
+      ],
+      "section_id": "COMPARATIVE ESSAY"
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 30249,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T06:56:58.123292+00:00",
+  "updated_at": "2026-02-06T06:56:58.123292+00:00",
+  "webhook_url": null,
+  "scraped_file_id": "94f1058f-b915-4e4b-b68e-7397e5aea1f3"
+}

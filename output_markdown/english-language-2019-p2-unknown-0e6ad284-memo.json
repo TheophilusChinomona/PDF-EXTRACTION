@@ -1,0 +1,214 @@
+{
+  "id": "4a740073-13cb-44ca-a865-f65e04608171",
+  "file_name": "OCR-A-Level-English-Language-Paper-2-MS.pdf",
+  "file_size_bytes": 550293,
+  "file_hash": "39e7962f6612c1b365b651f52615728029e6108697e804e9c564a8ac89ff7847",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "subject": "English Language",
+  "year": 2019,
+  "session": "June",
+  "grade": "Advanced GCE",
+  "total_marks": 80,
+  "sections": [
+    {
+      "questions": [
+        {
+          "id": "1",
+          "text": "Child Language Development - Beth (3;5) and Tom (4;2)",
+          "type": "Application Question",
+          "marks": 20,
+          "notes": "Text A is a transcript from a private data source. Beth and Tom are playing in a car.",
+          "topic": "Child Language Acquisition",
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [],
+            "introduction": [
+              "Examine the language development stage of the child-participants as evidenced in the transcript.",
+              "Identify and analyse the phonology, grammar and meaning of their utterances.",
+              "Use knowledge of theories and concepts of child language acquisition to support the answer."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Beth uses labelling correctly ‘cars’ and also the more abstract concept ‘direction’ – this may be seen as advanced for her chronological age.",
+                  "Beth initiates and directs the play throughout.",
+                  "Beth shifts the terms of the play so that the play suddenly takes place in imaginary water and then the car turns into an imaginary hamburger."
+                ],
+                "sub_topic": "Meaning"
+              },
+              {
+                "points": [
+                  "Gliding/substitution ‘/t/w/actor/’.",
+                  "Repetition of ‘bang’, twice with added emphasis; this word is also onomatopoeic.",
+                  "Rhyming of ‘bash splash’ suggests playful experimentation with sound.",
+                  "Beth tries to mimic the sound of a car.",
+                  "Beth’s pronunciation of ‘bath’ as b/æ/th may suggest Northern accent.",
+                  "Both children use largely standard pronunciation.",
+                  "One of Tom’s two verbal utterances is indistinct."
+                ],
+                "sub_topic": "Phonology"
+              },
+              {
+                "points": [
+                  "Beth uses interrogatives (‘which way’) and declaratives (‘it’s landed under your leg’).",
+                  "Stressed word ‘bang’ suggests an exclamatory function.",
+                  "Correct range of pronouns and possessive determiners: ‘whatever I like’, ‘it banged off my leg onto you’.",
+                  "Range of dynamic verbs: ‘driving’, ‘landed’, ‘splash’.",
+                  "Past tense used accurately but over-generalised in future construction: ‘shall we banged another one’.",
+                  "Concrete nouns reflecting topic: ‘car’, ‘leg’, ‘water’.",
+                  "Present progressive ‘my car’s driving down the road’ (link to Brown/acquisition of -ing).",
+                  "Present simple ‘it’s not water’ and past simple ‘it banged’.",
+                  "Modal verbs: ‘I can do’, ‘shall we banged’.",
+                  "Standard syntax (subject-verb-adverbial) used appropriately."
+                ],
+                "sub_topic": "Grammar"
+              },
+              {
+                "points": [
+                  "Mix of interrogative and declarative functions to provide scaffolding.",
+                  "Supports Beth’s imaginative leap (‘oh no I’m all wet’).",
+                  "Recasts Beth’s non-standard pronunciation of ‘tractor’.",
+                  "Responds to Tom’s non-verbal utterance ‘[yawns]’."
+                ],
+                "sub_topic": "Mother's Interventions (Scaffolding)"
+              },
+              {
+                "points": [
+                  "Halliday: Tom’s directive ‘drive it out’ serves a regulatory function.",
+                  "Chomsky: Beth’s non-standard ‘shall we banged’ supports the theory that language is not just copied.",
+                  "Bruner: Mother’s interaction provides scaffolding.",
+                  "Skinner: Mother’s modelling of standard pronunciation of ‘tractor’.",
+                  "Nelson: Utterances revolving around objects support findings that naming words represent 60% of early production.",
+                  "Goodwin: Tom’s imperatives linked to research on male assertions of power.",
+                  "Piaget: Capacity for imaginative play suggests cognitive development."
+                ],
+                "sub_topic": "Concepts and Theories"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": "Decide on a mark for AO1 out of 10, and then a separate mark for AO2 out of 10. Add the two marks together to reach a total out of 20 marks."
+        },
+        {
+          "id": "2",
+          "text": "Language Features and Contextual Factors - MasterChef Online Article",
+          "type": "Application Question",
+          "marks": 24,
+          "notes": null,
+          "topic": "Gender, Representation, and Power",
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [],
+            "introduction": [
+              "Extract from an online article on The Independent website (lifestyle section).",
+              "Topic: ‘MasterChef’, gender, representation, and hierarchy in professional kitchens."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Accompanying image of three male chefs reflects topic; body language and superlative ‘best’ suggest positive responses to gendered presuppositions.",
+                  "Connective ‘So why can’t...’ creates conversational tone (Goodman - informalisation).",
+                  "Paragraph of interrogatives creates exploration; representation of male judges as intimidating conforms to gender stereotypes (Pilkington).",
+                  "Workplace assumptions (Cameron/Law): females seen as nurturing, males for logic-based high-pressure roles.",
+                  "Graphological features typical of genre (social media links).",
+                  "Lexical fields of cookery and critiquing: ‘poached’, ‘ingredient’, ‘food writer’.",
+                  "Proper nouns establish credibility/influential power (Fairclough).",
+                  "Intensifiers/empty adjectives in female winner's quote (‘particularly… very…brilliant’) support Lakoff.",
+                  "Military metaphor: ‘finalists battled it out’."
+                ],
+                "sub_topic": "Text Features (Lexis, Graphology, Grammar)"
+              },
+              {
+                "points": [
+                  "Intensifier adverb ‘really’ in title explores reader assumptions.",
+                  "Representing women as emotionally fragile (‘ladies stand the heat’); use of ‘ladies’ may be ironic or patronising.",
+                  "Challenging stereotypes: male judge (John Torode) reduced to tears.",
+                  "Prejudice that men make better chefs supported by anecdote (female contestant's dish causing retching).",
+                  "Assumptions about shared cultural references (Aeschylus, Cervantes, The Female Eunuch) linked to Fairclough’s members’ resources.",
+                  "Idiomatic reference ‘the fairer sex’ may link to semantic derogation.",
+                  "Humour/gender-based metaphor: ‘crucial ingredient: a generous dollop of Y chromosome’."
+                ],
+                "sub_topic": "Pragmatics"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": "Decide on a mark for AO2 out of 12, and then a separate mark for AO3 out of 12. Add the two marks together to reach a total out of 24 marks."
+        },
+        {
+          "id": "3",
+          "text": "Diachronic Variation - Beekeeping Texts (1770 vs 1946)",
+          "type": "Comparative Essay",
+          "marks": 36,
+          "notes": null,
+          "topic": "Language Variation Over Time",
+          "answers": null,
+          "max_marks": null,
+          "model_answers": null,
+          "essay_structure": {
+            "conclusion": [
+              "Text C is slightly more moralistic and hyperbolic in its representation of enemies.",
+              "Text D is more individual and discursive, drawing on personal experience and contemporary historical context (war metaphors)."
+            ],
+            "introduction": [
+              "Text C: 'A Treatise on the Management of Bees' by Thomas Wildman (1770).",
+              "Text D: 'Honey Farming' by R.O.B. Manley (1946).",
+              "Discuss and illustrate variations in language between the 18th and 20th centuries."
+            ],
+            "body_sections": [
+              {
+                "points": [
+                  "Text C: Concrete nouns for physical attacks ('slugs', 'snails'); Latinate language ('proprietor', 'endeavour'); Abstract nouns for impact ('havock', 'disturbance'); Hyperbole for predators ('evil').",
+                  "Text D: Concrete nouns for environment ('combs', 'wax'); Lexical field of conflict ('battle', 'manoeuvres'); Specialist jargon ('queen-right colonies'); Use of dates and numbers for specificity."
+                ],
+                "sub_topic": "Lexis and Semantics"
+              },
+              {
+                "points": [
+                  "Text C: Archaic orthography ('havock', long s); Clause-laden sentences but with many simple sentences for the mode; Active sentences foregrounding damage; Archaic intensifiers ('great plenty').",
+                  "Text D: Primary auxiliary/copular verbs for factual info; Complex sentences with conditional subordinates; Dynamic verbs ('destroy', 'wiped out'); Comparative adjectives ('far stronger')."
+                ],
+                "sub_topic": "Grammar and Morphology"
+              },
+              {
+                "points": [
+                  "Text C: Structured by listing categories of enemies; Frames attacks as against property ('treasure'); High moral tone; Readers represented as guardians of vulnerable bees.",
+                  "Text D: Anecdotal and discursive style; Emphasis on shared interest ('our colonies'); Personification of wasps ('intelligent'); Personal experience and camaraderie with other beekeepers."
+                ],
+                "sub_topic": "Discourse and Pragmatics"
+              }
+            ]
+          },
+          "structured_answer": null,
+          "marker_instruction": "Decide on a mark for AO1 out of 12, AO3 out of 12, and AO4 out of 12. Add marks together for total out of 36."
+        }
+      ],
+      "section_id": "SECTION B"
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 17825,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T07:10:45.610013+00:00",
+  "updated_at": "2026-02-06T07:10:45.610013+00:00",
+  "webhook_url": null,
+  "scraped_file_id": "243b501c-97a4-48dc-95bb-07edd52fcf83"
+}

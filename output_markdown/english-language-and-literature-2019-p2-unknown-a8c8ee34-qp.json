@@ -1,0 +1,254 @@
+{
+  "id": "38b59691-6557-4729-bee1-a8314157d4a8",
+  "file_name": "OCR-A-Level-English-Language-and-Literature-Paper-2-QP.pdf",
+  "file_size_bytes": 3718526,
+  "file_hash": "1aabee24e8a1fd7f7dd2c440365acaf11afffd1c4228054cb2e26cf99c993e82",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T07:02:00.60755+00:00",
+  "updated_at": "2026-02-06T07:02:00.60755+00:00",
+  "webhook_url": null,
+  "subject": "English Language and Literature (EMC)",
+  "syllabus": "OCR A Level",
+  "year": 2019,
+  "session": "MAY/JUNE",
+  "grade": "A Level",
+  "language": "English",
+  "total_marks": 64,
+  "groups": [
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1",
+          "text": "Explore how William Blake presents ideas about faith and hope in ‘The Chimney Sweeper’ (I) and make connections with one or two other poems from your collection.\n\nYou should consider Blake’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘The Chimney Sweeper’\n\nWhen my mother died I was very young,\nAnd my father sold me while yet my tongue,\nCould scarcely cry weep weep weep weep.\nSo your chimneys I sweep & in soot I sleep.\n\nTheres little Tom Dacre, who cried when his head\nThat curl’d like a lambs back, was shav’d, so I said,\nHush Tom never mind it, for when your head’s bare,\nYou know that the soot cannot spoil your white hair.\n\nAnd so he was quiet, & that very night,\nAs Tom was a sleeping he had such a sight,\nThat thousands of sweepers Dick, Joe, Ned & Jack\nWere all of them lock’d up in coffins of black,\n\nAnd by came an Angel who had a bright key,\nAnd he open’d the coffins & set them all free.\nThen down a green plain leaping laughing they run\nAnd wash in a river and shine in the Sun.\n\nThen naked & white, all their bags left behind,\nThey rise upon clouds, and sport in the wind.\nAnd the Angel told Tom, if he’d be a good boy,\nHe’d have God for his father & never want joy.\n\nAnd so Tom awoke and we rose in the dark\nAnd got with our bags & our brushes to work.\nTho’ the morning was cold, Tom was happy & warm.\nSo if all do their duty, they need not fear harm.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2",
+          "text": "Explore how Emily Dickinson presents ideas and feelings about striving for freedom in ‘The Soul has Bandaged Moments’ and make connections with one or two other poems from your collection.\n\nYou should consider Dickinson’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘The Soul has Bandaged Moments’\n\nThe Soul has Bandaged moments –\nWhen too appalled to stir –\nShe feels some ghastly Fright come up\nAnd stop to look at her –\n\nSalute her – with long fingers –\nCaress her freezing hair –\nSip, Goblin, from the very lips\nThe Lover – hovered – o’er –\nUnworthy, that a thought so mean\nAccost a Theme – so – fair –\n\nThe soul has moments of Escape –\nWhen bursting all the doors –\nShe dances like a Bomb, abroad,\nAnd swings upon the Hours,\n\nAs do the Bee – delirious borne –\nLong Dungeoned from his Rose –\nTouch Liberty – then know no more,\nBut Noon, and Paradise –\n\nThe Soul’s retaken moments –\nWhen, Felon led along,\nWith shackles on the plumed feet,\nAnd staples, in the Song,\n\nThe Horror welcomes her, again,\nThese, are not brayed of Tongue –",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3",
+          "text": "Explore how Seamus Heaney presents childhood memories and discoveries in ‘Death of a Naturalist’ and make connections with one or two other poems from your collection.\n\nYou should consider Heaney’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘Death of a Naturalist’\n\nAll year the flax-dam festered in the heart\nOf the townland; green and heavy-headed\nFlax had rotted there, weighted down by huge sods.\nDaily it sweltered in the punishing sun.\nBubbles gargled delicately, bluebottles\nWove a strong gauze of sound around the smell.\nThere were dragonflies, spotted butterflies,\nBut best of all was the warm thick slobber\nOf frogspawn that grew like clotted water\nIn the shade of the banks. Here, every spring\nI would fill jampotfuls of the jellied\nSpecks to range on window-sills at home,\nOn shelves at school, and wait and watch until\nThe fattening dots burst into nimble Swimming tadpoles. Miss Walls would tell us how\nThe daddy frog was called a bullfrog\nAnd how he croaked and how the mammy frog\nLaid hundreds of little eggs and this was\nFrogspawn. You could tell the weather by frogs too\nFor they were yellow in the sun and brown\nIn rain.\n\nThen one hot day when fields were rank\nWith cowdung in the grass the angry frogs\nInvaded the flax-dam; I ducked through hedges\nTo a coarse croaking that I had not heard\nBefore. The air was thick with a bass chorus.\nRight down the dam gross-bellied frogs were cocked\nOn sods; their loose necks pulsed like sails. Some hopped:\nThe slap and plop were obscene threats. Some sat\nPoised like mud grenades, their blunt heads farting.\nI sickened, turned, and ran. The great slime kings\nWere gathered there for vengeance and I knew\nThat if I dipped my hand the spawn would clutch it.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4",
+          "text": "Explore how Eavan Boland presents ideas and attitudes towards the rituals of household work in ‘Woman in Kitchen’ and make connections with one or two other poems from your collection.\n\nYou should consider Boland’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘Woman in Kitchen’\n\nBreakfast over, islanded by noise,\nshe watches the machines go fast and slow.\nShe stands among them as they shake the house.\nThey move. Their destination is specific.\nShe has nowhere definite to go:\nshe might be a pedestrian in traffic.\n\nWhite surfaces retract. White\nsideboards light the white of walls.\nCups wink white in their saucers.\nThe light of day bleaches as it falls\non cups and sideboards. She could use\nthe room to tap with if she lost her sight.\n\nMachines jigsaw everything she knows.\nAnd she is everywhere among their furor:\nthe tropic of the dryer tumbling clothes.\nThe round lunar window of the washer.\nThe kettle in the toaster is a kingfisher\nswooping for trout above the river’s mirror.\n\nThe wash done, the kettle boiled, the sheets\nspun and clean, the dryer stops dead.\nThe silence is a death. It starts to bury\nthe room in white spaces. She turns to spread\na cloth on the board and irons sheets\nin a room white and quiet as a mortuary.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 5",
+      "questions": [
+        {
+          "id": "5",
+          "text": "Explore how Carol Ann Duffy presents ideas and feelings about love and the natural world in ‘Write’ and make connections with one or two other poems from your collection.\n\nYou should consider Duffy’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘Write’\n\nWrite that the sun bore down on me,\nkissing and kissing, and my face\nreddened, blackened, whitened to ash,\nwas blown away by the passionate wind\nover the fields, where my body’s shape\nstill flattened the grass, to end as dust\nin the eyes of my own ghost.\n\nOr write\nthat the river held me close in its arms, cold fingers\nstroking my limbs, cool tongue probing my mouth,\nwater’s voice swearing its love love love in my ears,\nas I drowned in belief.\n\nThen write the moon\nstriding down from the sky in its silver boots\nto kick me alive; the stars like a mob of light,\nchanting a name, yours. Write your name on my lips\nwhen I entered the dark church of the wood\nlike a bride, lay down for my honeymoon,\nand write the night, sexy as hell, write the night\npressing and pressing my bones\ninto the ground.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section A – Poetry: stylistic analysis",
+      "group_id": "QUESTION 6",
+      "questions": [
+        {
+          "id": "6",
+          "text": "Explore how Jacob Sam-La Rose presents ideas and feelings about the experience and impact of music in ‘After Lazerdrome, McDonalds, Peckham Rye’ and make connections with one or two other poems from your collection.\n\nYou should consider Sam-La Rose’s use of poetic and stylistic techniques and significant literary or other relevant contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "‘After Lazerdrome, McDonalds, Peckham Rye’\n\nWhat’s clear, now, is / that there was music, that it’s lasted, that it /\ndoesn’t matter whether a player played it, / or whether it just played itself /\nthat it still is / playing, / that at least two gods exist…\nABDULAH SIDRAN, ‘A Dispute About God’\n\nwhere I say goodbye to south-east London for the next 3 years\na gaggle of us still damp spilling in from the night before\nearly flock for a Sunday six or seven a.m. sleepless\ndrowning in light and all this quiet after all that sweat\nand darkness all that flighty noise\n\nthis is the year one of the guys says music is the one thing\nthat won’t ever let him down that music is his religion\n\nthe year we’re stopped and searched because we\nfit the description the year jungle music passes\nout of fashion stripped down\n\nto naked beat and bass and we club together to dance\nalone in the dark let the music play us meat and bone\n\nlet music fill the empty spaces rhythm in wads and scads\nscattershot crashing wall to wall to be baptised\nby filtered drums pressed snares and swollen b-lines\n\nbe baptised by city songs urban hymns seamless\nsound a brimming sea of sound poured out\n\nfrom towering speaker stacks this is the year we stand\nclose enough to feel the music rise its wing-beats\non our faces drawing salt from our skin released\n\nthen morning small fries and a strawberry milkshake\ncounting coins for the cab back sitting around a table\n\nslouching in moulded seats drowning in silence\nlight-headed leavened waiting\nfor the right moment to move\n\nawake for too long ears\nstill ringing drum-drunk\n\neyes still adjusting to the light\na weight coming down",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 7",
+      "questions": [
+        {
+          "id": "7",
+          "text": "Explore how Shakespeare presents Desdemona in this extract from Othello.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "Emilia: How goes it now? He looks gentler than he did.\nDesdemona: He says he will return incontinent;\nHe hath commanded me to go to bed\nAnd bade me to dismiss you.\nEmilia: Dismiss me?\nDesdemona: It was his bidding; therefore, good Emilia,\nGive me my nightly wearing, and adieu.\nWe must not now displease him.\nEmilia: I would you had never seen him.\nDesdemona: So would not I: my love doth so approve him\nThat even his stubbornness, his checks, his frowns –\nPrithee, unpin me – have grace and favour in them.\nEmilia: I have laid those sheets you bade me on the bed.\nDesdemona: All’s one. Good faith, how foolish are our minds!\nIf I do die before thee, prithee shroud me\nIn one of those same sheets.\nEmilia: Come, come, you talk.\nDesdemona: My mother had a maid called Barbary:\nShe was in love, and he she loved proved mad\nAnd did forsake her. She had a song of willow;\nAn old thing ’twas but it expressed her fortune,\nAnd she died singing it. That song tonight\nWill not go from my mind. I have much to do\nBut to go hang my head all at one side\nAnd sing it like poor Barbary – prithee, dispatch.\nEmilia: Shall I go fetch your nightgown?\nDesdemona: No, unpin me here.\nThis Lodovico is a proper man.\nEmilia: A very handsome man.\nDesdemona: He speaks well.\nEmilia: I know a lady in Venice would have walked barefoot to Palestine\nfor a touch of his nether lip.\nDesdemona: [Sings]\nThe poor soul sat sighing by a sycamore tree,\nSing all a green willow;\nHer hand on her bosom, her head on her knee,\nSing willow, willow, willow;\nThe fresh streams ran by her and murmured her moans;\nSing willow, willow, willow.\nHer salt tears fell from her and softened the stones –\nLay by these.\nSing willow, willow, willow –\nPrithee, hie thee; he’ll come anon.\nSing all a green willow must be my garland.\nLet nobody blame him; his scorn I approve –\nNay that’s not next. Hark, who is’t that knocks?\nEmilia: It’s the wind.\nDesdemona: [Sings]\nI called my love false love, but what said he then?\nSing willow, willow, willow;\nIf I court moe women, you’ll couch with moe men –\nSo get thee gone; good night. Mine eyes do itch –\nDoes that bode weeping?\nEmilia: ’Tis neither here nor there.\nDesdemona: I have heard it said so. O, these men, these men!\nDost thou in conscience think – tell me, Emilia –\nThat there be women do abuse their husbands\nIn such gross kind?\nEmilia: There be some such, no question.\nDesdemona: Wouldst thou do such a deed for all the world?\nEmilia: Why, would not you?\nDesdemona: No, by this heavenly light.\nEmilia: Nor I neither by this heavenly light;\nI might do’t as well i’th’dark.\nDesdemona: Wouldst thou do such a deed for all the world?\nEmilia: The world’s a huge thing; it is a great price\nFor a small vice.\nDesdemona: In troth, I think thou wouldst not.\nEmilia: In troth, I think I should, and undo’t when I had done it. Marry, I would not do such a thing for a joint-ring, nor for measures of lawn, nor for gowns, petticoats, nor caps, nor any petty exhibition. But for all the whole world! Ud’s pity, who would not make her husband a cuckold, to make him a monarch? I should venture purgatory for’t.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 8",
+      "questions": [
+        {
+          "id": "8",
+          "text": "Explore how Wilde presents Lady Bracknell in this extract from The Importance of Being Earnest.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "Cecily: Mr Moncrieff and I are engaged to be married, Lady Bracknell.\nLady Bracknell: (with a shiver, crossing to the sofa and sitting down) I do not know whether there is anything peculiarly exciting in the air of this particular part of Hertfordshire, but the number of engagements that go on seems to me considerably above the proper average that statistics have laid down for our guidance. I think some preliminary enquiry on my part would not be out of place. Mr Worthing, is Miss Cardew at all connected with any of the larger railway stations in London? I merely desire information. Until yesterday I had no idea that there were any families or persons whose origin was a Terminus. (Jack looks perfectly furious, but restrains himself)\nJack: (in a clear, cold voice) Miss Cardew is the granddaughter of the late Mr Thomas Cardew of 149 Belgrave Square, S.W.; Gervase Park, Dorking, Surrey; and the Sporran, Fifeshire, N.B.\nLady Bracknell: That sounds not unsatisfactory. Three addresses always inspire confidence, even in tradesmen. But what proof have I of their authenticity?\nJack: I have carefully preserved the Court Guides of the period. They are open to your inspection, Lady Bracknell.\nLady Bracknell: (grimly) I have known strange errors in that publication.\nJack: Miss Cardew’s family solicitors are Messrs Markby, Markby, and Markby.\nLady Bracknell: Markby, Markby, and Markby? A firm of the very highest position in their profession. Indeed I am told that one of the Mr Markbys is occasionally to be seen at dinner parties. So far I am satisfied.\nJack: (very irritably) How extremely kind of you, Lady Bracknell! I have also in my possession, you will be pleased to hear, certificates of Miss Cardew’s birth, baptism, whooping cough, registration, vaccination, confirmation, and the measles; both the German and the English variety.\nLady Bracknell: Ah! A life crowded with incident, I see; though perhaps somewhat too exciting for a young girl. I am not myself in favour of premature experiences. (Rises, looks at her watch) Gwendolen! the time approaches for our departure. We have not a moment to lose. As a matter of form, Mr Worthing, I had better ask you if Miss Cardew has any little fortune?\nJack: Oh! about a hundred and thirty thousand pounds in the Funds. That is all. Good-bye, Lady Bracknell. So pleased to have seen you.\nLady Bracknell: (sitting down again) A moment, Mr Worthing. A hundred and thirty thousand pounds! And in the Funds! Miss Cardew seems to me a most attractive young lady, now that I look at her. Few girls of the present day have any really solid qualities, any of the qualities that last, and improve with time. We live, I regret to say, in an age of surfaces. (To Cecily) Come over here, dear. (Cecily goes across) Pretty child! your dress is sadly simple, and your hair seems almost as Nature might have left it. But we can soon alter all that. A thoroughly experienced French maid produces a really marvellous result in a very brief space of time. I remember recommending one to young Lady Lancing, and after three months her own husband did not know her.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 9",
+      "questions": [
+        {
+          "id": "9",
+          "text": "Explore how Williams presents differences in social status in this extract from A Streetcar Named Desire.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "T Williams, 'A Street Car Named Desire', pp76-78, Oxford University Press, 2009. [Item removed due to third party copyright restrictions.]",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 10",
+      "questions": [
+        {
+          "id": "10",
+          "text": "Explore how Friel presents Owen in this extract from Translations.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "Lancey: I see. Yes. Very well. Perhaps you’re right. Well. What we are doing is this. (He looks at OWEN. OWEN nods reassuringly) His Majesty’s government has ordered the first ever comprehensive survey of this entire country – a general triangulation which will embrace detailed hydrographic and topographic information and which will be executed to a scale of six inches to the English mile.\nHugh: (Pouring a drink) Excellent – excellent.\n(LANCEY looks at OWEN.)\nOwen: A new map is being made of the whole country.\n(LANCEY looks to OWEN: Is that all? OWEN smiles reassuringly and indicates to proceed.)\nLancey: This enormous task has been embarked on so that the military authorities will be equipped with up-to-date and accurate information on every corner of this part of the Empire.\nOwen: The job is being done by soldiers because they are skilled in this work.\nLancey: And also so that the entire basis of land valuation can be reassessed for purposes of more equitable taxation.\nOwen: This new map will take the place of the estate agent’s map so that from now on you will know exactly what is yours in law.\nLancey: In conclusion I wish to quote two brief extracts from the white paper which is our governing charter: (Reads) ‘All former surveys of Ireland resulted in forfeiture and violent transfer of property; the present survey has for its object the relief which can be afforded to the proprietors and occupiers of land from unequal taxation.\nOwen: The captain hopes that the public will cooperate with the sappers and that the new map will mean that taxes are reduced.\nHugh: A worthy enterprise – opus honestum! And Extract B?\nLancey: ‘Ireland is privileged. No such survey is being undertaken in England. So this survey cannot but be received as proof of the disposition of this government to advance the interests of Ireland.’ My sentiments too.\nOwen: The survey demonstrates the government’s interest in Ireland and the captain thanks you for listening so attentively to him.\nHugh: Our pleasure, Captain.\nLancey: Lieutenant Yolland?\nYolland: I - I - I have nothing to say – really-\nOwen: The captain is the man who actually makes the new map. George’s task is to see that the place-names on this map are…correct. (To YOLLAND) Just a few words – they’d like to hear from you. (To class) Don’t you want to hear George, too?\nMaire: Has he anything to say?\nYolland: (To MAIRE) Sorry – sorry?\nOwen: She says she is dying to hear from you.\nYolland: (To MAIRE) Very kind of you – thank you…(To class) I can only say that I feel – I feel very foolish to – to – to be working here and not to speak your language. But I intend to rectify that – with Roland’s help – indeed I do.\nOwen: He wants me to teach him Irish!\nHugh: You are doubly welcome, sir.\nYolland: I think your countryside is – is – is – is very beautiful. I’ve fallen in love with it already. I hope we’re not too – too crude an intrusion on your lives. And I know that I’m going to be happy, very happy, here.\nOwen: He is already a committed Hibernophile.\nJimmy: He loves –\nOwen: Alright, Jimmy – we know – he loves Baile Beag; and he loves you all.\nHugh: Please…May I…?\n(HUGH is now drunk. He holds on to the edge of the table.)\nOwen: Go ahead, Father. (Hands up for quiet.) Please – please. \nHugh: And we, gentlemen, we in turn are happy to offer you our friendship, our hospitality, and every assistance that you may require. Gentlemen – welcome!\n(A few desultory claps. The formalities are over. General conversation. The soldiers meet the locals. MANUS and OWEN meet down stage.)\nOwen: Lancey’s a bloody ramrod but George’s alright. How are you anyway?\nManus: What sort of a translation was that, Owen?\nOwen: Did I make a mess of it?\nManus: You weren’t saying what Lancey was saying.\nOwen: ‘Uncertainty in meaning is incipient poetry’ – who said that?\nManus: There was nothing uncertain about what Lancey said: it’s a bloody military operation, Owen! And what’s Yolland’s function? What’s ‘incorrect’ about the place-names we have here?\nOwen: Nothing at all. They’re just going to be standardised.\nManus: You mean changed into English?\nOwen: Where there’s ambiguity, they’ll be Anglicised.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 11",
+      "questions": [
+        {
+          "id": "11",
+          "text": "Explore how Wertenbaker presents Mary and Dabby in this extract from Our Country’s Good.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "T Wertenbaker, 'Our Country's Good', pp29-31, Heinemann, 1991. [Item removed due to third party copyright restrictions.]",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    },
+    {
+      "title": "Section B – Plays: dramatic and stylistic analysis",
+      "group_id": "QUESTION 12",
+      "questions": [
+        {
+          "id": "12",
+          "text": "Explore how Butterworth presents Johnny ‘Rooster’ Byron’s account of his birth in this extract from Jerusalem.\n\nYou should consider the use of dramatic and stylistic techniques in the extract, its significance within the play and any relevant dramatic or other contexts.",
+          "marks": 32,
+          "context": null,
+          "options": null,
+          "scenario": "Johnny: See, my father, Hector Byron, was a philanderer. Loves the lasses. One May morning, he says, ‘I’m off for a walk.’ Now, his wife, who knows his ways of old, tracks the old goat’s scent up the road, round the corner, straight up to the door of her own sweet sister. She crepples inside, up the stairs, into the boudoir, to find sister bent double on a big brass bed, with Hector up the back, in the cheap seats, whooping it up with all his lusty puff. The wife pulls a pistol, draws a bead and shoots the wayward lad slap-bang in the love bells. The bullet passes clean through his scrotum, bounces off the bedpost, zings out the window, down the high street to the crossroads, where it hits the number 87 tram to Andover. The bullet passes through two inches of rusty metal, clean through an elderly lady’s packed lunch and lodges in my sweet mother’s sixteen-year-old womb. Eight months, three weeks, six days later. Out pops him. Smiling. With a bullet clenched between his teeth.\nGinger: First of all. Babies don’t have teeth.\nJohnny: All Byron boys are born with teeth. Thirty-two chompers. And hair on them’s chest. No wailing or weeping. Talkin’, straight off. This one – me – he sits up, wipes the dew from his eyes and calls, ‘Mother, what is this dark place?’ And she replied, ‘’Tis England, my boy. England.’ And with that, I jumps off the bed, and out the door, and off I marched in my little black cloak.\nGinger: Where did that come from?\nJohnny: What?\nGinger: The cloak. Where did the cloak come from?\nJohnny: All Byron boys come with their own cloaks. My brother Cyril’s was red. Frank’s was green. I’m born in black. With black eyes. You watch a black-cloaked Byron boy like a hawk, and tend him like a wound. You bind him, you swaddle him tight. And when they searched me –\nGinger: Wait. Stop. They searched you.\nJohnny: Of course.\nGinger: Why did they search you?\nJohnny: Always search a Byron boy at birth. You never know what he’s got on him. A Byron boy comes with three things. A cloak and a dagger, and his own teeth. He comes fully equipped. He doesn’t need nothing. And when he dies, he lies in the ground like a lump of granite. He don’t rot. There’s Byron boys buried all over this land, lying in the ground as fresh as the day they was planted. In them’s cloaks. With the teeth sharp. Fingernails sharp. And the two black eyes, staring out, sharp as spears. You get close and stare into those black eyes, watch out. Written there is old words that will shake you. Shake you down.\nGinger: Let’s get back to the bullet. Let’s go back to the bit where you were born on the tip of a speeding bullet.\nJohnny: You don’t believe me.\nHe takes a bullet from his pocket. Tosses it to GINGER.\nGinger: Could be any old bullet.\nHe tosses it back.\nJohnny: Any old bullet, eh? (He puts it between his teeth. Smiles.) So there you have it. I am the only man in history to be conceived in separate postal zones. Born one day early and I’ve been a day ahead of all you beggars ever since. (He smiles.)\nAll: Bollocks! Bullshit!",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer one question from this section. You should spend about one hour on this section."
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 20544,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "49bf91f2-a442-418e-bbb6-8e83ff6f594d"
+}

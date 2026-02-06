@@ -1,0 +1,351 @@
+exam_set_id,subject,year,grade,session,syllabus,question_paper_file_name,memo_file_name,group_id,group_title,group_instructions,question_id,parent_id,question_text,marks,scenario,context,options,match_data,guide_table,memo_question_text,marker_instruction,model_answers,sub_answers,essay_structure,memo_structured_answer,memo_marks,memo_max_marks,memo_notes,memo_topic
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 1,Section 1 – Shakespeare: Coriolanus,"Answer one question, both parts (a) and (b), from this section. You should spend about 1 hour and 15 minutes on this section. Answer both parts (a) and (b).",1(a),1,"Discuss the following passage from Act 1 Scene 1, exploring Shakespeare’s use of language and its dramatic effects.",15,"Rome. A street. 
+Enter a company of mutinous Citizens, with staves, clubs, and other weapons. 
+1 CITIZEN Before we proceed any further, hear me speak. 
+ALL Speak, speak. 
+1 CITIZEN You are all resolv’d rather to die than to famish? 
+ALL Resolv’d, resolv’d. 
+1 CITIZEN First, you know Caius Marcius is chief enemy to the people. 
+ALL We know’t, we know’t. 
+1 CITIZEN Let us kill him, and we’ll have corn at our own price. Is’t a verdict? 
+ALL No more talking on’t; let it be done. Away, away! 
+2 CITIZEN One word, good citizens. 
+1 CITIZEN We are accounted poor citizens, the patricians good. What authority surfeits on would relieve us; if they would yield us but the superfluity while it were wholesome, we might guess they relieved us humanely; but they think we are too dear. The leanness that afflicts us, the object of our misery, is as an inventory to particularize their abundance; our sufferance is a gain to them. Let us revenge this with our pikes ere we become rakes; for the gods know I speak this in hunger for bread, not in thirst for revenge. 
+2 CITIZEN Would you proceed especially against Caius Marcius? 
+1 CITIZEN Against him first; he’s a very dog to the commonalty.
+2 CITIZEN Consider you what services he has done for his country? 
+1 CITIZEN Very well, and could be content to give him good report for’t but that he pays himself with being proud. 
+2 CITIZEN Nay, but speak not maliciously. 
+1 CITIZEN I say unto you, what he hath done famously he did it to that end; though soft-conscienc’d men can be content to say it was for his country, he did it to please his mother and to be partly proud, which he is, even to the altitude of his virtue. 
+2 CITIZEN What he cannot help in his nature you account a vice in him. You must in no way say he is covetous. 
+1 CITIZEN If I must not, I need not be barren of accusations; he hath faults, with surplus, to tire in repetition. [Shouts within] What shouts are these? The other side o’ th’ city is risen. Why stay we prating here? To th’ Capitol! 
+ALL Come, come. 
+1 CITIZEN Soft! who comes here? 
+Enter MENENIUS AGRIPPA. 
+2 CITIZEN Worthy Menenius Agrippa; one that hath always lov’d the people. 
+1 CITIZEN He’s one honest enough; would all the rest were so! 
+MENENIUS What work’s, my countrymen, in hand? Where go you 
+With bats and clubs? The matter? Speak, I pray you. 
+1 CITIZEN Our business is not unknown to th’ Senate; they have had inkling this fortnight what we intend to do, which now we’ll show ’em in deeds. They say poor suitors have strong breaths; they shall know we have strong arms too. 
+MENENIUS Why, masters, my good friends, mine honest neighbours, 
+Will you undo yourselves?",,,,,Coriolanus - Act 1 Scene 1 Passage Analysis,"AO2 is dominant (75%). AO1 is 25%. Use Level Descriptors Section 1, part (a): Shakespeare.","[""Striking nature of this opening scene (linguistic and visual impact)."", ""Economy of achievement: a great deal conveyed in few opening lines."", ""Mood of turmoil and division across the social divide and within the plebeian class."", ""Theme and tone of disharmony emphasised in the disjointed prose spoken by the Citizens."", ""Sophistication in character: 1 Citizen's use of rhetorical patterning."", ""Decided views of Coriolanus and Volumnia versus ambiguous attitudes elsewhere."", ""Menenius’s characteristic appearance trying to soothe citizens' unrest."", ""Staging possibilities involving a large cast and generating potent visual impact.""]",,,,15,,Indicative content is not prescriptive nor exclusive.,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 1,Section 1 – Shakespeare: Coriolanus,"Answer one question, both parts (a) and (b), from this section. You should spend about 1 hour and 15 minutes on this section. Answer both parts (a) and (b).",1(b),1,"‘Rigid social structures control the events of the play.’
+Using your knowledge of the play as a whole, show how far you agree with this view of the play Coriolanus. Remember to support your answer with reference to different interpretations.",15,,,,,,Coriolanus - Social Structures,"AO1 and AO5 are equally weighted (50% each). Use Level Descriptors Section 1, part (b): Shakespeare.","[""Menenius’s image of the 'body politic' (the 'parable of the belly')."", ""Social division in Rome between the patricians and the plebeians."", ""Wide range of social structures informing the dramatic development of events."", ""Consideration of different interpretations, such as the 2011 film as critical commentary."", ""Marxist or other political interpretations regarding social hierarchy."", ""Focus on how structures control events rather than purely historical context.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 10,Section 2 – Drama and Poetry pre-1900,(Same instructions as Question 7),10,,"‘Literature suggests that discipline is most effective not when it is imposed on us by others, but when it comes from within.’
+In the light of this view, consider ways in which writers explore issues of discipline and self-discipline. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Internal vs external discipline as a recurring moral conflict.""], ""introduction"": [""Discipline is most effective when it comes from within.""], ""body_sections"": [{""points"": [""Edward II: Focus on society-imposed discipline on transgressive individuals."", ""Duchess of Malfi: The Duchess learns self-discipline through suffering; Bosola lacks it."", ""She Stoops to Conquer: Kate’s self-discipline sustains her in a chaotic world."", ""A Doll’s House: Nora rejects societal constraints for internal vision of truth.""], ""sub_topic"": ""Drama Texts""}, {""points"": [""Merchant’s Tale: Characters fail to demonstrate self-discipline."", ""Paradise Lost: Lack of self-control in parents leads to strict external discipline (death)."", ""Coleridge: Self-discipline acquired through the Ancient Mariner's painful experiences."", ""Rossetti’s Goblin Market: Self-discipline as the means to overcome temptation.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Discipline and Self-Discipline
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 11,Section 2 – Drama and Poetry pre-1900,(Same instructions as Question 7),11,,"‘Characters in literature often behave in unexpectedly generous ways.’
+In the light of this view, consider how writers use the quality of generosity in surprising ways. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Generosity as a redemptive or surprising character trait.""], ""introduction"": [""Characters in literature often behave in unexpectedly generous ways.""], ""body_sections"": [{""points"": [""Edward II: Acts of love as a form of generosity (Queen Isabella)."", ""Duchess of Malfi: Sensitivity and empathy in the Duchess’s own behaviour."", ""She Stoops to Conquer: Guileless generosity of the provinces vs. sophisticated selfishness."", ""An Ideal Husband: Generous acts from Lord Goring save individuals from disaster.""], ""sub_topic"": ""Drama Texts""}, {""points"": [""Merchant’s Tale: Notable for its lack of generosity and celebration of cynicism."", ""Paradise Lost: Generosity of spirit in the relationship between Eve and Adam."", ""Coleridge: Instances of material, moral, and spiritual generosity (turning point of Ancient Mariner)."", ""Rossetti: Celebration of generosity on personal, communal, and religious levels.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Generosity
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 12,Section 2 – Drama and Poetry pre-1900,(Same instructions as Question 7),12,,"‘Religion is a key element in human motivation.’
+In the light of this view, consider ways in which writers depict religious belief and associated behaviour. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Religion as a societal backdrop and a driver of internal character ethics.""], ""introduction"": [""Religion as a key element in human motivation and depictive religious belief.""], ""body_sections"": [{""points"": [""Edward II: Religious leaders less important than political barons."", ""Duchess of Malfi: Persecution by a corrupt Cardinal; Protestant play condemning Catholic Italy."", ""A Doll’s House: Lutheran Church provides the moral backdrop that stifles Nora."", ""An Ideal Husband: Social usage and aestheticism over Christian attitudes.""], ""sub_topic"": ""Drama Texts""}, {""points"": [""Merchant’s Tale: Focus on classical figures (Venus, Pluto) rather than conventional religion."", ""Paradise Lost: Epic re-working of Judeo-Christian faith and the origins of prayer."", ""Coleridge: Mystical views and parables of sin and expiation."", ""Rossetti: Religion plays the key role in motivation and poetic world.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Religion and Human Motivation
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 2,Section 1 – Shakespeare: Hamlet,Answer both parts (a) and (b).,2(a),2,"Discuss the following passage from Act 1 Scene 3, exploring Shakespeare’s use of language and its dramatic effects.",15,"Enter POLONIUS. 
+LAERTES I stay too long. But here my father comes. 
+A double blessing is a double grace; 
+Occasion smiles upon a second leave. 
+POLONIUS Yet here, Laertes! Aboard, aboard, for shame! 
+The wind sits in the shoulder of your sail, 
+And you are stay’d for. There – my blessing with thee! 
+And these few precepts in thy memory 
+Look thou character. Give thy thoughts no tongue, 
+Nor any unproportion’d thought his act. 
+Be thou familiar, but by no means vulgar. 
+Those friends thou hast, and their adoption tried, 
+Grapple them to thy soul with hoops of steel; 
+But do not dull thy palm with entertainment 
+Of each new-hatch’d, unfledg’d courage. Beware 
+Of entrance to a quarrel; but, being in, 
+Bear’t that th’ opposed may beware of thee. 
+Give every man thy ear, but few thy voice; 
+Take each man’s censure, but reserve thy judgment. 
+Costly thy habit as thy purse can buy, 
+But not express’d in fancy; rich, not gaudy; 
+For the apparel oft proclaims the man; 
+And they in France of the best rank and station 
+Are of a most select and generous choice in that. 
+Neither a borrower nor a lender be; 
+For loan oft loses both itself and friend, 
+And borrowing dulls the edge of husbandry. 
+This above all – to thine own self be true, 
+And it must follow, as the night the day, 
+Thou canst not then be false to any man. 
+Farewell; my blessing season this in thee! 
+LAERTES Most humbly do I take my leave, my lord. 
+POLONIUS The time invites you; go, your servants tend. 
+LAERTES Farewell, Ophelia; and remember well 
+What I have said to you. 
+OPHELIA ’Tis in my memory lock’d, 
+And you yourself shall keep the key of it. 
+LAERTES Farewell. [Exit. 
+POLONIUS What is’t, Ophelia, he hath said to you? 
+OPHELIA So please you, something touching the Lord Hamlet. 
+POLONIUS Marry, well bethought! 
+’Tis told me he hath very oft of late 
+Given private time to you; and you yourself 
+Have of your audience been most free and bounteous. 
+If it be so – as so ’tis put on me, 
+And that in way of caution – I must tell you 
+You do not understand yourself so clearly 
+As it behoves my daughter and your honour. 
+What is between you? Give me up the truth. 
+OPHELIA He hath, my lord, of late made many tenders 
+Of his affection to me. 
+POLONIUS Affection! Pooh! You speak like a green girl, 
+Unsifted in such perilous circumstance. 
+Do you believe his tenders, as you call them? 
+OPHELIA I do not know, my lord, what I should think. 
+POLONIUS Marry, I will teach you: think yourself a baby 
+That you have ta’en these tenders for true pay 
+Which are not sterling. Tender yourself more dearly; 
+Or – not to crack the wind of the poor phrase, 
+Running it thus – you’ll tender me a fool. 
+OPHELIA My lord, he hath importun’d me with love 
+In honourable fashion. 
+POLONIUS Ay, fashion you may call it; go to, go to. 
+OPHELIA And hath given countenance to his speech, my lord, 
+With almost all the holy vows of heaven.",,,,,Hamlet - Act 1 Scene 3 Passage Analysis,AO2 is dominant (75%). AO1 is 25%.,"[""Context of Laertes’ imminent departure for France."", ""Troubled relationship between Ophelia and Hamlet dominating the passage."", ""Domestic nature of the scene as part of dramatic effects."", ""Polonius as a character who divides opinion; linguistic usage vs character interpretation."", ""Polonius’ celebrated advice: listing techniques, sententious qualities, irony, and humour."", ""Laertes’ intriguingly monosyllabic response to his father."", ""Contrast between gentle tone of brother/sister and vigorous dialogue with Polonius."", ""Polonius foregrounding worldly wisdom against Ophelia’s 'green girl' naivety.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 2,Section 1 – Shakespeare: Hamlet,Answer both parts (a) and (b).,2(b),2,"‘The play Hamlet demonstrates many ways in which parents seek to control their children.’
+Using your knowledge of the play as a whole, show how far you agree with this view of the play Hamlet. Remember to support your answer with reference to different interpretations.",15,,,,,,Hamlet - Parental Control,AO1 and AO5 are equally weighted (50% each).,"[""Polonius’ portrayal as tedious, domineering, sententious, or silly in controlling his children."", ""The 'first family': Hamlet’s relationship with Gertrude, King Hamlet (Ghost), and Claudius."", ""Claudius as a stepfather keen to get Hamlet out of the way."", ""Ghost of King Hamlet demanding revenge as a form of control."", ""Fortinbras/Old Fortinbras element as a secondary parallel (not expected but valid)."", ""Hamlet’s attempts to exert control over his mother (e.g., Closet Scene)."", ""Performance interpretations of parental dynamics.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 3,Section 1 – Shakespeare: Measure for Measure,Answer both parts (a) and (b).,3(a),3,"Discuss the following passage from Act 3 Scene 2, exploring Shakespeare’s use of language and its dramatic effects.",15,"LUCIO What news, friar, of the Duke? 
+DUKE I know none. Can you tell me of any? 
+LUCIO Some say he is with the Emperor of Russia; other some, he is in Rome; but where is he, think you? 
+DUKE I know not where; but wheresoever, I wish him well. 
+LUCIO It was a mad fantastical trick of him to steal from the state and usurp the beggary he was never born to. Lord Angelo dukes it well in his absence; he puts transgression to’t. 
+DUKE He does well in’t. 
+LUCIO A little more lenity to lechery would do no harm in him. Something too crabbed that way, friar. 
+DUKE It is too general a vice, and severity must cure it. 
+LUCIO Yes, in good sooth, the vice is of a great kindred; it is well allied; but it is impossible to extirp it quite, friar, till eating and drinking be put down. They say this Angelo was not made by man and woman after this downright way of creation. Is it true, think you? 
+DUKE How should he be made, then? 
+LUCIO Some report a sea-maid spawn’d him; some, that he was begot between two stock-fishes. But it is certain that when he makes water his urine is congeal’d ice; that I know to be true. And he is a motion generative; that’s infallible. 
+DUKE You are pleasant, sir, and speak apace. 
+LUCIO Why, what a ruthless thing is this in him, for the rebellion of a codpiece to take away the life of a man! Would the Duke that is absent have done this? Ere he would have hang’d a man for the getting a hundred bastards, he would have paid for the nursing a thousand. He had some feeling of the sport; he knew the service, and that instructed him to mercy. 
+DUKE I never heard the absent Duke much detected for women; he was not inclin’d that way. 
+LUCIO O, sir, you are deceiv’d. 
+DUKE ’Tis not possible. 
+LUCIO Who – not the Duke? Yes, your beggar of fifty; and his use was to put a ducat in her clack-dish. The Duke had crotchets in him. He would be drunk too; that let me inform you. 
+DUKE You do him wrong, surely. 
+LUCIO Sir, I was an inward of his. A shy fellow was the Duke; and I believe I know the cause of his withdrawing. 
+DUKE What, I prithee, might be the cause? 
+LUCIO No, pardon; ’tis a secret must be lock’d within the teeth and the lips; but this I can let you understand: the greater file of the subject held the Duke to be wise. 
+DUKE Wise? Why, no question but he was. 
+LUCIO A very superficial, ignorant, unweighing fellow. 
+DUKE Either this is envy in you, folly, or mistaking; the very stream of his life, and the business he hath helmed, must, upon a warranted need, give him a better proclamation. Let him be but testimonied in his own bringings-forth, and he shall appear to the envious a scholar, a statesman, and a soldier. Therefore you speak unskilfully; or, if your knowledge be more, it is much dark’ned in your malice. 
+LUCIO Sir, I know him, and I love him.",,,,,Measure for Measure - Act 3 Scene 2 Passage Analysis,AO2 is dominant (75%). AO1 is 25%.,"[""Intimacy provided by the absence of other characters in the dialogue."", ""Use of dramatic irony regarding Lucio’s ignorance of the Friar’s true identity."", ""Generation of comedy and links to the final scene's resolution."", ""Variety of tone: Lucio’s ripe/earthy prose, puns, and bawdy imagery."", ""Lucio's insults addressed inappropriately to a priest."", ""Duke Vincentio remaining mysterious, brusque, and firmly within disguise."", ""Duke's final speech as an unsettling premonition of the justice he will mete out.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 3,Section 1 – Shakespeare: Measure for Measure,Answer both parts (a) and (b).,3(b),3,"‘The play deals with many kinds of dishonesty.’
+Using your knowledge of the play as a whole, show how far you agree with this view of Measure for Measure. Remember to support your answer with reference to different interpretations.",15,,,,,,Measure for Measure - Kinds of Dishonesty,AO1 and AO5 are equally weighted (50% each).,"[""Duke Vincentio’s disguise and contrivances (e.g., the bed trick)."", ""Moral effects of deceptions: deceptions seen as reprehensible or cowardly in some productions."", ""The professional dissembling of 'low-life' characters."", ""Angelo’s hypocrisy as a straightforward kind of dishonesty."", ""Lucio’s inherent dishonesty as a character trait."", ""Ambiguity between 'dishonesty' and 'white lies' within the play's morality.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 4,Section 1 – Shakespeare: Richard III,Answer both parts (a) and (b).,4(a),4,"Discuss the following passage from Act 3 Scene 7, exploring Shakespeare’s use of language and its dramatic effects.",15,"Enter GLOUCESTER aloft, between two Bishops. CATESBY returns. 
+MAYOR See where his Grace stands ’tween two clergymen! 
+BUCKINGHAM Two props of virtue for a Christian prince, 
+To stay him from the fall of vanity; 
+And, see, a book of prayer in his hand, 
+True ornaments to know a holy man. 
+Famous Plantagenet, most gracious Prince, 
+Lend favourable ear to our requests, 
+And pardon us the interruption 
+Of thy devotion and right Christian zeal. 
+GLOUCESTER My lord, there needs no such apology: 
+I do beseech your Grace to pardon me, 
+Who, earnest in the service of my God, 
+Deferr’d the visitation of my friends. 
+But, leaving this, what is your Grace’s pleasure? 
+BUCKINGHAM Even that, I hope, which pleaseth God above, 
+And all good men of this ungovern’d isle. 
+GLOUCESTER I do suspect I have done some offence 
+That seems disgracious in the city’s eye, 
+And that you come to reprehend my ignorance. 
+BUCKINGHAM You have, my lord. Would it might please your Grace, 
+On our entreaties, to amend your fault! 
+GLOUCESTER Else wherefore breathe I in a Christian land? 
+BUCKINGHAM Know then, it is your fault that you resign 
+The supreme seat, the throne majestical, 
+The scept’red office of your ancestors, 
+Your state of fortune and your due of birth, 
+The lineal glory of your royal house, 
+To the corruption of a blemish’d stock; 
+Whiles in the mildness of your sleepy thoughts, 
+Which here we waken to our country’s good, 
+The noble isle doth want her proper limbs; 
+Her face defac’d with scars of infamy, 
+Her royal stock graft with ignoble plants, 
+And almost should’red in the swallowing gulf 
+Of dark forgetfulness and deep oblivion. 
+Which to recure, we heartily solicit 
+Your gracious self to take on you the charge 
+And kingly government of this your land – 
+Not as protector, steward, substitute, 
+Or lowly factor for another’s gain; 
+But as successively, from blood to blood, 
+Your right of birth, your empery, your own. 
+For this, consorted with the citizens, 
+Your very worshipful and loving friends, 
+And by their vehement instigation, 
+In this just cause come I to move your Grace. 
+GLOUCESTER I cannot tell if to depart in silence 
+Or bitterly to speak in your reproof 
+Best fitteth my degree or your condition. 
+If not to answer, you might haply think 
+Tongue-tied ambition, not replying, yielded 
+To bear the golden yoke of sovereignty, 
+Which fondly you would here impose on me; 
+If to reprove you for this suit of yours, 
+So season’d with your faithful love to me, 
+Then, on the other side, I check’d my friends. 
+Therefore – to speak, and to avoid the first, 
+And then, in speaking, not to incur the last – 
+Definitively thus I answer you: 
+Your love deserves my thanks, but my desert 
+Unmeritable shuns your high request.",,,,,Richard III - Act 3 Scene 7 Passage Analysis,AO2 is dominant (75%). AO1 is 25%.,"[""Gloucester being offered the crown as a key moment in the dramatic arc."", ""Rhetorical figures and linguistic ironies in Buckingham’s major speech."", ""Richard’s disguise of pious reticence."", ""The role of the Mayor and the staging for an onstage audience."", ""Buckingham’s designs on 'Edward’s bastard children' (Princes in the Tower)."", ""Visual image: Richard elevated on stage between two bishops."", ""Metatheatrical elements: the scene as an act of managed subterfuge.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 4,Section 1 – Shakespeare: Richard III,Answer both parts (a) and (b).,4(b),4,"‘The office of kingship is continually devalued in this play.’
+Using your knowledge of the play as a whole, show how far you agree with this view of the play Richard III. Remember to support your answer with reference to different interpretations.",15,,,,,,Richard III - Devaluation of Kingship,AO1 and AO5 are equally weighted (50% each).,"[""Evaluation of Richard’s qualities, faults, cynicism, and dishonesty."", ""The 'golden yoke of sovereignty' as Richard's primary goal."", ""Intimacy with the audience devaluing the 'magic' of monarchy."", ""Buckingham’s complicity in devaluing the office."", ""The previous King (Edward IV) as a worn-out libertine."", ""Historical context of the Wars of the Roses (deposing/restoring kings)."", ""Richmond's victory as a restoration of value (Tudor dynasty)."", ""Interpretations: Olivier (1955), Ian McKellen (1995), Teenage Dick (Donmar Warehouse).""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 5,Section 1 – Shakespeare: The Tempest,Answer both parts (a) and (b).,5(a),5,"Discuss the following passage from Act 1 Scene 2, exploring Shakespeare’s use of language and its dramatic effects.",15,"PROSPERO This King of Naples, being an enemy 
+To me inveterate, hearkens my brother’s suit; 
+Which was, that he, in lieu o’ th’ premises. 
+Of homage, and I know not how much tribute. 
+Should presently extirpate me and mine 
+Out of the dukedom, and confer fair Milan 
+With all the honours on my brother. Whereon, 
+A treacherous army levied, one midnight 
+Fated to th’ purpose, did Antonio open 
+The gates of Milan; and, i’ th’ dead of darkness, 
+The ministers for th’ purpose hurried thence 
+Me and thy crying self. 
+MIRANDA Alack, for pity! 
+I, not rememb’ring how I cried out then. 
+Will cry it o’er again; it is a hint 
+That wrings mine eyes to’t. 
+PROSPERO Hear a little further, 
+And then I’ll bring thee to the present business 
+Which now’s upon ’s: without the which this story 
+Were most impertinent. 
+MIRANDA Wherefore did they not 
+That hour destroy us? 
+PROSPERO Well demanded, wench! 
+My tale provokes that question. Dear, they durst not, 
+So dear the love my people bore me; nor set 
+A mark so bloody on the business; but 
+With colours fairer painted their foul ends. 
+In few, they hurried us aboard a bark; 
+Bore us some leagues to sea, where they prepared 
+A rotten carcass of a butt, not rigg’d, 
+Nor tackle, sail, nor mast; the very rats 
+Instinctively have quit it. There they hoist us. 
+To cry to th’ sea, that roar’d to us; to sigh 
+To th’ winds, whose pity, sighing back again, 
+Did us but loving wrong. 
+MIRANDA Alack, what trouble 
+Was I then to you! 
+PROSPERO O, a cherubin 
+Thou wast that did preserve me! Thou didst smile. 
+Infused with a fortitude from heaven, 
+When I have deck’d the sea with drops full salt, 
+Under my burden groan’d; which rais’d in me 
+An undergoing stomach, to bear up 
+Against what should ensue. 
+MIRANDA How came we ashore? 
+PROSPERO By Providence divine. 
+Some food we had and some fresh water that 
+A noble Neapolitan, Gonzalo, 
+Out of his charity, who being then appointed 
+Master of this design, did give us, with 
+Rich garments, linens, stuffs, and necessaries. 
+Which since have steaded much; so, of his gentleness. 
+Knowing I lov’d my books, he furnish’d me 
+From mine own library with volumes that 
+I prize above my dukedom. 
+MIRANDA Would I might 
+But ever see that man! 
+PROSPERO Now I arise. 
+[Puts on his mantle. 
+Sit still, and hear the last of our sea-sorrow. 
+Here in this island we arriv’d; and here 
+Have I, thy schoolmaster, made thee more profit 
+Than other princess’ can, that have more time 
+For vainer hours, and tutors not so careful. 
+MIRANDA Heavens thank you for’t! And now, I pray you, sir, 
+For still ’tis beating in my mind, your reason 
+For raising this sea-storm? 
+PROSPERO Know thus far forth: 
+By accident most strange, bountiful Fortune, 
+Now my dear lady, hath mine enemies 
+Brought to this shore; and by my prescience 
+I find my zenith doth depend upon 
+A most auspicious star, whose influence 
+If now I court not, but omit, my fortunes 
+Will ever after droop.",,,,,The Tempest - Act 1 Scene 2 Passage Analysis,AO2 is dominant (75%). AO1 is 25%.,"[""Intimacy of the introductory scene between Miranda and Prospero."", ""Prospero clarifying narrative back-story for the audience's benefit."", ""Establishment of Antonio’s guilt, framing the play as a revenge drama."", ""Contrast between Act 1 Scene 1 (bustle) and Act 1 Scene 2 (calm rationality)."", ""Prospero’s role as teacher and controlling magician."", ""Miranda’s subservience and passivity (completing Prospero’s verse lines)."", ""Catechistic tone and atmosphere in the exchange.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 5,Section 1 – Shakespeare: The Tempest,Answer both parts (a) and (b).,5(b),5,"‘The Tempest shows a fascination with the effects of cruelty and ruthlessness.’
+Using your knowledge of the play as a whole, show how far you agree with this view of The Tempest. Remember to support your answer with reference to different interpretations.",15,,,,,,The Tempest - Cruelty and Ruthlessness,AO1 and AO5 are equally weighted (50% each).,"[""Responsibility for cruelty: Caliban (nature/nurture debate)."", ""Hardened courtly criminals: Antonio and Sebastian."", ""Distinction between 'cruelty' (pleasure in pain) and 'ruthlessness' (indifference to suffering)."", ""Play as a setting where human nature is put under a microscope."", ""Postcolonial theories regarding the treatment of indigenous characters."", ""Personalized responses justified by textual examples.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 6,Section 1 – Shakespeare: Twelfth Night,Answer both parts (a) and (b).,6(a),6,"Discuss the following passage from Act 3 Scene 4, exploring Shakespeare’s use of language and its dramatic effects.",15,"Enter Officers. 
+FABIAN O good Sir Toby, hold! Here come the officers. 
+SIR TOBY [To Antonio] I’ll be with you anon. 
+VIOLA Pray, sir, put your sword up, if you please. 
+SIR ANDREW Marry, will I, sir; and for that I promis’d you, I’ll be as good as my word. He will bear you easily and reins well. 
+1 OFFICER This is the man; do thy office. 
+2 OFFICER Antonio, I arrest thee at the suit 
+Of Count Orsino. 
+ANTONIO You do mistake me, sir. 
+1 OFFICER No, sir, no jot; I know your favour well, 
+Though now you have no sea-cap on your head. 
+Take him away; he knows I know him well. 
+ANTONIO I must obey. [To Viola] This comes with seeking you; 
+But there’s no remedy; I shall answer it. 
+What will you do, now my necessity 
+Makes me to ask you for my purse? It grieves me 
+Much more for what I cannot do for you 
+Than what befalls myself. You stand amaz’d; 
+But be of comfort. 
+2 OFFICER Come, sir, away. 
+ANTONIO I must entreat of you some of that money. 
+VIOLA What money, sir? 
+For the fair kindness you have show’d me here, 
+And part being prompted by your present trouble, 
+Out of my lean and low ability 
+I’ll lend you something. My having is not much; 
+I’ll make division of my present with you; 
+Hold, there’s half my coffer. 
+ANTONIO Will you deny me now? 
+Is’t possible that my deserts to you 
+Can lack persuasion? Do not tempt my misery, 
+Lest that it make me so unsound a man 
+As to upbraid you with those kindnesses 
+That I have done for you. 
+VIOLA I know of none, 
+Nor know I you by voice or any feature. 
+I hate ingratitude more in a man 
+Than lying, vainness, babbling drunkenness, 
+Or any taint of vice whose strong corruption 
+Inhabits our frail blood. 
+ANTONIO O heavens themselves! 
+2 OFFICER Come, sir, I pray you go. 
+ANTONIO Let me speak a little. This youth that you see here 
+I snatch’d one half out of the jaws of death, 
+Reliev’d him with such sanctity of love, 
+And to his image, which methought did promise 
+Most venerable worth, did I devotion. 
+1 OFFICER What’s that to us? The time goes by; away. 
+ANTONIO But, O, how vile an idol proves this god! 
+Thou hast, Sebastian, done good feature shame. 
+In nature there’s no blemish but the mind: 
+None can be call’d deform’d but the unkind. 
+Virtue is beauty; but the beauteous evil 
+Are empty trunks, o’erflourish’d by the devil. 
+1 OFFICER The man grows mad. Away with him. 
+Come, come, sir. 
+ANTONIO Lead me on. [Exit with Officers.",,,,,Twelfth Night - Act 3 Scene 4 Passage Analysis,AO2 is dominant (75%). AO1 is 25%.,"[""Interruption of the duel between Viola (Cesario) and Sir Andrew by Antonio’s arrest."", ""Complexity of blocking involving a large number of characters."", ""Language of mistaken identity and confusion dominating the passage."", ""Antonio’s passionate and devoted character versus Viola’s valuation of 'ingratitude'."", ""Blunt professionalism of the Officers' interjections."", ""Atmosphere of urgency: short lines, exclamations, and misunderstandings."", ""Gender confusion: Viola in male disguise.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 6,Section 1 – Shakespeare: Twelfth Night,Answer both parts (a) and (b).,6(b),6,"‘Mistaken identity in Twelfth Night is a source of both humour and suffering.’
+Using your knowledge of the play as a whole, show how far you agree with this view of Twelfth Night. Remember to support your answer with reference to different interpretations.",15,,,,,,Twelfth Night - Humour and Suffering,AO1 and AO5 are equally weighted (50% each).,"[""Mistaken identity as a contributor to plot and thematic development."", ""Modern interpretations of Antonio’s devotion to Sebastian (e.g., closeted homosexuality)."", ""Malvolio’s disguise: amusing to audience but painful to character."", ""The 'mixed quality' of Shakespearean comedy (humour vs suffering)."", ""Identity conflicts involving gender."", ""Performance choices: single-sex, gender-reversed, or 'gender-blind' castings.""]",,,,15,,,
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 7,Section 2 – Drama and Poetry pre-1900,"Answer one question from this section. You should spend about 1 hour and 15 minutes on this section. In your answer, you should refer to one drama text and one poetry text from the following lists: 
+Drama: 
+- Christopher Marlowe: Edward II 
+- John Webster: The Duchess of Malfi 
+- Oliver Goldsmith: She Stoops to Conquer 
+- Henrik Ibsen: A Doll’s House 
+- Oscar Wilde: An Ideal Husband 
+Poetry: 
+- Geoffrey Chaucer: The Merchant’s Prologue and Tale 
+- John Milton: Paradise Lost Books 9 & 10 
+- Samuel Taylor Coleridge: Selected Poems 
+- Alfred, Lord Tennyson: Maud 
+- Christina Rossetti: Selected Poems",7,,"‘Literature shows that the cleverest people do not always make the wisest choices.’
+In the light of this view, consider ways in which writers explore the relationship between characters’ intellect and their judgement. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Relationship between intellect and judgment varies across genres, often showing a disconnect.""], ""introduction"": [""Literature shows that clever people do not always make the wisest choices."", ""Exploration of the relationship between characters' intellect and judgement.""], ""body_sections"": [{""points"": [""Edward II: Intelligence does not help the King with public role decisions."", ""The Duchess of Malfi: Bosola’s brains are employed in dubious exploits."", ""She Stoops to Conquer: Clever interlopers end in scrapes; the wise character is the fool Tony Lumpkin."", ""A Doll’s House: Nora makes mistakes initially but grows wiser than her husband."", ""An Ideal Husband: Intelligent people get into unwise scrapes on their route to success.""], ""sub_topic"": ""Drama Texts""}, {""points"": [""The Merchant’s Prologue and Tale: No link between age and intelligence; cynical view of wisdom."", ""Paradise Lost: Satan’s high intelligence leads to damnation; Adam and Eve's negative decision."", ""Coleridge: Wise contemplation preferred over philosophic enquiry; Ancient Mariner repents a single decision."", ""Tennyson’s Maud: Intelligent speculations end in deep unhappiness."", ""Rossetti: Wisdom of God vs. foolishness of human intellectual conceit.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Intellect and Judgement (Drama and Poetry pre-1900)
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 8,Section 2 – Drama and Poetry pre-1900,(Same instructions as Question 7),8,,"‘Literature has more to say about social structures than about the natural world.’
+In the light of this view, consider ways in which writers explore the relationship between the natural environment and human societies. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Balance between societal commentary and environmental presence.""], ""introduction"": [""Literature has more to say about social structures than about the natural world.""], ""body_sections"": [{""points"": [""Edward II / Duchess of Malfi: Human intrigue and social structures as core interest."", ""She Stoops to Conquer: Fashionable society confronts the Pastoral world."", ""A Doll’s House: Set in rural Norway but focused on social action."", ""Wilde: An artificial world where nature is largely irrelevant (buttonholes and house-plants).""], ""sub_topic"": ""Drama Texts""}, {""points"": [""Merchant’s Tale: Januarie’s symbolic, self-contained garden as backdrop for intrigue."", ""Paradise Lost: The Garden of Eden as a setting for social interaction."", ""Coleridge: Nature dominates 'conversation' and teaches lessons."", ""Maud: Natural settings as a projection of the narrator's mind."", ""Rossetti: Natural settings representing the limitations of a 'fallen' world.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Social Structures vs. Natural World
+56a58b60-c098-4f4a-b570-27476b939d9f,A Level English Literature,2022,12,MAY/JUNE,OCR A Level,OCR-A-Level-English-Literature-Paper-1-June-2022-QP.pdf,OCR-A-Level-English-Literature-Paper-1-June-2022-MS.pdf,QUESTION 9,Section 2 – Drama and Poetry pre-1900,(Same instructions as Question 7),9,,"‘Powerful emotions are often the excuse for unacceptable behaviour.’
+In the light of this view, consider ways in which writers explore the connection between intense thoughts and bad deeds. In your answer, compare one drama text and one poetry text from the above lists.",30,,,,,,,,,,"{""conclusion"": [""Emotions serve as both a catalyst for action and a justification for transgressions.""], ""introduction"": [""Powerful emotions are often the excuse for unacceptable behaviour.""], ""body_sections"": [{""points"": [""Edward II: The King is ruled by emotions leading to unacceptable results."", ""Duchess of Malfi: Repressed emotions drive characters to unacceptable behaviour."", ""She Stoops to Conquer: Emotions goad characters into crossing social boundaries."", ""A Doll’s House: Nora's emotions as the driving force deemed 'unacceptable' by husband.""], ""sub_topic"": ""Drama Texts""}, {""points"": [""Merchant’s Tale: Januarie fits the template of emotions driving deeds."", ""Paradise Lost: Independence, love, and pride leading to the Fall."", ""Coleridge: Power of emotions as a celebrated Romantic ideal vs condemnation."", ""Maud: Dangers of unchecked emotions vs the insights they bring."", ""Rossetti: Verse often condemns strong emotions as missing their object.""], ""sub_topic"": ""Poetry Texts""}]}",,,,,Powerful Emotions and Unacceptable Behaviour

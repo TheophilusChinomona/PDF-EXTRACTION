@@ -1,0 +1,110 @@
+{
+  "id": "6088b0b7-4e36-4823-9cde-d999a78b1610",
+  "file_name": "OCR-A-Level-English-Language-and-Literature-Paper-3-QP.pdf",
+  "file_size_bytes": 289220,
+  "file_hash": "b26f6aed18e949e172546c017595eb15fc82843e0a4e1b7ea9de83b2e89e6db9",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-06T06:59:44.273784+00:00",
+  "updated_at": "2026-02-06T06:59:44.273784+00:00",
+  "webhook_url": null,
+  "subject": "A Level English Language and Literature (EMC)",
+  "syllabus": "OCR",
+  "year": 2019,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 64,
+  "groups": [
+    {
+      "title": "Section A – Reading as a writer",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1",
+          "text": "In what ways does the writer of your text use time?\n\nYou should range across the text to explore how time is manipulated, the role it plays in the novel as a whole, and the broader generic context.",
+          "marks": 32,
+          "context": "Either",
+          "options": null,
+          "scenario": "Charlotte Brontë: Jane Eyre\nF Scott Fitzgerald: The Great Gatsby\nChinua Achebe: Things Fall Apart\nArundhati Roy: The God of Small Things\nIan McEwan: Atonement\nJhumpa Lahiri: The Namesake",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Choose one of the following two questions and answer in relation to the text that you have studied. You should spend about 1 hour on this section."
+    },
+    {
+      "title": "Section A – Reading as a writer",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2",
+          "text": "How does the writer of your text use contrasts?\n\nYou should range across the text to explore how contrasts are created, the role they play in the novel as a whole, and the broader generic context.",
+          "marks": 32,
+          "context": "Or",
+          "options": null,
+          "scenario": "Charlotte Brontë: Jane Eyre\nF Scott Fitzgerald: The Great Gatsby\nChinua Achebe: Things Fall Apart\nArundhati Roy: The God of Small Things\nIan McEwan: Atonement\nJhumpa Lahiri: The Namesake",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Choose one of the following two questions and answer in relation to the text that you have studied. You should spend about 1 hour on this section."
+    },
+    {
+      "title": "Section B – Writing as a reader",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3",
+          "text": "Choose one of the storylines below to develop as the opening of a narrative.\n\nWrite your narrative, making your own choices about the story’s starting point and linguistic techniques. You are writing the opening to a narrative, and can use any one of the bullet points as the beginning of your story. You are not expected to write the full story and you are not required to use all six bullet points.\n\nYou should write approximately 500 words.",
+          "marks": 18,
+          "context": null,
+          "options": null,
+          "scenario": "Either\nStoryline 1\n• A young bride woke up one morning.\n• Her body ached; her mouth was dry; she struggled to get out of bed.\n• When she looked in the mirror, she found she had aged fifty years.\n• ‘My memories!’ she said. ‘They’ve been taken.’\n• She began to hunt up and down the land for whoever looked as she had once looked.\n• One day, long afterwards, she finally found what she had been searching for.\n\nOr\nStoryline 2\n• It is early morning and the temperature is just above zero.\n• A lorry driver spots a moving shape by the side of the dual carriageway.\n• The driver pulls over and sees that the shape is a child about three years old.\n• Barefoot, the child is carrying a pair of shoes.\n• The lorry driver asks where the child’s parents are.\n• The child asks the driver for help putting on the shoes.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer Question 3 and Question 4 in this section. You have a choice of task in Question 3. It is recommended that you spend about 40 minutes on Question 3 and 20 minutes on Question 4."
+    },
+    {
+      "title": "Section B – Writing as a reader",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4",
+          "text": "Outline the key narrative and linguistic techniques you have used in your writing for Question 3. You should write approximately 250 words.",
+          "marks": 14,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer Question 3 and Question 4 in this section. It is recommended that you spend about 40 minutes on Question 3 and 20 minutes on Question 4."
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 10329,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "d3fcf0c1-0e77-4c39-bf41-c3f03f3f66b0"
+}
