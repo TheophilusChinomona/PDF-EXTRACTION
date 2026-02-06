@@ -1,0 +1,115 @@
+# English Language
+
+**Document ID:** `4845a6629041-english-language-gr12-oct-2021-qp`
+
+**Grade:** 12 | **Year:** 2021 | **Session:** OCT | **Syllabus:** A Level | **Language:** English | **Total Marks:** 80
+
+---
+
+## QUESTION 1: SECTION A – Child language acquisition
+
+*Use the Resource booklet to answer all the questions.*
+
+### Question Text A
+
+<details><summary>Scenario / Source Text</summary>
+
+Natasha: hello
+Charlie: hello
+Natasha: I’m a little frog
+Charlie: I’m a little /fwɒg/ [frog]
+Danielle: do you want to do a frog dance [they dance]
+[laughter]
+Danielle: give mummy Rosie a frog message
+Natasha: I’m a little froggie (.) I like froggie. (.) I like going on a loggy (.) I being (.) mummy I’m being a frog controller (.) I little frog cola (.) I being a little froggagola (.) I like doing froggie things (.) I sit on logger (.) I go /gɒg/3ː/
+Charlie: I go /gɒg/3ː/ (.) I go /gɒg/3ː/
+Natasha: I go /gɒ/ /gɒ/ /gɒgɒgɒgɒ
+Charlie: /gɒgɒgɒgɒ/
+Danielle: Tell her you love her (.) tell mummy you love her
+Natasha: I love you mummy frog (2) do you miss me
+Charlie: do you /mʌs/ [miss] me
+Natasha: /gɒgɒgɒgɒgɒgɒ/
+Charlie: /gɒgɒgɒgɒgɒgɒ/
+
+TRANSCRIPTION KEY
+(.) micropause
+(1/2/3) pause in seconds
+IPA has been used where necessary to indicate non-standard pronunciation
+
+</details>
+
+> Transcript of interaction between Natasha, Charlie and their mother Danielle.
+
+Text A is a transcript from a private data source featuring a sister and brother, Natasha and Charlie. Natasha is three and ten months; Charlie is one and eleven months. One of their mothers, Danielle, is also present. Both children are wearing frog masks they have made, and they are filming a message to send to Rosie, their other mother.
+
+## QUESTION 2: SECTION B – Language in the media
+
+*Use the Resource booklet to answer all the questions.*
+
+### Question Text B
+
+<details><summary>Scenario / Source Text</summary>
+
+Why don’t more girls study physics?
+Despite efforts to get more women into science labs almost half of Britain’s co-ed schools have no female students taking A-level physics. Are sexist attitudes still to blame – or is it a fear of being thought uncool? One London school is showing how it is possible to buck the trend.
+Elizabeth Day
+@elizabday
+Sun 30 Dec 2012 00.01 GMT First published on Sun 30 Dec 2012 00.01 GMT
+
+Alice Williams is 16, and her eyes are gleaming. As she speaks, her face grows pink with excitement and her hands wave around expressively. You might expect her to be talking about the latest Twilight film or a teenage boy band. But no: Alice is talking about heat resistance. More specifically, a heat-resistance experiment in her A-level physics class.
+
+“The most exciting experiments are when a normal one goes horribly wrong,” says Alice, a sixth-former at Lampton School in Hounslow, west London. “One time we were testing the resistance in wire, and if it’s too hot it starts to glow. We thought the power was off, but it was on, and it was glowing to the point of fire. It burnt a hole through the ruler. We tried to hide it from the teacher because we were a group of three girls, and it was the beginning of the year, and people were still giving us a bit of stick.”
+
+Alice was being given “a bit of stick” from the boys in her class, because the sight of three girls studying physics at school is an increasingly rare one. For the past two decades, female students have accounted for only one-fifth of those taking the subject at A-level. It is the fourth most popular subject for boys, yet slips to 19th in the rankings for girls. According to a recent study by the Institute of Physics, using information provided by the National Pupil Database, 49% of state co-educational schools in England did not send any girls to study physics at A-level in 2011. By contrast, girls were almost two and a half times more likely to take the subject at A-level if they were at a single-sex school – a finding that suggests there might be an ingrained cultural perception in co-educational establishments that physics is somehow “not for girls”.
+
+The numbers continue to slip at university. Around 17% of girls apply to do physics at undergraduate level, followed by a more substantial decline in the numbers moving into permanent academic jobs – only 7.9% of these undergraduates stay on to become senior lecturers and 4% professors. Why is this happening? Is there some endemic sexism within the world of physics? Or do women simply not find it appealing?
+
+Athene Donald, a professor of experimental physics and gender equality champion at the University of Cambridge, says there is a risk that the subject is not seen as “cool” by girls of school age. “It might be that the problem is embedded in the ethos of the school and that teachers are tending to interact more with boys who are more outgoing,” Donald says. “There are all sorts of subtle messages that ‘Girls don’t do physics’.”
+
+A number of pupils I talk to at Lampton agree. They say that biology is perceived as more girl-friendly, because it is the gateway to medicine and involves more human interaction. By contrast, physics is seen to be an academically challenging subject, with students carrying out dull, repetitive experiments on a lab bench and struggling with equations. The anecdotal evidence is borne out by the statistics – whereas girls account for 20% of all students who opt for physics at A-level, they account for 55% of pupils who opt for biology.
+
+</details>
+
+> Online article from The Guardian regarding gender disparities in Physics education.
+
+Text B is an extract from an online article posted on the website of The Guardian newspaper on December 30th 2012. It appeared in the education section.
+
+## QUESTION 3: SECTION C – Language change
+
+*Use the Resource booklet to answer all the questions.*
+
+### Question Text C
+
+<details><summary>Scenario / Source Text</summary>
+
+To the Editor of the Hawaiian Gazette:
+Sir: Having just returned from a journey across the scene of the late volcanic convulsions on Southern Hawaii, I hasten to give you a statement of what I observed there. Let me state here at once that I started from Hilo, with a few friends, for Kilauea April 17th; descended the crater on the 18th; examined the extensive fissures near the Puna road on the 20th; the so called mud flow on the 21st, and the lava stream in Kahuku on the 23d. On the 24th we crossed the lava stream on the road to Kona, and reached Kealakekua Bay on April 26.
+Of Hilo I have little to say, as your correspondents have communicated to you the most remarkable events from that place. I saw several fissures in the earth near Wahiawa River, of from eight inches to one foot in width, which were caused by the earthquake of April 2nd, and run in the direction of Mauna Loa. The earthquake waves all moved from southwest to northeast, and overturned moveable objects standing at right angles with that line. A heavy bookcase in the Rev. T. Coan’s library, holding that relation to the wave, was overturned, while another heavy case, filled with shells and minerals, which stood parallel to it, remained standing.
+KILAUEA.
+The ground around the crater, particularly on the eastern and western sides, is rent by a great number of fissures, one near the Puna road more than twelve feet wide and very deep; others of lesser size run parallel to and cross the Kau road, so as to render travel on it very dangerous.
+From the walls of Kilauea large masses of rock have been detached and thrown down. On the west and north-west side, where the fire had been most active before the great earthquake of April 2nd, the falling masses probably have been at once melted by the lava and carried off in its stream, for the walls there, remain as perpendicular as they were before, but that this part of the wall has lost portions of its mass, is shown too evidently by the deep crevices along the western edge just spoken of, and the partial detachment in many places of large prisms of rock.
+William Hillebrand.
+Honolulu, May 4, 1868.
+
+</details>
+
+Text C is an extract from a letter published in The Hawaiian Gazette concerning volcanic activity. It appeared in 1868.
+
+### Question Text D
+
+<details><summary>Scenario / Source Text</summary>
+
+Volcano Watch: Seismic event devastated Ka‘u 150 years ago
+By Hawaiian Volcano Observatory | Sunday, April 1, 2018, 12:05 a.m
+This week marks 150 years since the largest earthquake to strike Hawaii in the last two centuries. Estimated to have been at least magnitude-7.9, this earthquake struck near Pahala in the Ka’u District of the Island of Hawaii on April 2, 1868.
+Known as the great Ka’u earthquake, the event had the same maximum intensity as the 1906 San Francisco earthquake, defined as “extreme shaking” on the Modified Mercalli Intensity Scale. It was felt as far away as Kauai and stopped clocks on Oahu. In Ka’u, where people were bounced like balls from shaking that went on for several minutes, the destruction was nearly total. Stone buildings and walls were destroyed as far away as Hilo.
+The shaking caused landslides from Ka’u to Hawaii Island’s northern Hamakua Coast, and induced a small eruption on Kilauea Volcano’s Southwest Rift Zone. A mudslide in Wood Valley north of Pahala buried 31 Hawaiians. A tsunami, consisting of at least eight waves over several hours, was estimated to be more than 20 feet high in Ka’u. The waves caused damage from South Point (Kalae) to Cape Kumukahi (Kapoho), destroyed more than 100 structures, and took 47 lives.
+If it happened today, the great Ka’u earthquake would be one of the world’s strongest earthquakes of this past year. Its size would also rival two of the most deadly events of the past decade: the magnitude-7.8 Nepal earthquake, which killed more than 8,000 people on April 25, 2015, and the magnitude-7.9 Sichuan (China) earthquake, which killed nearly 90,000 people on May 12, 2008. Because the Island of Hawaii was sparsely populated in 1868, the loss of life from the Ka’u earthquake was limited.
+In Hawaii, the most destructive earthquakes occur along a gently sloping fault between the base of the volcanoes and the ancient ocean floor on which they are built. This fault, located at a depth of approximately 7 miles, is known geologically as a décollement, from the French word “décoller,” which means “to detach from.”
+A large part of the Island of Hawaii moved during the 1868 event. Based on measurements of how much the earth moved during Hawaii’s magnitude-7.7 Kalapana earthquake in 1975, which also occurred on the décollement, the entire island south and east of Mauna Loa’s summit and rift zones moved seaward and subsided several yards during the great Ka’u earthquake of 1868.
+The April 2 great Ka’u earthquake was part of a larger volcanic crisis that unfolded over 16 days.
+The great Ka’u earthquake unlocked Mauna Loa’s Southwest Rift Zone, and on April 7, 1868, an eruptive fissure opened low on the mountain, just above today’s Highway 11 and east of Hawaiian Ocean View Estates. This eruption and the lava flows it produced will be the focus of next week’s Volcano Watch.
+
+</details>
+
+Text D is an extract from an online article produced by the Hawaii Volcano Observatory. It was published in April 2018. It informs readers about the volcanic eruption in 1868.

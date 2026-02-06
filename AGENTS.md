@@ -197,9 +197,15 @@ python scripts/run_extraction_batch_from_validated.py --dry-run
 python scripts/run_extraction_batch_from_validated.py
 ```
 
+### Matched-pairs pipeline (extract, export, download)
+
+The scripts `extract_matched_pairs.py`, `export_extractions_md.py` (with `--exam-sets`), and `download_matched_pairs_pdfs.py` support optional **`--source-url VALUE`** (e.g. `education.gov.za`). When set, only pairs where **both** QP and Memo `scraped_files.source_url` contain that substring are included. **Papers from education.gov.za** (or any other source) must be **validated** and **matched** (Academy Scrapper + batch matcher) before they appear in `exam_sets`; then the same extract/export/download commands work with `--source-url education.gov.za`. See **docs/exam-sets-overview.md** (§ Papers from education.gov.za) for CLI examples.
+
 ### Paper Matching (QP–Memo / exam_sets)
 
 Match question papers to memos and populate `exam_sets`. Scripts live in **AcademyScrapper-Unified** (`services/extraction-service/`). Run from that directory; ensure `.env` has `SUPABASE_SERVICE_ROLE_KEY` so the app bypasses RLS.
+
+#### Option 1: Validation-based matching (from validation_results)
 
 ```bash
 cd C:\Users\theoc\Desktop\Work\AcademyScrapper-Unified\services\extraction-service
@@ -220,6 +226,36 @@ python scripts/run_batch_matcher.py --status-filter correct --all
 # After matching: verify exam_sets counts and sample pairs
 python scripts/verify_matching_results.py
 ```
+
+#### Option 2: AI-Enhanced Extraction-based matching (RECOMMENDED)
+
+Uses the richer metadata from `extractions` and `memo_extractions` tables with optional Gemini AI assistance for fuzzy matching.
+
+```bash
+cd C:\Users\theoc\Desktop\Work\AcademyScrapper-Unified\services\extraction-service
+
+# Dry run with AI (preview what would be matched)
+python scripts/run_extraction_batch_matcher.py --dry-run
+
+# Run without AI (rule-based only, faster, free)
+python scripts/run_extraction_batch_matcher.py --no-ai
+
+# Run with higher AI confidence threshold
+python scripts/run_extraction_batch_matcher.py --ai-threshold 0.85
+
+# Process limited batch
+python scripts/run_extraction_batch_matcher.py --limit 50
+
+# Full run with AI for all unlinked extractions
+python scripts/run_extraction_batch_matcher.py --all
+```
+
+**Benefits over validation-based matching:**
+- Better metadata quality (AI-extracted from full PDF)
+- Paper number extraction from subject strings (e.g., "Business Studies P1")
+- Known paper types (extractions = QP, memo_extractions = Memo)
+- AI-powered fuzzy matching for subject variations
+- Content-aware matching using question structures
 
 API alternative (extraction-service must be running): `POST /api/exam-sets/batch-match?limit=500` (or higher).
 
@@ -261,6 +297,7 @@ For orphans whose PDFs are in Firebase but not in `scraped_files`: lists blob pa
 ### Paper matching (AcademyScrapper-Unified extraction-service)
 - **`scripts/diagnose_matching_state.py`** – Pre-flight: counts of validation_results by status, exam_sets, and sample metadata. Read-only.
 - **`scripts/run_batch_matcher.py`** – Scans `validation_results` (default status=correct) not yet linked to exam_sets; creates/updates exam_sets and links QP or Memo. Flags: `--dry-run` (no writes), `--all` (no limit), `--status-filter correct`. Requires `SUPABASE_SERVICE_ROLE_KEY` in `.env`.
+- **`scripts/run_extraction_batch_matcher.py`** – **AI-enhanced** matching from `extractions` and `memo_extractions` tables. Uses hybrid rule-based + Gemini AI approach. Flags: `--dry-run`, `--no-ai` (rule-based only), `--ai-threshold 0.7`, `--limit 500`, `--all`. Better metadata quality than validation-based matching.
 - **`scripts/verify_matching_results.py`** – Post-run: total exam_sets, by status, fully matched pairs, incomplete, duplicate_review, sample pairs.
 
 ---

@@ -12,6 +12,12 @@ Usage:
     python scripts/export_extractions_md.py --all            # all completed
     python scripts/export_extractions_md.py --all --limit 50
     python scripts/export_extractions_md.py --all --since 2026-02-01
+
+    # Export matched exam_sets pairs
+    python scripts/export_extractions_md.py --exam-sets                     # all matched pairs
+    python scripts/export_extractions_md.py --exam-sets --subject english   # filter by subject
+    python scripts/export_extractions_md.py --exam-sets --limit 50          # limit results
+    python scripts/export_extractions_md.py --exam-sets --status matched    # filter by status
 """
 
 import argparse
@@ -430,6 +436,268 @@ def memo_to_markdown(data: dict, meta: dict, eid: str) -> str:
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------------
+# Exam Sets (matched QP-Memo pairs) export
+# ---------------------------------------------------------------------------
+
+def _source_url_matches(source_url: str | None, substring: str) -> bool:
+    """True if source_url contains substring (case-insensitive)."""
+    if not substring or not (source_url or "").strip():
+        return True
+    return substring.lower() in (source_url or "").lower()
+
+
+def _fetch_exam_sets(
+    supabase,
+    limit: int | None,
+    subject: str | None,
+    status: str | None,
+    source_url: str | None,
+) -> list[dict]:
+    """Fetch matched exam_sets with QP and Memo filenames.
+    When source_url is set, only include pairs where both QP and Memo scraped_files have source_url containing it.
+    Returns list of dicts with exam_set metadata and linked filenames.
+    """
+    # Use service role key if available for RLS bypass
+    service_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    if service_key:
+        sb = create_client(SUPABASE_URL, service_key)
+    else:
+        sb = supabase
+
+    fetch_limit = limit if limit else 500
+
+    q = sb.table("exam_sets").select("*")
+    q = q.not_.is_("question_paper_id", "null")
+    q = q.not_.is_("memo_id", "null")
+    if status:
+        q = q.eq("status", status)
+    if subject:
+        q = q.ilike("subject", f"%{subject}%")
+    q = q.order("created_at", desc=True).limit(fetch_limit)
+
+    try:
+        resp = q.execute()
+        exam_sets = resp.data or []
+    except Exception as e:
+        print(f"  WARNING: Failed to fetch exam_sets: {e}")
+        return []
+
+    results = []
+    for es in exam_sets:
+        qp_id = es.get("question_paper_id")
+        memo_id = es.get("memo_id")
+
+        qp_filename = None
+        memo_filename = None
+        qp_storage_path = None
+        memo_storage_path = None
+        qp_source_url = None
+        memo_source_url = None
+
+        if qp_id:
+            try:
+                r = sb.table("scraped_files").select("filename, storage_path, source_url").eq("id", qp_id).execute()
+                if r.data:
+                    qp_filename = r.data[0].get("filename")
+                    qp_storage_path = r.data[0].get("storage_path")
+                    qp_source_url = r.data[0].get("source_url")
+            except Exception:
+                pass
+
+        if memo_id:
+            try:
+                r = sb.table("scraped_files").select("filename, storage_path, source_url").eq("id", memo_id).execute()
+                if r.data:
+                    memo_filename = r.data[0].get("filename")
+                    memo_storage_path = r.data[0].get("storage_path")
+                    memo_source_url = r.data[0].get("source_url")
+            except Exception:
+                pass
+
+        if source_url:
+            if not (_source_url_matches(qp_source_url, source_url) and _source_url_matches(memo_source_url, source_url)):
+                continue
+
+        results.append({
+            **es,
+            "qp_filename": qp_filename,
+            "memo_filename": memo_filename,
+            "qp_storage_path": qp_storage_path,
+            "memo_storage_path": memo_storage_path,
+        })
+
+    return results
+
+
+def _exam_sets_to_markdown(exam_sets: list[dict], subject_filter: str | None) -> str:
+    """Convert exam_sets list to a formatted Markdown document."""
+    lines: list[str] = []
+    
+    # Title
+    if subject_filter:
+        lines.append(f"# Exam Sets - {subject_filter.title()} Matched Pairs Export")
+    else:
+        lines.append("# Exam Sets - Matched Pairs Export")
+    lines.append("")
+    lines.append(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    lines.append(f"**Total Pairs:** {len(exam_sets)}")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    
+    # Summary by subject
+    subject_counts: dict[str, int] = {}
+    for es in exam_sets:
+        subj = es.get("subject") or "Unknown"
+        subject_counts[subj] = subject_counts.get(subj, 0) + 1
+    
+    lines.append("## Summary by Subject")
+    lines.append("")
+    lines.append("| Subject | Count |")
+    lines.append("|---------|-------|")
+    for subj, count in sorted(subject_counts.items(), key=lambda x: -x[1]):
+        lines.append(f"| {subj} | {count} |")
+    lines.append("")
+    
+    # Summary by year
+    year_counts: dict[int, int] = {}
+    for es in exam_sets:
+        year = es.get("year") or 0
+        year_counts[year] = year_counts.get(year, 0) + 1
+    
+    lines.append("## Summary by Year")
+    lines.append("")
+    lines.append("| Year | Count |")
+    lines.append("|------|-------|")
+    for year, count in sorted(year_counts.items(), key=lambda x: -x[0]):
+        if year > 0:
+            lines.append(f"| {year} | {count} |")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    
+    # Group by year
+    by_year: dict[int, list[dict]] = {}
+    for es in exam_sets:
+        year = es.get("year") or 0
+        if year not in by_year:
+            by_year[year] = []
+        by_year[year].append(es)
+    
+    lines.append("## Complete Matched Pairs")
+    lines.append("")
+    
+    for year in sorted(by_year.keys(), reverse=True):
+        if year == 0:
+            continue
+        lines.append(f"### {year}")
+        lines.append("")
+        lines.append("| Subject | Grade | Paper | Syllabus | Status | Question Paper | Memorandum |")
+        lines.append("|---------|-------|-------|----------|--------|----------------|------------|")
+        
+        for es in sorted(by_year[year], key=lambda x: (x.get("subject") or "", x.get("paper_number") or 0)):
+            subj = es.get("subject") or "Unknown"
+            grade = es.get("grade") or "?"
+            paper = es.get("paper_number") or "?"
+            syllabus = es.get("syllabus") or "—"
+            status = es.get("status") or "?"
+            qp = es.get("qp_filename") or "—"
+            memo = es.get("memo_filename") or "—"
+            
+            # Truncate long filenames
+            if len(qp) > 50:
+                qp = qp[:47] + "..."
+            if len(memo) > 50:
+                memo = memo[:47] + "..."
+            
+            lines.append(f"| {subj} | {grade} | {paper} | {syllabus} | {status} | `{qp}` | `{memo}` |")
+        
+        lines.append("")
+    
+    # Full data table
+    lines.append("---")
+    lines.append("")
+    lines.append("## Full Data Table")
+    lines.append("")
+    lines.append("| # | Subject | Grade | Paper | Year | Session | Syllabus | Status | Confidence | QP Filename | Memo Filename |")
+    lines.append("|---|---------|-------|-------|------|---------|----------|--------|------------|-------------|---------------|")
+    
+    for i, es in enumerate(exam_sets, 1):
+        subj = es.get("subject") or "Unknown"
+        grade = es.get("grade") or "?"
+        paper = es.get("paper_number") or "?"
+        year = es.get("year") or "?"
+        session = es.get("session") or "—"
+        syllabus = es.get("syllabus") or "—"
+        status = es.get("status") or "?"
+        confidence = es.get("match_confidence") or "—"
+        qp = es.get("qp_filename") or "—"
+        memo = es.get("memo_filename") or "—"
+        
+        lines.append(f"| {i} | {subj} | {grade} | {paper} | {year} | {session} | {syllabus} | {status} | {confidence} | {qp} | {memo} |")
+    
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    lines.append("*Export generated by export_extractions_md.py --exam-sets*")
+    
+    return "\n".join(lines)
+
+
+def _fetch_extraction_by_scraped_file_id(sb, scraped_file_id: str, table: str) -> dict | None:
+    """Fetch one completed extraction or memo_extraction by scraped_file_id."""
+    try:
+        q = sb.table(table).select("*").eq("scraped_file_id", scraped_file_id).eq("status", "completed").limit(1)
+        r = q.execute()
+        if r.data and len(r.data) > 0:
+            return r.data[0]
+    except Exception:
+        pass
+    return None
+
+
+def _export_exam_sets_extractions(supabase, exam_sets: list[dict]) -> int:
+    """
+    For each exam_set, fetch linked extraction and memo_extraction (by scraped_file_id),
+    convert to markdown with qp_to_markdown/memo_to_markdown, and write paired .md files.
+    Returns count of markdown files written.
+    """
+    service_key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    sb = create_client(SUPABASE_URL, service_key) if service_key else supabase
+    written = 0
+    for es in exam_sets:
+        qp_id = es.get("question_paper_id")
+        memo_id = es.get("memo_id")
+        if not qp_id and not memo_id:
+            continue
+        subject = es.get("subject") or "unknown"
+        year = es.get("year") or 0
+        paper = es.get("paper_number") or 0
+        session = es.get("session") or "unknown"
+        short_id = (es.get("id") or "x")[:8]
+        stem = f"{_slug(subject)}-{year}-p{paper}-{_slug(str(session))}-{short_id}"
+        if qp_id:
+            qp_row = _fetch_extraction_by_scraped_file_id(sb, str(qp_id), "extractions")
+            if qp_row:
+                meta = get_qp_meta(qp_row)
+                md = qp_to_markdown(qp_row, meta, str(qp_row.get("id", "")))
+                out_name = f"{stem}-qp.md"
+                (OUTPUT_DIR / out_name).write_text(md, encoding="utf-8")
+                written += 1
+                print(f"  [QP]  {out_name}")
+        if memo_id:
+            memo_row = _fetch_extraction_by_scraped_file_id(sb, str(memo_id), "memo_extractions")
+            if memo_row:
+                meta = get_memo_meta(memo_row)
+                md = memo_to_markdown(memo_row, meta, str(memo_row.get("id", "")))
+                out_name = f"{stem}-mg.md"
+                (OUTPUT_DIR / out_name).write_text(md, encoding="utf-8")
+                written += 1
+                print(f"  [MG]  {out_name}")
+    return written
+
+
 def _fetch_all_completed(supabase, limit: int | None, since: str | None) -> list[tuple[dict, str]]:
     """Fetch all completed extractions from both tables.
 
@@ -520,12 +788,32 @@ def main() -> None:
         help="Export all completed extractions from both tables.",
     )
     parser.add_argument(
+        "--exam-sets", action="store_true",
+        help="Export matched exam_sets (QP-Memo pairs) instead of extractions.",
+    )
+    parser.add_argument(
+        "--subject", type=str, default=None,
+        help="Filter by subject (case-insensitive, partial match). Use with --exam-sets.",
+    )
+    parser.add_argument(
+        "--status", type=str, default=None,
+        help="Filter by status (e.g., 'matched', 'duplicate_review'). Use with --exam-sets.",
+    )
+    parser.add_argument(
+        "--source-url", type=str, default=None,
+        help="Filter to pairs where both QP and Memo scraped_files have source_url containing this (e.g. education.gov.za). Use with --exam-sets.",
+    )
+    parser.add_argument(
         "--limit", type=int, default=None,
         help="Max records to export.",
     )
     parser.add_argument(
         "--since", type=str, default=None,
         help="Only records created after this date (YYYY-MM-DD).",
+    )
+    parser.add_argument(
+        "--output", type=str, default=None,
+        help="Output filename for --exam-sets mode (default: auto-generated).",
     )
     args = parser.parse_args()
 
@@ -538,6 +826,59 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+    # Exam sets mode
+    if args.exam_sets:
+        print(f"Fetching exam_sets (matched QP-Memo pairs)...")
+        if args.subject:
+            print(f"  Subject filter: {args.subject}")
+        if args.status:
+            print(f"  Status filter: {args.status}")
+        if args.source_url:
+            print(f"  Source URL filter: {args.source_url}")
+        if args.limit:
+            print(f"  Limit: {args.limit}")
+
+        exam_sets = _fetch_exam_sets(
+            supabase,
+            limit=args.limit,
+            subject=args.subject,
+            status=args.status,
+            source_url=args.source_url,
+        )
+
+        if not exam_sets:
+            print("No matching exam_sets found.")
+            return
+
+        print(f"Found {len(exam_sets)} matched pairs.")
+
+        # Generate markdown
+        md_content = _exam_sets_to_markdown(exam_sets, args.subject)
+
+        # Determine output filename
+        if args.output:
+            out_name = args.output
+        else:
+            subject_slug = _slug(args.subject) if args.subject else "all"
+            status_slug = _slug(args.status) if args.status else "pairs"
+            source_slug = _slug(args.source_url or "") if args.source_url else ""
+            parts = [f"exam-sets-{subject_slug}-{status_slug}"]
+            if source_slug:
+                parts.append(source_slug)
+            parts.append("export.md")
+            out_name = "-".join(parts)
+        
+        out_path = OUTPUT_DIR / out_name
+        out_path.write_text(md_content, encoding="utf-8")
+        
+        print(f"\nSummary exported to: {out_path}")
+        
+        # Rebuild extraction JSON to markdown for pairs that have extraction data
+        print(f"\nExporting extraction content to markdown (paired QP + Memo files)...")
+        count = _export_exam_sets_extractions(supabase, exam_sets)
+        print(f"\nDone. {count} markdown file(s) written from extraction content to: {OUTPUT_DIR}")
+        return
 
     if args.all:
         records = _fetch_all_completed(supabase, limit=args.limit, since=args.since)
