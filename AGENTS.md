@@ -91,6 +91,7 @@
 | `validation_jobs` | Validation job tracking |
 | `extraction_jobs` | Extraction job tracking |
 | `exam_sets` | QP + Memo pairs |
+| `matched_paper_questions` | One row per question for matched pairs (QP + memo columns); refresh via TRUNCATE + INSERT from migration 022 |
 | `document_sections` | Extracted sections per document |
 | `document_versions` | Document version tracking |
 | `review_queue` | Manual review queue |

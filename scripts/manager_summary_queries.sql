@@ -223,6 +223,42 @@ SELECT
      AND mm.source_url ILIKE '%education.gov.za%')   AS exam_sets_both_education_gov_za;
 
 
+-- 11) MATCHED_PAPER_QUESTIONS – flat table (one row per question for matched pairs)
+--    Count and sample. To refresh this table after new extractions/matches:
+--    1) TRUNCATE matched_paper_questions;
+--    2) Run the INSERT from migrations/022_create_matched_paper_questions_table.sql
+SELECT COUNT(*) AS "matched_paper_questions total" FROM matched_paper_questions;
+
+-- 11b) Sample rows from matched_paper_questions (one exam_set)
+-- SELECT exam_set_id, subject, year, question_id, LEFT(question_text, 60) AS question_text, marks,
+--        marker_instruction IS NOT NULL AS has_memo
+-- FROM matched_paper_questions
+-- WHERE exam_set_id = (SELECT id FROM exam_sets WHERE status = 'matched' LIMIT 1)
+-- ORDER BY group_id, question_id
+-- LIMIT 20;
+
+
+-- 12) ALL QUESTIONS FROM ALL EXTRACTED QPs (same shape as single-exam-set query, for every extraction)
+--     scraped_file_id and file_name identify which paper each row belongs to.
+--     Optional: add WHERE scraped_file_id IN (SELECT question_paper_id FROM exam_sets WHERE status = 'matched' AND question_paper_id IS NOT NULL) to restrict to matched pairs only.
+SELECT
+  scraped_file_id,
+  file_name,
+  question_id,
+  parent_id,
+  group_id,
+  group_title,
+  question_text,
+  marks,
+  scenario,
+  context,
+  options,
+  match_data,
+  guide_table
+FROM v_questions
+ORDER BY scraped_file_id, group_id, question_id;
+
+
 -- =============================================================================
 -- To export full extraction JSON to files you can open (e.g. in VS Code), run:
 --   python scripts/export_matched_pair_json.py <exam_set_id>

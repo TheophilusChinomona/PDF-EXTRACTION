@@ -1,0 +1,325 @@
+{
+  "id": "ef36fb8e-ef01-43cb-9961-a38df7ff2fe7",
+  "file_name": "OCR-A-Level-Further-Mathematics-Paper-6-QP.pdf",
+  "file_size_bytes": 1416226,
+  "file_hash": "53437952208e8c8ab5762d8178afe6c42307563a02268ad9e975a00cafa5a9d2",
+  "status": "completed",
+  "processing_method": "vision_fallback",
+  "quality_score": 0.0,
+  "tables": null,
+  "error_message": null,
+  "retry_count": 0,
+  "processing_time_seconds": null,
+  "cost_estimate_usd": 0.0,
+  "created_at": "2026-02-05T20:06:35.848552+00:00",
+  "updated_at": "2026-02-05T20:06:35.848552+00:00",
+  "webhook_url": null,
+  "subject": "Additional Pure Mathematics",
+  "syllabus": "OCR A Level Further Mathematics A",
+  "year": 2019,
+  "session": "MAY/JUNE",
+  "grade": "12",
+  "language": "English",
+  "total_marks": 75,
+  "groups": [
+    {
+      "title": "Recurrence Relations and Sequences",
+      "group_id": "QUESTION 1",
+      "questions": [
+        {
+          "id": "1",
+          "text": "The sequence {u_n} is defined by u_0 = 2, u_1 = 5 and u_n = (1 + u_{n-1}) / u_{n-2} for n ≥ 2. Prove that the sequence is periodic with period 5.",
+          "marks": 4,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "Answer all the questions."
+    },
+    {
+      "title": "Partial Differentiation and Stationary Points",
+      "group_id": "QUESTION 2",
+      "questions": [
+        {
+          "id": "2.a",
+          "text": "Determine f_x, f_y, f_xx, f_yy, f_xy and f_yx.",
+          "marks": 5,
+          "context": null,
+          "options": null,
+          "scenario": "A surface has equation z = f(x, y) where f(x, y) = x^2 sin y + 2y cos x.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.b.i",
+          "text": "Verify that z has a stationary point at (1/2 ̃π, 1/2 ̃π, 1/4 π^2).",
+          "marks": 3,
+          "context": null,
+          "options": null,
+          "scenario": "A surface has equation z = f(x, y) where f(x, y) = x^2 sin y + 2y cos x.",
+          "parent_id": "2.b",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "2.b.ii",
+          "text": "Determine the nature of this stationary point.",
+          "marks": 3,
+          "context": null,
+          "options": null,
+          "scenario": "A surface has equation z = f(x, y) where f(x, y) = x^2 sin y + 2y cos x.",
+          "parent_id": "2.b",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Number Theory and Congruences",
+      "group_id": "QUESTION 3",
+      "questions": [
+        {
+          "id": "3.a",
+          "text": "Solve 7x ≡ 6 (mod 19).",
+          "marks": 2,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "3.b",
+          "text": "Show that the following simultaneous linear congruences have no solution: x ≡ 3 (mod 4), x ≡ 4 (mod 6).",
+          "marks": 2,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Second-order Recurrence Relations",
+      "group_id": "QUESTION 4",
+      "questions": [
+        {
+          "id": "4.a",
+          "text": "Solve the second-order recurrence relation T_{n+2} + 2T_n = -87 given that T_0 = -27 and T_1 = 27.",
+          "marks": 8,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "4.b",
+          "text": "Determine the value of T_{20}.",
+          "marks": 2,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Group Theory and Isomorphism",
+      "group_id": "QUESTION 5",
+      "questions": [
+        {
+          "id": "5.a",
+          "text": "By constructing the Cayley table for G, determine all the elements of S.",
+          "marks": 5,
+          "context": null,
+          "options": null,
+          "scenario": "The group G consists of a set S together with x_80, the operation of multiplication modulo 80. It is given that S is the smallest set which contains the element 11.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.b",
+          "text": "Use the two Cayley tables to explain why G and H are not isomorphic.",
+          "marks": 2,
+          "context": "The student has already constructed a table for G in 5(a).",
+          "options": null,
+          "scenario": "The Cayley table for a second group, H, also with the operation x_80, is shown below: | x_80 | 1 | 9 | 31 | 39 | |---|---|---|---|---| | 1 | 1 | 9 | 31 | 39 | | 9 | 9 | 1 | 39 | 31 | | 31 | 31 | 39 | 1 | 9 | | 39 | 39 | 31 | 9 | 1 |",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.c.i",
+          "text": "List all the proper subgroups of G, and all the proper subgroups of H.",
+          "marks": 3,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "5.c",
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "5.c.ii",
+          "text": "Use your answers to (c) (i) to give another reason why G and H are not isomorphic.",
+          "marks": 1,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": "5.c",
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Vector Products and Identities",
+      "group_id": "QUESTION 6",
+      "questions": [
+        {
+          "id": "6.a",
+          "text": "For the vectors p = [1, 2, 3], q = [3, 1, -1] and r = [2, -4, 5], calculate: p ⋅ q × r, p × (q × r), (p × q) × r.",
+          "marks": 6,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.b",
+          "text": "State whether the vector product is associative for three-dimensional column vectors with real components. Justify your answer.",
+          "marks": 1,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.c",
+          "text": "Explain geometrically why the vector a × (b × c) must be expressible in the form λb + μc, where λ and μ are scalar constants.",
+          "marks": 2,
+          "context": null,
+          "options": null,
+          "scenario": "It is given that a, b and c are three-dimensional column vectors with real components.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "6.d",
+          "text": "Find an expression for (a × b) × c in the form of (*), where (*) is a × (b × c) = (a ⋅ c) b - (a ⋅ b) c.",
+          "marks": 3,
+          "context": null,
+          "options": null,
+          "scenario": "It is given that the following relationship holds for a, b and c: a × (b × c) = (a ⋅ c) b - (a ⋅ b) c (*)",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Calculus: Surface Area of Revolution",
+      "group_id": "QUESTION 7",
+      "questions": [
+        {
+          "id": "7.a",
+          "text": "Find the exact value of A. Give your answer as a rational multiple of π.",
+          "marks": 4,
+          "context": null,
+          "options": null,
+          "scenario": "The points P(1/2, 13/24) and Q(3/2, 31/24) lie on the curve y = (1/3)x^3 + 1/(4x). The area of the surface generated when arc PQ is rotated completely about the x-axis is denoted by A.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.b",
+          "text": "Find the approximation to A obtained by student X. Give your answer as a rational multiple of π.",
+          "marks": 4,
+          "context": null,
+          "options": null,
+          "scenario": "Student X finds an approximation to A by modelling the arc PQ as the straight line segment PQ, then rotating this line segment completely about the x-axis to form a surface.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "7.c",
+          "text": "Find the approximation to A obtained by student Y. Give your answer correct to four decimal places.",
+          "marks": 4,
+          "context": null,
+          "options": null,
+          "scenario": "Student Y finds a second approximation to A by modelling the original curve as the line y = M, where M is the mean value of the function f(x) = (1/3)x^3 + 1/(4x), then rotating this line completely about the x-axis to form a surface.",
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": null
+    },
+    {
+      "title": "Number Theory Proofs",
+      "group_id": "QUESTION 8",
+      "questions": [
+        {
+          "id": "8.a",
+          "text": "Prove that 2(p - 2)^{p-2} ≡ -1 (mod p), where p is an odd prime.",
+          "marks": 4,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        },
+        {
+          "id": "8.b",
+          "text": "Find two odd prime factors of the number N = 2 × 34^34 - 2^15.",
+          "marks": 7,
+          "context": null,
+          "options": null,
+          "scenario": null,
+          "parent_id": null,
+          "match_data": null,
+          "guide_table": null
+        }
+      ],
+      "instructions": "In this question you must show detailed reasoning."
+    }
+  ],
+  "processing_metadata": {
+    "model": "gemini-3-flash-preview",
+    "method": "vision_fallback",
+    "reason": "Low OpenDataLoader quality score",
+    "cache_hit": false,
+    "total_tokens": 9054,
+    "cached_tokens": 0,
+    "cache_eligible": false,
+    "cached_tokens_saved": 0,
+    "cost_savings_percent": 0
+  },
+  "scraped_file_id": "2b448b87-26d6-4820-837c-779b468faffe"
+}

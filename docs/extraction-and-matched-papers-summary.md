@@ -11,6 +11,7 @@
 | **memo_extractions** | Structured marking guidelines (memos) we’ve extracted | **225** |
 | **exam_sets** | Linked QP–Memo pairs (matched papers) | **3,658** |
 | **exam_sets (fully matched)** | Pairs where both QP and Memo are linked | **435** |
+| **matched_paper_questions** | Flat table: one row per question for matched pairs (QP + memo columns) | See refresh below |
 
 - **Extractions** = parsed, machine-readable content from each QP PDF.
 - **Memo extractions** = same for each memo PDF.
@@ -63,6 +64,18 @@ Pipeline: **scraped_files** (source) → **validation_results** (validation) →
 | Exam sets where *both* QP and Memo are from education.gov.za | 0 |
 
 *(More memos need to be extracted and matched to get full pairs from this source.)*
+
+---
+
+## matched_paper_questions (flat table for matched pairs)
+
+**matched_paper_questions** is a single table with one row per question for every matched exam set. Each row includes both question-paper columns (question_id, question_text, marks, options, etc.) and memo columns (marker_instruction, model_answers, memo_structured_answer, etc.) when the memo has a matching question_id.
+
+- **Source:** Built from **exam_sets** + **extractions.groups** + **memo_extractions.sections** (only pairs where both QP and memo extractions exist and status = completed).
+- **Refresh:** After new extractions or new matches, re-run the population so the table stays in sync. In Supabase SQL Editor:
+  1. `TRUNCATE matched_paper_questions;`
+  2. Run the `INSERT INTO matched_paper_questions SELECT ...` from `migrations/022_create_matched_paper_questions_table.sql` (the full INSERT with `ON CONFLICT (exam_set_id, group_id, question_id) DO NOTHING`).
+- Alternatively, a Python script `scripts/populate_matched_paper_questions.py` can be added later to refresh from the app.
 
 ---
 
