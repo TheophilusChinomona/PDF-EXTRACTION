@@ -2,6 +2,8 @@
 Supabase client initialization module.
 
 This module provides a thread-safe singleton Supabase client for database operations.
+When SUPABASE_SERVICE_ROLE_KEY is set, the client uses it to bypass RLS so that
+batch scripts and backend services can see all rows.  Falls back to the anon key.
 """
 
 import threading
@@ -16,7 +18,8 @@ def get_supabase_client() -> Client:
     """
     Return the shared Supabase client (singleton), initializing once in a thread-safe way.
 
-    Loads credentials from Settings and creates a single client instance reused by all callers.
+    Prefers ``supabase_service_role_key`` (bypasses RLS) when available,
+    otherwise falls back to ``supabase_key`` (anon key).
 
     Returns:
         Client: Shared Supabase client instance
@@ -32,7 +35,8 @@ def get_supabase_client() -> Client:
             return _client
         settings = get_settings()
         url = settings.supabase_url
-        key = settings.supabase_key
+        # Prefer service role key (bypasses RLS) when available
+        key = settings.supabase_service_role_key or settings.supabase_key
         try:
             _client = create_client(url, key)
             return _client

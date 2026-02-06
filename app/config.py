@@ -32,7 +32,11 @@ class Settings(BaseSettings):
     )
     supabase_key: str = Field(
         ...,
-        description="Supabase anonymous/service role key"
+        description="Supabase anonymous key (used when service role key not set)"
+    )
+    supabase_service_role_key: Optional[str] = Field(
+        default=None,
+        description="Supabase service role key (bypasses RLS). Prefer for backend/scripts so all rows are visible."
     )
 
     # AI Model Configuration
